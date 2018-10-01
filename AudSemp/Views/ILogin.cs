@@ -1,12 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//creating object interface to  Logica Login
 
 namespace AudSemp.Views
 {
-    interface ILogin
+
+    #region Libraries (Librerias)
+
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    #endregion
+    public interface ILogin
     {
+
+        #region Attributes (atributos)
+        string userText { get; set; }
+        string passwordText { get; set; }
+
+
+        //response
+        int response { get; set; }
+        #endregion
+
     }
 }
