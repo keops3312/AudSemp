@@ -32,8 +32,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +54,204 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="abono.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="almacenaje.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="anterior_abono.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Apartados.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Apartados_confg.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="APARTADOS_FUNCION_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="artventas.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="artventas101.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="artventas201.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="artventas501.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="artventas901.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Auditoria.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="auditoria_fisica.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="auditoria_resumen.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AudSempContext.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AudSempContext.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AudSempContext.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AudSempContext.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AudSempContext.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="autorizaciones_prestamos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="auxiliar_puesto.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="bolsas_ORO.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="bolsas_OTROS.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="borrorem.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="caja1.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CAJA_AUXILIAR.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CAJA_AUXILIAR_FUNCION_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="calificacion_aud.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="clasificacion_cl.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="clientes.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="clientes_funcion_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLONA.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLONARTVENTAS.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLONB.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLON_APARTADOS.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLON_B.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLON_contratos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="comprobaciones.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="comprobaciones_gastos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Config_valores_plazos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaContratosAuditoria_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="contabilidad.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="contratos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="contrato_conta.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contrato_temporal.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CORREO.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="costo_reimpresion.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="depositos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="depositos_tipo.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="descuentos_distintos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="documentos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Empresas.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Envios.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EstadosRepublica.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="estado_civil.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EstatusApartado.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EstatusContratos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EstatusInventarios.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ETQ_VENTA.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FactCO.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FactCTR.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="facturas.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="facturas_funcion_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="factura_conta.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fechasAU.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,10 +264,196 @@
     <Compile Include="Forms\PanelForm.Designer.cs">
       <DependentUpon>PanelForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FUNCION_BOLSAS_ORO_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FUNCION_BOLSAS_OTROS_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FUNCION_CLIENTES_C_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FUNCION_CONTRATO_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FUNCION_EMPRESAS_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FUNCION_IVA_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FUNCION_TEMPORAL_PLAZO_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="gastos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GradoEstudios.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="INFS.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="interes.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="interes_conta.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="inventariopromocion.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Localidades.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="localidades_funcion_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="marcas_localidad.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\Rectangle.cs" />
+    <Compile Include="Niveles_acceso.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Noticias_SEMP2013.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="paises.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="Presenter\LoginPresenter.cs" />
     <Compile Include="Presenter\RectanglePresenter.cs" />
+    <Compile Include="prestamos_poliza.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="promocioncaja.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="promociones.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="promocionesregalo.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="promociones_Activas.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prom_aplica.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prom_aumento.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prom_descuento_interes.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="prom_ventas.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRVyusuarios.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Puestos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="puntos_confg.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="refrendo.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reimpresiones.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="remate_inventarios.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="remisiones.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="remision_impresion_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Respaldos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Retiros.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="seguro.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="selcaja.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sexos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="siglasempresa.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_BuscarUsuario_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_CobroDeApartados_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_CobroDeDepositos_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_CobroDeReimpresiones_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_CobroDeRetiros_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_RemBuscarArtventas_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_UNIVERSAL_ACCESO_Result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tabla_result.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TASA_PRESTAMOS.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TEMP_AVALUO.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TEMP_AVALUO2.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tipos_localidad.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TLX21.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TLX22.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TPavaluos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="transferencias.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TRFENTRADA.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VALOR_FACTORES.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VALOR_FACTORES_MAS.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vencidos.cs">
+      <DependentUpon>AudSempContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="Views\ILogin.cs" />
     <Compile Include="Views\IRectangle.cs" />
     <Compile Include="Program.cs" />
@@ -77,6 +470,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EntityDeploy Include="AudSempContext.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AudSempContext.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="AudSempContext.edmx.diagram">
+      <DependentUpon>AudSempContext.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -89,6 +490,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AudSempContext.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AudSempContext.Context.cs</LastGenOutput>
+      <DependentUpon>AudSempContext.edmx</DependentUpon>
+    </Content>
+    <Content Include="AudSempContext.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AudSempContext.edmx</DependentUpon>
+      <LastGenOutput>AudSempContext.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
