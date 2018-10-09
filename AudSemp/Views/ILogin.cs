@@ -20,6 +20,7 @@ namespace AudSemp.Views
         string passwordText { get; set; }
 
 
+
         //response
         int response { get; set; }
         #endregion

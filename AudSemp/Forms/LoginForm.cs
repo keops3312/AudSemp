@@ -57,8 +57,6 @@ namespace AudSemp
         #region Attributes
         private int Response;
 
-
-
         public string userText
         {
             get { return txtUser.Text; }
@@ -105,6 +103,18 @@ namespace AudSemp
             Application.Exit();
         }
         private void btnAcces_Click(object sender, EventArgs e)
+        {
+            AccessLogin();
+        }
+
+        #endregion
+
+        #region Methods (Metodos)
+        public LoginForm()
+        {
+            InitializeComponent();
+        }
+        private void AccessLogin()
         {
             LoginPresenter presenter = new LoginPresenter(this);
             presenter.Acces();
@@ -167,15 +177,6 @@ namespace AudSemp
 
         #endregion
 
-        #region Methods (Metodos)
-        public LoginForm()
-        {
-            InitializeComponent();
-        }
 
-
-        #endregion
-
-      
     }
 }

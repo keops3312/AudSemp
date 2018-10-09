@@ -2,14 +2,15 @@
 //Objects to Logical Login
 namespace AudSemp.Models
 {
-    using AudSemp.Classes;
-    using AudSemp.Context;
+    
     #region Libraries (librerias)
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
+    using AudSemp.Classes;
+    using AudSemp.Context;
     #endregion
 
     public class LoginModel
@@ -106,6 +107,22 @@ namespace AudSemp.Models
 
                 }
                 if (bin == 1) { return 5; }
+
+
+                var localidadUsr = db.Localidades.Where(p => p.LOCALIDAD == user.LOCALIDAD);
+
+                Localidad localidad = new Localidad({
+
+                    sucursal = "",
+                    marca="",
+                    empresa="",
+                    encargado="",
+                    localidad="",
+
+
+                });
+
+
 
                 return 9000;
             }
