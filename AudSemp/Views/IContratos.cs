@@ -2,19 +2,17 @@
 
 namespace AudSemp.Views
 {
+    #region Libraries (librerias)
     using AudSemp.Classes;
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
+    #endregion
+
     public interface IContratos
     {
-
-        #region properties (propiedades)
-       
-        #endregion
-
 
         #region Attributes (atributos)
         DateTime dateTimeInicio { get; set; }

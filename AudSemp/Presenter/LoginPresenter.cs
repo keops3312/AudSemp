@@ -24,16 +24,27 @@ namespace AudSemp.Presenter
         #endregion
 
         #region Methods
+        LoginModel login = new LoginModel();
         public void Acces()
         {
-            LoginModel login = new LoginModel();
+
             login.User = LoginView.userText;
             login.Password = LoginView.passwordText;
             //Around to reflection (Pasa la respuesta a la vista)
             LoginView.response = login.Acces();
 
         }
-        #endregion
+        public void Claves()
+        {
+            LoginView.clave = login.LoginClave();
 
+        }
+
+        public void Nombre()
+        {
+            LoginView.nombreAuditor = login.LoginNombreCompleto();
+        }
+        #endregion
     }
 }
+

@@ -56,6 +56,8 @@ namespace AudSemp
 
         #region Attributes
         private int Response;
+        private string Clave;
+        private string NombreAuditor;
 
         public string userText
         {
@@ -81,9 +83,29 @@ namespace AudSemp
             }
         }
 
-        #endregion
+        public string clave {
+            get
+            {
+                return Clave;
+            }
+            set
+            {
+                Clave = value;
+            }
+        }
 
-        #region Context (Conexion)
+        public string nombreAuditor {
+            get
+            {
+                return NombreAuditor;
+            }
+            set
+            {
+                NombreAuditor = value;
+            }
+        }
+
+
 
         #endregion
 
@@ -119,7 +141,10 @@ namespace AudSemp
             LoginPresenter presenter = new LoginPresenter(this);
             presenter.Acces();
             Response = response;
-
+            presenter.Claves();
+            Clave = clave;
+            presenter.Nombre();
+            NombreAuditor = nombreAuditor;
 
             switch (Response)
             {
@@ -155,8 +180,11 @@ namespace AudSemp
                     //Acces 
 
                     PanelForm form = new PanelForm();
+                    form.codigo = Clave;
+                    form.NombreAuditor = NombreAuditor;
                     this.Hide();
                     form.Show();
+
 
                     break;
 

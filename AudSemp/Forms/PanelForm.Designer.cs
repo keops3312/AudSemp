@@ -30,10 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PanelForm));
             this.expandablePanel1 = new DevComponents.DotNetBar.ExpandablePanel();
+            this.labelX4 = new DevComponents.DotNetBar.LabelX();
+            this.labelX3 = new DevComponents.DotNetBar.LabelX();
+            this.labelX2 = new DevComponents.DotNetBar.LabelX();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.expandablePanel4 = new DevComponents.DotNetBar.ExpandablePanel();
             this.expandablePanel2 = new DevComponents.DotNetBar.ExpandablePanel();
-            this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
-            this.btnMinimizar = new DevComponents.DotNetBar.ButtonX();
+            this.labelX5 = new DevComponents.DotNetBar.LabelX();
             this.metroTilePanel1 = new DevComponents.DotNetBar.Metro.MetroTilePanel();
             this.itemContainer1 = new DevComponents.DotNetBar.ItemContainer();
             this.PanelContratos = new DevComponents.DotNetBar.Metro.MetroTileItem();
@@ -48,22 +51,40 @@
             this.metroTileItem10 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem11 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem12 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.controlContainerItem1 = new DevComponents.DotNetBar.ControlContainerItem();
+            this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnMinimizar = new DevComponents.DotNetBar.ButtonX();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.labelX6 = new DevComponents.DotNetBar.LabelX();
+            this.expandablePanel1.SuspendLayout();
+            this.expandablePanel4.SuspendLayout();
+            this.expandablePanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // expandablePanel1
             // 
             this.expandablePanel1.CanvasColor = System.Drawing.SystemColors.Control;
             this.expandablePanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.expandablePanel1.Controls.Add(this.pictureBox1);
+            this.expandablePanel1.Controls.Add(this.labelX4);
+            this.expandablePanel1.Controls.Add(this.labelX3);
+            this.expandablePanel1.Controls.Add(this.labelX2);
+            this.expandablePanel1.Controls.Add(this.labelX1);
             this.expandablePanel1.HideControlsWhenCollapsed = true;
-            this.expandablePanel1.Location = new System.Drawing.Point(12, 45);
+            this.expandablePanel1.Location = new System.Drawing.Point(12, 7);
             this.expandablePanel1.Name = "expandablePanel1";
-            this.expandablePanel1.Size = new System.Drawing.Size(234, 146);
+            this.expandablePanel1.Size = new System.Drawing.Size(234, 351);
             this.expandablePanel1.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.expandablePanel1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.expandablePanel1.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
             this.expandablePanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.expandablePanel1.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.expandablePanel1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText;
+            this.expandablePanel1.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.expandablePanel1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.expandablePanel1.Style.GradientAngle = 90;
             this.expandablePanel1.TabIndex = 9;
             this.expandablePanel1.TitleStyle.Alignment = System.Drawing.StringAlignment.Center;
@@ -75,14 +96,76 @@
             this.expandablePanel1.TitleStyle.GradientAngle = 90;
             this.expandablePanel1.TitleText = "Localidad";
             // 
+            // labelX4
+            // 
+            this.labelX4.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX4.Location = new System.Drawing.Point(10, 191);
+            this.labelX4.Name = "labelX4";
+            this.labelX4.Size = new System.Drawing.Size(215, 44);
+            this.labelX4.TabIndex = 4;
+            this.labelX4.Text = "-";
+            this.labelX4.WordWrap = true;
+            // 
+            // labelX3
+            // 
+            this.labelX3.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX3.Location = new System.Drawing.Point(10, 141);
+            this.labelX3.Name = "labelX3";
+            this.labelX3.Size = new System.Drawing.Size(215, 44);
+            this.labelX3.TabIndex = 3;
+            this.labelX3.Text = "-";
+            this.labelX3.WordWrap = true;
+            // 
+            // labelX2
+            // 
+            this.labelX2.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX2.Location = new System.Drawing.Point(10, 91);
+            this.labelX2.Name = "labelX2";
+            this.labelX2.Size = new System.Drawing.Size(215, 44);
+            this.labelX2.TabIndex = 2;
+            this.labelX2.Text = "-";
+            this.labelX2.WordWrap = true;
+            // 
+            // labelX1
+            // 
+            this.labelX1.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX1.Location = new System.Drawing.Point(10, 41);
+            this.labelX1.Name = "labelX1";
+            this.labelX1.Size = new System.Drawing.Size(215, 44);
+            this.labelX1.TabIndex = 1;
+            this.labelX1.Text = "-";
+            this.labelX1.WordWrap = true;
+            // 
             // expandablePanel4
             // 
             this.expandablePanel4.CanvasColor = System.Drawing.SystemColors.Control;
             this.expandablePanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.expandablePanel4.Controls.Add(this.labelX6);
+            this.expandablePanel4.Controls.Add(this.pictureBox3);
             this.expandablePanel4.HideControlsWhenCollapsed = true;
-            this.expandablePanel4.Location = new System.Drawing.Point(12, 195);
+            this.expandablePanel4.Location = new System.Drawing.Point(12, 495);
             this.expandablePanel4.Name = "expandablePanel4";
-            this.expandablePanel4.Size = new System.Drawing.Size(234, 146);
+            this.expandablePanel4.Size = new System.Drawing.Size(234, 103);
             this.expandablePanel4.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.expandablePanel4.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.expandablePanel4.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
@@ -105,10 +188,12 @@
             // 
             this.expandablePanel2.CanvasColor = System.Drawing.SystemColors.Control;
             this.expandablePanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.expandablePanel2.Controls.Add(this.pictureBox2);
+            this.expandablePanel2.Controls.Add(this.labelX5);
             this.expandablePanel2.HideControlsWhenCollapsed = true;
-            this.expandablePanel2.Location = new System.Drawing.Point(12, 344);
+            this.expandablePanel2.Location = new System.Drawing.Point(12, 364);
             this.expandablePanel2.Name = "expandablePanel2";
-            this.expandablePanel2.Size = new System.Drawing.Size(234, 146);
+            this.expandablePanel2.Size = new System.Drawing.Size(234, 125);
             this.expandablePanel2.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.expandablePanel2.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.expandablePanel2.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
@@ -126,32 +211,25 @@
             this.expandablePanel2.TitleStyle.GradientAngle = 90;
             this.expandablePanel2.TitleText = "Auditado";
             // 
-            // btnRegresar
+            // labelX5
             // 
-            this.btnRegresar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnRegresar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnRegresar.Location = new System.Drawing.Point(666, 12);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(75, 23);
-            this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnRegresar.TabIndex = 14;
-            this.btnRegresar.Text = "btnRegresar";
-            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            this.labelX5.AllowDrop = true;
+            this.labelX5.BackColor = System.Drawing.Color.Transparent;
             // 
-            // btnMinimizar
             // 
-            this.btnMinimizar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnMinimizar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnMinimizar.Location = new System.Drawing.Point(758, 12);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(75, 23);
-            this.btnMinimizar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnMinimizar.TabIndex = 15;
-            this.btnMinimizar.Text = "buttonX2";
-            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
+            this.labelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX5.Location = new System.Drawing.Point(10, 37);
+            this.labelX5.Name = "labelX5";
+            this.labelX5.Size = new System.Drawing.Size(151, 72);
+            this.labelX5.TabIndex = 6;
+            this.labelX5.Text = "-";
+            this.labelX5.WordWrap = true;
             // 
             // metroTilePanel1
             // 
+            this.metroTilePanel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             // 
             // 
             // 
@@ -160,9 +238,10 @@
             this.metroTilePanel1.ContainerControlProcessDialogKey = true;
             this.metroTilePanel1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.itemContainer1});
-            this.metroTilePanel1.Location = new System.Drawing.Point(252, 45);
+            this.metroTilePanel1.Location = new System.Drawing.Point(252, 60);
             this.metroTilePanel1.Name = "metroTilePanel1";
-            this.metroTilePanel1.Size = new System.Drawing.Size(600, 445);
+            this.metroTilePanel1.Size = new System.Drawing.Size(600, 483);
+            this.metroTilePanel1.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.metroTilePanel1.TabIndex = 17;
             this.metroTilePanel1.Text = "metroTilePanel1";
             // 
@@ -191,7 +270,7 @@
             // 
             // 
             this.itemContainer1.TitleStyle.Class = "MetroTileGroupTitle";
-            this.itemContainer1.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemContainer1.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
             this.itemContainer1.TitleText = "Seleccione su opcion para comenzar a Auditar";
             // 
             // PanelContratos
@@ -325,16 +404,98 @@
             // 
             this.metroTileItem12.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
+            // controlContainerItem1
+            // 
+            this.controlContainerItem1.AllowItemResize = true;
+            this.controlContainerItem1.MenuVisibility = DevComponents.DotNetBar.eMenuVisibility.VisibleAlways;
+            this.controlContainerItem1.Name = "controlContainerItem1";
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnRegresar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnRegresar.Image = global::AudSemp.Properties.Resources.Back;
+            this.btnRegresar.ImageFixedSize = new System.Drawing.Size(40, 40);
+            this.btnRegresar.Location = new System.Drawing.Point(809, 550);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
+            this.btnRegresar.Size = new System.Drawing.Size(52, 48);
+            this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnRegresar.TabIndex = 14;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::AudSemp.Properties.Resources.auditor;
+            this.pictureBox3.Location = new System.Drawing.Point(167, 40);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(58, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 18;
+            this.pictureBox3.TabStop = false;
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnMinimizar.Image = global::AudSemp.Properties.Resources.minimizar;
+            this.btnMinimizar.ImageFixedSize = new System.Drawing.Size(40, 40);
+            this.btnMinimizar.Location = new System.Drawing.Point(809, 7);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
+            this.btnMinimizar.Size = new System.Drawing.Size(52, 48);
+            this.btnMinimizar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnMinimizar.TabIndex = 15;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::AudSemp.Properties.Resources.auditado;
+            this.pictureBox2.Location = new System.Drawing.Point(167, 44);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(58, 58);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(61, 250);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 89);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
+            // labelX6
+            // 
+            this.labelX6.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX6.Location = new System.Drawing.Point(10, 35);
+            this.labelX6.Name = "labelX6";
+            this.labelX6.Size = new System.Drawing.Size(151, 60);
+            this.labelX6.TabIndex = 19;
+            this.labelX6.Text = "-";
+            this.labelX6.WordWrap = true;
+            // 
             // PanelForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(866, 508);
-            this.Controls.Add(this.metroTilePanel1);
-            this.Controls.Add(this.btnMinimizar);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(892, 610);
             this.Controls.Add(this.btnRegresar);
-            this.Controls.Add(this.expandablePanel2);
+            this.Controls.Add(this.metroTilePanel1);
             this.Controls.Add(this.expandablePanel4);
+            this.Controls.Add(this.btnMinimizar);
+            this.Controls.Add(this.expandablePanel2);
             this.Controls.Add(this.expandablePanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -342,6 +503,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Panel Auditoria";
             this.Load += new System.EventHandler(this.PanelForm_Load);
+            this.expandablePanel1.ResumeLayout(false);
+            this.expandablePanel4.ResumeLayout(false);
+            this.expandablePanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -367,5 +534,15 @@
         private DevComponents.DotNetBar.Metro.MetroTileItem metroTileItem10;
         private DevComponents.DotNetBar.Metro.MetroTileItem metroTileItem11;
         private DevComponents.DotNetBar.Metro.MetroTileItem metroTileItem12;
+        private DevComponents.DotNetBar.LabelX labelX5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private DevComponents.DotNetBar.LabelX labelX4;
+        private DevComponents.DotNetBar.LabelX labelX3;
+        private DevComponents.DotNetBar.LabelX labelX2;
+        private DevComponents.DotNetBar.LabelX labelX1;
+        private DevComponents.DotNetBar.ControlContainerItem controlContainerItem1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private DevComponents.DotNetBar.LabelX labelX6;
     }
 }

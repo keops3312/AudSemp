@@ -390,7 +390,7 @@ namespace AudSemp.Forms
            
 
             DataTable dt = new DataTable("Contratos");
-            dt.Columns.AddRange(new DataColumn[38]
+            dt.Columns.AddRange(new DataColumn[40]
             {
             new DataColumn("Folio"),
             new DataColumn("Contrato"),
@@ -429,7 +429,9 @@ namespace AudSemp.Forms
             new DataColumn("VenOVig"),
             new DataColumn("realizo"),
             new DataColumn("CobroOriginal"),
-            new DataColumn("BLOQUEADO_COMENTARIO")
+            new DataColumn("BLOQUEADO_COMENTARIO"),
+             new DataColumn("NoPrendas"),
+             new DataColumn("DescPrendas")
 
 
 
@@ -440,7 +442,8 @@ namespace AudSemp.Forms
 
 
             int i = 0;
-            
+            int cantidad=0;
+            string descbolsa="";
 
             foreach (var items in tipos)
             {
@@ -463,6 +466,28 @@ namespace AudSemp.Forms
                         backgroundWorker1.ReportProgress(i);
 
 
+                        if (item.valuacion_tipo == "Joyeria")
+                        {
+                            cantidad = db.bolsas_ORO.Count(a => a.Contrato == item.Contrato);
+                            //var descrp = db.bolsas_ORO
+                            //    .Where(a => a.Contrato == item.Contrato)
+                            //    .First();
+                            //descbolsa = descrp.Descripcion + " " + descrp.SubDescripcion;
+                        }
+                        else
+                        {
+                            cantidad = db.bolsas_OTROS.Count(a => a.Contrato == item.Contrato);
+                            //var descrp1 = db.bolsas_OTROS
+                            //    .Where(a => a.Contrato == item.Contrato)
+                            //    .First();
+                            //descbolsa = descrp1.Descripcion + " " + descrp1.SubDescripcion;
+
+
+
+
+                        }
+                       
+
                         dt.Rows.Add(item.Folio, item.Contrato, item.Fecha,
                             item.Bolsa, item.IdClientes, item.NCliente, item.AutorizoA,
                             item.Plazo, item.Status, item.FechaDesemp, item.Comentario, item.Dias,
@@ -471,7 +496,7 @@ namespace AudSemp.Forms
                             item.valuacion_tipo, item.cancelado, item.comentariocancelado,
                             item.prestamoprom, item.origen, item.folioavaluo, item.clasificacion, item.santerior,
                             item.caja, item.pension, item.Rev, item.reg, item.temp, item.VenOVig,
-                            item.realizo, item.CobroOriginal, item.BLOQUEADO_COMENTARIO);
+                            item.realizo, item.CobroOriginal, item.BLOQUEADO_COMENTARIO, cantidad,descbolsa);
 
 
                     }
@@ -544,11 +569,22 @@ namespace AudSemp.Forms
                 
                 dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/audContratos.xml", XmlWriteMode.WriteSchema);
                 //creamos los para metros
+               
                 contratos ob = new contratos();
+                LocalidadModel localidadModel = new LocalidadModel();
+                localidadModel.localidadResult("TLX_2");
                 ob.SetParameterValue("tipos", leyendaTipos);
                 ob.SetParameterValue("estatus",leyendaEstatus);
                 ob.SetParameterValue("rangos", leyendaRango);
                 ob.SetParameterValue("modoOrden", mode);
+
+                ob.SetParameterValue("sucursal", localidadModel.sucursal);
+                ob.SetParameterValue("marca", localidadModel.marca);
+                ob.SetParameterValue("empresa", localidadModel.empresa);
+                ob.SetParameterValue("localidad", localidadModel.localidad);
+                ob.SetParameterValue("encargado", localidadModel.encargado);
+
+
 
                 crystalReportViewer1.ReportSource = ob;
                 crystalReportViewer1.Refresh();

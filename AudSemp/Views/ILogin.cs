@@ -23,6 +23,8 @@ namespace AudSemp.Views
 
         //response
         int response { get; set; }
+        string clave { get; set; }
+        string nombreAuditor { get; set; }
         #endregion
 
     }

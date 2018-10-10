@@ -29,6 +29,10 @@ namespace AudSemp.Models
 
         public string Password { get; set; }
 
+        public string clave { get; set; }
+
+        public string NombreAuditor { get; set; }
+
         #endregion
 
         #region Methods (metodos)
@@ -71,6 +75,13 @@ namespace AudSemp.Models
 
                 var user = db.PRVyusuarios.Where(p => p.USUARIO == User
                                                     && p.CONTRASEÑA == Password).FirstOrDefault();
+                clave = user.LOCALIDAD;
+
+
+                var empleado = db.Empleados.Where(p => p.NoEmpleado == user.NO_OPERADOR).First();
+
+                NombreAuditor = empleado.Nombre_Completo;
+
                 if (user == null)
                 {
                     return 4;
@@ -109,18 +120,7 @@ namespace AudSemp.Models
                 if (bin == 1) { return 5; }
 
 
-                var localidadUsr = db.Localidades.Where(p => p.LOCALIDAD == user.LOCALIDAD);
-
-                Localidad localidad = new Localidad({
-
-                    sucursal = "",
-                    marca="",
-                    empresa="",
-                    encargado="",
-                    localidad="",
-
-
-                });
+              
 
 
 
@@ -133,6 +133,16 @@ namespace AudSemp.Models
           
           
            
+        }
+
+        public string LoginClave()
+        {
+            return clave;
+        }
+
+        public string LoginNombreCompleto()
+        {
+            return NombreAuditor;
         }
         #endregion
 

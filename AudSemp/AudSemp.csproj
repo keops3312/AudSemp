@@ -500,14 +500,16 @@
       <DependentUpon>PanelForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\ContratosModel.cs" />
-    <Compile Include="Models\Localidad.cs" />
+    <Compile Include="Models\LocalidadModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\Rectangle.cs" />
     <Compile Include="Presenter\ContratosPresenter.cs" />
     <Compile Include="Presenter\LoginPresenter.cs" />
+    <Compile Include="Presenter\PanelPresenter.cs" />
     <Compile Include="Presenter\RectanglePresenter.cs" />
     <Compile Include="Views\IContratos.cs" />
     <Compile Include="Views\ILogin.cs" />
+    <Compile Include="Views\IPanel.cs" />
     <Compile Include="Views\IRectangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -574,6 +576,8 @@
       <DependentUpon>Context.edmx</DependentUpon>
       <LastGenOutput>Context.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\auditor.png" />
+    <None Include="Resources\auditado.png" />
     <None Include="Resources\close1.png" />
     <None Include="Resources\crystal-reports-logo1.png" />
     <None Include="Resources\excelfile-29.png" />
