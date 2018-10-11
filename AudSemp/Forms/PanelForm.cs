@@ -74,9 +74,18 @@ namespace AudSemp.Forms
         private void PanelContratos_Click(object sender, EventArgs e)
         {
             ContratosForm contratosForm = new ContratosForm();
+            contratosForm.loc = codigo;
             contratosForm.WindowState = FormWindowState.Maximized;
             contratosForm.ShowDialog();
 
+        }
+
+        private void metroTileItem2_Click(object sender, EventArgs e)
+        {
+            InventariosForm inventariosForm = new InventariosForm();
+            inventariosForm.loc = codigo;
+            inventariosForm.WindowState = FormWindowState.Maximized;
+            inventariosForm.ShowDialog();
         }
 
 
@@ -100,6 +109,7 @@ namespace AudSemp.Forms
             labelX2.Text = "Marca: "+ Marca;
             labelX3.Text = "Empresa: " + Empresa;    
             labelX4.Text = "Localidad:" + Localidad;
+
 
             FileStream fs = new System.IO.FileStream(Logotipo, FileMode.Open, FileAccess.Read);
             pictureBox1.Image = Image.FromStream(fs);
@@ -139,8 +149,9 @@ namespace AudSemp.Forms
 
         }
 
+
         #endregion
 
-
+       
     }
 }

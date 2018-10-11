@@ -51,15 +51,19 @@ namespace AudSemp.Forms
         public List<TiposOrden> tiposOrden { get; set; }
         public List<ModoOrdenes> modosOrden { get; set; }
 
+     
+        #endregion
+
+        #region Properties
+
         public int decision;
         public string leyendaTipos;
         public string leyendaEstatus;
         public string leyendaRango;
-        #endregion
-
-        #region Properties
+        public string loc;
+        public string mode;
         string ruta;
-        int cantidad;
+        int cantidad=0;
         #endregion
 
         #region Events (Eventos)
@@ -73,7 +77,15 @@ namespace AudSemp.Forms
                 case DialogResult.OK:
                     {
                         decision = 2;
-                        Excel("...");
+
+
+                       
+                        btnReporte.Enabled = false;
+                        btnRegresar.Enabled = false;
+                        btnExportar.Enabled = false;
+                        btnCancel.Visible = true;
+                        backgroundWorker1.RunWorkerAsync();
+
                         break;
                     }
                 case DialogResult.Cancel:
@@ -111,29 +123,12 @@ namespace AudSemp.Forms
                     //    backgroundWorker1.RunWorkerAsync();
                     //}
 
-                    int a = chkPrendas.CheckedIndices.Count;
-                    int b = chkContratos.CheckedIndices.Count;
-                    if (a == 0)
-                    {
-                        for (int i = 0; i < chkPrendas.Items.Count; i++)
-                        {
-                            chkPrendas.SetItemChecked(i, true);
-                        }
-
-                    }
-                    if (b == 0)
-                    {
-                        for (int i = 0; i < chkContratos.Items.Count; i++)
-                        {
-                            chkContratos.SetItemChecked(i, true);
-                        }
-
-                    }
-
                     decision = 1;
 
                     backgroundWorker1.RunWorkerAsync();
                     btnExportar.Enabled = false;
+                    btnReporte.Enabled = false;
+                    btnRegresar.Enabled = false;
                     btnCancel.Visible = true;
 
                 }
@@ -147,7 +142,11 @@ namespace AudSemp.Forms
             {
                 backgroundWorker1.CancelAsync();
                 btnExportar.Enabled = true;
+                btnReporte.Enabled = true;
+                btnRegresar.Enabled = true;
                 btnCancel.Visible = false;
+
+
 
                 MessageBox.Show("Exportacion CANCELADA",
                  "Auditoria Semp", MessageBoxButtons.OK,
@@ -274,7 +273,8 @@ namespace AudSemp.Forms
 
         private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
-            //this is updated from dowork. Its where GUI components are update        
+            //this is updated from dowork. Its where GUI components are update
+            prg1.Maximum = cantidad;
             prg1.Value = e.ProgressPercentage;
             lblProgress.Text = (e.ProgressPercentage.ToString() + " / " + cantidad + " # Registros Completados...");
         }
@@ -282,13 +282,47 @@ namespace AudSemp.Forms
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             //called when the heavy operation in bg is over . can also accept GUI compponents
-            MessageBox.Show("Exportacion Realizada con Exito",
+
+            if (decision == 2)
+            {
+                //creamos los para metros
+
+                contratos ob = new contratos();
+                LocalidadModel localidadModel = new LocalidadModel();
+                localidadModel.localidadResult(loc);
+                ob.SetParameterValue("tipos", leyendaTipos);
+                ob.SetParameterValue("estatus", leyendaEstatus);
+                ob.SetParameterValue("rangos", leyendaRango);
+                ob.SetParameterValue("modoOrden", mode);
+
+                ob.SetParameterValue("sucursal", localidadModel.sucursal);
+                ob.SetParameterValue("marca", localidadModel.marca);
+                ob.SetParameterValue("empresa", localidadModel.empresa);
+                ob.SetParameterValue("localidad", localidadModel.localidad);
+                ob.SetParameterValue("encargado", localidadModel.encargado);
+                ob.SetParameterValue("logo", localidadModel.logotipo);
+
+
+
+                crystalReportViewer1.ReportSource = ob;
+                crystalReportViewer1.Refresh();
+
+             
+            }
+
+            MessageBox.Show("Operación Realizada con Exito",
                    "Auditoria Semp", MessageBoxButtons.OK,
                    MessageBoxIcon.Information);
             prg1.Value = 0;
             lblProgress.Text = "-";
+
             btnExportar.Enabled = true;
+            btnReporte.Enabled = true;
+            btnRegresar.Enabled = true;
             btnCancel.Visible = false;
+
+            
+            
 
         }
 
@@ -328,6 +362,8 @@ namespace AudSemp.Forms
             cmbOrden.DataSource = modosOrden;
             cmbTipoOrden.DataSource = tiposOrden;
             btnCancel.Visible = false;
+
+            this.Text = this.Text + " -Localidad Actual: " + loc;
         }
 
         public void Excel(string ruta)
@@ -335,6 +371,26 @@ namespace AudSemp.Forms
             string fechaInicio, fechaFin,tipoOrden="reg",orden="Ascendente";
             List<categorias> tipoPrendas = new List<categorias>();
             List<Estatus> tipoStatus = new List<Estatus>();
+
+            int a = chkPrendas.CheckedIndices.Count;
+            int b = chkContratos.CheckedIndices.Count;
+            if (a == 0)
+            {
+                for (int i = 0; i < chkPrendas.Items.Count; i++)
+                {
+                    chkPrendas.SetItemChecked(i, true);
+                }
+
+            }
+            if (b == 0)
+            {
+                for (int i = 0; i < chkContratos.Items.Count; i++)
+                {
+                    chkContratos.SetItemChecked(i, true);
+                }
+
+            }
+
 
 
             if (checkFechas.Checked == true)
@@ -349,7 +405,8 @@ namespace AudSemp.Forms
 
             }
 
-            leyendaRango = fechaInicio + " - " + fechaFin;
+            leyendaRango = Convert.ToDateTime(fechaInicio).ToString("dd-MMM-yyyy") +
+                " - " + Convert.ToDateTime(fechaFin).ToString("dd-MMM-yyyy");
           
             if(checkOrden.Checked==true)
             {
@@ -361,13 +418,14 @@ namespace AudSemp.Forms
                 orden = cmbOrden.Text;
             }
 
-          
+            leyendaTipos="";
+            leyendaEstatus = "";
             foreach (var item in chkPrendas.CheckedItems)
                 {
                     tipoPrendas.Add(
                          new categorias() { categoria = item.ToString() }
                          );
-                leyendaTipos = item.ToString() + " - ";
+                leyendaTipos += item.ToString() + " - ";
                 }
          
                
@@ -375,7 +433,7 @@ namespace AudSemp.Forms
                 {
                     tipoStatus.Add(new Estatus() { estatu = item.ToString() }
                          );
-                leyendaEstatus = item.ToString() + " - ";
+                leyendaEstatus += item.ToString() + " - ";
                 }
 
             Export(fechaInicio, fechaFin, tipoOrden, orden, tipoPrendas, tipoStatus);
@@ -442,9 +500,9 @@ namespace AudSemp.Forms
 
 
             int i = 0;
-            int cantidad=0;
+          
             string descbolsa="";
-
+            
             foreach (var items in tipos)
             {
 
@@ -513,41 +571,41 @@ namespace AudSemp.Forms
             dt = new DataTable();
            
             //ORDER MODE
-            string mode = tipoOrden + modoOrden;
+           mode = tipoOrden + modoOrden;
             switch (mode)
             {
                 default:
                     dataView.Sort = "reg ASC";
                     break;
                 case "FechaConsAscendente":
-                    dataView.Sort = "FechaCons ASC";
+                    dataView.Sort = "valuacion_tipo ASC ,FechaCons ASC";
                     break;
                 case "FechaConsDescendente":
-                    dataView.Sort = "FechaCons DESC";
+                    dataView.Sort = "valuacion_tipo DESC ,FechaCons DESC";
                     break;
                 case "ContratoAscendente":
-                    dataView.Sort = "Contrato ASC";
+                    dataView.Sort = "valuacion_tipo ASC ,Contrato ASC";
                     break;
                 case "ContratoDescendente":
-                    dataView.Sort = "Contrato DESC";
+                    dataView.Sort = "valuacion_tipo DESC ,Contrato DESC";
                     break;
                 case "BolsaAscendente":
-                    dataView.Sort = "Bolsa ASC";
+                    dataView.Sort = "valuacion_tipo ASC ,Bolsa ASC";
                     break;
                 case "BolsaDescendente":
-                    dataView.Sort = "Bolsa DESC";
+                    dataView.Sort = "valuacion_tipo DESC ,Bolsa DESC";
                     break;
                 case "StatusAscendente":
-                    dataView.Sort = "Status ASC";
+                    dataView.Sort = "valuacion_tipo ASC ,Status ASC";
                     break;
                 case "StatusDescendente":
-                    dataView.Sort = "Status DESC";
+                    dataView.Sort = "valuacion_tipo DESC ,Status DESC";
                     break;
                 case "PrestamoAscendente":
-                    dataView.Sort = "Prestamo ASC";
+                    dataView.Sort = "valuacion_tipo ASC ,Prestamo ASC";
                     break;
                 case "PrestamoDescendente":
-                    dataView.Sort = "Prestamo DESC";
+                    dataView.Sort = "valuacion_tipo DESC ,Prestamo DESC";
                     break;
 
             }
@@ -568,27 +626,8 @@ namespace AudSemp.Forms
                 
                 
                 dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/audContratos.xml", XmlWriteMode.WriteSchema);
-                //creamos los para metros
                
-                contratos ob = new contratos();
-                LocalidadModel localidadModel = new LocalidadModel();
-                localidadModel.localidadResult("TLX_2");
-                ob.SetParameterValue("tipos", leyendaTipos);
-                ob.SetParameterValue("estatus",leyendaEstatus);
-                ob.SetParameterValue("rangos", leyendaRango);
-                ob.SetParameterValue("modoOrden", mode);
 
-                ob.SetParameterValue("sucursal", localidadModel.sucursal);
-                ob.SetParameterValue("marca", localidadModel.marca);
-                ob.SetParameterValue("empresa", localidadModel.empresa);
-                ob.SetParameterValue("localidad", localidadModel.localidad);
-                ob.SetParameterValue("encargado", localidadModel.encargado);
-
-
-
-                crystalReportViewer1.ReportSource = ob;
-                crystalReportViewer1.Refresh();
-                
 
             }
 

@@ -63,7 +63,6 @@
             this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewer1.Location = new System.Drawing.Point(1, 250);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.ShowExportButton = false;
             this.crystalReportViewer1.ShowGroupTreeButton = false;
             this.crystalReportViewer1.ShowLogo = false;
             this.crystalReportViewer1.ShowParameterPanelButton = false;
@@ -341,7 +340,7 @@
             this.btnCancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnCancel.Image = global::AudSemp.Properties.Resources.close1;
             this.btnCancel.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnCancel.Location = new System.Drawing.Point(759, 26);
+            this.btnCancel.Location = new System.Drawing.Point(836, 84);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(71, 54);
             this.btnCancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;

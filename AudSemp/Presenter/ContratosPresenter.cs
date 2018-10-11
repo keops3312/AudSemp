@@ -1,14 +1,18 @@
-﻿using AudSemp.Classes;
-using AudSemp.Models;
-using AudSemp.Views;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace AudSemp.Presenter
 {
+
+    #region Libraries (librerias)
+    using AudSemp.Classes;
+    using AudSemp.Models;
+    using AudSemp.Views;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    #endregion
     public class ContratosPresenter
     {
 

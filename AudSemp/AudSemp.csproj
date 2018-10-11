@@ -487,6 +487,18 @@
     <Compile Include="Forms\ContratosForm.Designer.cs">
       <DependentUpon>ContratosForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\inventarios.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inventarios.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\InventariosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InventariosForm.Designer.cs">
+      <DependentUpon>InventariosForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -500,14 +512,17 @@
       <DependentUpon>PanelForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\ContratosModel.cs" />
+    <Compile Include="Models\InventarioModel.cs" />
     <Compile Include="Models\LocalidadModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\Rectangle.cs" />
     <Compile Include="Presenter\ContratosPresenter.cs" />
+    <Compile Include="Presenter\InventarioPresenter.cs" />
     <Compile Include="Presenter\LoginPresenter.cs" />
     <Compile Include="Presenter\PanelPresenter.cs" />
     <Compile Include="Presenter\RectanglePresenter.cs" />
     <Compile Include="Views\IContratos.cs" />
+    <Compile Include="Views\IInventario.cs" />
     <Compile Include="Views\ILogin.cs" />
     <Compile Include="Views\IPanel.cs" />
     <Compile Include="Views\IRectangle.cs" />
@@ -519,6 +534,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ContratosForm.resx">
       <DependentUpon>ContratosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\inventarios.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>inventarios.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InventariosForm.resx">
+      <DependentUpon>InventariosForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
