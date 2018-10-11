@@ -1,0 +1,599 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Inventarios" msdata:Locale="es-MX">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Inventarios" msdata:CaseSensitive="False" msdata:Locale="es-MX">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="no" type="xs:string" minOccurs="0" />
+                <xs:element name="contrato" type="xs:string" minOccurs="0" />
+                <xs:element name="fecha" type="xs:string" minOccurs="0" />
+                <xs:element name="bolsa" type="xs:string" minOccurs="0" />
+                <xs:element name="noinv" type="xs:string" minOccurs="0" />
+                <xs:element name="noserie" type="xs:string" minOccurs="0" />
+                <xs:element name="descripcion" type="xs:string" minOccurs="0" />
+                <xs:element name="detalles" type="xs:string" minOccurs="0" />
+                <xs:element name="preciosugerido" type="xs:string" minOccurs="0" />
+                <xs:element name="precioventa" type="xs:string" minOccurs="0" />
+                <xs:element name="kilates" type="xs:string" minOccurs="0" />
+                <xs:element name="peso_real" type="xs:string" minOccurs="0" />
+                <xs:element name="condiciones" type="xs:string" minOccurs="0" />
+                <xs:element name="tipo" type="xs:string" minOccurs="0" />
+                <xs:element name="status" type="xs:string" minOccurs="0" />
+                <xs:element name="mov" type="xs:string" minOccurs="0" />
+                <xs:element name="rematado" type="xs:string" minOccurs="0" />
+                <xs:element name="rematado_por" type="xs:string" minOccurs="0" />
+                <xs:element name="mod_extemporanea" type="xs:string" minOccurs="0" />
+                <xs:element name="transferido" type="xs:string" minOccurs="0" />
+                <xs:element name="sucursal" type="xs:string" minOccurs="0" />
+                <xs:element name="status_transferido" type="xs:string" minOccurs="0" />
+                <xs:element name="fecha_trans" type="xs:string" minOccurs="0" />
+                <xs:element name="actualizacion" type="xs:string" minOccurs="0" />
+                <xs:element name="codigotrans" type="xs:string" minOccurs="0" />
+                <xs:element name="pneto" type="xs:string" minOccurs="0" />
+                <xs:element name="NOTAS" type="xs:string" minOccurs="0" />
+                <xs:element name="AOM" type="xs:string" minOccurs="0" />
+                <xs:element name="rematadoEJ" type="xs:string" minOccurs="0" />
+                <xs:element name="precio_promocion" type="xs:string" minOccurs="0" />
+                <xs:element name="fechaPP" type="xs:string" minOccurs="0" />
+                <xs:element name="precioPromo2" type="xs:string" minOccurs="0" />
+                <xs:element name="fechaPP2" type="xs:string" minOccurs="0" />
+                <xs:element name="precioPromo3" type="xs:string" minOccurs="0" />
+                <xs:element name="fechaPP3" type="xs:string" minOccurs="0" />
+                <xs:element name="precioRemate" type="xs:string" minOccurs="0" />
+                <xs:element name="fechaPRem" type="xs:string" minOccurs="0" />
+                <xs:element name="precio_origen" type="xs:string" minOccurs="0" />
+                <xs:element name="actualizo" type="xs:string" minOccurs="0" />
+                <xs:element name="actualizo2" type="xs:string" minOccurs="0" />
+                <xs:element name="actualizo3" type="xs:string" minOccurs="0" />
+                <xs:element name="prestamo" type="xs:string" minOccurs="0" />
+                <xs:element name="contrato2" type="xs:string" minOccurs="0" />
+                <xs:element name="fecha_contrato" type="xs:string" minOccurs="0" />
+                <xs:element name="indice" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Inventarios>
+    <noinv>CMGD1069</noinv>
+    <noserie>CISAA 0167</noserie>
+    <descripcion>Lap Top Compaq Presario C-700</descripcion>
+    <detalles>XLSX</detalles>
+    <preciosugerido>4400.0000</preciosugerido>
+    <precioventa>4400.0000</precioventa>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>6530</mov>
+    <transferido>SNJ_1</transferido>
+    <sucursal>TLX_2</sucursal>
+    <actualizacion>16/01/2016 12:00:00 a. m.</actualizacion>
+    <NOTAS>Estatus AUDITADO= TRANSFERENCIA y en SISTEMA= EN VENTA uso interno 000 SE ENCUENTRA FISICA EN TLXC 2 F18/2013</NOTAS>
+    <AOM>TRANSFERIR</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>4190.0000</precio_promocion>
+    <precioPromo2>3960.0000</precioPromo2>
+    <fechaPP2>04/06/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>3564.0000</precioPromo3>
+    <fechaPP3>08/07/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>2200.0000</prestamo>
+    <contrato2>0</contrato2>
+    <indice>4546</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>0</contrato>
+    <fecha>01/01/1999 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGF0268</noinv>
+    <noserie>0</noserie>
+    <descripcion>LAP TOP ACER</descripcion>
+    <detalles>250GB EN RAM</detalles>
+    <preciosugerido>2500.0000</preciosugerido>
+    <precioventa>2500.0000</precioventa>
+    <kilates />
+    <peso_real />
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <rematado_por>CIS-TLA_2-101-TLX_2-101-189</rematado_por>
+    <transferido />
+    <sucursal>TLX_2-101</sucursal>
+    <pneto />
+    <NOTAS>vitrina proviene de San Juan del Río suc electrónicos</NOTAS>
+    <AOM>AGREGADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>2500.0000</precio_promocion>
+    <precioPromo2>2750.0000</precioPromo2>
+    <fechaPP2>03/06/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <prestamo>2500.0000</prestamo>
+    <contrato2>0</contrato2>
+    <fecha_contrato>01/01/1999 12:00:00 a. m.</fecha_contrato>
+    <indice>12078</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>20139</contrato>
+    <bolsa>4627</bolsa>
+    <noinv>CMGH1200</noinv>
+    <noserie>CITS 0060</noserie>
+    <descripcion>netbook hp pavilion DV1, 500gb d.d y 3gb ram</descripcion>
+    <detalles>PAVILION DV1</detalles>
+    <preciosugerido>3399.0000</preciosugerido>
+    <precioventa>3399.0000</precioventa>
+    <kilates />
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>262</mov>
+    <rematado>03/08/2015 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO</rematado_por>
+    <sucursal>TLX_2</sucursal>
+    <pneto />
+    <NOTAS>ACTUALIZACION PRECIO </NOTAS>
+    <rematadoEJ>03/08/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>3399.0000</precio_promocion>
+    <precioPromo2>3059.1000</precioPromo2>
+    <fechaPP2>20/05/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>2753.1900</precioPromo3>
+    <fechaPP3>08/07/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <precio_origen>3399.0000</precio_origen>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>1962.0000</prestamo>
+    <contrato2>20139</contrato2>
+    <fecha_contrato>21/12/2013 12:00:00 a. m.</fecha_contrato>
+    <indice>1143</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>22162</contrato>
+    <bolsa>21000</bolsa>
+    <noinv>CMGH1722</noinv>
+    <noserie>CITS 0516</noserie>
+    <descripcion>macbook apple Pro</descripcion>
+    <detalles>PRO</detalles>
+    <preciosugerido>5799.0000</preciosugerido>
+    <precioventa>5799.0000</precioventa>
+    <kilates />
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>5110</mov>
+    <rematado>03/08/2015 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO</rematado_por>
+    <sucursal>TLX_2</sucursal>
+    <pneto />
+    <NOTAS>ACTUALIZACION PRECIO </NOTAS>
+    <rematadoEJ>03/08/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>5799.0000</precio_promocion>
+    <precioPromo2>5755.8600</precioPromo2>
+    <fechaPP2>04/06/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>5755.8600</precioPromo3>
+    <fechaPP3>08/07/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>5232.6000</prestamo>
+    <contrato2>0</contrato2>
+    <fecha_contrato>23/08/2014 12:00:00 a. m.</fecha_contrato>
+    <indice>730</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>13943</contrato>
+    <bolsa>6783</bolsa>
+    <noinv>CMGH2065</noinv>
+    <noserie>CITR 3306</noserie>
+    <descripcion>laptop Gateway NV5803320gb d.d y 4gb ram</descripcion>
+    <detalles>NV5803</detalles>
+    <preciosugerido>2649.0000</preciosugerido>
+    <precioventa>2649.0000</precioventa>
+    <kilates />
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>5928</mov>
+    <rematado>03/08/2015 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO</rematado_por>
+    <sucursal>TLX_2</sucursal>
+    <pneto />
+    <NOTAS>ACTUALIZACION PRECIO </NOTAS>
+    <rematadoEJ>03/08/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>2649.0000</precio_promocion>
+    <precioPromo2>2384.1000</precioPromo2>
+    <fechaPP2>20/05/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>2174.4360</precioPromo3>
+    <fechaPP3>08/07/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>1976.7600</prestamo>
+    <contrato2>13943</contrato2>
+    <fecha_contrato>27/01/2015 12:00:00 a. m.</fecha_contrato>
+    <indice>3391</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>23955</contrato>
+    <fecha>01/01/1999 12:00:00 a. m.</fecha>
+    <bolsa>21291</bolsa>
+    <noinv>CMGH2276</noinv>
+    <noserie>CITS 0862</noserie>
+    <descripcion>laptop acer aspire V5-472, 500gb d.d y 4gb ram</descripcion>
+    <detalles>ASPIRE V5-472</detalles>
+    <preciosugerido>3549.0000</preciosugerido>
+    <precioventa>3549.0000</precioventa>
+    <kilates />
+    <peso_real />
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>9030</mov>
+    <rematado_por>CIS-NAU_1-501-TLX_2-101-4</rematado_por>
+    <transferido />
+    <sucursal>TLX_2-101</sucursal>
+    <pneto />
+    <NOTAS>ACTUALIZACION PRECIO </NOTAS>
+    <AOM />
+    <rematadoEJ>03/08/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>3549.0000</precio_promocion>
+    <precioPromo2>3194.1000</precioPromo2>
+    <fechaPP2>20/05/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>2874.6900</precioPromo3>
+    <fechaPP3>08/07/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>2325.6000</prestamo>
+    <contrato2>23955</contrato2>
+    <fecha_contrato>24/03/2015 12:00:00 a. m.</fecha_contrato>
+    <indice>9305</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>14685</contrato>
+    <fecha>03/08/2015 12:00:00 a. m.</fecha>
+    <bolsa>21907</bolsa>
+    <noinv>CMGH2583</noinv>
+    <noserie>TLX_22583</noserie>
+    <descripcion>DISCO DURO TOSHIBA</descripcion>
+    <detalles>SP3552-A2</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>531.4800</precioventa>
+    <kilates>10</kilates>
+    <peso_real />
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>6399</mov>
+    <rematado>05/08/2015 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-TLX_2</transferido>
+    <sucursal>TLX_2-101</sucursal>
+    <pneto />
+    <rematadoEJ>05/08/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>449.0000</precio_promocion>
+    <precioPromo2>444.5100</precioPromo2>
+    <fechaPP2>20/05/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>400.0600</precioPromo3>
+    <fechaPP3>08/07/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>290.7000</prestamo>
+    <contrato2>14685</contrato2>
+    <fecha_contrato>25/05/2015 12:00:00 a. m.</fecha_contrato>
+    <indice>142</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>17022</contrato>
+    <fecha>12/02/2016 12:00:00 a. m.</fecha>
+    <bolsa>8146</bolsa>
+    <noinv>CMGH4024</noinv>
+    <noserie>TLX_24024</noserie>
+    <descripcion>TARJETA</descripcion>
+    <detalles>8GB</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>65.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>7969</mov>
+    <rematado>12/02/2016 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-TLX_2</transferido>
+    <sucursal>TLX_2</sucursal>
+    <pneto>0</pneto>
+    <AOM>AGREGADA</AOM>
+    <rematadoEJ>12/02/2016 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>65.0000</precio_promocion>
+    <precioPromo2>58.5000</precioPromo2>
+    <fechaPP2>20/05/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>52.6500</precioPromo3>
+    <fechaPP3>08/07/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>0.0000</prestamo>
+    <contrato2>17022</contrato2>
+    <fecha_contrato>12/02/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>8288</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>17175</contrato>
+    <fecha>12/02/2016 12:00:00 a. m.</fecha>
+    <bolsa>7971</bolsa>
+    <noinv>CMGH4027</noinv>
+    <noserie>TLX_24027</noserie>
+    <descripcion>ADAPTADOR </descripcion>
+    <detalles>BLUETOOTH</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>149.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>7972</mov>
+    <rematado>12/02/2016 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-TLX_2</transferido>
+    <sucursal>TLX_2</sucursal>
+    <pneto>0</pneto>
+    <AOM>AGREGADA</AOM>
+    <rematadoEJ>12/02/2016 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>135.0000</precio_promocion>
+    <precioPromo2>134.1000</precioPromo2>
+    <fechaPP2>20/05/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>120.6900</precioPromo3>
+    <fechaPP3>08/07/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>0.0000</prestamo>
+    <contrato2>17175</contrato2>
+    <fecha_contrato>12/02/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>8291</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>27502</contrato>
+    <fecha>17/05/2016 12:00:00 a. m.</fecha>
+    <bolsa>23336</bolsa>
+    <noinv>CMGH4576</noinv>
+    <noserie>TLX_24576</noserie>
+    <descripcion>TABLET EVVEI</descripcion>
+    <detalles>MODELO Q8C</detalles>
+    <preciosugerido>13589.0000</preciosugerido>
+    <precioventa>599.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>8526</mov>
+    <rematado>19/05/2016 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-TLX_2</transferido>
+    <sucursal>TLX_2</sucursal>
+    <pneto>0</pneto>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>19/05/2016 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>599.0000</precio_promocion>
+    <precioPromo2>539.1000</precioPromo2>
+    <fechaPP2>08/07/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>495.0000</precioPromo3>
+    <fechaPP3>27/10/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>450.0000</prestamo>
+    <indice>7680</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>18750</contrato>
+    <fecha>07/07/2016 12:00:00 a. m.</fecha>
+    <bolsa>23442</bolsa>
+    <noinv>CMGH4784</noinv>
+    <noserie>TLX_24784</noserie>
+    <descripcion>TARJETA</descripcion>
+    <detalles>8GB</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>65.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>8737</mov>
+    <rematado>07/07/2016 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-TLX_2</transferido>
+    <sucursal>TLX_2</sucursal>
+    <pneto>0</pneto>
+    <AOM>AGREGADA</AOM>
+    <rematadoEJ>07/07/2016 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>59.0000</precio_promocion>
+    <precioPromo2>58.5000</precioPromo2>
+    <fechaPP2>27/10/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>52.6500</precioPromo3>
+    <fechaPP3>05/01/2017 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>25.0000</prestamo>
+    <contrato2>18750</contrato2>
+    <fecha_contrato>05/05/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>9118</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>40234</contrato>
+    <fecha>23/08/2016 12:00:00 a. m.</fecha>
+    <bolsa>23410</bolsa>
+    <noinv>CMGH5069</noinv>
+    <noserie>TLX_25069</noserie>
+    <descripcion>ESTUCHE</descripcion>
+    <detalles>PARA TABLET </detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>65.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>9028</mov>
+    <rematado>23/08/2016 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-TLX_2</transferido>
+    <sucursal>TLX_2</sucursal>
+    <pneto>0</pneto>
+    <AOM>AGREGADA</AOM>
+    <rematadoEJ>23/08/2016 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>49.0000</precio_promocion>
+    <precioPromo2>58.5000</precioPromo2>
+    <fechaPP2>27/10/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>52.6500</precioPromo3>
+    <fechaPP3>05/01/2017 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>25.0000</prestamo>
+    <contrato2>40234</contrato2>
+    <fecha_contrato>07/06/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>9303</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>34257</contrato>
+    <fecha>17/04/2018 12:00:00 a. m.</fecha>
+    <bolsa>25397</bolsa>
+    <noinv>CMGH7846</noinv>
+    <noserie>TLX_27846</noserie>
+    <descripcion>LAP TOP HP 240 G5</descripcion>
+    <detalles>750GB D.D 4GB RAM, CELERON W10</detalles>
+    <preciosugerido>15573.0000</preciosugerido>
+    <precioventa>3999.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <rematado>17/04/2018 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-TLX_2</transferido>
+    <sucursal>TLX_2</sucursal>
+    <pneto>0</pneto>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>17/04/2018 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>3799.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>2100.0000</prestamo>
+    <contrato2>34257</contrato2>
+    <fecha_contrato>08/02/2018 12:00:00 a. m.</fecha_contrato>
+    <indice>11808</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>44572</contrato>
+    <fecha>02/05/2018 12:00:00 a. m.</fecha>
+    <bolsa>41750</bolsa>
+    <noinv>CMGH7923</noinv>
+    <noserie>TLX_27923</noserie>
+    <descripcion>LAPTOP LANIX NEURON A</descripcion>
+    <detalles>500GB D.D 4GB AM, CELERON, W10</detalles>
+    <preciosugerido>15573.0000</preciosugerido>
+    <precioventa>3549.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <rematado>02/05/2018 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-TLX_2</transferido>
+    <sucursal>TLX_2</sucursal>
+    <pneto>0</pneto>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>02/05/2018 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>3349.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>2200.0000</prestamo>
+    <contrato2>44572</contrato2>
+    <fecha_contrato>22/02/2018 12:00:00 a. m.</fecha_contrato>
+    <indice>11885</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>44827</contrato>
+    <fecha>06/06/2018 12:00:00 a. m.</fecha>
+    <bolsa>41862</bolsa>
+    <noinv>CMGH8107</noinv>
+    <noserie>TLX_28107</noserie>
+    <descripcion>ESTUCHE PARA LAP</descripcion>
+    <detalles>COLOR NEGRO</detalles>
+    <preciosugerido>55.0000</preciosugerido>
+    <precioventa>29.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <rematado>06/06/2018 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-TLX_2</transferido>
+    <sucursal>TLX_2</sucursal>
+    <pneto>0</pneto>
+    <AOM>AGREGADA</AOM>
+    <rematadoEJ>06/06/2018 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>25.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>25.0000</prestamo>
+    <contrato2>44827</contrato2>
+    <fecha_contrato>26/03/2018 12:00:00 a. m.</fecha_contrato>
+    <indice>12072</indice>
+  </Inventarios>
+  <Inventarios>
+    <contrato>45035</contrato>
+    <fecha>14/07/2018 12:00:00 a. m.</fecha>
+    <bolsa>40941</bolsa>
+    <noinv>CMGH8235</noinv>
+    <noserie>TLX_28235</noserie>
+    <descripcion>AUDIFONOS</descripcion>
+    <detalles>COLOR NEGRO</detalles>
+    <preciosugerido>13425.0000</preciosugerido>
+    <precioventa>35.0000</precioventa>
+    <kilates>14</kilates>
+    <peso_real>30</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <rematado>16/07/2018 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-TLX_2</transferido>
+    <sucursal>TLX_2</sucursal>
+    <pneto>15</pneto>
+    <AOM>AGREGADA</AOM>
+    <rematadoEJ>16/07/2018 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>29.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>12250.0000</prestamo>
+    <contrato2>45035</contrato2>
+    <fecha_contrato>02/05/2018 12:00:00 a. m.</fecha_contrato>
+    <indice>12201</indice>
+  </Inventarios>
+</NewDataSet>
