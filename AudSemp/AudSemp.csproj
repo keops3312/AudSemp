@@ -475,6 +475,24 @@
     <Compile Include="Context\vencidos.cs">
       <DependentUpon>Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Forms\apartados.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>apartados.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ApartadosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ApartadosForm.Designer.cs">
+      <DependentUpon>ApartadosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ApartadosHistorialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ApartadosHistorialForm.Designer.cs">
+      <DependentUpon>ApartadosHistorialForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\contratos.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -511,16 +529,19 @@
     <Compile Include="Forms\PanelForm.Designer.cs">
       <DependentUpon>PanelForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\ApartadosModel.cs" />
     <Compile Include="Models\ContratosModel.cs" />
     <Compile Include="Models\InventarioModel.cs" />
     <Compile Include="Models\LocalidadModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\Rectangle.cs" />
+    <Compile Include="Presenter\ApartadosPresenter.cs" />
     <Compile Include="Presenter\ContratosPresenter.cs" />
     <Compile Include="Presenter\InventarioPresenter.cs" />
     <Compile Include="Presenter\LoginPresenter.cs" />
     <Compile Include="Presenter\PanelPresenter.cs" />
     <Compile Include="Presenter\RectanglePresenter.cs" />
+    <Compile Include="Views\IApartados.cs" />
     <Compile Include="Views\IContratos.cs" />
     <Compile Include="Views\IInventario.cs" />
     <Compile Include="Views\ILogin.cs" />
@@ -528,6 +549,16 @@
     <Compile Include="Views\IRectangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\apartados.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>apartados.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ApartadosForm.resx">
+      <DependentUpon>ApartadosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ApartadosHistorialForm.resx">
+      <DependentUpon>ApartadosHistorialForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\contratos.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>contratos.cs</LastGenOutput>
@@ -598,6 +629,11 @@
       <DependentUpon>Context.edmx</DependentUpon>
       <LastGenOutput>Context.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\historialApartadoIcon.png" />
+    <None Include="Resources\apartadoIcon.png" />
+    <None Include="Resources\inventariosIcon.png" />
+    <None Include="Resources\contratoIcon2.png" />
+    <None Include="Resources\contratoIcon.png" />
     <None Include="Resources\auditor.png" />
     <None Include="Resources\auditado.png" />
     <None Include="Resources\close1.png" />

@@ -73,6 +73,16 @@ namespace AudSemp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap apartadoIcon {
+            get {
+                object obj = ResourceManager.GetObject("apartadoIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap auditado {
             get {
                 object obj = ResourceManager.GetObject("auditado", resourceCulture);
@@ -123,6 +133,26 @@ namespace AudSemp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap contratoIcon {
+            get {
+                object obj = ResourceManager.GetObject("contratoIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap contratoIcon2 {
+            get {
+                object obj = ResourceManager.GetObject("contratoIcon2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap crystal_reports_logo1 {
             get {
                 object obj = ResourceManager.GetObject("crystal-reports-logo1", resourceCulture);
@@ -136,6 +166,26 @@ namespace AudSemp.Properties {
         internal static System.Drawing.Bitmap excelfile_29 {
             get {
                 object obj = ResourceManager.GetObject("excelfile-29", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap historialApartadoIcon {
+            get {
+                object obj = ResourceManager.GetObject("historialApartadoIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap inventariosIcon {
+            get {
+                object obj = ResourceManager.GetObject("inventariosIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

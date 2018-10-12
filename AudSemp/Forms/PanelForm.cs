@@ -87,7 +87,21 @@ namespace AudSemp.Forms
             inventariosForm.WindowState = FormWindowState.Maximized;
             inventariosForm.ShowDialog();
         }
+        private void metroTileItem3_Click(object sender, EventArgs e)
+        {
+            ApartadosForm apartadosForm = new ApartadosForm();
+            apartadosForm.loc = codigo;
+            apartadosForm.WindowState = FormWindowState.Maximized;
+            apartadosForm.ShowDialog();
 
+        }
+        private void metroTileItem4_Click(object sender, EventArgs e)
+        {
+            ApartadosHistorialForm apartadosHistorialForm = new ApartadosHistorialForm();
+            apartadosHistorialForm.loc = codigo;
+            apartadosHistorialForm.WindowState = FormWindowState.Maximized;
+            apartadosHistorialForm.ShowDialog();
+        }
 
         #endregion
 
@@ -150,8 +164,10 @@ namespace AudSemp.Forms
         }
 
 
+
+
         #endregion
 
-       
+      
     }
 }

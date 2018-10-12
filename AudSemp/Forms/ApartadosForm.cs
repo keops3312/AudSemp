@@ -1,11 +1,10 @@
-﻿
-//Form to logical to function Auditory to Inventory
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 
 
 namespace AudSemp.Forms
 {
-
-
     #region Libraries (libreriras)
     using AudSemp.Classes;
     using AudSemp.Context;
@@ -28,14 +27,13 @@ namespace AudSemp.Forms
     using System.Threading.Tasks;
     using System.Windows.Forms;
     #endregion
-
-    public partial class InventariosForm : Form,IInventario
+    public partial class ApartadosForm : Form,IApartados
     {
 
         #region Context
 
         private SEMP2013_Context db;
-        public InventariosForm()
+        public ApartadosForm()
         {
             InitializeComponent();
             db = new SEMP2013_Context();
@@ -72,13 +70,13 @@ namespace AudSemp.Forms
         #region Methods (Metodos)
         public void load()
         {
-            InventarioPresenter inventarioPresenter = new InventarioPresenter(this);
-            inventarioPresenter.TiposEstatus();
-            inventarioPresenter.TiposPrenda();
-            inventarioPresenter.timeInicio();
-            inventarioPresenter.timeFin();
-            inventarioPresenter.tiposOrden();
-            inventarioPresenter.modosOrden();
+            ApartadosPresenter apartadosPresenter = new ApartadosPresenter(this);
+            apartadosPresenter.TiposEstatus();
+            apartadosPresenter.TiposPrenda();
+            apartadosPresenter.timeInicio();
+            apartadosPresenter.timeFin();
+            apartadosPresenter.tiposOrden();
+            apartadosPresenter.modosOrden();
 
             foreach (var item in tipos)
             {
@@ -103,7 +101,7 @@ namespace AudSemp.Forms
 
         public void Excel(string ruta)
         {
-            string fechaInicio, fechaFin, tipoOrden = "reg", orden = "Ascendente";
+            string fechaInicio, fechaFin, tipoOrden = "no", orden = "Ascendente";
             List<categorias> tipoPrendas = new List<categorias>();
             List<Estatus> tipoStatus = new List<Estatus>();
 
@@ -182,54 +180,57 @@ namespace AudSemp.Forms
         {
 
 
-            DataTable dt = new DataTable("Inventarios");
-            dt.Columns.AddRange(new DataColumn[45]
+            DataTable dt = new DataTable("Apartados");
+            dt.Columns.AddRange(new DataColumn[48]
             {
-          new DataColumn("no"),
-          new DataColumn("contrato"),
-          new DataColumn("fecha"),
-          new DataColumn("bolsa"),
-          new DataColumn("noinv"),
-          new DataColumn("noserie"),
-          new DataColumn("descripcion"),
-          new DataColumn("detalles"),
-          new DataColumn("preciosugerido"),
-          new DataColumn("precioventa"),
-          new DataColumn("kilates"),
-          new DataColumn("peso_real"),
-          new DataColumn("condiciones"),
-          new DataColumn("tipo"),
-          new DataColumn("status"),
-          new DataColumn("mov"),
-          new DataColumn("rematado"),
-          new DataColumn("rematado_por"),
-          new DataColumn("mod_extemporanea"),
-          new DataColumn("transferido"),
-          new DataColumn("sucursal"),
-          new DataColumn("status_transferido"),
-          new DataColumn("fecha_trans"),
-          new DataColumn("actualizacion"),
-          new DataColumn("codigotrans"),
-          new DataColumn("pneto"),
-          new DataColumn("NOTAS"),
-          new DataColumn("AOM"),
-          new DataColumn("rematadoEJ"),
-          new DataColumn("precio_promocion"),
-          new DataColumn("fechaPP"),
-          new DataColumn("precioPromo2"),
-          new DataColumn("fechaPP2"),
-          new DataColumn("precioPromo3"),
-          new DataColumn("fechaPP3"),
-          new DataColumn("precioRemate"),
-          new DataColumn("fechaPRem"),
-          new DataColumn("precio_origen"),
-          new DataColumn("actualizo"),
-          new DataColumn("actualizo2"),
-          new DataColumn("actualizo3"),
-          new DataColumn("prestamo"),
-          new DataColumn("contrato2"),
-          new DataColumn("fecha_contrato"),
-          new DataColumn("indice")
+                    new DataColumn("no"),
+                    new DataColumn("FOLIO_REM"),
+                    new DataColumn("bolsa"),
+                    new DataColumn("noinv"),
+                    new DataColumn("noserie"),
+                    new DataColumn("descripcion"),
+                    new DataColumn("detalles"),
+                    new DataColumn("preciosugerido"),
+                    new DataColumn("precioventa"),
+                    new DataColumn("kilates"),
+                    new DataColumn("peso_real"),
+                    new DataColumn("condiciones"),
+                    new DataColumn("tipo"),
+                    new DataColumn("status"),
+                    new DataColumn("apartado_con"),
+                    new DataColumn("apartado_cantidad"),
+                    new DataColumn("aparto"),
+                    new DataColumn("idcliente"),
+                    new DataColumn("resta_por_pagar"),
+                    new DataColumn("fecha_de_apartado"),
+                    new DataColumn("usuario"),
+                    new DataColumn("realizado_en"),
+                    new DataColumn("comentario"),
+                    new DataColumn("liquido_fecha"),
+                    new DataColumn("nota_liquido"),
+                    new DataColumn("penalizado"),
+                    new DataColumn("penalizado_precio"),
+                    new DataColumn("Fecha_de_penalizacion"),
+                    new DataColumn("mot_penalizacion"),
+                    new DataColumn("cancelo"),
+                    new DataColumn("fecha_cancelo"),
+                    new DataColumn("mot_cancelo"),
+                    new DataColumn("folio_apartado"),
+                    new DataColumn("promocion"),
+                    new DataColumn("vigencia"),
+                    new DataColumn("precio_origen"),
+                    new DataColumn("descuento"),
+                    new DataColumn("tipo_desc"),
+                    new DataColumn("precio_remate"),
+                    new DataColumn("penalizacion_por"),
+                    new DataColumn("cancelacion_por"),
+                    new DataColumn("dias_minimo"),
+                    new DataColumn("dias_normal"),
+                    new DataColumn("dias_tolerancia"),
+                    new DataColumn("apartado_min"),
+                    new DataColumn("apartado_norm"),
+                    new DataColumn("nombre_plazo"),
+                    new DataColumn("tipo_apartado")
             });
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
@@ -238,16 +239,14 @@ namespace AudSemp.Forms
 
             int i = 0;
 
-          
-
             foreach (var items in tipos)
             {
 
 
                 foreach (var itemEstatus in Estatus)
                 {
-                    var result = from s in db.artventas.Where(p => p.rematadoEJ >= Inicio &&
-                                      p.rematadoEJ <= Fin &&
+                    var result = from s in db.Apartados.Where(p => p.fecha_de_apartado >= Inicio &&
+                                      p.fecha_de_apartado <= Fin &&
                                       p.tipo == items.categoria &&
                                       p.status == itemEstatus.estatu).ToList()
                                  select s;
@@ -256,32 +255,30 @@ namespace AudSemp.Forms
 
                     foreach (var item in result)
                     {
-
                         cantidad = result.Count();
                         i++;
                         backgroundWorker1.ReportProgress(i);
 
-                        dt.Rows.Add(item.no, item.contrato, item.fecha,
-                            item.bolsa, item.noinv, item.noserie, item.descripcion,
-                            item.detalles, item.preciosugerido, item.precioventa, item.kilates, item.peso_real,
-                            item.condiciones, item.tipo, item.status, item.mov,
-                            item.rematado, item.rematado_por, item.mod_extemporanea, item.transferido, item.sucursal,
-                            item.status_transferido, item.fecha_trans, item.actualizacion,
-                            item.codigotrans, item.pneto, item.NOTAS, item.AOM, item.rematadoEJ,
-                            item.precio_promocion, item.fechaPP, item.precioPromo2, item.fechaPP2, item.precioPromo3, item.fechaPP3,
-                            item.precioRemate, item.fechaPRem, item.precio_origen, item.actualizo, item.actualizo2, item.actualizo3,
-                            item.prestamo, item.contrato2, item.fecha_contrato, item.indice);
+                        dt.Rows.Add(item.no, item.FOLIO_REM, item.bolsa,
+                            item.noinv, item.noserie, item.descripcion, item.detalles,
+                            item.preciosugerido, item.precioventa, item.kilates, item.peso_real, item.condiciones,
+                            item.tipo, item.status, item.apartado_con, item.apartado_cantidad,
+                            item.aparto, item.idcliente, item.resta_por_pagar, Convert.ToDateTime(item.fecha_de_apartado).ToString("yyyy-MM-dd"), item.usuario,
+                            item.realizado_en, item.comentario, item.liquido_fecha,
+                            item.nota_liquido, item.penalizado, item.penalizado_precio, item.Fecha_de_penalizacion, item.mot_penalizacion,
+                            item.cancelo, item.fecha_cancelo, item.mot_cancelo, item.folio_apartado, item.promocion, item.vigencia,
+                            item.precio_origen, item.descuento, item.tipo_desc, item.precio_remate, item.penalizacion_por,
+                            item.cancelacion_por, item.dias_minimo, item.dias_normal, item.dias_tolerancia, item.apartado_min,
+                            item.apartado_norm, item.nombre_plazo, item.tipo_apartado);
 
 
                     }
                     i = 0;
-
                 }
 
 
 
             }
-
 
             DataView dataView = new DataView(dt);
             dt = new DataTable();
@@ -291,25 +288,19 @@ namespace AudSemp.Forms
             switch (mode)
             {
                 default:
-                    dataView.Sort = "Indice asc";
+                    dataView.Sort = "no asc";
                     break;
-                case "InventarioAscendente":
+                case "No.InventarioAscendente":
                     dataView.Sort = "noinv asc";
                     break;
-                case "InventarioDescendente":
+                case "No.InventarioDescendente":
                     dataView.Sort = "noinv desc";
                     break;
-                case "FechaRemateAscendente":
-                    dataView.Sort = "rematadoEJ asc";
+                case "FechaApartadoAscendente":
+                    dataView.Sort = "fecha_de_apartado asc";
                     break;
-                case "FechaRemateDescendente":
-                    dataView.Sort = "rematadoEJ desc";
-                    break;
-                case "TipoAscendente":
-                    dataView.Sort = "tipo asc";
-                    break;
-                case "TipoDescendente":
-                    dataView.Sort = "tipo desc";
+                case "FechaApartadoDescendente":
+                    dataView.Sort = "fecha_de_apartado desc";
                     break;
                 case "StatusAscendente":
                     dataView.Sort = "status asc";
@@ -317,11 +308,11 @@ namespace AudSemp.Forms
                 case "StatusDescendente":
                     dataView.Sort = "status desc";
                     break;
-                case "PrecioAscendente":
-                    dataView.Sort = "precioventa asc";
+                case "CategoriaAscendente":
+                    dataView.Sort = "tipo asc";
                     break;
-                case "PrecioDescendente":
-                    dataView.Sort = "precioventa desc";
+                case "CategoriaDescendente":
+                    dataView.Sort = "tipo desc";
                     break;
 
             }
@@ -341,7 +332,7 @@ namespace AudSemp.Forms
             {
 
 
-                dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/audInventarios.xml", XmlWriteMode.WriteSchema);
+                dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/audApartados.xml", XmlWriteMode.WriteSchema);
 
 
 
@@ -352,15 +343,43 @@ namespace AudSemp.Forms
 
         #endregion
 
-        #region Events (eventos)
-        private void InventariosForm_Load(object sender, EventArgs e)
+        #region Events (Eventos)
+        private void ApartadosForm_Load(object sender, EventArgs e)
         {
             load();
         }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            if (backgroundWorker1.WorkerSupportsCancellation == true)
+            {
+                backgroundWorker1.CancelAsync();
+                btnExportar.Enabled = true;
+                btnReporte.Enabled = true;
+                btnRegresar.Enabled = true;
+                btnCancel.Visible = false;
+
+
+
+                MessageBox.Show("Exportacion CANCELADA",
+                 "Auditoria Semp", MessageBoxButtons.OK,
+                 MessageBoxIcon.Information);
+                prg1.Value = 0;
+                lblProgress.Text = "-";
+
+
+            }
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void btnReporte_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
-             MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+           MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             switch (result)
             {
                 case DialogResult.OK:
@@ -424,31 +443,66 @@ namespace AudSemp.Forms
             }
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void checkModo_CheckedChanged(object sender, EventArgs e)
         {
-            if (backgroundWorker1.WorkerSupportsCancellation == true)
+            if (checkModo.Checked == false)
             {
-                backgroundWorker1.CancelAsync();
-                btnExportar.Enabled = true;
-                btnReporte.Enabled = true;
-                btnRegresar.Enabled = true;
-                btnCancel.Visible = false;
-
-
-
-                MessageBox.Show("Exportacion CANCELADA",
-                 "Auditoria Semp", MessageBoxButtons.OK,
-                 MessageBoxIcon.Information);
-                prg1.Value = 0;
-                lblProgress.Text = "-";
-
-
+                cmbOrden.Enabled = false;
+            }
+            else
+            {
+                cmbOrden.Enabled = true;
             }
         }
 
-        private void btnRegresar_Click(object sender, EventArgs e)
+        private void checkOrden_CheckedChanged(object sender, EventArgs e)
         {
-            this.Close();
+            if (checkOrden.Checked == false)
+            {
+                cmbTipoOrden.Enabled = false;
+            }
+            else
+            {
+                cmbTipoOrden.Enabled = true;
+            }
+        }
+
+        private void checkFechas_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkFechas.Checked == false)
+            {
+                dtInicio.Enabled = false;
+                dtFin.Enabled = false;
+            }
+            else
+            {
+                dtInicio.Enabled = true;
+                dtFin.Enabled = true;
+            }
+        }
+
+        private void checkContratos_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkContratos.Checked == false)
+            {
+                //chkPrendas
+                for (int i = 0; i < chkContratos.Items.Count; i++)
+                {
+                    chkContratos.SetItemChecked(i, false);
+                }
+
+
+
+            }
+            else
+            {
+                for (int i = 0; i < chkContratos.Items.Count; i++)
+                {
+                    chkContratos.SetItemChecked(i, true);
+                }
+
+
+            }
         }
 
         private void checkPrendas_CheckedChanged(object sender, EventArgs e)
@@ -475,33 +529,9 @@ namespace AudSemp.Forms
             }
         }
 
-        private void checkContratos_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkContratos.Checked == false)
-            {
-                //chkPrendas
-                for (int i = 0; i < chkContratos.Items.Count; i++)
-                {
-                    chkContratos.SetItemChecked(i, false);
-                }
-
-
-
-            }
-            else
-            {
-                for (int i = 0; i < chkContratos.Items.Count; i++)
-                {
-                    chkContratos.SetItemChecked(i, true);
-                }
-
-
-            }
-
-        }
-
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
+
             Excel(ruta);
             Thread.Sleep(100);
         }
@@ -512,6 +542,7 @@ namespace AudSemp.Forms
             prg1.Maximum = cantidad;
             prg1.Value = e.ProgressPercentage;
             lblProgress.Text = (e.ProgressPercentage.ToString() + " / " + cantidad + " # Registros Completados...");
+
         }
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -522,7 +553,7 @@ namespace AudSemp.Forms
             {
                 //creamos los para metros
 
-                inventarios ob = new inventarios();
+                apartados ob = new apartados();
                 LocalidadModel localidadModel = new LocalidadModel();
                 localidadModel.localidadResult(loc);
                 ob.SetParameterValue("tipos", leyendaTipos);
@@ -557,43 +588,6 @@ namespace AudSemp.Forms
             btnCancel.Visible = false;
         }
 
-        private void checkFechas_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkFechas.Checked == false)
-            {
-                dtInicio.Enabled = false;
-                dtFin.Enabled = false;
-            }
-            else
-            {
-                dtInicio.Enabled = true;
-                dtFin.Enabled = true;
-            }
-        }
-
-        private void checkOrden_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkOrden.Checked == false)
-            {
-                cmbTipoOrden.Enabled = false;
-            }
-            else
-            {
-                cmbTipoOrden.Enabled = true;
-            }
-        }
-
-        private void checkModo_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkModo.Checked == false)
-            {
-                cmbOrden.Enabled = false;
-            }
-            else
-            {
-                cmbOrden.Enabled = true;
-            }
-        }
         #endregion
 
 
