@@ -33,7 +33,6 @@
             this.lblProgress = new DevComponents.DotNetBar.LabelX();
             this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
             this.chkContratos = new System.Windows.Forms.CheckedListBox();
-            this.chkPrendas = new System.Windows.Forms.CheckedListBox();
             this.cmbOrden = new DevComponents.DotNetBar.Controls.ComboTree();
             this.cmbTipoOrden = new DevComponents.DotNetBar.Controls.ComboTree();
             this.dtFin = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
@@ -44,9 +43,9 @@
             this.checkOrden = new DevComponents.DotNetBar.Controls.CheckBoxX();
             this.checkFechas = new DevComponents.DotNetBar.Controls.CheckBoxX();
             this.checkContratos = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.checkPrendas = new DevComponents.DotNetBar.Controls.CheckBoxX();
             this.prg1 = new DevComponents.DotNetBar.Controls.ProgressBarX();
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.dtFin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtInicio)).BeginInit();
             this.SuspendLayout();
@@ -63,6 +62,7 @@
             this.btnCancel.Size = new System.Drawing.Size(71, 54);
             this.btnCancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnCancel.TabIndex = 37;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // lblProgress
             // 
@@ -89,22 +89,15 @@
             this.btnRegresar.Size = new System.Drawing.Size(64, 51);
             this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnRegresar.TabIndex = 35;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // chkContratos
             // 
             this.chkContratos.FormattingEnabled = true;
-            this.chkContratos.Location = new System.Drawing.Point(160, 64);
+            this.chkContratos.Location = new System.Drawing.Point(12, 57);
             this.chkContratos.Name = "chkContratos";
             this.chkContratos.Size = new System.Drawing.Size(130, 154);
             this.chkContratos.TabIndex = 34;
-            // 
-            // chkPrendas
-            // 
-            this.chkPrendas.FormattingEnabled = true;
-            this.chkPrendas.Location = new System.Drawing.Point(6, 64);
-            this.chkPrendas.Name = "chkPrendas";
-            this.chkPrendas.Size = new System.Drawing.Size(130, 154);
-            this.chkPrendas.TabIndex = 33;
             // 
             // cmbOrden
             // 
@@ -115,9 +108,9 @@
             this.cmbOrden.BackgroundStyle.Class = "TextBoxBorder";
             this.cmbOrden.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.cmbOrden.ButtonDropDown.Visible = true;
-            this.cmbOrden.Location = new System.Drawing.Point(610, 57);
+            this.cmbOrden.Location = new System.Drawing.Point(565, 57);
             this.cmbOrden.Name = "cmbOrden";
-            this.cmbOrden.Size = new System.Drawing.Size(134, 23);
+            this.cmbOrden.Size = new System.Drawing.Size(161, 23);
             this.cmbOrden.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cmbOrden.TabIndex = 32;
             // 
@@ -130,9 +123,9 @@
             this.cmbTipoOrden.BackgroundStyle.Class = "TextBoxBorder";
             this.cmbTipoOrden.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.cmbTipoOrden.ButtonDropDown.Visible = true;
-            this.cmbTipoOrden.Location = new System.Drawing.Point(470, 57);
+            this.cmbTipoOrden.Location = new System.Drawing.Point(373, 57);
             this.cmbTipoOrden.Name = "cmbTipoOrden";
-            this.cmbTipoOrden.Size = new System.Drawing.Size(134, 23);
+            this.cmbTipoOrden.Size = new System.Drawing.Size(161, 23);
             this.cmbTipoOrden.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cmbTipoOrden.TabIndex = 31;
             // 
@@ -146,7 +139,7 @@
             this.dtFin.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
             this.dtFin.ButtonDropDown.Visible = true;
             this.dtFin.IsPopupCalendarOpen = false;
-            this.dtFin.Location = new System.Drawing.Point(296, 97);
+            this.dtFin.Location = new System.Drawing.Point(172, 87);
             // 
             // 
             // 
@@ -194,7 +187,7 @@
             this.dtInicio.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
             this.dtInicio.ButtonDropDown.Visible = true;
             this.dtInicio.IsPopupCalendarOpen = false;
-            this.dtInicio.Location = new System.Drawing.Point(296, 57);
+            this.dtInicio.Location = new System.Drawing.Point(172, 60);
             // 
             // 
             // 
@@ -244,6 +237,7 @@
             this.btnReporte.Size = new System.Drawing.Size(71, 52);
             this.btnReporte.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnReporte.TabIndex = 28;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
             // 
             // btnExportar
             // 
@@ -257,6 +251,7 @@
             this.btnExportar.Size = new System.Drawing.Size(71, 52);
             this.btnExportar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnExportar.TabIndex = 27;
+            this.btnExportar.Click += new System.EventHandler(this.btnExportar_Click);
             // 
             // checkModo
             // 
@@ -267,12 +262,13 @@
             this.checkModo.Checked = true;
             this.checkModo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkModo.CheckValue = "Y";
-            this.checkModo.Location = new System.Drawing.Point(662, 28);
+            this.checkModo.Location = new System.Drawing.Point(565, 29);
             this.checkModo.Name = "checkModo";
             this.checkModo.Size = new System.Drawing.Size(82, 23);
             this.checkModo.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.checkModo.TabIndex = 26;
             this.checkModo.Text = "Modo Orden";
+            this.checkModo.CheckedChanged += new System.EventHandler(this.checkModo_CheckedChanged);
             // 
             // checkOrden
             // 
@@ -283,12 +279,13 @@
             this.checkOrden.Checked = true;
             this.checkOrden.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkOrden.CheckValue = "Y";
-            this.checkOrden.Location = new System.Drawing.Point(516, 29);
+            this.checkOrden.Location = new System.Drawing.Point(373, 28);
             this.checkOrden.Name = "checkOrden";
             this.checkOrden.Size = new System.Drawing.Size(88, 23);
             this.checkOrden.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.checkOrden.TabIndex = 25;
             this.checkOrden.Text = "Ordernar Por";
+            this.checkOrden.CheckedChanged += new System.EventHandler(this.checkOrden_CheckedChanged);
             // 
             // checkFechas
             // 
@@ -299,12 +296,13 @@
             this.checkFechas.Checked = true;
             this.checkFechas.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkFechas.CheckValue = "Y";
-            this.checkFechas.Location = new System.Drawing.Point(351, 28);
+            this.checkFechas.Location = new System.Drawing.Point(172, 28);
             this.checkFechas.Name = "checkFechas";
             this.checkFechas.Size = new System.Drawing.Size(113, 23);
             this.checkFechas.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.checkFechas.TabIndex = 24;
             this.checkFechas.Text = "Rango de Fecchas";
+            this.checkFechas.CheckedChanged += new System.EventHandler(this.checkFechas_CheckedChanged);
             // 
             // checkContratos
             // 
@@ -315,28 +313,13 @@
             this.checkContratos.Checked = true;
             this.checkContratos.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkContratos.CheckValue = "Y";
-            this.checkContratos.Location = new System.Drawing.Point(160, 0);
+            this.checkContratos.Location = new System.Drawing.Point(12, 0);
             this.checkContratos.Name = "checkContratos";
             this.checkContratos.Size = new System.Drawing.Size(130, 51);
             this.checkContratos.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.checkContratos.TabIndex = 23;
             this.checkContratos.Text = "Seleccionar todos los Estatus de Contrato";
-            // 
-            // checkPrendas
-            // 
-            // 
-            // 
-            // 
-            this.checkPrendas.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.checkPrendas.Checked = true;
-            this.checkPrendas.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkPrendas.CheckValue = "Y";
-            this.checkPrendas.Location = new System.Drawing.Point(6, 0);
-            this.checkPrendas.Name = "checkPrendas";
-            this.checkPrendas.Size = new System.Drawing.Size(130, 51);
-            this.checkPrendas.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.checkPrendas.TabIndex = 22;
-            this.checkPrendas.Text = "Seleccionar todos los Tipos de Prenda";
+            this.checkContratos.CheckedChanged += new System.EventHandler(this.checkContratos_CheckedChanged);
             // 
             // prg1
             // 
@@ -370,6 +353,14 @@
             this.crystalReportViewer1.TabIndex = 20;
             this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.WorkerReportsProgress = true;
+            this.backgroundWorker1.WorkerSupportsCancellation = true;
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
+            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
+            // 
             // ApartadosHistorialForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -380,7 +371,6 @@
             this.Controls.Add(this.lblProgress);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.chkContratos);
-            this.Controls.Add(this.chkPrendas);
             this.Controls.Add(this.cmbOrden);
             this.Controls.Add(this.cmbTipoOrden);
             this.Controls.Add(this.dtFin);
@@ -391,7 +381,6 @@
             this.Controls.Add(this.checkOrden);
             this.Controls.Add(this.checkFechas);
             this.Controls.Add(this.checkContratos);
-            this.Controls.Add(this.checkPrendas);
             this.Controls.Add(this.prg1);
             this.Controls.Add(this.crystalReportViewer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -399,6 +388,7 @@
             this.Name = "ApartadosHistorialForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Auditoria Historial Apartados";
+            this.Load += new System.EventHandler(this.ApartadosHistorialForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtFin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtInicio)).EndInit();
             this.ResumeLayout(false);
@@ -411,7 +401,6 @@
         private DevComponents.DotNetBar.LabelX lblProgress;
         private DevComponents.DotNetBar.ButtonX btnRegresar;
         private System.Windows.Forms.CheckedListBox chkContratos;
-        private System.Windows.Forms.CheckedListBox chkPrendas;
         private DevComponents.DotNetBar.Controls.ComboTree cmbOrden;
         private DevComponents.DotNetBar.Controls.ComboTree cmbTipoOrden;
         private DevComponents.Editors.DateTimeAdv.DateTimeInput dtFin;
@@ -422,8 +411,8 @@
         private DevComponents.DotNetBar.Controls.CheckBoxX checkOrden;
         private DevComponents.DotNetBar.Controls.CheckBoxX checkFechas;
         private DevComponents.DotNetBar.Controls.CheckBoxX checkContratos;
-        private DevComponents.DotNetBar.Controls.CheckBoxX checkPrendas;
         private DevComponents.DotNetBar.Controls.ProgressBarX prg1;
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
