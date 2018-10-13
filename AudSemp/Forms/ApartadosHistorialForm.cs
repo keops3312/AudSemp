@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿
 
 
 namespace AudSemp.Forms
@@ -18,6 +16,7 @@ namespace AudSemp.Forms
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
+    using System.Configuration;
     using System.Data;
     using System.Drawing;
     using System.IO;
@@ -26,11 +25,15 @@ namespace AudSemp.Forms
     using System.Threading;
     using System.Threading.Tasks;
     using System.Windows.Forms;
+    using System.Data.SqlClient;
+   
     #endregion
     public partial class ApartadosHistorialForm : Form, IHistorialApartado
     {
 
         #region Context
+
+        private string CNX = ConfigurationManager.AppSettings["SEMP2013_CNX"].ToString();
 
         private SEMP2013_Context db;
         public ApartadosHistorialForm()
@@ -40,6 +43,7 @@ namespace AudSemp.Forms
 
             backgroundWorker1.WorkerReportsProgress = true;
             backgroundWorker1.WorkerSupportsCancellation = true;
+           
 
         }
 
@@ -256,7 +260,7 @@ namespace AudSemp.Forms
                 HistorialApartadosReport ob = new HistorialApartadosReport();
                 LocalidadModel localidadModel = new LocalidadModel();
                 localidadModel.localidadResult(loc);
-                ob.SetParameterValue("tipos", leyendaTipos);
+                //ob.SetParameterValue("tipos", leyendaTipos);
                 ob.SetParameterValue("estatus", leyendaEstatus);
                 ob.SetParameterValue("rangos", leyendaRango);
                 ob.SetParameterValue("modoOrden", mode);
@@ -392,8 +396,7 @@ namespace AudSemp.Forms
                     new DataColumn("ultimaOperacion"),
                     new DataColumn("ultimoMovimiento"),
                     new DataColumn("Descripcion")
-
-
+                     
             });
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
@@ -408,40 +411,72 @@ namespace AudSemp.Forms
                 foreach (var itemEstatus in Estatus)
                 {
 
-                var result = db.CAJA_AUXILIAR.Where(p =>  p.Folio.StartsWith("A-") &&
-                                  p.Status == itemEstatus.estatu &&
-                                  p.Fecha >= Inicio &&
-                                  p.Fecha <= Fin).Distinct().ToList(); 
+                var result = db.CAJA_AUXILIAR.Where(
+                                                    p => p.Folio.StartsWith("A-") &&
+                                                           p.Status == itemEstatus.estatu &&
+                                                           p.Fecha >= Inicio &&
+                                                           p.Fecha <= Fin).ToList();
+
+                //var result = from n in db.CAJA_AUXILIAR
+                //             where n.Folio.StartsWith("A-") &&
+                //                        n.Status == itemEstatus.estatu &&
+                //                        n.Fecha >= Inicio &&
+                //                        n.Fecha <= Fin
+                //             select n.Folio;
+                var result2 = result.Select(p => p.Folio).Distinct().ToList();
 
 
-                
 
-
-                    foreach (var item in result)
+                foreach (var item in result2)
+                {
+                    cantidad = result2.Count();
+                    i++;
+                    backgroundWorker1.ReportProgress(i);
+                    using (SqlConnection cnx = new SqlConnection(CNX))
                     {
-                        cantidad = result.Count();
-                        i++;
-                        backgroundWorker1.ReportProgress(i);
+                        cnx.Open();
+
+                        using (SqlDataAdapter command = new SqlDataAdapter(" SELECT folio," +
+                                        " SUM(CAST(abono AS decimal))  as Acumulado, " +
+                                         " min(fecha) as fechaPrimMov, " +
+                                          " max(fecha) as fechaUltMov, " +
+                                          " max(Comentario) as Comentario, " +
+                                          " max(status) as ultimoEstatus, " +
+                                          " max(Apartado_no) as ultimaOperacion, " +
+                                         " max(mov) as ultimoMovimiento, " +
+                                          " max(concepto) as descripcion " +
+                                          " FROM CAJA_AUXILIAR where folio='" + item.ToString() + "' GROUP BY Folio", cnx))
+                        {
+                            DataTable model = new DataTable();
+                            model.Clear();
+                            command.Fill(model);
 
 
-                    query2 = New SqlDataAdapter(" SELECT folio,  SUM(CAST(abono AS decimal))  as Acumulado, " &
-                                          " min(fecha) as fechaPrimMov, " &
-                                          " max(fecha) as fechaUltMov, " &
-                                          " max(Comentario) as Comentario, " &
-                                          " max(status) as ultimoEstatus, " &
-                                          " max(Apartado_no) as ultimaOperacion, " &
-                                          " max(mov) as ultimoMovimiento, " &
-                                          " max(concepto) as descripcion " &
-                                          " FROM CAJA_AUXILIAR where folio='" + folio + "' GROUP BY Folio", cnn)
+                            if (!dt.Rows.Contains(model.Rows[0][0].ToString()))
+                            {
+                               dt.Rows.Add(model.Rows[0][0].ToString(),
+                              model.Rows[0][1].ToString(),
+                              Convert.ToDateTime(model.Rows[0][2].ToString()).ToString("yyyy-MM-dd"),
+                              Convert.ToDateTime(model.Rows[0][3].ToString()).ToString("yyyy-MM-dd"),
+                              model.Rows[0][4].ToString(),
+                              model.Rows[0][5].ToString(),
+                              model.Rows[0][6].ToString(),
+                              model.Rows[0][7].ToString(),
+                              model.Rows[0][8].ToString());
+                            }
+                          
 
-                    dt.Rows.Add(buscar.Rows(0).Item(0), buscar.Rows(0).Item(1), buscar.Rows(0).Item(2),
-                    buscar.Rows(0).Item(3), buscar.Rows(0).Item(4), buscar.Rows(0).Item(5), buscar.Rows(0).Item(6), buscar.Rows(0).Item(7),
-                                                buscar.Rows(0).Item(8))
 
+
+                        }
+
+
+
+                    }
 
                 }
 
-                    i = 0;
+                i = 0;
                 }
 
 
@@ -457,7 +492,7 @@ namespace AudSemp.Forms
             switch (mode)
             {
                 default:
-                    dataView.Sort = "mov ASC";
+                    dataView.Sort = "Folio ASC";
                     break;
                 case "FolioAscendente":
                     dataView.Sort = "Folio ASC";
