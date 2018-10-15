@@ -506,6 +506,18 @@
     <Compile Include="Forms\ContratosForm.Designer.cs">
       <DependentUpon>ContratosForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\depositosRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>depositosRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DepositosyRetiros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DepositosyRetiros.Designer.cs">
+      <DependentUpon>DepositosyRetiros.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\HistorialApartadosReport.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -536,8 +548,15 @@
     <Compile Include="Forms\PanelForm.Designer.cs">
       <DependentUpon>PanelForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\RetirosRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RetirosRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Models\ApartadosModel.cs" />
     <Compile Include="Models\ContratosModel.cs" />
+    <Compile Include="Models\depositosRetirosModel.cs" />
     <Compile Include="Models\HistorialApartadosModel.cs" />
     <Compile Include="Models\InventarioModel.cs" />
     <Compile Include="Models\LocalidadModel.cs" />
@@ -545,6 +564,7 @@
     <Compile Include="Models\Rectangle.cs" />
     <Compile Include="Presenter\ApartadosPresenter.cs" />
     <Compile Include="Presenter\ContratosPresenter.cs" />
+    <Compile Include="Presenter\DepositosRetirosPresenter.cs" />
     <Compile Include="Presenter\HistorialApartadosPresenter.cs" />
     <Compile Include="Presenter\InventarioPresenter.cs" />
     <Compile Include="Presenter\LoginPresenter.cs" />
@@ -552,6 +572,7 @@
     <Compile Include="Presenter\RectanglePresenter.cs" />
     <Compile Include="Views\IApartados.cs" />
     <Compile Include="Views\IContratos.cs" />
+    <Compile Include="Views\IDepositosRetiros.cs" />
     <Compile Include="Views\IHistorialApartado.cs" />
     <Compile Include="Views\IInventario.cs" />
     <Compile Include="Views\ILogin.cs" />
@@ -576,6 +597,10 @@
     <EmbeddedResource Include="Forms\ContratosForm.resx">
       <DependentUpon>ContratosForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\depositosRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>depositosRPT.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\HistorialApartadosReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>HistorialApartadosReport.cs</LastGenOutput>
@@ -592,6 +617,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PanelForm.resx">
       <DependentUpon>PanelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RetirosRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RetirosRPT.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -645,6 +674,7 @@
       <DependentUpon>Context.edmx</DependentUpon>
       <LastGenOutput>Context.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\construccion.png" />
     <None Include="Resources\historialApartadoIcon.png" />
     <None Include="Resources\apartadoIcon.png" />
     <None Include="Resources\inventariosIcon.png" />

@@ -133,6 +133,16 @@ namespace AudSemp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap construccion {
+            get {
+                object obj = ResourceManager.GetObject("construccion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap contratoIcon {
             get {
                 object obj = ResourceManager.GetObject("contratoIcon", resourceCulture);

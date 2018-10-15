@@ -40,7 +40,6 @@
             this.labelX5 = new DevComponents.DotNetBar.LabelX();
             this.metroTilePanel1 = new DevComponents.DotNetBar.Metro.MetroTilePanel();
             this.itemContainer1 = new DevComponents.DotNetBar.ItemContainer();
-            this.metroTileItem5 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem6 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem7 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem8 = new DevComponents.DotNetBar.Metro.MetroTileItem();
@@ -54,6 +53,7 @@
             this.metroTileItem2 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem3 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem4 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem5 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new DevComponents.DotNetBar.ButtonX();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -289,18 +289,10 @@
             this.itemContainer1.TitleStyle.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.itemContainer1.TitleText = "Seleccione su opcion para comenzar a Auditar";
             // 
-            // metroTileItem5
-            // 
-            this.metroTileItem5.Name = "metroTileItem5";
-            this.metroTileItem5.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem5.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
-            // 
-            // 
-            // 
-            this.metroTileItem5.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
             // metroTileItem6
             // 
+            this.metroTileItem6.Image = global::AudSemp.Properties.Resources.construccion;
+            this.metroTileItem6.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTileItem6.Name = "metroTileItem6";
             this.metroTileItem6.SymbolColor = System.Drawing.Color.Empty;
             this.metroTileItem6.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
@@ -308,9 +300,13 @@
             // 
             // 
             this.metroTileItem6.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem6.TitleText = "Bolsas Contratos";
+            this.metroTileItem6.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
             // 
             // metroTileItem7
             // 
+            this.metroTileItem7.Image = global::AudSemp.Properties.Resources.construccion;
+            this.metroTileItem7.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTileItem7.Name = "metroTileItem7";
             this.metroTileItem7.SymbolColor = System.Drawing.Color.Empty;
             this.metroTileItem7.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
@@ -318,9 +314,13 @@
             // 
             // 
             this.metroTileItem7.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem7.TitleText = "Notas de Pago";
+            this.metroTileItem7.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
             // 
             // metroTileItem8
             // 
+            this.metroTileItem8.Image = global::AudSemp.Properties.Resources.construccion;
+            this.metroTileItem8.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTileItem8.Name = "metroTileItem8";
             this.metroTileItem8.SymbolColor = System.Drawing.Color.Empty;
             this.metroTileItem8.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
@@ -328,9 +328,13 @@
             // 
             // 
             this.metroTileItem8.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem8.TitleText = "Promociones y Descuentos";
+            this.metroTileItem8.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
             // 
             // metroTileItem9
             // 
+            this.metroTileItem9.Image = global::AudSemp.Properties.Resources.construccion;
+            this.metroTileItem9.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTileItem9.Name = "metroTileItem9";
             this.metroTileItem9.SymbolColor = System.Drawing.Color.Empty;
             this.metroTileItem9.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
@@ -338,9 +342,13 @@
             // 
             // 
             this.metroTileItem9.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem9.TitleText = "Autorizaciones Prestamos";
+            this.metroTileItem9.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
             // 
             // metroTileItem10
             // 
+            this.metroTileItem10.Image = global::AudSemp.Properties.Resources.construccion;
+            this.metroTileItem10.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTileItem10.Name = "metroTileItem10";
             this.metroTileItem10.SymbolColor = System.Drawing.Color.Empty;
             this.metroTileItem10.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
@@ -348,9 +356,13 @@
             // 
             // 
             this.metroTileItem10.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem10.TitleText = "Toma Fisica";
+            this.metroTileItem10.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
             // 
             // metroTileItem11
             // 
+            this.metroTileItem11.Image = global::AudSemp.Properties.Resources.construccion;
+            this.metroTileItem11.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTileItem11.Name = "metroTileItem11";
             this.metroTileItem11.SymbolColor = System.Drawing.Color.Empty;
             this.metroTileItem11.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
@@ -358,9 +370,13 @@
             // 
             // 
             this.metroTileItem11.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem11.TitleText = "Contratos Aleatorios";
+            this.metroTileItem11.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
             // 
             // metroTileItem12
             // 
+            this.metroTileItem12.Image = global::AudSemp.Properties.Resources.construccion;
+            this.metroTileItem12.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTileItem12.Name = "metroTileItem12";
             this.metroTileItem12.SymbolColor = System.Drawing.Color.Empty;
             this.metroTileItem12.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
@@ -368,6 +384,8 @@
             // 
             // 
             this.metroTileItem12.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem12.TitleText = "Revision Inventarios";
+            this.metroTileItem12.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
             // 
             // controlContainerItem1
             // 
@@ -450,6 +468,20 @@
             this.metroTileItem4.TitleText = "Historial Mov. Apartados";
             this.metroTileItem4.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.metroTileItem4.Click += new System.EventHandler(this.metroTileItem4_Click);
+            // 
+            // metroTileItem5
+            // 
+            this.metroTileItem5.Image = global::AudSemp.Properties.Resources.construccion;
+            this.metroTileItem5.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTileItem5.Name = "metroTileItem5";
+            this.metroTileItem5.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem5.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
+            // 
+            // 
+            // 
+            this.metroTileItem5.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem5.TitleText = "Depositos y Retiros";
+            this.metroTileItem5.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
             // 
             // pictureBox3
             // 
