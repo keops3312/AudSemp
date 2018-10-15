@@ -26,6 +26,7 @@ namespace AudSemp.Forms
     using System.Threading.Tasks;
     using System.Windows.Forms;
     using System.Data.SqlClient;
+    
    
     #endregion
     public partial class ApartadosHistorialForm : Form, IHistorialApartado
@@ -411,25 +412,18 @@ namespace AudSemp.Forms
                 foreach (var itemEstatus in Estatus)
                 {
 
-                var result = db.CAJA_AUXILIAR.Where(
-                                                    p => p.Folio.StartsWith("A-") &&
-                                                           p.Status == itemEstatus.estatu &&
-                                                           p.Fecha >= Inicio &&
-                                                           p.Fecha <= Fin).ToList();
-
-                //var result = from n in db.CAJA_AUXILIAR
-                //             where n.Folio.StartsWith("A-") &&
-                //                        n.Status == itemEstatus.estatu &&
-                //                        n.Fecha >= Inicio &&
-                //                        n.Fecha <= Fin
-                //             select n.Folio;
-                var result2 = result.Select(p => p.Folio).Distinct().ToList();
+                var result = (from p in db.CAJA_AUXILIAR
+                              where p.Folio.Contains("A-") &&
+                               p.Fecha >= Inicio &&
+                               p.Fecha <= Fin 
+                               select p.Folio).Distinct();
 
 
 
-                foreach (var item in result2)
+
+                foreach (var item in result)
                 {
-                    cantidad = result2.Count();
+                    cantidad = result.Count();
                     i++;
                     backgroundWorker1.ReportProgress(i);
                     using (SqlConnection cnx = new SqlConnection(CNX))
@@ -451,11 +445,11 @@ namespace AudSemp.Forms
                             model.Clear();
                             command.Fill(model);
 
-
-                            if (!dt.Rows.Contains(model.Rows[0][0].ToString()))
+                            string compare = model.Rows[0][5].ToString();
+                            if (compare ==itemEstatus.estatu)
                             {
-                               dt.Rows.Add(model.Rows[0][0].ToString(),
-                              model.Rows[0][1].ToString(),
+                                dt.Rows.Add(model.Rows[0][0].ToString(),
+                              Convert.ToDecimal(model.Rows[0][1].ToString()),
                               Convert.ToDateTime(model.Rows[0][2].ToString()).ToString("yyyy-MM-dd"),
                               Convert.ToDateTime(model.Rows[0][3].ToString()).ToString("yyyy-MM-dd"),
                               model.Rows[0][4].ToString(),
@@ -463,8 +457,11 @@ namespace AudSemp.Forms
                               model.Rows[0][6].ToString(),
                               model.Rows[0][7].ToString(),
                               model.Rows[0][8].ToString());
+
                             }
-                          
+
+
+
 
 
 
