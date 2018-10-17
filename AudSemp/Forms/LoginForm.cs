@@ -16,6 +16,9 @@ namespace AudSemp
     using AudSemp.Forms;
     using AudSemp.Views;
     using AudSemp.Presenter;
+    using System.IO;
+    using AudSemp.Classes;
+    using System.Threading;
     #endregion
 
     public partial class LoginForm : Form,IRectangle,ILogin
@@ -113,7 +116,18 @@ namespace AudSemp
         private void Form1_Load(object sender, EventArgs e)
         {
             txtUser.Focus();
+            //Search of local
+            LocationConexion locationConexion = new LocationConexion();
+
+            String[] result;
+            result = locationConexion.Scan();
+            labelX2.Text = "Conexion Encontrada...\n" +
+            "Nom: " + result[0].ToString() + "\n"+
+            "Localidad: " + result[1].ToString()+ "\n" +
+            "Direccion: " + result[2].ToString();
         }
+
+        
 
         private void btnMin_Click(object sender, EventArgs e)
         {
@@ -203,8 +217,9 @@ namespace AudSemp
             // 404 Failed Connection
         }
 
+
         #endregion
 
-
+       
     }
 }

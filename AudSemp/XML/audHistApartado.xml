@@ -24,619 +24,69 @@
     </xs:element>
   </xs:schema>
   <CajaAuxiliar>
-    <Folio>A-1003</Folio>
-    <Acumulado>245</Acumulado>
-    <FechaPrimMov>2018-03-14</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1626</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-1006</Folio>
+    <Folio>A-1031</Folio>
     <Acumulado>0</Acumulado>
-    <FechaPrimMov>2018-03-16</FechaPrimMov>
-    <FechaUltMov>2018-06-30</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>1680</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-1009</Folio>
-    <Acumulado>65</Acumulado>
-    <FechaPrimMov>2018-03-22</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1628</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-1021</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2018-04-12</FechaPrimMov>
-    <FechaUltMov>2018-06-27</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>1658</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-1097</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2018-07-13</FechaPrimMov>
-    <FechaUltMov>2018-10-03</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>1776</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-140</Folio>
-    <Acumulado>165</Acumulado>
-    <FechaPrimMov>2017-05-05</FechaPrimMov>
-    <FechaUltMov>2017-07-26</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>886</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-142</Folio>
-    <Acumulado>125</Acumulado>
-    <FechaPrimMov>2017-05-06</FechaPrimMov>
-    <FechaUltMov>2017-07-26</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>887</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-657</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2016-05-19</FechaPrimMov>
-    <FechaUltMov>2016-07-26</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>155</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-666</Folio>
-    <Acumulado>70</Acumulado>
-    <FechaPrimMov>2016-05-19</FechaPrimMov>
-    <FechaUltMov>2016-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>306</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-671</Folio>
-    <Acumulado>100</Acumulado>
-    <FechaPrimMov>2016-05-19</FechaPrimMov>
-    <FechaUltMov>2016-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>307</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-672</Folio>
-    <Acumulado>55</Acumulado>
-    <FechaPrimMov>2016-05-19</FechaPrimMov>
-    <FechaUltMov>2016-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>308</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-680</Folio>
-    <Acumulado>55</Acumulado>
-    <FechaPrimMov>2016-05-19</FechaPrimMov>
-    <FechaUltMov>2016-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>309</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-687</Folio>
-    <Acumulado>-1</Acumulado>
-    <FechaPrimMov>2016-06-01</FechaPrimMov>
-    <FechaUltMov>2016-08-17</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>202</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-699</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2016-06-29</FechaPrimMov>
-    <FechaUltMov>2016-09-05</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>238</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-706</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2016-07-09</FechaPrimMov>
-    <FechaUltMov>2016-09-19</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>261</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-707</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2016-07-13</FechaPrimMov>
-    <FechaUltMov>2016-09-24</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>279</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-709</Folio>
-    <Acumulado>20</Acumulado>
-    <FechaPrimMov>2016-07-20</FechaPrimMov>
-    <FechaUltMov>2016-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>310</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-712</Folio>
-    <Acumulado>55</Acumulado>
-    <FechaPrimMov>2016-07-25</FechaPrimMov>
-    <FechaUltMov>2016-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>311</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-714</Folio>
-    <Acumulado>80</Acumulado>
-    <FechaPrimMov>2016-08-02</FechaPrimMov>
-    <FechaUltMov>2016-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>312</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-715</Folio>
-    <Acumulado>482</Acumulado>
-    <FechaPrimMov>2016-08-04</FechaPrimMov>
-    <FechaUltMov>2016-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>313</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-728</Folio>
-    <Acumulado>70</Acumulado>
-    <FechaPrimMov>2016-08-24</FechaPrimMov>
-    <FechaUltMov>2017-01-05</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>486</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-736</Folio>
-    <Acumulado>132</Acumulado>
-    <FechaPrimMov>2016-09-17</FechaPrimMov>
-    <FechaUltMov>2017-01-05</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>487</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-738</Folio>
-    <Acumulado>60</Acumulado>
-    <FechaPrimMov>2016-09-19</FechaPrimMov>
-    <FechaUltMov>2017-01-05</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>488</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-761</Folio>
-    <Acumulado>56</Acumulado>
-    <FechaPrimMov>2016-11-18</FechaPrimMov>
-    <FechaUltMov>2017-03-08</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>575</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-762</Folio>
-    <Acumulado>100</Acumulado>
-    <FechaPrimMov>2016-12-08</FechaPrimMov>
-    <FechaUltMov>2017-03-08</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>576</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-765</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2016-11-24</FechaPrimMov>
-    <FechaUltMov>2017-02-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>531</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-767</Folio>
-    <Acumulado>26</Acumulado>
-    <FechaPrimMov>2016-11-26</FechaPrimMov>
-    <FechaUltMov>2017-03-08</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>577</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-774</Folio>
-    <Acumulado>215</Acumulado>
-    <FechaPrimMov>2016-12-12</FechaPrimMov>
-    <FechaUltMov>2017-03-08</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>578</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-787</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2016-12-29</FechaPrimMov>
-    <FechaUltMov>2017-03-06</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>573</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-794</Folio>
-    <Acumulado>185</Acumulado>
-    <FechaPrimMov>2017-02-01</FechaPrimMov>
-    <FechaUltMov>2017-07-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>842</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-817</Folio>
-    <Acumulado>38</Acumulado>
-    <FechaPrimMov>2017-03-24</FechaPrimMov>
-    <FechaUltMov>2017-07-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>843</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-818</Folio>
-    <Acumulado>155</Acumulado>
-    <FechaPrimMov>2017-03-24</FechaPrimMov>
-    <FechaUltMov>2017-07-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>3</ultimaOperacion>
-    <ultimoMovimiento>844</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-832</Folio>
-    <Acumulado>290</Acumulado>
-    <FechaPrimMov>2017-04-20</FechaPrimMov>
-    <FechaUltMov>2017-07-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>845</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-833</Folio>
-    <Acumulado>140</Acumulado>
-    <FechaPrimMov>2017-04-20</FechaPrimMov>
-    <FechaUltMov>2017-07-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>846</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-862</Folio>
-    <Acumulado>30</Acumulado>
-    <FechaPrimMov>2017-06-16</FechaPrimMov>
-    <FechaUltMov>2017-10-04</FechaUltMov>
-    <Comentario>R-2958</Comentario>
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>1005</ultimoMovimiento>
-    <Descripcion>RETIRO APART REM</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-863</Folio>
-    <Acumulado>35</Acumulado>
-    <FechaPrimMov>2017-06-17</FechaPrimMov>
-    <FechaUltMov>2017-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1006</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-867</Folio>
-    <Acumulado>130</Acumulado>
-    <FechaPrimMov>2017-06-23</FechaPrimMov>
-    <FechaUltMov>2017-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1007</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-877</Folio>
-    <Acumulado>119</Acumulado>
-    <FechaPrimMov>2017-07-21</FechaPrimMov>
-    <FechaUltMov>2017-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1008</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-883</Folio>
-    <Acumulado>32</Acumulado>
-    <FechaPrimMov>2017-07-31</FechaPrimMov>
-    <FechaUltMov>2017-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1009</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-886</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2017-08-04</FechaPrimMov>
-    <FechaUltMov>2017-10-04</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>1012</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-894</Folio>
-    <Acumulado>113</Acumulado>
-    <FechaPrimMov>2017-08-30</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1613</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-901</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2017-09-27</FechaPrimMov>
-    <FechaUltMov>2017-12-13</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>6</ultimaOperacion>
-    <ultimoMovimiento>1168</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-903</Folio>
-    <Acumulado>345</Acumulado>
-    <FechaPrimMov>2017-09-29</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1614</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-904</Folio>
-    <Acumulado>75</Acumulado>
-    <FechaPrimMov>2017-09-30</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1615</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-915</Folio>
-    <Acumulado>185</Acumulado>
-    <FechaPrimMov>2017-10-12</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1616</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-919</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2017-10-23</FechaPrimMov>
-    <FechaUltMov>2018-01-12</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>1249</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-962</Folio>
-    <Acumulado>230</Acumulado>
-    <FechaPrimMov>2017-12-28</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1617</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-969</Folio>
-    <Acumulado>55</Acumulado>
-    <FechaPrimMov>2018-01-08</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1618</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-970</Folio>
-    <Acumulado>320</Acumulado>
-    <FechaPrimMov>2018-01-11</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>3</ultimaOperacion>
-    <ultimoMovimiento>1619</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-980</Folio>
-    <Acumulado>120</Acumulado>
-    <FechaPrimMov>2018-02-02</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1620</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-984</Folio>
-    <Acumulado>10</Acumulado>
-    <FechaPrimMov>2018-02-19</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>3</ultimaOperacion>
-    <ultimoMovimiento>1629</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-990</Folio>
-    <Acumulado>125</Acumulado>
-    <FechaPrimMov>2018-02-27</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1622</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-991</Folio>
-    <Acumulado>32</Acumulado>
-    <FechaPrimMov>2018-02-27</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1623</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-994</Folio>
-    <Acumulado>165</Acumulado>
-    <FechaPrimMov>2018-03-05</FechaPrimMov>
-    <FechaUltMov>2018-06-16</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>2</ultimaOperacion>
-    <ultimoMovimiento>1624</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-995</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2018-03-06</FechaPrimMov>
-    <FechaUltMov>2018-05-14</FechaUltMov>
-    <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
-    <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>1514</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
-  </CajaAuxiliar>
-  <CajaAuxiliar>
-    <Folio>A-997</Folio>
-    <Acumulado>0</Acumulado>
-    <FechaPrimMov>2018-03-07</FechaPrimMov>
+    <FechaPrimMov>2018-04-20</FechaPrimMov>
     <FechaUltMov>2018-06-26</FechaUltMov>
     <Comentario />
-    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
     <ultimaOperacion>4</ultimaOperacion>
-    <ultimoMovimiento>1653</ultimoMovimiento>
-    <Descripcion>PENALIZACION APARTADO</Descripcion>
+    <ultimoMovimiento>1649</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1053</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-05-18</FechaPrimMov>
+    <FechaUltMov>2018-06-30</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1683</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-717</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2016-08-11</FechaPrimMov>
+    <FechaUltMov>2016-09-21</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>269</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-797</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-03-06</FechaPrimMov>
+    <FechaUltMov>2017-05-09</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>710</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-916</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-10-21</FechaPrimMov>
+    <FechaUltMov>2017-11-21</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1129</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-983</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-02-15</FechaPrimMov>
+    <FechaUltMov>2018-04-16</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1446</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
   </CajaAuxiliar>
 </NewDataSet>

@@ -34,7 +34,7 @@ namespace AudSemp.Forms
 
         #region Context
 
-        private string CNX = ConfigurationManager.AppSettings["SEMP2013_CNX"].ToString();
+        private string CNX = ConfigurationManager.ConnectionStrings["SEMP2013_CNX"].ToString();
 
         private SEMP2013_Context db;
         public ApartadosHistorialForm()
@@ -355,17 +355,35 @@ namespace AudSemp.Forms
             leyendaRango = Convert.ToDateTime(fechaInicio).ToString("dd-MMM-yyyy") +
                 " - " + Convert.ToDateTime(fechaFin).ToString("dd-MMM-yyyy");
 
+
+
+            //
+
             if (checkOrden.Checked == true)
             {
                 tipoOrden = cmbTipoOrden.Text;
+            }
+            else
+            {
+                tipoOrden = "Fecha";
             }
 
             if (checkModo.Checked == true)
             {
                 orden = cmbOrden.Text;
             }
+            else
+            {
+                orden = "Ascendente";
+            }
 
-           
+            if (checkContratos.Checked == false)
+            {
+                checkContratos.Checked = true;
+            }
+
+            //
+
             leyendaEstatus = "";
            
             foreach (var item in chkContratos.CheckedItems)

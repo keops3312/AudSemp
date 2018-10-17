@@ -412,14 +412,34 @@ namespace AudSemp.Forms
             {
                 tipoOrden = cmbTipoOrden.Text;
             }
-
+            else
+            {
+                tipoOrden = "reg";
+            }
+            
             if (checkModo.Checked == true)
             {
                 orden = cmbOrden.Text;
             }
+            else
+            {
+                orden = "Ascendente";
+            }
 
             leyendaTipos="";
             leyendaEstatus = "";
+            if (checkPrendas.Checked == false)
+            {
+                checkPrendas.Checked = true;
+
+            }
+
+            if (checkContratos.Checked == false)
+            {
+                checkContratos.Checked = true;
+            }
+
+
             foreach (var item in chkPrendas.CheckedItems)
                 {
                     tipoPrendas.Add(

@@ -143,15 +143,40 @@ namespace AudSemp.Forms
             leyendaRango = Convert.ToDateTime(fechaInicio).ToString("dd-MMM-yyyy") +
                 " - " + Convert.ToDateTime(fechaFin).ToString("dd-MMM-yyyy");
 
+          
+            //
             if (checkOrden.Checked == true)
             {
                 tipoOrden = cmbTipoOrden.Text;
+            }
+            else
+            {
+                tipoOrden = "Indice";
             }
 
             if (checkModo.Checked == true)
             {
                 orden = cmbOrden.Text;
             }
+            else
+            {
+                orden = "Ascendente";
+            }
+
+
+            if (checkPrendas.Checked == false)
+            {
+                checkPrendas.Checked = true;
+
+            }
+
+            if (checkContratos.Checked == false)
+            {
+                checkContratos.Checked = true;
+            }
+
+            //
+
 
             leyendaTipos = "";
             leyendaEstatus = "";

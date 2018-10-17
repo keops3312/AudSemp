@@ -45,6 +45,7 @@
             this.btnMin = new DevComponents.DotNetBar.ButtonX();
             this.btnAcces = new DevComponents.DotNetBar.ButtonX();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
+            this.labelX2 = new DevComponents.DotNetBar.LabelX();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -60,7 +61,7 @@
             this.txtUser.Border.Class = "TextBoxBorder";
             this.txtUser.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
             this.txtUser.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUser.Location = new System.Drawing.Point(53, 242);
+            this.txtUser.Location = new System.Drawing.Point(53, 278);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(241, 35);
             this.txtUser.TabIndex = 0;
@@ -76,7 +77,7 @@
             this.txtPassword.Border.Class = "TextBoxBorder";
             this.txtPassword.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
             this.txtPassword.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(53, 360);
+            this.txtPassword.Location = new System.Drawing.Point(53, 395);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(241, 35);
@@ -86,28 +87,28 @@
             // 
             // txtLenght
             // 
-            this.txtLenght.Location = new System.Drawing.Point(123, 505);
+            this.txtLenght.Location = new System.Drawing.Point(396, 509);
             this.txtLenght.Name = "txtLenght";
             this.txtLenght.Size = new System.Drawing.Size(100, 20);
             this.txtLenght.TabIndex = 7;
             // 
             // txtBreadth
             // 
-            this.txtBreadth.Location = new System.Drawing.Point(148, 502);
+            this.txtBreadth.Location = new System.Drawing.Point(421, 506);
             this.txtBreadth.Name = "txtBreadth";
             this.txtBreadth.Size = new System.Drawing.Size(100, 20);
             this.txtBreadth.TabIndex = 8;
             // 
             // txtArea
             // 
-            this.txtArea.Location = new System.Drawing.Point(123, 531);
+            this.txtArea.Location = new System.Drawing.Point(396, 535);
             this.txtArea.Name = "txtArea";
             this.txtArea.Size = new System.Drawing.Size(100, 20);
             this.txtArea.TabIndex = 9;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(97, 519);
+            this.button1.Location = new System.Drawing.Point(370, 523);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(151, 23);
             this.button1.TabIndex = 10;
@@ -118,7 +119,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(309, 505);
+            this.label1.Location = new System.Drawing.Point(582, 509);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 13;
@@ -138,7 +139,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::AudSemp.Properties.Resources.password_check;
-            this.pictureBox4.Location = new System.Drawing.Point(144, 303);
+            this.pictureBox4.Location = new System.Drawing.Point(144, 337);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(60, 51);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -148,7 +149,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::AudSemp.Properties.Resources.user;
-            this.pictureBox3.Location = new System.Drawing.Point(144, 186);
+            this.pictureBox3.Location = new System.Drawing.Point(144, 207);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(60, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -158,9 +159,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::AudSemp.Properties.Resources.semplogo2016;
-            this.pictureBox2.Location = new System.Drawing.Point(174, 82);
+            this.pictureBox2.Location = new System.Drawing.Point(177, 72);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(159, 98);
+            this.pictureBox2.Size = new System.Drawing.Size(159, 111);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
@@ -168,9 +169,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AudSemp.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 49);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 49);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(166, 115);
+            this.pictureBox1.Size = new System.Drawing.Size(156, 112);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
@@ -212,7 +213,7 @@
             this.btnAcces.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnAcces.Image = global::AudSemp.Properties.Resources._lock;
             this.btnAcces.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnAcces.Location = new System.Drawing.Point(144, 416);
+            this.btnAcces.Location = new System.Drawing.Point(144, 442);
             this.btnAcces.Name = "btnAcces";
             this.btnAcces.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             this.btnAcces.Size = new System.Drawing.Size(46, 47);
@@ -239,12 +240,35 @@
     "\"></font>SEMP\r\n</font>";
             this.labelX1.TextAlignment = System.Drawing.StringAlignment.Center;
             // 
+            // labelX2
+            // 
+            // 
+            // 
+            // 
+            this.labelX2.BackgroundStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelX2.BackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarCaptionBackground2;
+            this.labelX2.BackgroundStyle.CornerDiameter = 10;
+            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.labelX2.ForeColor = System.Drawing.Color.White;
+            this.labelX2.Location = new System.Drawing.Point(12, 495);
+            this.labelX2.Name = "labelX2";
+            this.labelX2.PaddingBottom = 5;
+            this.labelX2.PaddingLeft = 5;
+            this.labelX2.PaddingRight = 5;
+            this.labelX2.PaddingTop = 5;
+            this.labelX2.Size = new System.Drawing.Size(328, 93);
+            this.labelX2.Symbol = "";
+            this.labelX2.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.labelX2.TabIndex = 19;
+            this.labelX2.Text = "labelX2";
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(347, 500);
+            this.ClientSize = new System.Drawing.Size(347, 600);
+            this.Controls.Add(this.labelX2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelX1);
             this.Controls.Add(this.pictureBox4);
@@ -264,8 +288,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(347, 500);
-            this.MinimumSize = new System.Drawing.Size(347, 500);
+            this.MaximumSize = new System.Drawing.Size(347, 600);
+            this.MinimumSize = new System.Drawing.Size(347, 600);
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
@@ -297,6 +321,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private DevComponents.DotNetBar.LabelX labelX1;
+        private DevComponents.DotNetBar.LabelX labelX2;
     }
 }
 

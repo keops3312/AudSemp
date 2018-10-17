@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>audSempICO.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\..\..\Program Files (x86)\Bunifu Technologies\Bunifu Framework Manager\Bunifu_UI_v1.5.3.dll</HintPath>
@@ -88,8 +91,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\categorias.cs" />
+    <Compile Include="Classes\Encriptar_Desencriptar.cs" />
     <Compile Include="Classes\Estatus.cs" />
     <Compile Include="Classes\LevelUser.cs" />
+    <Compile Include="Classes\LocationConexion.cs" />
     <Compile Include="Classes\ModoOrdenes.cs" />
     <Compile Include="Classes\TiposOrden.cs" />
     <Compile Include="Context\abono.cs">
@@ -601,6 +606,9 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>depositosRPT.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DepositosyRetiros.resx">
+      <DependentUpon>DepositosyRetiros.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\HistorialApartadosReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>HistorialApartadosReport.cs</LastGenOutput>
@@ -664,6 +672,7 @@
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="audSempICO.ico" />
     <Content Include="Context\Context.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Context.edmx</DependentUpon>
