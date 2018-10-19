@@ -9,6 +9,7 @@ namespace AudSemp.Classes
     using System.Collections.Generic;
     using System.Configuration;
     using System.Data;
+    using System.Data.Entity.Core.EntityClient;
     using System.Data.SqlClient;
     using System.IO;
     using System.Linq;
@@ -16,7 +17,13 @@ namespace AudSemp.Classes
     #endregion
     public class LocationConexion
     {
-
+        #region Context
+        private SEMP2013_Context db;
+        public LocationConexion()
+        {
+            db = new SEMP2013_Context();
+        }
+        #endregion
 
         #region Atributes (atributos)
         public string[] archivos = Directory.GetFiles(@"C:\SEMP2013\cdb", "*.txt");
@@ -93,15 +100,17 @@ namespace AudSemp.Classes
 
             var connectionString = cadena;
             var connection = new SqlConnection(connectionString);
-
+            //first test conection NORMAL
             try
             {
                 using (connection)
                 {
                     connection.Open();
-
+                    db.Database.Connection.Open();
                     canConnect = true;
                 }
+
+               
             }
             catch (Exception exception)
             {
@@ -110,6 +119,7 @@ namespace AudSemp.Classes
             finally
             {
                 connection.Close();
+               db.Database.Connection.Close();
             }
 
             return canConnect;
@@ -132,13 +142,40 @@ namespace AudSemp.Classes
             string data;
             if (opcion == 1)
             {
-                data = "metadata = res://*/Context.Context.csdl|res://*/Context.Context.ssdl|res://*/Context.Context.msl;provider=System.Data.SqlClient;provider connection string=&quot;" +
-                               "data source=" + server + ";" +
-                               "initial catalog=" + database + ";" +
-                               "persist security info=True;user id=" + user + ";" +
-                               "password=" + pass + ";" +
-                               "MultipleActiveResultSets=True;" +
-                               "App=EntityFramework & quot; ";
+
+
+
+                SqlConnectionStringBuilder sqlString = new SqlConnectionStringBuilder()
+                {
+                    DataSource = server, // Server name
+                    InitialCatalog = database,  //Database
+                    UserID = user,         //Username
+                    Password = pass,  //Password
+                    PersistSecurityInfo=true,
+                    MultipleActiveResultSets=true,
+                 
+                };
+                //Build an Entity Framework connection string
+
+                EntityConnectionStringBuilder entityString = new EntityConnectionStringBuilder()
+                {
+                    Provider = "System.Data.SqlClient",
+                    Metadata = "res://*/Context.Context.csdl|res://*/Context.Context.ssdl|res://*/Context.Context.msl",
+                    ProviderConnectionString = sqlString.ToString() + ";App=EntityFramework;"
+                    //"res://*/testModel.csdl|res://*/testModel.ssdl|res://*/testModel.msl",
+                };
+                data=entityString.ConnectionString;
+            
+            //data = "metadata=res://*/Context.Context.csdl|res://" +
+            //        "*/Context.Context.ssdl|res://*/Context.Context.msl;" +
+            //        "provider=System.Data.SqlClient;provider" +
+            //        " connection string=&quot;" +
+            //        "data source=" + server + ";" +
+            //        "initial catalog=" + database + ";" +
+            //        "persist security info=True; user id=" + user + ";" +
+            //        "password=" + pass + ";" +
+            //        "MultipleActiveResultSets=True;" +
+            //        "App=EntityFramework&quot; ";
             }
             else
             {
@@ -155,7 +192,7 @@ namespace AudSemp.Classes
                 ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
             appconfig.ConnectionStrings.ConnectionStrings[connectionStringName].ConnectionString = data;//connectionString
             appconfig.Save();
-
+            
         }
 
         //create ist of app strings
@@ -176,6 +213,9 @@ namespace AudSemp.Classes
         {
             return GetConnectionStringNames().FirstOrDefault();
         }
+
+
+
 
         #endregion
 

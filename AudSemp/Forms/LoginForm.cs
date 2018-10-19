@@ -122,8 +122,8 @@ namespace AudSemp
             String[] result;
             result = locationConexion.Scan();
             labelX2.Text = "Conexion Encontrada...\n" +
-            "Nom: " + result[0].ToString() + "\n"+
-            "Localidad: " + result[1].ToString()+ "\n" +
+            "Nom: " + result[0].ToString() + "\n" +
+            "Localidad: " + result[1].ToString() + "\n" +
             "Direccion: " + result[2].ToString();
         }
 

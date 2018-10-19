@@ -683,6 +683,7 @@
       <DependentUpon>Context.edmx</DependentUpon>
       <LastGenOutput>Context.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\depRet.png" />
     <None Include="Resources\construccion.png" />
     <None Include="Resources\historialApartadoIcon.png" />
     <None Include="Resources\apartadoIcon.png" />

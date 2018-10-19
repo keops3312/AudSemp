@@ -40,13 +40,6 @@
             this.labelX5 = new DevComponents.DotNetBar.LabelX();
             this.metroTilePanel1 = new DevComponents.DotNetBar.Metro.MetroTilePanel();
             this.itemContainer1 = new DevComponents.DotNetBar.ItemContainer();
-            this.metroTileItem6 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTileItem7 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTileItem8 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTileItem9 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTileItem10 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTileItem11 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.metroTileItem12 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.controlContainerItem1 = new DevComponents.DotNetBar.ControlContainerItem();
             this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
             this.PanelContratos = new DevComponents.DotNetBar.Metro.MetroTileItem();
@@ -54,6 +47,13 @@
             this.metroTileItem3 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem4 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem5 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem6 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem7 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem8 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem9 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem10 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem11 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem12 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new DevComponents.DotNetBar.ButtonX();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -289,6 +289,103 @@
             this.itemContainer1.TitleStyle.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.itemContainer1.TitleText = "Seleccione su opcion para comenzar a Auditar";
             // 
+            // controlContainerItem1
+            // 
+            this.controlContainerItem1.AllowItemResize = true;
+            this.controlContainerItem1.MenuVisibility = DevComponents.DotNetBar.eMenuVisibility.VisibleAlways;
+            this.controlContainerItem1.Name = "controlContainerItem1";
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnRegresar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnRegresar.Image = global::AudSemp.Properties.Resources.Back;
+            this.btnRegresar.ImageFixedSize = new System.Drawing.Size(40, 40);
+            this.btnRegresar.Location = new System.Drawing.Point(737, 30);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
+            this.btnRegresar.Size = new System.Drawing.Size(52, 48);
+            this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnRegresar.TabIndex = 14;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
+            // PanelContratos
+            // 
+            this.PanelContratos.Image = global::AudSemp.Properties.Resources.contratoIcon2;
+            this.PanelContratos.ImageIndent = new System.Drawing.Point(1, 1);
+            this.PanelContratos.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.PanelContratos.Name = "PanelContratos";
+            this.PanelContratos.SymbolColor = System.Drawing.Color.Empty;
+            this.PanelContratos.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
+            // 
+            // 
+            // 
+            this.PanelContratos.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.PanelContratos.TitleText = "Contratos";
+            this.PanelContratos.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.PanelContratos.Click += new System.EventHandler(this.PanelContratos_Click);
+            // 
+            // metroTileItem2
+            // 
+            this.metroTileItem2.Image = global::AudSemp.Properties.Resources.inventariosIcon;
+            this.metroTileItem2.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTileItem2.Name = "metroTileItem2";
+            this.metroTileItem2.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem2.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
+            // 
+            // 
+            // 
+            this.metroTileItem2.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem2.TitleText = "Inventarios";
+            this.metroTileItem2.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.metroTileItem2.TitleTextColor = System.Drawing.Color.White;
+            this.metroTileItem2.Click += new System.EventHandler(this.metroTileItem2_Click);
+            // 
+            // metroTileItem3
+            // 
+            this.metroTileItem3.Image = global::AudSemp.Properties.Resources.apartadoIcon;
+            this.metroTileItem3.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTileItem3.Name = "metroTileItem3";
+            this.metroTileItem3.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem3.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
+            // 
+            // 
+            // 
+            this.metroTileItem3.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem3.TitleText = "Apartados";
+            this.metroTileItem3.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.metroTileItem3.Click += new System.EventHandler(this.metroTileItem3_Click);
+            // 
+            // metroTileItem4
+            // 
+            this.metroTileItem4.Image = global::AudSemp.Properties.Resources.historialApartadoIcon;
+            this.metroTileItem4.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTileItem4.Name = "metroTileItem4";
+            this.metroTileItem4.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem4.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
+            // 
+            // 
+            // 
+            this.metroTileItem4.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem4.TitleText = "Historial Mov. Apartados";
+            this.metroTileItem4.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.metroTileItem4.Click += new System.EventHandler(this.metroTileItem4_Click);
+            // 
+            // metroTileItem5
+            // 
+            this.metroTileItem5.Image = global::AudSemp.Properties.Resources.depRet;
+            this.metroTileItem5.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTileItem5.Name = "metroTileItem5";
+            this.metroTileItem5.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem5.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
+            // 
+            // 
+            // 
+            this.metroTileItem5.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem5.TitleText = "Depositos y Retiros";
+            this.metroTileItem5.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.metroTileItem5.Click += new System.EventHandler(this.metroTileItem5_Click);
+            // 
             // metroTileItem6
             // 
             this.metroTileItem6.Image = global::AudSemp.Properties.Resources.construccion;
@@ -386,102 +483,6 @@
             this.metroTileItem12.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.metroTileItem12.TitleText = "Revision Inventarios";
             this.metroTileItem12.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            // 
-            // controlContainerItem1
-            // 
-            this.controlContainerItem1.AllowItemResize = true;
-            this.controlContainerItem1.MenuVisibility = DevComponents.DotNetBar.eMenuVisibility.VisibleAlways;
-            this.controlContainerItem1.Name = "controlContainerItem1";
-            // 
-            // btnRegresar
-            // 
-            this.btnRegresar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnRegresar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnRegresar.Image = global::AudSemp.Properties.Resources.Back;
-            this.btnRegresar.ImageFixedSize = new System.Drawing.Size(40, 40);
-            this.btnRegresar.Location = new System.Drawing.Point(737, 30);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
-            this.btnRegresar.Size = new System.Drawing.Size(52, 48);
-            this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnRegresar.TabIndex = 14;
-            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
-            // 
-            // PanelContratos
-            // 
-            this.PanelContratos.Image = global::AudSemp.Properties.Resources.contratoIcon2;
-            this.PanelContratos.ImageIndent = new System.Drawing.Point(1, 1);
-            this.PanelContratos.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.PanelContratos.Name = "PanelContratos";
-            this.PanelContratos.SymbolColor = System.Drawing.Color.Empty;
-            this.PanelContratos.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
-            // 
-            // 
-            // 
-            this.PanelContratos.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.PanelContratos.TitleText = "Contratos";
-            this.PanelContratos.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.PanelContratos.Click += new System.EventHandler(this.PanelContratos_Click);
-            // 
-            // metroTileItem2
-            // 
-            this.metroTileItem2.Image = global::AudSemp.Properties.Resources.inventariosIcon;
-            this.metroTileItem2.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTileItem2.Name = "metroTileItem2";
-            this.metroTileItem2.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem2.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
-            // 
-            // 
-            // 
-            this.metroTileItem2.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTileItem2.TitleText = "Inventarios";
-            this.metroTileItem2.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTileItem2.TitleTextColor = System.Drawing.Color.White;
-            this.metroTileItem2.Click += new System.EventHandler(this.metroTileItem2_Click);
-            // 
-            // metroTileItem3
-            // 
-            this.metroTileItem3.Image = global::AudSemp.Properties.Resources.apartadoIcon;
-            this.metroTileItem3.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTileItem3.Name = "metroTileItem3";
-            this.metroTileItem3.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem3.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
-            // 
-            // 
-            // 
-            this.metroTileItem3.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTileItem3.TitleText = "Apartados";
-            this.metroTileItem3.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTileItem3.Click += new System.EventHandler(this.metroTileItem3_Click);
-            // 
-            // metroTileItem4
-            // 
-            this.metroTileItem4.Image = global::AudSemp.Properties.Resources.historialApartadoIcon;
-            this.metroTileItem4.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTileItem4.Name = "metroTileItem4";
-            this.metroTileItem4.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem4.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
-            // 
-            // 
-            // 
-            this.metroTileItem4.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTileItem4.TitleText = "Historial Mov. Apartados";
-            this.metroTileItem4.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTileItem4.Click += new System.EventHandler(this.metroTileItem4_Click);
-            // 
-            // metroTileItem5
-            // 
-            this.metroTileItem5.Image = global::AudSemp.Properties.Resources.construccion;
-            this.metroTileItem5.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTileItem5.Name = "metroTileItem5";
-            this.metroTileItem5.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem5.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
-            // 
-            // 
-            // 
-            this.metroTileItem5.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTileItem5.TitleText = "Depositos y Retiros";
-            this.metroTileItem5.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
             // 
             // pictureBox3
             // 

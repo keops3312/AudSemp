@@ -102,6 +102,13 @@ namespace AudSemp.Forms
             apartadosHistorialForm.WindowState = FormWindowState.Maximized;
             apartadosHistorialForm.ShowDialog();
         }
+        private void metroTileItem5_Click(object sender, EventArgs e)
+        {
+            DepositosyRetiros depositosyRetiros = new DepositosyRetiros();
+            depositosyRetiros.loc = codigo;
+            depositosyRetiros.WindowState = FormWindowState.Maximized;
+            depositosyRetiros.ShowDialog();
+        }
 
         #endregion
 
@@ -166,8 +173,9 @@ namespace AudSemp.Forms
 
 
 
+
         #endregion
 
-      
+       
     }
 }

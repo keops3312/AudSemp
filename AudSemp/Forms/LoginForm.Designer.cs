@@ -61,7 +61,7 @@
             this.txtUser.Border.Class = "TextBoxBorder";
             this.txtUser.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
             this.txtUser.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUser.Location = new System.Drawing.Point(53, 278);
+            this.txtUser.Location = new System.Drawing.Point(78, 216);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(241, 35);
             this.txtUser.TabIndex = 0;
@@ -77,7 +77,7 @@
             this.txtPassword.Border.Class = "TextBoxBorder";
             this.txtPassword.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
             this.txtPassword.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(53, 395);
+            this.txtPassword.Location = new System.Drawing.Point(78, 287);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(241, 35);
@@ -139,7 +139,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::AudSemp.Properties.Resources.password_check;
-            this.pictureBox4.Location = new System.Drawing.Point(144, 337);
+            this.pictureBox4.Location = new System.Drawing.Point(12, 271);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(60, 51);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -149,7 +149,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::AudSemp.Properties.Resources.user;
-            this.pictureBox3.Location = new System.Drawing.Point(144, 207);
+            this.pictureBox3.Location = new System.Drawing.Point(12, 201);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(60, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -213,7 +213,7 @@
             this.btnAcces.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnAcces.Image = global::AudSemp.Properties.Resources._lock;
             this.btnAcces.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnAcces.Location = new System.Drawing.Point(144, 442);
+            this.btnAcces.Location = new System.Drawing.Point(273, 339);
             this.btnAcces.Name = "btnAcces";
             this.btnAcces.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             this.btnAcces.Size = new System.Drawing.Size(46, 47);
@@ -250,7 +250,7 @@
             this.labelX2.BackgroundStyle.CornerDiameter = 10;
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
             this.labelX2.ForeColor = System.Drawing.Color.White;
-            this.labelX2.Location = new System.Drawing.Point(12, 495);
+            this.labelX2.Location = new System.Drawing.Point(12, 401);
             this.labelX2.Name = "labelX2";
             this.labelX2.PaddingBottom = 5;
             this.labelX2.PaddingLeft = 5;
@@ -267,7 +267,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(347, 600);
+            this.ClientSize = new System.Drawing.Size(347, 509);
             this.Controls.Add(this.labelX2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelX1);
@@ -288,8 +288,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(347, 600);
-            this.MinimumSize = new System.Drawing.Size(347, 600);
+            this.MaximumSize = new System.Drawing.Size(347, 509);
+            this.MinimumSize = new System.Drawing.Size(347, 509);
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

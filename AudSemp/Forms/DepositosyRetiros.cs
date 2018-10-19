@@ -318,7 +318,9 @@ namespace AudSemp.Forms
         #region Events (eventos)
         private void DepositosyRetiros_Load(object sender, EventArgs e)
         {
-
+            load();
+            checkPrendas.Checked = true;
+            checkContratos.Checked = false;
         }
 
         private void checkPrendas_CheckedChanged(object sender, EventArgs e)
@@ -523,8 +525,8 @@ namespace AudSemp.Forms
 
                     LocalidadModel localidadModel = new LocalidadModel();
                     localidadModel.localidadResult(loc);
-                    ob.SetParameterValue("tipos", leyendaTipos);
-                    ob.SetParameterValue("estatus", leyendaEstatus);
+                    ob.SetParameterValue("tipos", "TODOS");
+                    ob.SetParameterValue("estatus", "TODOS");
                     ob.SetParameterValue("rangos", leyendaRango);
                     ob.SetParameterValue("modoOrden", mode);
 
@@ -545,8 +547,8 @@ namespace AudSemp.Forms
 
                     LocalidadModel localidadModel = new LocalidadModel();
                     localidadModel.localidadResult(loc);
-                    ob.SetParameterValue("tipos", leyendaTipos);
-                    ob.SetParameterValue("estatus", leyendaEstatus);
+                    ob.SetParameterValue("tipos", "TODOS");
+                    ob.SetParameterValue("estatus", "TODOS");
                     ob.SetParameterValue("rangos", leyendaRango);
                     ob.SetParameterValue("modoOrden", mode);
 

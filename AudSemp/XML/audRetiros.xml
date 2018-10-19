@@ -1,0 +1,5487 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Retiros" msdata:Locale="es-MX">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Retiros" msdata:CaseSensitive="False" msdata:Locale="es-MX">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="caja" type="xs:string" minOccurs="0" />
+                <xs:element name="numcaja" type="xs:string" minOccurs="0" />
+                <xs:element name="pertenecea" type="xs:string" minOccurs="0" />
+                <xs:element name="cantidad" type="xs:string" minOccurs="0" />
+                <xs:element name="concepto" type="xs:string" minOccurs="0" />
+                <xs:element name="descripcion" type="xs:string" minOccurs="0" />
+                <xs:element name="estatus" type="xs:string" minOccurs="0" />
+                <xs:element name="fecha" type="xs:string" minOccurs="0" />
+                <xs:element name="hora" type="xs:string" minOccurs="0" />
+                <xs:element name="autorizo" type="xs:string" minOccurs="0" />
+                <xs:element name="usuario" type="xs:string" minOccurs="0" />
+                <xs:element name="nooperador" type="xs:string" minOccurs="0" />
+                <xs:element name="comprobacionno" type="xs:string" minOccurs="0" />
+                <xs:element name="folio" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>10000.0000</cantidad>
+    <concepto>Otros</concepto>
+    <descripcion>transfer a caja 2 depo 14jul2015</descripcion>
+    <estatus>CANCELADO</estatus>
+    <fecha>2015-08-05</fecha>
+    <hora>12:51</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>1</comprobacionno>
+    <folio>1</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>10000.0000</cantidad>
+    <concepto>Otros</concepto>
+    <descripcion>TRANSFER A CAJA 2 DEPO 14 JUL 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-08-05</fecha>
+    <hora>12:59</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>2</comprobacionno>
+    <folio>1</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>850.6000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>16/2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-08-05</fecha>
+    <hora>13:01</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>3</comprobacionno>
+    <folio>16/2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>1301.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>17/2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-08-05</fecha>
+    <hora>13:01</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>4</comprobacionno>
+    <folio>17/2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>317.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>18/2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-08-05</fecha>
+    <hora>13:02</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>5</comprobacionno>
+    <folio>18/2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>1301.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>20/2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-08-05</fecha>
+    <hora>13:03</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>6</comprobacionno>
+    <folio>20/2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>1145.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>21/2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-08-05</fecha>
+    <hora>13:03</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>7</comprobacionno>
+    <folio>21/2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>49.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>22/2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-08-05</fecha>
+    <hora>13:04</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>8</comprobacionno>
+    <folio>22/2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>49.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>19/2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-08-05</fecha>
+    <hora>13:17</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>9</comprobacionno>
+    <folio>19/2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>4816.0000</cantidad>
+    <concepto>Nominas</concepto>
+    <descripcion>Finiquito Johan Garcia</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-09-04</fecha>
+    <hora>16:11</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>10</comprobacionno>
+    <folio>001</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>1117.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>24 . 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-09-04</fecha>
+    <hora>16:34</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>11</comprobacionno>
+    <folio>24.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>1113.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>23 . 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-09-04</fecha>
+    <hora>16:35</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>12</comprobacionno>
+    <folio>23.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Otros</concepto>
+    <descripcion>transferencia a caja 1 depo el 11ago2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-09-04</fecha>
+    <hora>16:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>13</comprobacionno>
+    <folio>11082015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>899.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS FOLIO 25 DE 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-10-23</fecha>
+    <hora>17:57</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>14</comprobacionno>
+    <folio>25.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>676.0800</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS FOLIO 26 DE 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-10-23</fecha>
+    <hora>17:58</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>15</comprobacionno>
+    <folio>26.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>1490.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS FOLIO 27 DE 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-10-23</fecha>
+    <hora>17:59</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>16</comprobacionno>
+    <folio>27.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>49.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS FOLIO 28 DE 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-10-23</fecha>
+    <hora>18:00</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>17</comprobacionno>
+    <folio>28.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>25000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A CAJA 2 DEPO 23 OCT 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-10-23</fecha>
+    <hora>18:03</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>18</comprobacionno>
+    <folio>2310.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>15000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A CAJA 2 12 NOV 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-11-19</fecha>
+    <hora>16:51</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>19</comprobacionno>
+    <folio>1211.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>603.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 29 DE 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-11-19</fecha>
+    <hora>16:52</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>20</comprobacionno>
+    <folio>29.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>810.9800</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 30 DE 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-11-19</fecha>
+    <hora>16:53</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>21</comprobacionno>
+    <folio>30.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>680.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 31 DE 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-11-19</fecha>
+    <hora>16:54</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>22</comprobacionno>
+    <folio>31.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>1191.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 32 DE 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-11-19</fecha>
+    <hora>16:55</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>23</comprobacionno>
+    <folio>322015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>250.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 33 DE 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-11-19</fecha>
+    <hora>16:55</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>24</comprobacionno>
+    <folio>33.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>90.1000</cantidad>
+    <concepto>Cancelacion de documentos</concepto>
+    <descripcion>CANCELA NOTA APART NO.448 PENALIZA 20JUN2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-11-19</fecha>
+    <hora>16:59</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>25</comprobacionno>
+    <folio>02.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>90000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A BANAMEX 11DIC2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-11</fecha>
+    <hora>11:50</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>26</comprobacionno>
+    <folio>1112.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>5728.0000</cantidad>
+    <concepto>Ajuste de caja</concepto>
+    <descripcion>AJUSTE DE CAJA AL 30 NOV 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>12:23</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>27</comprobacionno>
+    <folio>12.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>11822.0000</cantidad>
+    <concepto>Ajuste de caja</concepto>
+    <descripcion>AJUSTE DE CAJ AL 30 NOV 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>12:25</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>28</comprobacionno>
+    <folio>12.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>118.5500</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTAS DESCTO 514 Y 524 JULIO 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>12:41</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>31</comprobacionno>
+    <folio>514.524</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>132.5700</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTAS DESCTO DEL 525 AL 529 AGO 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>12:42</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>32</comprobacionno>
+    <folio>525.529</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>79.2300</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTAS DESCTO 515 Y 516 MAYO2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>12:37</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>29</comprobacionno>
+    <folio>515.516</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>551.9200</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTAS DESCTO 517 AL 522 JUNIO 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>12:40</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>30</comprobacionno>
+    <folio>517.522</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>50000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMIN </descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>13:22</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>33</comprobacionno>
+    <folio>12.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>807.0800</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 34 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>13:26</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>34</comprobacionno>
+    <folio>34.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>21.0000</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 509 MARZO 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>13:29</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>35</comprobacionno>
+    <folio>509</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>70.5800</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 508 AL 512 ABRIL 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>13:30</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>36</comprobacionno>
+    <folio>508.512</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>66.9100</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 523 MAYO 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>13:30</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>37</comprobacionno>
+    <folio>513</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>26.3600</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 523 JUNIO 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>13:31</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>38</comprobacionno>
+    <folio>523</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>58.0800</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOA DESCTO 526 AGO 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>13:32</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>39</comprobacionno>
+    <folio>526</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>40.1200</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 528 SEPT 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>13:33</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>40</comprobacionno>
+    <folio>528</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>21.0000</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO  509 MARZO 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>13:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>41</comprobacionno>
+    <folio>509</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>70.5800</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTAS DESCTO DEL 508 AL 512 ABRIL 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>13:37</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>42</comprobacionno>
+    <folio>508.512</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>66.9100</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 513 MAYO 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2015-12-26</fecha>
+    <hora>13:38</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>43</comprobacionno>
+    <folio>513</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>2751.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 35 DE 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-15</fecha>
+    <hora>15:02</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>44</comprobacionno>
+    <folio>35.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>2803.0900</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 36 DE 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-15</fecha>
+    <hora>15:03</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>45</comprobacionno>
+    <folio>36.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>2571.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 37 DE 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-15</fecha>
+    <hora>15:04</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>46</comprobacionno>
+    <folio>37.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>40000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANX 15 ENE 2016 1</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-15</fecha>
+    <hora>15:05</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>47</comprobacionno>
+    <folio>1501.20161</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>25000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER DE CAJA 2 A CAJA 1 DEPO 28 NOV 2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-15</fecha>
+    <hora>15:14</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>48</comprobacionno>
+    <folio>2811.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPOA CHEQUES BANAMEX 15ENE2016 2</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-15</fecha>
+    <hora>15:44</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>49</comprobacionno>
+    <folio>1501.20162</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR RET 15ENE2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-15</fecha>
+    <hora>15:48</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>50</comprobacionno>
+    <folio>150120163</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>40000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMIN RETIRO 15ENE2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-15</fecha>
+    <hora>15:49</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>51</comprobacionno>
+    <folio>1501.20164</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>5244.0000</cantidad>
+    <concepto>Otros</concepto>
+    <descripcion>FINIQUITO RAUL HERNANDEZ CERON</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-15</fecha>
+    <hora>16:01</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>52</comprobacionno>
+    <folio>38.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>397.8400</cantidad>
+    <concepto>Otros</concepto>
+    <descripcion>RETIRO DEPO 12DIC2015 EMPEÑO MAS INTERES</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-15</fecha>
+    <hora>16:06</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>53</comprobacionno>
+    <folio>99.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>10000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 29ENE2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-29</fecha>
+    <hora>18:20</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>54</comprobacionno>
+    <folio>2901.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>270.9700</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 531 21DIC2015 DIA NO LABORABLE</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-29</fecha>
+    <hora>18:22</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>55</comprobacionno>
+    <folio>531</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>3962.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>CMPROB GASTOS TLAXC2 FOLIO 01 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-01-29</fecha>
+    <hora>18:23</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>56</comprobacionno>
+    <folio>01.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANAMEX 17 FEB2016 1</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-02-19</fecha>
+    <hora>18:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>57</comprobacionno>
+    <folio>1702.20161</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>10000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANX 17 FEB 2016 FUE DE 40</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-02-19</fecha>
+    <hora>18:37</hora>
+    <autorizo>JMR COMPLEM RETIRO 30+10=40</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>58</comprobacionno>
+    <folio>1702.2016 1</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>2355.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 02 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-02-19</fecha>
+    <hora>18:44</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>59</comprobacionno>
+    <folio>02.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>519.9000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 03 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-02-19</fecha>
+    <hora>18:44</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>60</comprobacionno>
+    <folio>03.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>40000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFERENCIA A CAJA 1 TLAXC2 DEPO HOY</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-02-19</fecha>
+    <hora>19:03</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>62</comprobacionno>
+    <folio>1902.20169</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>1586.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 04 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-02-19</fecha>
+    <hora>18:45</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>61</comprobacionno>
+    <folio>04.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>40000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANAMEX 4 MARZO 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-11</fecha>
+    <hora>14:37</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>63</comprobacionno>
+    <folio>0403.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>35000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANAMEX 09 MARZO 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-11</fecha>
+    <hora>14:39</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>64</comprobacionno>
+    <folio>0903.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>1811.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 05 DEL 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-11</fecha>
+    <hora>14:54</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>67</comprobacionno>
+    <folio>05.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>257.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 06 DEL 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-11</fecha>
+    <hora>14:54</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>68</comprobacionno>
+    <folio>06.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>11374.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>REPO FF GC ADMINISTRATIVO 09.10 MARZO 112016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-11</fecha>
+    <hora>14:46</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>65</comprobacionno>
+    <folio>1103.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>55.9900</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 532 29 FEB 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-11</fecha>
+    <hora>14:49</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>66</comprobacionno>
+    <folio>532</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>409.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 07 DEL 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-11</fecha>
+    <hora>14:54</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>69</comprobacionno>
+    <folio>07.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>561.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 08 DEL 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-11</fecha>
+    <hora>14:55</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>70</comprobacionno>
+    <folio>08.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANAMEX 17MAR2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-18</fecha>
+    <hora>14:05</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>71</comprobacionno>
+    <folio>17mar2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>2271.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANAMEX 15MAR2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-18</fecha>
+    <hora>14:06</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>72</comprobacionno>
+    <folio>1503.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>2271.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANAMEX 15MAR2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-18</fecha>
+    <hora>14:07</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>73</comprobacionno>
+    <folio>1503.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>10.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANAMEX 16MAR2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-18</fecha>
+    <hora>14:07</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>74</comprobacionno>
+    <folio>1603.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANAMEX 17 MAR 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-18</fecha>
+    <hora>14:08</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>75</comprobacionno>
+    <folio>1703.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>11295.0000</cantidad>
+    <concepto>Nominas</concepto>
+    <descripcion>PAGO NOMINA SEMANA 11 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-24</fecha>
+    <hora>12:14</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>76</comprobacionno>
+    <folio>11.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>11160.0000</cantidad>
+    <concepto>Nominas</concepto>
+    <descripcion>PAGO NOMINA SEMANA 12 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-24</fecha>
+    <hora>12:24</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>77</comprobacionno>
+    <folio>12.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>1101.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 10 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-24</fecha>
+    <hora>12:48</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>78</comprobacionno>
+    <folio>10.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>536.2700</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 09 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-03-24</fecha>
+    <hora>12:49</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>79</comprobacionno>
+    <folio>09.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>1306.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 11 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-08</fecha>
+    <hora>12:46</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>80</comprobacionno>
+    <folio>11.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>751.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 12 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-08</fecha>
+    <hora>12:49</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>81</comprobacionno>
+    <folio>12.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>11756.0000</cantidad>
+    <concepto>Nominas</concepto>
+    <descripcion>PAGO NOMINAS SEMANA 14 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-08</fecha>
+    <hora>12:51</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>82</comprobacionno>
+    <folio>11756</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFERENCIA A SUC MIXQUIAHUALA 07 ABR 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-14</fecha>
+    <hora>18:44</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>83</comprobacionno>
+    <folio>0704.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>12160.0000</cantidad>
+    <concepto>Rentas</concepto>
+    <descripcion>PAGO RENTA LOCAL ABRIL EMILIA REYES 12160</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-14</fecha>
+    <hora>18:45</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>84</comprobacionno>
+    <folio>1304.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>361.3600</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COM´PROB GASTOS TLAXC2  FOLIO 13 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-14</fecha>
+    <hora>18:46</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>85</comprobacionno>
+    <folio>13.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>18.4000</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 534 15 MAR 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-14</fecha>
+    <hora>18:47</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>86</comprobacionno>
+    <folio>534</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>34.1000</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 533 14 MAR 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-14</fecha>
+    <hora>18:47</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>87</comprobacionno>
+    <folio>533</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>360.1000</cantidad>
+    <concepto>Cancelacion de apartados</concepto>
+    <descripcion>DEVOL APART NOTA AP. 533 DEPO 15DIC2015</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-14</fecha>
+    <hora>18:49</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>88</comprobacionno>
+    <folio>1.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>449.9000</cantidad>
+    <concepto>Cancelacion de apartados</concepto>
+    <descripcion>DEVOL DE APART NOTA NUM 542 DEPO 12 MAR 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-14</fecha>
+    <hora>18:51</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>89</comprobacionno>
+    <folio>03.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>350.1000</cantidad>
+    <concepto>Cancelacion de apartados</concepto>
+    <descripcion>DEVOL CANCELA APART NOTA 0564 DEPO 12 MAR 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-14</fecha>
+    <hora>18:54</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>90</comprobacionno>
+    <folio>04.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>17.8000</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 535 15 MAR 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-14</fecha>
+    <hora>18:55</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>91</comprobacionno>
+    <folio>535</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>756.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 14 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-29</fecha>
+    <hora>15:51</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>92</comprobacionno>
+    <folio>14.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>174.7600</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 15 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-29</fecha>
+    <hora>15:53</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>93</comprobacionno>
+    <folio>15.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>6</pertenecea>
+    <cantidad>3658.5300</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANAMEX 21 ABRIL 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-04-29</fecha>
+    <hora>15:55</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>94</comprobacionno>
+    <folio>2104.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>27206.5000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCMER 19MAY2016 </descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-05-20</fecha>
+    <hora>11:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>95</comprobacionno>
+    <folio>1905.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>253.1700</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESC 536 DEL 18 ABR 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-05-20</fecha>
+    <hora>11:42</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>96</comprobacionno>
+    <folio>536</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1316.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 16 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-05-27</fecha>
+    <hora>16:16</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>97</comprobacionno>
+    <folio>16.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>596.6000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 17 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-05-27</fecha>
+    <hora>16:16</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>98</comprobacionno>
+    <folio>17.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>460.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 18 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-05-27</fecha>
+    <hora>16:19</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>99</comprobacionno>
+    <folio>18.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>390.5400</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 539 31MAY2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-06-17</fecha>
+    <hora>14:45</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>100</comprobacionno>
+    <folio>539</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>258.0400</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 543 06JUN2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-06-17</fecha>
+    <hora>14:46</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>101</comprobacionno>
+    <folio>543</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1469.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 19 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-06-17</fecha>
+    <hora>14:48</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>102</comprobacionno>
+    <folio>19.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1427.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 20 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-06-17</fecha>
+    <hora>14:48</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>103</comprobacionno>
+    <folio>20.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>26.9900</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 537 31MAY2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-06-17</fecha>
+    <hora>14:49</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>104</comprobacionno>
+    <folio>537</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>98.6300</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 538 31MAY2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-06-17</fecha>
+    <hora>14:49</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>105</comprobacionno>
+    <folio>538</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>73.8600</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 541 31MAY2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-06-17</fecha>
+    <hora>14:51</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>106</comprobacionno>
+    <folio>541</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>224.8800</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 542 DEL 07JUN2016 ORIGINAL EN OFICINA YA</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-06-30</fecha>
+    <hora>15:56</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>107</comprobacionno>
+    <folio>542</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>95.6400</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 540 DEL 07JUN2016 ORIGINAL EN OFICINA YA</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-06-30</fecha>
+    <hora>15:57</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>108</comprobacionno>
+    <folio>540</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>730.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 21 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-06-30</fecha>
+    <hora>15:58</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>109</comprobacionno>
+    <folio>21.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>418.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 22 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-06-30</fecha>
+    <hora>15:59</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>110</comprobacionno>
+    <folio>22.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>11374.0000</cantidad>
+    <concepto>Suministros</concepto>
+    <descripcion>TRANSFER A FF GCIA ADMIN SEM 28 Y 29 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-07-22</fecha>
+    <hora>14:56</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>111</comprobacionno>
+    <folio>2829.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>493.0100</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 24 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-07-22</fecha>
+    <hora>15:02</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>113</comprobacionno>
+    <folio>24.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>547.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 23 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-07-22</fecha>
+    <hora>14:59</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>112</comprobacionno>
+    <folio>23.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>260.1000</cantidad>
+    <concepto>Cancelacion de apartados</concepto>
+    <descripcion>DEVOL X CANCELA APART NOTA AP 652 DEPO 19MAY2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-07-29</fecha>
+    <hora>16:03</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>114</comprobacionno>
+    <folio>001.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>816.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 25 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-07-29</fecha>
+    <hora>16:04</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>115</comprobacionno>
+    <folio>25.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1315.9700</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 26 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-07-29</fecha>
+    <hora>16:04</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>116</comprobacionno>
+    <folio>26.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1200.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 27 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-07-29</fecha>
+    <hora>16:05</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>117</comprobacionno>
+    <folio>27.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>224.0200</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 545 02 JUL 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-07-29</fecha>
+    <hora>16:06</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>118</comprobacionno>
+    <folio>545</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUESBANCOMER CISA 29JUL2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-07-29</fecha>
+    <hora>16:06</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>119</comprobacionno>
+    <folio>2907.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFERENCIA A SUC MIXQUI1 DEPO EL 29JUL2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-07-29</fecha>
+    <hora>16:07</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>120</comprobacionno>
+    <folio>29.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>11374.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FONDO FIJO ADMINISTRACION SEM 30 Y 31 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-08-04</fecha>
+    <hora>16:29</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>121</comprobacionno>
+    <folio>3031.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>11374.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF GCIA ADMIN SEM 3233 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-08-19</fecha>
+    <hora>12:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>122</comprobacionno>
+    <folio>3233.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>918.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 29 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-08-26</fecha>
+    <hora>13:08</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>123</comprobacionno>
+    <folio>29.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1392.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 30 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-08-26</fecha>
+    <hora>13:08</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>124</comprobacionno>
+    <folio>30.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1189.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXCOAPAN 2 FOLIO 31 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-09-15</fecha>
+    <hora>11:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>125</comprobacionno>
+    <folio>31.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1021.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXCOAPAN 2 FOLIO 28 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-09-15</fecha>
+    <hora>11:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>126</comprobacionno>
+    <folio>28.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>946.0000</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 546 03 AGO 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-09-15</fecha>
+    <hora>11:37</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>127</comprobacionno>
+    <folio>546</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>543.8000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 34 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-10-13</fecha>
+    <hora>17:34</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>128</comprobacionno>
+    <folio>34.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1929.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 35 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-10-13</fecha>
+    <hora>17:34</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>129</comprobacionno>
+    <folio>35.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1158.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 36 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-10-13</fecha>
+    <hora>17:35</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>130</comprobacionno>
+    <folio>36.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1314.9000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 37 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-10-21</fecha>
+    <hora>13:35</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>131</comprobacionno>
+    <folio>37.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A SUCURSAL TULA1 21 OCT 2016 1 DE 2</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-10-28</fecha>
+    <hora>13:14</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>132</comprobacionno>
+    <folio>01102016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A SUCURSAL TULA1 21 OCT 2016 2 DE 2</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-10-28</fecha>
+    <hora>13:14</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>133</comprobacionno>
+    <folio>02102016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1218.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 38 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-04</fecha>
+    <hora>15:12</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>134</comprobacionno>
+    <folio>38.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>911.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 39 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-04</fecha>
+    <hora>15:13</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>135</comprobacionno>
+    <folio>39.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>4035.3500</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 40 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-04</fecha>
+    <hora>15:13</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>136</comprobacionno>
+    <folio>40.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1800.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 41 DE 2016 NOMINAS</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-04</fecha>
+    <hora>15:14</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>137</comprobacionno>
+    <folio>41.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>11374.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF GCIA ADMIN OCR SEM 42 Y 43</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-04</fecha>
+    <hora>15:15</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>138</comprobacionno>
+    <folio>4243</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A SUCURSAL MIXQUI DEPO 04NOV2016 1 DE 2</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-04</fecha>
+    <hora>15:16</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>139</comprobacionno>
+    <folio>11.20161</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>25000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A SUCURSAL MIXQUI DEPO 04NOV2016 2 DE 2</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-04</fecha>
+    <hora>15:17</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>140</comprobacionno>
+    <folio>11.20162</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER OCTUBRE DE 2016 PEND X RETIRAR</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-04</fecha>
+    <hora>15:28</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>141</comprobacionno>
+    <folio>111.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>863.0700</cantidad>
+    <concepto>Suministros</concepto>
+    <descripcion>NOTA DESCTO 547 04NOV 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-17</fecha>
+    <hora>15:38</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>142</comprobacionno>
+    <folio>547</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>193.1100</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTS DESCTO 548 01 OCT 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-17</fecha>
+    <hora>15:39</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>143</comprobacionno>
+    <folio>548</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>900.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 44 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-17</fecha>
+    <hora>15:40</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>144</comprobacionno>
+    <folio>44.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>299.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 43 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-17</fecha>
+    <hora>15:41</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>145</comprobacionno>
+    <folio>43.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>2443.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 42 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-11-17</fecha>
+    <hora>15:41</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>146</comprobacionno>
+    <folio>42.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>724.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 46 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-12-07</fecha>
+    <hora>13:20</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>147</comprobacionno>
+    <folio>46.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>730.7400</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 45 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-12-07</fecha>
+    <hora>13:21</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>148</comprobacionno>
+    <folio>45.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>40000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A CAJA 2 TLAXC2 DEPO 07 DIC 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-12-07</fecha>
+    <hora>13:24</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>149</comprobacionno>
+    <folio>12.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>735.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 47 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-12-21</fecha>
+    <hora>14:34</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>150</comprobacionno>
+    <folio>47.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>200.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 48 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-12-21</fecha>
+    <hora>14:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>151</comprobacionno>
+    <folio>48.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1221.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 49.2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-12-21</fecha>
+    <hora>15:07</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>152</comprobacionno>
+    <folio>49.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>2812.0000</cantidad>
+    <concepto>Otros</concepto>
+    <descripcion>CANCELA 2 N.R. NUM 2766 DEL 08 DE NOV 2016 DUPLICADAS 2 VECES X EL SISTEMA</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-12-21</fecha>
+    <hora>15:09</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>153</comprobacionno>
+    <folio>08112016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>18000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 20DIC2016 </descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-12-21</fecha>
+    <hora>15:10</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>154</comprobacionno>
+    <folio>20122016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-12-28</fecha>
+    <hora>14:21</hora>
+    <autorizo>JMDELAROSA</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>155</comprobacionno>
+    <folio>2212.20162</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-12-28</fecha>
+    <hora>14:22</hora>
+    <autorizo>JMDELAROSA</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>156</comprobacionno>
+    <folio>2212.20161</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2016-12-28</fecha>
+    <hora>14:30</hora>
+    <autorizo>JMDELAROSA</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>157</comprobacionno>
+    <folio>2612.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1800.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 50 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-01-11</fecha>
+    <hora>18:57</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>158</comprobacionno>
+    <folio>50.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>615.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 51 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-01-11</fecha>
+    <hora>18:58</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>159</comprobacionno>
+    <folio>51.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>137.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 52 DE 2016</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-01-11</fecha>
+    <hora>18:58</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>160</comprobacionno>
+    <folio>52.2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>3800.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 02 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-01-26</fecha>
+    <hora>13:27</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>161</comprobacionno>
+    <folio>02.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>360.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 01 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-01-26</fecha>
+    <hora>13:29</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>162</comprobacionno>
+    <folio>012017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>50000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR JMR </descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-01-26</fecha>
+    <hora>13:46</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>163</comprobacionno>
+    <folio>3.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>50000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR JMR</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-01-26</fecha>
+    <hora>13:47</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>164</comprobacionno>
+    <folio>4.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>50000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISRADOR JMR</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-01-26</fecha>
+    <hora>13:47</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>165</comprobacionno>
+    <folio>4.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1512.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 03 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-02-24</fecha>
+    <hora>11:15</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>166</comprobacionno>
+    <folio>03.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1800.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 04 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-02-24</fecha>
+    <hora>11:15</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>167</comprobacionno>
+    <folio>04.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1470.2000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 05 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-02-24</fecha>
+    <hora>11:17</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>168</comprobacionno>
+    <folio>05.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1377.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 06 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-02-24</fecha>
+    <hora>11:17</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>169</comprobacionno>
+    <folio>06.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>2790.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 07 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-02-24</fecha>
+    <hora>11:18</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>170</comprobacionno>
+    <folio>07.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 20FEB2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-02-24</fecha>
+    <hora>11:18</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>171</comprobacionno>
+    <folio>20022017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>38.6900</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 549 05 ENE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-02-24</fecha>
+    <hora>11:19</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>172</comprobacionno>
+    <folio>549</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>26.1400</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 550 07 ENE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-02-24</fecha>
+    <hora>11:20</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>173</comprobacionno>
+    <folio>550</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>258.9100</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 551 07 FEB 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-02-24</fecha>
+    <hora>11:20</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>174</comprobacionno>
+    <folio>551</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 07MAR2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-03-07</fecha>
+    <hora>11:48</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>175</comprobacionno>
+    <folio>102017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 07MAR2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-03-07</fecha>
+    <hora>11:49</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>176</comprobacionno>
+    <folio>112017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>870.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 08 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-03-07</fecha>
+    <hora>12:01</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>177</comprobacionno>
+    <folio>08.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>2700.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 09 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-03-07</fecha>
+    <hora>12:01</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>178</comprobacionno>
+    <folio>09.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>263.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 10 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-03-07</fecha>
+    <hora>12:02</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>179</comprobacionno>
+    <folio>10.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1800.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 12 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-03-17</fecha>
+    <hora>17:31</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>180</comprobacionno>
+    <folio>12.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>2478.6000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 13 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-03-17</fecha>
+    <hora>17:32</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>181</comprobacionno>
+    <folio>13.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>555.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 14 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-03-17</fecha>
+    <hora>17:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>182</comprobacionno>
+    <folio>14.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>150.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 15 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-03-17</fecha>
+    <hora>17:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>183</comprobacionno>
+    <folio>15.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>137.4000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 11 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:07</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>184</comprobacionno>
+    <folio>11.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>540.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 16 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:08</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>185</comprobacionno>
+    <folio>16.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>368.1000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 18 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:09</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>187</comprobacionno>
+    <folio>18.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>2700.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 11 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:09</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>188</comprobacionno>
+    <folio>19.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1035.1500</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO FOLIO 555 14 MARZO 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:10</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>189</comprobacionno>
+    <folio>555</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>5279.7900</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO FOLIO 557 14 MARZO 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:11</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>190</comprobacionno>
+    <folio>557</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR JMR</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:11</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>191</comprobacionno>
+    <folio>042017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>150.0000</cantidad>
+    <concepto>Otros</concepto>
+    <descripcion>RETIRO DEPO POR EMPEÑO COMPET 17NOV2016 N.R. 2866 INVENT CMGH3605</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:55</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>196</comprobacionno>
+    <folio>2866.3605</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1357.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 17 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:08</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>186</comprobacionno>
+    <folio>17.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 24 MAR 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:39</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>192</comprobacionno>
+    <folio>24032017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>78.4100</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 556 22 MAR 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:40</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>193</comprobacionno>
+    <folio>556</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>78.4100</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO FOLIO 556 FECHA 22 MAR 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:41</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>194</comprobacionno>
+    <folio>556</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>2700.0000</cantidad>
+    <concepto>Demasia</concepto>
+    <descripcion>COMPENSACION CONTRATO 30885 DEL 15 FEB 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-06</fecha>
+    <hora>11:43</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>195</comprobacionno>
+    <folio>1.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>93.6900</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 558 24 ABR 2017.</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-04-27</fecha>
+    <hora>11:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>197</comprobacionno>
+    <folio>558</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>15000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 10 MAY 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-05-11</fecha>
+    <hora>13:08</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>198</comprobacionno>
+    <folio>1005.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>10000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR JMR TULA03</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-05-11</fecha>
+    <hora>13:09</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>199</comprobacionno>
+    <folio>05.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1470.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 20 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-01</fecha>
+    <hora>11:05</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>200</comprobacionno>
+    <folio>20.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>646.7000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 21 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-01</fecha>
+    <hora>11:07</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>201</comprobacionno>
+    <folio>21.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>2475.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 22 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-01</fecha>
+    <hora>11:08</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>202</comprobacionno>
+    <folio>22.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1440.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 23 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-01</fecha>
+    <hora>11:09</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>203</comprobacionno>
+    <folio>23.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>26213.0000</cantidad>
+    <concepto>Nominas</concepto>
+    <descripcion>RUBEN BJ. 2016 PENDIENTE RETIRO</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-29</fecha>
+    <hora>11:40</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>204</comprobacionno>
+    <folio>2016</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>3600.0000</cantidad>
+    <concepto>Nominas</concepto>
+    <descripcion>EDITH CP AJUSTE PENDIENTE RETIRO 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-29</fecha>
+    <hora>11:41</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>205</comprobacionno>
+    <folio>2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>12000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 22JUN2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-29</fecha>
+    <hora>11:41</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>206</comprobacionno>
+    <folio>22062017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>752.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 24 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-29</fecha>
+    <hora>11:44</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>207</comprobacionno>
+    <folio>24.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1807.2600</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 25 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-29</fecha>
+    <hora>11:45</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>208</comprobacionno>
+    <folio>25.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>126.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 26 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-29</fecha>
+    <hora>11:45</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>209</comprobacionno>
+    <folio>26.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>378.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 27 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-29</fecha>
+    <hora>11:45</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>210</comprobacionno>
+    <folio>27.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>445.3000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 28 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-29</fecha>
+    <hora>11:45</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>211</comprobacionno>
+    <folio>28.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>121.8000</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 559 DE 06 MAY 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-29</fecha>
+    <hora>11:48</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>212</comprobacionno>
+    <folio>559</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>625.2000</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 560 DE 10 MAY 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-29</fecha>
+    <hora>11:49</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>213</comprobacionno>
+    <folio>560</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>545.1000</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 561 DE 15 MAY 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-29</fecha>
+    <hora>11:50</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>214</comprobacionno>
+    <folio>561</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>463.0200</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 563 06JUN2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-06-29</fecha>
+    <hora>12:03</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>215</comprobacionno>
+    <folio>563</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>556.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 29 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-07-07</fecha>
+    <hora>11:12</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>216</comprobacionno>
+    <folio>29.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1997.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 30 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-07-26</fecha>
+    <hora>12:26</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>217</comprobacionno>
+    <folio>30.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1489.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 31 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-07-26</fecha>
+    <hora>12:26</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>218</comprobacionno>
+    <folio>31.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1462.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 32 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-07-26</fecha>
+    <hora>12:27</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>219</comprobacionno>
+    <folio>32</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>135.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 33 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-07-26</fecha>
+    <hora>12:28</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>220</comprobacionno>
+    <folio>33.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>15000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 28JUL2017 </descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-08-11</fecha>
+    <hora>11:28</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>221</comprobacionno>
+    <folio>2807.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>463.0300</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 564 13 JUL 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-08-11</fecha>
+    <hora>11:31</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>222</comprobacionno>
+    <folio>564</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>856.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 34 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-08-18</fecha>
+    <hora>13:58</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>223</comprobacionno>
+    <folio>34.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>2530.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 35 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-08-18</fecha>
+    <hora>13:59</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>224</comprobacionno>
+    <folio>35.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>900.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 36 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-08-18</fecha>
+    <hora>13:59</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>225</comprobacionno>
+    <folio>36.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>629.4300</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 37 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-08-18</fecha>
+    <hora>14:00</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>226</comprobacionno>
+    <folio>37.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>50000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR JMR TULA3</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-09-07</fecha>
+    <hora>10:59</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>227</comprobacionno>
+    <folio>09.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR JMR TULA3</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-09-07</fecha>
+    <hora>10:59</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>228</comprobacionno>
+    <folio>09.20172</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>444.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 39 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-09-22</fecha>
+    <hora>10:57</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>229</comprobacionno>
+    <folio>39.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1459.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 40 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-09-22</fecha>
+    <hora>10:58</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>230</comprobacionno>
+    <folio>40.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>9000.0000</cantidad>
+    <concepto>Nominas</concepto>
+    <descripcion>10 SEMANAS NOMINA RBJ CISA EN EFECTIVO</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-09-22</fecha>
+    <hora>11:01</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>231</comprobacionno>
+    <folio>10.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>15000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 14 SEP 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-09-22</fecha>
+    <hora>11:08</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>232</comprobacionno>
+    <folio>1409.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>100000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR JMR TULA3</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-10-05</fecha>
+    <hora>13:47</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>233</comprobacionno>
+    <folio>102017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1112.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 38 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-10-27</fecha>
+    <hora>15:34</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>234</comprobacionno>
+    <folio>38.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>2700.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 41 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-10-27</fecha>
+    <hora>15:34</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>235</comprobacionno>
+    <folio>41.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1676.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 42 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-10-27</fecha>
+    <hora>15:35</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>236</comprobacionno>
+    <folio>42.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>200.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 44 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-10-27</fecha>
+    <hora>15:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>238</comprobacionno>
+    <folio>44.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>835.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 45 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-10-27</fecha>
+    <hora>15:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>239</comprobacionno>
+    <folio>45.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>25000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFERENCIA A FF ADMINISTRADOR JMR TULA3</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-10-27</fecha>
+    <hora>15:37</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>240</comprobacionno>
+    <folio>102017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>105.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 43 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-10-27</fecha>
+    <hora>15:35</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>237</comprobacionno>
+    <folio>43.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>15000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER CISA 1ONOV2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-11-11</fecha>
+    <hora>13:04</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>241</comprobacionno>
+    <folio>44.2015</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANAMEX 24 NOV 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-11-25</fecha>
+    <hora>12:35</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>242</comprobacionno>
+    <folio>2411.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>60.0600</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 565 12 SEP 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-11-25</fecha>
+    <hora>12:57</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>243</comprobacionno>
+    <folio>565</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR JMR</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-11-30</fecha>
+    <hora>13:22</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>244</comprobacionno>
+    <folio>112017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 07 DIC 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-12-07</fecha>
+    <hora>15:40</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>245</comprobacionno>
+    <folio>07122017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>443.9800</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 48 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-12-07</fecha>
+    <hora>15:41</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>246</comprobacionno>
+    <folio>48.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>802.6100</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 49 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-12-07</fecha>
+    <hora>15:42</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>247</comprobacionno>
+    <folio>49.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1351.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 50 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-12-07</fecha>
+    <hora>15:42</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>248</comprobacionno>
+    <folio>50.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1506.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 51 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-12-07</fecha>
+    <hora>15:43</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>249</comprobacionno>
+    <folio>51</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>540.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 52 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-12-07</fecha>
+    <hora>15:44</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>250</comprobacionno>
+    <folio>52.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>226.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIOS 46 Y 47 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-12-07</fecha>
+    <hora>15:47</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>251</comprobacionno>
+    <folio>4647.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>5000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 08DIC2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-12-27</fecha>
+    <hora>10:47</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>252</comprobacionno>
+    <folio>08122017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 14DIC2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-12-27</fecha>
+    <hora>10:47</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>253</comprobacionno>
+    <folio>14122017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 15DIC2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2017-12-27</fecha>
+    <hora>10:48</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>254</comprobacionno>
+    <folio>15122017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>460.6000</cantidad>
+    <concepto>Notas de descuentos</concepto>
+    <descripcion>NOTA DESCTO 567 28 NOV 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-01-17</fecha>
+    <hora>10:59</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>255</comprobacionno>
+    <folio>567.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>13500.0000</cantidad>
+    <concepto>Nominas</concepto>
+    <descripcion>SEMANAS DE 38 A 52 RUBEN BRAVO JAIME</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-01-17</fecha>
+    <hora>11:09</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>256</comprobacionno>
+    <folio>3852.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1899.0000</cantidad>
+    <concepto>Nominas</concepto>
+    <descripcion>SEM 53 AGUINALDO RUBEN BRAVO JAIME</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-01-17</fecha>
+    <hora>11:12</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>257</comprobacionno>
+    <folio>53.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>6995.5800</cantidad>
+    <concepto>Otros</concepto>
+    <descripcion>RETIRO DE DEPOSITOS PARCIALES REPARA XHF.</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-01-27</fecha>
+    <hora>13:15</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>259</comprobacionno>
+    <folio>2601.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>385.2500</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 53 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-01-27</fecha>
+    <hora>13:18</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>260</comprobacionno>
+    <folio>53.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>352.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 54 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-01-27</fecha>
+    <hora>13:19</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>261</comprobacionno>
+    <folio>54.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>290.7000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 55 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-01-27</fecha>
+    <hora>13:20</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>262</comprobacionno>
+    <folio>55.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1085.9600</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 56 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-01-27</fecha>
+    <hora>13:20</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>263</comprobacionno>
+    <folio>56.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>748.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 57 DE 2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-01-27</fecha>
+    <hora>13:20</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>264</comprobacionno>
+    <folio>57.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>25000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 24 ENE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-01-27</fecha>
+    <hora>13:21</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>265</comprobacionno>
+    <folio>2401.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>40000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A SUC TULA2 DEPO 30DIC2017</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-01-27</fecha>
+    <hora>13:12</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>258</comprobacionno>
+    <folio>3012.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 07 FEB2018 1 DE 2</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-02-09</fecha>
+    <hora>15:38</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>266</comprobacionno>
+    <folio>0702.20181</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 07 FEB2018 2 DE 2</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-02-09</fecha>
+    <hora>15:38</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>267</comprobacionno>
+    <folio>0702.20182</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>5846.3300</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 01 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-02-09</fecha>
+    <hora>15:48</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>268</comprobacionno>
+    <folio>01.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>11220.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 02 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-02-09</fecha>
+    <hora>15:48</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>269</comprobacionno>
+    <folio>02.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>4195.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 03 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-02-09</fecha>
+    <hora>15:49</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>270</comprobacionno>
+    <folio>03.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1135.0100</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 04 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-02-09</fecha>
+    <hora>15:49</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>271</comprobacionno>
+    <folio>04.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1122.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 02 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-02-09</fecha>
+    <hora>16:01</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>272</comprobacionno>
+    <folio>02.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>35000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A SUCURSAL TULA2 DEPO 15FEB2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-02-15</fecha>
+    <hora>14:58</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>273</comprobacionno>
+    <folio>02.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 15 FEB 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-02-15</fecha>
+    <hora>14:59</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>274</comprobacionno>
+    <folio>1502.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A CAJA OPERACIONES SUCURSAL TULA2 DEPO 02MAR2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-03-02</fecha>
+    <hora>16:57</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>275</comprobacionno>
+    <folio>02.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>10000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 20 MAR 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-03-31</fecha>
+    <hora>10:22</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>276</comprobacionno>
+    <folio>2003.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 21 MAR 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-03-31</fecha>
+    <hora>10:23</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>277</comprobacionno>
+    <folio>21032018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 26 MAR 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-03-31</fecha>
+    <hora>10:23</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>278</comprobacionno>
+    <folio>2603.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1209.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 05 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-03-31</fecha>
+    <hora>10:34</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>279</comprobacionno>
+    <folio>05.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1256.8900</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 06 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-03-31</fecha>
+    <hora>10:34</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>280</comprobacionno>
+    <folio>06.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>330.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 07 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-03-31</fecha>
+    <hora>10:35</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>281</comprobacionno>
+    <folio>07.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>220.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 08 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-03-31</fecha>
+    <hora>10:35</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>282</comprobacionno>
+    <folio>08.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>408.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 09 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-03-31</fecha>
+    <hora>10:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>283</comprobacionno>
+    <folio>09.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>279.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 10 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-03-31</fecha>
+    <hora>10:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>284</comprobacionno>
+    <folio>10.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR JMR</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-03-31</fecha>
+    <hora>10:38</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>285</comprobacionno>
+    <folio>032018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 09 MAR 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-03-31</fecha>
+    <hora>10:40</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>286</comprobacionno>
+    <folio>0903.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1099.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 15 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-04-12</fecha>
+    <hora>17:11</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>287</comprobacionno>
+    <folio>15.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>950.0400</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 14 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-04-12</fecha>
+    <hora>17:12</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>288</comprobacionno>
+    <folio>14.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>123.4300</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 13 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-04-12</fecha>
+    <hora>17:13</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>289</comprobacionno>
+    <folio>13.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>100.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 12 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-04-12</fecha>
+    <hora>17:13</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>290</comprobacionno>
+    <folio>12.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1027.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 11 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-04-12</fecha>
+    <hora>17:14</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>291</comprobacionno>
+    <folio>11.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>16528.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 15 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-04-25</fecha>
+    <hora>14:26</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>292</comprobacionno>
+    <folio>15.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>50.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 16 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-04-25</fecha>
+    <hora>14:27</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>293</comprobacionno>
+    <folio>16.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>15000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 17 ABR 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-04-25</fecha>
+    <hora>15:00</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>294</comprobacionno>
+    <folio>1704.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>10000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR JMR</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-04-25</fecha>
+    <hora>15:01</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>295</comprobacionno>
+    <folio>17042018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>89000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 03MAY2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-05-11</fecha>
+    <hora>13:34</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>296</comprobacionno>
+    <folio>0305.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 02MAY2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-05-11</fecha>
+    <hora>13:37</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>297</comprobacionno>
+    <folio>0205.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>25000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR JMR</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-05-11</fecha>
+    <hora>13:38</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>298</comprobacionno>
+    <folio>1105.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>648.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 17 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-05-11</fecha>
+    <hora>13:52</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>299</comprobacionno>
+    <folio>17.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>667.8100</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 18 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-05-11</fecha>
+    <hora>13:52</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>300</comprobacionno>
+    <folio>18.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>300.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 19 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-05-11</fecha>
+    <hora>13:52</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>301</comprobacionno>
+    <folio>19.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>3100.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 20 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-05-11</fecha>
+    <hora>13:53</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>302</comprobacionno>
+    <folio>20.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>334.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 21 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-05-11</fecha>
+    <hora>13:53</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>303</comprobacionno>
+    <folio>21.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER DE CAJA 2 A CAJA1 TLAXC2 DEPO 11 MAY 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-01</fecha>
+    <hora>16:47</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>304</comprobacionno>
+    <folio>11052018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>13000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 11 MAY 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-01</fecha>
+    <hora>16:51</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>305</comprobacionno>
+    <folio>1105.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>415.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 24 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-01</fecha>
+    <hora>16:52</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>306</comprobacionno>
+    <folio>24.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>390.1000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 26 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-01</fecha>
+    <hora>16:53</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>307</comprobacionno>
+    <folio>26.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>100.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 25 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-01</fecha>
+    <hora>16:53</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>308</comprobacionno>
+    <folio>25.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>649.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 23 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-01</fecha>
+    <hora>16:54</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>309</comprobacionno>
+    <folio>23.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>129.6900</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 22 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-01</fecha>
+    <hora>16:54</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>310</comprobacionno>
+    <folio>22.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1237.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 27 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-01</fecha>
+    <hora>16:55</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>311</comprobacionno>
+    <folio>27.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>50000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFERENCIA A CAJA OPS TULA2 CISA DEPO 01JUN2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-01</fecha>
+    <hora>16:57</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>312</comprobacionno>
+    <folio>0106.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>569.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 27 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-21</fecha>
+    <hora>14:22</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>313</comprobacionno>
+    <folio>27.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>603.8000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 29.2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-21</fecha>
+    <hora>14:23</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>314</comprobacionno>
+    <folio>29.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>8296.0100</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 30.2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-21</fecha>
+    <hora>14:24</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>315</comprobacionno>
+    <folio>30.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>801.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 31.2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-21</fecha>
+    <hora>14:24</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>316</comprobacionno>
+    <folio>31.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>300.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 33.2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-21</fecha>
+    <hora>14:25</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>317</comprobacionno>
+    <folio>33.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>53.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 34.2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-21</fecha>
+    <hora>14:25</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>318</comprobacionno>
+    <folio>34.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 11JUN2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-21</fecha>
+    <hora>14:26</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>319</comprobacionno>
+    <folio>1106.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 11JUN2018 2DE2</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-21</fecha>
+    <hora>14:27</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>320</comprobacionno>
+    <folio>1106.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>30000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A SUCURSAL TULA2 DEPO 14JUN2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-21</fecha>
+    <hora>14:29</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>321</comprobacionno>
+    <folio>14062017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>466.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 36 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-28</fecha>
+    <hora>11:31</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>322</comprobacionno>
+    <folio>36.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>450.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 32 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-28</fecha>
+    <hora>11:32</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>323</comprobacionno>
+    <folio>32.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>776.5000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC2 FOLIO 35 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-28</fecha>
+    <hora>11:33</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>324</comprobacionno>
+    <folio>35.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>5000.0000</cantidad>
+    <concepto>Transferencias</concepto>
+    <descripcion>TRANSFER A FF ADMINISTRADOR JMR T3</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-28</fecha>
+    <hora>11:35</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>325</comprobacionno>
+    <folio>062018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>7000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 22 JUN 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-06-28</fecha>
+    <hora>13:36</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>326</comprobacionno>
+    <folio>2206.2017</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>20000.0000</cantidad>
+    <concepto>Suministros</concepto>
+    <descripcion>TRANSFERENCIA A CAJA OPS SUCURSAL TULA2 DEPO 07JUL2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-07</fecha>
+    <hora>13:17</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>327</comprobacionno>
+    <folio>0707.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-2</caja>
+    <numcaja>TLX22</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>6000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>COMPLEM DEPO A CHQS BCR ERA DE 13 SE RETIRO 7 EL 28JUN2018 DE CAJA 2 TLAXC2</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-07</fecha>
+    <hora>13:22</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>328</comprobacionno>
+    <folio>2206.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>10000.0000</cantidad>
+    <concepto>Deposito a bancos</concepto>
+    <descripcion>DEPO A CHEQUES BANCOMER 06JUL2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-07</fecha>
+    <hora>13:27</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>329</comprobacionno>
+    <folio>06072018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>468.4800</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 43 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-28</fecha>
+    <hora>12:18</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>330</comprobacionno>
+    <folio>43.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1282.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 44 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-28</fecha>
+    <hora>12:19</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>331</comprobacionno>
+    <folio>44.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>18.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 45 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-28</fecha>
+    <hora>12:19</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>332</comprobacionno>
+    <folio>45.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>421.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 47 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-28</fecha>
+    <hora>12:19</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>333</comprobacionno>
+    <folio>47.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>4160.1900</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 51 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-28</fecha>
+    <hora>12:20</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>334</comprobacionno>
+    <folio>51.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>1188.9900</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 49 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-28</fecha>
+    <hora>12:20</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>335</comprobacionno>
+    <folio>49.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>432.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 37 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-28</fecha>
+    <hora>12:21</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>336</comprobacionno>
+    <folio>37.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>450.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 38 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-28</fecha>
+    <hora>12:21</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>337</comprobacionno>
+    <folio>38.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>4859.5200</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 39 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-28</fecha>
+    <hora>12:21</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>338</comprobacionno>
+    <folio>39.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>728.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 40 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-28</fecha>
+    <hora>12:22</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>339</comprobacionno>
+    <folio>40.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>714.3400</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 41 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-28</fecha>
+    <hora>12:22</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>340</comprobacionno>
+    <folio>41.2018</folio>
+  </Retiros>
+  <Retiros>
+    <caja>CIS-TLX2-1</caja>
+    <numcaja>TLX21</numcaja>
+    <pertenecea>TLAXCOAPAN MONTE SOL</pertenecea>
+    <cantidad>612.0000</cantidad>
+    <concepto>Reporte Gastos</concepto>
+    <descripcion>COMPROB GASTOS TLAXC1 FOLIO 42 DE 2018</descripcion>
+    <estatus>POR COMPROBAR</estatus>
+    <fecha>2018-07-28</fecha>
+    <hora>12:23</hora>
+    <autorizo>JMR</autorizo>
+    <usuario>JOSE MANUEL DE LA ROSA AGUILAR</usuario>
+    <nooperador>75</nooperador>
+    <comprobacionno>341</comprobacionno>
+    <folio>42.2018</folio>
+  </Retiros>
+</NewDataSet>
