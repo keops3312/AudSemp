@@ -499,6 +499,24 @@
     <Compile Include="Forms\ApartadosHistorialForm.Designer.cs">
       <DependentUpon>ApartadosHistorialForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\BolsasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BolsasForm.Designer.cs">
+      <DependentUpon>BolsasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BolsasJoyeriaRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BolsasJoyeriaRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\BolsasOtrosRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BolsasOtrosRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms\contratos.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -560,6 +578,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Models\ApartadosModel.cs" />
+    <Compile Include="Models\BolsasModel.cs" />
     <Compile Include="Models\ContratosModel.cs" />
     <Compile Include="Models\depositosRetirosModel.cs" />
     <Compile Include="Models\HistorialApartadosModel.cs" />
@@ -568,6 +587,7 @@
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\Rectangle.cs" />
     <Compile Include="Presenter\ApartadosPresenter.cs" />
+    <Compile Include="Presenter\BolsasPresenter.cs" />
     <Compile Include="Presenter\ContratosPresenter.cs" />
     <Compile Include="Presenter\DepositosRetirosPresenter.cs" />
     <Compile Include="Presenter\HistorialApartadosPresenter.cs" />
@@ -576,6 +596,7 @@
     <Compile Include="Presenter\PanelPresenter.cs" />
     <Compile Include="Presenter\RectanglePresenter.cs" />
     <Compile Include="Views\IApartados.cs" />
+    <Compile Include="Views\IBolsas.cs" />
     <Compile Include="Views\IContratos.cs" />
     <Compile Include="Views\IDepositosRetiros.cs" />
     <Compile Include="Views\IHistorialApartado.cs" />
@@ -594,6 +615,17 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ApartadosHistorialForm.resx">
       <DependentUpon>ApartadosHistorialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BolsasForm.resx">
+      <DependentUpon>BolsasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BolsasJoyeriaRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BolsasJoyeriaRPT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BolsasOtrosRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BolsasOtrosRPT.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\contratos.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -683,6 +715,7 @@
       <DependentUpon>Context.edmx</DependentUpon>
       <LastGenOutput>Context.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\bolsasC48.png" />
     <None Include="Resources\depRet.png" />
     <None Include="Resources\construccion.png" />
     <None Include="Resources\historialApartadoIcon.png" />

@@ -110,6 +110,14 @@ namespace AudSemp.Forms
             depositosyRetiros.ShowDialog();
         }
 
+        private void metroTileItem6_Click(object sender, EventArgs e)
+        {
+            BolsasForm bolsasForm = new BolsasForm();
+            bolsasForm.loc = codigo;
+            bolsasForm.WindowState = FormWindowState.Maximized;
+            bolsasForm.ShowDialog();
+        }
+
         #endregion
 
         #region Methods (metodos)
@@ -174,8 +182,9 @@ namespace AudSemp.Forms
 
 
 
+
         #endregion
 
-       
+      
     }
 }
