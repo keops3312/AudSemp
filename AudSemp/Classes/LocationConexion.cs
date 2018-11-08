@@ -2,17 +2,15 @@
 
 namespace AudSemp.Classes
 {
-    #region Libraries (librerias)
-    using AudSemp.Classes;
-    using AudSemp.Context;
+    #region Libraries (librerias) 
     using System;
     using System.Collections.Generic;
     using System.Configuration;
-    using System.Data;
     using System.Data.Entity.Core.EntityClient;
     using System.Data.SqlClient;
     using System.IO;
     using System.Linq;
+    using AudSemp.Context;
 
     #endregion
     public class LocationConexion
