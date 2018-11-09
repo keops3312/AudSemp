@@ -152,12 +152,35 @@ namespace AudSemp.Forms
 
             if (checkContratos.Checked == false)
             {
-                foreach (var item in chkContratos.Items)
+
+
+
+
+                if (chkContratos.CheckedItems.Count > 0)
                 {
-                    tipoStatus.Add(new Estatus() { estatu = item.ToString() }
-                         );
-                    leyendaEstatus += item.ToString() + " - ";
+                    foreach (var item in chkContratos.CheckedItems)
+                    {
+                        tipoStatus.Add(new Estatus() { estatu = item.ToString() }
+                             );
+                        leyendaEstatus += item.ToString() + " - ";
+                    }
+
                 }
+                else
+                {
+                    foreach (var item in chkContratos.Items)
+                    {
+                        tipoStatus.Add(new Estatus() { estatu = item.ToString() }
+                             );
+                        leyendaEstatus += item.ToString() + " - ";
+                    }
+                }
+
+
+
+
+
+               
             }
             else
             {
@@ -175,13 +198,32 @@ namespace AudSemp.Forms
 
             if (checkPrendas.Checked == false)
             {
-                foreach (var item in chkPrendas.Items)
+
+
+                if (chkPrendas.CheckedItems.Count > 0)
                 {
-                    tipoPrendas.Add(
-                         new categorias() { categoria = item.ToString() }
-                         );
-                    leyendaTipos += item.ToString() + " - ";
+
+                    foreach (var item in chkPrendas.CheckedItems)
+                    {
+                        tipoPrendas.Add(
+                             new categorias() { categoria = item.ToString() }
+                             );
+                        leyendaTipos += item.ToString() + " - ";
+                    }
                 }
+                else
+                {
+                    foreach (var item in chkPrendas.Items)
+                    {
+                        tipoPrendas.Add(
+                             new categorias() { categoria = item.ToString() }
+                             );
+                        leyendaTipos += item.ToString() + " - ";
+                    }
+                }
+
+
+             
             }
             else
             {

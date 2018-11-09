@@ -24,6 +24,28 @@
     </xs:element>
   </xs:schema>
   <CajaAuxiliar>
+    <Folio>A-035</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-05-11</FechaPrimMov>
+    <FechaUltMov>2017-07-26</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1194</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-10</Folio>
+    <Acumulado>27</Acumulado>
+    <FechaPrimMov>2016-05-21</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>291</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1265</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2016-05-21</FechaPrimMov>
@@ -46,6 +68,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1270</Folio>
+    <Acumulado>60</Acumulado>
+    <FechaPrimMov>2016-05-21</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>292</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1273</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2016-05-21</FechaPrimMov>
@@ -66,6 +99,50 @@
     <ultimaOperacion>4</ultimaOperacion>
     <ultimoMovimiento>83</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1276</Folio>
+    <Acumulado>11</Acumulado>
+    <FechaPrimMov>2016-05-21</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>293</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1277</Folio>
+    <Acumulado>75</Acumulado>
+    <FechaPrimMov>2016-05-21</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>294</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1279</Folio>
+    <Acumulado>35</Acumulado>
+    <FechaPrimMov>2016-05-21</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>295</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1283</Folio>
+    <Acumulado>200</Acumulado>
+    <FechaPrimMov>2016-05-21</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>296</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1288</Folio>
@@ -101,6 +178,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1294</Folio>
+    <Acumulado>50</Acumulado>
+    <FechaPrimMov>2016-05-21</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>297</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1298</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2016-05-21</FechaPrimMov>
@@ -110,6 +198,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>122</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-13</Folio>
+    <Acumulado>38</Acumulado>
+    <FechaPrimMov>2016-05-21</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>298</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1300</Folio>
@@ -200,6 +299,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1311</Folio>
+    <Acumulado>335</Acumulado>
+    <FechaPrimMov>2016-06-10</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>299</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1312</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2016-06-13</FechaPrimMov>
@@ -220,6 +330,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>72</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1315</Folio>
+    <Acumulado>285</Acumulado>
+    <FechaPrimMov>2016-06-16</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>300</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1316</Folio>
@@ -321,6 +442,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1325</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2016-07-04</FechaPrimMov>
+    <FechaUltMov>2016-11-17</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>445</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1326</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2016-07-06</FechaPrimMov>
@@ -374,6 +506,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>260</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1331</Folio>
+    <Acumulado>165</Acumulado>
+    <FechaPrimMov>2016-07-18</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>302</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1332</Folio>
@@ -473,6 +616,17 @@
     <ultimaOperacion>4</ultimaOperacion>
     <ultimoMovimiento>324</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1341</Folio>
+    <Acumulado>175</Acumulado>
+    <FechaPrimMov>2016-08-09</FechaPrimMov>
+    <FechaUltMov>2016-11-30</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>498</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1342</Folio>
@@ -706,6 +860,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1364</Folio>
+    <Acumulado>110</Acumulado>
+    <FechaPrimMov>2016-10-05</FechaPrimMov>
+    <FechaUltMov>2017-04-19</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>875</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1365</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2016-10-05</FechaPrimMov>
@@ -748,6 +913,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>500</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1369</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2016-10-08</FechaPrimMov>
+    <FechaUltMov>2016-12-29</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>6</ultimaOperacion>
+    <ultimoMovimiento>605</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1370</Folio>
@@ -825,6 +1001,17 @@
     <ultimaOperacion>6</ultimaOperacion>
     <ultimoMovimiento>551</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1377</Folio>
+    <Acumulado>91</Acumulado>
+    <FechaPrimMov>2016-10-19</FechaPrimMov>
+    <FechaUltMov>2017-04-19</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>876</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1378</Folio>
@@ -926,6 +1113,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1387</Folio>
+    <Acumulado>60</Acumulado>
+    <FechaPrimMov>2016-10-27</FechaPrimMov>
+    <FechaUltMov>2017-04-19</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>877</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1388</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2016-10-28</FechaPrimMov>
@@ -990,6 +1188,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>635</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1394</Folio>
+    <Acumulado>95</Acumulado>
+    <FechaPrimMov>2016-11-10</FechaPrimMov>
+    <FechaUltMov>2017-04-19</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>878</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1395</Folio>
@@ -1168,6 +1377,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1412</Folio>
+    <Acumulado>70</Acumulado>
+    <FechaPrimMov>2016-12-02</FechaPrimMov>
+    <FechaUltMov>2017-04-19</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>879</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1413</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2016-12-02</FechaPrimMov>
@@ -1223,6 +1443,50 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1418</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2016-12-21</FechaPrimMov>
+    <FechaUltMov>2016-12-22</FechaUltMov>
+    <Comentario>R-5104</Comentario>
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>575</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1419</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2016-12-21</FechaPrimMov>
+    <FechaUltMov>2016-12-29</FechaUltMov>
+    <Comentario>R-5119</Comentario>
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>601</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1421</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2016-12-21</FechaPrimMov>
+    <FechaUltMov>2017-03-10</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>784</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1422</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2016-12-27</FechaPrimMov>
+    <FechaUltMov>2017-03-04</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>774</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1423</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2016-12-28</FechaPrimMov>
@@ -1254,6 +1518,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>759</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1426</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2016-12-29</FechaPrimMov>
+    <FechaUltMov>2017-01-14</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>646</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1427</Folio>
@@ -1322,6 +1597,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1433</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-01-10</FechaPrimMov>
+    <FechaUltMov>2017-04-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>837</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1434</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-01-11</FechaPrimMov>
@@ -1342,6 +1628,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>656</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1436</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-01-16</FechaPrimMov>
+    <FechaUltMov>2017-03-29</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>818</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1437</Folio>
@@ -1443,6 +1740,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1446</Folio>
+    <Acumulado>15</Acumulado>
+    <FechaPrimMov>2017-01-30</FechaPrimMov>
+    <FechaUltMov>2017-04-19</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>880</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1447</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-01-31</FechaPrimMov>
@@ -1476,6 +1784,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1450</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-02-14</FechaPrimMov>
+    <FechaUltMov>2017-04-25</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>891</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1451</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-02-14</FechaPrimMov>
@@ -1507,6 +1826,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>802</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1454</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-02-14</FechaPrimMov>
+    <FechaUltMov>2017-04-26</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>7</ultimaOperacion>
+    <ultimoMovimiento>895</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1455</Folio>
@@ -1553,6 +1883,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1459</Folio>
+    <Acumulado>37</Acumulado>
+    <FechaPrimMov>2017-03-10</FechaPrimMov>
+    <FechaUltMov>2017-06-14</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1053</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1461</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-03-14</FechaPrimMov>
@@ -1586,6 +1927,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1465</Folio>
+    <Acumulado>37</Acumulado>
+    <FechaPrimMov>2017-03-16</FechaPrimMov>
+    <FechaUltMov>2017-06-14</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1054</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1466</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-03-17</FechaPrimMov>
@@ -1597,6 +1949,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1467</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-03-21</FechaPrimMov>
+    <FechaUltMov>2017-05-30</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1019</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1468</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-03-21</FechaPrimMov>
@@ -1606,6 +1969,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>998</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1469</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-03-22</FechaPrimMov>
+    <FechaUltMov>2017-05-29</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>1015</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1470</Folio>
@@ -1630,6 +2004,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1472</Folio>
+    <Acumulado>165</Acumulado>
+    <FechaPrimMov>2017-03-30</FechaPrimMov>
+    <FechaUltMov>2017-06-14</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1055</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1473</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-03-30</FechaPrimMov>
@@ -1652,6 +2037,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1476</Folio>
+    <Acumulado>75</Acumulado>
+    <FechaPrimMov>2017-04-04</FechaPrimMov>
+    <FechaUltMov>2017-07-20</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1160</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1477</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-04-05</FechaPrimMov>
@@ -1661,6 +2057,17 @@
     <ultimaOperacion>4</ultimaOperacion>
     <ultimoMovimiento>923</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1478</Folio>
+    <Acumulado>75</Acumulado>
+    <FechaPrimMov>2017-04-05</FechaPrimMov>
+    <FechaUltMov>2017-07-20</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1161</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1479</Folio>
@@ -1683,6 +2090,28 @@
     <ultimaOperacion>4</ultimaOperacion>
     <ultimoMovimiento>1041</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1482</Folio>
+    <Acumulado>36</Acumulado>
+    <FechaPrimMov>2017-04-13</FechaPrimMov>
+    <FechaUltMov>2017-07-20</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1162</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1483</Folio>
+    <Acumulado>31</Acumulado>
+    <FechaPrimMov>2017-04-17</FechaPrimMov>
+    <FechaUltMov>2017-07-20</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1163</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1484</Folio>
@@ -1740,6 +2169,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1489</Folio>
+    <Acumulado>273</Acumulado>
+    <FechaPrimMov>2017-04-27</FechaPrimMov>
+    <FechaUltMov>2017-07-20</FechaUltMov>
+    <Comentario>R-5204</Comentario>
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1164</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1490</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-04-27</FechaPrimMov>
@@ -1749,6 +2189,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>929</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1491</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-04-27</FechaPrimMov>
+    <FechaUltMov>2017-05-02</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>932</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1493</Folio>
@@ -1806,6 +2257,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1499</Folio>
+    <Acumulado>23</Acumulado>
+    <FechaPrimMov>2017-05-04</FechaPrimMov>
+    <FechaUltMov>2017-07-20</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1165</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1500</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-05-02</FechaPrimMov>
@@ -1859,6 +2321,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1133</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1519</Folio>
+    <Acumulado>-1</Acumulado>
+    <FechaPrimMov>2017-05-25</FechaPrimMov>
+    <FechaUltMov>2017-08-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1216</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1520</Folio>
@@ -1927,6 +2400,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1526</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-06-08</FechaPrimMov>
+    <FechaUltMov>2017-08-18</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1260</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1527</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-06-12</FechaPrimMov>
@@ -1947,6 +2431,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1242</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1529</Folio>
+    <Acumulado>50</Acumulado>
+    <FechaPrimMov>2017-06-12</FechaPrimMov>
+    <FechaUltMov>2017-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1395</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1530</Folio>
@@ -1991,6 +2486,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1070</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1534</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-07-25</FechaPrimMov>
+    <FechaUltMov>2017-12-20</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1646</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1535</Folio>
@@ -2081,6 +2587,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1543</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-07-03</FechaPrimMov>
+    <FechaUltMov>2017-07-04</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1118</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1544</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-07-06</FechaPrimMov>
@@ -2147,6 +2664,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1550</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-07-17</FechaPrimMov>
+    <FechaUltMov>2017-08-19</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1268</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1551</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-07-18</FechaPrimMov>
@@ -2156,6 +2684,28 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1185</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1552</Folio>
+    <Acumulado>100</Acumulado>
+    <FechaPrimMov>2017-07-19</FechaPrimMov>
+    <FechaUltMov>2017-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1397</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1553</Folio>
+    <Acumulado>55</Acumulado>
+    <FechaPrimMov>2017-07-19</FechaPrimMov>
+    <FechaUltMov>2017-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1398</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1554</Folio>
@@ -2233,6 +2783,28 @@
     <ultimaOperacion>4</ultimaOperacion>
     <ultimoMovimiento>1359</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1561</Folio>
+    <Acumulado>175</Acumulado>
+    <FechaPrimMov>2017-07-25</FechaPrimMov>
+    <FechaUltMov>2017-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>1399</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1562</Folio>
+    <Acumulado>299</Acumulado>
+    <FechaPrimMov>2017-07-26</FechaPrimMov>
+    <FechaUltMov>2017-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1400</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1563</Folio>
@@ -2378,6 +2950,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1576</Folio>
+    <Acumulado>133</Acumulado>
+    <FechaPrimMov>2017-08-16</FechaPrimMov>
+    <FechaUltMov>2017-11-29</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1579</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1577</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-08-17</FechaPrimMov>
@@ -2521,6 +3104,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1590</Folio>
+    <Acumulado>135</Acumulado>
+    <FechaPrimMov>2017-09-08</FechaPrimMov>
+    <FechaUltMov>2017-11-29</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1580</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1591</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-09-08</FechaPrimMov>
@@ -2552,6 +3146,28 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1332</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1594</Folio>
+    <Acumulado>185</Acumulado>
+    <FechaPrimMov>2017-09-19</FechaPrimMov>
+    <FechaUltMov>2017-11-29</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1581</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1595</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-09-20</FechaPrimMov>
+    <FechaUltMov>2017-09-27</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1378</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1596</Folio>
@@ -2596,6 +3212,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1445</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1600</Folio>
+    <Acumulado>60</Acumulado>
+    <FechaPrimMov>2017-11-11</FechaPrimMov>
+    <FechaUltMov>2018-02-08</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1774</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1601</Folio>
@@ -2675,6 +3302,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1608</Folio>
+    <Acumulado>20</Acumulado>
+    <FechaPrimMov>2017-10-06</FechaPrimMov>
+    <FechaUltMov>2018-02-08</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1775</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1609</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-10-07</FechaPrimMov>
@@ -2695,6 +3333,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1520</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1611</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-10-11</FechaPrimMov>
+    <FechaUltMov>2018-01-12</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1725</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1612</Folio>
@@ -2816,6 +3465,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1503</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1623</Folio>
+    <Acumulado>113</Acumulado>
+    <FechaPrimMov>2017-10-23</FechaPrimMov>
+    <FechaUltMov>2018-02-08</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1776</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1624</Folio>
@@ -2972,6 +3632,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1638</Folio>
+    <Acumulado>141</Acumulado>
+    <FechaPrimMov>2017-11-23</FechaPrimMov>
+    <FechaUltMov>2018-02-08</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1777</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1639</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-11-24</FechaPrimMov>
@@ -2981,6 +3652,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1654</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1640</Folio>
+    <Acumulado>1135</Acumulado>
+    <FechaPrimMov>2017-11-27</FechaPrimMov>
+    <FechaUltMov>2018-02-13</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>1793</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1641</Folio>
@@ -3024,6 +3706,17 @@
     <ultimoEstatus>VENDIDO</ultimoEstatus>
     <ultimaOperacion>7</ultimaOperacion>
     <ultimoMovimiento>1790</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1645</Folio>
+    <Acumulado>-1</Acumulado>
+    <FechaPrimMov>2017-12-15</FechaPrimMov>
+    <FechaUltMov>2017-12-19</FechaUltMov>
+    <Comentario>R-5692</Comentario>
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>6</ultimaOperacion>
+    <ultimoMovimiento>1638</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
@@ -3247,6 +3940,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1666</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-01-02</FechaPrimMov>
+    <FechaUltMov>2018-06-19</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2109</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1667</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-01-03</FechaPrimMov>
@@ -3313,6 +4017,28 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1673</Folio>
+    <Acumulado>75</Acumulado>
+    <FechaPrimMov>2018-01-12</FechaPrimMov>
+    <FechaUltMov>2018-05-30</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2045</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1674</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-01-16</FechaPrimMov>
+    <FechaUltMov>2018-04-27</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1968</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1675</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-01-16</FechaPrimMov>
@@ -3355,6 +4081,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1871</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1679</Folio>
+    <Acumulado>140</Acumulado>
+    <FechaPrimMov>2018-01-22</FechaPrimMov>
+    <FechaUltMov>2018-05-30</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2046</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1680</Folio>
@@ -3423,6 +4160,28 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1686</Folio>
+    <Acumulado>50</Acumulado>
+    <FechaPrimMov>2018-02-08</FechaPrimMov>
+    <FechaUltMov>2018-05-30</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2047</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1687</Folio>
+    <Acumulado>530</Acumulado>
+    <FechaPrimMov>2018-02-08</FechaPrimMov>
+    <FechaUltMov>2018-05-30</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2048</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1688</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-02-09</FechaPrimMov>
@@ -3432,6 +4191,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1804</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1689</Folio>
+    <Acumulado>137</Acumulado>
+    <FechaPrimMov>2018-02-12</FechaPrimMov>
+    <FechaUltMov>2018-05-30</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2049</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1690</Folio>
@@ -3476,6 +4246,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1890</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1694</Folio>
+    <Acumulado>165</Acumulado>
+    <FechaPrimMov>2018-02-15</FechaPrimMov>
+    <FechaUltMov>2018-05-30</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2050</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1695</Folio>
@@ -3533,6 +4314,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-17</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2016-05-21</FechaPrimMov>
+    <FechaUltMov>2016-09-12</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>243</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1700</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-03-09</FechaPrimMov>
@@ -3542,6 +4334,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>1854</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1702</Folio>
+    <Acumulado>-1</Acumulado>
+    <FechaPrimMov>2018-03-20</FechaPrimMov>
+    <FechaUltMov>2018-07-05</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2141</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1703</Folio>
@@ -3588,6 +4391,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1707</Folio>
+    <Acumulado>435</Acumulado>
+    <FechaPrimMov>2018-03-28</FechaPrimMov>
+    <FechaUltMov>2018-07-24</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2172</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1708</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-03-29</FechaPrimMov>
@@ -3597,6 +4411,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>2070</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1709</Folio>
+    <Acumulado>60</Acumulado>
+    <FechaPrimMov>2018-04-02</FechaPrimMov>
+    <FechaUltMov>2018-07-24</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2173</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1710</Folio>
@@ -3764,6 +4589,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1725</Folio>
+    <Acumulado>55</Acumulado>
+    <FechaPrimMov>2018-05-04</FechaPrimMov>
+    <FechaUltMov>2018-07-24</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2174</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1726</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-05-05</FechaPrimMov>
@@ -3918,6 +4754,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1740</Folio>
+    <Acumulado>120</Acumulado>
+    <FechaPrimMov>2018-05-29</FechaPrimMov>
+    <FechaUltMov>2018-05-29</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2039</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1741</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-05-29</FechaPrimMov>
@@ -4017,6 +4864,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1750</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-06-14</FechaPrimMov>
+    <FechaUltMov>2018-08-27</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2259</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1751</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-06-16</FechaPrimMov>
@@ -4048,6 +4906,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>2248</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1754</Folio>
+    <Acumulado>100</Acumulado>
+    <FechaPrimMov>2018-06-21</FechaPrimMov>
+    <FechaUltMov>2018-06-21</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2111</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1755</Folio>
@@ -4127,6 +4996,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1762</Folio>
+    <Acumulado>150</Acumulado>
+    <FechaPrimMov>2018-07-17</FechaPrimMov>
+    <FechaUltMov>2018-07-17</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2160</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1763</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-07-17</FechaPrimMov>
@@ -4193,6 +5073,39 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1769</Folio>
+    <Acumulado>500</Acumulado>
+    <FechaPrimMov>2018-07-27</FechaPrimMov>
+    <FechaUltMov>2018-07-27</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2185</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1770</Folio>
+    <Acumulado>100</Acumulado>
+    <FechaPrimMov>2018-07-28</FechaPrimMov>
+    <FechaUltMov>2018-07-28</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2190</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1771</Folio>
+    <Acumulado>160</Acumulado>
+    <FechaPrimMov>2018-07-28</FechaPrimMov>
+    <FechaUltMov>2018-07-28</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2191</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1772</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-07-30</FechaPrimMov>
@@ -4202,6 +5115,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>2274</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1773</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-08-01</FechaPrimMov>
+    <FechaUltMov>2018-08-06</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2216</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1774</Folio>
@@ -4347,6 +5271,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1787</Folio>
+    <Acumulado>400</Acumulado>
+    <FechaPrimMov>2018-08-30</FechaPrimMov>
+    <FechaUltMov>2018-08-30</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2266</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1788</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-08-31</FechaPrimMov>
@@ -4391,6 +5326,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1792</Folio>
+    <Acumulado>250</Acumulado>
+    <FechaPrimMov>2018-09-04</FechaPrimMov>
+    <FechaUltMov>2018-09-04</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2280</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1793</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-09-11</FechaPrimMov>
@@ -4413,6 +5359,17 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1795</Folio>
+    <Acumulado>180</Acumulado>
+    <FechaPrimMov>2018-09-19</FechaPrimMov>
+    <FechaUltMov>2018-09-19</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2304</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1796</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-09-19</FechaPrimMov>
@@ -4422,6 +5379,39 @@
     <ultimaOperacion>5</ultimaOperacion>
     <ultimoMovimiento>2391</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1797</Folio>
+    <Acumulado>80</Acumulado>
+    <FechaPrimMov>2018-09-20</FechaPrimMov>
+    <FechaUltMov>2018-09-20</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2309</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1798</Folio>
+    <Acumulado>350</Acumulado>
+    <FechaPrimMov>2018-09-21</FechaPrimMov>
+    <FechaUltMov>2018-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2353</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1799</Folio>
+    <Acumulado>500</Acumulado>
+    <FechaPrimMov>2018-09-24</FechaPrimMov>
+    <FechaUltMov>2018-09-24</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2322</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1800</Folio>
@@ -4457,6 +5447,28 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1803</Folio>
+    <Acumulado>110</Acumulado>
+    <FechaPrimMov>2018-10-01</FechaPrimMov>
+    <FechaUltMov>2018-10-01</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2338</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1804</Folio>
+    <Acumulado>96</Acumulado>
+    <FechaPrimMov>2018-10-01</FechaPrimMov>
+    <FechaUltMov>2018-10-31</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2421</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1805</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-10-02</FechaPrimMov>
@@ -4466,6 +5478,28 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>2399</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1806</Folio>
+    <Acumulado>90</Acumulado>
+    <FechaPrimMov>2018-10-02</FechaPrimMov>
+    <FechaUltMov>2018-10-02</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2345</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1807</Folio>
+    <Acumulado>110</Acumulado>
+    <FechaPrimMov>2018-10-02</FechaPrimMov>
+    <FechaUltMov>2018-10-02</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2346</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-1808</Folio>
@@ -4479,6 +5513,83 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1809</Folio>
+    <Acumulado>60</Acumulado>
+    <FechaPrimMov>2018-10-03</FechaPrimMov>
+    <FechaUltMov>2018-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2355</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1810</Folio>
+    <Acumulado>197</Acumulado>
+    <FechaPrimMov>2018-10-04</FechaPrimMov>
+    <FechaUltMov>2018-10-09</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2377</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1811</Folio>
+    <Acumulado>550</Acumulado>
+    <FechaPrimMov>2018-10-04</FechaPrimMov>
+    <FechaUltMov>2018-10-25</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2403</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1812</Folio>
+    <Acumulado>852</Acumulado>
+    <FechaPrimMov>2018-10-05</FechaPrimMov>
+    <FechaUltMov>2018-10-26</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2404</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1813</Folio>
+    <Acumulado>320</Acumulado>
+    <FechaPrimMov>2018-10-06</FechaPrimMov>
+    <FechaUltMov>2018-10-27</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2406</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1814</Folio>
+    <Acumulado>150</Acumulado>
+    <FechaPrimMov>2018-10-08</FechaPrimMov>
+    <FechaUltMov>2018-10-08</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2370</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1815</Folio>
+    <Acumulado>147</Acumulado>
+    <FechaPrimMov>2018-10-22</FechaPrimMov>
+    <FechaUltMov>2018-10-24</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2401</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-1816</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2018-10-26</FechaPrimMov>
@@ -4490,6 +5601,50 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-1817</Folio>
+    <Acumulado>270</Acumulado>
+    <FechaPrimMov>2018-10-27</FechaPrimMov>
+    <FechaUltMov>2018-10-27</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2407</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1818</Folio>
+    <Acumulado>450</Acumulado>
+    <FechaPrimMov>2018-10-30</FechaPrimMov>
+    <FechaUltMov>2018-10-30</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2411</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-20</Folio>
+    <Acumulado>22</Acumulado>
+    <FechaPrimMov>2017-04-03</FechaPrimMov>
+    <FechaUltMov>2017-07-20</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1166</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-23</Folio>
+    <Acumulado>100</Acumulado>
+    <FechaPrimMov>2016-05-21</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>303</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-24</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2016-05-30</FechaPrimMov>
@@ -4499,6 +5654,28 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>56</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-26</Folio>
+    <Acumulado>18</Acumulado>
+    <FechaPrimMov>2016-06-06</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>304</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-3</Folio>
+    <Acumulado>384</Acumulado>
+    <FechaPrimMov>2016-05-21</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>305</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-33</Folio>
@@ -4534,6 +5711,28 @@
     <Descripcion>RETIRO APART REM</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
+    <Folio>A-36</Folio>
+    <Acumulado>60</Acumulado>
+    <FechaPrimMov>2017-05-22</FechaPrimMov>
+    <FechaUltMov>2017-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1401</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-37</Folio>
+    <Acumulado>100</Acumulado>
+    <FechaPrimMov>2017-05-23</FechaPrimMov>
+    <FechaUltMov>2017-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>1402</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
     <Folio>A-38</Folio>
     <Acumulado>0</Acumulado>
     <FechaPrimMov>2017-05-24</FechaPrimMov>
@@ -4554,6 +5753,17 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>944</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-41</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-05-25</FechaPrimMov>
+    <FechaUltMov>2017-09-19</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1345</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-45</Folio>
@@ -4598,6 +5808,28 @@
     <ultimaOperacion>3</ultimaOperacion>
     <ultimoMovimiento>993</ultimoMovimiento>
     <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-49</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-05-13</FechaPrimMov>
+    <FechaUltMov>2017-07-19</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>1152</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-5</Folio>
+    <Acumulado>145</Acumulado>
+    <FechaPrimMov>2016-05-21</FechaPrimMov>
+    <FechaUltMov>2016-10-03</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>306</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
   </CajaAuxiliar>
   <CajaAuxiliar>
     <Folio>A-52</Folio>

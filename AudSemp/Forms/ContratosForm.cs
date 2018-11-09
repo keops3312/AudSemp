@@ -372,25 +372,7 @@ namespace AudSemp.Forms
             List<categorias> tipoPrendas = new List<categorias>();
             List<Estatus> tipoStatus = new List<Estatus>();
 
-            int a = chkPrendas.CheckedIndices.Count;
-            int b = chkContratos.CheckedIndices.Count;
-            if (a == 0)
-            {
-                for (int i = 0; i < chkPrendas.Items.Count; i++)
-                {
-                    chkPrendas.SetItemChecked(i, true);
-                }
-
-            }
-            if (b == 0)
-            {
-                for (int i = 0; i < chkContratos.Items.Count; i++)
-                {
-                    chkContratos.SetItemChecked(i, true);
-                }
-
-            }
-
+          
 
 
             if (checkFechas.Checked == true)
@@ -426,35 +408,98 @@ namespace AudSemp.Forms
                 orden = "Ascendente";
             }
 
-            leyendaTipos="";
-            leyendaEstatus = "";
-            if (checkPrendas.Checked == false)
-            {
-                checkPrendas.Checked = true;
 
-            }
+            leyendaTipos = "";
+            leyendaEstatus = "";
+
+
 
             if (checkContratos.Checked == false)
             {
-                checkContratos.Checked = true;
+
+
+
+
+                if (chkContratos.CheckedItems.Count > 0)
+                {
+                    foreach (var item in chkContratos.CheckedItems)
+                    {
+                        tipoStatus.Add(new Estatus() { estatu = item.ToString() }
+                             );
+                        leyendaEstatus += item.ToString() + " - ";
+                    }
+
+                }
+                else
+                {
+                    foreach (var item in chkContratos.CheckedItems)
+                    {
+                        tipoStatus.Add(new Estatus() { estatu = item.ToString() }
+                             );
+                        leyendaEstatus += item.ToString() + " - ";
+                    }
+                }
+
+
+
+
+
+
+            }
+            else
+            {
+
+                foreach (var item in chkContratos.CheckedItems)
+                {
+                    tipoStatus.Add(new Estatus() { estatu = item.ToString() }
+                         );
+                    leyendaEstatus += item.ToString() + " - ";
+                }
             }
 
 
-            foreach (var item in chkPrendas.CheckedItems)
+
+            if (checkPrendas.Checked == false)
+            {
+
+
+                if (chkPrendas.CheckedItems.Count > 0)
+                {
+
+                    foreach (var item in chkPrendas.CheckedItems)
+                    {
+                        tipoPrendas.Add(
+                             new categorias() { categoria = item.ToString() }
+                             );
+                        leyendaTipos += item.ToString() + " - ";
+                    }
+                }
+                else
+                {
+                    foreach (var item in chkPrendas.Items)
+                    {
+                        tipoPrendas.Add(
+                             new categorias() { categoria = item.ToString() }
+                             );
+                        leyendaTipos += item.ToString() + " - ";
+                    }
+                }
+
+
+
+            }
+            else
+            {
+
+                foreach (var item in chkPrendas.CheckedItems)
                 {
                     tipoPrendas.Add(
                          new categorias() { categoria = item.ToString() }
                          );
-                leyendaTipos += item.ToString() + " - ";
+                    leyendaTipos += item.ToString() + " - ";
                 }
-         
-               
-            foreach (var item in chkContratos.CheckedItems)
-                {
-                    tipoStatus.Add(new Estatus() { estatu = item.ToString() }
-                         );
-                leyendaEstatus += item.ToString() + " - ";
-                }
+
+            }
 
             Export(fechaInicio, fechaFin, tipoOrden, orden, tipoPrendas, tipoStatus);
 
