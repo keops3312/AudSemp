@@ -131,13 +131,16 @@ namespace AudSemp.Forms
 
 
             }
-            else
-            {
-                for (int i = 0; i < chkContratos.Items.Count; i++)
-                {
-                    chkContratos.SetItemChecked(i, true);
-                }
 
+            if (checkContratos.Checked == true)
+            {
+
+              
+                    for (int i = 0; i < chkContratos.Items.Count; i++)
+                    {
+                        chkContratos.SetItemChecked(i, true);
+                    }
+              
 
             }
         }
@@ -324,20 +327,14 @@ namespace AudSemp.Forms
 
         public void Excel(string ruta)
         {
+            leyendaRango = "";
+            leyendaEstatus = "";
+
             string fechaInicio, fechaFin, tipoOrden = "Fecha", orden = "Ascendente";
             List<Estatus> tipoStatus = new List<Estatus>();
 
         
-            int b = chkContratos.CheckedIndices.Count;
-            if (b == 0)
-            {
-                for (int i = 0; i < chkContratos.Items.Count; i++)
-                {
-                    chkContratos.SetItemChecked(i, true);
-                }
-
-            }
-
+          
 
 
             if (checkFechas.Checked == true)
@@ -377,21 +374,33 @@ namespace AudSemp.Forms
                 orden = "Ascendente";
             }
 
+
+
+
+          
+
             if (checkContratos.Checked == false)
             {
-                checkContratos.Checked = true;
+                foreach (var item in chkContratos.Items)
+                {
+                    tipoStatus.Add(new Estatus() { estatu = item.ToString() }
+                         );
+                    leyendaEstatus += item.ToString() + " - ";
+                }
             }
-
-            //
-
-            leyendaEstatus = "";
-           
-            foreach (var item in chkContratos.CheckedItems)
+            else
             {
-                tipoStatus.Add(new Estatus() { estatu = item.ToString() }
-                     );
-                leyendaEstatus += item.ToString() + " - ";
+
+                foreach (var item in chkContratos.CheckedItems)
+                {
+                    tipoStatus.Add(new Estatus() { estatu = item.ToString() }
+                         );
+                    leyendaEstatus += item.ToString() + " - ";
+                }
+
             }
+
+           
 
             Export(fechaInicio, fechaFin, tipoOrden, orden,  tipoStatus);
 

@@ -98,29 +98,15 @@ namespace AudSemp.Forms
 
         public void Excel(string ruta)
         {
+            leyendaRango = "";
+            leyendaEstatus = "";
+            leyendaTipos = "";
+           
+
+
             string fechaInicio, fechaFin, tipoOrden = "no", orden = "Ascendente";
             List<categorias> tipoPrendas = new List<categorias>();
             List<Estatus> tipoStatus = new List<Estatus>();
-
-            int a = chkPrendas.CheckedIndices.Count;
-            int b = chkContratos.CheckedIndices.Count;
-            if (a == 0)
-            {
-                for (int i = 0; i < chkPrendas.Items.Count; i++)
-                {
-                    chkPrendas.SetItemChecked(i, true);
-                }
-
-            }
-            if (b == 0)
-            {
-                for (int i = 0; i < chkContratos.Items.Count; i++)
-                {
-                    chkContratos.SetItemChecked(i, true);
-                }
-
-            }
-
 
 
             if (checkFechas.Checked == true)
@@ -159,36 +145,57 @@ namespace AudSemp.Forms
             }
 
            
-            if (checkPrendas.Checked == false)
-            {
-                checkPrendas.Checked = true;
+            //
 
-            }
+
+          
 
             if (checkContratos.Checked == false)
             {
-                checkContratos.Checked = true;
+                foreach (var item in chkContratos.Items)
+                {
+                    tipoStatus.Add(new Estatus() { estatu = item.ToString() }
+                         );
+                    leyendaEstatus += item.ToString() + " - ";
+                }
             }
-
-            //
-
-            leyendaTipos = "";
-            leyendaEstatus = "";
-            foreach (var item in chkPrendas.CheckedItems)
+            else
             {
-                tipoPrendas.Add(
-                     new categorias() { categoria = item.ToString() }
-                     );
-                leyendaTipos += item.ToString() + " - ";
+
+                foreach (var item in chkContratos.CheckedItems)
+                {
+                    tipoStatus.Add(new Estatus() { estatu = item.ToString() }
+                         );
+                    leyendaEstatus += item.ToString() + " - ";
+                }
+
             }
 
 
-            foreach (var item in chkContratos.CheckedItems)
+
+            if (checkPrendas.Checked == false)
             {
-                tipoStatus.Add(new Estatus() { estatu = item.ToString() }
-                     );
-                leyendaEstatus += item.ToString() + " - ";
+                foreach (var item in chkPrendas.Items)
+                {
+                    tipoPrendas.Add(
+                         new categorias() { categoria = item.ToString() }
+                         );
+                    leyendaTipos += item.ToString() + " - ";
+                }
             }
+            else
+            {
+
+                foreach (var item in chkPrendas.CheckedItems)
+                {
+                    tipoPrendas.Add(
+                         new categorias() { categoria = item.ToString() }
+                         );
+                    leyendaTipos += item.ToString() + " - ";
+                }
+
+            }
+
 
             Export(fechaInicio, fechaFin, tipoOrden, orden, tipoPrendas, tipoStatus);
 
