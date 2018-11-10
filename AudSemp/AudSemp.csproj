@@ -111,6 +111,7 @@
     <Compile Include="Classes\LevelUser.cs" />
     <Compile Include="Classes\LocationConexion.cs" />
     <Compile Include="Classes\ModoOrdenes.cs" />
+    <Compile Include="Classes\rd.cs" />
     <Compile Include="Classes\TiposOrden.cs" />
     <Compile Include="Context\abono.cs">
       <DependentUpon>Context.tt</DependentUpon>
@@ -496,6 +497,12 @@
     <Compile Include="Context\vencidos.cs">
       <DependentUpon>Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AleatoriosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AleatoriosForm.Designer.cs">
+      <DependentUpon>AleatoriosForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\apartados.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -513,6 +520,12 @@
     </Compile>
     <Compile Include="Forms\ApartadosHistorialForm.Designer.cs">
       <DependentUpon>ApartadosHistorialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AutPrestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AutPrestForm.Designer.cs">
+      <DependentUpon>AutPrestForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\BolsasForm.cs">
       <SubType>Form</SubType>
@@ -580,17 +593,47 @@
     <Compile Include="Forms\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\NotasPagoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NotasPagoForm.Designer.cs">
+      <DependentUpon>NotasPagoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\notasPagoRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>notasPagoRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms\PanelForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\PanelForm.Designer.cs">
       <DependentUpon>PanelForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\PromDescForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PromDescForm.Designer.cs">
+      <DependentUpon>PromDescForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\RetirosRPT.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>RetirosRPT.rpt</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\RevInventariosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RevInventariosForm.Designer.cs">
+      <DependentUpon>RevInventariosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TomaFisicaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TomaFisicaForm.Designer.cs">
+      <DependentUpon>TomaFisicaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\ApartadosModel.cs" />
     <Compile Include="Models\BolsasModel.cs" />
@@ -600,6 +643,7 @@
     <Compile Include="Models\InventarioModel.cs" />
     <Compile Include="Models\LocalidadModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\NotasPagoModel.cs" />
     <Compile Include="Models\Rectangle.cs" />
     <Compile Include="Presenter\ApartadosPresenter.cs" />
     <Compile Include="Presenter\BolsasPresenter.cs" />
@@ -608,6 +652,7 @@
     <Compile Include="Presenter\HistorialApartadosPresenter.cs" />
     <Compile Include="Presenter\InventarioPresenter.cs" />
     <Compile Include="Presenter\LoginPresenter.cs" />
+    <Compile Include="Presenter\NotaPagoPresenter.cs" />
     <Compile Include="Presenter\PanelPresenter.cs" />
     <Compile Include="Presenter\RectanglePresenter.cs" />
     <Compile Include="Views\IApartados.cs" />
@@ -617,6 +662,7 @@
     <Compile Include="Views\IHistorialApartado.cs" />
     <Compile Include="Views\IInventario.cs" />
     <Compile Include="Views\ILogin.cs" />
+    <Compile Include="Views\InotasPago.cs" />
     <Compile Include="Views\IPanel.cs" />
     <Compile Include="Views\IRectangle.cs" />
     <Compile Include="Program.cs" />
@@ -669,6 +715,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotasPagoForm.resx">
+      <DependentUpon>NotasPagoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\notasPagoRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>notasPagoRPT.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PanelForm.resx">
       <DependentUpon>PanelForm.cs</DependentUpon>

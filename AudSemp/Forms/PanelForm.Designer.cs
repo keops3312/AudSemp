@@ -75,6 +75,7 @@
             this.expandablePanel1.Controls.Add(this.labelX3);
             this.expandablePanel1.Controls.Add(this.labelX2);
             this.expandablePanel1.Controls.Add(this.labelX1);
+            this.expandablePanel1.DisabledBackColor = System.Drawing.Color.Empty;
             this.expandablePanel1.HideControlsWhenCollapsed = true;
             this.expandablePanel1.Location = new System.Drawing.Point(12, 7);
             this.expandablePanel1.Name = "expandablePanel1";
@@ -171,6 +172,7 @@
             this.expandablePanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.expandablePanel4.Controls.Add(this.labelX6);
             this.expandablePanel4.Controls.Add(this.pictureBox3);
+            this.expandablePanel4.DisabledBackColor = System.Drawing.Color.Empty;
             this.expandablePanel4.HideControlsWhenCollapsed = true;
             this.expandablePanel4.Location = new System.Drawing.Point(12, 495);
             this.expandablePanel4.Name = "expandablePanel4";
@@ -225,6 +227,7 @@
             this.expandablePanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.expandablePanel2.Controls.Add(this.pictureBox2);
             this.expandablePanel2.Controls.Add(this.labelX5);
+            this.expandablePanel2.DisabledBackColor = System.Drawing.Color.Empty;
             this.expandablePanel2.HideControlsWhenCollapsed = true;
             this.expandablePanel2.Location = new System.Drawing.Point(12, 364);
             this.expandablePanel2.Name = "expandablePanel2";
@@ -282,10 +285,13 @@
             this.metroTilePanel1.BackgroundStyle.Class = "MetroTilePanel";
             this.metroTilePanel1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.metroTilePanel1.ContainerControlProcessDialogKey = true;
+            this.metroTilePanel1.DragDropSupport = true;
             this.metroTilePanel1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.itemContainer1});
+            this.metroTilePanel1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.metroTilePanel1.Location = new System.Drawing.Point(252, 115);
             this.metroTilePanel1.Name = "metroTilePanel1";
+            this.metroTilePanel1.ReserveLeftSpace = false;
             this.metroTilePanel1.Size = new System.Drawing.Size(609, 483);
             this.metroTilePanel1.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.metroTilePanel1.TabIndex = 17;
@@ -312,6 +318,10 @@
             this.metroTileItem10,
             this.metroTileItem11,
             this.metroTileItem12});
+            // 
+            // 
+            // 
+            this.itemContainer1.TitleMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
             // 
             // 
@@ -425,6 +435,7 @@
             this.metroTileItem7.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.metroTileItem7.TitleText = "Notas de Pago";
             this.metroTileItem7.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.metroTileItem7.Click += new System.EventHandler(this.metroTileItem7_Click);
             // 
             // metroTileItem8
             // 
@@ -439,6 +450,7 @@
             this.metroTileItem8.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.metroTileItem8.TitleText = "Promociones y Descuentos";
             this.metroTileItem8.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.metroTileItem8.Click += new System.EventHandler(this.metroTileItem8_Click);
             // 
             // metroTileItem9
             // 
@@ -453,6 +465,7 @@
             this.metroTileItem9.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.metroTileItem9.TitleText = "Autorizaciones Prestamos";
             this.metroTileItem9.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.metroTileItem9.Click += new System.EventHandler(this.metroTileItem9_Click);
             // 
             // metroTileItem10
             // 
@@ -467,6 +480,7 @@
             this.metroTileItem10.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.metroTileItem10.TitleText = "Toma Fisica";
             this.metroTileItem10.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.metroTileItem10.Click += new System.EventHandler(this.metroTileItem10_Click);
             // 
             // metroTileItem11
             // 
@@ -481,6 +495,7 @@
             this.metroTileItem11.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.metroTileItem11.TitleText = "Contratos Aleatorios";
             this.metroTileItem11.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.metroTileItem11.Click += new System.EventHandler(this.metroTileItem11_Click);
             // 
             // metroTileItem12
             // 
@@ -495,6 +510,7 @@
             this.metroTileItem12.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.metroTileItem12.TitleText = "Revision Inventarios";
             this.metroTileItem12.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.metroTileItem12.Click += new System.EventHandler(this.metroTileItem12_Click);
             // 
             // controlContainerItem1
             // 

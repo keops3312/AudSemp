@@ -432,7 +432,7 @@ namespace AudSemp.Forms
                 }
                 else
                 {
-                    foreach (var item in chkContratos.CheckedItems)
+                    foreach (var item in chkContratos.Items)
                     {
                         tipoStatus.Add(new Estatus() { estatu = item.ToString() }
                              );

@@ -118,6 +118,16 @@ namespace AudSemp.Forms
             bolsasForm.ShowDialog();
         }
 
+        //notas pago
+        private void metroTileItem7_Click(object sender, EventArgs e)
+        {
+            NotasPagoForm notasPagoForm = new NotasPagoForm();
+            notasPagoForm.loc = codigo;
+            notasPagoForm.WindowState = FormWindowState.Maximized;
+            notasPagoForm.ShowDialog();
+        }
+
+
         #endregion
 
         #region Methods (metodos)
@@ -183,8 +193,49 @@ namespace AudSemp.Forms
 
 
 
+
         #endregion
 
-      
+       
+        //promociones y descuento
+        private void metroTileItem8_Click(object sender, EventArgs e)
+        {
+            PromDescForm promDescForm = new PromDescForm();
+            // notasPagoForm.loc = codigo;
+            promDescForm.WindowState = FormWindowState.Maximized;
+            promDescForm.ShowDialog();
+        }
+        //autorizacione sprestamos
+        private void metroTileItem12_Click(object sender, EventArgs e)
+        {
+            AutPrestForm autPrestForm = new AutPrestForm();
+            // notasPagoForm.loc = codigo;
+            autPrestForm.WindowState = FormWindowState.Maximized;
+            autPrestForm.ShowDialog();
+        }
+      //contratos aleatorios
+        private void metroTileItem11_Click(object sender, EventArgs e)
+        {
+            AleatoriosForm aleatoriosForm = new AleatoriosForm();
+            // notasPagoForm.loc = codigo;
+            aleatoriosForm.WindowState = FormWindowState.Maximized;
+            aleatoriosForm.ShowDialog();
+        }
+        //revision inventrios
+        private void metroTileItem9_Click(object sender, EventArgs e)
+        {
+            RevInventariosForm revInventariosForm = new RevInventariosForm();
+            // notasPagoForm.loc = codigo;
+            revInventariosForm.WindowState = FormWindowState.Maximized;
+            revInventariosForm.ShowDialog();
+        }
+        //toma fisica
+        private void metroTileItem10_Click(object sender, EventArgs e)
+        {
+            TomaFisicaForm tomaFisicaForm = new TomaFisicaForm();
+            // notasPagoForm.loc = codigo;
+            tomaFisicaForm.WindowState = FormWindowState.Maximized;
+            tomaFisicaForm.ShowDialog();
+        }
     }
 }

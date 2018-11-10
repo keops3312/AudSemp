@@ -106,7 +106,8 @@ namespace AudSemp.Forms
             string fechaInicio, fechaFin, tipoOrden = "reg", orden = "Ascendente";
             List<categorias> tipoPrendas = new List<categorias>();
             List<Estatus> tipoStatus = new List<Estatus>();
-
+            leyendaTipos = "";
+            leyendaEstatus = "";
 
             if (checkFechas.Checked == true)
             {
@@ -147,8 +148,7 @@ namespace AudSemp.Forms
             //
 
 
-            leyendaTipos = "";
-            leyendaEstatus = "";
+         
 
 
 
@@ -170,7 +170,7 @@ namespace AudSemp.Forms
                 }
                 else
                 {
-                    foreach (var item in chkContratos.CheckedItems)
+                    foreach (var item in chkContratos.Items)
                     {
                         tipoStatus.Add(new Estatus() { estatu = item.ToString() }
                              );
