@@ -16,5 +16,15 @@ namespace AudSemp.Forms
         {
             InitializeComponent();
         }
+
+        private void sideNavItem2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sideNavItem1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
