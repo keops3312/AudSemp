@@ -38,6 +38,14 @@ namespace AudSemp.Classes
 
             string contratoS;
             bool findC = false;
+
+
+
+            //find bolsas
+            int contratoB;
+            int contratoNO;
+            int diferencia;
+            string leyenda = "";
             #endregion
 
             #region Methods (metodos)
@@ -116,13 +124,13 @@ namespace AudSemp.Classes
                         foreach (var dataRow in myExcel)
                         {
 
-                            string valor = dataRow.Cell(0).Value.ToString();
+                            int valor =int.Parse(dataRow.Cell(1).Value.ToString());
 
-                            var existe = db.contratos.Where(p => p.Contrato == Convert.ToInt32(valor)).First();
+                            var existe = db.contratos.Where(p => p.Contrato == valor).First();
 
                             if (existe == null)
                             {
-                                dtC.Rows.Add(int.Parse(dataRow.Cell(0).Value.ToString()),
+                                dtC.Rows.Add(int.Parse(dataRow.Cell(1).Value.ToString()),
                                     "desconocido", "0", "0", "desconocido", "desconocido", "0", "01-01-1999", "N");
                             }
                             else
@@ -140,10 +148,12 @@ namespace AudSemp.Classes
 
                                 dtC.Rows.Add(existe.Contrato,
                                                existe.Status,
-                                                existe.avaluo,
-                                                existe.Prestamo,
+                                                decimal.Parse(existe.avaluo.ToString()),
+                                                decimal.Parse(existe.Prestamo.ToString()),
                                                 existe.Plazo,
-                                                existe.valuacion_tipo, total_prendas, existe.FechaCons, "Y");
+                                                existe.valuacion_tipo, 
+                                                total_prendas, 
+                                                DateTime.Parse(existe.FechaCons.ToString()).ToString("dd-MM-yyyy"), "Y");
 
                             }
 
@@ -158,7 +168,7 @@ namespace AudSemp.Classes
                             contratoS = Convert.ToString(item.Contrato);
                             foreach (var itemExcel in myExcel)
                             {
-                                if (contratoS == itemExcel.Cell(0).Value)
+                                if (contratoS == itemExcel.Cell(1).Value.ToString())
                                 {
                                     findC = true;
                                     break;
@@ -180,14 +190,15 @@ namespace AudSemp.Classes
                                 {
                                     total_prendas = db.bolsas_ORO.Count(p => p.Contrato == item.Contrato && p.EstatusPrenda == "EN RESGUARDO");
                                 }
-
+                              
 
                                 dtC.Rows.Add(item.Contrato,
                                                 item.Status,
-                                                item.avaluo,
-                                                item.Prestamo,
+                                                decimal.Parse(item.avaluo.ToString()),
+                                                decimal.Parse(item.Prestamo.ToString()),
                                                 item.Plazo,
-                                                item.valuacion_tipo, total_prendas, item, "No en Excel");
+                                                item.valuacion_tipo, total_prendas, 
+                                                DateTime.Parse(item.FechaCons.ToString()).ToString("dd-MM-YYYY"), "No en Excel");
 
 
                             }
@@ -201,19 +212,16 @@ namespace AudSemp.Classes
 
                     #endregion
 
-                    #region Bolsas
+                    #region Bolsas Oro
                     case 2:
 
-                        int contratoB;
-                        int contratoNO;
-                        int diferencia;
-                        string leyenda = "";
+                       
 
                         //recorro el excel 
                         foreach (var dataRow in myExcel)
                         {
-                            contratoB = int.Parse(dataRow.Cell(1).Value.ToString());//tipo de bolsa
-                            contratoNO = int.Parse(dataRow.Cell(0).Value.ToString()); // numero de contrato
+                            contratoB = int.Parse(dataRow.Cell(2).Value.ToString());//tipo de bolsa
+                            contratoNO = int.Parse(dataRow.Cell(1).Value.ToString()); // numero de contrato
                             if (contratoB == 1)//joyeria
                             {
 
@@ -255,7 +263,82 @@ namespace AudSemp.Classes
 
 
                             }
-                            else//otros
+                            
+
+                        }
+
+
+                        //buscamos si no esta en el excel y omitio el auditor
+
+                        var bolsasOro = (from s in db.bolsas_ORO
+                                         where s.EstatusPrenda == "EN RESGUARDO"
+                                         select s.Contrato).Distinct().ToList();
+
+
+
+
+
+                        foreach (var item in bolsasOro)
+                        {
+                            contratoS = item.Value.ToString();
+                            foreach (var itemExcel in myExcel)
+                            {
+                                if (contratoS == itemExcel.Cell(1).Value.ToString())
+                                {
+                                    findC = true;
+                                    break;
+                                }
+                            }
+
+                            if (findC != true)
+                            {
+
+                                total_prendas = db.bolsas_ORO.Count(p => p.Contrato == int.Parse(contratoS) && p.EstatusPrenda == "EN RESGUARDO");
+                                var buscarOro = db.bolsas_ORO.Where(p => p.Contrato == int.Parse(contratoS) && p.EstatusPrenda == "EN RESGUARDO").First();
+
+
+
+
+                                dtB.Rows.Add(buscarOro.Contrato,
+                                                buscarOro.EstatusPrenda,
+                                                buscarOro.Avaluo,
+                                                buscarOro.Prestamo,
+                                                buscarOro.Tipo,
+                                                buscarOro.Fecha, "N", total_prendas, "0", "-" + total_prendas, "No Auditado en Excel");
+
+
+                            }
+
+
+
+                            findC = false;
+
+
+
+                        }
+
+
+
+
+                     
+
+                        return dtB;
+
+                    #endregion
+
+                    #region Boslas Otros
+                    case 4:
+
+
+                       
+
+                        //recorro el excel 
+                        foreach (var dataRow in myExcel)
+                        {
+                            contratoB = int.Parse(dataRow.Cell(2).Value.ToString());//tipo de bolsa
+                            contratoNO = int.Parse(dataRow.Cell(1).Value.ToString()); // numero de contrato
+
+                            if (contratoB == 2)//joyeria
                             {
 
                                 total_prendas = db.bolsas_OTROS.Count(p => p.Contrato == contratoNO && p.Estatus_Prenda == "EN RESGUARDO");
@@ -299,77 +382,18 @@ namespace AudSemp.Classes
 
 
                             }
-
                         }
-
-
-
-
-
-                        //buscamos si no esta en el excel y omitio el auditor
-
-                        var bolsasOro = (from s in db.bolsas_ORO
-                                         where s.EstatusPrenda == "EN RESGUARDO"
-                                         select s.Contrato).Distinct().ToList();
-
 
                         var bolsasOtros = (from s in db.bolsas_OTROS
                                            where s.Estatus_Prenda == "EN RESGUARDO"
                                            select s.Contrato).Distinct().ToList();
-
-
-
-
-
-
-                        foreach (var item in bolsasOro)
-                        {
-                            contratoS = item.Value.ToString();
-                            foreach (var itemExcel in myExcel)
-                            {
-                                if (contratoS == itemExcel.Cell(0).Value.ToString())
-                                {
-                                    findC = true;
-                                    break;
-                                }
-                            }
-
-                            if (findC != true)
-                            {
-
-                                total_prendas = db.bolsas_ORO.Count(p => p.Contrato == int.Parse(contratoS) && p.EstatusPrenda == "EN RESGUARDO");
-                                var buscarOro = db.bolsas_ORO.Where(p => p.Contrato == int.Parse(contratoS) && p.EstatusPrenda == "EN RESGUARDO").First();
-
-
-
-
-                                dtB.Rows.Add(buscarOro.Contrato,
-                                                buscarOro.EstatusPrenda,
-                                                buscarOro.Avaluo,
-                                                buscarOro.Prestamo,
-                                                buscarOro.Tipo,
-                                                buscarOro.Fecha, "N", total_prendas, "0", "-" + total_prendas, "No Auditado en Excel");
-
-
-                            }
-
-
-
-                            findC = false;
-
-
-
-                        }
-
-
-
 
                         foreach (var item in bolsasOtros)
                         {
                             contratoS = item.Value.ToString();
                             foreach (var itemExcel in myExcel)
                             {
-                                if (contratoS == itemExcel.Cell(0).Value.ToString())
+                                if (contratoS == itemExcel.Cell(1).Value.ToString())
                                 {
                                     findC = true;
                                     break;
@@ -403,9 +427,14 @@ namespace AudSemp.Classes
 
                         }
 
+
                         return dtB;
 
+
+
                     #endregion
+
+
 
                     #region Inventario Ventas
                     case 3:

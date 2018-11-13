@@ -130,9 +130,6 @@
   <data name="excelfile-29" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\excelfile-29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Nota-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Nota-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="crystal-reports-logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\crystal-reports-logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,11 +145,17 @@
   <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="depRet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depRet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pasword" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pasword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joyQuestion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joyQuestion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="apartadoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\apartadoIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,8 +166,8 @@
   <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="auditor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\auditor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="notaLog.fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notaLog.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="inventariosIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\inventariosIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,8 +175,8 @@
   <data name="password-check" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\password-check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="depRet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\depRet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Nota-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nota-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="contratoIcon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\contratoIcon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,10 +187,16 @@
   <data name="historialApartadoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\historialApartadoIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="auditor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\auditor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bolsasC48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bolsasC48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="notaLog.fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\notaLog.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="joyQuestion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joyQuestion1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ElecQuestion.fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ElecQuestion.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

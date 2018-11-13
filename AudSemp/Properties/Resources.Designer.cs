@@ -193,6 +193,16 @@ namespace AudSemp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ElecQuestion_fw {
+            get {
+                object obj = ResourceManager.GetObject("ElecQuestion.fw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap excelfile_29 {
             get {
                 object obj = ResourceManager.GetObject("excelfile-29", resourceCulture);
@@ -216,6 +226,26 @@ namespace AudSemp.Properties {
         internal static System.Drawing.Bitmap inventariosIcon {
             get {
                 object obj = ResourceManager.GetObject("inventariosIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap joyQuestion {
+            get {
+                object obj = ResourceManager.GetObject("joyQuestion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap joyQuestion1 {
+            get {
+                object obj = ResourceManager.GetObject("joyQuestion1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

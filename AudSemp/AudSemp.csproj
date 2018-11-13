@@ -82,6 +82,9 @@
       <HintPath>..\packages\FastMember.Signed.1.3.0\lib\net45\FastMember.Signed.dll</HintPath>
     </Reference>
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -788,6 +791,9 @@
       <DependentUpon>Context.edmx</DependentUpon>
       <LastGenOutput>Context.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\ElecQuestion.fw.png" />
+    <None Include="Resources\joyQuestion1.png" />
+    <None Include="Resources\joyQuestion.png" />
     <None Include="Resources\notaLog.fw.png" />
     <None Include="Resources\Nota-logo.png" />
     <None Include="Resources\bolsasC48.png" />

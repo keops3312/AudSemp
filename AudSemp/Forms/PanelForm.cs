@@ -233,7 +233,7 @@ namespace AudSemp.Forms
         private void metroTileItem10_Click(object sender, EventArgs e)
         {
             TomaFisicaForm tomaFisicaForm = new TomaFisicaForm();
-            // notasPagoForm.loc = codigo;
+            tomaFisicaForm.loc = codigo;
             tomaFisicaForm.WindowState = FormWindowState.Maximized;
             tomaFisicaForm.ShowDialog();
         }
