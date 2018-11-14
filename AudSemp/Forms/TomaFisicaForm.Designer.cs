@@ -43,19 +43,24 @@
             this.buttonX5 = new DevComponents.DotNetBar.ButtonX();
             this.buttonX6 = new DevComponents.DotNetBar.ButtonX();
             this.ResGrid = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.line1 = new DevComponents.DotNetBar.Controls.Line();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
+            this.btnCancel = new DevComponents.DotNetBar.ButtonX();
             this.command2 = new DevComponents.DotNetBar.Command(this.components);
             this.command1 = new DevComponents.DotNetBar.Command(this.components);
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.btnCancel = new DevComponents.DotNetBar.ButtonX();
-            this.line1 = new DevComponents.DotNetBar.Controls.Line();
+            this.command3 = new DevComponents.DotNetBar.Command(this.components);
+            this.command4 = new DevComponents.DotNetBar.Command(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ResGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonX3
             // 
             this.buttonX3.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX3.Location = new System.Drawing.Point(38, 25);
+            this.buttonX3.Location = new System.Drawing.Point(38, 16);
             this.buttonX3.Name = "buttonX3";
             this.buttonX3.Size = new System.Drawing.Size(116, 40);
             this.buttonX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -71,6 +76,7 @@
             // 
             this.txtRuta.Border.Class = "TextBoxBorder";
             this.txtRuta.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.txtRuta.Enabled = false;
             this.txtRuta.Location = new System.Drawing.Point(258, 28);
             this.txtRuta.Name = "txtRuta";
             this.txtRuta.PreventEnterBeep = true;
@@ -158,7 +164,7 @@
             // 
             this.buttonX4.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX4.Location = new System.Drawing.Point(38, 244);
+            this.buttonX4.Location = new System.Drawing.Point(185, 244);
             this.buttonX4.Name = "buttonX4";
             this.buttonX4.Size = new System.Drawing.Size(142, 44);
             this.buttonX4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -171,7 +177,7 @@
             // 
             this.buttonX5.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX5.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX5.Location = new System.Drawing.Point(186, 244);
+            this.buttonX5.Location = new System.Drawing.Point(360, 243);
             this.buttonX5.Name = "buttonX5";
             this.buttonX5.Size = new System.Drawing.Size(145, 44);
             this.buttonX5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -184,9 +190,9 @@
             // 
             this.buttonX6.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX6.Location = new System.Drawing.Point(38, 154);
+            this.buttonX6.Location = new System.Drawing.Point(38, 243);
             this.buttonX6.Name = "buttonX6";
-            this.buttonX6.Size = new System.Drawing.Size(116, 40);
+            this.buttonX6.Size = new System.Drawing.Size(116, 45);
             this.buttonX6.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.buttonX6.Symbol = "";
             this.buttonX6.TabIndex = 3;
@@ -195,6 +201,12 @@
             // 
             // ResGrid
             // 
+            this.ResGrid.AllowUserToAddRows = false;
+            this.ResGrid.AllowUserToDeleteRows = false;
+            this.ResGrid.AllowUserToOrderColumns = true;
+            this.ResGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ResGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
@@ -207,8 +219,67 @@
             this.ResGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.ResGrid.Location = new System.Drawing.Point(38, 323);
             this.ResGrid.Name = "ResGrid";
-            this.ResGrid.Size = new System.Drawing.Size(747, 345);
+            this.ResGrid.ReadOnly = true;
+            this.ResGrid.Size = new System.Drawing.Size(747, 218);
             this.ResGrid.TabIndex = 7;
+            // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.WorkerReportsProgress = true;
+            this.backgroundWorker1.WorkerSupportsCancellation = true;
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
+            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
+            // 
+            // line1
+            // 
+            this.line1.Location = new System.Drawing.Point(38, 293);
+            this.line1.Name = "line1";
+            this.line1.Size = new System.Drawing.Size(747, 23);
+            this.line1.TabIndex = 15;
+            this.line1.Text = "line1";
+            this.line1.Thickness = 3;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::AudSemp.Properties.Resources.fisica_toma;
+            this.pictureBox1.Location = new System.Drawing.Point(594, 85);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(191, 140);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 54;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnRegresar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRegresar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnRegresar.Image = global::AudSemp.Properties.Resources.Back;
+            this.btnRegresar.ImageFixedSize = new System.Drawing.Size(48, 48);
+            this.btnRegresar.Location = new System.Drawing.Point(721, 28);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(64, 51);
+            this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnRegresar.TabIndex = 53;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnCancel.Image = global::AudSemp.Properties.Resources.close1;
+            this.btnCancel.ImageFixedSize = new System.Drawing.Size(24, 24);
+            this.btnCancel.Location = new System.Drawing.Point(669, 243);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(116, 40);
+            this.btnCancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnCancel.Symbol = "";
+            this.btnCancel.TabIndex = 6;
+            this.btnCancel.Text = "Cancelar";
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // command2
             // 
@@ -226,43 +297,29 @@
     "1F497D\">Cadenas, pulseras, aretes...</font>";
             this.command1.Executed += new System.EventHandler(this.command1_Executed);
             // 
-            // backgroundWorker1
+            // command3
             // 
-            this.backgroundWorker1.WorkerReportsProgress = true;
-            this.backgroundWorker1.WorkerSupportsCancellation = true;
-            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
-            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
-            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
+            this.command3.Image = global::AudSemp.Properties.Resources.joyQuestion;
+            this.command3.Name = "command3";
+            this.command3.Text = "<font size=\"+2\"><font color=\"#456287\">Joyeria</font></font><br/><font color=\"#1F4" +
+    "97D\">Cadenas, pulseras, aretes...</font>";
+            this.command3.Executed += new System.EventHandler(this.command3_Executed);
             // 
-            // btnCancel
+            // command4
             // 
-            this.btnCancel.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnCancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnCancel.Image = global::AudSemp.Properties.Resources.close1;
-            this.btnCancel.ImageFixedSize = new System.Drawing.Size(24, 24);
-            this.btnCancel.Location = new System.Drawing.Point(168, 154);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(116, 40);
-            this.btnCancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnCancel.Symbol = "";
-            this.btnCancel.TabIndex = 6;
-            this.btnCancel.Text = "Cancelar";
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
-            // line1
-            // 
-            this.line1.Location = new System.Drawing.Point(38, 293);
-            this.line1.Name = "line1";
-            this.line1.Size = new System.Drawing.Size(747, 23);
-            this.line1.TabIndex = 15;
-            this.line1.Text = "line1";
-            this.line1.Thickness = 3;
+            this.command4.Image = global::AudSemp.Properties.Resources.ElecQuestion_fw;
+            this.command4.Name = "command4";
+            this.command4.Text = "<font size=\"+2\"><font color=\"#456287\">Otros</font></font><br/><font color=\"#1F497" +
+    "D\">Computo, Electronicos, Herramientas ...</font>\r\n";
+            this.command4.Executed += new System.EventHandler(this.command4_Executed);
             // 
             // TomaFisicaForm
             // 
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(822, 680);
+            this.ClientSize = new System.Drawing.Size(822, 553);
             this.ControlBox = false;
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.line1);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.ResGrid);
@@ -280,11 +337,13 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(838, 592);
             this.Name = "TomaFisicaForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Auditoria fisica";
             this.Load += new System.EventHandler(this.TomaFisicaForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ResGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -312,5 +371,9 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private DevComponents.DotNetBar.ButtonX btnCancel;
         private DevComponents.DotNetBar.Controls.Line line1;
+        private DevComponents.DotNetBar.ButtonX btnRegresar;
+        private DevComponents.DotNetBar.Command command3;
+        private DevComponents.DotNetBar.Command command4;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

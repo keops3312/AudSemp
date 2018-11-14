@@ -213,6 +213,26 @@ namespace AudSemp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fisica_toma {
+            get {
+                object obj = ResourceManager.GetObject("fisica_toma", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fisica_toma_icon_fw {
+            get {
+                object obj = ResourceManager.GetObject("fisica_toma_icon.fw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap historialApartadoIcon {
             get {
                 object obj = ResourceManager.GetObject("historialApartadoIcon", resourceCulture);

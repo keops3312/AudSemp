@@ -52,12 +52,16 @@ namespace AudSemp.Forms
             cmbTypeOfAud.Items.Add("Auditar Inventarios");
             btnCancel.Visible = false;
             circularProgress1.Visible = false;
-            buttonX4.Enabled = false;
+            //buttonX4.Enabled = false;
             buttonX5.Enabled = false;
             buttonX3.Focus();
 
         }
 
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
         private void buttonX3_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFD = new OpenFileDialog();
@@ -104,16 +108,18 @@ namespace AudSemp.Forms
             };
             if (cmbTypeOfAud.Text == "Auditar Bolsas")
             {
-                TaskDialogInfo info = CreateTaskDialogInfo();
+                TaskDialogInfo info = CreateTaskDialogInfoInv();
                 eTaskDialogResult result = TaskDialog.Show(info);
 
             };
             if (cmbTypeOfAud.Text == "Auditar Inventarios")
             {
-                Opcion = 3;
-                accion(); 
-                backgroundWorker1.RunWorkerAsync();
+               
+              
+                TaskDialogInfo info = CreateTaskDialogInfoInv();
+                eTaskDialogResult result = TaskDialog.Show(info);
 
+                
             };
 
          
@@ -122,17 +128,7 @@ namespace AudSemp.Forms
            
         }
 
-        private void accion()
-        {
-            circularProgress1.Visible = true;
-            circularProgress1.IsRunning = true;
-            btnCancel.Visible = true;
-            buttonX3.Enabled = false;
-            buttonX6.Enabled = false;
-
-            buttonX4.Enabled =false;
-            buttonX5.Enabled = false;
-        }
+       
 
         private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
@@ -157,7 +153,10 @@ namespace AudSemp.Forms
             buttonX6.Enabled = true;
             buttonX4.Enabled = true;
             buttonX5.Enabled = true;
-
+            MessageBox.Show(
+                                "Terminado", "AudSemp",
+                                   MessageBoxButtons.OK,
+                                   MessageBoxIcon.Information);
         }
 
 
@@ -213,6 +212,48 @@ namespace AudSemp.Forms
             }
 
         }
+
+
+
+
+        private void command1_Executed(object sender, EventArgs e)
+        {
+
+            Opcion = 2;
+            TaskDialog.Close(eTaskDialogResult.Custom1);
+            accion();
+            backgroundWorker1.RunWorkerAsync();
+
+
+        }
+
+        private void command2_Executed(object sender, EventArgs e)
+        {
+            Opcion = 4;
+            TaskDialog.Close(eTaskDialogResult.Custom1);
+            accion();
+            backgroundWorker1.RunWorkerAsync();
+
+        }
+
+        private void command3_Executed(object sender, EventArgs e)
+        {
+            Opcion = 3;
+            TaskDialog.Close(eTaskDialogResult.Custom1);
+            accion();
+            backgroundWorker1.RunWorkerAsync();
+        }
+
+
+        private void command4_Executed(object sender, EventArgs e)
+        {
+            Opcion = 5;
+            TaskDialog.Close(eTaskDialogResult.Custom1);
+            accion();
+            backgroundWorker1.RunWorkerAsync();
+        }
+
+       
         #endregion
 
         #region Methods (Metodos)
@@ -227,6 +268,18 @@ namespace AudSemp.Forms
              
             return info;
         }
+
+        private TaskDialogInfo CreateTaskDialogInfoInv()
+        {
+            TaskDialogInfo info = new TaskDialogInfo("AudSemp",
+                                                        eTaskDialogIcon.Information,
+                                                        "¿Que Tipo de Inventarios Voy Auditar?",
+                                                        "",
+                                                        eTaskDialogButton.Cancel,
+                                                        eTaskDialogBackgroundColor.Blue, null, GetCommandButtonsInvs(), null, "", null);
+
+            return info;
+        }
         private Command[] GetCommandButtons()
         {
            
@@ -235,25 +288,16 @@ namespace AudSemp.Forms
            
            
         }
-        private void command1_Executed(object sender, EventArgs e)
+
+        private Command[] GetCommandButtonsInvs()
         {
 
-            Opcion = 2;
-            TaskDialog.Close(eTaskDialogResult.Custom1);
-            accion();
-            backgroundWorker1.RunWorkerAsync();
-           
+
+            return new Command[] { command3, command4 };
+
 
         }
-
-        private void command2_Executed(object sender, EventArgs e)
-        {
-            Opcion = 4;
-            TaskDialog.Close(eTaskDialogResult.Custom1);
-            accion();
-            backgroundWorker1.RunWorkerAsync();
-           
-        }
+     
 
         private void ExportToExcelPdf(string ruta)
         {
@@ -262,7 +306,7 @@ namespace AudSemp.Forms
                 LocalidadModel localidadModel = new LocalidadModel();
                 localidadModel.localidadResult(loc);
 
-                var pdfDoc = new Document(PageSize.LETTER, 40f, 40f, 60f, 60f);
+                var pdfDoc = new Document(PageSize.LETTER, 25f, 25f, 40f, 40f);
                 string path = ruta;
                 PdfWriter.GetInstance(pdfDoc, new FileStream(path, FileMode.OpenOrCreate));
                 pdfDoc.Open();
@@ -271,60 +315,95 @@ namespace AudSemp.Forms
                 using (FileStream fs = new FileStream(imagepath, FileMode.Open))
                 {
                     var png = Image.GetInstance(System.Drawing.Image.FromStream(fs), ImageFormat.Jpeg);
-                    png.ScalePercent(5f);
+                    png.ScalePercent(10f);
                     png.SetAbsolutePosition(pdfDoc.Left, pdfDoc.Top);
                     pdfDoc.Add(png);
                 }
 
                 var spacer = new Paragraph("")
                 {
-                    SpacingBefore = 10f,
-                    SpacingAfter = 10f,
+                    SpacingBefore = 5f,
+                    SpacingAfter = 5f,
                 };
                 pdfDoc.Add(spacer);
 
-                var headerTable = new PdfPTable(new[] { .75f, 2f })
+                Font fuenteHeader = new Font();
+                fuenteHeader.Size = 8;
+                fuenteHeader.SetFamily("Calibri");
+                
+
+                var headerTable = new PdfPTable(new[] { .1f, .9f })
                 {
                     HorizontalAlignment = Left,
-                    WidthPercentage = 75,
-                    DefaultCell = { MinimumHeight = 22f }
+                    WidthPercentage = 100,
+                    DefaultCell = { MinimumHeight = 2f , BorderColor =BaseColor.WHITE }
+                    
+                    
                 };
 
-                headerTable.AddCell("Fecha:");
-                headerTable.AddCell(DateTime.Now.ToString("dd-MMM-yyyy"));
-                headerTable.AddCell("Tipo de Auditoria:");
-                headerTable.AddCell(cmbTypeOfAud.Text);
-                headerTable.AddCell("Localidad: ");
-                headerTable.AddCell(localidadModel.sucursal);
-                headerTable.AddCell("Jefe Auditado: ");
-                headerTable.AddCell(localidadModel.encargado);
+                headerTable.AddCell(new Phrase("Fecha:", fuenteHeader));
+                headerTable.AddCell(new Phrase(DateTime.Now.ToString("dd-MMM-yyyy"),fuenteHeader));
+                headerTable.AddCell(new Phrase("Auditoria:", fuenteHeader));
+                headerTable.AddCell(new Phrase(cmbTypeOfAud.Text, fuenteHeader));
+                headerTable.AddCell(new Phrase("Localidad: ", fuenteHeader));
+                headerTable.AddCell(new Phrase(localidadModel.sucursal, fuenteHeader));
+                headerTable.AddCell(new Phrase("Jefe Auditado: ", fuenteHeader));
+                headerTable.AddCell(new Phrase(localidadModel.encargado, fuenteHeader));
 
                 pdfDoc.Add(headerTable);
                 pdfDoc.Add(spacer);
 
                 var columnCount = ResGrid.ColumnCount;
-                var columnWidths = new[] { 0.75f, 2f, 2f, 0.75f };
+                var columnWidths = new[] { 0.0f };
+
+                if (Opcion == 1)
+                {
+                    columnWidths = new[] { 0.1f, 0.15f, 0.2f, 0.2f, 0.3f, 0.2f, 0.15f, 0.15f, 0.15f };
+                }
+
+                if (Opcion == 3 || Opcion == 5)
+                { 
+
+                     columnWidths = new[] { 0.15f, 0.2f, 0.2f, 0.3f, 0.2f, 0.15f, 0.3f };
+                }
+
+                if(Opcion==2 || Opcion==4)
+                {
+                    columnWidths = new[] { 0.1f, 0.2f, 0.1f, 0.1f, 0.1f, 0.15f, 0.05f,0.05f, 0.05f, 0.05f,0.2f };
+                }
+                
 
                 var table = new PdfPTable(columnWidths)
                 {
                     HorizontalAlignment = Left,
                     WidthPercentage = 100,
-                    DefaultCell = { MinimumHeight = 22f }
+                    DefaultCell = { MinimumHeight = 0.2f }
                 };
 
-                var cell = new PdfPCell(new Phrase("Bolt Summary"))
+                var cell = new PdfPCell(new Phrase("Resultado de Auditoria"))
                 {
                     Colspan = columnCount,
                     HorizontalAlignment = 1,  //0=Left, 1=Centre, 2=Right
-                    MinimumHeight = 30f
+                    MinimumHeight = 5f,
+                   
                 };
 
                 table.AddCell(cell);
+                Font fuente = new Font();
+                fuente.Size = 8;
+                fuente.SetFamily("Calibri");
+                
+
+                Font fuente2 = new Font();
+                fuente2.Size = 7;
+                fuente2.SetFamily("Calibri");
 
                 ResGrid.Columns
                     .OfType<DataGridViewColumn>()
                     .ToList()
-                    .ForEach(c => table.AddCell(c.Name));
+                    .ForEach(c => table.AddCell(new Paragraph(c.Name, fuente)));
+
+
 
                 ResGrid.Rows
                     .OfType<DataGridViewRow>()
@@ -332,8 +411,11 @@ namespace AudSemp.Forms
                     .ForEach(r =>
                     {
                         var cells = r.Cells.OfType<DataGridViewCell>().ToList();
-                        cells.ForEach(c => table.AddCell(c.Value.ToString()));
+                        cells.ForEach(c => table.AddCell(new Paragraph(c.Value.ToString(), fuente2))); //table.AddCell(c.Value.ToString()));
                     });
+
+
+
 
                 pdfDoc.Add(table);
 
@@ -386,11 +468,24 @@ namespace AudSemp.Forms
             }
         }
 
+        private void accion()
+        {
+            circularProgress1.Visible = true;
+            circularProgress1.IsRunning = true;
+            btnCancel.Visible = true;
+            buttonX3.Enabled = false;
+            buttonX6.Enabled = false;
+
+            buttonX4.Enabled = false;
+            buttonX5.Enabled = false;
+        }
+
+
+
+
 
         #endregion
 
-       
-
-       
+      
     }
 }

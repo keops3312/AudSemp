@@ -30,18 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PanelForm));
             this.expandablePanel1 = new DevComponents.DotNetBar.ExpandablePanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelX4 = new DevComponents.DotNetBar.LabelX();
             this.labelX3 = new DevComponents.DotNetBar.LabelX();
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.expandablePanel4 = new DevComponents.DotNetBar.ExpandablePanel();
             this.labelX6 = new DevComponents.DotNetBar.LabelX();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.expandablePanel2 = new DevComponents.DotNetBar.ExpandablePanel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.labelX5 = new DevComponents.DotNetBar.LabelX();
             this.metroTilePanel1 = new DevComponents.DotNetBar.Metro.MetroTilePanel();
             this.itemContainer1 = new DevComponents.DotNetBar.ItemContainer();
-            this.controlContainerItem1 = new DevComponents.DotNetBar.ControlContainerItem();
-            this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
             this.PanelContratos = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem2 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem3 = new DevComponents.DotNetBar.Metro.MetroTileItem();
@@ -54,16 +55,15 @@
             this.metroTileItem10 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem11 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem12 = new DevComponents.DotNetBar.Metro.MetroTileItem();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.controlContainerItem1 = new DevComponents.DotNetBar.ControlContainerItem();
+            this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
             this.btnMinimizar = new DevComponents.DotNetBar.ButtonX();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.expandablePanel1.SuspendLayout();
-            this.expandablePanel4.SuspendLayout();
-            this.expandablePanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.expandablePanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.expandablePanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // expandablePanel1
@@ -96,6 +96,15 @@
             this.expandablePanel1.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.expandablePanel1.TitleStyle.GradientAngle = 90;
             this.expandablePanel1.TitleText = "Localidad";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(61, 250);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 89);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // labelX4
             // 
@@ -201,6 +210,17 @@
             this.labelX6.Text = "-";
             this.labelX6.WordWrap = true;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::AudSemp.Properties.Resources.auditor;
+            this.pictureBox3.Location = new System.Drawing.Point(167, 40);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(58, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 18;
+            this.pictureBox3.TabStop = false;
+            // 
             // expandablePanel2
             // 
             this.expandablePanel2.CanvasColor = System.Drawing.SystemColors.Control;
@@ -228,6 +248,17 @@
             this.expandablePanel2.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.expandablePanel2.TitleStyle.GradientAngle = 90;
             this.expandablePanel2.TitleText = "Auditado";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::AudSemp.Properties.Resources.auditado;
+            this.pictureBox2.Location = new System.Drawing.Point(167, 37);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(58, 58);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
             // 
             // labelX5
             // 
@@ -298,26 +329,6 @@
             this.itemContainer1.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
             this.itemContainer1.TitleStyle.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.itemContainer1.TitleText = "Seleccione su opcion para comenzar a Auditar";
-            // 
-            // controlContainerItem1
-            // 
-            this.controlContainerItem1.AllowItemResize = true;
-            this.controlContainerItem1.MenuVisibility = DevComponents.DotNetBar.eMenuVisibility.VisibleAlways;
-            this.controlContainerItem1.Name = "controlContainerItem1";
-            // 
-            // btnRegresar
-            // 
-            this.btnRegresar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnRegresar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnRegresar.Image = global::AudSemp.Properties.Resources.Back;
-            this.btnRegresar.ImageFixedSize = new System.Drawing.Size(40, 40);
-            this.btnRegresar.Location = new System.Drawing.Point(737, 30);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
-            this.btnRegresar.Size = new System.Drawing.Size(52, 48);
-            this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnRegresar.TabIndex = 14;
-            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // PanelContratos
             // 
@@ -458,7 +469,7 @@
             // 
             // metroTileItem10
             // 
-            this.metroTileItem10.Image = global::AudSemp.Properties.Resources.construccion;
+            this.metroTileItem10.Image = global::AudSemp.Properties.Resources.fisica_toma_icon_fw;
             this.metroTileItem10.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.metroTileItem10.Name = "metroTileItem10";
             this.metroTileItem10.SymbolColor = System.Drawing.Color.Empty;
@@ -501,16 +512,25 @@
             this.metroTileItem12.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.metroTileItem12.Click += new System.EventHandler(this.metroTileItem12_Click);
             // 
-            // pictureBox3
+            // controlContainerItem1
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::AudSemp.Properties.Resources.auditor;
-            this.pictureBox3.Location = new System.Drawing.Point(167, 40);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(58, 50);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 18;
-            this.pictureBox3.TabStop = false;
+            this.controlContainerItem1.AllowItemResize = true;
+            this.controlContainerItem1.MenuVisibility = DevComponents.DotNetBar.eMenuVisibility.VisibleAlways;
+            this.controlContainerItem1.Name = "controlContainerItem1";
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnRegresar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnRegresar.Image = global::AudSemp.Properties.Resources.Back;
+            this.btnRegresar.ImageFixedSize = new System.Drawing.Size(40, 40);
+            this.btnRegresar.Location = new System.Drawing.Point(737, 30);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
+            this.btnRegresar.Size = new System.Drawing.Size(52, 48);
+            this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnRegresar.TabIndex = 14;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // btnMinimizar
             // 
@@ -526,26 +546,6 @@
             this.btnMinimizar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnMinimizar.TabIndex = 15;
             this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::AudSemp.Properties.Resources.auditado;
-            this.pictureBox2.Location = new System.Drawing.Point(167, 37);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(58, 58);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 18;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(61, 250);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 89);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
             // 
             // PanelForm
             // 
@@ -566,11 +566,11 @@
             this.Text = "Panel Auditoria";
             this.Load += new System.EventHandler(this.PanelForm_Load);
             this.expandablePanel1.ResumeLayout(false);
-            this.expandablePanel4.ResumeLayout(false);
-            this.expandablePanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.expandablePanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.expandablePanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

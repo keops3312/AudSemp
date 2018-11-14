@@ -791,6 +791,8 @@
       <DependentUpon>Context.edmx</DependentUpon>
       <LastGenOutput>Context.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\fisica_toma.png" />
+    <None Include="Resources\fisica_toma_icon.fw.png" />
     <None Include="Resources\ElecQuestion.fw.png" />
     <None Include="Resources\joyQuestion1.png" />
     <None Include="Resources\joyQuestion.png" />
