@@ -20,7 +20,7 @@ namespace AudSemp.Forms
     #endregion
 
 
-    public partial class PanelForm : Form,IPanel
+    public partial class PanelForm :Form,IPanel
     {
 
 
@@ -127,7 +127,52 @@ namespace AudSemp.Forms
             notasPagoForm.ShowDialog();
         }
 
+        //contratos aleatorios
+        private void metroTileItem11_Click(object sender, EventArgs e)
+        {
+            AleatoriosForm aleatoriosForm = new AleatoriosForm();
+            aleatoriosForm.loc = codigo;
+            aleatoriosForm.WindowState = FormWindowState.Maximized;
+            aleatoriosForm.ShowDialog();
+        }
+     
+        //toma fisica
+        private void metroTileItem10_Click(object sender, EventArgs e)
+        {
+            TomaFisicaForm tomaFisicaForm = new TomaFisicaForm();
+            tomaFisicaForm.loc = codigo;
+            tomaFisicaForm.WindowState = FormWindowState.Maximized;
+            tomaFisicaForm.ShowDialog();
+        }
 
+        //inventario rev
+        private void metroTileItem12_Click(object sender, EventArgs e)
+        {
+            RevInventariosForm revInventariosForm = new RevInventariosForm();
+            revInventariosForm.loc = codigo;
+            revInventariosForm.WindowState = FormWindowState.Maximized;
+            revInventariosForm.ShowDialog();
+        }
+
+
+        //revision autpretamos
+        private void metroTileItem9_Click(object sender, EventArgs e)
+        {
+            AutPrestForm autPrestForm = new AutPrestForm();
+            autPrestForm.loc = codigo;
+            autPrestForm.WindowState = FormWindowState.Maximized;
+            autPrestForm.ShowDialog();
+        }
+
+        //promociones y descuento
+        private void metroTileItem8_Click(object sender, EventArgs e)
+        {
+            PromDescForm promDescForm = new PromDescForm();
+            // notasPagoForm.loc = codigo;
+            promDescForm.WindowState = FormWindowState.Maximized;
+            promDescForm.ShowDialog();
+        }
+     
         #endregion
 
         #region Methods (metodos)
@@ -197,45 +242,6 @@ namespace AudSemp.Forms
         #endregion
 
        
-        //promociones y descuento
-        private void metroTileItem8_Click(object sender, EventArgs e)
-        {
-            PromDescForm promDescForm = new PromDescForm();
-            // notasPagoForm.loc = codigo;
-            promDescForm.WindowState = FormWindowState.Maximized;
-            promDescForm.ShowDialog();
-        }
-        //autorizacione sprestamos
-        private void metroTileItem12_Click(object sender, EventArgs e)
-        {
-            AutPrestForm autPrestForm = new AutPrestForm();
-            // notasPagoForm.loc = codigo;
-            autPrestForm.WindowState = FormWindowState.Maximized;
-            autPrestForm.ShowDialog();
-        }
-      //contratos aleatorios
-        private void metroTileItem11_Click(object sender, EventArgs e)
-        {
-            AleatoriosForm aleatoriosForm = new AleatoriosForm();
-            // notasPagoForm.loc = codigo;
-            aleatoriosForm.WindowState = FormWindowState.Maximized;
-            aleatoriosForm.ShowDialog();
-        }
-        //revision inventrios
-        private void metroTileItem9_Click(object sender, EventArgs e)
-        {
-            RevInventariosForm revInventariosForm = new RevInventariosForm();
-            // notasPagoForm.loc = codigo;
-            revInventariosForm.WindowState = FormWindowState.Maximized;
-            revInventariosForm.ShowDialog();
-        }
-        //toma fisica
-        private void metroTileItem10_Click(object sender, EventArgs e)
-        {
-            TomaFisicaForm tomaFisicaForm = new TomaFisicaForm();
-            tomaFisicaForm.loc = codigo;
-            tomaFisicaForm.WindowState = FormWindowState.Maximized;
-            tomaFisicaForm.ShowDialog();
-        }
+     
     }
 }

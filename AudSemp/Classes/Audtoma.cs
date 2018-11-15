@@ -521,6 +521,88 @@ namespace AudSemp.Classes
 
         }
 
+
+
+
+        //contratos Aleatorios
+
+        public int totalContratos()
+        {
+            int total;
+            total = db.contratos.Count();
+            return total;
+        }
+
+        public DateTime dateInicio()
+        {
+
+            var fechaInicio = db.contratos.OrderBy(p => p.FechaCons).First();
+            DateTime dateTimeInicio = DateTime.Parse(fechaInicio.FechaCons.Value.ToString("yyyy-MM-dd"));
+            return dateTimeInicio;
+        }
+
+        public DateTime dateFin()
+        {
+
+            var fechaFin = db.contratos.OrderByDescending(p => p.FechaCons).First();
+            DateTime dateTimeFin = DateTime.Parse(fechaFin.FechaCons.Value.ToString("yyyy-MM-dd"));
+            return dateTimeFin;
+        }
+
+
+
+        public DataTable AudRandom(int number,DateTime inicio, DateTime fin,bool tipo)
+        {
+           
+            DataTable dtC = new DataTable("AudContratos");
+            dtC.Columns.AddRange(new DataColumn[8]
+            {
+                    new DataColumn("Contrato"),
+                    new DataColumn("Bolsa"),
+                    new DataColumn("Fecha"),
+                    new DataColumn("Avaluo"),
+                    new DataColumn("Prestamo"),
+                    new DataColumn("Tipo"),
+                    new DataColumn("Status"),
+                    new DataColumn("Plazo")
+                    
+
+
+            });
+
+
+            var contrato = db.contratos.SqlQuery("SELECT TOP (" + number + ") " +
+                                                    " * " +
+                                                "FROM contratos where Status='VIGENTE' and FechaCons between '" +  inicio.ToString("yyyy-MM-dd") +"' " +
+                                                "and '" + fin.ToString("yyyy-MM-dd") + "' ORDER BY CHECKSUM(NEWID())").ToList();
+
+
+            if (tipo ==false)
+            {
+                contrato = db.contratos.SqlQuery("SELECT TOP (" + number + ") " +
+                                                    " * " +
+                                                "FROM contratos where FechaCons between '" + inicio.ToString("yyyy-MM-dd") + "' " +
+                                                "and '" + fin.ToString("yyyy-MM-dd") + "' ORDER BY CHECKSUM(NEWID())").ToList();
+
+            }
+
+
+            foreach (var item in contrato)
+            {
+                dtC.Rows.Add(item.Contrato,item.Bolsa,
+                    DateTime.Parse(item.FechaCons.ToString()).ToString("dd-MM-yyyy"),
+                    item.avaluo, 
+                    item.Prestamo,
+                    item.valuacion_tipo, 
+                    item.Status,
+                    item.Plazo);
+            }
+            
+            return dtC;
+        }
+
+
+
         #endregion
 
     }

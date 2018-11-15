@@ -28,12 +28,337 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AutPrestForm));
+            this.btnCancel = new DevComponents.DotNetBar.ButtonX();
+            this.lblProgress = new DevComponents.DotNetBar.LabelX();
+            this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
+            this.cmbOrden = new DevComponents.DotNetBar.Controls.ComboTree();
+            this.cmbTipoOrden = new DevComponents.DotNetBar.Controls.ComboTree();
+            this.dtFin = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.dtInicio = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.btnReporte = new DevComponents.DotNetBar.ButtonX();
+            this.btnExportar = new DevComponents.DotNetBar.ButtonX();
+            this.checkModo = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.checkOrden = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.checkFechas = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.prg1 = new DevComponents.DotNetBar.Controls.ProgressBarX();
+            this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            ((System.ComponentModel.ISupportInitialize)(this.dtFin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtInicio)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnCancel.Image = global::AudSemp.Properties.Resources.close1;
+            this.btnCancel.ImageFixedSize = new System.Drawing.Size(48, 48);
+            this.btnCancel.Location = new System.Drawing.Point(834, 87);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(71, 54);
+            this.btnCancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnCancel.TabIndex = 53;
+            // 
+            // lblProgress
+            // 
+            this.lblProgress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            // 
+            // 
+            // 
+            this.lblProgress.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblProgress.Location = new System.Drawing.Point(692, 224);
+            this.lblProgress.Name = "lblProgress";
+            this.lblProgress.Size = new System.Drawing.Size(213, 23);
+            this.lblProgress.TabIndex = 52;
+            this.lblProgress.Text = "-";
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnRegresar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRegresar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnRegresar.Image = global::AudSemp.Properties.Resources.Back;
+            this.btnRegresar.ImageFixedSize = new System.Drawing.Size(48, 48);
+            this.btnRegresar.Location = new System.Drawing.Point(841, 167);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(64, 51);
+            this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnRegresar.TabIndex = 51;
+            // 
+            // cmbOrden
+            // 
+            this.cmbOrden.BackColor = System.Drawing.SystemColors.Window;
+            // 
+            // 
+            // 
+            this.cmbOrden.BackgroundStyle.Class = "TextBoxBorder";
+            this.cmbOrden.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.cmbOrden.ButtonDropDown.Visible = true;
+            this.cmbOrden.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            this.cmbOrden.Location = new System.Drawing.Point(521, 58);
+            this.cmbOrden.Name = "cmbOrden";
+            this.cmbOrden.Size = new System.Drawing.Size(161, 23);
+            this.cmbOrden.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.cmbOrden.TabIndex = 49;
+            // 
+            // cmbTipoOrden
+            // 
+            this.cmbTipoOrden.BackColor = System.Drawing.SystemColors.Window;
+            // 
+            // 
+            // 
+            this.cmbTipoOrden.BackgroundStyle.Class = "TextBoxBorder";
+            this.cmbTipoOrden.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.cmbTipoOrden.ButtonDropDown.Visible = true;
+            this.cmbTipoOrden.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            this.cmbTipoOrden.Location = new System.Drawing.Point(278, 57);
+            this.cmbTipoOrden.Name = "cmbTipoOrden";
+            this.cmbTipoOrden.Size = new System.Drawing.Size(161, 23);
+            this.cmbTipoOrden.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.cmbTipoOrden.TabIndex = 48;
+            // 
+            // dtFin
+            // 
+            // 
+            // 
+            // 
+            this.dtFin.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dtFin.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dtFin.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dtFin.ButtonDropDown.Visible = true;
+            this.dtFin.IsPopupCalendarOpen = false;
+            this.dtFin.Location = new System.Drawing.Point(43, 87);
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.dtFin.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dtFin.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dtFin.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dtFin.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dtFin.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dtFin.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dtFin.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dtFin.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dtFin.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dtFin.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dtFin.MonthCalendar.DisplayMonth = new System.DateTime(2018, 10, 1, 0, 0, 0, 0);
+            // 
+            // 
+            // 
+            this.dtFin.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dtFin.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dtFin.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dtFin.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dtFin.MonthCalendar.TodayButtonVisible = true;
+            this.dtFin.Name = "dtFin";
+            this.dtFin.Size = new System.Drawing.Size(168, 20);
+            this.dtFin.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dtFin.TabIndex = 47;
+            // 
+            // dtInicio
+            // 
+            // 
+            // 
+            // 
+            this.dtInicio.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dtInicio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dtInicio.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dtInicio.ButtonDropDown.Visible = true;
+            this.dtInicio.IsPopupCalendarOpen = false;
+            this.dtInicio.Location = new System.Drawing.Point(43, 60);
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.dtInicio.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dtInicio.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dtInicio.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dtInicio.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dtInicio.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dtInicio.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dtInicio.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dtInicio.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dtInicio.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dtInicio.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dtInicio.MonthCalendar.DisplayMonth = new System.DateTime(2018, 10, 1, 0, 0, 0, 0);
+            // 
+            // 
+            // 
+            this.dtInicio.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dtInicio.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dtInicio.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dtInicio.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dtInicio.MonthCalendar.TodayButtonVisible = true;
+            this.dtInicio.Name = "dtInicio";
+            this.dtInicio.Size = new System.Drawing.Size(168, 20);
+            this.dtInicio.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dtInicio.TabIndex = 46;
+            // 
+            // btnReporte
+            // 
+            this.btnReporte.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnReporte.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnReporte.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnReporte.Image = global::AudSemp.Properties.Resources.crystal_reports_logo1;
+            this.btnReporte.ImageFixedSize = new System.Drawing.Size(48, 48);
+            this.btnReporte.Location = new System.Drawing.Point(834, 29);
+            this.btnReporte.Name = "btnReporte";
+            this.btnReporte.Size = new System.Drawing.Size(71, 52);
+            this.btnReporte.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnReporte.TabIndex = 45;
+            // 
+            // btnExportar
+            // 
+            this.btnExportar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnExportar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExportar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnExportar.Image = global::AudSemp.Properties.Resources.excelfile_29;
+            this.btnExportar.ImageFixedSize = new System.Drawing.Size(48, 48);
+            this.btnExportar.Location = new System.Drawing.Point(757, 29);
+            this.btnExportar.Name = "btnExportar";
+            this.btnExportar.Size = new System.Drawing.Size(71, 52);
+            this.btnExportar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnExportar.TabIndex = 44;
+            // 
+            // checkModo
+            // 
+            // 
+            // 
+            // 
+            this.checkModo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkModo.Checked = true;
+            this.checkModo.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkModo.CheckValue = "Y";
+            this.checkModo.Location = new System.Drawing.Point(521, 28);
+            this.checkModo.Name = "checkModo";
+            this.checkModo.Size = new System.Drawing.Size(82, 23);
+            this.checkModo.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkModo.TabIndex = 43;
+            this.checkModo.Text = "Modo Orden";
+            // 
+            // checkOrden
+            // 
+            // 
+            // 
+            // 
+            this.checkOrden.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkOrden.Checked = true;
+            this.checkOrden.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkOrden.CheckValue = "Y";
+            this.checkOrden.Location = new System.Drawing.Point(278, 28);
+            this.checkOrden.Name = "checkOrden";
+            this.checkOrden.Size = new System.Drawing.Size(88, 23);
+            this.checkOrden.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkOrden.TabIndex = 42;
+            this.checkOrden.Text = "Ordernar Por";
+            // 
+            // checkFechas
+            // 
+            // 
+            // 
+            // 
+            this.checkFechas.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkFechas.Checked = true;
+            this.checkFechas.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkFechas.CheckValue = "Y";
+            this.checkFechas.Location = new System.Drawing.Point(43, 28);
+            this.checkFechas.Name = "checkFechas";
+            this.checkFechas.Size = new System.Drawing.Size(113, 23);
+            this.checkFechas.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkFechas.TabIndex = 41;
+            this.checkFechas.Text = "Rango de Fecchas";
+            // 
+            // prg1
+            // 
+            this.prg1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            // 
+            // 
+            // 
+            this.prg1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.prg1.Location = new System.Drawing.Point(-1, 224);
+            this.prg1.Name = "prg1";
+            this.prg1.Size = new System.Drawing.Size(687, 23);
+            this.prg1.TabIndex = 39;
+            this.prg1.Text = "progressBarX1";
+            // 
+            // crystalReportViewer1
+            // 
+            this.crystalReportViewer1.ActiveViewIndex = -1;
+            this.crystalReportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.crystalReportViewer1.Location = new System.Drawing.Point(-1, 253);
+            this.crystalReportViewer1.Name = "crystalReportViewer1";
+            this.crystalReportViewer1.ShowGroupTreeButton = false;
+            this.crystalReportViewer1.ShowLogo = false;
+            this.crystalReportViewer1.ShowParameterPanelButton = false;
+            this.crystalReportViewer1.ShowRefreshButton = false;
+            this.crystalReportViewer1.Size = new System.Drawing.Size(936, 392);
+            this.crystalReportViewer1.TabIndex = 38;
+            this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
+            // 
+            // AutPrestForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "AutPrestForm";
+            this.ClientSize = new System.Drawing.Size(935, 645);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.lblProgress);
+            this.Controls.Add(this.btnRegresar);
+            this.Controls.Add(this.cmbOrden);
+            this.Controls.Add(this.cmbTipoOrden);
+            this.Controls.Add(this.dtFin);
+            this.Controls.Add(this.dtInicio);
+            this.Controls.Add(this.btnReporte);
+            this.Controls.Add(this.btnExportar);
+            this.Controls.Add(this.checkModo);
+            this.Controls.Add(this.checkOrden);
+            this.Controls.Add(this.checkFechas);
+            this.Controls.Add(this.prg1);
+            this.Controls.Add(this.crystalReportViewer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "AutPrestForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Autorizaciones de Prestamos";
+            this.Load += new System.EventHandler(this.AutPrestForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dtFin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtInicio)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private DevComponents.DotNetBar.ButtonX btnCancel;
+        private DevComponents.DotNetBar.LabelX lblProgress;
+        private DevComponents.DotNetBar.ButtonX btnRegresar;
+        private DevComponents.DotNetBar.Controls.ComboTree cmbOrden;
+        private DevComponents.DotNetBar.Controls.ComboTree cmbTipoOrden;
+        private DevComponents.Editors.DateTimeAdv.DateTimeInput dtFin;
+        private DevComponents.Editors.DateTimeAdv.DateTimeInput dtInicio;
+        private DevComponents.DotNetBar.ButtonX btnReporte;
+        private DevComponents.DotNetBar.ButtonX btnExportar;
+        private DevComponents.DotNetBar.Controls.CheckBoxX checkModo;
+        private DevComponents.DotNetBar.Controls.CheckBoxX checkOrden;
+        private DevComponents.DotNetBar.Controls.CheckBoxX checkFechas;
+        private DevComponents.DotNetBar.Controls.ProgressBarX prg1;
+        private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

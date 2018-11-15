@@ -1,0 +1,1239 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Inventarios" msdata:Locale="es-MX">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Inventarios" msdata:CaseSensitive="False" msdata:Locale="es-MX">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="no" type="xs:string" minOccurs="0" />
+                <xs:element name="contrato" type="xs:string" minOccurs="0" />
+                <xs:element name="fecha" type="xs:string" minOccurs="0" />
+                <xs:element name="bolsa" type="xs:string" minOccurs="0" />
+                <xs:element name="noinv" type="xs:string" minOccurs="0" />
+                <xs:element name="noserie" type="xs:string" minOccurs="0" />
+                <xs:element name="descripcion" type="xs:string" minOccurs="0" />
+                <xs:element name="detalles" type="xs:string" minOccurs="0" />
+                <xs:element name="preciosugerido" type="xs:string" minOccurs="0" />
+                <xs:element name="precioventa" type="xs:string" minOccurs="0" />
+                <xs:element name="kilates" type="xs:string" minOccurs="0" />
+                <xs:element name="peso_real" type="xs:string" minOccurs="0" />
+                <xs:element name="condiciones" type="xs:string" minOccurs="0" />
+                <xs:element name="tipo" type="xs:string" minOccurs="0" />
+                <xs:element name="status" type="xs:string" minOccurs="0" />
+                <xs:element name="mov" type="xs:string" minOccurs="0" />
+                <xs:element name="rematado" type="xs:string" minOccurs="0" />
+                <xs:element name="rematado_por" type="xs:string" minOccurs="0" />
+                <xs:element name="mod_extemporanea" type="xs:string" minOccurs="0" />
+                <xs:element name="transferido" type="xs:string" minOccurs="0" />
+                <xs:element name="sucursal" type="xs:string" minOccurs="0" />
+                <xs:element name="status_transferido" type="xs:string" minOccurs="0" />
+                <xs:element name="fecha_trans" type="xs:string" minOccurs="0" />
+                <xs:element name="actualizacion" type="xs:string" minOccurs="0" />
+                <xs:element name="codigotrans" type="xs:string" minOccurs="0" />
+                <xs:element name="pneto" type="xs:string" minOccurs="0" />
+                <xs:element name="NOTAS" type="xs:string" minOccurs="0" />
+                <xs:element name="AOM" type="xs:string" minOccurs="0" />
+                <xs:element name="rematadoEJ" type="xs:string" minOccurs="0" />
+                <xs:element name="precio_promocion" type="xs:string" minOccurs="0" />
+                <xs:element name="fechaPP" type="xs:string" minOccurs="0" />
+                <xs:element name="precioPromo2" type="xs:string" minOccurs="0" />
+                <xs:element name="fechaPP2" type="xs:string" minOccurs="0" />
+                <xs:element name="precioPromo3" type="xs:string" minOccurs="0" />
+                <xs:element name="fechaPP3" type="xs:string" minOccurs="0" />
+                <xs:element name="precioRemate" type="xs:string" minOccurs="0" />
+                <xs:element name="fechaPRem" type="xs:string" minOccurs="0" />
+                <xs:element name="precio_origen" type="xs:string" minOccurs="0" />
+                <xs:element name="actualizo" type="xs:string" minOccurs="0" />
+                <xs:element name="actualizo2" type="xs:string" minOccurs="0" />
+                <xs:element name="actualizo3" type="xs:string" minOccurs="0" />
+                <xs:element name="prestamo" type="xs:string" minOccurs="0" />
+                <xs:element name="contrato2" type="xs:string" minOccurs="0" />
+                <xs:element name="fecha_contrato" type="xs:string" minOccurs="0" />
+                <xs:element name="indice" type="xs:string" minOccurs="0" />
+                <xs:element name="Antiguedad" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Inventarios>
+    <contrato>67761</contrato>
+    <fecha>13/10/2015 12:00:00 a. m.</fecha>
+    <bolsa>73938</bolsa>
+    <noinv>CMGC10018</noinv>
+    <noserie>PRG_110018</noserie>
+    <descripcion>TABLET CELMI</descripcion>
+    <detalles>136.32</detalles>
+    <preciosugerido>1430.0000</preciosugerido>
+    <precioventa>749.0000</precioventa>
+    <kilates>24</kilates>
+    <peso_real />
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22957</mov>
+    <rematado>15/10/2015 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-PRG_1</transferido>
+    <sucursal>PRG_1</sucursal>
+    <pneto />
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>15/10/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>699.0000</precio_promocion>
+    <precioPromo2>715.0000</precioPromo2>
+    <fechaPP2>02/06/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>715.0000</precioPromo3>
+    <fechaPP3>21/09/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <precio_origen>749.0000</precio_origen>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>650.0000</prestamo>
+    <contrato2>67761</contrato2>
+    <fecha_contrato>08/08/2015 12:00:00 a. m.</fecha_contrato>
+    <indice>21361</indice>
+    <Antiguedad>1127</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>78067</contrato>
+    <fecha>08/09/2015 12:00:00 a. m.</fecha>
+    <bolsa>74454</bolsa>
+    <noinv>CMGC10237</noinv>
+    <noserie>PRG_110237</noserie>
+    <descripcion>TABLET MOVI QUICK </descripcion>
+    <detalles>QUICK QUAD   </detalles>
+    <preciosugerido>1056.0000</preciosugerido>
+    <precioventa>699.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>FUNDICION</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>23186</mov>
+    <rematado>13/11/2015 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <mod_extemporanea>Modificado el dia: 2016-07-13 - Revision fuera de ejercicio , ARGUMENTO: CLIENTE LA ADQUIERE ANTES DE ETIQUETAR SEGUNDO REMATE REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>R-PRG_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <pneto>0</pneto>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>13/11/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>649.0000</precio_promocion>
+    <precioPromo2>629.1000</precioPromo2>
+    <fechaPP2>02/06/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>566.1900</precioPromo3>
+    <fechaPP3>13/07/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>480.0000</prestamo>
+    <contrato2>78067</contrato2>
+    <fecha_contrato>08/09/2015 12:00:00 a. m.</fecha_contrato>
+    <indice>21542</indice>
+    <Antiguedad>1098</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>0</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGC11193</noinv>
+    <noserie>PRG_111193</noserie>
+    <descripcion>ESTUCHE PARA LAP TOP</descripcion>
+    <detalles>NEGRO</detalles>
+    <preciosugerido>135.0000</preciosugerido>
+    <precioventa>135.0000</precioventa>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>24219</mov>
+    <rematado>30/03/2016 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>E-PRG_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <NOTAS>FALTO CONSIDERARSE EN CCONT. 79165</NOTAS>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>30/03/2016 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>119.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>35.0000</prestamo>
+    <contrato2>0</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>22784</indice>
+    <Antiguedad>960</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>80477</contrato>
+    <fecha>24/06/2016 12:00:00 a. m.</fecha>
+    <bolsa>75515</bolsa>
+    <noinv>CMGC12019</noinv>
+    <noserie>PRG_112019</noserie>
+    <descripcion>BIT DEFENDER</descripcion>
+    <detalles>ANTIVIRUS</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>85.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>25100</mov>
+    <rematado>31/08/2016 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>R-PRG_1</transferido>
+    <sucursal>PRG_1</sucursal>
+    <pneto>0</pneto>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>31/08/2016 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>79.0000</precio_promocion>
+    <precioPromo2>76.5000</precioPromo2>
+    <fechaPP2>26/10/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>68.8500</precioPromo3>
+    <fechaPP3>12/12/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>25.0000</prestamo>
+    <contrato2>80477</contrato2>
+    <fecha_contrato>24/06/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>23044</indice>
+    <Antiguedad>806</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>0</contrato>
+    <fecha>13/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGC12339</noinv>
+    <noserie>PRG_112339</noserie>
+    <descripcion>IMPRESORA SAMSUNG</descripcion>
+    <detalles>ML1865W</detalles>
+    <preciosugerido>499.0000</preciosugerido>
+    <precioventa>499.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>25447</mov>
+    <rematado>13/10/2016 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>E-PRG_1</transferido>
+    <sucursal>-</sucursal>
+    <pneto>0</pneto>
+    <NOTAS>ANT USO INTERNO IMPSA185413</NOTAS>
+    <AOM>AGREGADA</AOM>
+    <rematadoEJ>13/10/2016 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>449.0000</precio_promocion>
+    <precioPromo2>449.1000</precioPromo2>
+    <fechaPP2>12/12/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>404.1900</precioPromo3>
+    <fechaPP3>22/04/2017 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>200.0000</prestamo>
+    <contrato2>0</contrato2>
+    <fecha_contrato>13/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>262</indice>
+    <Antiguedad>763</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>0</contrato>
+    <fecha>13/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGC12340</noinv>
+    <noserie>PRG_112340</noserie>
+    <descripcion>IMPRESORA SAMSUNG</descripcion>
+    <detalles>ML 1865W</detalles>
+    <preciosugerido>499.0000</preciosugerido>
+    <precioventa>499.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>25448</mov>
+    <rematado>13/10/2016 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>E-PRG_1</transferido>
+    <sucursal>-</sucursal>
+    <pneto>0</pneto>
+    <NOTAS>ANT USO INTERNO IMP SA186592</NOTAS>
+    <AOM>AGREGADA</AOM>
+    <rematadoEJ>13/10/2016 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>449.0000</precio_promocion>
+    <precioPromo2>449.1000</precioPromo2>
+    <fechaPP2>12/12/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>404.1900</precioPromo3>
+    <fechaPP3>22/04/2017 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>200.0000</prestamo>
+    <contrato2>0</contrato2>
+    <fecha_contrato>13/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>263</indice>
+    <Antiguedad>763</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>82166</contrato>
+    <fecha>13/03/2017 12:00:00 a. m.</fecha>
+    <bolsa>76162</bolsa>
+    <noinv>CMGC12922</noinv>
+    <noserie>PRG_112922</noserie>
+    <descripcion>LAP TOP COMPAQ</descripcion>
+    <detalles>CQ40, 320 GB D.D W7, 2GB RAM, NO FUNCIONA PILA</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>2499.0000</precioventa>
+    <kilates>24</kilates>
+    <peso_real />
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <rematado>13/03/2017 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-PRG_1</transferido>
+    <sucursal>PRG_1</sucursal>
+    <pneto />
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>13/03/2017 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>2299.0000</precio_promocion>
+    <precioPromo2>2249.1000</precioPromo2>
+    <fechaPP2>22/04/2017 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>2024.1900</precioPromo3>
+    <fechaPP3>26/05/2017 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>1250.0000</prestamo>
+    <contrato2>82166</contrato2>
+    <fecha_contrato>31/12/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>24221</indice>
+    <Antiguedad>612</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>0</contrato>
+    <fecha>29/07/2017 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGC13947</noinv>
+    <noserie>PRG_113947</noserie>
+    <descripcion>CARGADOR PARA LAP TOP HP</descripcion>
+    <detalles>BUENAS CONDICIONES</detalles>
+    <preciosugerido>250.0000</preciosugerido>
+    <precioventa>250.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <rematado>29/07/2017 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>E-PRG_1</transferido>
+    <sucursal>-</sucursal>
+    <pneto>0</pneto>
+    <NOTAS>SE AGREGAIÓN POR N.D. 904 DEVOLUCIÓN AL CLIENTE DE 250 POR NO CORRESPONDER  SU CARGADOR</NOTAS>
+    <AOM>AGREGADA</AOM>
+    <rematadoEJ>29/07/2017 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>199.0000</precio_promocion>
+    <precioPromo2>225.0000</precioPromo2>
+    <fechaPP2>05/09/2017 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>202.5000</precioPromo3>
+    <fechaPP3>29/11/2017 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>100.0000</prestamo>
+    <contrato2>0</contrato2>
+    <fecha_contrato>29/07/2017 12:00:00 a. m.</fecha_contrato>
+    <indice>25284</indice>
+    <Antiguedad>474</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>87235</contrato>
+    <fecha>30/05/2018 12:00:00 a. m.</fecha>
+    <bolsa>78262</bolsa>
+    <noinv>CMGC15391</noinv>
+    <noserie>PRG_115391</noserie>
+    <descripcion>LAP TOP LENOVO</descripcion>
+    <detalles>80G0, 1TB D.D 4GB RAM W8 CELERON</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>4999.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <rematado>31/05/2018 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-PRG_1</transferido>
+    <sucursal>PRG_1</sucursal>
+    <pneto>0</pneto>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>31/05/2018 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>4799.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>2900.0000</prestamo>
+    <contrato2>87235</contrato2>
+    <fecha_contrato>12/03/2018 12:00:00 a. m.</fecha_contrato>
+    <indice>26778</indice>
+    <Antiguedad>168</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>88278</contrato>
+    <fecha>13/06/2018 12:00:00 a. m.</fecha>
+    <bolsa>78742</bolsa>
+    <noinv>CMGC15757</noinv>
+    <noserie>PRG_115757</noserie>
+    <descripcion>DISCO DURO</descripcion>
+    <detalles>250GB</detalles>
+    <preciosugerido>330.0000</preciosugerido>
+    <precioventa>399.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <rematado>16/08/2018 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <mod_extemporanea>Modificado el dia: 2018-09-26 - Revision fuera de ejercicio , ARGUMENTO: VTA. REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>R-PRG_1</transferido>
+    <sucursal>PRG_1</sucursal>
+    <pneto>0</pneto>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>16/08/2018 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>375.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <precio_origen>399.0000</precio_origen>
+    <prestamo>150.0000</prestamo>
+    <contrato2>88278</contrato2>
+    <fecha_contrato>13/06/2018 12:00:00 a. m.</fecha_contrato>
+    <indice>27154</indice>
+    <Antiguedad>91</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <noinv>CMGC9143</noinv>
+    <noserie>4764-1</noserie>
+    <descripcion>TABLET CELMI</descripcion>
+    <preciosugerido>649.0000</preciosugerido>
+    <precioventa>649.0000</precioventa>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>23104</mov>
+    <rematado>09/11/2015 12:00:00 a. m.</rematado>
+    <sucursal>PRG_1</sucursal>
+    <rematadoEJ>01/01/2000 12:00:00 a. m.</rematadoEJ>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <indice>21509</indice>
+    <Antiguedad>6893</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>76515</contrato>
+    <fecha>16/07/2015 12:00:00 a. m.</fecha>
+    <bolsa>73864</bolsa>
+    <noinv>CMGC9473</noinv>
+    <noserie>PRG_19473</noserie>
+    <descripcion>ESTUCHE PARA TABLET</descripcion>
+    <detalles>COLOR NEGRO</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>599.0000</precioventa>
+    <kilates>24</kilates>
+    <peso_real />
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>21992</mov>
+    <rematado>28/07/2015 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <sucursal>PRG_1-101</sucursal>
+    <pneto />
+    <rematadoEJ>28/07/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>599.0000</precio_promocion>
+    <precioPromo2>539.1000</precioPromo2>
+    <fechaPP2>02/06/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>485.1900</precioPromo3>
+    <fechaPP3>13/07/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>25.0000</prestamo>
+    <contrato2>0</contrato2>
+    <indice>690</indice>
+    <Antiguedad>1206</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <no>R-4033</no>
+    <contrato>76798</contrato>
+    <fecha>16/07/2015 12:00:00 a. m.</fecha>
+    <bolsa>73965</bolsa>
+    <noinv>CMGC9487</noinv>
+    <noserie>PRG_19487</noserie>
+    <descripcion>LAPTOP TOSHIBA </descripcion>
+    <detalles>SATELLITE C55 500GB D.D Y 2 GB RAM</detalles>
+    <preciosugerido>4922.0000</preciosugerido>
+    <precioventa>3549.0000</precioventa>
+    <kilates>24</kilates>
+    <peso_real />
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>PAGADO</status>
+    <mov>22008</mov>
+    <rematado>29/07/2015 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <sucursal>PRG_1</sucursal>
+    <pneto />
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>29/07/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>3549.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>2140.0000</prestamo>
+    <contrato2>76798</contrato2>
+    <fecha_contrato>15/05/2015 12:00:00 a. m.</fecha_contrato>
+    <indice>2400</indice>
+    <Antiguedad>1205</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>96309</contrato>
+    <fecha>14/09/2015 12:00:00 a. m.</fecha>
+    <bolsa>96306</bolsa>
+    <noinv>CMGC9900</noinv>
+    <noserie>PRG_19900</noserie>
+    <descripcion>ESTUCHE PROTECTOR</descripcion>
+    <detalles>GRIS</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>65.0000</precioventa>
+    <kilates>24</kilates>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22826</mov>
+    <rematado>14/09/2015 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO MONROY</rematado_por>
+    <transferido>R-PRG_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <status_transferido>NULL</status_transferido>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <NOTAS>NULL</NOTAS>
+    <AOM>AGREGADA</AOM>
+    <rematadoEJ>14/09/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>49.0000</precio_promocion>
+    <precioPromo2>58.5000</precioPromo2>
+    <fechaPP2>02/06/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>52.6500</precioPromo3>
+    <fechaPP3>13/07/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>25.0000</prestamo>
+    <contrato2>0</contrato2>
+    <indice>5181</indice>
+    <Antiguedad>1158</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>30940</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGE2766</noinv>
+    <noserie>DDTN 4428</noserie>
+    <descripcion>lap top ho pavilion DV5, 500gb d.d y 4gb ram</descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>3699.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22101</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>TLX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>3699.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>2660.0000</prestamo>
+    <contrato2>30940</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>2426</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>31493</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGE2959</noinv>
+    <noserie>DDTN 4576</noserie>
+    <descripcion>mini lap top acer Q1VZC 300gb d.d y2gb ram</descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>2349.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22102</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>TLX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>2349.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>1740.0000</prestamo>
+    <contrato2>31493</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>2427</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>28545</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGE2960</noinv>
+    <noserie>DDTM 9139</noserie>
+    <descripcion>lap top Dell P14E, 405gb d.d y 4gb ram</descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>3399.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22103</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>TLX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>3399.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>2240.0000</prestamo>
+    <contrato2>28545</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>2428</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>28506</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGE2964</noinv>
+    <noserie>DDTM 9115</noserie>
+    <descripcion>lap top Gteway MS2370, 500gb d.d y 2 gb ram</descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>3399.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22104</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>TLX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>3399.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>2800.0000</prestamo>
+    <contrato2>28506</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>2429</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>31709</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGE2969</noinv>
+    <noserie>DDTN 4649</noserie>
+    <descripcion>mini lap top acer ZE7, 300gb d.d y 2 gb ram</descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>1999.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22105</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>TLX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>1999.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>1340.0000</prestamo>
+    <contrato2>31709</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>2430</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>28967</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGE3020</noinv>
+    <noserie>DDTM 9284</noserie>
+    <descripcion>laptop hp 2000, </descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>2699.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22106</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>TLX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>2699.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>2100.0000</prestamo>
+    <contrato2>28967</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>2431</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>29181</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGE3062</noinv>
+    <noserie>DDTM 9356</noserie>
+    <descripcion>mini laptop acer P1V2C, 300gb d.d y 2 gb ram</descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>2199.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22107</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>TLX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>2199.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>1600.0000</prestamo>
+    <contrato2>29181</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>2432</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>32050</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGE3187</noinv>
+    <noserie>DDTN 4734</noserie>
+    <descripcion>laptop Sony VPC33EL, 300gb d.dy 2 gb ram</descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>2699.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22109</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>TLX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>2699.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>2030.0000</prestamo>
+    <contrato2>32050</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>2434</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>33025</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGE3340</noinv>
+    <noserie>DDTN 5017</noserie>
+    <descripcion>tablet Samsung 2 GT-P3110 8gb</descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>1799.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22179</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>TLX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>1799.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>1000.0000</prestamo>
+    <contrato2>33025</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>7574</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>40527</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGE3545</noinv>
+    <noserie>DDTM 9710</noserie>
+    <descripcion>laptop compaq presario CQ41, 220gb d.d y 2 gb ram</descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>2499.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22170</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>TLX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>2499.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>970.0000</prestamo>
+    <contrato2>40527</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>7566</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>33711</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGE3641</noinv>
+    <noserie>DDTN 5205</noserie>
+    <descripcion>laptop Compaq presario CQ43, 300gb d.d y 2 gb ram</descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>2649.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22172</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>TLX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>2649.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>1700.0000</prestamo>
+    <contrato2>33711</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>7568</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>64832</contrato>
+    <fecha>23/07/2018 12:00:00 a. m.</fecha>
+    <bolsa>61978</bolsa>
+    <noinv>CMGE9572</noinv>
+    <noserie>TLX_19572</noserie>
+    <descripcion>LAP TOP HP </descripcion>
+    <detalles>14G101LA 1TB D.D 4GB RAM W8 AMD E1</detalles>
+    <preciosugerido>881.0000</preciosugerido>
+    <precioventa>4999.0000</precioventa>
+    <kilates />
+    <peso_real />
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <rematado_por>DDR-TLX_1-101-PRG_1-101-256</rematado_por>
+    <transferido>R-TLX_1</transferido>
+    <sucursal>PRG_1-101</sucursal>
+    <pneto />
+    <NOTAS />
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>23/07/2018 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>4799.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>3300.0000</prestamo>
+    <contrato2>64832</contrato2>
+    <fecha_contrato>08/05/2018 12:00:00 a. m.</fecha_contrato>
+    <indice>27379</indice>
+    <Antiguedad>115</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>52290</contrato>
+    <fecha>23/07/2018 12:00:00 a. m.</fecha>
+    <bolsa>44842</bolsa>
+    <noinv>CMGE9576</noinv>
+    <noserie>TLX_19576</noserie>
+    <descripcion>LAP TOP HP RTL8723BE</descripcion>
+    <detalles>1TB D.D 8GB RAM CORE I3</detalles>
+    <preciosugerido>8800.0000</preciosugerido>
+    <precioventa>4999.0000</precioventa>
+    <kilates />
+    <peso_real />
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <rematado_por>DDR-TLX_1-101-PRG_1-101-256</rematado_por>
+    <transferido>R-TLX_1</transferido>
+    <sucursal>PRG_1-101</sucursal>
+    <pneto />
+    <NOTAS />
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>23/07/2018 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>4799.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>4000.0000</prestamo>
+    <contrato2>52290</contrato2>
+    <fecha_contrato>11/05/2018 12:00:00 a. m.</fecha_contrato>
+    <indice>27380</indice>
+    <Antiguedad>115</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <no>R-4021</no>
+    <noinv>CMGG1840</noinv>
+    <noserie>CIMR 1780</noserie>
+    <descripcion>plancha para cabello Vidal Sasoon VSST25</descripcion>
+    <preciosugerido>265.0000</preciosugerido>
+    <precioventa>599.0000</precioventa>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>PAGADO</status>
+    <mov>21983</mov>
+    <rematado>24/07/2015 12:00:00 a. m.</rematado>
+    <transferido>MIX_1</transferido>
+    <sucursal>PRG_1</sucursal>
+    <rematadoEJ>02/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>599.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <indice>682</indice>
+    <Antiguedad>1413</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>19445</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGG2136</noinv>
+    <noserie>CIMS 2314</noserie>
+    <descripcion>laptop dell inspiron 5420   </descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>3549.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22367</mov>
+    <mod_extemporanea>Modificado el dia: 2018-05-31 - Revision fuera de ejercicio , ARGUMENTO: PRECIO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>MIX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>3349.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>2850.0000</prestamo>
+    <contrato2>19445</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>7739</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>19470</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGG2138</noinv>
+    <noserie>CIMS 2322</noserie>
+    <descripcion>laptop samsung NP300E5C</descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>0.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22369</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>MIX_1</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>0.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>2220.0000</prestamo>
+    <contrato2>19470</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>7740</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>0</contrato>
+    <fecha>01/01/1999 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGH0402</noinv>
+    <noserie>CITR 1057</noserie>
+    <descripcion>lap top inspiron N4010 4GB Ram 500D.D</descripcion>
+    <detalles>Xls</detalles>
+    <preciosugerido>4390.0000</preciosugerido>
+    <precioventa>4390.0000</precioventa>
+    <kilates />
+    <peso_real>1</peso_real>
+    <condiciones />
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>23786</mov>
+    <rematado_por>CIS-TLA_2-101-PRG_1-101-25</rematado_por>
+    <transferido>TLA_2-101</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <pneto />
+    <NOTAS />
+    <AOM />
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>4390.0000</precio_promocion>
+    <precioPromo2>3951.0000</precioPromo2>
+    <fechaPP2>02/06/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>3555.9000</precioPromo3>
+    <fechaPP3>13/07/2016 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>2600.0000</prestamo>
+    <contrato2>0</contrato2>
+    <indice>2480</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <no>R-4507</no>
+    <noinv>CMGH0849</noinv>
+    <noserie>CITR 1861</noserie>
+    <descripcion>PLANCHA DE SERIGRAFIA </descripcion>
+    <preciosugerido>1499.0000</preciosugerido>
+    <precioventa>599.0000</precioventa>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>PAGADO</status>
+    <mov>1677</mov>
+    <rematado>25/04/2015 12:00:00 a. m.</rematado>
+    <transferido>TLX_2</transferido>
+    <sucursal>PRG_1</sucursal>
+    <rematadoEJ>02/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>599.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <indice>2753</indice>
+    <Antiguedad>1413</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>12608</contrato>
+    <fecha>26/10/2016 12:00:00 a. m.</fecha>
+    <bolsa>0</bolsa>
+    <noinv>CMGH1873</noinv>
+    <noserie>CITR 2972</noserie>
+    <descripcion>laptop acer aspire E1421, 500gb d.d y 2gb ram</descripcion>
+    <detalles>XLSx</detalles>
+    <preciosugerido>0.0000</preciosugerido>
+    <precioventa>3549.0000</precioventa>
+    <peso_real>1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22175</mov>
+    <mod_extemporanea>Modificado el dia: 2016-10-26 - Revision fuera de ejercicio , ARGUMENTO: PRESTAMO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <transferido>TLX_2</transferido>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>3549.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <prestamo>2800.0000</prestamo>
+    <contrato2>12608</contrato2>
+    <fecha_contrato>26/10/2016 12:00:00 a. m.</fecha_contrato>
+    <indice>7570</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <noinv>MROX 0460-A</noinv>
+    <noserie>LAP-CQQ43-562</noserie>
+    <descripcion>laptop Compaq CQ43, 500gb d.d y 2 gb ram, windows 7 procesador AMD Vision</descripcion>
+    <detalles>XLSx</detalles>
+    <precioventa>3599.0000</precioventa>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>22154</mov>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <rematadoEJ>01/01/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>3599.0000</precio_promocion>
+    <precioPromo2>0.0000</precioPromo2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <indice>4382</indice>
+    <Antiguedad>1414</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>73061</contrato>
+    <fecha>17/06/2014 12:00:00 a. m.</fecha>
+    <bolsa>72485</bolsa>
+    <noinv>MRPL 7976</noinv>
+    <noserie>2349-2199</noserie>
+    <descripcion>mini laptop Lenovo 5110 Ideapad, 300gb d.d y 2gb ram</descripcion>
+    <detalles>5110 IDEAPAD</detalles>
+    <preciosugerido>2149.0000</preciosugerido>
+    <precioventa>2149.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>18619</mov>
+    <rematado>16/07/2015 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO</rematado_por>
+    <mod_extemporanea>Modificado el dia: 2016-07-13 - Revision fuera de ejercicio , ARGUMENTO: TIPO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <pneto>0</pneto>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>16/07/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>1999.0000</precio_promocion>
+    <precioPromo2>1980.0000</precioPromo2>
+    <fechaPP2>26/10/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>1980.0000</precioPromo3>
+    <fechaPP3>22/04/2017 12:00:00 a. m.</fechaPP3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <actualizo3>ALONDRA RUFINO MONROY</actualizo3>
+    <prestamo>1800.0000</prestamo>
+    <contrato2>73061</contrato2>
+    <fecha_contrato>17/06/2014 12:00:00 a. m.</fecha_contrato>
+    <indice>19029</indice>
+    <Antiguedad>1218</Antiguedad>
+  </Inventarios>
+  <Inventarios>
+    <contrato>73707</contrato>
+    <fecha>28/07/2014 12:00:00 a. m.</fecha>
+    <bolsa>93265</bolsa>
+    <noinv>MRPL 8185</noinv>
+    <noserie>2149-1999</noserie>
+    <descripcion>tablet Lenovo A1-07</descripcion>
+    <detalles>A1-07</detalles>
+    <preciosugerido>2149.0000</preciosugerido>
+    <precioventa>2149.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Computo</tipo>
+    <status>EN VENTA</status>
+    <mov>18881</mov>
+    <rematado>16/07/2015 12:00:00 a. m.</rematado>
+    <rematado_por>ALONDRA RUFINO</rematado_por>
+    <mod_extemporanea>Modificado el dia: 2016-07-13 - Revision fuera de ejercicio , ARGUMENTO: TIPO REALIZO: ALONDRA RUFINO MONROY</mod_extemporanea>
+    <sucursal>NAU_1-901</sucursal>
+    <fecha_trans>13/07/2016 12:00:00 a. m.</fecha_trans>
+    <codigotrans>MRO-72907840-miércoles, 13 de julio de 2016</codigotrans>
+    <pneto>0</pneto>
+    <AOM>MODIFICADA</AOM>
+    <rematadoEJ>16/07/2015 12:00:00 a. m.</rematadoEJ>
+    <precio_promocion>1999.0000</precio_promocion>
+    <precioPromo2>1934.1000</precioPromo2>
+    <fechaPP2>13/07/2016 12:00:00 a. m.</fechaPP2>
+    <precioPromo3>0.0000</precioPromo3>
+    <precioRemate>0.0000</precioRemate>
+    <actualizo2>ALONDRA RUFINO MONROY</actualizo2>
+    <prestamo>1700.0000</prestamo>
+    <contrato2>73707</contrato2>
+    <fecha_contrato>28/07/2014 12:00:00 a. m.</fecha_contrato>
+    <indice>19908</indice>
+    <Antiguedad>1218</Antiguedad>
+  </Inventarios>
+</NewDataSet>

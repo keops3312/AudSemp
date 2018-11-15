@@ -29,17 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InventariosForm));
-            this.btnCancel = new DevComponents.DotNetBar.ButtonX();
             this.lblProgress = new DevComponents.DotNetBar.LabelX();
-            this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
             this.chkContratos = new System.Windows.Forms.CheckedListBox();
             this.chkPrendas = new System.Windows.Forms.CheckedListBox();
             this.cmbOrden = new DevComponents.DotNetBar.Controls.ComboTree();
             this.cmbTipoOrden = new DevComponents.DotNetBar.Controls.ComboTree();
             this.dtFin = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
             this.dtInicio = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.btnReporte = new DevComponents.DotNetBar.ButtonX();
-            this.btnExportar = new DevComponents.DotNetBar.ButtonX();
             this.checkModo = new DevComponents.DotNetBar.Controls.CheckBoxX();
             this.checkOrden = new DevComponents.DotNetBar.Controls.CheckBoxX();
             this.checkFechas = new DevComponents.DotNetBar.Controls.CheckBoxX();
@@ -48,23 +44,13 @@
             this.prg1 = new DevComponents.DotNetBar.Controls.ProgressBarX();
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.btnCancel = new DevComponents.DotNetBar.ButtonX();
+            this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
+            this.btnReporte = new DevComponents.DotNetBar.ButtonX();
+            this.btnExportar = new DevComponents.DotNetBar.ButtonX();
             ((System.ComponentModel.ISupportInitialize)(this.dtFin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtInicio)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnCancel.Image = global::AudSemp.Properties.Resources.close1;
-            this.btnCancel.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnCancel.Location = new System.Drawing.Point(834, 87);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(71, 54);
-            this.btnCancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnCancel.TabIndex = 37;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // lblProgress
             // 
@@ -78,20 +64,6 @@
             this.lblProgress.Size = new System.Drawing.Size(213, 23);
             this.lblProgress.TabIndex = 36;
             this.lblProgress.Text = "-";
-            // 
-            // btnRegresar
-            // 
-            this.btnRegresar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnRegresar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRegresar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnRegresar.Image = global::AudSemp.Properties.Resources.Back;
-            this.btnRegresar.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnRegresar.Location = new System.Drawing.Point(841, 167);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(64, 51);
-            this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnRegresar.TabIndex = 35;
-            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // chkContratos
             // 
@@ -229,34 +201,6 @@
             this.dtInicio.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.dtInicio.TabIndex = 29;
             // 
-            // btnReporte
-            // 
-            this.btnReporte.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnReporte.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnReporte.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnReporte.Image = global::AudSemp.Properties.Resources.crystal_reports_logo1;
-            this.btnReporte.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnReporte.Location = new System.Drawing.Point(834, 29);
-            this.btnReporte.Name = "btnReporte";
-            this.btnReporte.Size = new System.Drawing.Size(71, 52);
-            this.btnReporte.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnReporte.TabIndex = 28;
-            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
-            // 
-            // btnExportar
-            // 
-            this.btnExportar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnExportar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExportar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnExportar.Image = global::AudSemp.Properties.Resources.excelfile_29;
-            this.btnExportar.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnExportar.Location = new System.Drawing.Point(757, 29);
-            this.btnExportar.Name = "btnExportar";
-            this.btnExportar.Size = new System.Drawing.Size(71, 52);
-            this.btnExportar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnExportar.TabIndex = 27;
-            this.btnExportar.Click += new System.EventHandler(this.btnExportar_Click);
-            // 
             // checkModo
             // 
             // 
@@ -381,6 +325,62 @@
             this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
             this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnCancel.Image = global::AudSemp.Properties.Resources.close1;
+            this.btnCancel.ImageFixedSize = new System.Drawing.Size(48, 48);
+            this.btnCancel.Location = new System.Drawing.Point(834, 87);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(71, 54);
+            this.btnCancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnCancel.TabIndex = 37;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnRegresar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRegresar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnRegresar.Image = global::AudSemp.Properties.Resources.Back;
+            this.btnRegresar.ImageFixedSize = new System.Drawing.Size(48, 48);
+            this.btnRegresar.Location = new System.Drawing.Point(841, 167);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(64, 51);
+            this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnRegresar.TabIndex = 35;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
+            // btnReporte
+            // 
+            this.btnReporte.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnReporte.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnReporte.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnReporte.Image = global::AudSemp.Properties.Resources.crystal_reports_logo1;
+            this.btnReporte.ImageFixedSize = new System.Drawing.Size(48, 48);
+            this.btnReporte.Location = new System.Drawing.Point(834, 29);
+            this.btnReporte.Name = "btnReporte";
+            this.btnReporte.Size = new System.Drawing.Size(71, 52);
+            this.btnReporte.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnReporte.TabIndex = 28;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
+            // 
+            // btnExportar
+            // 
+            this.btnExportar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnExportar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExportar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnExportar.Image = global::AudSemp.Properties.Resources.excelfile_29;
+            this.btnExportar.ImageFixedSize = new System.Drawing.Size(48, 48);
+            this.btnExportar.Location = new System.Drawing.Point(757, 29);
+            this.btnExportar.Name = "btnExportar";
+            this.btnExportar.Size = new System.Drawing.Size(71, 52);
+            this.btnExportar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnExportar.TabIndex = 27;
+            this.btnExportar.Click += new System.EventHandler(this.btnExportar_Click);
             // 
             // InventariosForm
             // 

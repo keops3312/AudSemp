@@ -73,6 +73,16 @@ namespace AudSemp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap aleatorio_fw {
+            get {
+                object obj = ResourceManager.GetObject("aleatorio.fw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap apartadoIcon {
             get {
                 object obj = ResourceManager.GetObject("apartadoIcon", resourceCulture);
@@ -116,6 +126,16 @@ namespace AudSemp.Properties {
         internal static System.Drawing.Bitmap bolsasC48 {
             get {
                 object obj = ResourceManager.GetObject("bolsasC48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap checklist {
+            get {
+                object obj = ResourceManager.GetObject("checklist", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -196,6 +216,16 @@ namespace AudSemp.Properties {
         internal static System.Drawing.Bitmap ElecQuestion_fw {
             get {
                 object obj = ResourceManager.GetObject("ElecQuestion.fw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap excel {
+            get {
+                object obj = ResourceManager.GetObject("excel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -326,6 +356,16 @@ namespace AudSemp.Properties {
         internal static System.Drawing.Bitmap pasword {
             get {
                 object obj = ResourceManager.GetObject("pasword", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pdfL {
+            get {
+                object obj = ResourceManager.GetObject("pdfL", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

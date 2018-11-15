@@ -52,7 +52,7 @@ namespace AudSemp.Forms
             cmbTypeOfAud.Items.Add("Auditar Inventarios");
             btnCancel.Visible = false;
             circularProgress1.Visible = false;
-            //buttonX4.Enabled = false;
+            buttonX4.Enabled = false;
             buttonX5.Enabled = false;
             buttonX3.Focus();
 

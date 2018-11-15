@@ -592,6 +592,12 @@
     <Compile Include="Forms\InventariosForm.Designer.cs">
       <DependentUpon>InventariosForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\InvIIRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvIIRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -641,6 +647,7 @@
       <DependentUpon>TomaFisicaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\ApartadosModel.cs" />
+    <Compile Include="Models\AutPrestModel.cs" />
     <Compile Include="Models\BolsasModel.cs" />
     <Compile Include="Models\ContratosModel.cs" />
     <Compile Include="Models\depositosRetirosModel.cs" />
@@ -651,6 +658,7 @@
     <Compile Include="Models\NotasPagoModel.cs" />
     <Compile Include="Models\Rectangle.cs" />
     <Compile Include="Presenter\ApartadosPresenter.cs" />
+    <Compile Include="Presenter\AutPrestPresenter.cs" />
     <Compile Include="Presenter\BolsasPresenter.cs" />
     <Compile Include="Presenter\ContratosPresenter.cs" />
     <Compile Include="Presenter\DepositosRetirosPresenter.cs" />
@@ -661,6 +669,7 @@
     <Compile Include="Presenter\PanelPresenter.cs" />
     <Compile Include="Presenter\RectanglePresenter.cs" />
     <Compile Include="Views\IApartados.cs" />
+    <Compile Include="Views\IAutPrest.cs" />
     <Compile Include="Views\IBolsas.cs" />
     <Compile Include="Views\IContratos.cs" />
     <Compile Include="Views\IDepositosRetiros.cs" />
@@ -672,6 +681,9 @@
     <Compile Include="Views\IRectangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AleatoriosForm.resx">
+      <DependentUpon>AleatoriosForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\apartados.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>apartados.cs</LastGenOutput>
@@ -681,6 +693,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ApartadosHistorialForm.resx">
       <DependentUpon>ApartadosHistorialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AutPrestForm.resx">
+      <DependentUpon>AutPrestForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BolsasForm.resx">
       <DependentUpon>BolsasForm.cs</DependentUpon>
@@ -718,6 +733,10 @@
     <EmbeddedResource Include="Forms\InventariosForm.resx">
       <DependentUpon>InventariosForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InvIIRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InvIIRPT.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -734,6 +753,9 @@
     <EmbeddedResource Include="Forms\RetirosRPT.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>RetirosRPT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RevInventariosForm.resx">
+      <DependentUpon>RevInventariosForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\TomaFisicaForm.resx">
       <DependentUpon>TomaFisicaForm.cs</DependentUpon>
@@ -791,6 +813,10 @@
       <DependentUpon>Context.edmx</DependentUpon>
       <LastGenOutput>Context.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\aleatorio.fw.png" />
+    <None Include="Resources\pdfL.png" />
+    <None Include="Resources\excel.png" />
+    <None Include="Resources\checklist.png" />
     <None Include="Resources\fisica_toma.png" />
     <None Include="Resources\fisica_toma_icon.fw.png" />
     <None Include="Resources\ElecQuestion.fw.png" />
