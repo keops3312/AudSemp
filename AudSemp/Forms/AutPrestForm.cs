@@ -1,19 +1,23 @@
-﻿using AudSemp.Classes;
-using AudSemp.Context;
-using AudSemp.Presenter;
-using AudSemp.Views;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿
 
 namespace AudSemp.Forms
 {
+
+    #region Libraries (librerias)
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel;
+    using System.Data;
+    using System.Linq;
+    using System.Threading;
+    using System.Windows.Forms;
+    using AudSemp.Classes;
+    using AudSemp.Context;
+    using AudSemp.Models;
+    using AudSemp.Presenter;
+    using AudSemp.Views;
+    using ClosedXML.Excel;    
+    #endregion
     public partial class AutPrestForm : Form,IAutPrest
     {
 
@@ -21,10 +25,13 @@ namespace AudSemp.Forms
         #region Context
 
         private SEMP2013_Context db;
+      
+      
         public AutPrestForm()
         {
             InitializeComponent();
             db = new SEMP2013_Context();
+         
 
             backgroundWorker1.WorkerReportsProgress = true;
             backgroundWorker1.WorkerSupportsCancellation = true;
@@ -36,7 +43,9 @@ namespace AudSemp.Forms
       
         public List<TiposOrden> tiposOrden { get; set; }
         public List<ModoOrdenes> modosOrden { get; set; }
-      
+        public DateTime dateTimeInicio { get ; set; }
+        public DateTime dateTimeFin { get ; set ; }
+
         #endregion
 
         #region Properties
@@ -49,16 +58,23 @@ namespace AudSemp.Forms
         public string mode;
         string ruta;
         int cantidad = 0;
+
+
+       
         #endregion
 
         #region Methods (Metodos)
         public void load()
         {
             AutPrestPresenter autPrestPresenter = new AutPrestPresenter(this);
+          
 
             autPrestPresenter.tiposOrden();
             autPrestPresenter.modosOrden();
 
+
+            dtInicio.Value= autPrestPresenter.timeInicio();
+            dtFin.Value= autPrestPresenter.timeFin();
           
             cmbOrden.DataSource = modosOrden;
             cmbTipoOrden.DataSource = tiposOrden;
@@ -75,7 +91,7 @@ namespace AudSemp.Forms
 
 
 
-            string fechaInicio, fechaFin, tipoOrden = "no", orden = "Ascendente";
+            string fechaInicio, fechaFin, tipoOrden = "NO", orden = "Ascendente";
          
 
 
@@ -117,10 +133,6 @@ namespace AudSemp.Forms
 
             //
 
-
-
-
-
             Export(fechaInicio, fechaFin, tipoOrden, orden);
 
         }
@@ -151,10 +163,9 @@ namespace AudSemp.Forms
 
             int i = 0;
 
-                 var result = from s in db.Apartados.Where(p => p.fecha_de_apartado >= Inicio &&
-                                      p.fecha_de_apartado <= Fin &&
-                                      p.tipo == items.categoria &&
-                                      p.status == itemEstatus.estatu).ToList()
+                 var result = from s in db.autorizaciones_prestamos
+                              .Where(p => p.fecha >= Inicio &&
+                                      p.fecha <= Fin).ToList()
                                  select s;
 
 
@@ -165,17 +176,8 @@ namespace AudSemp.Forms
                         i++;
                         backgroundWorker1.ReportProgress(i);
 
-                        dt.Rows.Add(item.no, item.FOLIO_REM, item.bolsa,
-                            item.noinv, item.noserie, item.descripcion, item.detalles,
-                            item.preciosugerido, item.precioventa, item.kilates, item.peso_real, item.condiciones,
-                            item.tipo, item.status, item.apartado_con, item.apartado_cantidad,
-                            item.aparto, item.idcliente, item.resta_por_pagar, Convert.ToDateTime(item.fecha_de_apartado).ToString("yyyy-MM-dd"), item.usuario,
-                            item.realizado_en, item.comentario, item.liquido_fecha,
-                            item.nota_liquido, item.penalizado, item.penalizado_precio, item.Fecha_de_penalizacion, item.mot_penalizacion,
-                            item.cancelo, item.fecha_cancelo, item.mot_cancelo, item.folio_apartado, item.promocion, item.vigencia,
-                            item.precio_origen, item.descuento, item.tipo_desc, item.precio_remate, item.penalizacion_por,
-                            item.cancelacion_por, item.dias_minimo, item.dias_normal, item.dias_tolerancia, item.apartado_min,
-                            item.apartado_norm, item.nombre_plazo, item.tipo_apartado);
+                        dt.Rows.Add(item.no,DateTime.Parse(item.fecha.ToString()).ToString("dd-MM-yyyy"),
+                            item.hora,item.usuario,item.anterior,item.nuevo,item.motivo,item.paraelcontrato);
 
 
                     }
@@ -194,32 +196,21 @@ namespace AudSemp.Forms
             switch (mode)
             {
                 default:
-                    dataView.Sort = "no asc";
+                    dataView.Sort = "NO asc";
                     break;
-                case "No.InventarioAscendente":
-                    dataView.Sort = "noinv asc";
+                case "ContratoAscendente":
+                    dataView.Sort = "CONTRATO asc";
                     break;
-                case "No.InventarioDescendente":
-                    dataView.Sort = "noinv desc";
+                case "ContratoDescendente":
+                    dataView.Sort = "CONTRATO desc";
                     break;
-                case "FechaApartadoAscendente":
-                    dataView.Sort = "fecha_de_apartado asc";
+                case "FechaAscendente":
+                    dataView.Sort = "FECHA asc";
                     break;
-                case "FechaApartadoDescendente":
-                    dataView.Sort = "fecha_de_apartado desc";
+                case "FechaDescendente":
+                    dataView.Sort = "FECHA desc";
                     break;
-                case "StatusAscendente":
-                    dataView.Sort = "status asc";
-                    break;
-                case "StatusDescendente":
-                    dataView.Sort = "status desc";
-                    break;
-                case "CategoriaAscendente":
-                    dataView.Sort = "tipo asc";
-                    break;
-                case "CategoriaDescendente":
-                    dataView.Sort = "tipo desc";
-                    break;
+           
 
             }
 
@@ -238,7 +229,7 @@ namespace AudSemp.Forms
             {
 
 
-                dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/audApartados.xml", XmlWriteMode.WriteSchema);
+                dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/audAutPrest.xml", XmlWriteMode.WriteSchema);
 
 
 
@@ -249,18 +240,204 @@ namespace AudSemp.Forms
 
         #endregion
 
-
-
-
-
-
-
-
-      
-
+        #region Events (eventos)
         private void AutPrestForm_Load(object sender, EventArgs e)
         {
+            load();
+        }
+
+        private void checkModo_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkModo.Checked == false)
+            {
+                cmbOrden.Enabled = false;
+            }
+            else
+            {
+                cmbOrden.Enabled = true;
+            }
+        }
+
+        private void checkOrden_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkOrden.Checked == false)
+            {
+                cmbTipoOrden.Enabled = false;
+            }
+            else
+            {
+                cmbTipoOrden.Enabled = true;
+            }
+        }
+
+        private void checkFechas_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkFechas.Checked == false)
+            {
+                dtInicio.Enabled = false;
+                dtFin.Enabled = false;
+            }
+            else
+            {
+                dtInicio.Enabled = true;
+                dtFin.Enabled = true;
+            }
+        }
+
+        private void btnExportar_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+
+            saveFileDialog1.Filter = "Excel files (*.xlsx)|*.xlsx";
+            saveFileDialog1.FilterIndex = 2;
+            saveFileDialog1.RestoreDirectory = true;
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+
+                ruta = saveFileDialog1.FileName;
+
+                if (string.IsNullOrEmpty(ruta))
+                {
+                    MessageBox.Show("No hay directorio Seleccionado",
+                        "Auditoria SEMP", MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
+                }
+                else
+                {
+
+                    //if (backgroundWorker1.IsBusy != true)
+                    //{
+                    //    backgroundWorker1.RunWorkerAsync();
+                    //}
+
+                    decision = 1;
+
+                    backgroundWorker1.RunWorkerAsync();
+                    btnExportar.Enabled = false;
+                    btnReporte.Enabled = false;
+                    btnRegresar.Enabled = false;
+                    btnCancel.Visible = true;
+
+                }
+            }
+        }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
+          MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            switch (result)
+            {
+                case DialogResult.OK:
+                    {
+                        decision = 2;
+
+
+
+                        btnReporte.Enabled = false;
+                        btnRegresar.Enabled = false;
+                        btnExportar.Enabled = false;
+                        btnCancel.Visible = true;
+                        backgroundWorker1.RunWorkerAsync();
+
+                        break;
+                    }
+                case DialogResult.Cancel:
+                    {
+
+                        break;
+                    }
+            }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            if (backgroundWorker1.WorkerSupportsCancellation == true)
+            {
+                backgroundWorker1.CancelAsync();
+                btnExportar.Enabled = true;
+                btnReporte.Enabled = true;
+                btnRegresar.Enabled = true;
+                btnCancel.Visible = false;
+
+
+
+                MessageBox.Show("Exportacion CANCELADA",
+                 "Auditoria Semp", MessageBoxButtons.OK,
+                 MessageBoxIcon.Information);
+                prg1.Value = 0;
+                lblProgress.Text = "-";
+
+
+            }
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            Excel(ruta);
+            Thread.Sleep(100);
+        }
+
+        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            //this is updated from dowork. Its where GUI components are update
+            prg1.Maximum = cantidad;
+            prg1.Value = e.ProgressPercentage;
+            lblProgress.Text = (e.ProgressPercentage.ToString() + " / " + cantidad + " # Registros Completados...");
 
         }
+
+        private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            //called when the heavy operation in bg is over . can also accept GUI compponents
+
+            if (decision == 2)
+            {
+                //creamos los para metros
+
+                AutPrestRPT ob = new AutPrestRPT();
+                LocalidadModel localidadModel = new LocalidadModel();
+
+                localidadModel.localidadResult(loc);
+             
+                ob.SetParameterValue("rangos", leyendaRango);
+                ob.SetParameterValue("modoOrden", mode);
+
+                ob.SetParameterValue("sucursal", localidadModel.sucursal);
+                ob.SetParameterValue("marca", localidadModel.marca);
+                ob.SetParameterValue("empresa", localidadModel.empresa);
+                ob.SetParameterValue("localidad", localidadModel.localidad);
+                ob.SetParameterValue("encargado", localidadModel.encargado);
+                ob.SetParameterValue("logo", localidadModel.logotipo);
+
+
+
+                crystalReportViewer1.ReportSource = ob;
+                crystalReportViewer1.Refresh();
+
+
+            }
+
+            MessageBox.Show("Operación Realizada con Exito",
+                   "Auditoria Semp", MessageBoxButtons.OK,
+                   MessageBoxIcon.Information);
+            prg1.Value = 0;
+            lblProgress.Text = "-";
+
+            btnExportar.Enabled = true;
+            btnReporte.Enabled = true;
+            btnRegresar.Enabled = true;
+            btnCancel.Visible = false;
+        }
+
+        #endregion
+
+
     }
 }

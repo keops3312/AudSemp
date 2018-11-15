@@ -23,6 +23,23 @@ namespace AudSemp
 
     public partial class LoginForm : Form,IRectangle,ILogin
     {
+        #region Context
+        private LocationConexion locationConexion;
+
+        public LoginForm()
+        {
+
+            InitializeComponent();
+            locationConexion = new LocationConexion();
+            backgroundWorker1.WorkerReportsProgress = true;
+            backgroundWorker1.WorkerSupportsCancellation = true;
+
+
+        }
+
+        #endregion
+
+
 
         #region Example
         public string LengthText
@@ -61,6 +78,8 @@ namespace AudSemp
         private int Response;
         private string Clave;
         private string NombreAuditor;
+        public int valor;
+        String[] result;
 
         public string userText
         {
@@ -116,15 +135,26 @@ namespace AudSemp
         private void Form1_Load(object sender, EventArgs e)
         {
             txtUser.Focus();
-            //Search of local
-            LocationConexion locationConexion = new LocationConexion();
-
-            String[] result;
-            result = locationConexion.Scan();
-            labelX2.Text = "Conexion Encontrada...\n" +
-            "Nom: " + result[0].ToString() + "\n" +
-            "Localidad: " + result[1].ToString() + "\n" +
-            "Direccion: " + result[2].ToString();
+            
+            if (valor == 1)
+            {
+                circularProgress1.Visible =false;
+                circularProgress1.IsRunning = false;
+                circularProgress1.ProgressText = "";
+                String[] find =  locationConexion.LocalidadBuscada();
+                    labelX2.Text = "Conexion Encontrada...\n" +
+                     "Nom: " + find[0].ToString() + "\n" +
+                     "Localidad: " + find[1].ToString() + "\n" +
+                     "Direccion: " + find[2].ToString();
+                    //backgroundWorker1.RunWorkerAsync();
+            }
+            else
+            {
+                circularProgress1.Visible = true;
+                circularProgress1.IsRunning = true;
+                circularProgress1.ProgressText = "Buscando...";
+                backgroundWorker1.RunWorkerAsync();
+            }
         }
 
         
@@ -143,13 +173,41 @@ namespace AudSemp
             AccessLogin();
         }
 
+
+
+        public void buscar()
+        {
+            result = locationConexion.Scan();
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+
+            buscar();
+        }
+
+        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            circularProgress1.Value = e.ProgressPercentage;
+        }
+
+        private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            circularProgress1.Visible = false;
+            circularProgress1.IsRunning = false;
+
+            labelX2.Text = "Conexion Encontrada...\n" +
+            "Nom: " + result[0].ToString() + "\n" +
+            "Localidad: " + result[1].ToString() + "\n" +
+            "Direccion: " + result[2].ToString();
+        }
+
+
         #endregion
 
         #region Methods (Metodos)
-        public LoginForm()
-        {
-            InitializeComponent();
-        }
+
         private void AccessLogin()
         {
             LoginPresenter presenter = new LoginPresenter(this);
@@ -218,8 +276,9 @@ namespace AudSemp
         }
 
 
+
         #endregion
 
-       
+     
     }
 }

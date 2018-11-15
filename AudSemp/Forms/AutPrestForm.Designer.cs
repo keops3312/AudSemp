@@ -60,6 +60,7 @@
             this.btnCancel.Size = new System.Drawing.Size(71, 54);
             this.btnCancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnCancel.TabIndex = 53;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // lblProgress
             // 
@@ -86,6 +87,7 @@
             this.btnRegresar.Size = new System.Drawing.Size(64, 51);
             this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnRegresar.TabIndex = 51;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // cmbOrden
             // 
@@ -97,7 +99,7 @@
             this.cmbOrden.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.cmbOrden.ButtonDropDown.Visible = true;
             this.cmbOrden.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
-            this.cmbOrden.Location = new System.Drawing.Point(521, 58);
+            this.cmbOrden.Location = new System.Drawing.Point(569, 58);
             this.cmbOrden.Name = "cmbOrden";
             this.cmbOrden.Size = new System.Drawing.Size(161, 23);
             this.cmbOrden.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -113,7 +115,7 @@
             this.cmbTipoOrden.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.cmbTipoOrden.ButtonDropDown.Visible = true;
             this.cmbTipoOrden.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
-            this.cmbTipoOrden.Location = new System.Drawing.Point(278, 57);
+            this.cmbTipoOrden.Location = new System.Drawing.Point(385, 58);
             this.cmbTipoOrden.Name = "cmbTipoOrden";
             this.cmbTipoOrden.Size = new System.Drawing.Size(161, 23);
             this.cmbTipoOrden.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -129,7 +131,7 @@
             this.dtFin.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
             this.dtFin.ButtonDropDown.Visible = true;
             this.dtFin.IsPopupCalendarOpen = false;
-            this.dtFin.Location = new System.Drawing.Point(43, 87);
+            this.dtFin.Location = new System.Drawing.Point(200, 61);
             // 
             // 
             // 
@@ -173,7 +175,7 @@
             this.dtInicio.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
             this.dtInicio.ButtonDropDown.Visible = true;
             this.dtInicio.IsPopupCalendarOpen = false;
-            this.dtInicio.Location = new System.Drawing.Point(43, 60);
+            this.dtInicio.Location = new System.Drawing.Point(12, 61);
             // 
             // 
             // 
@@ -219,6 +221,7 @@
             this.btnReporte.Size = new System.Drawing.Size(71, 52);
             this.btnReporte.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnReporte.TabIndex = 45;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
             // 
             // btnExportar
             // 
@@ -232,6 +235,7 @@
             this.btnExportar.Size = new System.Drawing.Size(71, 52);
             this.btnExportar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnExportar.TabIndex = 44;
+            this.btnExportar.Click += new System.EventHandler(this.btnExportar_Click);
             // 
             // checkModo
             // 
@@ -242,12 +246,13 @@
             this.checkModo.Checked = true;
             this.checkModo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkModo.CheckValue = "Y";
-            this.checkModo.Location = new System.Drawing.Point(521, 28);
+            this.checkModo.Location = new System.Drawing.Point(569, 29);
             this.checkModo.Name = "checkModo";
             this.checkModo.Size = new System.Drawing.Size(82, 23);
             this.checkModo.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.checkModo.TabIndex = 43;
             this.checkModo.Text = "Modo Orden";
+            this.checkModo.CheckedChanged += new System.EventHandler(this.checkModo_CheckedChanged);
             // 
             // checkOrden
             // 
@@ -258,12 +263,13 @@
             this.checkOrden.Checked = true;
             this.checkOrden.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkOrden.CheckValue = "Y";
-            this.checkOrden.Location = new System.Drawing.Point(278, 28);
+            this.checkOrden.Location = new System.Drawing.Point(385, 29);
             this.checkOrden.Name = "checkOrden";
             this.checkOrden.Size = new System.Drawing.Size(88, 23);
             this.checkOrden.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.checkOrden.TabIndex = 42;
             this.checkOrden.Text = "Ordernar Por";
+            this.checkOrden.CheckedChanged += new System.EventHandler(this.checkOrden_CheckedChanged);
             // 
             // checkFechas
             // 
@@ -274,12 +280,13 @@
             this.checkFechas.Checked = true;
             this.checkFechas.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkFechas.CheckValue = "Y";
-            this.checkFechas.Location = new System.Drawing.Point(43, 28);
+            this.checkFechas.Location = new System.Drawing.Point(12, 29);
             this.checkFechas.Name = "checkFechas";
             this.checkFechas.Size = new System.Drawing.Size(113, 23);
             this.checkFechas.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.checkFechas.TabIndex = 41;
             this.checkFechas.Text = "Rango de Fecchas";
+            this.checkFechas.CheckedChanged += new System.EventHandler(this.checkFechas_CheckedChanged);
             // 
             // prg1
             // 
@@ -289,9 +296,9 @@
             // 
             // 
             this.prg1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.prg1.Location = new System.Drawing.Point(-1, 224);
+            this.prg1.Location = new System.Drawing.Point(12, 224);
             this.prg1.Name = "prg1";
-            this.prg1.Size = new System.Drawing.Size(687, 23);
+            this.prg1.Size = new System.Drawing.Size(674, 23);
             this.prg1.TabIndex = 39;
             this.prg1.Text = "progressBarX1";
             // 
@@ -313,11 +320,20 @@
             this.crystalReportViewer1.TabIndex = 38;
             this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.WorkerReportsProgress = true;
+            this.backgroundWorker1.WorkerSupportsCancellation = true;
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
+            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
+            // 
             // AutPrestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(935, 645);
+            this.ControlBox = false;
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.lblProgress);
             this.Controls.Add(this.btnRegresar);
@@ -332,6 +348,7 @@
             this.Controls.Add(this.checkFechas);
             this.Controls.Add(this.prg1);
             this.Controls.Add(this.crystalReportViewer1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AutPrestForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

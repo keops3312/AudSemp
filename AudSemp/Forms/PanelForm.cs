@@ -56,7 +56,9 @@ namespace AudSemp.Forms
         {
             this.Close();
             LoginForm form = new LoginForm();
+            form.valor = 1;
             form.Show();
+            
         }
 
         private void btnMinimizar_Click(object sender, EventArgs e)
@@ -168,7 +170,7 @@ namespace AudSemp.Forms
         private void metroTileItem8_Click(object sender, EventArgs e)
         {
             PromDescForm promDescForm = new PromDescForm();
-            // notasPagoForm.loc = codigo;
+            promDescForm.loc = codigo;
             promDescForm.WindowState = FormWindowState.Maximized;
             promDescForm.ShowDialog();
         }

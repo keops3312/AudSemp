@@ -8,8 +8,9 @@ namespace AudSemp.Views
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    public interface IAutPrest
+    public interface IPromDesc
     {
+      
 
         List<TiposOrden> tiposOrden { get; set; }
 

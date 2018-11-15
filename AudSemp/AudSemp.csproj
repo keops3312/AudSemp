@@ -532,6 +532,12 @@
     <Compile Include="Forms\AutPrestForm.Designer.cs">
       <DependentUpon>AutPrestForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AutPrestRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AutPrestRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms\BolsasForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -628,6 +634,12 @@
     <Compile Include="Forms\PromDescForm.Designer.cs">
       <DependentUpon>PromDescForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\PromDescRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PromDescRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms\RetirosRPT.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -656,6 +668,7 @@
     <Compile Include="Models\LocalidadModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\NotasPagoModel.cs" />
+    <Compile Include="Models\PromDescModel.cs" />
     <Compile Include="Models\Rectangle.cs" />
     <Compile Include="Presenter\ApartadosPresenter.cs" />
     <Compile Include="Presenter\AutPrestPresenter.cs" />
@@ -667,6 +680,7 @@
     <Compile Include="Presenter\LoginPresenter.cs" />
     <Compile Include="Presenter\NotaPagoPresenter.cs" />
     <Compile Include="Presenter\PanelPresenter.cs" />
+    <Compile Include="Presenter\PromDescPresenter.cs" />
     <Compile Include="Presenter\RectanglePresenter.cs" />
     <Compile Include="Views\IApartados.cs" />
     <Compile Include="Views\IAutPrest.cs" />
@@ -678,6 +692,7 @@
     <Compile Include="Views\ILogin.cs" />
     <Compile Include="Views\InotasPago.cs" />
     <Compile Include="Views\IPanel.cs" />
+    <Compile Include="Views\IPromDesc.cs" />
     <Compile Include="Views\IRectangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -696,6 +711,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AutPrestForm.resx">
       <DependentUpon>AutPrestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AutPrestRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AutPrestRPT.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\BolsasForm.resx">
       <DependentUpon>BolsasForm.cs</DependentUpon>
@@ -749,6 +768,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PanelForm.resx">
       <DependentUpon>PanelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PromDescForm.resx">
+      <DependentUpon>PromDescForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PromDescRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PromDescRPT.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\RetirosRPT.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -813,6 +839,8 @@
       <DependentUpon>Context.edmx</DependentUpon>
       <LastGenOutput>Context.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\promoIcon.png" />
+    <None Include="Resources\AutPresticon.fw.png" />
     <None Include="Resources\aleatorio.fw.png" />
     <None Include="Resources\pdfL.png" />
     <None Include="Resources\excel.png" />

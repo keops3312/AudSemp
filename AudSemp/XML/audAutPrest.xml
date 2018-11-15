@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="AutPrestamos" msdata:Locale="es-MX">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AutPrestamos" msdata:CaseSensitive="False" msdata:Locale="es-MX">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NO" type="xs:string" minOccurs="0" />
+                <xs:element name="FECHA" type="xs:string" minOccurs="0" />
+                <xs:element name="HORA" type="xs:string" minOccurs="0" />
+                <xs:element name="USUARIO" type="xs:string" minOccurs="0" />
+                <xs:element name="ANTERIOR" type="xs:string" minOccurs="0" />
+                <xs:element name="NUEVO" type="xs:string" minOccurs="0" />
+                <xs:element name="MOTIVO" type="xs:string" minOccurs="0" />
+                <xs:element name="CONTRATO" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AutPrestamos>
+    <NO>222</NO>
+    <FECHA>04-07-2018</FECHA>
+    <HORA>12:07</HORA>
+    <USUARIO>SPARGOTT</USUARIO>
+    <ANTERIOR>7046.0000</ANTERIOR>
+    <NUEVO>7500.0000</NUEVO>
+    <MOTIVO>AUTORIZO G.O </MOTIVO>
+    <CONTRATO>126382</CONTRATO>
+  </AutPrestamos>
+  <AutPrestamos>
+    <NO>223</NO>
+    <FECHA>23-07-2018</FECHA>
+    <HORA>12:07</HORA>
+    <USUARIO>SPARGOTT</USUARIO>
+    <ANTERIOR>8513.0000</ANTERIOR>
+    <NUEVO>9000.0000</NUEVO>
+    <MOTIVO>AUTORIZO G.O.</MOTIVO>
+    <CONTRATO>126500</CONTRATO>
+  </AutPrestamos>
+  <AutPrestamos>
+    <NO>219</NO>
+    <FECHA>27-01-2018</FECHA>
+    <HORA>13:01</HORA>
+    <USUARIO>SPARGOTT</USUARIO>
+    <ANTERIOR>8669.0000</ANTERIOR>
+    <NUEVO>9700.0000</NUEVO>
+    <MOTIVO>AUTORIZO G.O</MOTIVO>
+    <CONTRATO>86758</CONTRATO>
+  </AutPrestamos>
+  <AutPrestamos>
+    <NO>220</NO>
+    <FECHA>08-02-2018</FECHA>
+    <HORA>11:02</HORA>
+    <USUARIO>SPARGOTT</USUARIO>
+    <ANTERIOR>4151.0000</ANTERIOR>
+    <NUEVO>4500.0000</NUEVO>
+    <MOTIVO>ES CLIENTE FRECUENTE</MOTIVO>
+    <CONTRATO>86868</CONTRATO>
+  </AutPrestamos>
+  <AutPrestamos>
+    <NO>221</NO>
+    <FECHA>19-04-2018</FECHA>
+    <HORA>12:04</HORA>
+    <USUARIO>SPARGOTT</USUARIO>
+    <ANTERIOR>14024.0000</ANTERIOR>
+    <NUEVO>15700.0000</NUEVO>
+    <MOTIVO>CLIENTE PREFRENTE</MOTIVO>
+    <CONTRATO>87682</CONTRATO>
+  </AutPrestamos>
+</NewDataSet>

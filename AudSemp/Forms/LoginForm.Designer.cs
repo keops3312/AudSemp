@@ -46,6 +46,8 @@
             this.btnAcces = new DevComponents.DotNetBar.ButtonX();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.circularProgress1 = new DevComponents.DotNetBar.Controls.CircularProgress();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -60,10 +62,10 @@
             this.txtUser.Border.BackColor = System.Drawing.Color.Transparent;
             this.txtUser.Border.Class = "TextBoxBorder";
             this.txtUser.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.txtUser.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUser.Location = new System.Drawing.Point(78, 216);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(241, 35);
+            this.txtUser.Size = new System.Drawing.Size(241, 34);
             this.txtUser.TabIndex = 0;
             this.txtUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtUser.WatermarkText = "usuario";
@@ -76,7 +78,7 @@
             this.txtPassword.Border.BackColor = System.Drawing.Color.Transparent;
             this.txtPassword.Border.Class = "TextBoxBorder";
             this.txtPassword.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.txtPassword.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.Location = new System.Drawing.Point(78, 287);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
@@ -187,7 +189,7 @@
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             this.btnCerrar.Size = new System.Drawing.Size(41, 39);
-            this.btnCerrar.Style = DevComponents.DotNetBar.eDotNetBarStyle.Metro;
+            this.btnCerrar.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2013;
             this.btnCerrar.TabIndex = 4;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
@@ -217,7 +219,7 @@
             this.btnAcces.Name = "btnAcces";
             this.btnAcces.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             this.btnAcces.Size = new System.Drawing.Size(46, 47);
-            this.btnAcces.Style = DevComponents.DotNetBar.eDotNetBarStyle.Metro;
+            this.btnAcces.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2013;
             this.btnAcces.TabIndex = 2;
             this.btnAcces.Click += new System.EventHandler(this.btnAcces_Click);
             // 
@@ -228,7 +230,7 @@
             // 
             // 
             this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Font = new System.Drawing.Font("Montserrat", 14F);
+            this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.labelX1.ForeColor = System.Drawing.Color.White;
             this.labelX1.Location = new System.Drawing.Point(5, 1);
             this.labelX1.Name = "labelX1";
@@ -262,12 +264,37 @@
             this.labelX2.TabIndex = 19;
             this.labelX2.Text = "labelX2";
             // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.WorkerReportsProgress = true;
+            this.backgroundWorker1.WorkerSupportsCancellation = true;
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
+            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
+            // 
+            // circularProgress1
+            // 
+            this.circularProgress1.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.circularProgress1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.circularProgress1.Location = new System.Drawing.Point(130, 328);
+            this.circularProgress1.Name = "circularProgress1";
+            this.circularProgress1.ProgressColor = System.Drawing.Color.Aqua;
+            this.circularProgress1.ProgressTextColor = System.Drawing.Color.White;
+            this.circularProgress1.ProgressTextVisible = true;
+            this.circularProgress1.Size = new System.Drawing.Size(82, 74);
+            this.circularProgress1.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
+            this.circularProgress1.TabIndex = 20;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(347, 509);
+            this.Controls.Add(this.circularProgress1);
             this.Controls.Add(this.labelX2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelX1);
@@ -322,6 +349,8 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private DevComponents.DotNetBar.LabelX labelX1;
         private DevComponents.DotNetBar.LabelX labelX2;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private DevComponents.DotNetBar.Controls.CircularProgress circularProgress1;
     }
 }
 

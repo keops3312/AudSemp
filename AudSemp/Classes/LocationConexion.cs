@@ -31,6 +31,23 @@ namespace AudSemp.Classes
         #endregion
 
         #region Methods (Metodos)
+
+        public String[] LocalidadBuscada()
+        {
+
+            String[] array = new string[3];
+            var localidad = db.Localidades.Where(p => p.impresora == "RAIZ").First();
+
+            array[0] = localidad.LOCALIDAD;
+            array[1] = localidad.Nombre_Sucursal;
+            array[2] = localidad.DIRECCION;
+
+
+            return array;
+        }
+
+
+
         public String[] Scan()
         {
             Encriptar_Desencriptar CRYPTO = new Encriptar_Desencriptar();

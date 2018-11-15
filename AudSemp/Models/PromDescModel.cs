@@ -1,21 +1,21 @@
 ﻿
+
 namespace AudSemp.Models
 {
+    #region Libraries (librerias)
     using AudSemp.Classes;
     using AudSemp.Context;
     using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-
-    public class AutPrestModel
+    using System.Linq; 
+    #endregion
+    public class PromDescModel
     {
 
         #region Context
 
         private SEMP2013_Context db;
-        public AutPrestModel()
+        public PromDescModel()
         {
             db = new SEMP2013_Context();
         }
@@ -39,9 +39,9 @@ namespace AudSemp.Models
         public List<TiposOrden> TiposOrden()
         {
             List<TiposOrden> tiposOrden = new List<TiposOrden>() {
-            new TiposOrden() { tipo ="Contrato"},
+            new TiposOrden() { tipo ="Caja"},
             new TiposOrden() { tipo="Fecha"},
-            
+
 
              };
 
@@ -51,7 +51,7 @@ namespace AudSemp.Models
         public DateTime dateInicio()
         {
 
-            var fechaInicio = db.autorizaciones_prestamos.OrderBy(p => p.fecha).First();
+            var fechaInicio = db.promociones.OrderBy(p => p.fecha).First();
             DateTime dateTimeInicio = DateTime.Parse(fechaInicio.fecha.Value.ToString("yyyy-MM-dd"));
             return dateTimeInicio;
         }
@@ -59,7 +59,7 @@ namespace AudSemp.Models
         public DateTime dateFin()
         {
 
-            var fechaFin = db.autorizaciones_prestamos.OrderByDescending(p => p.fecha).First();
+            var fechaFin = db.promociones.OrderByDescending(p => p.fecha).First();
             DateTime dateTimeFin = DateTime.Parse(fechaFin.fecha.Value.ToString("yyyy-MM-dd"));
             return dateTimeFin;
         }

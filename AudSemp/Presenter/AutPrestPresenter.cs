@@ -4,6 +4,7 @@ namespace AudSemp.Presenter
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
+    using System;
     using System.Collections.Generic;
 
     public class AutPrestPresenter
@@ -25,6 +26,17 @@ namespace AudSemp.Presenter
         public List<ModoOrdenes> modosOrden()
         {
             return AutPrestView.modosOrden = autPrestModel.Ordenes();
+        }
+
+        public DateTime timeInicio()
+        {
+
+            return AutPrestView.dateTimeInicio = autPrestModel.dateInicio();
+        }
+
+        public DateTime timeFin()
+        {
+            return AutPrestView.dateTimeFin = autPrestModel.dateFin();
         }
     }
 }
