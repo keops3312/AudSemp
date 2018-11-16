@@ -2,16 +2,14 @@
 
 namespace AudSemp.Models
 {
-    #region Libraries (librerias)
-    using AudSemp.Classes;
-    using AudSemp.Context;
+    #region Libraries (librerias) 
     using System;
     using System.Collections.Generic;
     using System.Data;
     using System.Linq;
-  
-    #endregion  
-
+    using AudSemp.Classes;
+    using AudSemp.Context;
+    #endregion
     public class ContratosModel
     {
       

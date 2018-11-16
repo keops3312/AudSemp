@@ -1,18 +1,23 @@
-﻿using System;
-using System.Data;
-using System.Drawing.Imaging;
-using System.IO;
-using System.Linq;
-using System.Windows.Forms;
-using AudSemp.Classes;
-using AudSemp.Context;
-using AudSemp.Models;
-using ClosedXML.Excel;
-using DevComponents.DotNetBar;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+﻿
 namespace AudSemp.Forms
 {
+
+    #region Librerias (libraries)
+    using System;
+    using System.Data;
+    using System.Drawing.Imaging;
+    using System.IO;
+    using System.Linq;
+    using System.Windows.Forms;
+    using AudSemp.Classes;
+    using AudSemp.Context;
+    using AudSemp.Models;
+    using ClosedXML.Excel;
+    using DevComponents.DotNetBar;
+    using iTextSharp.text;
+    using iTextSharp.text.pdf;
+    #endregion
+
     public partial class AleatoriosForm : OfficeForm
     {
 

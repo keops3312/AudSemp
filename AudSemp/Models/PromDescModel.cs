@@ -2,12 +2,13 @@
 
 namespace AudSemp.Models
 {
-    #region Libraries (librerias)
-    using AudSemp.Classes;
-    using AudSemp.Context;
+    #region Libraries (librerias) 
     using System;
     using System.Collections.Generic;
-    using System.Linq; 
+    using System.Data;
+    using System.Linq;
+    using AudSemp.Classes;
+    using AudSemp.Context;
     #endregion
     public class PromDescModel
     {

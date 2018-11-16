@@ -2,11 +2,10 @@
 
 namespace AudSemp.Views
 {
-    #region Libraries (librerias)
-    using AudSemp.Classes;
+    #region Libraries (librerias)  
     using System;
     using System.Collections.Generic;
-   
+    using AudSemp.Classes;
     #endregion
 
     public interface IContratos

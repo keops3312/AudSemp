@@ -13,7 +13,7 @@ namespace AudSemp.Views
     public interface IPanel
     {
         //responses
-        #region Properties
+        #region attributtes (atributos)
         string sucursalText { get; set; }
         string marcaText { get; set; }
         string empresaText { get; set; }

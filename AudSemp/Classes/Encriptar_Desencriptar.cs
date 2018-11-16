@@ -1,15 +1,16 @@
 ﻿
 namespace AudSemp.Classes
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
+    #region Libraries (librerias)
+    using System; 
     using System.Security.Cryptography;
     using System.Text;
-    using System.Threading.Tasks;
+   
+    #endregion
 
     public class Encriptar_Desencriptar
     {
+        #region Methods (metodos)
         string key = "ABCDEFG54669525PQRSTUVWXYZabcdef852846opqrstuvwxyz";
 
         //ENCRIPTA CONTRASEÑA
@@ -106,5 +107,6 @@ namespace AudSemp.Classes
 
         }
 
+        #endregion
     }
 }

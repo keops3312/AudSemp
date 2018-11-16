@@ -2,15 +2,12 @@
 
 namespace AudSemp.Presenter
 {
+    #region Libraries (librerias) 
+    using System;
+    using System.Collections.Generic;
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
-    #region MyRegion
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
     #endregion
     public class NotaPagoPresenter
     {

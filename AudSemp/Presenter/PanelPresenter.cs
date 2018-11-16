@@ -1,13 +1,11 @@
-﻿using AudSemp.Models;
-using AudSemp.Views;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace AudSemp.Presenter
 {
+    #region Libraries (librerias) 
+    using AudSemp.Models;
+    using AudSemp.Views;
+    #endregion
     public class PanelPresenter
     {
         IPanel PanelView;

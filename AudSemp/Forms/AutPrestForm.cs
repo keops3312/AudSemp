@@ -2,7 +2,6 @@
 
 namespace AudSemp.Forms
 {
-
     #region Libraries (librerias)
     using System;
     using System.Collections.Generic;
@@ -16,7 +15,7 @@ namespace AudSemp.Forms
     using AudSemp.Models;
     using AudSemp.Presenter;
     using AudSemp.Views;
-    using ClosedXML.Excel;    
+    using ClosedXML.Excel;
     #endregion
     public partial class AutPrestForm : Form,IAutPrest
     {

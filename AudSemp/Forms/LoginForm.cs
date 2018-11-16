@@ -5,20 +5,12 @@ namespace AudSemp
   
     #region Libraries(librerias)
     using System;
-    using System.Collections.Generic;
     using System.ComponentModel;
-    using System.Data;
-    using System.Drawing;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
     using System.Windows.Forms;
     using AudSemp.Forms;
     using AudSemp.Views;
     using AudSemp.Presenter;
-    using System.IO;
-    using AudSemp.Classes;
-    using System.Threading;
+    using AudSemp.Classes;  
     #endregion
 
     public partial class LoginForm : Form,IRectangle,ILogin

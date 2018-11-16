@@ -2,16 +2,13 @@
 
 namespace AudSemp.Models
 {
-    using AudSemp.Classes;
-
-    #region Libraries (librerias)
-    using AudSemp.Context;
+    #region Libraries (librerias) 
     using System;
     using System.Collections.Generic;
     using System.Data;
     using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    using AudSemp.Classes;
+    using AudSemp.Context;
     #endregion
     public class InventarioModel
     {

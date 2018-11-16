@@ -2,13 +2,10 @@
 
 namespace AudSemp.Views
 {
-    #region Libraries (librerias)
-    using AudSemp.Classes;
+    #region Libraries (librerias) 
     using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    using AudSemp.Classes;
     #endregion
 
     public interface IInventario

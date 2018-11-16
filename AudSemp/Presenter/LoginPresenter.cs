@@ -3,15 +3,13 @@
 namespace AudSemp.Presenter
 {
 
-    #region Libraries (librerias)
-    using AudSemp.Models;
-    using AudSemp.Views;
+    #region Libraries (librerias) 
     using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-    #endregion  
+    using AudSemp.Classes;
+    using AudSemp.Models;
+    using AudSemp.Views;
+    #endregion
     public class LoginPresenter
     {
 

@@ -3,12 +3,9 @@
 namespace AudSemp.Views
 {
     #region Libraries (librerias)
-    using AudSemp.Classes;
     using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    using AudSemp.Classes;
     #endregion
     public interface IDepositosRetiros
     {

@@ -2,20 +2,22 @@
 
 namespace AudSemp.Views
 {
-    using AudSemp.Classes;
+    #region Libraries (Librerias) 
     using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    using AudSemp.Classes;
+  
+    #endregion
     public interface IAutPrest
     {
 
+        #region Atributtes (atriutos)
         List<TiposOrden> tiposOrden { get; set; }
 
         List<ModoOrdenes> modosOrden { get; set; }
 
         DateTime dateTimeInicio { get; set; }
-        DateTime dateTimeFin { get; set; }
+        DateTime dateTimeFin { get; set; } 
+        #endregion
     }
 }

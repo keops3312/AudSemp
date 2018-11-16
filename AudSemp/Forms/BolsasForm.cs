@@ -2,23 +2,22 @@
 
 namespace AudSemp.Forms
 {
-    #region Libraries (libreriras)
+    #region Libraries (librerias)
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel;
+    using System.Configuration;
+    using System.Data;
+    using System.Data.SqlClient;
+    using System.Linq;
+    using System.Threading;
+    using System.Windows.Forms;
     using AudSemp.Classes;
     using AudSemp.Context;
     using AudSemp.Models;
     using AudSemp.Presenter;
     using AudSemp.Views;
-    using ClosedXML.Excel;
-    using System;
-    using System.Collections.Generic;
-    using System.ComponentModel;
-    using System.Data;
-    using System.Drawing;
-    using System.Linq;
-    using System.Text;
-    using System.Threading;
-    using System.Threading.Tasks;
-    using System.Windows.Forms;
+    using ClosedXML.Excel; 
     #endregion
     public partial class BolsasForm : Form, IBolsas
     {

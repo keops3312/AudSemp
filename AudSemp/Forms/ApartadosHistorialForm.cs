@@ -3,31 +3,22 @@
 
 namespace AudSemp.Forms
 {
-    #region Libraries (libreriras)
+    #region Libraries (libreriras) 
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel;
+    using System.Configuration;
+    using System.Data;
+    using System.Data.SqlClient;
+    using System.Linq;
+    using System.Threading;
+    using System.Windows.Forms;
     using AudSemp.Classes;
     using AudSemp.Context;
     using AudSemp.Models;
     using AudSemp.Presenter;
     using AudSemp.Views;
     using ClosedXML.Excel;
-    using CrystalDecisions.CrystalReports.Engine;
-    using CrystalDecisions.Shared;
-    using DocumentFormat.OpenXml.Spreadsheet;
-    using System;
-    using System.Collections.Generic;
-    using System.ComponentModel;
-    using System.Configuration;
-    using System.Data;
-    using System.Drawing;
-    using System.IO;
-    using System.Linq;
-    using System.Text;
-    using System.Threading;
-    using System.Threading.Tasks;
-    using System.Windows.Forms;
-    using System.Data.SqlClient;
-    
-   
     #endregion
     public partial class ApartadosHistorialForm : Form, IHistorialApartado
     {

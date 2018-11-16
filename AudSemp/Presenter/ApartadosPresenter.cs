@@ -1,15 +1,12 @@
 ﻿
 namespace AudSemp.Presenter
 {
-    #region Libraries (librerias)
+    #region Libraries (librerias) 
+    using System;
+    using System.Collections.Generic;
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
     #endregion
     public class ApartadosPresenter
     {

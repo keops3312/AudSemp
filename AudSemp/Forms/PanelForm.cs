@@ -2,19 +2,12 @@
 //Panel form to control Auditory System Panel Principal
 namespace AudSemp.Forms
 {
-  
-    #region Libraries (librerias)
+
+    #region Libraries (librerias) 
     using System;
-    using System.Collections.Generic;
-    using System.ComponentModel;
-    using System.Data;
     using System.Drawing;
     using System.IO;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
     using System.Windows.Forms;
-    using AudSemp.Models;
     using AudSemp.Presenter;
     using AudSemp.Views;
     #endregion

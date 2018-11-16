@@ -1,20 +1,16 @@
-﻿using AudSemp.Classes;
-using AudSemp.Views;
-using System;
+﻿
 
 
 namespace AudSemp.Forms
 {
 
     #region Libraries (libreriras)
+    using System;
+    using System.Collections.Generic;
     using System.ComponentModel;
-    using System.Data;
-    using System.Drawing;
-    using System.IO;
-    using System.Linq;
-    using System.Text;
-    using System.Threading;
-    using System.Threading.Tasks;
+    using System.Data;    
+    using System.Linq;   
+    using System.Threading; 
     using System.Windows.Forms;
     using AudSemp.Classes;
     using AudSemp.Context;
@@ -22,12 +18,6 @@ namespace AudSemp.Forms
     using AudSemp.Presenter;
     using AudSemp.Views;
     using ClosedXML.Excel;
-    using System;
-    using System.Collections.Generic;
-    using CrystalDecisions.CrystalReports.Engine;
-    using CrystalDecisions.Shared;
-    using DocumentFormat.OpenXml.Spreadsheet;
-    
     #endregion
     public partial class RevInventariosForm : Form, IInventario
     {

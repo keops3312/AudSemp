@@ -3,11 +3,13 @@
 namespace AudSemp.Presenter
 {
 
+    #region Libraries (librerias) 
+    using System;
+    using System.Collections.Generic;
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
-    using System;
-    using System.Collections.Generic;
+    #endregion
     public class PromDescPresenter
     {
         IPromDesc PromDescView;
