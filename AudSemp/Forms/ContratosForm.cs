@@ -516,9 +516,9 @@ namespace AudSemp.Forms
             dt.Columns.AddRange(new DataColumn[40]
             {
             new DataColumn("Folio"),
-            new DataColumn("Contrato"),
+            new DataColumn("Contrato",typeof(Int32)),
             new DataColumn("Fecha"),
-            new DataColumn("Bolsa"),
+            new DataColumn("Bolsa",typeof(Int32)),
             new DataColumn("IdClientes"),
             new DataColumn("NCliente"),
             new DataColumn("AutorizoA"),
@@ -527,8 +527,8 @@ namespace AudSemp.Forms
             new DataColumn("FechaDesemp"),
             new DataColumn("Comentario"),
             new DataColumn("Dias"),
-            new DataColumn("FechaCons"),
-            new DataColumn("Prestamo"),
+            new DataColumn("FechaCons",typeof(DateTime)),
+            new DataColumn("Prestamo",typeof(double)),
             new DataColumn("Interes"),
             new DataColumn("seguro"),
             new DataColumn("almacenaje"),

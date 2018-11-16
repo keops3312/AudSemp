@@ -154,7 +154,7 @@ namespace AudSemp.Forms
                     new DataColumn("ANTERIOR"),
                     new DataColumn("NUEVO"),
                     new DataColumn("INVENTARIO"),
-                    new DataColumn("FECHA"),
+                    new DataColumn("FECHA",typeof(DateTime)),
                     new DataColumn("REALIZO"),
                     new DataColumn("CAJA"),
                     new DataColumn("SUC")

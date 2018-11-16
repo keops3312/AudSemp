@@ -430,9 +430,9 @@ namespace AudSemp.Forms
             dt.Columns.AddRange(new DataColumn[9]
             {
                     new DataColumn("Folio"),
-                    new DataColumn("Acumulado"),
-                    new DataColumn("FechaPrimMov"),
-                    new DataColumn("FechaUltMov"),
+                    new DataColumn("Acumulado",typeof(double)),
+                    new DataColumn("FechaPrimMov",typeof(DateTime)),
+                    new DataColumn("FechaUltMov",typeof(DateTime)),
                     new DataColumn("Comentario"),
                     new DataColumn("ultimoEstatus"),
                     new DataColumn("ultimaOperacion"),

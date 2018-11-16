@@ -150,6 +150,7 @@ namespace AudSemp
             }
             else
             {
+                btnAcces.Enabled = false;
                 circularProgress1.Visible = true;
                 circularProgress1.IsRunning = true;
                 circularProgress1.ProgressText = "Buscando...";
@@ -196,7 +197,7 @@ namespace AudSemp
         {
             circularProgress1.Visible = false;
             circularProgress1.IsRunning = false;
-
+            btnAcces.Enabled = true;
             labelX2.Text = "Conexion Encontrada...\n" +
             "Nom: " + result[0].ToString() + "\n" +
             "Localidad: " + result[1].ToString() + "\n" +

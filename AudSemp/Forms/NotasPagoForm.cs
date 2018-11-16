@@ -257,9 +257,9 @@ namespace AudSemp.Forms
             {
               
                     new DataColumn("Factura"),
-                    new DataColumn("FechaFact"),
+                    new DataColumn("FechaFact",typeof(DateTime)),
                     new DataColumn("HoraFact"),
-                    new DataColumn("Contrato"),
+                    new DataColumn("Contrato",typeof(Int32)),
                     new DataColumn("Bolsa"),
                     new DataColumn("Folio"),
                     new DataColumn("DescripcionFact"),

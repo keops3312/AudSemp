@@ -147,13 +147,13 @@ namespace AudSemp.Forms
             dt.Columns.AddRange(new DataColumn[8]
             {
                     new DataColumn("NO"),
-                    new DataColumn("FECHA"),
+                    new DataColumn("FECHA",typeof(DateTime)),
                     new DataColumn("HORA"),
                     new DataColumn("USUARIO"),
                     new DataColumn("ANTERIOR"),
                     new DataColumn("NUEVO"),
                     new DataColumn("MOTIVO"),
-                    new DataColumn("CONTRATO"),
+                    new DataColumn("CONTRATO",typeof(Int32)),
                     
             });
 

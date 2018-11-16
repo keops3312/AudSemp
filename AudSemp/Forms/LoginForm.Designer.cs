@@ -262,7 +262,7 @@
             this.labelX2.Symbol = "";
             this.labelX2.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.labelX2.TabIndex = 19;
-            this.labelX2.Text = "labelX2";
+            this.labelX2.Text = "-";
             // 
             // backgroundWorker1
             // 

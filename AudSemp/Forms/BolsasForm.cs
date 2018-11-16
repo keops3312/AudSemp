@@ -492,9 +492,9 @@ namespace AudSemp.Forms
                 dt.Columns.AddRange(new DataColumn[25]
                 {
 
-                     new DataColumn("Contrato"),
+                     new DataColumn("Contrato",typeof(Int32)),
                      new DataColumn("Fecha"),
-                     new DataColumn("Bolsa"),
+                     new DataColumn("Bolsa",typeof(Int32)),
                      new DataColumn("Descripcion"),
                      new DataColumn("SubDescripcion"),
                      new DataColumn("Tipo"),
@@ -510,7 +510,7 @@ namespace AudSemp.Forms
                      new DataColumn("NO"),
                      new DataColumn("folio"),
                      new DataColumn("origen"),
-                     new DataColumn("Prestamo"),
+                     new DataColumn("Prestamo",typeof(double)),
                      new DataColumn("INT"),
                      new DataColumn("detalles"),
                      new DataColumn("caja"),
@@ -558,16 +558,16 @@ namespace AudSemp.Forms
                 dt.Columns.AddRange(new DataColumn[22]
                 {
 
-                 new DataColumn("Contrato"),
+                 new DataColumn("Contrato",typeof(Int32)),
                  new DataColumn("Fecha"),
-                 new DataColumn("Bolsa"),
+                 new DataColumn("Bolsa",typeof(Int32)),
                  new DataColumn("Descripcion"),
                  new DataColumn("SubDescripcion"),
                  new DataColumn("Kilates"),
                  new DataColumn("PesoReal"),
                  new DataColumn("Tipo"),
                  new DataColumn("Avaluo"),
-                 new DataColumn("Prestamo"),
+                 new DataColumn("Prestamo",typeof(double)),
                  new DataColumn("EstatusPrenda"),
                  new DataColumn("Cantidad"),
                  new DataColumn("Localidad"),

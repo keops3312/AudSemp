@@ -120,6 +120,7 @@
             this.cmbOrden.BackgroundStyle.Class = "TextBoxBorder";
             this.cmbOrden.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.cmbOrden.ButtonDropDown.Visible = true;
+            this.cmbOrden.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.cmbOrden.Location = new System.Drawing.Point(613, 54);
             this.cmbOrden.Name = "cmbOrden";
             this.cmbOrden.Size = new System.Drawing.Size(134, 23);
@@ -135,6 +136,7 @@
             this.cmbTipoOrden.BackgroundStyle.Class = "TextBoxBorder";
             this.cmbTipoOrden.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.cmbTipoOrden.ButtonDropDown.Visible = true;
+            this.cmbTipoOrden.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.cmbTipoOrden.Location = new System.Drawing.Point(448, 54);
             this.cmbTipoOrden.Name = "cmbTipoOrden";
             this.cmbTipoOrden.Size = new System.Drawing.Size(134, 23);
@@ -155,7 +157,6 @@
             // 
             // 
             // 
-            this.dtFin.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
             // 
             // 
             // 
@@ -173,8 +174,6 @@
             this.dtFin.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
             this.dtFin.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.dtFin.MonthCalendar.DisplayMonth = new System.DateTime(2018, 10, 1, 0, 0, 0, 0);
-            this.dtFin.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dtFin.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
             // 
             // 
             // 
@@ -183,7 +182,6 @@
             this.dtFin.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.dtFin.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.dtFin.MonthCalendar.TodayButtonVisible = true;
-            this.dtFin.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
             this.dtFin.Name = "dtFin";
             this.dtFin.Size = new System.Drawing.Size(168, 20);
             this.dtFin.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -203,7 +201,6 @@
             // 
             // 
             // 
-            this.dtInicio.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
             // 
             // 
             // 
@@ -221,8 +218,6 @@
             this.dtInicio.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
             this.dtInicio.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.dtInicio.MonthCalendar.DisplayMonth = new System.DateTime(2018, 10, 1, 0, 0, 0, 0);
-            this.dtInicio.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dtInicio.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
             // 
             // 
             // 
@@ -231,7 +226,6 @@
             this.dtInicio.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.dtInicio.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.dtInicio.MonthCalendar.TodayButtonVisible = true;
-            this.dtInicio.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
             this.dtInicio.Name = "dtInicio";
             this.dtInicio.Size = new System.Drawing.Size(168, 20);
             this.dtInicio.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;

@@ -263,7 +263,7 @@ namespace AudSemp.Forms
           new DataColumn("descripcion"),
           new DataColumn("detalles"),
           new DataColumn("preciosugerido"),
-          new DataColumn("precioventa"),
+          new DataColumn("precioventa",typeof(double)),
           new DataColumn("kilates"),
           new DataColumn("peso_real"),
           new DataColumn("condiciones"),
@@ -282,7 +282,7 @@ namespace AudSemp.Forms
           new DataColumn("pneto"),
           new DataColumn("NOTAS"),
           new DataColumn("AOM"),
-          new DataColumn("rematadoEJ"),
+          new DataColumn("rematadoEJ",typeof(DateTime)),
           new DataColumn("precio_promocion"),
           new DataColumn("fechaPP"),
           new DataColumn("precioPromo2"),
@@ -298,7 +298,7 @@ namespace AudSemp.Forms
           new DataColumn("prestamo"),
           new DataColumn("contrato2"),
           new DataColumn("fecha_contrato"),
-          new DataColumn("indice")
+          new DataColumn("indice",typeof(Int32))
             });
 
             DateTime Inicio = DateTime.Parse(fechaInicio);

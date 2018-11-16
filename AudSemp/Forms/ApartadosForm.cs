@@ -253,7 +253,7 @@ namespace AudSemp.Forms
             DataTable dt = new DataTable("Apartados");
             dt.Columns.AddRange(new DataColumn[48]
             {
-                    new DataColumn("no"),
+                    new DataColumn("no",typeof(Int32)),
                     new DataColumn("FOLIO_REM"),
                     new DataColumn("bolsa"),
                     new DataColumn("noinv"),
@@ -272,7 +272,7 @@ namespace AudSemp.Forms
                     new DataColumn("aparto"),
                     new DataColumn("idcliente"),
                     new DataColumn("resta_por_pagar"),
-                    new DataColumn("fecha_de_apartado"),
+                    new DataColumn("fecha_de_apartado",typeof(DateTime)),
                     new DataColumn("usuario"),
                     new DataColumn("realizado_en"),
                     new DataColumn("comentario"),
