@@ -17,13 +17,15 @@ namespace AudSemp
     {
         #region Context
         private LocationConexion locationConexion;
-
+        private BuscarLocalidad buscarLocalidad;
         public LoginForm()
         {
 
             InitializeComponent();
             locationConexion = new LocationConexion();
+          
             backgroundWorker1.WorkerReportsProgress = true;
+
             backgroundWorker1.WorkerSupportsCancellation = true;
 
 
@@ -130,10 +132,11 @@ namespace AudSemp
             
             if (valor == 1)
             {
+                buscarLocalidad = new BuscarLocalidad();
                 circularProgress1.Visible =false;
                 circularProgress1.IsRunning = false;
                 circularProgress1.ProgressText = "";
-                String[] find =  locationConexion.LocalidadBuscada();
+                String[] find =  buscarLocalidad.LocalidadBuscada();
                     labelX2.Text = "Conexion Encontrada...\n" +
                      "Nom: " + find[0].ToString() + "\n" +
                      "Localidad: " + find[1].ToString() + "\n" +

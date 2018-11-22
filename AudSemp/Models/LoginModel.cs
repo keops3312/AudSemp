@@ -10,15 +10,18 @@ namespace AudSemp.Models
     using System.Linq;
     using AudSemp.Classes;
     using AudSemp.Context;
+    using AudSemp.Properties;
     #endregion
 
     public class LoginModel
     {
         #region Context
         private SEMP2013_Context db;// = new MySqlConnectionContext();
+       
         public LoginModel()
         {
             db = new SEMP2013_Context();
+            //db.Database.Connection.ConnectionString = Settings.Default["data"].ToString();
         }
 
         #endregion

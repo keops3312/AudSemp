@@ -6,45 +6,33 @@ namespace AudSemp.Classes
     using System;
     using System.Collections.Generic;
     using System.Configuration;
+    using System.Data.Entity;
     using System.Data.Entity.Core.EntityClient;
     using System.Data.SqlClient;
     using System.IO;
     using System.Linq;
+    using System.Windows.Forms;
     using AudSemp.Context;
+    using AudSemp.Properties;
 
     #endregion
     public class LocationConexion
     {
-        #region Context
-        private SEMP2013_Context db;
-        public LocationConexion()
-        {
-            db = new SEMP2013_Context();
-        }
-        #endregion
+    
+       
 
         #region Atributes (atributos)
         public string[] archivos = Directory.GetFiles(@"C:\SEMP2013\cdb", "*.txt");
         // string key = "ABCDEFG54669525PQRSTUVWXYZabcdef852846opqrstuvwxyz";
         string suc, tienda, dir, server, database, user, pass;
         string Suc, Tienda, Dir, Server, Database, User, Pass;
+
+        
         #endregion
 
         #region Methods (Metodos)
 
-        public String[] LocalidadBuscada()
-        {
-
-            String[] array = new string[3];
-            var localidad = db.Localidades.Where(p => p.impresora == "RAIZ").First();
-
-            array[0] = localidad.LOCALIDAD;
-            array[1] = localidad.Nombre_Sucursal;
-            array[2] = localidad.DIRECCION;
-
-
-            return array;
-        }
+       
 
 
 
@@ -108,12 +96,12 @@ namespace AudSemp.Classes
 
         private bool checkConnection(string server, string database, string user, string pass)
         {
-            string cadena;
-            cadena = "DATA SOURCE=" + server + ";initial catalog=" + database +
-                ";Persist Security Info=True;User ID=" + user + ";Password=" + pass + "";
+          
             var canConnect = false;
 
-            var connectionString = cadena;
+            var connectionString = "DATA SOURCE=" + server + ";initial catalog=" + database +
+                ";Persist Security Info=True;User ID=" + user + ";Password=" + pass + "";    
+          
             var connection = new SqlConnection(connectionString);
             //first test conection NORMAL
             try
@@ -121,7 +109,7 @@ namespace AudSemp.Classes
                 using (connection)
                 {
                     connection.Open();
-                    db.Database.Connection.Open();
+                  //  db.Database.Connection.Open();
                     canConnect = true;
                 }
 
@@ -134,7 +122,7 @@ namespace AudSemp.Classes
             finally
             {
                 connection.Close();
-               db.Database.Connection.Close();
+              // db.Database.Connection.Close();
             }
 
             return canConnect;
@@ -155,21 +143,19 @@ namespace AudSemp.Classes
             string server, string database, string user, string pass, int opcion)
         {
             string data;
+            SqlConnectionStringBuilder sqlString = new SqlConnectionStringBuilder()
+            {
+                DataSource = server, // Server name
+                InitialCatalog = database,  //Database
+                UserID = user,         //Username
+                Password = pass,  //Password
+                PersistSecurityInfo = true,
+                MultipleActiveResultSets = true,
+
+            };
             if (opcion == 1)
             {
 
-
-
-                SqlConnectionStringBuilder sqlString = new SqlConnectionStringBuilder()
-                {
-                    DataSource = server, // Server name
-                    InitialCatalog = database,  //Database
-                    UserID = user,         //Username
-                    Password = pass,  //Password
-                    PersistSecurityInfo=true,
-                    MultipleActiveResultSets=true,
-                 
-                };
                 //Build an Entity Framework connection string
 
                 EntityConnectionStringBuilder entityString = new EntityConnectionStringBuilder()
@@ -177,37 +163,45 @@ namespace AudSemp.Classes
                     Provider = "System.Data.SqlClient",
                     Metadata = "res://*/Context.Context.csdl|res://*/Context.Context.ssdl|res://*/Context.Context.msl",
                     ProviderConnectionString = sqlString.ToString() + ";App=EntityFramework;"
-                    //"res://*/testModel.csdl|res://*/testModel.ssdl|res://*/testModel.msl",
+                   
                 };
                 data=entityString.ConnectionString;
-            
-            //data = "metadata=res://*/Context.Context.csdl|res://" +
-            //        "*/Context.Context.ssdl|res://*/Context.Context.msl;" +
-            //        "provider=System.Data.SqlClient;provider" +
-            //        " connection string=&quot;" +
-            //        "data source=" + server + ";" +
-            //        "initial catalog=" + database + ";" +
-            //        "persist security info=True; user id=" + user + ";" +
-            //        "password=" + pass + ";" +
-            //        "MultipleActiveResultSets=True;" +
-            //        "App=EntityFramework&quot; ";
+
+                // assumes a connectionString name in .config of MyDbEntities
+                var db = new SEMP2013_Context();
+                // so only reference the changed properties
+                // using the object parameters by name
+                db.ChangeDatabase
+                    (
+                        initialCatalog: database,
+                        userId: user,
+                        password: pass,
+                        dataSource: server // could be ip address 120.273.435.167 etc
+                    );
+
+                Configuration appconfig =
+              ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+                appconfig.ConnectionStrings.ConnectionStrings[connectionStringName].ConnectionString = data;
+                appconfig.Save(ConfigurationSaveMode.Modified, true);
+                Properties.Settings.Default.Save();
+
             }
             else
             {
-                data = "DATA SOURCE=" + server + ";" +
-                               "initial catalog=" + database + ";" +
-                             "persist security info=True;user id=" + user + ";" +
-                              "password=" + pass + ";";
-            }
 
-
-
-
-            Configuration appconfig =
+                data = sqlString.ConnectionString;
+                Configuration appconfig =
                 ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-            appconfig.ConnectionStrings.ConnectionStrings[connectionStringName].ConnectionString = data;//connectionString
-            appconfig.Save();
-            
+                appconfig.ConnectionStrings.ConnectionStrings[connectionStringName].ConnectionString = data;
+                appconfig.Save(ConfigurationSaveMode.Modified, true);
+                Properties.Settings.Default.Save();
+
+            }
+           
+          
+
+
+
         }
 
         //create ist of app strings
@@ -216,7 +210,7 @@ namespace AudSemp.Classes
             List<string> cns = new List<string>();
             Configuration appconfig =
                 ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-            foreach (ConnectionStringSettings cn in appconfig.ConnectionStrings.ConnectionStrings)
+            foreach (ConnectionStringSettings cn in appconfig.ConnectionStrings.ConnectionStrings)//
             {
                 cns.Add(cn.Name);
             }
@@ -230,8 +224,7 @@ namespace AudSemp.Classes
         }
 
 
-
-
+    
         #endregion
 
 
