@@ -22,2968 +22,471 @@
     </xs:element>
   </xs:schema>
   <Depositos>
-    <no>1</no>
-    <deposito>10</deposito>
-    <fecha>2015-05-15T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1088 -- VENTA DE 1RA CUPONERA DE 2015  </comentario>
-  </Depositos>
-  <Depositos>
     <no>2</no>
-    <deposito>10</deposito>
-    <fecha>2015-05-15T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1089 -- 1RA CUPONERA 2015 </comentario>
+    <deposito>1</deposito>
+    <fecha>2017-12-29T00:00:00-06:00</fecha>
+    <realizo>AUXILIAR 2 .</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: PRUEBA -- PRUEBA DE SISTEMAS </comentario>
+    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>3</no>
-    <deposito>2661</deposito>
-    <fecha>2015-05-16T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 090515 -- sobrante en caja por identificar. </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-03T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 03 01 2018 -- TRANSFERENCIA DE EFECTIVO DE LA CAJA 2 DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>4</no>
-    <deposito>73</deposito>
-    <fecha>2015-05-16T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 120515 2 -- se realiza deposito complementario del empeño a la competencia (prendamex) falta sacar el resto del prestamo en cuenta  </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-03T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 03 01 2018 -- TRANFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>5</no>
-    <deposito>10</deposito>
-    <fecha>2015-05-18T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1090 -- 1RA CUPONERA 2015  </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-03T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 03 01 2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>6</no>
-    <deposito>10</deposito>
-    <fecha>2015-05-20T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1091 -- 1RA CUPONERA 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-04T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 04 ENE 2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>7</no>
-    <deposito>10</deposito>
-    <fecha>2015-05-25T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1092 -- 1RA CUPONERA 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-09T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 09 ENE 2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>8</no>
-    <deposito>10</deposito>
-    <fecha>2015-05-26T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1094 -- 1RA CUPONERA 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-10T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 10 ENE 2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>9</no>
-    <deposito>10</deposito>
-    <fecha>2015-05-26T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1093 -- 1RA CUPONERA 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-10T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 10 ENE 2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>10</no>
-    <deposito>10</deposito>
-    <fecha>2015-05-26T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1095 -- 1RA CUPONERA 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-11T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 11-ENE-2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>11</no>
-    <deposito>10</deposito>
-    <fecha>2015-05-29T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1096 -- 1ra cuponera 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-12T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 12 ENE 2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>12</no>
-    <deposito>10</deposito>
-    <fecha>2015-05-29T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1097 -- 1RA CUPONERA 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-12T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 12 ENE 2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>13</no>
-    <deposito>10</deposito>
-    <fecha>2015-06-01T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1098 -- PRIMERA CUPONERA 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-13T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 13 ENE 2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>14</no>
-    <deposito>10</deposito>
-    <fecha>2015-06-02T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1086 -- 1RA CUPONERA 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-16T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 16 ENE 2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>15</no>
-    <deposito>483</deposito>
-    <fecha>2015-06-02T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 01 02-06-15 -- se deposita en sobrante de caja 2 por cambio de v2 a v3 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-17T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 17-ENE-2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>16</no>
-    <deposito>10</deposito>
-    <fecha>2015-06-03T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1085 -- 1RA CUPONERA 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-18T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 18-ENE-2018 -- TRANSFERENCIA DE TULA 1 TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>17</no>
-    <deposito>10</deposito>
-    <fecha>2015-06-06T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1099 -- 1RA CUPONERA 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-19T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 19 ENE 2018 -- TRANSFERENCIA TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>18</no>
-    <deposito>10</deposito>
-    <fecha>2015-06-09T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: A1100 -- 1RA CUPONERA 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-20T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 20 ENE 2018 -- TRANFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>19</no>
-    <deposito>191</deposito>
-    <fecha>2015-06-12T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 11-06-15 28191 -- empeño competencia prendamex </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-22T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 22 ENE 2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>20</no>
-    <deposito>10</deposito>
-    <fecha>2015-06-12T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: A1074 -- 1RA CUPONERA DE 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-22T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 22-ENE-2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>21</no>
-    <deposito>8</deposito>
-    <fecha>2015-06-29T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 76351 -- diferencia positiva de v2 a v3  </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-23T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 23-ENE-2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>22</no>
-    <deposito>867</deposito>
-    <fecha>2015-07-16T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 042015 -- SE CANCELA RETIRO/SE REALIZA DEPOSITO RETROACTIVO DEL MONTO DEL RETIRO </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-25T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 25-01-2018 -- TRANSFERENCIA TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>23</no>
-    <deposito>60</deposito>
-    <fecha>2015-07-16T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: retiro efectivo 9 -- error al hacer retiro </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-26T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 26 01 2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>24</no>
-    <deposito>1044</deposito>
-    <fecha>2015-08-11T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 5/2015 -- NA 973,981,992,993,994,1002,1008 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-26T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 26 ENE 2018 -- TRANSFERENCIA TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>25</no>
-    <deposito>2072</deposito>
-    <fecha>2015-08-11T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 6/2015 -- N.A.1015,1019,1032,1035,1044,1052,1055 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-26T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 26-ENE-2018 -- TRANSFERENCIA DE TULA 1 TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>26</no>
-    <deposito>39</deposito>
-    <fecha>2015-09-04T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: RAT45-2015 -- ERROR EN COMPROBACION 30 SE MARCA SOBRANTE POR ERROR AL CAPTURAR </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-27T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 27 ENE 2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>27</no>
-    <deposito>52</deposito>
-    <fecha>2015-09-04T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: RAT46-2015 -- ERROR EN COMPROBACION 30 2015 ALMPONER OTRA CANTIDAD Y NOS DA UN SOBRANTE DE 52 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-29T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 29 ENE 2018 -- TRANSFERENCIA TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>28</no>
-    <deposito>65</deposito>
-    <fecha>2015-09-04T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: RAT 51-2015 -- FALTA REPORTE EN COMPROBACION SUPUESTAMENTE EL AREA CONTABLE NO LO TIENE POR LO CUAL QUEDA PENDIENTE PARA SU POSTERIOR RETIRO </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-30T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 30-ENE-2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>29</no>
-    <deposito>27</deposito>
-    <fecha>2015-09-30T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: COMP35MROPRG1 -- SE REALIZA EL DEPOSITO POR ERROR DE CAPTURA DE LA COMPROBACION 35 LA CUAL FUE RETIRADA EN CAJA 1 EL 3 SEPTIEMBRE DE 2015 AL PONER DIFERENTE EL MONTO DE LA FACTURA EFAD80 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-30T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 30-ENE-2018 -- TRANSFERENCIA TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>30</no>
-    <deposito>77.14</deposito>
-    <fecha>2015-10-03T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 01-OCT-15 -- AJUSTE SALDO 01.OCT.15 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-30T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 30-ENE-2018 -- TRANSFERENCIA DE TULA 1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>31</no>
-    <deposito>1932</deposito>
-    <fecha>2015-10-07T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 7-2015 -- PENALIZACION DE APARTADOS NOTAS 1060 1062 1065 1068 1079 1086 1088 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-01-31T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 31-ENE-2018 -- TRANSFERENCIA TULA1 A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>32</no>
-    <deposito>35000</deposito>
-    <fecha>2015-10-09T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 010101 -- TRANSFERENCIA DESDE CAJA 4 RETIRO 09 OCT 2015 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-02-01T00:00:00-06:00</fecha>
+    <realizo>SOCORRO HERNANDEZ TREJO</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 179 -- DEPOSITO DEL CHEQUE 179 AMPL DE FONDOS </comentario>
+    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>33</no>
-    <deposito>60000</deposito>
-    <fecha>2015-10-14T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 14OCT2015 TULA 1 -- SE RECIBE TRASPASO DE FONDO DE TULA 1 MRO  </comentario>
+    <deposito>5</deposito>
+    <fecha>2018-02-07T00:00:00-06:00</fecha>
+    <realizo>CARLOS CALDERON CABRERA</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 07 02 18 -- SOBRANTE EN CAJA  </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>34</no>
-    <deposito>30000</deposito>
-    <fecha>2015-10-14T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 14OCT2015 TLAX 1 -- SE RECIBE TRASPASO DE EFECTIVO DE TLAX MRO 1  </comentario>
+    <deposito>50000</deposito>
+    <fecha>2018-02-08T00:00:00-06:00</fecha>
+    <realizo>CARLOS CALDERON CABRERA</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 08 2018 --  TRASFERENCIA CAJA 1 TULA 1  </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>35</no>
-    <deposito>24000</deposito>
-    <fecha>2015-10-14T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 39 -- SE COBRA CHEQUE 039 DE MRO PRG1 </comentario>
+    <deposito>29000</deposito>
+    <fecha>2018-02-13T00:00:00-06:00</fecha>
+    <realizo>CARLOS CALDERON CABRERA</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 180 -- AMPLIACION DE FONDOS PARA SUCURSAL CHK 180 </comentario>
+    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>36</no>
-    <deposito>24000</deposito>
-    <fecha>2015-10-14T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 40 -- SE COBRA CHEQUE 040 DE MRO PRG 1 </comentario>
+    <deposito>50000</deposito>
+    <fecha>2018-02-15T00:00:00-06:00</fecha>
+    <realizo>CARLOS CALDERON CABRERA</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 1502.2018 -- TRANSFER DESDE CAJA 1 TULA 1 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>37</no>
-    <deposito>147000</deposito>
-    <fecha>2015-10-14T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 14OCT15 TULA 1  -- SE RECIBE TRASPASO DE EFECTIVO DE TULA 1 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-02-16T00:00:00-06:00</fecha>
+    <realizo>CARLOS CALDERON CABRERA</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 16-02-18 -- TRANSFERENCIA DE PROGRESO A TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>38</no>
-    <deposito>30000</deposito>
-    <fecha>2015-10-16T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 85 -- DEPOSITO PARA AMPLIACION DE FONDOS EN CAJA 2 </comentario>
+    <deposito>50000</deposito>
+    <fecha>2018-03-07T00:00:00-06:00</fecha>
+    <realizo>CARLOS CALDERON CABRERA</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 070318 -- TRANSFERENCIA DE CAJA 1 TULA 1 A CAJA 12 TULA 3 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>39</no>
-    <deposito>30000</deposito>
-    <fecha>2015-10-16T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 84 -- DEPOSITO PARA AMPLIACION DE FONDOS EN CAJA 1 </comentario>
+    <deposito>648</deposito>
+    <fecha>2018-03-15T00:00:00-06:00</fecha>
+    <realizo>CARLOS CALDERON CABRERA</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 150318 -- EMPEÑO SANTA MUERTE PRENDINERO INVENTARIO CMGG6068 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>40</no>
-    <deposito>30000</deposito>
-    <fecha>2015-10-16T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 86 -- AMPLIACION DE FONDOS PARA OPERACION  </comentario>
+    <deposito>530</deposito>
+    <fecha>2018-03-15T00:00:00-06:00</fecha>
+    <realizo>CARLOS CALDERON CABRERA</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 150318 -- EMPEÑO DIJE MICKEY MOUSE FUNDACION DONDE INVENTARIO CMGA10930 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>41</no>
-    <deposito>25000</deposito>
-    <fecha>2015-10-20T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 20 OCT 2015 C 4 -- DEPOSITO DE TRASPASO DE CAJA 4 A CAJA 2 </comentario>
+    <deposito>27</deposito>
+    <fecha>2018-03-15T00:00:00-06:00</fecha>
+    <realizo>CARLOS CALDERON CABRERA</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 15-03-18 -- SOBRANTE EN CAJA  </comentario>
+    <tipo_deposito>DEPOSITO SOBRANTE</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>42</no>
-    <deposito>20000</deposito>
-    <fecha>2015-10-23T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 4.23102015 -- TRANSFERENCIA DE FONDOS DE CAJA 4 </comentario>
+    <deposito>1</deposito>
+    <fecha>2018-03-16T00:00:00-06:00</fecha>
+    <realizo>JAIME VILLEDA REYES</realizo>
+    <caja>MRO-TLA3-11</caja>
+    <comentario>No. referencia: 16 03 18 -- APERTURA DE CAJA</comentario>
+    <tipo_deposito>DEPOSITO APERTURA CAJA</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>43</no>
-    <deposito>50000</deposito>
-    <fecha>2015-10-23T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 2310.2015 -- TRASPASO FONDO FIJO ADMINISTRADOR AMPLIAR FONDOS </comentario>
+    <deposito>22</deposito>
+    <fecha>2018-04-30T00:00:00-05:00</fecha>
+    <realizo>CARLOS CALDERON CABRERA</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 30 04 2018 -- SOBRANTE EN  CAJA   </comentario>
+    <tipo_deposito>DEPOSITO SOBRANTE</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>44</no>
-    <deposito>5391</deposito>
-    <fecha>2015-11-13T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 14-05-2012 AUD. MIX -- PAGO DE FALTANTE FABIOLA GARCIA SANTIAGO MSOL. MIX </comentario>
+    <deposito>7000</deposito>
+    <fecha>2018-05-23T00:00:00-05:00</fecha>
+    <realizo>JAIME VILLEDA REYES</realizo>
+    <caja>MRO-TLA3-11</caja>
+    <comentario>No. referencia: 05 2018 -- TRASFERENCIA DE CAJA 1 TULA 1 </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>45</no>
-    <deposito>760</deposito>
-    <fecha>2015-11-13T00:00:00-06:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 8-2015 -- PENALIZACIONES DE NOTAS DE APARTADO 1102 1108 1109 1113 1119 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-05-30T00:00:00-05:00</fecha>
+    <realizo>JAIME VILLEDA REYES</realizo>
+    <caja>MRO-TLA3-11</caja>
+    <comentario>No. referencia: 189 -- AMPLIACION DE FONDOS  PARA SUCURSAL CHK 189  </comentario>
+    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>46</no>
-    <deposito>20000</deposito>
-    <fecha>2015-11-27T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 271115  -- TRASFERENCIA DE CAJA 4 RETIRO EN CAJA 4 HOY </comentario>
+    <deposito>62</deposito>
+    <fecha>2018-05-30T00:00:00-05:00</fecha>
+    <realizo>CARLOS CALDERON CABRERA</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 30-05-18 -- SOBRANTE EN CAJA  </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>47</no>
-    <deposito>656.33</deposito>
-    <fecha>2015-12-26T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: N.P. 3537 -- DESEMPEÑO DEL CONTRATO 68819 QUE  NO MOSTRO EL EN REPORTE DIARIO Y NO CORRIO EL SALDO </comentario>
+    <deposito>962.88</deposito>
+    <fecha>2018-07-28T00:00:00-05:00</fecha>
+    <realizo>JAIME VILLEDA REYES</realizo>
+    <caja>MRO-TLA3-11</caja>
+    <comentario>No. referencia: 28 07 2018 -- TRASFERENCIA DE CAJA 1 TULA 1  CERRA CAJA  </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>48</no>
-    <deposito>10000</deposito>
-    <fecha>2016-01-15T00:00:00-06:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 1.2016 -- TRASFER CAJA 4 A CAJA 2 </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-08-10T00:00:00-05:00</fecha>
+    <realizo>JAIME VILLEDA REYES</realizo>
+    <caja>MRO-TLA3-11</caja>
+    <comentario>No. referencia: 10 08  2018 -- TRASFERENCIA DE PROGRESO </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>49</no>
-    <deposito>19.5</deposito>
-    <fecha>2016-01-15T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: COMP 60 2015 -- SE DEPOSITA CONCEPTOS DE CONSUMO PERSONAL  DE LA FACTURA 2163 DE LA COMPROBACION 60 2015  </comentario>
+    <deposito>19</deposito>
+    <fecha>2018-08-11T00:00:00-05:00</fecha>
+    <realizo>CARLOS CALDERON CABRERA</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 110818 -- SOBRANTE DE CAJA 12</comentario>
+    <tipo_deposito>DEPOSITO SOBRANTE</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>50</no>
-    <deposito>2359.36</deposito>
-    <fecha>2016-01-15T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: N.P. 35528 -- SE REALIZA DEPOSITO DEL DESEMPEÑO DEL CONTRATO 68442 REALIZADO EL DIA 14 ENERO DE 2016 EN CAJA 1 </comentario>
+    <deposito>50000</deposito>
+    <fecha>2018-09-12T00:00:00-05:00</fecha>
+    <realizo>JAIME VILLEDA REYES</realizo>
+    <caja>MRO-TLA3-11</caja>
+    <comentario>No. referencia: 12 09 2018 -- TRANSFERENCIA DE PROGRESO </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>51</no>
-    <deposito>10</deposito>
-    <fecha>2016-01-30T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- VENTA DE CUPONERA </comentario>
+    <deposito>6.3</deposito>
+    <fecha>2018-10-19T00:00:00-05:00</fecha>
+    <realizo>JAIME VILLEDA REYES</realizo>
+    <caja>MRO-TLA3-11</caja>
+    <comentario>No. referencia: 19 10 2018 -- DEPOSITO DE COMPROBACION DE GASTOS  F153  </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>52</no>
-    <deposito>10</deposito>
-    <fecha>2016-01-30T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- PROMOCIONAL </comentario>
+    <deposito>30000</deposito>
+    <fecha>2018-10-20T00:00:00-05:00</fecha>
+    <realizo>JAIME VILLEDA REYES</realizo>
+    <caja>MRO-TLA3-11</caja>
+    <comentario>No. referencia: 20 10 2018 -- TRANSFERENCIA DE PROGRESO DE OBREGON </comentario>
+    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
   </Depositos>
   <Depositos>
     <no>53</no>
-    <deposito>10</deposito>
-    <fecha>2016-01-30T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- PROMOCIONAL </comentario>
-  </Depositos>
-  <Depositos>
-    <no>54</no>
-    <deposito>1524.8</deposito>
-    <fecha>2016-01-30T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: F1-2016 -- NA. 1072.1073.1127.1335.1142.1154.1156. </comentario>
-  </Depositos>
-  <Depositos>
-    <no>55</no>
-    <deposito>1041.7</deposito>
-    <fecha>2016-01-30T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: F02-2016 -- NA.1169.1172.1173.1192.1198.1200 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>56</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-02T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION DE CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>57</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-02T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION DE CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>60</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-02T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>58</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-02T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- 1RA CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>59</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-02T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION DE CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>61</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-03T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION DE CUPONERAS </comentario>
-  </Depositos>
-  <Depositos>
-    <no>62</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-03T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>63</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-04T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>64</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-04T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>65</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-04T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION POR CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>66</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-04T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>67</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-05T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>70</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-05T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>71</no>
-    <deposito>20000</deposito>
-    <fecha>2016-02-05T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: TRANF DE SUC. TULA 1 -- TRANSFERENCIA DE EFECTIVO DE TULA 1 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>68</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-05T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>69</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-05T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>72</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-05T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>73</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-06T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>76</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-06T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>74</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-06T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>75</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-06T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>77</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-09T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION POR CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>78</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-10T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>79</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-10T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION POR CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>80</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-10T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION DE CUPOBERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>81</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-11T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>82</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-12T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>83</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-12T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>84</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-13T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CIPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>85</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-15T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: NOTA DE DESCUENTO 0884 -- EN NOTA DE DESCUENTO SE REALIZA DEPOSITO POR DIFERENCIA EN CALCULO DE INTERES EN LA NOTA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>86</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-16T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>87</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-16T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>88</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-16T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>89</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-17T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: F1 2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>90</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-17T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>91</no>
-    <deposito>1314.1</deposito>
-    <fecha>2016-02-18T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CONT. DUPLICADO 69468 -- DEPOSITO DE SOBRANTE EN CAJA 1 POR DUPLICACION  DE CONTRATO 69468 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>92</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-18T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>93</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-19T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1RA-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>94</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-19T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>95</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-19T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>96</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-19T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>98</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-19T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>97</no>
-    <deposito>15000</deposito>
-    <fecha>2016-02-19T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 190220161 -- TRANSFERENCIA DESDE CAJA 4 A CAJA 2 PROGRESO </comentario>
-  </Depositos>
-  <Depositos>
-    <no>99</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-20T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>100</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-20T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION DE CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>101</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-20T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA  </comentario>
-  </Depositos>
-  <Depositos>
-    <no>102</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-20T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>103</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-22T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>104</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-22T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>105</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-22T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>106</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-23T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION POR CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>107</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-24T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION POR CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>109</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-24T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>108</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-24T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>110</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-25T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>111</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-27T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1-2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>112</no>
-    <deposito>25000</deposito>
-    <fecha>2016-02-27T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 27022016 -- TRASPASO DE CAJA 2 A CAJA 1 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>113</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-29T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>114</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-29T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>115</no>
-    <deposito>10</deposito>
-    <fecha>2016-02-29T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>116</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-01T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>117</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-02T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>118</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-02T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>119</no>
-    <deposito>16.34</deposito>
-    <fecha>2016-03-03T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1 SOBR1 AUDIMAR 2016 -- SOBRANTE DE CAJA 1 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>120</no>
-    <deposito>2849</deposito>
-    <fecha>2016-03-03T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: SOBR2 AUDI?2016 -- SOBRANTE POR VENTA A SUBIR DEL INVENTARIO CMGH3334 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>121</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-03T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA  </comentario>
-  </Depositos>
-  <Depositos>
-    <no>122</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-03T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>123</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-03T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>124</no>
-    <deposito>18130</deposito>
-    <fecha>2016-03-04T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: NOTA REM 4334  -- INVENTAROS A GRANEL </comentario>
-  </Depositos>
-  <Depositos>
-    <no>125</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-04T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1RA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>126</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-07T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1RA 2016 -- VENTA DE 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>127</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-08T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>128</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-08T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>129</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-08T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>130</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-09T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1RA 2016 -- PROMOCION DE CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>131</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-09T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1RA 2016 -- CUPONERA 1RA DE 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>132</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-10T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>133</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-10T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>134</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-10T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>135</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-11T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA  </comentario>
-  </Depositos>
-  <Depositos>
-    <no>136</no>
-    <deposito>42143</deposito>
-    <fecha>2016-03-11T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 4338 -- NR4338 VENTA DE INVENTARIOS A GRANEL </comentario>
-  </Depositos>
-  <Depositos>
-    <no>137</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-12T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA  </comentario>
-  </Depositos>
-  <Depositos>
-    <no>138</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-14T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>139</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-14T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>140</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-15T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1RA 2016 -- 1RA CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>143</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-16T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>141</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-16T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 1RA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>142</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-16T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>144</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-18T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>145</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-19T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>146</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-22T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>147</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-22T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>148</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-23T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>149</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-23T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>150</no>
-    <deposito>32728</deposito>
-    <fecha>2016-03-24T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 4916 -- N.R.4916 VENTA DE INVENTARIOS AGRANEL </comentario>
-  </Depositos>
-  <Depositos>
-    <no>151</no>
-    <deposito>28470</deposito>
-    <fecha>2016-03-24T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 4353 -- N.R.4353 VENTA DE INVENTARIOS A GRANEL </comentario>
-  </Depositos>
-  <Depositos>
-    <no>152</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-26T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>153</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-26T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMCION CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>154</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-26T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>155</no>
-    <deposito>50</deposito>
-    <fecha>2016-03-28T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: N.R. 4917 -- SE REALIZA DEPOSITO DEL RESTANTE DE LA NOTA 4917 YA QUE SE VENDIO 50 PESOS MENOS.  </comentario>
-  </Depositos>
-  <Depositos>
-    <no>156</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-28T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA  </comentario>
-  </Depositos>
-  <Depositos>
-    <no>157</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-28T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>158</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-30T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>159</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-30T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>160</no>
-    <deposito>10</deposito>
-    <fecha>2016-03-31T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>161</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-01T00:00:00-06:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>162</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-04T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>163</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-05T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA  </comentario>
-  </Depositos>
-  <Depositos>
-    <no>164</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-05T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CIPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>165</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-06T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>166</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-07T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>167</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-07T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>168</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-08T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>169</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-09T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA  </comentario>
-  </Depositos>
-  <Depositos>
-    <no>170</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-09T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA  </comentario>
-  </Depositos>
-  <Depositos>
-    <no>171</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-11T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>172</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-11T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>173</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-11T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>174</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-12T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- VENTA DE CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>175</no>
-    <deposito>30000</deposito>
-    <fecha>2016-04-13T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CHEK 87 -- COBRO DE CHEQUE 87 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>176</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-13T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>177</no>
-    <deposito>30000</deposito>
-    <fecha>2016-04-13T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CHEK 88 -- COBRO DE CHEQUE POR AMPLIACION DE FONDOS </comentario>
-  </Depositos>
-  <Depositos>
-    <no>178</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-18T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>179</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-18T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>180</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-21T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>181</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-21T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>182</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-21T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>183</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-22T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>184</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-22T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>185</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-23T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>186</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-25T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>187</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-27T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>188</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-27T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>189</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-27T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>-</caja>
-    <comentario>No. referencia: F1 2016  -- CUPONERA 2016</comentario>
-  </Depositos>
-  <Depositos>
-    <no>191</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-27T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA  </comentario>
-  </Depositos>
-  <Depositos>
-    <no>190</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-27T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>-</caja>
-    <comentario>No. referencia: F1 2016  -- CUPONERA 2016</comentario>
-  </Depositos>
-  <Depositos>
-    <no>192</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-28T00:00:00-05:00</fecha>
-    <realizo>YERAIM GRISEL VAZQUEZ CRUZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>193</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-28T00:00:00-05:00</fecha>
-    <realizo>YERAIM GRISEL VAZQUEZ CRUZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- CUPONERA  </comentario>
-  </Depositos>
-  <Depositos>
-    <no>194</no>
-    <deposito>10</deposito>
-    <fecha>2016-04-29T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- CUPONERA  </comentario>
-  </Depositos>
-  <Depositos>
-    <no>195</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-02T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>196</no>
-    <deposito>150</deposito>
-    <fecha>2016-05-03T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: NR 4573 -- COMPLEMENTO DE NR. 4573 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>197</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-05T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>198</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-05T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>199</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-05T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>200</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-09T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION  CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>201</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-09T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>202</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-09T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>203</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-09T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>204</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-10T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>205</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-11T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>206</no>
-    <deposito>800</deposito>
-    <fecha>2016-05-11T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: N R 4941 -- COMPLEMENTO DE VENTA INVENTARIO CMGG1327 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>207</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-12T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>208</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-13T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>209</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-13T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-  </Depositos>
-  <Depositos>
-    <no>210</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-13T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>211</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-16T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-  </Depositos>
-  <Depositos>
-    <no>212</no>
-    <deposito>33.17</deposito>
-    <fecha>2016-05-17T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: SOBRANTE AUDI MAY 2016 -- SOBRANTE DE CAJA ERA DE IROEL PARA DAR CAMBIO </comentario>
-  </Depositos>
-  <Depositos>
-    <no>213</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-19T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>214</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-21T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>215</no>
-    <deposito>2304.8</deposito>
-    <fecha>2016-05-21T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: F3-2016 -- PENALIZACION DE APARTADOS NOTAS 1206 1207 1221 1237 1247 1254 </comentario>
-    <tipo_deposito>DEPOSITO PENALIZACIONES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>216</no>
-    <deposito>361.3</deposito>
-    <fecha>2016-05-21T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: F4 2016 -- PENALIZACION DE APARTADOS 1262 1280  </comentario>
-    <tipo_deposito>DEPOSITO PENALIZACIONES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>217</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-24T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>219</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-24T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>218</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-24T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>220</no>
-    <deposito>270</deposito>
-    <fecha>2016-05-24T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERAS FALTANTES -- DEPOSITO DE CUPONERAS FALTANTES 27 EN TOTAL IDENTIFICADAS EN AUDITORIA 24 MAY 16 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>221</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-26T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA -- CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>222</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-27T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>223</no>
-    <deposito>10</deposito>
-    <fecha>2016-05-30T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>224</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-02T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- 1RA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>225</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-03T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>226</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-04T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>227</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-04T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>228</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-04T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01 2016 -- PROMOCION CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>229</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-06T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA  </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>230</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-06T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>231</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-06T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>232</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-08T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>233</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-09T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01 2016 -- PROMOCION CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>234</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-09T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>235</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-11T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01 2016 -- PROMOCION CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>236</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-11T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01 2016 -- PROMOCION CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>237</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-11T00:00:00-05:00</fecha>
-    <realizo>IROEL GALOUIS GARCIA JIMENEZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1RA CUPONERA 2016 -- CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>238</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-23T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01 2016 -- PROMOCION CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>239</no>
-    <deposito>10</deposito>
-    <fecha>2016-06-24T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 01-2016 -- PROMOCION CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>240</no>
-    <deposito>30000</deposito>
-    <fecha>2016-07-08T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 97 -- AMPLIACION DE FONDOS CHK 97 </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>241</no>
-    <deposito>50000</deposito>
-    <fecha>2016-07-15T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 1507.2016 -- TRANSFERENCIA DE EFECTIVO DE CAJA 4 15JUL2016 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>242</no>
-    <deposito>20</deposito>
-    <fecha>2016-07-18T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA 2 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>243</no>
-    <deposito>20</deposito>
-    <fecha>2016-07-19T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>244</no>
-    <deposito>20</deposito>
-    <fecha>2016-07-22T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- SEGUNDA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>245</no>
-    <deposito>20</deposito>
-    <fecha>2016-07-22T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>246</no>
-    <deposito>20</deposito>
-    <fecha>2016-07-25T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- PROMOCION SEGUNDA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>247</no>
-    <deposito>20</deposito>
-    <fecha>2016-07-26T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>248</no>
-    <deposito>20</deposito>
-    <fecha>2016-07-27T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- PROMOCION SEGUNDA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>249</no>
-    <deposito>20</deposito>
-    <fecha>2016-07-28T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- PROMOCION SEGUNDA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>250</no>
-    <deposito>20</deposito>
-    <fecha>2016-07-29T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- PROMOCION SEGUNDA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>251</no>
-    <deposito>20</deposito>
-    <fecha>2016-07-29T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- PROMOCION SEGUNDA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>252</no>
-    <deposito>20</deposito>
-    <fecha>2016-07-29T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- PROMOCION SEGUNDA CUPONERA 2016  </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>253</no>
-    <deposito>20</deposito>
-    <fecha>2016-07-29T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: F2 2016 -- PROMOCION DE CUPONERA F2 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>254</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-02T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>255</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-02T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>256</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-02T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- PROMOCION SEGUNDA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>257</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-02T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>258</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-05T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CUPONERA 2016 -- PROMOCION SEGUNDA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>259</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-08T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 2-2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>260</no>
-    <deposito>684.5</deposito>
-    <fecha>2016-08-08T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 03082016 -- ARCHIVO TRITURADO </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>261</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-09T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>262</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-11T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 2-2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>263</no>
-    <deposito>46.88</deposito>
-    <fecha>2016-08-11T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 1 -- SOBRANTE EN CAJA AUDI AGO 2016 </comentario>
-    <tipo_deposito>DEPOSITO SOBRANTE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>264</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-12T00:00:00-05:00</fecha>
-    <realizo>BLANCA MARGARITA FLORES HERNANDEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: F2 2016 -- 2DA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>265</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-13T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>266</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-13T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>267</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-15T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: F2 2016  -- CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>268</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-16T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>269</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-16T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>270</no>
-    <deposito>213</deposito>
-    <fecha>2016-08-18T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: NO. 37 -- FACTURA DUPLICADA NO.2519 DE LA COMPROBACION NO.37 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>271</no>
-    <deposito>25000</deposito>
-    <fecha>2016-08-22T00:00:00-05:00</fecha>
-    <realizo>YERAIM GRISEL VAZQUEZ CRUZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 110 -- AMPLIACION DE FONDOS CHK 110 BANCOMER  </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>272</no>
     <deposito>29000</deposito>
-    <fecha>2016-08-22T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 109 -- AMPLIACION DE FONDOS CHK 109 BANCOMER </comentario>
+    <fecha>2018-10-24T00:00:00-05:00</fecha>
+    <realizo>VIRIDIANA GARCIA ALVAREZ</realizo>
+    <caja>MRO-TLA3-12</caja>
+    <comentario>No. referencia: 190 -- AMPLIACION DE FONDOS PARA SUCURSAL CHK190</comentario>
     <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>273</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-25T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2-2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>274</no>
-    <deposito>30000</deposito>
-    <fecha>2016-08-26T00:00:00-05:00</fecha>
-    <realizo>YERAIM GRISEL VAZQUEZ CRUZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CHK 125 -- AMPLICION DE FONDOS CHK 125 LO PAGA EN EFECTIVO EL SR. MANUEL  </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>275</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-27T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2-2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>276</no>
-    <deposito>20</deposito>
-    <fecha>2016-08-31T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2-2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>277</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-01T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2-2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>278</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-01T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2-2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>279</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-01T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2-2016 -- CUPONERA  </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>280</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-02T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2-2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>281</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-02T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2-2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>282</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-03T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2-2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>283</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-03T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 1 .</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2-2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>284</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-06T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>285</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-06T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>286</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-09T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>287</no>
-    <deposito>5000</deposito>
-    <fecha>2016-09-15T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 15092016 -- TRASPASO DE EFECTIVO CAJA 4 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>288</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-19T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: F2 2016 -- 2DA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>289</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-21T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>290</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-21T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>291</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-21T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: F2 2016 -- 2DA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>292</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-21T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: F2 2016 -- 2DA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>293</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-22T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: F2 2016 -- CUPONERA F2 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>294</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-23T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 2 2016 -- CUPONERA </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>295</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-24T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: F2 2016 -- PROMOCION 2DA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>296</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-27T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: F2 2016 -- 2DA CUPONERA  </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>297</no>
-    <deposito>20</deposito>
-    <fecha>2016-09-28T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: F2 2016 -- PROMOCION 2DA CUPONERA 2016 </comentario>
-    <tipo_deposito>DEPOSITO PROMOCIONALES</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>298</no>
-    <deposito>434</deposito>
-    <fecha>2016-09-28T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 28SEP16 -- DIFERENCIA 121251 121175 121145 80429 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>299</no>
-    <deposito>385.7</deposito>
-    <fecha>2016-09-28T00:00:00-05:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 28SEP16 -- DIFERENCIA CMGC11440 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>300</no>
-    <deposito>30000</deposito>
-    <fecha>2016-11-23T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 23112016 -- TRANSFERENCIA DE EFECTIVO DE TLAX1 23112016 </comentario>
-    <tipo_deposito>DEPOSITO DE FONDO</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>301</no>
-    <deposito>29000</deposito>
-    <fecha>2016-11-25T00:00:00-06:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 126 -- AMPLIACION DE FONDOS CHK126 25NOV16 </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>302</no>
-    <deposito>30000</deposito>
-    <fecha>2016-11-28T00:00:00-06:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 129 -- AMPLIACION DE FONDOS CHK129 POR 30000 </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>303</no>
-    <deposito>30000</deposito>
-    <fecha>2017-01-24T00:00:00-06:00</fecha>
-    <realizo>BRENDA JOCELYN HERNANDEZ CRUZ</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 133 -- AMPLIACION DE FONDOS CHK 133 POR 30000 </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>304</no>
-    <deposito>29000</deposito>
-    <fecha>2017-01-24T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CHK 130 -- AMPLIACION DE FONDOS CHK 130 POR 29000 </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>305</no>
-    <deposito>29000</deposito>
-    <fecha>2017-02-24T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CHK134 -- AMPLIACION DE FONDOS CHK134 </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>306</no>
-    <deposito>80000</deposito>
-    <fecha>2017-03-07T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 11.2017 -- DEP DESDE FF ADMINISTRADOR PARA SUBIR SALDO </comentario>
-    <tipo_deposito>DEPOSITO DE FONDO</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>307</no>
-    <deposito>20000</deposito>
-    <fecha>2017-03-07T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 15.2017 -- DEP DESDE FF ADMINISTRADOR PARA SUBIR SALDO </comentario>
-    <tipo_deposito>DEPOSITO DE FONDO</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>308</no>
-    <deposito>18000</deposito>
-    <fecha>2017-03-17T00:00:00-06:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 17.2017 -- TRASFERENCIA DESDE CAJA 4 A CAJA 2 17 MARZO 2017 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>309</no>
-    <deposito>288</deposito>
-    <fecha>2017-04-07T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: COM.GASTOS 15 -- CORRECCION DE COMPROBACION DE GASTOS 15 DICE 610.74 Y DEBE SER 323.37 DEVOLUCION 288 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>310</no>
-    <deposito>30000</deposito>
-    <fecha>2017-04-27T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 141 -- CHEQUE NO.141 AMPLIACION DE FONDOS </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>313</no>
-    <deposito>1.5</deposito>
-    <fecha>2017-04-27T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 17.2017 -- EXCEDENTE COMPROBACION FOLIO 17. RETIRO 27 ABRIL </comentario>
-    <tipo_deposito>DEPOSITO SOBRANTE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>311</no>
-    <deposito>29000</deposito>
-    <fecha>2017-04-27T00:00:00-05:00</fecha>
-    <realizo>MAGALI PEREZ LOPEZ</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 142 -- CHEQUE NO 142 DEPOSITO AMPLIACION DE FONDOS </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>312</no>
-    <deposito>6</deposito>
-    <fecha>2017-04-27T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 21.2017 -- EXCEDENTE COMPROB FOLIO 21. RETIRO 27ABR2017 </comentario>
-    <tipo_deposito>DEPOSITO SOBRANTE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>314</no>
-    <deposito>21</deposito>
-    <fecha>2017-05-05T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: COM.22 5052017 -- SOBRANTE DE COMPROBACION 22 DEL DIA 5 MAYO 2017 </comentario>
-    <tipo_deposito>DEPOSITO SOBRANTE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>315</no>
-    <deposito>27.35</deposito>
-    <fecha>2017-05-12T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 28.2017 -- DIFERENCIA DE COMPROBACION 28.2017  </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>316</no>
-    <deposito>30000</deposito>
-    <fecha>2017-05-31T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CHQ143 -- AMPLIACION DE FONDOS CHQ.143 </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>317</no>
-    <deposito>6.1</deposito>
-    <fecha>2017-06-01T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: COMP34 -- SE DEPOSITA SOBRANTE DE LA COMPR 34 01JUNIO2017 </comentario>
-    <tipo_deposito>DEPOSITO SOBRANTE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>318</no>
-    <deposito>555</deposito>
-    <fecha>2017-06-01T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: CMGC13199 -- SE REALIZA DEPOSITO POR MALA VALUACION DE ANILLO CUADRO CIR CON INVENTARIO CMGC13199 DE 10KT Y SE CONCIDERO 14KT CONT 82338  </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>319</no>
-    <deposito>20000</deposito>
-    <fecha>2017-06-07T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 07062017 -- AMPLIACION DE FONDOS DE CAJA DOS A CAJA UNO </comentario>
-    <tipo_deposito>DEPOSITO DE FONDO</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>320</no>
-    <deposito>14.57</deposito>
-    <fecha>2017-06-09T00:00:00-05:00</fecha>
-    <realizo>ELI ZUZEL ORTIZ CORONA</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 9 JUN 2017 -- NO SE UBICA EL MOTIVO DEL SOBRANTE </comentario>
-    <tipo_deposito>DEPOSITO SOBRANTE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>321</no>
-    <deposito>10000</deposito>
-    <fecha>2017-06-10T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 10062017 -- AMPLIACION DE FONDOS DE CAJA DOS A CAJA UNO </comentario>
-    <tipo_deposito>DEPOSITO DE FONDO</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>322</no>
-    <deposito>20000</deposito>
-    <fecha>2017-06-13T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 13-06-2017 -- AMPLIACION DE FONDOS DE CAJA DOS A CAJA UNO </comentario>
-    <tipo_deposito>DEPOSITO DE FONDO</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>323</no>
-    <deposito>3</deposito>
-    <fecha>2017-06-29T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: COMP 35.2017 -- COMPROBACION DE GASTOS 35 29062017 SOBRANTE </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>324</no>
-    <deposito>1.5</deposito>
-    <fecha>2017-06-29T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: COMP 39 2017 -- COMPROBACION 39 29062017 SOBRANTE </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>325</no>
-    <deposito>216.65</deposito>
-    <fecha>2017-08-05T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 05082017 -- ERROR DE VALUACION INVENTARIO CMGC14013 CONTRATO 84234 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>326</no>
-    <deposito>284</deposito>
-    <fecha>2017-09-18T00:00:00-05:00</fecha>
-    <realizo>ELI ZUZEL ORTIZ CORONA</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: C-84257 18-09-2017 -- DIFERENCIA DE VALUACION DEL CONTRATO 84257 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>327</no>
-    <deposito>283</deposito>
-    <fecha>2017-09-18T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: C-83291  18-09-2017 -- DIFERENCIA MALA EVALUACION CONTRATO 83291 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>328</no>
-    <deposito>56</deposito>
-    <fecha>2017-09-18T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: C-83635 18-09-2017 -- DIFERENCIA DE VALUACION DEL CONTRATO 83635  </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>329</no>
-    <deposito>15000</deposito>
-    <fecha>2017-09-28T00:00:00-05:00</fecha>
-    <realizo>ELI ZUZEL ORTIZ CORONA</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 28092017 -- TRANSFERENCIA DE CAJA 1 A CAJA 2 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>330</no>
-    <deposito>29000</deposito>
-    <fecha>2017-10-05T00:00:00-05:00</fecha>
-    <realizo>ELI ZUZEL ORTIZ CORONA</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CH 144 -- AMPLIACION DE FONDOS CHEQUE 144 </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>331</no>
-    <deposito>30000</deposito>
-    <fecha>2017-10-05T00:00:00-05:00</fecha>
-    <realizo>ELI ZUZEL ORTIZ CORONA</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: CH 147 -- AMPLIACION DE FONDOS DEPOSITO CHEQUE 147 </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>332</no>
-    <deposito>29000</deposito>
-    <fecha>2017-10-27T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 148 -- AMPLIACION DE FONDOS 27OCT2017 </comentario>
-    <tipo_deposito>DEPOSITO CHEQUE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>333</no>
-    <deposito>24</deposito>
-    <fecha>2017-11-01T00:00:00-06:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: C.84883 -- ERROR DE VALUACION CMGC14296 10 OCT17 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>334</no>
-    <deposito>550</deposito>
-    <fecha>2017-11-01T00:00:00-06:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: C.04 17 OCT 2017 -- ANALISIS DE MERCADO EMPEÑO MONTECENTER </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>335</no>
-    <deposito>220</deposito>
-    <fecha>2017-11-01T00:00:00-06:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: C.06 17 OCT 2017 -- ANALISIS DE MERCADO EMPEÑO MONTECENTER </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>336</no>
-    <deposito>395</deposito>
-    <fecha>2018-02-01T00:00:00-06:00</fecha>
-    <realizo>ELI ZUZEL ORTIZ CORONA</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: C 85918 -- DIF VALUACION ARIADNA CONTRATO 85918 BOLSA 77725 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>337</no>
-    <deposito>429</deposito>
-    <fecha>2018-02-08T00:00:00-06:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 30012018PRENDAMEX -- ANALISIS DE MERCADO PRENDAMEX 30 01 2018 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>338</no>
-    <deposito>20000</deposito>
-    <fecha>2018-03-14T00:00:00-06:00</fecha>
-    <realizo>ELI ZUZEL ORTIZ CORONA</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 14 DE MARZO 2018 CAJA 2 -- AMPLIACION FONDOS PARA CAJA DOS  </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>339</no>
-    <deposito>10000</deposito>
-    <fecha>2018-03-14T00:00:00-06:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 14 MARZO 2018 F.CAJA 1 -- FONDO AMPLIACION PARA CAJA UNO 14 MARZO 2018 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>340</no>
-    <deposito>500</deposito>
-    <fecha>2018-03-29T00:00:00-06:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: ANALISIS DE MERCADEO -- ANALISIS DE MERCADEO 29 MARZO 2018 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>341</no>
-    <deposito>5</deposito>
-    <fecha>2018-03-31T00:00:00-06:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: COMPROBACION 22 -- SOBRANTE DE COMPROBACION 22DE 2018 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>342</no>
-    <deposito>1</deposito>
-    <fecha>2018-04-12T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: COMP.24 12042017 -- SE DEPOSITA UN PESO SOBRANTE DE LA COMPROBACION 24 12042018 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>343</no>
-    <deposito>30000</deposito>
-    <fecha>2018-04-18T00:00:00-05:00</fecha>
-    <realizo>ELI ZUZEL ORTIZ CORONA</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 18-04-18 -- AMPLIACION FONDOS CAJA 2 18042018 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>344</no>
-    <deposito>29000</deposito>
-    <fecha>2018-04-19T00:00:00-05:00</fecha>
-    <realizo>ELI ZUZEL ORTIZ CORONA</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 19042018 -- AMPLIACION FONDO CAJA DOS 19042018 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>345</no>
-    <deposito>30000</deposito>
-    <fecha>2018-04-23T00:00:00-05:00</fecha>
-    <realizo>ELI ZUZEL ORTIZ CORONA</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 23042018 -- AMPLIACION FONDOS CAJA DOS DEL CHEQUE 183 23042018 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>346</no>
-    <deposito>30000</deposito>
-    <fecha>2018-05-03T00:00:00-05:00</fecha>
-    <realizo>ELI ZUZEL ORTIZ CORONA</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 03052018 -- AMPLIACION DE FONDOS A CAJA 2 03052018 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>347</no>
-    <deposito>20000</deposito>
-    <fecha>2018-05-25T00:00:00-05:00</fecha>
-    <realizo>ERENDIRA HERNANDEZ CASTILLO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 25052018 -- AMPLIACION DE FONDOS A CAJA DOS 25052018 </comentario>
-    <tipo_deposito>DEPOSITO DE FONDO</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>348</no>
-    <deposito>47.14</deposito>
-    <fecha>2018-05-29T00:00:00-05:00</fecha>
-    <realizo>ERENDIRA HERNANDEZ CASTILLO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 29 05 2018 -- SOBRANTE DE CAJA DOS </comentario>
-    <tipo_deposito>DEPOSITO SOBRANTE</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>349</no>
-    <deposito>20000</deposito>
-    <fecha>2018-06-05T00:00:00-05:00</fecha>
-    <realizo>ERENDIRA HERNANDEZ CASTILLO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 05062018 -- AMPLIACION DE FONDOS A CAJA DOS 05062018 </comentario>
-    <tipo_deposito>DEPOSITO DE FONDO</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>350</no>
-    <deposito>15000</deposito>
-    <fecha>2018-06-11T00:00:00-05:00</fecha>
-    <realizo>ERENDIRA HERNANDEZ CASTILLO</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: 11062018 -- AMPLIACION A CAJA DOS 11062018 </comentario>
-    <tipo_deposito>DEPOSITO DE FONDO</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>351</no>
-    <deposito>11</deposito>
-    <fecha>2018-06-15T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 452018 -- DIFERENCIA EN COMPROBACION DE GASTOS EN 15 JUNIO 2018 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>352</no>
-    <deposito>20000</deposito>
-    <fecha>2018-06-26T00:00:00-05:00</fecha>
-    <realizo>CLAUDIA ROMERO ESPARGO</realizo>
-    <caja>MRO-PRG1-1</caja>
-    <comentario>No. referencia: 26062018 -- AMPLIACION PARA FONDOS CAJA UNO 26062018 </comentario>
-    <tipo_deposito>DEPOSITO OTROS</tipo_deposito>
-  </Depositos>
-  <Depositos>
-    <no>353</no>
-    <deposito>30000</deposito>
-    <fecha>2018-08-22T00:00:00-05:00</fecha>
-    <realizo>AUXILIAR 2 .</realizo>
-    <caja>MRO-PRG1-2</caja>
-    <comentario>No. referencia: AMPLIACION A CAJA 2 -- AMPLIACION A CAJA DOS 22 DE AGOSTO2018</comentario>
-    <tipo_deposito>DEPOSITO DE FONDO</tipo_deposito>
   </Depositos>
 </NewDataSet>
