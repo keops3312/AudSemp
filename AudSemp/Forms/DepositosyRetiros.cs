@@ -41,7 +41,7 @@ namespace AudSemp.Forms
         #endregion
 
         #region Properties (propiedades)
-        string Opcion;
+        //string Opcion;
         public int cantidad;
         public int decision;
         public string leyendaTipos;

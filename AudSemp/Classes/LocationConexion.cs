@@ -22,7 +22,7 @@ namespace AudSemp.Classes
        
 
         #region Atributes (atributos)
-        public string[] archivos = Directory.GetFiles(@"C:\SEMP2013\cdb", "*.txt");
+        public string[] archivos = Directory.GetFiles(@"C:\SEMP2013\AudSemp\AudSemp\cdbs", "*.txt");
         // string key = "ABCDEFG54669525PQRSTUVWXYZabcdef852846opqrstuvwxyz";
         string suc, tienda, dir, server, database, user, pass;
         string Suc, Tienda, Dir, Server, Database, User, Pass;
@@ -55,7 +55,7 @@ namespace AudSemp.Classes
                     database = reader.ReadLine();//database
                     user = reader.ReadLine();//user
                     pass = reader.ReadLine();//password
-
+                    
 
                     Suc = CRYPTO.DecryptKey(suc);
                     Tienda = CRYPTO.DecryptKey(tienda);

@@ -296,5 +296,9 @@ namespace AudSemp.Forms
         }
         #endregion
 
+        private void buttonX2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

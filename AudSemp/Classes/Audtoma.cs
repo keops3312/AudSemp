@@ -40,7 +40,7 @@ namespace AudSemp.Classes
 
 
             //find bolsas
-            int contratoB;
+            //int contratoB;
             int contratoNO;
             int diferencia;
             string leyenda = "";
