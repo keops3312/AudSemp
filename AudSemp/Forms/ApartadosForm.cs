@@ -422,6 +422,8 @@ namespace AudSemp.Forms
                 btnRegresar.Enabled = true;
                 btnCancel.Visible = false;
 
+                
+                prg1.Value = 0;
 
 
                 MessageBox.Show("Exportacion CANCELADA",
