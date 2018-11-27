@@ -417,13 +417,18 @@ namespace AudSemp.Forms
             if (backgroundWorker1.WorkerSupportsCancellation == true)
             {
                 backgroundWorker1.CancelAsync();
+                backgroundWorker1.ReportProgress(0);
+                prg1.Value = 0;
+
+
                 btnExportar.Enabled = true;
                 btnReporte.Enabled = true;
                 btnRegresar.Enabled = true;
                 btnCancel.Visible = false;
 
                 
-                prg1.Value = 0;
+                
+               
 
 
                 MessageBox.Show("Exportacion CANCELADA",

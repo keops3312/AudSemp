@@ -35,6 +35,7 @@ namespace AudSemp.Forms
 
             backgroundWorker1.WorkerReportsProgress = true;
             backgroundWorker1.WorkerSupportsCancellation = true;
+            
            
 
         }
@@ -205,9 +206,14 @@ namespace AudSemp.Forms
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
+
             if (backgroundWorker1.WorkerSupportsCancellation == true)
             {
+               
                 backgroundWorker1.CancelAsync();
+              
+                prg1.Value = 0;
+
                 btnExportar.Enabled = true;
                 btnReporte.Enabled = true;
                 btnRegresar.Enabled = true;
@@ -220,8 +226,6 @@ namespace AudSemp.Forms
                  MessageBoxIcon.Information);
                 prg1.Value = 0;
                 lblProgress.Text = "-";
-
-
             }
         }
 
@@ -232,8 +236,13 @@ namespace AudSemp.Forms
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
-            Excel(ruta);
-            Thread.Sleep(100);
+          
+                Excel(ruta);
+                Thread.Sleep(100);
+
+            
+                
+              
         }
 
         private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
@@ -244,47 +253,75 @@ namespace AudSemp.Forms
             lblProgress.Text = (e.ProgressPercentage.ToString() + " / " + cantidad + " # Registros Completados...");
         }
 
+
+       
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             //called when the heavy operation in bg is over . can also accept GUI compponents
-
-            if (decision == 2)
+            try
             {
-                //creamos los para metros
-
-                HistorialApartadosReport ob = new HistorialApartadosReport();
-                LocalidadModel localidadModel = new LocalidadModel();
-                localidadModel.localidadResult(loc);
-                //ob.SetParameterValue("tipos", leyendaTipos);
-                ob.SetParameterValue("estatus", leyendaEstatus);
-                ob.SetParameterValue("rangos", leyendaRango);
-                ob.SetParameterValue("modoOrden", mode);
-
-                ob.SetParameterValue("sucursal", localidadModel.sucursal);
-                ob.SetParameterValue("marca", localidadModel.marca);
-                ob.SetParameterValue("empresa", localidadModel.empresa);
-                ob.SetParameterValue("localidad", localidadModel.localidad);
-                ob.SetParameterValue("encargado", localidadModel.encargado);
-                ob.SetParameterValue("logo", localidadModel.logotipo);
 
 
+               
+                    if (decision == 2)
+                {
+                    //creamos los para metros
 
-                crystalReportViewer1.ReportSource = ob;
-                crystalReportViewer1.Refresh();
+                    HistorialApartadosReport ob = new HistorialApartadosReport();
+                    LocalidadModel localidadModel = new LocalidadModel();
+                    localidadModel.localidadResult(loc);
+                    //ob.SetParameterValue("tipos", leyendaTipos);
+                    ob.SetParameterValue("estatus", leyendaEstatus);
+                    ob.SetParameterValue("rangos", leyendaRango);
+                    ob.SetParameterValue("modoOrden", mode);
+
+
+                    ob.SetParameterValue("sucursal", ".");
+                    ob.SetParameterValue("marca", ".");
+                    ob.SetParameterValue("empresa", ".");
+                    ob.SetParameterValue("localidad", ".");
+                    ob.SetParameterValue("encargado", ".");
+                    ob.SetParameterValue("logo", ".");
+
+                    ob.SetParameterValue("sucursal", localidadModel.sucursal);
+                    ob.SetParameterValue("marca", localidadModel.marca);
+                    ob.SetParameterValue("empresa", localidadModel.empresa);
+                    ob.SetParameterValue("localidad", localidadModel.localidad);
+                    ob.SetParameterValue("encargado", localidadModel.encargado);
+                    ob.SetParameterValue("logo", localidadModel.logotipo);
+
+
+
+                    crystalReportViewer1.ReportSource = ob;
+                    crystalReportViewer1.Refresh();
+
+
+                }
+
+               
+                    MessageBox.Show("Operación Realizada con Exito",
+                      "Auditoria Semp", MessageBoxButtons.OK,
+                      MessageBoxIcon.Information);
+                    prg1.Value = 0;
+                    lblProgress.Text = "-";
+
+                    btnExportar.Enabled = true;
+                    btnReporte.Enabled = true;
+                    btnRegresar.Enabled = true;
+                    btnCancel.Visible = false;
+            
+
+            }
+            catch(Exception ex)
+            {
+                backgroundWorker1.CancelAsync();
 
 
             }
+              
+             
 
-            MessageBox.Show("Operación Realizada con Exito",
-                   "Auditoria Semp", MessageBoxButtons.OK,
-                   MessageBoxIcon.Information);
-            prg1.Value = 0;
-            lblProgress.Text = "-";
-
-            btnExportar.Enabled = true;
-            btnReporte.Enabled = true;
-            btnRegresar.Enabled = true;
-            btnCancel.Visible = false;
+          
         }
         #endregion
 
