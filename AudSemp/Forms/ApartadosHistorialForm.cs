@@ -258,11 +258,7 @@ namespace AudSemp.Forms
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             //called when the heavy operation in bg is over . can also accept GUI compponents
-            try
-            {
-
-
-               
+          
                     if (decision == 2)
                 {
                     //creamos los para metros
@@ -270,18 +266,12 @@ namespace AudSemp.Forms
                     HistorialApartadosReport ob = new HistorialApartadosReport();
                     LocalidadModel localidadModel = new LocalidadModel();
                     localidadModel.localidadResult(loc);
-                    //ob.SetParameterValue("tipos", leyendaTipos);
+                    ob.SetParameterValue("tipos", ".");
                     ob.SetParameterValue("estatus", leyendaEstatus);
                     ob.SetParameterValue("rangos", leyendaRango);
                     ob.SetParameterValue("modoOrden", mode);
 
 
-                    ob.SetParameterValue("sucursal", ".");
-                    ob.SetParameterValue("marca", ".");
-                    ob.SetParameterValue("empresa", ".");
-                    ob.SetParameterValue("localidad", ".");
-                    ob.SetParameterValue("encargado", ".");
-                    ob.SetParameterValue("logo", ".");
 
                     ob.SetParameterValue("sucursal", localidadModel.sucursal);
                     ob.SetParameterValue("marca", localidadModel.marca);
@@ -311,16 +301,7 @@ namespace AudSemp.Forms
                     btnCancel.Visible = false;
             
 
-            }
-            catch(Exception ex)
-            {
-                backgroundWorker1.CancelAsync();
-
-
-            }
-              
-             
-
+         
           
         }
         #endregion

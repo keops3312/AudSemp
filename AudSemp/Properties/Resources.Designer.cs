@@ -383,6 +383,16 @@ namespace AudSemp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Previa_fw {
+            get {
+                object obj = ResourceManager.GetObject("Previa.fw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap promoIcon {
             get {
                 object obj = ResourceManager.GetObject("promoIcon", resourceCulture);

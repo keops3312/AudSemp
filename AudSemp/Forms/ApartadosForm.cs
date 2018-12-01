@@ -43,6 +43,8 @@ namespace AudSemp.Forms
         public List<ModoOrdenes> modosOrden { get; set; }
 
 
+     
+
         #endregion
 
         #region Properties
@@ -55,11 +57,71 @@ namespace AudSemp.Forms
         public string mode;
         string ruta;
         int cantidad = 0;
+        //variable to cancel progress
+        public int cancelEjercicio;
+        //table to report
+        DataTable dt = new DataTable("Apartados");
         #endregion
 
         #region Methods (Metodos)
         public void load()
         {
+
+           //agree columsnto my table
+            dt.Columns.AddRange(new DataColumn[48]
+            {
+                    new DataColumn("no",typeof(Int32)),
+                    new DataColumn("FOLIO_REM"),
+                    new DataColumn("bolsa"),
+                    new DataColumn("noinv"),
+                    new DataColumn("noserie"),
+                    new DataColumn("descripcion"),
+                    new DataColumn("detalles"),
+                    new DataColumn("preciosugerido"),
+                    new DataColumn("precioventa"),
+                    new DataColumn("kilates"),
+                    new DataColumn("peso_real"),
+                    new DataColumn("condiciones"),
+                    new DataColumn("tipo"),
+                    new DataColumn("status"),
+                    new DataColumn("apartado_con"),
+                    new DataColumn("apartado_cantidad"),
+                    new DataColumn("aparto"),
+                    new DataColumn("idcliente"),
+                    new DataColumn("resta_por_pagar"),
+                    new DataColumn("fecha_de_apartado",typeof(DateTime)),
+                    new DataColumn("usuario"),
+                    new DataColumn("realizado_en"),
+                    new DataColumn("comentario"),
+                    new DataColumn("liquido_fecha"),
+                    new DataColumn("nota_liquido"),
+                    new DataColumn("penalizado"),
+                    new DataColumn("penalizado_precio"),
+                    new DataColumn("Fecha_de_penalizacion"),
+                    new DataColumn("mot_penalizacion"),
+                    new DataColumn("cancelo"),
+                    new DataColumn("fecha_cancelo"),
+                    new DataColumn("mot_cancelo"),
+                    new DataColumn("folio_apartado"),
+                    new DataColumn("promocion"),
+                    new DataColumn("vigencia"),
+                    new DataColumn("precio_origen"),
+                    new DataColumn("descuento"),
+                    new DataColumn("tipo_desc"),
+                    new DataColumn("precio_remate"),
+                    new DataColumn("penalizacion_por"),
+                    new DataColumn("cancelacion_por"),
+                    new DataColumn("dias_minimo"),
+                    new DataColumn("dias_normal"),
+                    new DataColumn("dias_tolerancia"),
+                    new DataColumn("apartado_min"),
+                    new DataColumn("apartado_norm"),
+                    new DataColumn("nombre_plazo"),
+                    new DataColumn("tipo_apartado")
+            });
+
+
+
             ApartadosPresenter apartadosPresenter = new ApartadosPresenter(this);
             apartadosPresenter.TiposEstatus();
             apartadosPresenter.TiposPrenda();
@@ -91,6 +153,9 @@ namespace AudSemp.Forms
 
         public void Excel(string ruta)
         {
+            cancelEjercicio = 0;//to stop progress
+
+
             leyendaRango = "";
             leyendaEstatus = "";
             leyendaTipos = "";
@@ -243,108 +308,123 @@ namespace AudSemp.Forms
         {
 
 
-            DataTable dt = new DataTable("Apartados");
-            dt.Columns.AddRange(new DataColumn[48]
-            {
-                    new DataColumn("no",typeof(Int32)),
-                    new DataColumn("FOLIO_REM"),
-                    new DataColumn("bolsa"),
-                    new DataColumn("noinv"),
-                    new DataColumn("noserie"),
-                    new DataColumn("descripcion"),
-                    new DataColumn("detalles"),
-                    new DataColumn("preciosugerido"),
-                    new DataColumn("precioventa"),
-                    new DataColumn("kilates"),
-                    new DataColumn("peso_real"),
-                    new DataColumn("condiciones"),
-                    new DataColumn("tipo"),
-                    new DataColumn("status"),
-                    new DataColumn("apartado_con"),
-                    new DataColumn("apartado_cantidad"),
-                    new DataColumn("aparto"),
-                    new DataColumn("idcliente"),
-                    new DataColumn("resta_por_pagar"),
-                    new DataColumn("fecha_de_apartado",typeof(DateTime)),
-                    new DataColumn("usuario"),
-                    new DataColumn("realizado_en"),
-                    new DataColumn("comentario"),
-                    new DataColumn("liquido_fecha"),
-                    new DataColumn("nota_liquido"),
-                    new DataColumn("penalizado"),
-                    new DataColumn("penalizado_precio"),
-                    new DataColumn("Fecha_de_penalizacion"),
-                    new DataColumn("mot_penalizacion"),
-                    new DataColumn("cancelo"),
-                    new DataColumn("fecha_cancelo"),
-                    new DataColumn("mot_cancelo"),
-                    new DataColumn("folio_apartado"),
-                    new DataColumn("promocion"),
-                    new DataColumn("vigencia"),
-                    new DataColumn("precio_origen"),
-                    new DataColumn("descuento"),
-                    new DataColumn("tipo_desc"),
-                    new DataColumn("precio_remate"),
-                    new DataColumn("penalizacion_por"),
-                    new DataColumn("cancelacion_por"),
-                    new DataColumn("dias_minimo"),
-                    new DataColumn("dias_normal"),
-                    new DataColumn("dias_tolerancia"),
-                    new DataColumn("apartado_min"),
-                    new DataColumn("apartado_norm"),
-                    new DataColumn("nombre_plazo"),
-                    new DataColumn("tipo_apartado")
-            });
+            //datatable dt = new datatable("apartados");
+            //dt.columns.addrange(new datacolumn[48]
+            //{
+            //        new datacolumn("no",typeof(int32)),
+            //        new datacolumn("folio_rem"),
+            //        new datacolumn("bolsa"),
+            //        new datacolumn("noinv"),
+            //        new datacolumn("noserie"),
+            //        new datacolumn("descripcion"),
+            //        new datacolumn("detalles"),
+            //        new datacolumn("preciosugerido"),
+            //        new datacolumn("precioventa"),
+            //        new datacolumn("kilates"),
+            //        new datacolumn("peso_real"),
+            //        new datacolumn("condiciones"),
+            //        new datacolumn("tipo"),
+            //        new datacolumn("status"),
+            //        new datacolumn("apartado_con"),
+            //        new datacolumn("apartado_cantidad"),
+            //        new datacolumn("aparto"),
+            //        new datacolumn("idcliente"),
+            //        new datacolumn("resta_por_pagar"),
+            //        new datacolumn("fecha_de_apartado",typeof(datetime)),
+            //        new datacolumn("usuario"),
+            //        new datacolumn("realizado_en"),
+            //        new datacolumn("comentario"),
+            //        new datacolumn("liquido_fecha"),
+            //        new datacolumn("nota_liquido"),
+            //        new datacolumn("penalizado"),
+            //        new datacolumn("penalizado_precio"),
+            //        new datacolumn("fecha_de_penalizacion"),
+            //        new datacolumn("mot_penalizacion"),
+            //        new datacolumn("cancelo"),
+            //        new datacolumn("fecha_cancelo"),
+            //        new datacolumn("mot_cancelo"),
+            //        new datacolumn("folio_apartado"),
+            //        new datacolumn("promocion"),
+            //        new datacolumn("vigencia"),
+            //        new datacolumn("precio_origen"),
+            //        new datacolumn("descuento"),
+            //        new datacolumn("tipo_desc"),
+            //        new datacolumn("precio_remate"),
+            //        new datacolumn("penalizacion_por"),
+            //        new datacolumn("cancelacion_por"),
+            //        new datacolumn("dias_minimo"),
+            //        new datacolumn("dias_normal"),
+            //        new datacolumn("dias_tolerancia"),
+            //        new datacolumn("apartado_min"),
+            //        new datacolumn("apartado_norm"),
+            //        new datacolumn("nombre_plazo"),
+            //        new datacolumn("tipo_apartado")
+            //});
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
             DateTime Fin = DateTime.Parse(fechaFin);
 
 
-            int i = 0;
-
-            foreach (var items in tipos)
+            if (dt.Rows.Count == 0)
             {
 
+                int i = 0;
 
-                foreach (var itemEstatus in Estatus)
+                foreach (var items in tipos)
                 {
-                    var result = from s in db.Apartados.Where(p => p.fecha_de_apartado >= Inicio &&
-                                      p.fecha_de_apartado <= Fin &&
-                                      p.tipo == items.categoria &&
-                                      p.status == itemEstatus.estatu).ToList()
-                                 select s;
 
 
-
-                    foreach (var item in result)
+                    foreach (var itemEstatus in Estatus)
                     {
-                        cantidad = result.Count();
-                        i++;
-                        backgroundWorker1.ReportProgress(i);
-
-                        dt.Rows.Add(item.no, item.FOLIO_REM, item.bolsa,
-                            item.noinv, item.noserie, item.descripcion, item.detalles,
-                            item.preciosugerido, item.precioventa, item.kilates, item.peso_real, item.condiciones,
-                            item.tipo, item.status, item.apartado_con, item.apartado_cantidad,
-                            item.aparto, item.idcliente, item.resta_por_pagar, Convert.ToDateTime(item.fecha_de_apartado).ToString("yyyy-MM-dd"), item.usuario,
-                            item.realizado_en, item.comentario, item.liquido_fecha,
-                            item.nota_liquido, item.penalizado, item.penalizado_precio, item.Fecha_de_penalizacion, item.mot_penalizacion,
-                            item.cancelo, item.fecha_cancelo, item.mot_cancelo, item.folio_apartado, item.promocion, item.vigencia,
-                            item.precio_origen, item.descuento, item.tipo_desc, item.precio_remate, item.penalizacion_por,
-                            item.cancelacion_por, item.dias_minimo, item.dias_normal, item.dias_tolerancia, item.apartado_min,
-                            item.apartado_norm, item.nombre_plazo, item.tipo_apartado);
+                        var result = from s in db.Apartados.Where(p => p.fecha_de_apartado >= Inicio &&
+                                          p.fecha_de_apartado <= Fin &&
+                                          p.tipo == items.categoria &&
+                                          p.status == itemEstatus.estatu).ToList()
+                                     select s;
 
 
+
+                        foreach (var item in result)
+                        {
+                            cantidad = result.Count();
+                            i++;
+                            backgroundWorker1.ReportProgress(i);
+
+
+                            if (cancelEjercicio == 1)
+                            {
+                                break;
+                            }
+
+                            dt.Rows.Add(item.no, item.FOLIO_REM, item.bolsa,
+                                item.noinv, item.noserie, item.descripcion, item.detalles,
+                                item.preciosugerido, item.precioventa, item.kilates, item.peso_real, item.condiciones,
+                                item.tipo, item.status, item.apartado_con, item.apartado_cantidad,
+                                item.aparto, item.idcliente, item.resta_por_pagar, Convert.ToDateTime(item.fecha_de_apartado).ToString("yyyy-MM-dd"), item.usuario,
+                                item.realizado_en, item.comentario, item.liquido_fecha,
+                                item.nota_liquido, item.penalizado, item.penalizado_precio, item.Fecha_de_penalizacion, item.mot_penalizacion,
+                                item.cancelo, item.fecha_cancelo, item.mot_cancelo, item.folio_apartado, item.promocion, item.vigencia,
+                                item.precio_origen, item.descuento, item.tipo_desc, item.precio_remate, item.penalizacion_por,
+                                item.cancelacion_por, item.dias_minimo, item.dias_normal, item.dias_tolerancia, item.apartado_min,
+                                item.apartado_norm, item.nombre_plazo, item.tipo_apartado);
+
+
+                        }
+                        i = 0;
                     }
-                    i = 0;
-                }
 
+
+
+                }
 
 
             }
 
+
+
+
             DataView dataView = new DataView(dt);
-            dt = new DataTable();
+            //dt = new DataTable();
 
             //ORDER MODE
             mode = tipoOrden + modoOrden;
@@ -379,9 +459,8 @@ namespace AudSemp.Forms
                     break;
 
             }
-
+            
             dt = dataView.ToTable();
-
             if (decision == 1)
             {
                 using (XLWorkbook wb = new XLWorkbook())
@@ -418,6 +497,7 @@ namespace AudSemp.Forms
             {
                 backgroundWorker1.CancelAsync();
                 backgroundWorker1.ReportProgress(0);
+                cancelEjercicio = 1;
                 prg1.Value = 0;
 
 
@@ -448,6 +528,29 @@ namespace AudSemp.Forms
 
         private void btnReporte_Click(object sender, EventArgs e)
         {
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult resulta = MessageBox.Show("¿Crear Ejercicio Anterior?" +
+                    "Si(Crea) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (resulta == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+
+                }
+
+
+            }
+
+
+
+
             DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
            MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             switch (result)
@@ -476,6 +579,24 @@ namespace AudSemp.Forms
 
         private void btnExportar_Click(object sender, EventArgs e)
         {
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
+                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if(result == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+                 
+                }
+             
+             
+            }
+
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
 
             saveFileDialog1.Filter = "Excel files (*.xlsx)|*.xlsx";
@@ -511,6 +632,10 @@ namespace AudSemp.Forms
 
                 }
             }
+
+
+
+
         }
 
         private void checkModo_CheckedChanged(object sender, EventArgs e)
@@ -658,8 +783,28 @@ namespace AudSemp.Forms
             btnCancel.Visible = false;
         }
 
+
         #endregion
 
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            if(dt.Rows.Count>0)
+            {
+                VistaPreviaForm vista = new VistaPreviaForm();
+                vista.leyenda= this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.vistaM = dt;
+                vista.Show();
+              
+            }
+            else
+            {
+                MessageBox.Show("NO hay resultados cargados!","Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+            }
+
+
+
+
+        }
     }
 }
