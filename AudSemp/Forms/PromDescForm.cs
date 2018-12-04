@@ -58,7 +58,11 @@ namespace AudSemp.Forms
         public string mode;
         string ruta;
         int cantidad = 0;
+        //variable to cancel progress
+        public int cancelEjercicio;
+        //table to report
 
+        DataTable dt = new DataTable("AutPromDesc");
 
 
         #endregion
@@ -67,6 +71,27 @@ namespace AudSemp.Forms
         #region Methods (Metodos)
         public void load()
         {
+
+
+          
+            dt.Columns.AddRange(new DataColumn[11]
+            {
+                    new DataColumn("NO"),
+                    new DataColumn("FOLIO"),
+                    new DataColumn("CONCEPTO"),
+                    new DataColumn("DESCUENTO"),
+                    new DataColumn("ANTERIOR"),
+                    new DataColumn("NUEVO"),
+                    new DataColumn("INVENTARIO"),
+                    new DataColumn("FECHA",typeof(DateTime)),
+                    new DataColumn("REALIZO"),
+                    new DataColumn("CAJA"),
+                    new DataColumn("SUC")
+
+            });
+
+
+
             PromDescPresenter promDescPresenter = new PromDescPresenter(this);
 
 
@@ -144,22 +169,7 @@ namespace AudSemp.Forms
         {
 
 
-            DataTable dt = new DataTable("AutPromDesc");
-            dt.Columns.AddRange(new DataColumn[11]
-            {
-                    new DataColumn("NO"),
-                    new DataColumn("FOLIO"),
-                    new DataColumn("CONCEPTO"),
-                    new DataColumn("DESCUENTO"),
-                    new DataColumn("ANTERIOR"),
-                    new DataColumn("NUEVO"),
-                    new DataColumn("INVENTARIO"),
-                    new DataColumn("FECHA",typeof(DateTime)),
-                    new DataColumn("REALIZO"),
-                    new DataColumn("CAJA"),
-                    new DataColumn("SUC")
-
-            });
+         
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
             DateTime Fin = DateTime.Parse(fechaFin);
@@ -174,28 +184,39 @@ namespace AudSemp.Forms
 
 
 
-            foreach (var item in result)
+
+            if (dt.Rows.Count == 0)
             {
-                cantidad = result.Count();
-                i++;
-                backgroundWorker1.ReportProgress(i);
 
-                dt.Rows.Add(item.no, item.folio,
-                    item.concepto, item.descuento, item.anterior, item.nuevo, item.inv, 
-                    DateTime.Parse(item.fecha.ToString()).ToString("dd-MM-yyyy"),
-                    item.realizo,item.caja,item.suc);
 
+
+                foreach (var item in result)
+                {
+                    cantidad = result.Count();
+                    i++;
+                    backgroundWorker1.ReportProgress(i);
+
+                    if (cancelEjercicio == 1)
+                    {
+                        break;
+                    }
+
+                    dt.Rows.Add(item.no, item.folio,
+                        item.concepto, item.descuento, item.anterior, item.nuevo, item.inv,
+                        DateTime.Parse(item.fecha.ToString()).ToString("dd-MM-yyyy"),
+                        item.realizo, item.caja, item.suc);
+
+
+                }
+                i = 0;
 
             }
-            i = 0;
-
-
 
 
 
 
             DataView dataView = new DataView(dt);
-            dt = new DataTable();
+           // dt = new DataTable();
 
             //ORDER MODE
             mode = tipoOrden + modoOrden;
@@ -287,6 +308,28 @@ namespace AudSemp.Forms
 
         private void btnExportar_Click(object sender, EventArgs e)
         {
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
+                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (result == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+
+                }
+
+
+            }
+
+
+
+
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
 
             saveFileDialog1.Filter = "Excel files (*.xlsx)|*.xlsx";
@@ -326,6 +369,28 @@ namespace AudSemp.Forms
 
         private void btnReporte_Click(object sender, EventArgs e)
         {
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult resulta = MessageBox.Show("¿Crear Ejercicio Anterior?" +
+                    "Si(Crea) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (resulta == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+
+                }
+
+
+            }
+
+
+
             DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
          MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             switch (result)
@@ -440,7 +505,24 @@ namespace AudSemp.Forms
         private void PromDescForm_Load(object sender, EventArgs e)
         {
             load();
-        } 
+        }
         #endregion
+
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            if (dt.Rows.Count > 0)
+            {
+                VistaPreviaForm vista = new VistaPreviaForm();
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.vistaM = dt;
+                vista.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+        }
     }
 }

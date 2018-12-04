@@ -247,6 +247,113 @@
     <tipo_apartado>NORMAL</tipo_apartado>
   </Apartados>
   <Apartados>
+    <no>34</no>
+    <FOLIO_REM>R-80049</FOLIO_REM>
+    <noinv>CMGA10763</noinv>
+    <descripcion>PLANCHA P CABELLO</descripcion>
+    <detalles>REVLON 1030</detalles>
+    <precioventa>165.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electrodomesticos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>33.0000</apartado_cantidad>
+    <aparto>SANCHEZ SANCHEZ DORA MARIA</aparto>
+    <idcliente>12080</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-02-10T00:00:00-06:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>22/02/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1977</folio_apartado>
+    <promocion>PRECIOS PROMOCION</promocion>
+    <vigencia>17/02/2018 12:00:00 a. m.</vigencia>
+    <precio_origen>149.0000</precio_origen>
+    <tipo_desc>PRECIO</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>59</no>
+    <FOLIO_REM>R-80111</FOLIO_REM>
+    <noinv>CMGA10772</noinv>
+    <descripcion>ESQUIMERO HAMILTON</descripcion>
+    <detalles>MODELO 750RC</detalles>
+    <precioventa>449.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electrodomesticos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>89.8000</apartado_cantidad>
+    <aparto>CASTILLO HERNANDEZ PATRICIA</aparto>
+    <idcliente>12234</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-05-14T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>17/05/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1995</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>449.0000</precio_origen>
+    <precio_remate>363.6900</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>64</no>
+    <FOLIO_REM>R-80117</FOLIO_REM>
+    <noinv>CMGA10773</noinv>
+    <descripcion>FUENTE DE CHOCOLATE VON HOME</descripcion>
+    <detalles>SIN MODELO</detalles>
+    <precioventa>749.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electrodomesticos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>149.8000</apartado_cantidad>
+    <aparto>ORTIZ MOLINA MASIEL</aparto>
+    <idcliente>12240</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-05-22T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>06/06/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-2000</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>749.0000</precio_origen>
+    <precio_remate>606.6900</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
     <no>36</no>
     <FOLIO_REM>R-80043</FOLIO_REM>
     <noinv>CMGA10807</noinv>
@@ -459,6 +566,75 @@
     <precio_origen>985.0000</precio_origen>
     <descuento>30.00</descuento>
     <tipo_desc>PORCENTUAL</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>37</no>
+    <noinv>CMGA10935</noinv>
+    <descripcion>DIJE</descripcion>
+    <detalles>AGUILA</detalles>
+    <precioventa>1343.0000</precioventa>
+    <kilates>14</kilates>
+    <peso_real>1.5</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Joyeria</tipo>
+    <status>PENALIZADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>268.6000</apartado_cantidad>
+    <aparto>GARCIA JASSO VANESSA</aparto>
+    <idcliente>12144</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-03-06T00:00:00-06:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <penalizado>134.30</penalizado>
+    <Fecha_de_penalizacion>02/06/2018 12:00:00 a. m.</Fecha_de_penalizacion>
+    <mot_penalizacion>FUERA DE TIEMPO CON 21 DIAS DE VENCIDO</mot_penalizacion>
+    <folio_apartado>A-1980</folio_apartado>
+    <precio_origen>1343.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>9</no>
+    <FOLIO_REM>R-80044</FOLIO_REM>
+    <noinv>CMGA10945</noinv>
+    <descripcion>CELULAR  LG</descripcion>
+    <detalles>LK-K200MT</detalles>
+    <precioventa>1999.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>CELULARES</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>399.8000</apartado_cantidad>
+    <aparto>OLVERA ALTAMIRANO JAQUELINE</aparto>
+    <idcliente>4784</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-08T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>17/02/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1957</folio_apartado>
+    <precio_origen>1999.0000</precio_origen>
     <precio_remate>0.0000</precio_remate>
     <penalizacion_por>10.00</penalizacion_por>
     <cancelacion_por>10.00</cancelacion_por>
@@ -694,6 +870,40 @@
     <tipo_apartado>NORMAL</tipo_apartado>
   </Apartados>
   <Apartados>
+    <no>40</no>
+    <FOLIO_REM>R-80091</FOLIO_REM>
+    <noinv>CMGA11040</noinv>
+    <descripcion>PARRILLA ELECTRICA</descripcion>
+    <detalles>TAURUS M96806200</detalles>
+    <precioventa>399.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>otros</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>79.8000</apartado_cantidad>
+    <aparto>CASTILLO  HERNANDEZ PATRICIA</aparto>
+    <idcliente>12150</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-03-13T00:00:00-06:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>02/05/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1982</folio_apartado>
+    <precio_origen>399.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
     <no>41</no>
     <FOLIO_REM>R-80084</FOLIO_REM>
     <noinv>CMGA11050</noinv>
@@ -717,6 +927,75 @@
     <folio_apartado>A-1983</folio_apartado>
     <precio_origen>755.0000</precio_origen>
     <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>113</no>
+    <noinv>CMGA11073</noinv>
+    <descripcion>JUEGO   DE 11 LLAVES</descripcion>
+    <detalles>2205.68</detalles>
+    <precioventa>749.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>APARTADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>149.8000</apartado_cantidad>
+    <aparto>ALBARRAN SANGERMAN OMAR</aparto>
+    <idcliente>6897</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-10-25T00:00:00-05:00</fecha_de_apartado>
+    <usuario>VIRIDIANA GARCIA ALVAREZ</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <folio_apartado>A-2041</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>749.0000</precio_origen>
+    <precio_remate>606.6900</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>80</no>
+    <FOLIO_REM>R-80145</FOLIO_REM>
+    <noinv>CMGA11077</noinv>
+    <descripcion>CAJA CON 22 HERRAMIENTAS</descripcion>
+    <detalles>.</detalles>
+    <precioventa>899.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>179.8000</apartado_cantidad>
+    <aparto>ANGELES  GARCIA FRANCISCO JAVIER</aparto>
+    <idcliente>12315</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-08-01T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>24/08/2018 03:03:00 a. m.</liquido_fecha>
+    <nota_liquido>R-80145</nota_liquido>
+    <folio_apartado>A-2014</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>899.0000</precio_origen>
+    <precio_remate>809.1000</precio_remate>
     <penalizacion_por>10.00</penalizacion_por>
     <cancelacion_por>10.00</cancelacion_por>
     <dias_minimo>7</dias_minimo>
@@ -833,6 +1112,77 @@
     <tipo_apartado>NORMAL</tipo_apartado>
   </Apartados>
   <Apartados>
+    <no>101</no>
+    <FOLIO_REM>R-80172</FOLIO_REM>
+    <noinv>CMGE6522</noinv>
+    <descripcion>PANTALLA SAMSUNG 40" LED 3D</descripcion>
+    <detalles> UN40EH6030</detalles>
+    <precioventa>5849.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electronicos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>1169.8000</apartado_cantidad>
+    <aparto>FUENTES  GONZALEZ MA .MAGDALENA</aparto>
+    <idcliente>12374</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-09-17T00:00:00-05:00</fecha_de_apartado>
+    <usuario>AUXILIAR 2 .</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>02/10/2018 10:04:00 a. m.</liquido_fecha>
+    <nota_liquido>R-80172</nota_liquido>
+    <folio_apartado>A-2029</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>5849.0000</precio_origen>
+    <precio_remate>5264.1000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>30</no>
+    <FOLIO_REM>R-80036</FOLIO_REM>
+    <noinv>CMGE7668</noinv>
+    <descripcion>BOCINA AMPLIFICADA</descripcion>
+    <detalles>EVEL ES 1615BT</detalles>
+    <precioventa>3199.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electronicos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>639.8000</apartado_cantidad>
+    <aparto>AGUIRRE RODRIGUEZ ISMAEL</aparto>
+    <idcliente>12113</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-02-06T00:00:00-06:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>15/02/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1973</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>3199.0000</precio_origen>
+    <precio_remate>2591.1900</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
     <no>4</no>
     <FOLIO_REM>R-80053</FOLIO_REM>
     <noinv>CMGE7843</noinv>
@@ -859,6 +1209,392 @@
     <precio_origen>3499.0000</precio_origen>
     <tipo_desc>PRECIO</tipo_desc>
     <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>5</no>
+    <FOLIO_REM>R-80015</FOLIO_REM>
+    <noinv>CMGE7956</noinv>
+    <descripcion>ESMERILADORA  </descripcion>
+    <detalles>MAKITA.</detalles>
+    <precioventa>799.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>159.8000</apartado_cantidad>
+    <aparto>LOMAS DIMAS JOSE INES</aparto>
+    <idcliente>11724</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-04T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>19/01/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1951</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>799.0000</precio_origen>
+    <precio_remate>719.1000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>39</no>
+    <FOLIO_REM>R-80106</FOLIO_REM>
+    <noinv>CMGE8102</noinv>
+    <descripcion>SIERRA CALADORA</descripcion>
+    <detalles>SKIL MODELO 4225  </detalles>
+    <precioventa>449.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>89.8000</apartado_cantidad>
+    <aparto>CASTILLO  HERNANDEZ PATRICIA</aparto>
+    <idcliente>12150</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-03-13T00:00:00-06:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>12/05/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1982</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>449.0000</precio_origen>
+    <precio_remate>363.6900</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>50</no>
+    <FOLIO_REM>R-80113</FOLIO_REM>
+    <noinv>CMGE8116</noinv>
+    <descripcion>PANTALLA LED DW DISPLAY</descripcion>
+    <detalles>DW32D3V</detalles>
+    <precioventa>3549.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electronicos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>709.8000</apartado_cantidad>
+    <aparto>SAGAON CORONA MARIANA</aparto>
+    <idcliente>12228</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-05-11T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>19/05/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1991</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>3549.0000</precio_origen>
+    <precio_remate>2874.6900</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>10</no>
+    <noinv>CMGE8468</noinv>
+    <descripcion>MASAJEADOR CVSPA</descripcion>
+    <detalles>51499</detalles>
+    <precioventa>449.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>OTROS</tipo>
+    <status>PENALIZADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>89.8000</apartado_cantidad>
+    <aparto>CAMPOS MORENO NICOLASA</aparto>
+    <idcliente>12058</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-09T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <penalizado>44.90</penalizado>
+    <Fecha_de_penalizacion>27/04/2018 12:00:00 a. m.</Fecha_de_penalizacion>
+    <mot_penalizacion>FUERA DE TIEMPO CON 41 DIAS DE VENCIDO</mot_penalizacion>
+    <folio_apartado>A-1958</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>449.0000</precio_origen>
+    <precio_remate>404.1000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>60</no>
+    <FOLIO_REM>R-80134</FOLIO_REM>
+    <noinv>CMGE8468</noinv>
+    <descripcion>MASAJEADOR CVSPA</descripcion>
+    <detalles>51499</detalles>
+    <precioventa>449.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>OTROS</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>89.8000</apartado_cantidad>
+    <aparto>CONTRERAS FLORES MARIA DEL SOCORRO</aparto>
+    <idcliente>9772</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-05-14T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>13/07/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1996</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>449.0000</precio_origen>
+    <precio_remate>404.1000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>19</no>
+    <FOLIO_REM>R-80031</FOLIO_REM>
+    <noinv>CMGE8480</noinv>
+    <descripcion>HORNO DE MICROONDAS</descripcion>
+    <detalles>GENERAL ELECTRIC JE570SE</detalles>
+    <precioventa>699.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electrodomesticos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>139.8000</apartado_cantidad>
+    <aparto>SANCHEZ SANCHEZ DORA MARIA</aparto>
+    <idcliente>12080</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-22T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>10/02/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1967</folio_apartado>
+    <precio_origen>699.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>17</no>
+    <noinv>CMGE8492</noinv>
+    <descripcion>SIERRA CALADORA TRUPER</descripcion>
+    <detalles>CALA-A2</detalles>
+    <precioventa>699.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>CANCELADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>139.8000</apartado_cantidad>
+    <aparto>SANTIAGO ALVAREZ BACILIO</aparto>
+    <idcliente>12071</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-17T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <cancelo>JAIME VILLEDA REYES</cancelo>
+    <fecha_cancelo>23/01/2018 12:00:00 a. m.</fecha_cancelo>
+    <mot_cancelo>Apartado CANCELADO el dia  23/01/2018- YA NO LO QUIZO EL CLIENTE</mot_cancelo>
+    <folio_apartado>A-1965</folio_apartado>
+    <precio_origen>699.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>8</no>
+    <noinv>CMGE8550</noinv>
+    <descripcion>ROTOMARTILLO RYOBI</descripcion>
+    <detalles>INALAMBRICO E256053</detalles>
+    <precioventa>999.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>PENALIZADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>199.8000</apartado_cantidad>
+    <aparto>OBREGON MARTINEZ ARACELY</aparto>
+    <idcliente>12055</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-05T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <penalizado>99.90</penalizado>
+    <Fecha_de_penalizacion>27/04/2018 12:00:00 a. m.</Fecha_de_penalizacion>
+    <mot_penalizacion>FUERA DE TIEMPO CON 45 DIAS DE VENCIDO</mot_penalizacion>
+    <folio_apartado>A-1956</folio_apartado>
+    <promocion>PRECIOS PROMOCION</promocion>
+    <vigencia>06/01/2018 12:00:00 a. m.</vigencia>
+    <precio_origen>949.0000</precio_origen>
+    <tipo_desc>PRECIO</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>105</no>
+    <FOLIO_REM>R-80173</FOLIO_REM>
+    <noinv>CMGE8813</noinv>
+    <descripcion>TALADRO INALAMBRICO TRUPER</descripcion>
+    <detalles>TALI-120A</detalles>
+    <precioventa>999.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>199.8000</apartado_cantidad>
+    <aparto>CRUZ GALVAN JOSE LUIS</aparto>
+    <idcliente>11983</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-09-27T00:00:00-05:00</fecha_de_apartado>
+    <usuario>VIRIDIANA GARCIA ALVAREZ</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>08/10/2018 10:02:00 a. m.</liquido_fecha>
+    <nota_liquido>R-80173</nota_liquido>
+    <folio_apartado>A-2033</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>999.0000</precio_origen>
+    <precio_remate>809.1900</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>48</no>
+    <FOLIO_REM>R-80128</FOLIO_REM>
+    <noinv>CMGE8983</noinv>
+    <descripcion>CONSOLA DE XBOX ONE </descripcion>
+    <detalles>500GB D.D </detalles>
+    <precioventa>3849.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Videojuegos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>769.8000</apartado_cantidad>
+    <aparto>REYES LUGO NEIDY YADIRA</aparto>
+    <idcliente>12204</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-04-24T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>25/06/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1989</folio_apartado>
+    <precio_origen>3849.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>106</no>
+    <noinv>CMGE9081</noinv>
+    <descripcion>SIERRA SABLE CRAFTSMAN</descripcion>
+    <detalles>900 275020</detalles>
+    <precioventa>899.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>APARTADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>179.8000</apartado_cantidad>
+    <aparto>CASTILLO  PRADO ISAIAS</aparto>
+    <idcliente>12387</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-09-27T00:00:00-05:00</fecha_de_apartado>
+    <usuario>VIRIDIANA GARCIA ALVAREZ</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <folio_apartado>A-2034</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>899.0000</precio_origen>
+    <precio_remate>809.1000</precio_remate>
     <penalizacion_por>10.00</penalizacion_por>
     <cancelacion_por>10.00</cancelacion_por>
     <dias_minimo>7</dias_minimo>
@@ -898,6 +1634,116 @@
     <descuento>35.00</descuento>
     <tipo_desc>PORCENTUAL</tipo_desc>
     <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>74</no>
+    <FOLIO_REM>R-80136</FOLIO_REM>
+    <noinv>CMGE9391</noinv>
+    <descripcion>ROTOMARTILLO MAKITA</descripcion>
+    <detalles>HP1630</detalles>
+    <precioventa>899.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>179.8000</apartado_cantidad>
+    <aparto>MARTINEZ LUJAN FILIBERTO</aparto>
+    <idcliente>10803</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-07-06T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>21/07/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-2008</folio_apartado>
+    <precio_origen>899.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>91</no>
+    <noinv>CMGE9432</noinv>
+    <descripcion>CADENA TEJIDO MIXTO</descripcion>
+    <detalles>DIAMANTADA</detalles>
+    <precioventa>4565.0000</precioventa>
+    <kilates>14</kilates>
+    <peso_real>5.1</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Joyeria</tipo>
+    <status>CANCELADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>913.0000</apartado_cantidad>
+    <aparto>DOMINGUEZ PENSADO LUDIVINA</aparto>
+    <idcliente>12359</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-09-05T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <cancelo>JAIME VILLEDA REYES</cancelo>
+    <fecha_cancelo>19/09/2018 12:00:00 a. m.</fecha_cancelo>
+    <mot_cancelo>Apartado CANCELADO el dia: Sep 19 2018 -POR  PETICION DEL CLIENTE
+</mot_cancelo>
+    <folio_apartado>A-2023</folio_apartado>
+    <promocion>MES PATRIO</promocion>
+    <vigencia>15/09/2018 12:00:00 a. m.</vigencia>
+    <precio_origen>4565.0000</precio_origen>
+    <descuento>35.00</descuento>
+    <tipo_desc>PORCENTUAL</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>84</no>
+    <FOLIO_REM>R-80185</FOLIO_REM>
+    <noinv>CMGE9481</noinv>
+    <descripcion>PANTALLA SMARTV SAMSUNG 50"</descripcion>
+    <detalles>UN50J5500</detalles>
+    <precioventa>8999.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electronicos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>1799.8000</apartado_cantidad>
+    <aparto>MEZA JIMENEZ IRVING GERARDO</aparto>
+    <idcliente>12353</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-08-28T00:00:00-05:00</fecha_de_apartado>
+    <usuario>AUXILIAR 2 .</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>27/10/2018 01:03:00 a. m.</liquido_fecha>
+    <nota_liquido>R-80185</nota_liquido>
+    <folio_apartado>A-2018</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>8999.0000</precio_origen>
+    <precio_remate>8099.1000</precio_remate>
     <penalizacion_por>10.00</penalizacion_por>
     <cancelacion_por>10.00</cancelacion_por>
     <dias_minimo>7</dias_minimo>
@@ -1019,6 +1865,254 @@
     <tipo_apartado>NORMAL</tipo_apartado>
   </Apartados>
   <Apartados>
+    <no>85</no>
+    <FOLIO_REM>R-80182</FOLIO_REM>
+    <noinv>CMGE9579</noinv>
+    <descripcion>PANTALLA SAMSUNG LED 32"</descripcion>
+    <detalles>UN32J4000AF</detalles>
+    <precioventa>3649.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electronicos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>729.8000</apartado_cantidad>
+    <aparto>TORRES CAMPUZANO OSCAR</aparto>
+    <idcliente>9740</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-08-29T00:00:00-05:00</fecha_de_apartado>
+    <usuario>AUXILIAR 2 .</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>23/10/2018 05:04:00 a. m.</liquido_fecha>
+    <nota_liquido>R-80182</nota_liquido>
+    <folio_apartado>A-2019</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>3649.0000</precio_origen>
+    <precio_remate>3284.1000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>22</no>
+    <FOLIO_REM>R-80065</FOLIO_REM>
+    <noinv>CMGG4612</noinv>
+    <descripcion>CUCHILLO ELECTRICO </descripcion>
+    <detalles>35.47</detalles>
+    <precioventa>149.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Electrodomesticos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>29.8000</apartado_cantidad>
+    <aparto>GARCIA MIRANDA VERONICA CELIA</aparto>
+    <idcliente>10907</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-22T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>20/03/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1968</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>149.0000</precio_origen>
+    <precio_remate>120.6900</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>15</no>
+    <FOLIO_REM>R-80018</FOLIO_REM>
+    <noinv>CMGG5393</noinv>
+    <descripcion>HORNO DE MICROONDAS DAEWOO </descripcion>
+    <detalles>KOR6ICS</detalles>
+    <precioventa>799.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Electrodomesticos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>159.8000</apartado_cantidad>
+    <aparto>LAGUNA GARCIA ALBERTO</aparto>
+    <idcliente>12063</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-12T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>27/01/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1963</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>799.0000</precio_origen>
+    <precio_remate>647.1900</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>104</no>
+    <FOLIO_REM>R-80184</FOLIO_REM>
+    <noinv>CMGG5841</noinv>
+    <descripcion>SIERRA CIRCULAR SKILL SAW</descripcion>
+    <detalles>F012SD7722 1800W</detalles>
+    <precioventa>2649.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>529.8000</apartado_cantidad>
+    <aparto>BARRON VEGA ABRAHAM</aparto>
+    <idcliente>12384</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-09-26T00:00:00-05:00</fecha_de_apartado>
+    <usuario>VIRIDIANA GARCIA ALVAREZ</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>26/10/2018 02:05:00 a. m.</liquido_fecha>
+    <nota_liquido>R-80184</nota_liquido>
+    <folio_apartado>A-2032</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>2649.0000</precio_origen>
+    <precio_remate>2145.6900</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>70</no>
+    <FOLIO_REM>R-80132</FOLIO_REM>
+    <noinv>CMGG5849</noinv>
+    <descripcion>PANTALLA SAMSUNG 40" SMART TV</descripcion>
+    <detalles>585.06</detalles>
+    <precioventa>7199.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Electronicos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>1439.8000</apartado_cantidad>
+    <aparto>GUTIERREZ  OLVERA  LUCERO</aparto>
+    <idcliente>12286</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-06-28T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>09/07/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-2004</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>7199.0000</precio_origen>
+    <precio_remate>5831.1900</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>29</no>
+    <FOLIO_REM>R-80045</FOLIO_REM>
+    <noinv>CMGG5868</noinv>
+    <descripcion>PARRILLA PANINI GRILL</descripcion>
+    <detalles>47.7</detalles>
+    <precioventa>399.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electrodomesticos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>79.8000</apartado_cantidad>
+    <aparto>SANCHEZ VERA BRANDON</aparto>
+    <idcliente>12111</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-02-06T00:00:00-06:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>17/02/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1972</folio_apartado>
+    <promocion>PRECIOS PROMOCION</promocion>
+    <vigencia>17/02/2018 12:00:00 a. m.</vigencia>
+    <precio_origen>375.0000</precio_origen>
+    <tipo_desc>PRECIO</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>16</no>
+    <FOLIO_REM>R-80016</FOLIO_REM>
+    <noinv>CMGG5869</noinv>
+    <descripcion>FREIDORA MAYWARE </descripcion>
+    <detalles>3LTS LDF303</detalles>
+    <precioventa>599.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Electrodomesticos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>119.8000</apartado_cantidad>
+    <aparto>GUTIERREZ HERNANDEZ JOSE CARLOS </aparto>
+    <idcliente>12070</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-16T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>24/01/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1964</folio_apartado>
+    <precio_origen>599.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
     <no>27</no>
     <FOLIO_REM>R-80042</FOLIO_REM>
     <noinv>CMGG6051</noinv>
@@ -1057,6 +2151,365 @@
     <tipo_apartado>NORMAL</tipo_apartado>
   </Apartados>
   <Apartados>
+    <no>7</no>
+    <FOLIO_REM>R-80024</FOLIO_REM>
+    <noinv>CMGG6079</noinv>
+    <descripcion>CELULAR SAMSUNG </descripcion>
+    <detalles>GALAXY GRAND PRIME PLUS</detalles>
+    <precioventa>1749.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>CELULARES</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>349.8000</apartado_cantidad>
+    <aparto>ARTEAGA BAUTISTA MAURA</aparto>
+    <idcliente>12052</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-04T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>03/02/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1955</folio_apartado>
+    <promocion>PRECIOS PROMOCION</promocion>
+    <vigencia>06/01/2018 12:00:00 a. m.</vigencia>
+    <precio_origen>1599.0000</precio_origen>
+    <tipo_desc>PRECIO</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>6</no>
+    <noinv>CMGG6091</noinv>
+    <descripcion>MINICOMPONENTE PANASONIC</descripcion>
+    <detalles>SA AK220 400W</detalles>
+    <precioventa>2749.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Electronicos</tipo>
+    <status>PENALIZADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>549.8000</apartado_cantidad>
+    <aparto>CRUZ MENDOZA MINERVA</aparto>
+    <idcliente>12050</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-04T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <penalizado>274.90</penalizado>
+    <Fecha_de_penalizacion>27/04/2018 12:00:00 a. m.</Fecha_de_penalizacion>
+    <mot_penalizacion>FUERA DE TIEMPO CON 46 DIAS DE VENCIDO</mot_penalizacion>
+    <folio_apartado>A-1954</folio_apartado>
+    <promocion>PRECIOS PROMOCION</promocion>
+    <vigencia>06/01/2018 12:00:00 a. m.</vigencia>
+    <precio_origen>2599.0000</precio_origen>
+    <tipo_desc>PRECIO</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>3</no>
+    <FOLIO_REM>R-80006</FOLIO_REM>
+    <noinv>CMGG6101</noinv>
+    <descripcion>ASPIRADORA KOBLENZ</descripcion>
+    <detalles>120.51</detalles>
+    <precioventa>599.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Electrodomesticos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>119.8000</apartado_cantidad>
+    <aparto>SALINAS SOTO MARIA GUADALUPE</aparto>
+    <idcliente>12051</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-04T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>04/01/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1953</folio_apartado>
+    <promocion>PRECIOS PROMOCION</promocion>
+    <vigencia>06/01/2018 12:00:00 a. m.</vigencia>
+    <precio_origen>549.0000</precio_origen>
+    <tipo_desc>PRECIO</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>13</no>
+    <noinv>CMGG6102</noinv>
+    <descripcion>CORTADORA DE LOSETA CHICAGO</descripcion>
+    <detalles>ELECTRICS POWER TOOLS</detalles>
+    <precioventa>1099.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>PENALIZADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>219.8000</apartado_cantidad>
+    <aparto>PEREDA  TREJO MARGARITA</aparto>
+    <idcliente>12062</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-11T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <penalizado>109.90</penalizado>
+    <Fecha_de_penalizacion>27/04/2018 12:00:00 a. m.</Fecha_de_penalizacion>
+    <mot_penalizacion>FUERA DE TIEMPO CON 39 DIAS DE VENCIDO</mot_penalizacion>
+    <folio_apartado>A-1962</folio_apartado>
+    <precio_origen>1099.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>18</no>
+    <noinv>CMGG6103</noinv>
+    <descripcion>CALADORA DE BANCO CENTRAL</descripcion>
+    <detalles>121.27</detalles>
+    <precioventa>1649.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>CANCELADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>329.8000</apartado_cantidad>
+    <aparto>FLANDES DIAZ VIDAL MARLIND</aparto>
+    <idcliente>12043</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-19T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <penalizado>164.90</penalizado>
+    <Fecha_de_penalizacion>02/04/2018 12:00:00 a. m.</Fecha_de_penalizacion>
+    <mot_penalizacion>FUERA DE TIEMPO CON 6 DIAS DE VENCIDO</mot_penalizacion>
+    <folio_apartado>A-1966</folio_apartado>
+    <precio_origen>1649.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>73</no>
+    <FOLIO_REM>R-80144</FOLIO_REM>
+    <noinv>CMGG6103</noinv>
+    <descripcion>CALADORA DE BANCO CENTRAL</descripcion>
+    <detalles>121.27</detalles>
+    <precioventa>1649.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>329.8000</apartado_cantidad>
+    <aparto>MORALES REYES OMAR</aparto>
+    <idcliente>12296</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-07-04T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>21/08/2018 11:00:00 a. m.</liquido_fecha>
+    <nota_liquido>R-80144</nota_liquido>
+    <folio_apartado>A-2007</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>1649.0000</precio_origen>
+    <precio_remate>1335.6900</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>11</no>
+    <noinv>CMGG6104</noinv>
+    <descripcion>APARATO DE EJERCICIO </descripcion>
+    <detalles>BODY CRUNCH SIN MODELO</detalles>
+    <precioventa>999.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Otros</tipo>
+    <status>PENALIZADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>199.8000</apartado_cantidad>
+    <aparto>ESTRADA GOMEZ NICOLASA</aparto>
+    <idcliente>12060</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-10T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <penalizado>99.90</penalizado>
+    <Fecha_de_penalizacion>27/04/2018 12:00:00 a. m.</Fecha_de_penalizacion>
+    <mot_penalizacion>FUERA DE TIEMPO CON 40 DIAS DE VENCIDO</mot_penalizacion>
+    <folio_apartado>A-1959</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>999.0000</precio_origen>
+    <precio_remate>899.1000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>63</no>
+    <FOLIO_REM>R-80135</FOLIO_REM>
+    <noinv>CMGG6104</noinv>
+    <descripcion>APARATO DE EJERCICIO </descripcion>
+    <detalles>BODY CRUNCH SIN MODELO</detalles>
+    <precioventa>999.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Otros</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>199.8000</apartado_cantidad>
+    <aparto>ABAD ANGELES ARACELY</aparto>
+    <idcliente>8045</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-05-21T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>20/07/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1999</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>999.0000</precio_origen>
+    <precio_remate>899.1000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>24</no>
+    <FOLIO_REM>R-80046</FOLIO_REM>
+    <noinv>CMGI4569</noinv>
+    <descripcion>ESCALADORA ELIPTICA</descripcion>
+    <detalles>ORBITREK</detalles>
+    <precioventa>1999.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>OTROS</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>399.8000</apartado_cantidad>
+    <aparto>ESTRADA GOMEZ NICOLASA</aparto>
+    <idcliente>12060</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-24T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>19/02/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1969</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>1999.0000</precio_origen>
+    <precio_remate>1799.1000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>23</no>
+    <FOLIO_REM>R-80065</FOLIO_REM>
+    <noinv>CMGI4703</noinv>
+    <descripcion>TUBOS CONAIR</descripcion>
+    <detalles>H534T</detalles>
+    <precioventa>349.0000</precioventa>
+    <kilates>N/A</kilates>
+    <peso_real>N/A</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electronicos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>69.8000</apartado_cantidad>
+    <aparto>GARCIA MIRANDA VERONICA CELIA</aparto>
+    <idcliente>10907</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-01-22T00:00:00-06:00</fecha_de_apartado>
+    <usuario>SOCORRO HERNANDEZ TREJO</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>20/03/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1968</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>349.0000</precio_origen>
+    <precio_remate>314.1000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
     <no>65</no>
     <FOLIO_REM>R-80114</FOLIO_REM>
     <noinv>CMGJ126</noinv>
@@ -1082,6 +2535,74 @@
     <folio_apartado>A-1998</folio_apartado>
     <precio_origen>4999.0000</precio_origen>
     <precio_remate>4999.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>47</no>
+    <FOLIO_REM>R-80112</FOLIO_REM>
+    <noinv>CMGJ129</noinv>
+    <descripcion>MINI ESMERIL DEWALT</descripcion>
+    <detalles>MODELO DWE4020 B3</detalles>
+    <precioventa>749.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>149.8000</apartado_cantidad>
+    <aparto>CHAVEZ LOPEZ PEDRO</aparto>
+    <idcliente>12200</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-04-21T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>19/05/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1988</folio_apartado>
+    <precio_origen>749.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>44</no>
+    <FOLIO_REM>R-80121</FOLIO_REM>
+    <noinv>CMGJ130</noinv>
+    <descripcion>MINI ESMERIL DEWALT</descripcion>
+    <detalles>DW400</detalles>
+    <precioventa>549.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>109.8000</apartado_cantidad>
+    <aparto>FLANDES DIAZ VIDAL MARLIND</aparto>
+    <idcliente>12043</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-04-20T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>15/06/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1986</folio_apartado>
+    <precio_origen>549.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
     <penalizacion_por>10.00</penalizacion_por>
     <cancelacion_por>10.00</cancelacion_por>
     <dias_minimo>7</dias_minimo>
@@ -1233,6 +2754,111 @@
     <tipo_apartado>NORMAL</tipo_apartado>
   </Apartados>
   <Apartados>
+    <no>49</no>
+    <FOLIO_REM>R-80098</FOLIO_REM>
+    <noinv>CMGJ165</noinv>
+    <descripcion>CELULAR SAMSUNG GRAND PRIME PLUS</descripcion>
+    <detalles>ROSA C O</detalles>
+    <precioventa>1749.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>CELULARES</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>349.8000</apartado_cantidad>
+    <aparto>GARCIA SANCHEZ GUILLERMINA</aparto>
+    <idcliente>12222</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-05-07T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>08/05/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1990</folio_apartado>
+    <promocion>PRECIOS PROMOCION</promocion>
+    <vigencia>15/05/2018 12:00:00 a. m.</vigencia>
+    <precio_origen>1599.0000</precio_origen>
+    <tipo_desc>PRECIO</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>110</no>
+    <noinv>CMGJ209</noinv>
+    <descripcion>VIDEOCAMARA DIGITAL RCA</descripcion>
+    <detalles>EZW600BL C-CARGADOR G</detalles>
+    <precioventa>499.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electronicos</tipo>
+    <status>APARTADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>99.8000</apartado_cantidad>
+    <aparto>VEGA  LUGO PAOLA ATZIMBA</aparto>
+    <idcliente>12411</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-10-19T00:00:00-05:00</fecha_de_apartado>
+    <usuario>VIRIDIANA GARCIA ALVAREZ</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <folio_apartado>A-2038</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>499.0000</precio_origen>
+    <precio_remate>449.1000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>77</no>
+    <FOLIO_REM>R-80167</FOLIO_REM>
+    <noinv>CMGJ211</noinv>
+    <descripcion>PANTALLA SAMSUNG SMARTV  40 PULGADAS</descripcion>
+    <detalles>UN40EH5300F</detalles>
+    <precioventa>4849.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electronicos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>969.8000</apartado_cantidad>
+    <aparto>ALDANA HERNANDEZ  ALICIA</aparto>
+    <idcliente>12311</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-07-30T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>26/09/2018 10:03:00 a. m.</liquido_fecha>
+    <nota_liquido>R-80167</nota_liquido>
+    <folio_apartado>A-2011</folio_apartado>
+    <precio_origen>4849.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
     <no>68</no>
     <FOLIO_REM>R-80133</FOLIO_REM>
     <noinv>CMGJ222</noinv>
@@ -1341,6 +2967,40 @@
     <tipo_apartado>NORMAL</tipo_apartado>
   </Apartados>
   <Apartados>
+    <no>75</no>
+    <FOLIO_REM>R-80138</FOLIO_REM>
+    <noinv>CMGJ260</noinv>
+    <descripcion>CELULAR SAMSUNG J2</descripcion>
+    <detalles>CARGADOR MOBO</detalles>
+    <precioventa>1299.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>CELULARES</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>259.8000</apartado_cantidad>
+    <aparto>MIGUELES GRANADOS ESTEBAN</aparto>
+    <idcliente>12141</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-07-07T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>23/07/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-2009</folio_apartado>
+    <precio_origen>1299.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
     <no>67</no>
     <FOLIO_REM>R-80124</FOLIO_REM>
     <noinv>CMGJ262</noinv>
@@ -1363,6 +3023,146 @@
     <liquido_fecha>21/06/2018 12:00:00 a. m.</liquido_fecha>
     <folio_apartado>A-2002</folio_apartado>
     <precio_origen>3549.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>103</no>
+    <FOLIO_REM>R-80168</FOLIO_REM>
+    <noinv>CMGJ328</noinv>
+    <descripcion>RECTIFICADOR DEWALT</descripcion>
+    <detalles>MODELO DWE4887 B3</detalles>
+    <precioventa>999.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>199.8000</apartado_cantidad>
+    <aparto>ZAMUDIO ROMAN JOSE LUCIO</aparto>
+    <idcliente>12383</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-09-25T00:00:00-05:00</fecha_de_apartado>
+    <usuario>VIRIDIANA GARCIA ALVAREZ</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>26/09/2018 11:04:00 a. m.</liquido_fecha>
+    <nota_liquido>R-80168</nota_liquido>
+    <folio_apartado>A-2031</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>999.0000</precio_origen>
+    <precio_remate>899.1000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>78</no>
+    <FOLIO_REM>R-80139</FOLIO_REM>
+    <noinv>CMGJ329</noinv>
+    <descripcion>PULIDOR MAKITA</descripcion>
+    <detalles>G557HP</detalles>
+    <precioventa>899.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>179.8000</apartado_cantidad>
+    <aparto>GONZALEZ HERNANDEZ LEONARDO</aparto>
+    <idcliente>12313</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-07-30T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>31/07/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-2012</folio_apartado>
+    <precio_origen>899.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>79</no>
+    <FOLIO_REM>R-80146</FOLIO_REM>
+    <noinv>CMGJ330</noinv>
+    <descripcion>TALADRO</descripcion>
+    <detalles>SKIL 6465</detalles>
+    <precioventa>499.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>99.8000</apartado_cantidad>
+    <aparto>LOMAS DIMAS JOSE INES</aparto>
+    <idcliente>11724</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-08-01T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>27/08/2018 10:05:00 a. m.</liquido_fecha>
+    <nota_liquido>R-80146</nota_liquido>
+    <folio_apartado>A-2013</folio_apartado>
+    <precio_origen>499.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>82</no>
+    <FOLIO_REM>R-80176</FOLIO_REM>
+    <noinv>CMGJ334</noinv>
+    <descripcion>HORNO DE MICROONDAS</descripcion>
+    <detalles>GE</detalles>
+    <precioventa>899.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electrodomesticos</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>179.8000</apartado_cantidad>
+    <aparto>CALDERON  CABRERA CARLOS</aparto>
+    <idcliente>12338</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-08-15T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>13/10/2018 09:01:00 a. m.</liquido_fecha>
+    <nota_liquido>R-80176</nota_liquido>
+    <folio_apartado>A-2016</folio_apartado>
+    <precio_origen>899.0000</precio_origen>
     <precio_remate>0.0000</precio_remate>
     <penalizacion_por>10.00</penalizacion_por>
     <cancelacion_por>10.00</cancelacion_por>
@@ -1407,6 +3207,274 @@
     <tipo_apartado>NORMAL</tipo_apartado>
   </Apartados>
   <Apartados>
+    <no>94</no>
+    <noinv>CMGJ394</noinv>
+    <descripcion>PSP VITA   SONY</descripcion>
+    <detalles>MODELO PCH 1010</detalles>
+    <precioventa>1349.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Videojuegos</tipo>
+    <status>APARTADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>269.8000</apartado_cantidad>
+    <aparto>REYES  SANCHEZ  ISAID</aparto>
+    <idcliente>12369</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-09-12T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <folio_apartado>A-2026</folio_apartado>
+    <promocion>PRECIOS PROMOCION</promocion>
+    <vigencia>15/09/2018 12:00:00 a. m.</vigencia>
+    <precio_origen>1249.0000</precio_origen>
+    <tipo_desc>PRECIO</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>95</no>
+    <noinv>CMGJ395</noinv>
+    <descripcion>JUEGO BATMAN 3</descripcion>
+    <detalles>PARA PSP VITA</detalles>
+    <precioventa>85.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Videojuegos</tipo>
+    <status>APARTADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>17.0000</apartado_cantidad>
+    <aparto>REYES  SANCHEZ  ISAID</aparto>
+    <idcliente>12369</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-09-12T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <folio_apartado>A-2026</folio_apartado>
+    <promocion>PRECIOS PROMOCION</promocion>
+    <vigencia>15/09/2018 12:00:00 a. m.</vigencia>
+    <precio_origen>79.0000</precio_origen>
+    <tipo_desc>PRECIO</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>96</no>
+    <noinv>CMGJ396</noinv>
+    <descripcion>ESTUCHE PARA PSP VITA</descripcion>
+    <detalles>MILITAR</detalles>
+    <precioventa>75.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Videojuegos</tipo>
+    <status>APARTADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>15.0000</apartado_cantidad>
+    <aparto>REYES  SANCHEZ  ISAID</aparto>
+    <idcliente>12369</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-09-12T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <folio_apartado>A-2026</folio_apartado>
+    <promocion>PRECIOS PROMOCION</promocion>
+    <vigencia>15/09/2018 12:00:00 a. m.</vigencia>
+    <precio_origen>69.0000</precio_origen>
+    <tipo_desc>PRECIO</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>97</no>
+    <noinv>CMGJ427</noinv>
+    <descripcion>CAMINADORA  ELECTRICA</descripcion>
+    <detalles>CV FITNES </detalles>
+    <precioventa>1849.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electronicos</tipo>
+    <status>APARTADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>369.8000</apartado_cantidad>
+    <aparto>ANAYA  ZAMORA  SILVIA</aparto>
+    <idcliente>12370</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-09-13T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <folio_apartado>A-2027</folio_apartado>
+    <promocion>PRECIOS PROMOCION</promocion>
+    <vigencia>15/09/2018 12:00:00 a. m.</vigencia>
+    <precio_origen>1699.0000</precio_origen>
+    <tipo_desc>PRECIO</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>108</no>
+    <noinv>CMGJ480</noinv>
+    <descripcion>PANTALLA LG  SMARTV</descripcion>
+    <detalles>60LF6100</detalles>
+    <precioventa>8999.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electrodomesticos</tipo>
+    <status>APARTADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>1799.8000</apartado_cantidad>
+    <aparto>GONZALEZ  ESCAMILLA ROSARIO</aparto>
+    <idcliente>12390</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-09-27T00:00:00-05:00</fecha_de_apartado>
+    <usuario>AUXILIAR 2 .</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <folio_apartado>A-2036</folio_apartado>
+    <precio_origen>8999.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>114</no>
+    <noinv>CMGJ497</noinv>
+    <descripcion>CELULAR SAMSUNG  GRAND PRIME+</descripcion>
+    <detalles>SM G523M CON CARGADOR ORIGINAL</detalles>
+    <precioventa>1749.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>CELULARES</tipo>
+    <status>APARTADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>349.8000</apartado_cantidad>
+    <aparto>MORENO NIETO  LUIS RUBEN</aparto>
+    <idcliente>12346</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-10-26T00:00:00-05:00</fecha_de_apartado>
+    <usuario>VIRIDIANA GARCIA ALVAREZ</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <folio_apartado>A-2042</folio_apartado>
+    <precio_origen>1749.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>109</no>
+    <noinv>CMGJ501</noinv>
+    <descripcion>LICUADORA  DE 3 VELOCIDADES</descripcion>
+    <detalles>OSTERIZER</detalles>
+    <precioventa>699.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Electrodomesticos</tipo>
+    <status>APARTADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>139.8000</apartado_cantidad>
+    <aparto>CRUZ MEJIA CRHISTIAM ISELA </aparto>
+    <idcliente>11180</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-10-02T00:00:00-05:00</fecha_de_apartado>
+    <usuario>VIRIDIANA GARCIA ALVAREZ</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <folio_apartado>A-2037</folio_apartado>
+    <precio_origen>699.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>111</no>
+    <noinv>CMGJ540</noinv>
+    <descripcion>JUEGO DE 10  DADOS</descripcion>
+    <detalles>CRAFTSMAN</detalles>
+    <precioventa>449.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>APARTADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>89.8000</apartado_cantidad>
+    <aparto>ALMONTE PALACIOS ERNESTO</aparto>
+    <idcliente>11096</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-10-20T00:00:00-05:00</fecha_de_apartado>
+    <usuario>VIRIDIANA GARCIA ALVAREZ</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <folio_apartado>A-2039</folio_apartado>
+    <precio_origen>449.0000</precio_origen>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
     <no>89</no>
     <FOLIO_REM>R-80164</FOLIO_REM>
     <noinv>CMGJ56</noinv>
@@ -1434,6 +3502,76 @@
     <precio_origen>2059.0000</precio_origen>
     <descuento>35.00</descuento>
     <tipo_desc>PORCENTUAL</tipo_desc>
+    <precio_remate>0.0000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>71</no>
+    <noinv>CMGJ69</noinv>
+    <descripcion>TABLET AT&amp;T AFFIX T737</descripcion>
+    <detalles>SIN CARGADOR</detalles>
+    <precioventa>899.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>DESGASTADO</condiciones>
+    <tipo>Computo</tipo>
+    <status>PENALIZADO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>179.8000</apartado_cantidad>
+    <aparto>HERNANDEZ MARTINEZ GUSTAVO</aparto>
+    <idcliente>4726</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-06-30T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <penalizado>89.90</penalizado>
+    <Fecha_de_penalizacion>20/10/2018 12:00:00 a. m.</Fecha_de_penalizacion>
+    <mot_penalizacion>FUERA DE TIEMPO CON 45 DIAS DE VENCIDO</mot_penalizacion>
+    <folio_apartado>A-2005</folio_apartado>
+    <promocion>PRECIO REMATE</promocion>
+    <precio_origen>899.0000</precio_origen>
+    <precio_remate>809.1000</precio_remate>
+    <penalizacion_por>10.00</penalizacion_por>
+    <cancelacion_por>10.00</cancelacion_por>
+    <dias_minimo>7</dias_minimo>
+    <dias_normal>60</dias_normal>
+    <dias_tolerancia>7</dias_tolerancia>
+    <apartado_min>10.00</apartado_min>
+    <apartado_norm>20.00</apartado_norm>
+    <nombre_plazo>A1</nombre_plazo>
+    <tipo_apartado>NORMAL</tipo_apartado>
+  </Apartados>
+  <Apartados>
+    <no>43</no>
+    <FOLIO_REM>R-80115</FOLIO_REM>
+    <noinv>CMGJ78</noinv>
+    <descripcion>ROTOMARTILLO SSP MAKITA</descripcion>
+    <detalles>MODELO MHP131</detalles>
+    <precioventa>599.0000</precioventa>
+    <kilates>0</kilates>
+    <peso_real>0</peso_real>
+    <condiciones>NORMAL</condiciones>
+    <tipo>Herramientas</tipo>
+    <status>VENDIDO</status>
+    <apartado_con>20</apartado_con>
+    <apartado_cantidad>119.8000</apartado_cantidad>
+    <aparto>SEGURA SANCHEZ CRISTINA DEL CARMEN</aparto>
+    <idcliente>12188</idcliente>
+    <resta_por_pagar>0.0000</resta_por_pagar>
+    <fecha_de_apartado>2018-04-10T00:00:00-05:00</fecha_de_apartado>
+    <usuario>CARLOS CALDERON CABRERA</usuario>
+    <realizado_en>TLA_3</realizado_en>
+    <liquido_fecha>24/05/2018 12:00:00 a. m.</liquido_fecha>
+    <folio_apartado>A-1985</folio_apartado>
+    <precio_origen>599.0000</precio_origen>
     <precio_remate>0.0000</precio_remate>
     <penalizacion_por>10.00</penalizacion_por>
     <cancelacion_por>10.00</cancelacion_por>

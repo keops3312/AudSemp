@@ -56,6 +56,11 @@ namespace AudSemp.Forms
         public string loc;
         public string mode;
         string ruta;
+
+        //variable to cancel progress
+        public int cancelEjercicio;
+        //table to report
+        DataTable dt = new DataTable();
         #endregion
 
         #region Events
@@ -70,11 +75,15 @@ namespace AudSemp.Forms
             if (backgroundWorker1.WorkerSupportsCancellation == true)
             {
                 backgroundWorker1.CancelAsync();
+                backgroundWorker1.ReportProgress(0);
+                cancelEjercicio = 1;
+                prg1.Value = 0;
+
+
                 btnExportar.Enabled = true;
                 btnReporte.Enabled = true;
                 btnRegresar.Enabled = true;
                 btnCancel.Visible = false;
-
 
 
                 MessageBox.Show("Exportacion CANCELADA",
@@ -167,6 +176,27 @@ namespace AudSemp.Forms
 
         private void btnReporte_Click(object sender, EventArgs e)
         {
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult resulta = MessageBox.Show("¿Crear Ejercicio Anterior?" +
+                    "Si(Crea) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (resulta == DialogResult.No)
+                {
+
+                    dt.Clear();
+                    dt.Reset();
+
+                }
+
+
+            }
+
+
             DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
          MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             switch (result)
@@ -195,6 +225,50 @@ namespace AudSemp.Forms
 
         private void btnExportar_Click(object sender, EventArgs e)
         {
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
+                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (result == DialogResult.No)
+                {
+                    
+
+                    dt.Clear();
+                    dt.Reset();
+
+
+                }
+
+
+            }
+
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
+                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (result == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+
+                }
+
+
+            }
+
+
+
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
 
             saveFileDialog1.Filter = "Excel files (*.xlsx)|*.xlsx";
@@ -479,17 +553,21 @@ namespace AudSemp.Forms
            List<categorias> tipos, int opcion)
         {
 
-            DataTable dt = new DataTable();
+           DataTable dt = new DataTable();
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
             DateTime Fin = DateTime.Parse(fechaFin);
             int i = 0;
 
-            if (opcion == 2)
+
+            if (dt.Rows.Count == 0)
             {
-                dt.TableName = "BolsasOtros";
-                dt.Columns.AddRange(new DataColumn[25]
+
+                if (opcion == 2)
                 {
+                    dt.TableName = "BolsasOtros";
+                    dt.Columns.AddRange(new DataColumn[25]
+                    {
 
                      new DataColumn("Contrato",typeof(Int32)),
                      new DataColumn("Fecha"),
@@ -517,45 +595,50 @@ namespace AudSemp.Forms
                      new DataColumn("modelo"),
                      new DataColumn("noserie")
 
-                });
+                    });
 
-                foreach (var items in tipos)
-                {
-
-                    var result = from s in db.bolsas_OTROS.Where(p => p.Fecha >= Inicio &&
-                                  p.Fecha <= Fin &&
-                                  p.Tipo == items.categoria).ToList()
-                                 select s;
-
-                    foreach (var item in result)
+                    foreach (var items in tipos)
                     {
-                        cantidad = result.Count();
-                        i++;
-                        backgroundWorker1.ReportProgress(i);
 
-                        dt.Rows.Add(item.Contrato,Convert.ToDateTime(item.Fecha).ToString("dd-MM-yyyy"), item.Bolsa,
-                            item.Descripcion, item.SubDescripcion,
-                            item.Tipo, Convert.ToDecimal(item.Avaluo), item.Estatus_Prenda, item.Condiciones,
-                            item.Cantidad, item.Localidad, item.Ubicacion, item.Posicion,
-                            item.sucursal, item.registro, item.NO,
-                            item.folio, item.origen, Convert.ToDecimal(item.prestamo), item.INT, item.detalles, item.caja,
-                            item.detalles_art, item.modelo, item.noserie);
+                        var result = from s in db.bolsas_OTROS.Where(p => p.Fecha >= Inicio &&
+                                      p.Fecha <= Fin &&
+                                      p.Tipo == items.categoria).ToList()
+                                     select s;
+
+                        foreach (var item in result)
+                        {
+                            cantidad = result.Count();
+                            i++;
+                            backgroundWorker1.ReportProgress(i);
+
+                            if (cancelEjercicio == 1)
+                            {
+                                break;
+                            }
+
+                            dt.Rows.Add(item.Contrato, Convert.ToDateTime(item.Fecha).ToString("dd-MM-yyyy"), item.Bolsa,
+                                item.Descripcion, item.SubDescripcion,
+                                item.Tipo, Convert.ToDecimal(item.Avaluo), item.Estatus_Prenda, item.Condiciones,
+                                item.Cantidad, item.Localidad, item.Ubicacion, item.Posicion,
+                                item.sucursal, item.registro, item.NO,
+                                item.folio, item.origen, Convert.ToDecimal(item.prestamo), item.INT, item.detalles, item.caja,
+                                item.detalles_art, item.modelo, item.noserie);
+
+
+                        }
+                        i = 0;
+
 
 
                     }
-                    i = 0;
-
-
 
                 }
-
-            }
-            else
-            {
-
-                dt.TableName = "BolsasOro";
-                dt.Columns.AddRange(new DataColumn[22]
+                else
                 {
+
+                    dt.TableName = "BolsasOro";
+                    dt.Columns.AddRange(new DataColumn[22]
+                    {
 
                  new DataColumn("Contrato",typeof(Int32)),
                  new DataColumn("Fecha"),
@@ -580,42 +663,47 @@ namespace AudSemp.Forms
                  new DataColumn("caja"),
                  new DataColumn("pneto")
 
-                });
+                    });
 
-                foreach (var items in tipos)
-                {
-
-                    var result = from s in db.bolsas_ORO.Where(p => p.Fecha >= Inicio &&
-                                  p.Fecha <= Fin &&
-                                  p.Tipo == items.categoria).ToList()
-                                 select s;
-
-                    foreach (var item in result)
+                    foreach (var items in tipos)
                     {
-                        cantidad = result.Count();
-                        i++;
-                        backgroundWorker1.ReportProgress(i);
 
-                        dt.Rows.Add(item.Contrato, Convert.ToDateTime(item.Fecha).ToString("dd-MM-yyyy"), item.Bolsa,
-                            item.Descripcion, item.SubDescripcion, item.Kilates, item.PesoReal,
-                            item.Tipo, Convert.ToDecimal(item.Avaluo), Convert.ToDecimal(item.Prestamo), item.EstatusPrenda, item.Cantidad,
-                            item.Localidad, item.Ubicacion, item.Posicion, item.registro,
-                            item.folio, item.origen, item.INT, item.condiciones, item.caja,
-                            item.pneto);
+                        var result = from s in db.bolsas_ORO.Where(p => p.Fecha >= Inicio &&
+                                      p.Fecha <= Fin &&
+                                      p.Tipo == items.categoria).ToList()
+                                     select s;
+
+                        foreach (var item in result)
+                        {
+                            cantidad = result.Count();
+                            i++;
+                            backgroundWorker1.ReportProgress(i);
+
+                            if (cancelEjercicio == 1)
+                            {
+                                break;
+                            }
+
+                            dt.Rows.Add(item.Contrato, Convert.ToDateTime(item.Fecha).ToString("dd-MM-yyyy"), item.Bolsa,
+                                item.Descripcion, item.SubDescripcion, item.Kilates, item.PesoReal,
+                                item.Tipo, Convert.ToDecimal(item.Avaluo), Convert.ToDecimal(item.Prestamo), item.EstatusPrenda, item.Cantidad,
+                                item.Localidad, item.Ubicacion, item.Posicion, item.registro,
+                                item.folio, item.origen, item.INT, item.condiciones, item.caja,
+                                item.pneto);
+
+
+                        }
+
+                        i = 0;
 
 
                     }
-
-                    i = 0;
 
 
                 }
 
 
             }
-
-
-
             DataView dataView = new DataView(dt);
 
 
@@ -687,8 +775,24 @@ namespace AudSemp.Forms
 
         }
 
+
         #endregion
 
-       
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            if (dt.Rows.Count > 0)
+            {
+                VistaPreviaForm vista = new VistaPreviaForm();
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.vistaM = dt;
+                vista.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+        }
     }
 }

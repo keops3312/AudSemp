@@ -63,7 +63,12 @@ namespace AudSemp.Forms
         string ruta;
         int cantidad = 0;
 
-      
+        //variable to cancel progress
+        public int cancelEjercicio;
+        //table to report
+        DataTable dt = new DataTable("CajaAuxiliar");
+
+
         #endregion
 
         #region Events (Eventos)
@@ -139,6 +144,28 @@ namespace AudSemp.Forms
 
         private void btnExportar_Click(object sender, EventArgs e)
         {
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
+                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (result == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+
+                }
+
+
+            }
+
+
+
+
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
 
             saveFileDialog1.Filter = "Excel files (*.xlsx)|*.xlsx";
@@ -178,6 +205,27 @@ namespace AudSemp.Forms
 
         private void btnReporte_Click(object sender, EventArgs e)
         {
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult resulta = MessageBox.Show("¿Crear Ejercicio Anterior?" +
+                    "Si(Crea) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (resulta == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+
+                }
+
+
+            }
+
+
             DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
               MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             switch (result)
@@ -209,10 +257,12 @@ namespace AudSemp.Forms
 
             if (backgroundWorker1.WorkerSupportsCancellation == true)
             {
-               
+
                 backgroundWorker1.CancelAsync();
-              
+                backgroundWorker1.ReportProgress(0);
+                cancelEjercicio = 1;
                 prg1.Value = 0;
+
 
                 btnExportar.Enabled = true;
                 btnReporte.Enabled = true;
@@ -311,6 +361,21 @@ namespace AudSemp.Forms
      
         public void load()
         {
+          
+            dt.Columns.AddRange(new DataColumn[9]
+            {
+                    new DataColumn("Folio"),
+                    new DataColumn("Acumulado",typeof(double)),
+                    new DataColumn("FechaPrimMov",typeof(DateTime)),
+                    new DataColumn("FechaUltMov",typeof(DateTime)),
+                    new DataColumn("Comentario"),
+                    new DataColumn("ultimoEstatus"),
+                    new DataColumn("ultimaOperacion"),
+                    new DataColumn("ultimoMovimiento"),
+                    new DataColumn("Descripcion")
+
+            });
+
             HistorialApartadosPresenter HistorialApPresenter = new HistorialApartadosPresenter(this);
             HistorialApPresenter.TiposEstatus();
             HistorialApPresenter.timeInicio();
@@ -435,20 +500,7 @@ namespace AudSemp.Forms
           List<Estatus> Estatus)
         {
 
-            DataTable dt = new DataTable("CajaAuxiliar");
-            dt.Columns.AddRange(new DataColumn[9]
-            {
-                    new DataColumn("Folio"),
-                    new DataColumn("Acumulado",typeof(double)),
-                    new DataColumn("FechaPrimMov",typeof(DateTime)),
-                    new DataColumn("FechaUltMov",typeof(DateTime)),
-                    new DataColumn("Comentario"),
-                    new DataColumn("ultimoEstatus"),
-                    new DataColumn("ultimaOperacion"),
-                    new DataColumn("ultimoMovimiento"),
-                    new DataColumn("Descripcion")
-                     
-            });
+          
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
             DateTime Fin = DateTime.Parse(fechaFin);
@@ -456,83 +508,91 @@ namespace AudSemp.Forms
 
             int i = 0;
 
-         
-           
+
+            if (dt.Rows.Count == 0)
+            {
 
                 foreach (var itemEstatus in Estatus)
                 {
 
-                var result = (from p in db.CAJA_AUXILIAR
-                              where p.Folio.Contains("A-") &&
-                               p.Fecha >= Inicio &&
-                               p.Fecha <= Fin 
-                               select p.Folio).Distinct();
+                    var result = (from p in db.CAJA_AUXILIAR
+                                  where p.Folio.Contains("A-") &&
+                                   p.Fecha >= Inicio &&
+                                   p.Fecha <= Fin
+                                  select p.Folio).Distinct();
 
 
 
 
-                foreach (var item in result)
-                {
-                    cantidad = result.Count();
-                    i++;
-                    backgroundWorker1.ReportProgress(i);
-                    using (SqlConnection cnx = new SqlConnection(CNX))
+                    foreach (var item in result)
                     {
-                        cnx.Open();
+                        cantidad = result.Count();
+                        i++;
+                        backgroundWorker1.ReportProgress(i);
 
-                        using (SqlDataAdapter command = new SqlDataAdapter(" SELECT folio," +
-                                        " SUM(CAST(abono AS decimal))  as Acumulado, " +
-                                         " min(fecha) as fechaPrimMov, " +
-                                          " max(fecha) as fechaUltMov, " +
-                                          " max(Comentario) as Comentario, " +
-                                          " max(status) as ultimoEstatus, " +
-                                          " max(Apartado_no) as ultimaOperacion, " +
-                                         " max(mov) as ultimoMovimiento, " +
-                                          " max(concepto) as descripcion " +
-                                          " FROM CAJA_AUXILIAR where folio='" + item.ToString() + "' GROUP BY Folio", cnx))
+                        if (cancelEjercicio == 1)
                         {
-                            DataTable model = new DataTable();
-                            model.Clear();
-                            command.Fill(model);
+                            break;
+                        }
 
-                            string compare = model.Rows[0][5].ToString();
-                            if (compare ==itemEstatus.estatu)
+
+                        using (SqlConnection cnx = new SqlConnection(CNX))
+                        {
+                            cnx.Open();
+
+                            using (SqlDataAdapter command = new SqlDataAdapter(" SELECT folio," +
+                                            " SUM(CAST(abono AS decimal))  as Acumulado, " +
+                                             " min(fecha) as fechaPrimMov, " +
+                                              " max(fecha) as fechaUltMov, " +
+                                              " max(Comentario) as Comentario, " +
+                                              " max(status) as ultimoEstatus, " +
+                                              " max(Apartado_no) as ultimaOperacion, " +
+                                             " max(mov) as ultimoMovimiento, " +
+                                              " max(concepto) as descripcion " +
+                                              " FROM CAJA_AUXILIAR where folio='" + item.ToString() + "' GROUP BY Folio", cnx))
                             {
-                                dt.Rows.Add(model.Rows[0][0].ToString(),
-                              Convert.ToDecimal(model.Rows[0][1].ToString()),
-                              Convert.ToDateTime(model.Rows[0][2].ToString()).ToString("yyyy-MM-dd"),
-                              Convert.ToDateTime(model.Rows[0][3].ToString()).ToString("yyyy-MM-dd"),
-                              model.Rows[0][4].ToString(),
-                              model.Rows[0][5].ToString(),
-                              model.Rows[0][6].ToString(),
-                              model.Rows[0][7].ToString(),
-                              model.Rows[0][8].ToString());
+                                DataTable model = new DataTable();
+                                model.Clear();
+                                command.Fill(model);
+
+                                string compare = model.Rows[0][5].ToString();
+                                if (compare == itemEstatus.estatu)
+                                {
+                                    dt.Rows.Add(model.Rows[0][0].ToString(),
+                                  Convert.ToDecimal(model.Rows[0][1].ToString()),
+                                  Convert.ToDateTime(model.Rows[0][2].ToString()).ToString("yyyy-MM-dd"),
+                                  Convert.ToDateTime(model.Rows[0][3].ToString()).ToString("yyyy-MM-dd"),
+                                  model.Rows[0][4].ToString(),
+                                  model.Rows[0][5].ToString(),
+                                  model.Rows[0][6].ToString(),
+                                  model.Rows[0][7].ToString(),
+                                  model.Rows[0][8].ToString());
+
+                                }
+
+
+
+
+
 
                             }
 
 
 
-
-
-
                         }
-
-
 
                     }
 
+                    i = 0;
                 }
 
-                i = 0;
-                }
-
-
+            }
 
           
 
 
             DataView dataView = new DataView(dt);
-            dt = new DataTable();
+           // dt = new DataTable();
 
 
             mode = tipoOrden + modoOrden;
@@ -591,9 +651,25 @@ namespace AudSemp.Forms
 
         }
 
+
+
         #endregion
 
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            if (dt.Rows.Count > 0)
+            {
+                VistaPreviaForm vista = new VistaPreviaForm();
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.vistaM = dt;
+                vista.Show();
 
+            }
+            else
+            {
+                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+            }
+        }
     }
 }

@@ -48,6 +48,7 @@
             this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
             this.btnReporte = new DevComponents.DotNetBar.ButtonX();
             this.btnExportar = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
             ((System.ComponentModel.ISupportInitialize)(this.dtFin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtInicio)).BeginInit();
             this.SuspendLayout();
@@ -59,7 +60,7 @@
             // 
             // 
             this.lblProgress.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblProgress.Location = new System.Drawing.Point(692, 224);
+            this.lblProgress.Location = new System.Drawing.Point(759, 224);
             this.lblProgress.Name = "lblProgress";
             this.lblProgress.Size = new System.Drawing.Size(213, 23);
             this.lblProgress.TabIndex = 36;
@@ -296,7 +297,7 @@
             this.prg1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
             this.prg1.Location = new System.Drawing.Point(0, 224);
             this.prg1.Name = "prg1";
-            this.prg1.Size = new System.Drawing.Size(687, 23);
+            this.prg1.Size = new System.Drawing.Size(754, 23);
             this.prg1.TabIndex = 21;
             this.prg1.Text = "progressBarX1";
             // 
@@ -314,7 +315,7 @@
             this.crystalReportViewer1.ShowLogo = false;
             this.crystalReportViewer1.ShowParameterPanelButton = false;
             this.crystalReportViewer1.ShowRefreshButton = false;
-            this.crystalReportViewer1.Size = new System.Drawing.Size(936, 392);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(1003, 392);
             this.crystalReportViewer1.TabIndex = 20;
             this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
@@ -333,7 +334,7 @@
             this.btnCancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnCancel.Image = global::AudSemp.Properties.Resources.close1;
             this.btnCancel.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnCancel.Location = new System.Drawing.Point(834, 87);
+            this.btnCancel.Location = new System.Drawing.Point(913, 87);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(71, 54);
             this.btnCancel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -347,7 +348,7 @@
             this.btnRegresar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnRegresar.Image = global::AudSemp.Properties.Resources.Back;
             this.btnRegresar.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnRegresar.Location = new System.Drawing.Point(841, 167);
+            this.btnRegresar.Location = new System.Drawing.Point(920, 167);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(64, 51);
             this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -361,7 +362,7 @@
             this.btnReporte.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnReporte.Image = global::AudSemp.Properties.Resources.crystal_reports_logo1;
             this.btnReporte.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnReporte.Location = new System.Drawing.Point(834, 29);
+            this.btnReporte.Location = new System.Drawing.Point(829, 29);
             this.btnReporte.Name = "btnReporte";
             this.btnReporte.Size = new System.Drawing.Size(71, 52);
             this.btnReporte.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -375,19 +376,34 @@
             this.btnExportar.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnExportar.Image = global::AudSemp.Properties.Resources.excelfile_29;
             this.btnExportar.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnExportar.Location = new System.Drawing.Point(757, 29);
+            this.btnExportar.Location = new System.Drawing.Point(752, 29);
             this.btnExportar.Name = "btnExportar";
             this.btnExportar.Size = new System.Drawing.Size(71, 52);
             this.btnExportar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnExportar.TabIndex = 27;
             this.btnExportar.Click += new System.EventHandler(this.btnExportar_Click);
             // 
+            // buttonX1
+            // 
+            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX1.Image = global::AudSemp.Properties.Resources.Previa_fw;
+            this.buttonX1.ImageFixedSize = new System.Drawing.Size(48, 48);
+            this.buttonX1.Location = new System.Drawing.Point(912, 29);
+            this.buttonX1.Name = "buttonX1";
+            this.buttonX1.Size = new System.Drawing.Size(72, 52);
+            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX1.TabIndex = 57;
+            this.buttonX1.Click += new System.EventHandler(this.buttonX1_Click);
+            // 
             // InventariosForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(935, 645);
+            this.ClientSize = new System.Drawing.Size(1002, 645);
             this.ControlBox = false;
+            this.Controls.Add(this.buttonX1);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.lblProgress);
             this.Controls.Add(this.btnRegresar);
@@ -439,5 +455,6 @@
         private DevComponents.DotNetBar.Controls.ProgressBarX prg1;
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private DevComponents.DotNetBar.ButtonX buttonX1;
     }
 }

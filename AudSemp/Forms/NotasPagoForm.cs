@@ -57,12 +57,65 @@ namespace AudSemp.Forms
         public string mode;
         string ruta;
         int cantidad = 0;
+        //variable to cancel progress
+        public int cancelEjercicio;
+        //table to report
+        DataTable dt = new DataTable("Facturas");
         #endregion
 
 
         #region Methods (Metodos)
         public void load()
         {
+
+          
+            dt.Columns.AddRange(new DataColumn[40]
+            {
+
+                    new DataColumn("Factura"),
+                    new DataColumn("FechaFact",typeof(DateTime)),
+                    new DataColumn("HoraFact"),
+                    new DataColumn("Contrato",typeof(Int32)),
+                    new DataColumn("Bolsa"),
+                    new DataColumn("Folio"),
+                    new DataColumn("DescripcionFact"),
+                    new DataColumn("ImporteFact"),
+                    new DataColumn("IVAFact"),
+                    new DataColumn("TotalFact"),
+                    new DataColumn("IdCliente"),
+                    new DataColumn("Comentario"),
+                    new DataColumn("Abono"),
+                    new DataColumn("R-D"),
+                    new DataColumn("NO"),
+                    new DataColumn("caja"),
+                    new DataColumn("Gastos_Operacion"),
+                    new DataColumn("gastos"),
+                    new DataColumn("descuento_gastos_op"),
+                    new DataColumn("total gastos_op"),
+                    new DataColumn("leyendas"),
+                    new DataColumn("leyenda2"),
+                    new DataColumn("leyenda3"),
+                    new DataColumn("STATUS"),
+                    new DataColumn("origen"),
+                    new DataColumn("cliente_Promocion"),
+                    new DataColumn("Nota"),
+                    new DataColumn("antes_refrendo"),
+                    new DataColumn("ahora_refrendo"),
+                    new DataColumn("antes_desempeño"),
+                    new DataColumn("ahora_desempeño"),
+                    new DataColumn("descuento_preferente"),
+                    new DataColumn("leyendag"),
+                    new DataColumn("leyendadescg"),
+                    new DataColumn("leyendatotalg"),
+                    new DataColumn("leyendaA"),
+                    new DataColumn("plazo"),
+                    new DataColumn("interes_N"),
+                    new DataColumn("interes_A"),
+                    new DataColumn("realizo")
+
+            });
+
+
             NotaPagoPresenter notaPagoPresenter = new NotaPagoPresenter(this);
             notaPagoPresenter.TiposEstatus();
             notaPagoPresenter.TiposRd();
@@ -246,52 +299,7 @@ namespace AudSemp.Forms
         {
 
 
-            DataTable dt = new DataTable("Facturas");
-            dt.Columns.AddRange(new DataColumn[40]
-            {
-              
-                    new DataColumn("Factura"),
-                    new DataColumn("FechaFact",typeof(DateTime)),
-                    new DataColumn("HoraFact"),
-                    new DataColumn("Contrato",typeof(Int32)),
-                    new DataColumn("Bolsa"),
-                    new DataColumn("Folio"),
-                    new DataColumn("DescripcionFact"),
-                    new DataColumn("ImporteFact"),
-                    new DataColumn("IVAFact"),
-                    new DataColumn("TotalFact"),
-                    new DataColumn("IdCliente"),
-                    new DataColumn("Comentario"),
-                    new DataColumn("Abono"),
-                    new DataColumn("R-D"),
-                    new DataColumn("NO"),
-                    new DataColumn("caja"),
-                    new DataColumn("Gastos_Operacion"),
-                    new DataColumn("gastos"),
-                    new DataColumn("descuento_gastos_op"),
-                    new DataColumn("total gastos_op"),
-                    new DataColumn("leyendas"),
-                    new DataColumn("leyenda2"),
-                    new DataColumn("leyenda3"),
-                    new DataColumn("STATUS"),
-                    new DataColumn("origen"),
-                    new DataColumn("cliente_Promocion"),
-                    new DataColumn("Nota"),
-                    new DataColumn("antes_refrendo"),
-                    new DataColumn("ahora_refrendo"),
-                    new DataColumn("antes_desempeño"),
-                    new DataColumn("ahora_desempeño"),
-                    new DataColumn("descuento_preferente"),
-                    new DataColumn("leyendag"),
-                    new DataColumn("leyendadescg"),
-                    new DataColumn("leyendatotalg"),
-                    new DataColumn("leyendaA"),
-                    new DataColumn("plazo"),
-                    new DataColumn("interes_N"),
-                    new DataColumn("interes_A"),
-                    new DataColumn("realizo")
-                    
-            });
+        
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
             DateTime Fin = DateTime.Parse(fechaFin);
@@ -299,47 +307,65 @@ namespace AudSemp.Forms
 
             int i = 0;
 
-            foreach (var items in tipos)
+
+
+            if (dt.Rows.Count == 0)
             {
 
 
-                foreach (var itemEstatus in Estatus)
+                foreach (var items in tipos)
                 {
-                    var result = from s in db.facturas.Where(p => p.FechaFact >= Inicio &&
-                                      p.FechaFact <= Fin &&
-                                      p.R_D == items.categoria &&
-                                      p.STATUS == itemEstatus.estatu).ToList()
-                                 select s;
 
 
-
-                    foreach (var item in result)
+                    foreach (var itemEstatus in Estatus)
                     {
-                        cantidad = result.Count();
-                        i++;
-                        backgroundWorker1.ReportProgress(i);
-
-                        dt.Rows.Add(item.Factura, DateTime.Parse(item.FechaFact.ToString()), item.HoraFact,
-                            int.Parse(item.Contrato.ToString()), int.Parse(item.Bolsa.ToString()), item.Folio, item.DescripcionFact,
-                           decimal.Parse(item.ImporteFact.ToString()), decimal.Parse(item.IVAFact.ToString()), decimal.Parse(item.TotalFact.ToString()), item.IdCliente, item.Comentario,
-                            item.Abono, item.R_D, item.NO, item.caja,
-                            item.Gastos_Operacion, item.gastos, item.descuento_gastos_op, item.total_gastos_op, item.leyendas,
-                            item.leyenda2, item.leyenda3, item.STATUS,
-                            item.origen, item.cliente_Promocion, item.Nota, item.antes_refrendo, item.ahora_refrendo,
-                            item.antes_desempeño, item.ahora_desempeño, item.descuento_preferente, item.leyendag, item.leyendadescg, item.leyendatotalg,
-                            item.leyendaA, item.plazo, item.interes_N, item.interes_A, item.realizo);
+                        var result = from s in db.facturas.Where(p => p.FechaFact >= Inicio &&
+                                          p.FechaFact <= Fin &&
+                                          p.R_D == items.categoria &&
+                                          p.STATUS == itemEstatus.estatu).ToList()
+                                     select s;
 
 
+
+                        foreach (var item in result)
+                        {
+                            cantidad = result.Count();
+                            i++;
+                            backgroundWorker1.ReportProgress(i);
+
+
+                            if (cancelEjercicio == 1)
+                            {
+                                break;
+                            }
+
+                            dt.Rows.Add(item.Factura, DateTime.Parse(item.FechaFact.ToString()), item.HoraFact,
+                                int.Parse(item.Contrato.ToString()), int.Parse(item.Bolsa.ToString()), item.Folio, item.DescripcionFact,
+                               decimal.Parse(item.ImporteFact.ToString()), decimal.Parse(item.IVAFact.ToString()), decimal.Parse(item.TotalFact.ToString()), item.IdCliente, item.Comentario,
+                                item.Abono, item.R_D, item.NO, item.caja,
+                                item.Gastos_Operacion, item.gastos, item.descuento_gastos_op, item.total_gastos_op, item.leyendas,
+                                item.leyenda2, item.leyenda3, item.STATUS,
+                                item.origen, item.cliente_Promocion, item.Nota, item.antes_refrendo, item.ahora_refrendo,
+                                item.antes_desempeño, item.ahora_desempeño, item.descuento_preferente, item.leyendag, item.leyendadescg, item.leyendatotalg,
+                                item.leyendaA, item.plazo, item.interes_N, item.interes_A, item.realizo);
+
+
+                        }
+                        i = 0;
                     }
-                    i = 0;
+
+
+
                 }
 
 
 
             }
 
+
+
             DataView dataView = new DataView(dt);
-            dt = new DataTable();
+           // dt = new DataTable();
 
             //ORDER MODE
             mode = tipoOrden + modoOrden;
@@ -498,6 +524,30 @@ namespace AudSemp.Forms
 
         private void btnExportar_Click(object sender, EventArgs e)
         {
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
+                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (result == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+
+                }
+
+
+            }
+
+
+
+
+
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
 
             saveFileDialog1.Filter = "Excel files (*.xlsx)|*.xlsx";
@@ -537,6 +587,28 @@ namespace AudSemp.Forms
 
         private void btnReporte_Click(object sender, EventArgs e)
         {
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult resulta = MessageBox.Show("¿Crear Ejercicio Anterior?" +
+                    "Si(Crea) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (resulta == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+
+                }
+
+
+            }
+
+
+
             DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
           MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             switch (result)
@@ -646,7 +718,24 @@ namespace AudSemp.Forms
             btnReporte.Enabled = true;
             btnRegresar.Enabled = true;
             btnCancel.Visible = false;
-        } 
+        }
         #endregion
+
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            if (dt.Rows.Count > 0)
+            {
+                VistaPreviaForm vista = new VistaPreviaForm();
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.vistaM = dt;
+                vista.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+        }
     }
 }

@@ -50,7 +50,10 @@ namespace AudSemp.Forms
         public string loc;
         public string mode;
         string ruta;
-       
+        //variable to cancel progress
+        public int cancelEjercicio;
+        //table to report
+        DataTable dt = new DataTable();
 
         #endregion
 
@@ -134,18 +137,23 @@ namespace AudSemp.Forms
 
         public void Export(string fechaInicio, string fechaFin, string tipoOrden, string modoOrden)
         {
-            DataTable dt = new DataTable();
+           // DataTable dt = new DataTable();
             DateTime Inicio = DateTime.Parse(fechaInicio);
             DateTime Fin = DateTime.Parse(fechaFin);
 
 
             int i = 0;
 
-            if (OpcionDR == "Depositos")
+
+
+            if (dt.Rows.Count == 0)
             {
-                dt.TableName ="Depositos";
-                dt.Columns.AddRange(new DataColumn[7]
+
+                if (OpcionDR == "Depositos")
                 {
+                    dt.TableName = "Depositos";
+                    dt.Columns.AddRange(new DataColumn[7]
+                    {
                     new DataColumn("no"),
                     new DataColumn("deposito",typeof(double)),
                     new DataColumn("fecha",typeof(DateTime)),
@@ -153,34 +161,41 @@ namespace AudSemp.Forms
                     new DataColumn("caja"),
                     new DataColumn("comentario"),
                     new DataColumn("tipo_deposito"),
-                   
-                 });
-                var result = db.depositos.Where(p => p.fecha >= Inicio &&
-                                  p.fecha <= Fin
-                                  ).ToList();
+
+                     });
+                    var result = db.depositos.Where(p => p.fecha >= Inicio &&
+                                      p.fecha <= Fin
+                                      ).ToList();
 
 
-                foreach (var item in result)
-                {
-                    cantidad = result.Count();
-                    i++;
-                    backgroundWorker1.ReportProgress(i);
+                    foreach (var item in result)
+                    {
+                        cantidad = result.Count();
+                        i++;
+                        backgroundWorker1.ReportProgress(i);
 
-                    dt.Rows.Add(item.no, Convert.ToDecimal(item.deposito),
-                        Convert.ToDateTime(item.fecha).ToString("yyyy-MM-dd"),
-                        item.realizo, item.caja, item.comentario,
-                        item.tipo_deposito
-                        );
+                        if (cancelEjercicio == 1)
+                        {
+                            break;
+                        }
 
 
+
+                        dt.Rows.Add(item.no, Convert.ToDecimal(item.deposito),
+                            Convert.ToDateTime(item.fecha).ToString("yyyy-MM-dd"),
+                            item.realizo, item.caja, item.comentario,
+                            item.tipo_deposito
+                            );
+
+
+                    }
+                    i = 0;
                 }
-                i = 0;
-            }
-            else
-            {
-                dt.TableName = "Retiros";
-                dt.Columns.AddRange(new DataColumn[14]
-               {
+                else
+                {
+                    dt.TableName = "Retiros";
+                    dt.Columns.AddRange(new DataColumn[14]
+                   {
                     new DataColumn("caja"),
                     new DataColumn("numcaja"),
                     new DataColumn("pertenecea"),
@@ -196,30 +211,40 @@ namespace AudSemp.Forms
                     new DataColumn("comprobacionno"),
                     new DataColumn("folio"),
 
-                });
+                    });
 
-                var result2 = db.Retiros.Where(p => p.fecha >= Inicio &&
-                                    p.fecha <= Fin
-                                    ).ToList();
-               
-                foreach (var item in result2)
-                {
-                    cantidad = result2.Count();
-                    i++;
-                    backgroundWorker1.ReportProgress(i);
+                    var result2 = db.Retiros.Where(p => p.fecha >= Inicio &&
+                                        p.fecha <= Fin
+                                        ).ToList();
 
-                    dt.Rows.Add(item.caja, item.numcaja, item.pertenecea,
-                     Convert.ToDecimal(item.cantidad), item.concepto,
-                     item.descripcion, item.estatus,Convert.ToDateTime(item.fecha).ToString("yyyy-MM-dd"),
-                     item.hora,item.autorizo, item.usuario, item.nooperador, item.comprobacionno,
-                     item.folio
-                     );
+                    foreach (var item in result2)
+                    {
+                        cantidad = result2.Count();
+                        i++;
+                        backgroundWorker1.ReportProgress(i);
+
+                        if (cancelEjercicio == 1)
+                        {
+                            break;
+                        }
+
+
+
+
+                        dt.Rows.Add(item.caja, item.numcaja, item.pertenecea,
+                         Convert.ToDecimal(item.cantidad), item.concepto,
+                         item.descripcion, item.estatus, Convert.ToDateTime(item.fecha).ToString("yyyy-MM-dd"),
+                         item.hora, item.autorizo, item.usuario, item.nooperador, item.comprobacionno,
+                         item.folio
+                         );
+                    }
+                    i = 0;
                 }
-                i = 0;
+
             }
 
             DataView dataView = new DataView(dt);
-            dt = new DataTable();
+           // dt = new DataTable();
 
             //ORDER MODE
 
@@ -362,6 +387,28 @@ namespace AudSemp.Forms
 
         private void btnExportar_Click(object sender, EventArgs e)
         {
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
+                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (result == DialogResult.No)
+                {
+
+                    dt.Clear();
+                    dt.Reset();
+
+
+                }
+
+
+            }
+
+
+
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
 
             saveFileDialog1.Filter = "Excel files (*.xlsx)|*.xlsx";
@@ -401,6 +448,28 @@ namespace AudSemp.Forms
 
         private void btnReporte_Click(object sender, EventArgs e)
         {
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult resulta = MessageBox.Show("¿Crear Ejercicio Anterior?" +
+                    "Si(Crea) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (resulta == DialogResult.No)
+                {
+
+                    dt.Clear();
+                    dt.Reset();
+
+
+                }
+
+
+            }
+
+
             DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
           MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             switch (result)
@@ -431,12 +500,23 @@ namespace AudSemp.Forms
         {
             if (backgroundWorker1.WorkerSupportsCancellation == true)
             {
+
+
+
                 backgroundWorker1.CancelAsync();
+                backgroundWorker1.ReportProgress(0);
+                cancelEjercicio = 1;
+                prg1.Value = 0;
+
+
                 btnExportar.Enabled = true;
                 btnReporte.Enabled = true;
                 btnRegresar.Enabled = true;
                 btnCancel.Visible = false;
 
+
+
+              
 
 
                 MessageBox.Show("Exportacion CANCELADA",
@@ -574,8 +654,24 @@ namespace AudSemp.Forms
             btnRegresar.Enabled = true;
             btnCancel.Visible = false;
         }
+
         #endregion
 
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            if (dt.Rows.Count > 0)
+            {
+                VistaPreviaForm vista = new VistaPreviaForm();
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.vistaM = dt;
+                vista.Show();
 
+            }
+            else
+            {
+                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+        }
     }
 }

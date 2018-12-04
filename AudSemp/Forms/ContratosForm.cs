@@ -59,12 +59,39 @@ namespace AudSemp.Forms
         public string mode;
         string ruta;
         int cantidad=0;
+        //variable to cancel progress
+        public int cancelEjercicio;
+
+        DataTable dt = new DataTable("Contratos");
         #endregion
 
         #region Events (Eventos)
 
         private void btnReporte_Click(object sender, EventArgs e)
         {
+
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult resulta = MessageBox.Show("¿Crear Ejercicio Anterior?" +
+                    "Si(Crea) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (resulta == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+
+                }
+
+
+            }
+
+
+
             DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
                 MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             switch (result)
@@ -92,7 +119,27 @@ namespace AudSemp.Forms
         }
         private void btnExportar_Click(object sender, EventArgs e)
         {
-           
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
+                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (result == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+
+                }
+
+
+            }
+
+
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
 
             saveFileDialog1.Filter = "Excel files (*.xlsx)|*.xlsx";
@@ -136,6 +183,11 @@ namespace AudSemp.Forms
             if (backgroundWorker1.WorkerSupportsCancellation == true)
             {
                 backgroundWorker1.CancelAsync();
+                backgroundWorker1.ReportProgress(0);
+                cancelEjercicio = 1;
+                prg1.Value = 0;
+
+
                 btnExportar.Enabled = true;
                 btnReporte.Enabled = true;
                 btnRegresar.Enabled = true;
@@ -332,6 +384,55 @@ namespace AudSemp.Forms
         }
         public void load()
         {
+
+
+            dt.Columns.AddRange(new DataColumn[40]
+          {
+            new DataColumn("Folio"),
+            new DataColumn("Contrato",typeof(Int32)),
+            new DataColumn("Fecha"),
+            new DataColumn("Bolsa",typeof(Int32)),
+            new DataColumn("IdClientes"),
+            new DataColumn("NCliente"),
+            new DataColumn("AutorizoA"),
+            new DataColumn("Plazo"),
+            new DataColumn("Status"),
+            new DataColumn("FechaDesemp"),
+            new DataColumn("Comentario"),
+            new DataColumn("Dias"),
+            new DataColumn("FechaCons",typeof(DateTime)),
+            new DataColumn("Prestamo",typeof(double)),
+            new DataColumn("Interes"),
+            new DataColumn("seguro"),
+            new DataColumn("almacenaje"),
+            new DataColumn("plazo1"),
+            new DataColumn("plazo2"),
+            new DataColumn("plazo3"),
+            new DataColumn("avaluo"),
+            new DataColumn("valuacion_tipo"),
+            new DataColumn("cancelado"),
+            new DataColumn("comentariocancelado"),
+            new DataColumn("prestamoprom"),
+            new DataColumn("origen"),
+            new DataColumn("folioavaluo"),
+            new DataColumn("clasificacion"),
+            new DataColumn("santerior"),
+            new DataColumn("caja"),
+            new DataColumn("pension"),
+            new DataColumn("Rev"),
+            new DataColumn("reg"),
+            new DataColumn("temp"),
+            new DataColumn("VenOVig"),
+            new DataColumn("realizo"),
+            new DataColumn("CobroOriginal"),
+            new DataColumn("BLOQUEADO_COMENTARIO"),
+             new DataColumn("NoPrendas"),
+             new DataColumn("DescPrendas")
+
+
+
+          });
+
             ContratosPresenter contratosPresenter = new ContratosPresenter(this);
             contratosPresenter.TiposEstatus();
             contratosPresenter.TiposPrenda();
@@ -507,53 +608,8 @@ namespace AudSemp.Forms
         {
            
 
-            DataTable dt = new DataTable("Contratos");
-            dt.Columns.AddRange(new DataColumn[40]
-            {
-            new DataColumn("Folio"),
-            new DataColumn("Contrato",typeof(Int32)),
-            new DataColumn("Fecha"),
-            new DataColumn("Bolsa",typeof(Int32)),
-            new DataColumn("IdClientes"),
-            new DataColumn("NCliente"),
-            new DataColumn("AutorizoA"),
-            new DataColumn("Plazo"),
-            new DataColumn("Status"),
-            new DataColumn("FechaDesemp"),
-            new DataColumn("Comentario"),
-            new DataColumn("Dias"),
-            new DataColumn("FechaCons",typeof(DateTime)),
-            new DataColumn("Prestamo",typeof(double)),
-            new DataColumn("Interes"),
-            new DataColumn("seguro"),
-            new DataColumn("almacenaje"),
-            new DataColumn("plazo1"),
-            new DataColumn("plazo2"),
-            new DataColumn("plazo3"),
-            new DataColumn("avaluo"),
-            new DataColumn("valuacion_tipo"),
-            new DataColumn("cancelado"),
-            new DataColumn("comentariocancelado"),
-            new DataColumn("prestamoprom"),
-            new DataColumn("origen"),
-            new DataColumn("folioavaluo"),
-            new DataColumn("clasificacion"),
-            new DataColumn("santerior"),
-            new DataColumn("caja"),
-            new DataColumn("pension"),
-            new DataColumn("Rev"),
-            new DataColumn("reg"),
-            new DataColumn("temp"),
-            new DataColumn("VenOVig"),
-            new DataColumn("realizo"),
-            new DataColumn("CobroOriginal"),
-            new DataColumn("BLOQUEADO_COMENTARIO"),
-             new DataColumn("NoPrendas"),
-             new DataColumn("DescPrendas")
-
-
-
-            });
+           
+          
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
             DateTime Fin = DateTime.Parse(fechaFin);
@@ -562,73 +618,81 @@ namespace AudSemp.Forms
             int i = 0;
           
             string descbolsa="";
-            
-            foreach (var items in tipos)
+
+
+            if (dt.Rows.Count == 0)
             {
 
-
-                foreach (var itemEstatus in Estatus)
+                foreach (var items in tipos)
                 {
-                    var result = from s in db.contratos.Where(p => p.FechaCons >= Inicio &&
-                                      p.FechaCons <= Fin &&
-                                      p.valuacion_tipo == items.categoria &&
-                                      p.Status == itemEstatus.estatu).ToList()
-                                 select s;
 
 
-
-                    foreach (var item in result)
+                    foreach (var itemEstatus in Estatus)
                     {
-                        cantidad= result.Count();
-                        i++;
-                        backgroundWorker1.ReportProgress(i);
+                        var result = from s in db.contratos.Where(p => p.FechaCons >= Inicio &&
+                                          p.FechaCons <= Fin &&
+                                          p.valuacion_tipo == items.categoria &&
+                                          p.Status == itemEstatus.estatu).ToList()
+                                     select s;
 
 
-                        if (item.valuacion_tipo == "Joyeria")
+
+                        foreach (var item in result)
                         {
-                            cantidad = db.bolsas_ORO.Count(a => a.Contrato == item.Contrato);
-                            //var descrp = db.bolsas_ORO
-                            //    .Where(a => a.Contrato == item.Contrato)
-                            //    .First();
-                            //descbolsa = descrp.Descripcion + " " + descrp.SubDescripcion;
+                            cantidad = result.Count();
+                            i++;
+                            backgroundWorker1.ReportProgress(i);
+
+                            if (cancelEjercicio == 1)
+                            {
+                                break;
+                            }
+
+                            if (item.valuacion_tipo == "Joyeria")
+                            {
+                                cantidad = db.bolsas_ORO.Count(a => a.Contrato == item.Contrato);
+                                //var descrp = db.bolsas_ORO
+                                //    .Where(a => a.Contrato == item.Contrato)
+                                //    .First();
+                                //descbolsa = descrp.Descripcion + " " + descrp.SubDescripcion;
+                            }
+                            else
+                            {
+                                cantidad = db.bolsas_OTROS.Count(a => a.Contrato == item.Contrato);
+                                //var descrp1 = db.bolsas_OTROS
+                                //    .Where(a => a.Contrato == item.Contrato)
+                                //    .First();
+                                //descbolsa = descrp1.Descripcion + " " + descrp1.SubDescripcion;
+
+
+
+
+                            }
+
+
+                            dt.Rows.Add(item.Folio, item.Contrato, item.Fecha,
+                                item.Bolsa, item.IdClientes, item.NCliente, item.AutorizoA,
+                                item.Plazo, item.Status, item.FechaDesemp, item.Comentario, item.Dias,
+                                Convert.ToDateTime(item.FechaCons).ToString("yyyy-MM-dd"), item.Prestamo, item.Interes, item.seguro,
+                                item.almacenaje, item.plazo1, item.plazo2, item.plazo3, item.avaluo,
+                                item.valuacion_tipo, item.cancelado, item.comentariocancelado,
+                                item.prestamoprom, item.origen, item.folioavaluo, item.clasificacion, item.santerior,
+                                item.caja, item.pension, item.Rev, item.reg, item.temp, item.VenOVig,
+                                item.realizo, item.CobroOriginal, item.BLOQUEADO_COMENTARIO, cantidad, descbolsa);
+
+
                         }
-                        else
-                        {
-                            cantidad = db.bolsas_OTROS.Count(a => a.Contrato == item.Contrato);
-                            //var descrp1 = db.bolsas_OTROS
-                            //    .Where(a => a.Contrato == item.Contrato)
-                            //    .First();
-                            //descbolsa = descrp1.Descripcion + " " + descrp1.SubDescripcion;
 
-
-
-
-                        }
-                       
-
-                        dt.Rows.Add(item.Folio, item.Contrato, item.Fecha,
-                            item.Bolsa, item.IdClientes, item.NCliente, item.AutorizoA,
-                            item.Plazo, item.Status, item.FechaDesemp, item.Comentario, item.Dias,
-                            Convert.ToDateTime(item.FechaCons).ToString("yyyy-MM-dd"), item.Prestamo, item.Interes, item.seguro,
-                            item.almacenaje, item.plazo1, item.plazo2, item.plazo3, item.avaluo,
-                            item.valuacion_tipo, item.cancelado, item.comentariocancelado,
-                            item.prestamoprom, item.origen, item.folioavaluo, item.clasificacion, item.santerior,
-                            item.caja, item.pension, item.Rev, item.reg, item.temp, item.VenOVig,
-                            item.realizo, item.CobroOriginal, item.BLOQUEADO_COMENTARIO, cantidad,descbolsa);
-
-
+                        i = 0;
                     }
 
-                    i =0;
+
+
                 }
-
-
-
             }
 
-
             DataView dataView = new DataView(dt);
-            dt = new DataTable();
+            //dt = new DataTable();
            
             //ORDER MODE
            mode = tipoOrden + modoOrden;
@@ -698,8 +762,25 @@ namespace AudSemp.Forms
 
 
 
+
         #endregion
 
-       
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            if (dt.Rows.Count > 0)
+            {
+                VistaPreviaForm vista = new VistaPreviaForm();
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.vistaM = dt;
+                vista.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+
+        }
     }
 }
