@@ -58,10 +58,9 @@
             // 
             // 
             this.circularProgress1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.circularProgress1.Location = new System.Drawing.Point(275, 255);
-            this.circularProgress1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.circularProgress1.Location = new System.Drawing.Point(206, 207);
             this.circularProgress1.Name = "circularProgress1";
-            this.circularProgress1.Size = new System.Drawing.Size(157, 100);
+            this.circularProgress1.Size = new System.Drawing.Size(118, 81);
             this.circularProgress1.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.circularProgress1.TabIndex = 0;
             this.circularProgress1.Visible = false;
@@ -75,11 +74,10 @@
             this.integerInput1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.integerInput1.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
             this.integerInput1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.integerInput1.Location = new System.Drawing.Point(295, 187);
-            this.integerInput1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.integerInput1.Location = new System.Drawing.Point(221, 152);
             this.integerInput1.Name = "integerInput1";
             this.integerInput1.ShowUpDown = true;
-            this.integerInput1.Size = new System.Drawing.Size(107, 41);
+            this.integerInput1.Size = new System.Drawing.Size(80, 35);
             this.integerInput1.TabIndex = 1;
             // 
             // labelX1
@@ -88,10 +86,9 @@
             // 
             // 
             this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Location = new System.Drawing.Point(273, 151);
-            this.labelX1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelX1.Location = new System.Drawing.Point(205, 123);
             this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(149, 28);
+            this.labelX1.Size = new System.Drawing.Size(112, 23);
             this.labelX1.TabIndex = 2;
             this.labelX1.Text = "Numero de contratos";
             this.labelX1.TextAlignment = System.Drawing.StringAlignment.Center;
@@ -100,10 +97,9 @@
             // 
             this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX1.Location = new System.Drawing.Point(253, 362);
-            this.buttonX1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonX1.Location = new System.Drawing.Point(190, 294);
             this.buttonX1.Name = "buttonX1";
-            this.buttonX1.Size = new System.Drawing.Size(193, 46);
+            this.buttonX1.Size = new System.Drawing.Size(145, 37);
             this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.buttonX1.Symbol = "";
             this.buttonX1.TabIndex = 3;
@@ -114,10 +110,9 @@
             // 
             this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX2.Location = new System.Drawing.Point(253, 470);
-            this.buttonX2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonX2.Location = new System.Drawing.Point(190, 382);
             this.buttonX2.Name = "buttonX2";
-            this.buttonX2.Size = new System.Drawing.Size(193, 42);
+            this.buttonX2.Size = new System.Drawing.Size(145, 34);
             this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.buttonX2.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.buttonItem1,
@@ -155,8 +150,7 @@
             this.dateTimeInput1.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
             this.dateTimeInput1.ButtonDropDown.Visible = true;
             this.dateTimeInput1.IsPopupCalendarOpen = false;
-            this.dateTimeInput1.Location = new System.Drawing.Point(44, 302);
-            this.dateTimeInput1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimeInput1.Location = new System.Drawing.Point(33, 245);
             // 
             // 
             // 
@@ -186,7 +180,7 @@
             this.dateTimeInput1.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.dateTimeInput1.MonthCalendar.TodayButtonVisible = true;
             this.dateTimeInput1.Name = "dateTimeInput1";
-            this.dateTimeInput1.Size = new System.Drawing.Size(267, 22);
+            this.dateTimeInput1.Size = new System.Drawing.Size(200, 20);
             this.dateTimeInput1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.dateTimeInput1.TabIndex = 5;
             // 
@@ -200,8 +194,7 @@
             this.dateTimeInput2.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
             this.dateTimeInput2.ButtonDropDown.Visible = true;
             this.dateTimeInput2.IsPopupCalendarOpen = false;
-            this.dateTimeInput2.Location = new System.Drawing.Point(427, 302);
-            this.dateTimeInput2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimeInput2.Location = new System.Drawing.Point(320, 245);
             // 
             // 
             // 
@@ -231,7 +224,7 @@
             this.dateTimeInput2.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.dateTimeInput2.MonthCalendar.TodayButtonVisible = true;
             this.dateTimeInput2.Name = "dateTimeInput2";
-            this.dateTimeInput2.Size = new System.Drawing.Size(267, 22);
+            this.dateTimeInput2.Size = new System.Drawing.Size(200, 20);
             this.dateTimeInput2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.dateTimeInput2.TabIndex = 6;
             // 
@@ -241,10 +234,9 @@
             // 
             // 
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(253, 252);
-            this.labelX2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelX2.Location = new System.Drawing.Point(190, 205);
             this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(193, 28);
+            this.labelX2.Size = new System.Drawing.Size(145, 23);
             this.labelX2.TabIndex = 7;
             this.labelX2.Text = "Rango de Fechas";
             this.labelX2.TextAlignment = System.Drawing.StringAlignment.Center;
@@ -255,10 +247,9 @@
             // 
             // 
             this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Location = new System.Drawing.Point(348, 302);
-            this.labelX3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelX3.Location = new System.Drawing.Point(261, 245);
             this.labelX3.Name = "labelX3";
-            this.labelX3.Size = new System.Drawing.Size(24, 28);
+            this.labelX3.Size = new System.Drawing.Size(18, 23);
             this.labelX3.TabIndex = 8;
             this.labelX3.Text = "a";
             // 
@@ -268,10 +259,9 @@
             // 
             // 
             this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX4.Location = new System.Drawing.Point(16, 20);
-            this.labelX4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelX4.Location = new System.Drawing.Point(12, 16);
             this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(448, 28);
+            this.labelX4.Size = new System.Drawing.Size(336, 23);
             this.labelX4.TabIndex = 9;
             this.labelX4.Text = "Configure los parametros para comenzar Contratos Aleatorios";
             // 
@@ -281,12 +271,11 @@
             // 
             // 
             this.switchButton1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.switchButton1.Location = new System.Drawing.Point(264, 91);
-            this.switchButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.switchButton1.Location = new System.Drawing.Point(198, 74);
             this.switchButton1.Name = "switchButton1";
             this.switchButton1.OffText = "TODOS";
             this.switchButton1.OnText = "VIGENTES";
-            this.switchButton1.Size = new System.Drawing.Size(168, 28);
+            this.switchButton1.Size = new System.Drawing.Size(126, 23);
             this.switchButton1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.switchButton1.TabIndex = 10;
             this.switchButton1.Value = true;
@@ -298,10 +287,9 @@
             // 
             // 
             this.labelX5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX5.Location = new System.Drawing.Point(265, 55);
-            this.labelX5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelX5.Location = new System.Drawing.Point(199, 45);
             this.labelX5.Name = "labelX5";
-            this.labelX5.Size = new System.Drawing.Size(167, 28);
+            this.labelX5.Size = new System.Drawing.Size(125, 23);
             this.labelX5.TabIndex = 11;
             this.labelX5.Text = "Tipo de Contratos";
             this.labelX5.TextAlignment = System.Drawing.StringAlignment.Center;
@@ -320,11 +308,10 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewX1.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewX1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.dataGridViewX1.Location = new System.Drawing.Point(16, 415);
-            this.dataGridViewX1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewX1.Location = new System.Drawing.Point(12, 337);
             this.dataGridViewX1.Name = "dataGridViewX1";
             this.dataGridViewX1.ReadOnly = true;
-            this.dataGridViewX1.Size = new System.Drawing.Size(17, 12);
+            this.dataGridViewX1.Size = new System.Drawing.Size(13, 10);
             this.dataGridViewX1.TabIndex = 12;
             this.dataGridViewX1.Visible = false;
             // 
@@ -338,9 +325,9 @@
             // 
             // AleatoriosForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(751, 517);
+            this.ClientSize = new System.Drawing.Size(565, 427);
             this.Controls.Add(this.dataGridViewX1);
             this.Controls.Add(this.labelX5);
             this.Controls.Add(this.switchButton1);
@@ -356,10 +343,9 @@
             this.Controls.Add(this.circularProgress1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(769, 564);
-            this.MinimumSize = new System.Drawing.Size(769, 564);
+            this.MaximumSize = new System.Drawing.Size(581, 466);
+            this.MinimumSize = new System.Drawing.Size(581, 466);
             this.Name = "AleatoriosForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contratos Aleatorios";

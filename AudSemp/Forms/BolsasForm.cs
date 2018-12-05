@@ -249,23 +249,7 @@ namespace AudSemp.Forms
 
 
 
-            if (dt.Rows.Count > 0)
-            {
-                DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
-                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
-                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-
-                if (result == DialogResult.No)
-                {
-
-                    dt.Clear();
-
-
-                }
-
-
-            }
+          
 
 
 
@@ -553,7 +537,7 @@ namespace AudSemp.Forms
            List<categorias> tipos, int opcion)
         {
 
-           DataTable dt = new DataTable();
+          // DataTable dt = new DataTable();
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
             DateTime Fin = DateTime.Parse(fechaFin);

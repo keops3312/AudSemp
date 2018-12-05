@@ -57,11 +57,67 @@ namespace AudSemp.Forms
         public string mode;
         string ruta;
         int cantidad = 0;
+        //variable to cancel progress
+        public int cancelEjercicio;
+        //table to report
+        DataTable dt = new DataTable("Inventarios");
         #endregion
 
         #region Methods (Metodos)
         public void load()
         {
+            dt.Columns.AddRange(new DataColumn[46]
+        {
+          new DataColumn("no"),
+          new DataColumn("contrato"),
+          new DataColumn("fecha"),
+          new DataColumn("bolsa"),
+          new DataColumn("noinv"),
+          new DataColumn("noserie"),
+          new DataColumn("descripcion"),
+          new DataColumn("detalles"),
+          new DataColumn("preciosugerido"),
+          new DataColumn("precioventa",typeof(double)),
+          new DataColumn("kilates"),
+          new DataColumn("peso_real"),
+          new DataColumn("condiciones"),
+          new DataColumn("tipo"),
+          new DataColumn("status"),
+          new DataColumn("mov"),
+          new DataColumn("rematado"),
+          new DataColumn("rematado_por"),
+          new DataColumn("mod_extemporanea"),
+          new DataColumn("transferido"),
+          new DataColumn("sucursal"),
+          new DataColumn("status_transferido"),
+          new DataColumn("fecha_trans"),
+          new DataColumn("actualizacion"),
+          new DataColumn("codigotrans"),
+          new DataColumn("pneto"),
+          new DataColumn("NOTAS"),
+          new DataColumn("AOM"),
+          new DataColumn("rematadoEJ",typeof(DateTime)),
+          new DataColumn("precio_promocion"),
+          new DataColumn("fechaPP"),
+          new DataColumn("precioPromo2"),
+          new DataColumn("fechaPP2"),
+          new DataColumn("precioPromo3"),
+          new DataColumn("fechaPP3"),
+          new DataColumn("precioRemate"),
+          new DataColumn("fechaPRem"),
+          new DataColumn("precio_origen"),
+          new DataColumn("actualizo"),
+          new DataColumn("actualizo2"),
+          new DataColumn("actualizo3"),
+          new DataColumn("prestamo"),
+          new DataColumn("contrato2"),
+          new DataColumn("fecha_contrato"),
+          new DataColumn("indice"),
+          new DataColumn("Antiguedad")
+
+
+        });
+
             InventarioPresenter inventarioPresenter = new InventarioPresenter(this);
             inventarioPresenter.TiposEstatus();
             inventarioPresenter.TiposPrenda();
@@ -241,58 +297,8 @@ namespace AudSemp.Forms
         {
 
 
-            DataTable dt = new DataTable("Inventarios");
-            dt.Columns.AddRange(new DataColumn[46]
-            {
-          new DataColumn("no"),
-          new DataColumn("contrato"),
-          new DataColumn("fecha"),
-          new DataColumn("bolsa"),
-          new DataColumn("noinv"),
-          new DataColumn("noserie"),
-          new DataColumn("descripcion"),
-          new DataColumn("detalles"),
-          new DataColumn("preciosugerido"),
-          new DataColumn("precioventa",typeof(double)),
-          new DataColumn("kilates"),
-          new DataColumn("peso_real"),
-          new DataColumn("condiciones"),
-          new DataColumn("tipo"),
-          new DataColumn("status"),
-          new DataColumn("mov"),
-          new DataColumn("rematado"),
-          new DataColumn("rematado_por"),
-          new DataColumn("mod_extemporanea"),
-          new DataColumn("transferido"),
-          new DataColumn("sucursal"),
-          new DataColumn("status_transferido"),
-          new DataColumn("fecha_trans"),
-          new DataColumn("actualizacion"),
-          new DataColumn("codigotrans"),
-          new DataColumn("pneto"),
-          new DataColumn("NOTAS"),
-          new DataColumn("AOM"),
-          new DataColumn("rematadoEJ",typeof(DateTime)),
-          new DataColumn("precio_promocion"),
-          new DataColumn("fechaPP"),
-          new DataColumn("precioPromo2"),
-          new DataColumn("fechaPP2"),
-          new DataColumn("precioPromo3"),
-          new DataColumn("fechaPP3"),
-          new DataColumn("precioRemate"),
-          new DataColumn("fechaPRem"),
-          new DataColumn("precio_origen"),
-          new DataColumn("actualizo"),
-          new DataColumn("actualizo2"),
-          new DataColumn("actualizo3"),
-          new DataColumn("prestamo"),
-          new DataColumn("contrato2"),
-          new DataColumn("fecha_contrato"),
-          new DataColumn("indice"),
-          new DataColumn("Antiguedad")
-
-
-            });
+            //DataTable dt = new DataTable("Inventarios");
+        
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
             DateTime Fin = DateTime.Parse(fechaFin);
@@ -302,54 +308,67 @@ namespace AudSemp.Forms
             int totalDays;
 
 
-            foreach (var items in tipos)
+            if (dt.Rows.Count == 0)
             {
 
 
-                foreach (var itemEstatus in Estatus)
+                foreach (var items in tipos)
                 {
-                    var result = from s in db.artventas.Where(p => p.rematadoEJ >= Inicio &&
-                                      p.rematadoEJ <= Fin &&
-                                      p.tipo == items.categoria &&
-                                      p.status == itemEstatus.estatu).ToList()
-                                 select s;
 
 
-
-                    foreach (var item in result)
+                    foreach (var itemEstatus in Estatus)
                     {
+                        var result = from s in db.artventas.Where(p => p.rematadoEJ >= Inicio &&
+                                          p.rematadoEJ <= Fin &&
+                                          p.tipo == items.categoria &&
+                                          p.status == itemEstatus.estatu).ToList()
+                                     select s;
 
-                        cantidad = result.Count();
-                        i++;
-                        backgroundWorker1.ReportProgress(i);
 
-                        TimeSpan t =DateTime.Now - DateTime.Parse(item.rematadoEJ.ToString());
-                        totalDays =Convert.ToInt32(t.TotalDays);
 
-                        dt.Rows.Add(item.no, item.contrato, item.fecha,
-                            item.bolsa, item.noinv, item.noserie, item.descripcion,
-                            item.detalles, item.preciosugerido, item.precioventa, item.kilates, item.peso_real,
-                            item.condiciones, item.tipo, item.status, item.mov,
-                            item.rematado, item.rematado_por, item.mod_extemporanea, item.transferido, item.sucursal,
-                            item.status_transferido, item.fecha_trans, item.actualizacion,
-                            item.codigotrans, item.pneto, item.NOTAS, item.AOM, item.rematadoEJ,
-                            item.precio_promocion, item.fechaPP, item.precioPromo2, item.fechaPP2, item.precioPromo3, item.fechaPP3,
-                            item.precioRemate, item.fechaPRem, item.precio_origen, item.actualizo, item.actualizo2, item.actualizo3,
-                            item.prestamo, item.contrato2, item.fecha_contrato, item.indice, totalDays );
+                        foreach (var item in result)
+                        {
 
+                            cantidad = result.Count();
+                            i++;
+                            backgroundWorker1.ReportProgress(i);
+
+
+                            if (cancelEjercicio == 1)
+                            {
+                                break;
+                            }
+
+
+                            TimeSpan t = DateTime.Now - DateTime.Parse(item.rematadoEJ.ToString());
+                            totalDays = Convert.ToInt32(t.TotalDays);
+
+                            dt.Rows.Add(item.no, item.contrato, item.fecha,
+                                item.bolsa, item.noinv, item.noserie, item.descripcion,
+                                item.detalles, item.preciosugerido, item.precioventa, item.kilates, item.peso_real,
+                                item.condiciones, item.tipo, item.status, item.mov,
+                                item.rematado, item.rematado_por, item.mod_extemporanea, item.transferido, item.sucursal,
+                                item.status_transferido, item.fecha_trans, item.actualizacion,
+                                item.codigotrans, item.pneto, item.NOTAS, item.AOM, item.rematadoEJ,
+                                item.precio_promocion, item.fechaPP, item.precioPromo2, item.fechaPP2, item.precioPromo3, item.fechaPP3,
+                                item.precioRemate, item.fechaPRem, item.precio_origen, item.actualizo, item.actualizo2, item.actualizo3,
+                                item.prestamo, item.contrato2, item.fecha_contrato, item.indice, totalDays);
+
+
+                        }
+                        i = 0;
 
                     }
-                    i = 0;
+
+
 
                 }
-
-
 
             }
 
 
             DataView dataView = new DataView(dt);
-            dt = new DataTable();
+           // dt = new DataTable();
 
             //ORDER MODE
             mode = tipoOrden + modoOrden;
@@ -513,6 +532,29 @@ namespace AudSemp.Forms
 
         private void btnExportar_Click(object sender, EventArgs e)
         {
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
+                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (result == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+
+                }
+
+
+            }
+
+
+
+
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
 
             saveFileDialog1.Filter = "Excel files (*.xlsx)|*.xlsx";
@@ -552,6 +594,28 @@ namespace AudSemp.Forms
 
         private void btnReporte_Click(object sender, EventArgs e)
         {
+
+
+            if (dt.Rows.Count > 0)
+            {
+                DialogResult resulta = MessageBox.Show("¿Crear Ejercicio Anterior?" +
+                    "Si(Crea) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+
+                if (resulta == DialogResult.No)
+                {
+
+                    dt.Clear();
+
+
+                }
+
+
+            }
+
+
+
             DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
             MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             switch (result)
@@ -583,10 +647,16 @@ namespace AudSemp.Forms
             if (backgroundWorker1.WorkerSupportsCancellation == true)
             {
                 backgroundWorker1.CancelAsync();
+                backgroundWorker1.ReportProgress(0);
+                cancelEjercicio = 1;
+                prg1.Value = 0;
+
+
                 btnExportar.Enabled = true;
                 btnReporte.Enabled = true;
                 btnRegresar.Enabled = true;
                 btnCancel.Visible = false;
+
 
 
 
@@ -663,5 +733,21 @@ namespace AudSemp.Forms
         }
         #endregion
 
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            if (dt.Rows.Count > 0)
+            {
+                VistaPreviaForm vista = new VistaPreviaForm();
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.vistaM = dt;
+                vista.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+        }
     }
 }

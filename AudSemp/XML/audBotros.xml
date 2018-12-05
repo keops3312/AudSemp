@@ -40,227 +40,6 @@
     </xs:element>
   </xs:schema>
   <BolsasOtros>
-    <Contrato>125013</Contrato>
-    <Fecha>20-03-2018</Fecha>
-    <Bolsa>124601</Bolsa>
-    <Descripcion>LAPTOP LENOVO</Descripcion>
-    <SubDescripcion>8017</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>161MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3400</Prestamo>
-    <INT>225</INT>
-    <detalles>CONDICONES REGULARES  MEMORIA RANG 8GB  DD 1 TB  PROCESADOR  INTEL PENTIUN  WINDOS 10  CARGADOR ORIGINAL  CONTRASEÑA  SIN CONTRASEÑA </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125048</Contrato>
-    <Fecha>24-03-2018</Fecha>
-    <Bolsa>144256</Bolsa>
-    <Descripcion>LAPTOP HP NEGRA</Descripcion>
-    <SubDescripcion>756.99</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>7000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3500</Prestamo>
-    <INT>239</INT>
-    <detalles>1TB DD 8GB RAM W10 PROCESADOR INTEL CORE I3 SE RECIBE LAPTOP CON CARGADOR UN POCO DESPINTADA POR DESGASTE CONTRASEÑA PERROMACHE 23</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125060</Contrato>
-    <Fecha>26-03-2018</Fecha>
-    <Bolsa>144313</Bolsa>
-    <Descripcion>LAPTOP HP ROJA</Descripcion>
-    <SubDescripcion>MODELO 14B062LLA</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>866.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <Ubicacion>TEMPORAL</Ubicacion>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>93MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>433</Prestamo>
-    <INT>252</INT>
-    <detalles>500GB 4GB RAM W8 INTEL COREI3 SE RECIBE LAPTOP EN BUENAS CONDICIONES CON UNOS RAYONES  EN LA TAPA Y SIN LA CAMARA ACTIVADA POR TAL MOTIVO SE LE PENALIZO SIN CONTRASEÑA</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125136</Contrato>
-    <Fecha>12-04-2018</Fecha>
-    <Bolsa>124637</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>RTL8723DE</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>7400.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>219MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3700</Prestamo>
-    <INT>323</INT>
-    <detalles>CONDICIONES BUENAS CON CARGADOR   12 GB 1 TB DD   PROCESADOR AMDA9 WINDOS 10 CON CARGADOR CONTRASEÑA IMARKETSLIVE  </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125141</Contrato>
-    <Fecha>13-04-2018</Fecha>
-    <Bolsa>144543</Bolsa>
-    <Descripcion>LAP TOP HP</Descripcion>
-    <SubDescripcion>MOD 14 R0021A</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5200.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>153MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2600</Prestamo>
-    <INT>326</INT>
-    <detalles>SE RECIBE LAPTOP HP RAM 4 GB DD 500GB PROC INTEL CELERON WINDOWS 8 EN BUEN ESTADO DEJA CARGADOR ORIGINAL SE LE PRESTO EL 10 POR CIENTO MAS AUTORIZO JEFE DE SUCURSAL </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125165</Contrato>
-    <Fecha>19-04-2018</Fecha>
-    <Bolsa>124647</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>RT3290</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>230MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>343</INT>
-    <detalles>CONDICIONES REGULARES  MEMORIA RAM 8GB DD750 PROCESADOR INTEL CORE I3  WINDOS 8  CON CARGADOR ORIGINAL  SIN CONTRASEÑA </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125226</Contrato>
-    <Fecha>27-04-2018</Fecha>
-    <Bolsa>144581</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>15 BS008LA</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>182MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3300</Prestamo>
-    <INT>373</INT>
-    <detalles>CONDICIONES BUENAS  CARGADOR ORIGINAL  MEMORIA RAM 4GB DD 1TB PROCESADOR INTEL PENTIUM WINDOS 10 </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125231</Contrato>
-    <Fecha>30-04-2018</Fecha>
-    <Bolsa>144318</Bolsa>
-    <Descripcion>LAPTOP SAMSUNG</Descripcion>
-    <SubDescripcion>MODELO NP 270E4E</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>95MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>388</INT>
-    <detalles>500GB DD 4GB RAM W8 INTEL CELERON SE RECIBE CON CARGADOR GENERICO EN BUENAS CONDICIONES Y FUNCIONANDO CONTRASEÑA MORRIS100</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125268</Contrato>
-    <Fecha>04-05-2018</Fecha>
-    <Bolsa>124681</Bolsa>
-    <Descripcion>LAPTOP HP BLANCA</Descripcion>
-    <SubDescripcion>ARJB125</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>2000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>DESGASTADO</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>257MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1000</Prestamo>
-    <INT>400</INT>
-    <detalles>CONDICIONES REGULARES  4GB 500DD  PROCESADOR  INTEL CELERON  WINDOS 8  CONTRASEÑA  MODO SEGURO  1234</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125280</Contrato>
-    <Fecha>07-05-2018</Fecha>
-    <Bolsa>144080</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>537.32</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4400.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2200</Prestamo>
-    <INT>416</INT>
-    <detalles>500GB DD 6GBRAM W10 PROCESADOR AMD A6 SE RECIBE LAPTOP EN BUENAS CONDICIONES CON CARGADOR CONTRASEÑA VERDE</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
     <Contrato>125287</Contrato>
     <Fecha>08-05-2018</Fecha>
     <Bolsa>144315</Bolsa>
@@ -284,156 +63,24 @@
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>125314</Contrato>
-    <Fecha>12-05-2018</Fecha>
-    <Bolsa>144119</Bolsa>
-    <Descripcion>MINILAPTOP LENOVO</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
+    <Contrato>145407</Contrato>
+    <Fecha>10-07-2018</Fecha>
+    <Bolsa>144745</Bolsa>
+    <Descripcion>TABLET GHIA</Descripcion>
+    <SubDescripcion>VECTOR 10.1</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>2200.0000</Avaluo>
+    <Avaluo>900.0000</Avaluo>
     <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>37MRO-TLA3-12</folio>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>374MRO-TLA3-12</folio>
     <origen>TLA_3</origen>
-    <Prestamo>1100</Prestamo>
-    <INT>441</INT>
-    <detalles>250GB DD 2GB RAM W8 INTEL ATOM SE RECIBE MINILAPTOP EN BUENAS CONDICIONES CON SU CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125332</Contrato>
-    <Fecha>15-05-2018</Fecha>
-    <Bolsa>124647</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>RT3290</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>230MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>454</INT>
-    <detalles>CONDICIONES REGULARES  MEMORIA RAM 8GB DD750 PROCESADOR INTEL CORE I3  WINDOS 8  CON CARGADOR ORIGINAL  SIN CONTRASEÑA </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125357</Contrato>
-    <Fecha>17-05-2018</Fecha>
-    <Bolsa>124710</Bolsa>
-    <Descripcion>TABLE SAMSUNG  8GB TAB E</Descripcion>
-    <SubDescripcion> SM T113NU</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>1600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>286MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>800</Prestamo>
-    <INT>465</INT>
-    <detalles>CONDICONES  REGGULARES  CON CARGADOR ORIGINAL  ESTUCHE  COLOR AZUL MEMORIA 2GB </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125385</Contrato>
-    <Fecha>19-05-2018</Fecha>
-    <Bolsa>144309</Bolsa>
-    <Descripcion>MINI LAPTOP TOSHIBA</Descripcion>
-    <SubDescripcion>432.56</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>474</INT>
-    <detalles>SE RECIBE FUNCIONANDO</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125387</Contrato>
-    <Fecha>21-05-2018</Fecha>
-    <Bolsa>144248</Bolsa>
-    <Descripcion>MINI LAPTOP HP</Descripcion>
-    <SubDescripcion>182.94</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>1498.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>749</Prestamo>
-    <INT>475</INT>
-    <detalles>SIN CARACTERISTICAS EN CONTRATO</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125441</Contrato>
-    <Fecha>25-05-2018</Fecha>
-    <Bolsa>144581</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>15 BS008LA</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6600.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>182MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3300</Prestamo>
-    <INT>493</INT>
-    <detalles>CONDICIONES BUENAS  CARGADOR ORIGINAL  MEMORIA RAM 4GB DD 1TB PROCESADOR INTEL PENTIUM WINDOS 10 </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125450</Contrato>
-    <Fecha>26-05-2018</Fecha>
-    <Bolsa>144642</Bolsa>
-    <Descripcion>COMPUTADORA DE ESCRITORIO</Descripcion>
-    <SubDescripcion>MARCA LENOVO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>252MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>506</INT>
-    <detalles>SE RECIBE COMPUTADORA DE ESCRITORIO MARCA LENOVO MOD LENOVO 0260 PROC INTEL CELERON RAM 2 GB DD 1 TERA WINDOWS 8 EN BUENAS CONDICIONES DEJA TECLADO Y MOUSE ORIGINALES</detalles>
-    <caja>MRO-TLA3-11</caja>
+    <Prestamo>450</Prestamo>
+    <INT>680</INT>
+    <detalles>SE RECIBE TABLET EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
+    <caja>MRO-TLA3-12</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
@@ -455,425 +102,6 @@
     <Prestamo>500</Prestamo>
     <INT>513</INT>
     <detalles>EN CONDICIONE REGULARES CON CARGADOR</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125480</Contrato>
-    <Fecha>28-05-2018</Fecha>
-    <Bolsa>144575</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>732.7</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3000</Prestamo>
-    <INT>519</INT>
-    <detalles>SE RECIBE LAP TOP HP PROC INTEL CORE I3  D.D 750 GB RAM 4 GB WINDOWS 8 MOD 14 B062LA EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125484</Contrato>
-    <Fecha>29-05-2018</Fecha>
-    <Bolsa>124752</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>MARCA DELL</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>302MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>520</INT>
-    <detalles>SE RECIBE LAP TOP MARCA DELL MOD TTYFJA00W 10 DD 1 TB RAM 4 GB PROC INTEL CORE I3 EN BUENAS CONDICIONES TIENE DOS CUENTAS DE USUARIO CON CARGADOR ORIGINAL DEJA ESTUCHE COLOR NEGRO</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125492</Contrato>
-    <Fecha>30-05-2018</Fecha>
-    <Bolsa>144318</Bolsa>
-    <Descripcion>LAPTOP SAMSUNG</Descripcion>
-    <SubDescripcion>MODELO NP 270E4E</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>95MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>530</INT>
-    <detalles>500GB DD 4GB RAM W8 INTEL CELERON SE RECIBE CON CARGADOR GENERICO EN BUENAS CONDICIONES Y FUNCIONANDO CONTRASEÑA MORRIS100</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125594</Contrato>
-    <Fecha>12-06-2018</Fecha>
-    <Bolsa>144119</Bolsa>
-    <Descripcion>MINILAPTOP LENOVO</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>2200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>37MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1100</Prestamo>
-    <INT>578</INT>
-    <detalles>250GB DD 2GB RAM W8 INTEL ATOM SE RECIBE MINILAPTOP EN BUENAS CONDICIONES CON SU CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125626</Contrato>
-    <Fecha>19-06-2018</Fecha>
-    <Bolsa>124799</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>588.58</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4820.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2410</Prestamo>
-    <INT>611</INT>
-    <detalles>CONDICIONES BUENAS  MEMORIA RAM 4GB DD500 WINDOS 10 PROCESADOR CELERON  CON FUNDA  SIN COONTRASEÑA </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125631</Contrato>
-    <Fecha>20-06-2018</Fecha>
-    <Bolsa>124802</Bolsa>
-    <Descripcion>LAPTOP LENOVO</Descripcion>
-    <SubDescripcion>610.66</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>618</INT>
-    <detalles>500GB DD 2GB RAM W8 PROCESADOR INTEL CELERON SE RECIBE CON CARGADOR ORIGINAL CON CONTRASEÑA PARISJENNY</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125823</Contrato>
-    <Fecha>14-07-2018</Fecha>
-    <Bolsa>124647</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>RT3290</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>3834.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <Ubicacion />
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>230MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1917</Prestamo>
-    <INT>695</INT>
-    <detalles>CONDICIONES REGULARES  MEMORIA RAM 8GB DD750 PROCESADOR INTEL CORE I3  WINDOS 8  CON CARGADOR ORIGINAL  SIN CONTRASEÑA </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125831</Contrato>
-    <Fecha>14-07-2018</Fecha>
-    <Bolsa>144131</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>757.12</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3100</Prestamo>
-    <INT>698</INT>
-    <detalles>SE RECIBE EN CONDICIONES REGULARES 750GB DD 6GB RAM W10 SIN CONTRASEÑA</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125844</Contrato>
-    <Fecha>16-07-2018</Fecha>
-    <Bolsa>124710</Bolsa>
-    <Descripcion>TABLE SAMSUNG  8GB TAB E</Descripcion>
-    <SubDescripcion>195.39</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>1600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>800</Prestamo>
-    <INT>703</INT>
-    <detalles>CONDICONES  REGGULARES  CON CARGADOR ORIGINAL  ESTUCHE  COLOR AZUL MEMORIA 2GB </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125877</Contrato>
-    <Fecha>18-07-2018</Fecha>
-    <Bolsa>144309</Bolsa>
-    <Descripcion>MINI LAPTOP TOSHIBA</Descripcion>
-    <SubDescripcion>496.3</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>712</INT>
-    <detalles>SE RECIBE FUNCIONANDO</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125879</Contrato>
-    <Fecha>19-07-2018</Fecha>
-    <Bolsa>144714</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>MARCA ASUS</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>342MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3100</Prestamo>
-    <INT>714</INT>
-    <detalles>SE RECIBE LAP TOP ASUS MOD X5535 EN BUENAS CONDICIONES W 10 PROC INTEL PENTIUM DD 1 TB RAM 4 GB CON CARGADOR ORIGINAL CONTRASEÑA PARAEMPEZAR1</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125886</Contrato>
-    <Fecha>20-07-2018</Fecha>
-    <Bolsa>124870</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>RTL8188EE</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5400.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>391MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2700</Prestamo>
-    <INT>716</INT>
-    <detalles>CONDICIONES  BUENAS  CON CARGADOR ORIGINAL  MEMORIA RAM 4GB  500GB  PROCESADOR INTEL PENTIUN  WINDOS 10 </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125925</Contrato>
-    <Fecha>24-07-2018</Fecha>
-    <Bolsa>124884</Bolsa>
-    <Descripcion>LAP TOP ASUS</Descripcion>
-    <SubDescripcion>X441N</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5400.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>398MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2700</Prestamo>
-    <INT>738</INT>
-    <detalles>CONDICIONES BUENAS  CON CARGADOR ORIGINAL  4GB DD500 INTEL CELERON WINDOS 10  CONTRASEÑA LOCOXONA 95 </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125934</Contrato>
-    <Fecha>25-07-2018</Fecha>
-    <Bolsa>124888</Bolsa>
-    <Descripcion>MINI LAPTOP HP</Descripcion>
-    <SubDescripcion>182.94</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>1498.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>749</Prestamo>
-    <INT>740</INT>
-    <detalles>SIN CARACTERISTICAS EN CONTRATO</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125943</Contrato>
-    <Fecha>26-07-2018</Fecha>
-    <Bolsa>124890</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>MODELO RTL8723BE</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>399MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>742</INT>
-    <detalles>CONDICIONES  BUENAS  CARGADOR ORIGINAL   4GB 500 DD INTEL CERON  WINDOS 10   PROCESADOR  INTEL CELOR  CONTRASEÑA LUISITO </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125954</Contrato>
-    <Fecha>28-07-2018</Fecha>
-    <Bolsa>124894</Bolsa>
-    <Descripcion>LAPTOP DELL</Descripcion>
-    <SubDescripcion>6W5G412</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>8000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>401MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>4000</Prestamo>
-    <INT>746</INT>
-    <detalles>CONDICIONES BUENAS CON CARGADOR ORIGINAL   WINDOS 8 16GB 1 TB PROCESADOR INTEL CORE I7 7 GEN   CONTRASEÑA 171283</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>125981</Contrato>
-    <Fecha>31-07-2018</Fecha>
-    <Bolsa>124899</Bolsa>
-    <Descripcion>LAPTOP ASUS </Descripcion>
-    <SubDescripcion>X441N</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5400.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>406MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2700</Prestamo>
-    <INT>760</INT>
-    <detalles>CONDICIONES REGULARES CARGADOR ORIGINAL  MEMIRIA RAM 4GB DD 500 PROCESADOR  INTEL CELERON  WINDOS 10  COTRASEÑA LOCOXANA95</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126038</Contrato>
-    <Fecha>06-08-2018</Fecha>
-    <Bolsa>124915</Bolsa>
-    <Descripcion>LAPTOP ASUS </Descripcion>
-    <SubDescripcion>X441N</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>419MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2500</Prestamo>
-    <INT>789</INT>
-    <detalles>CONDICIONE REGULARES  WINDOS 10 PROCESADOR  CELERON  4GB 500DD INTEL CELERON  CONTRASEÑA 123456 </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126046</Contrato>
-    <Fecha>07-08-2018</Fecha>
-    <Bolsa>124921</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>N3060</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>423MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>793</INT>
-    <detalles>CONDICIONES REGULARES  CARGADOR ORIGINAL  MEMORIA RAM 4GB DD 500 PROCESADOR INTEL CELERON  WINDOS 10  CONTRASEÑA KEVIN 123</detalles>
     <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
@@ -901,323 +129,13 @@
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>126066</Contrato>
-    <Fecha>08-08-2018</Fecha>
-    <Bolsa>124931</Bolsa>
-    <Descripcion>LAPTOP </Descripcion>
-    <SubDescripcion>828</SubDescripcion>
+    <Contrato>126541</Contrato>
+    <Fecha>11-10-2018</Fecha>
+    <Bolsa>124924</Bolsa>
+    <Descripcion>TABLET GENERICA</Descripcion>
+    <SubDescripcion>122.1</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>4600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2300</Prestamo>
-    <INT>804</INT>
-    <detalles>SE RECIBE LAP TOP HP  MOD 14 W0011A RAM 4 GB DD 500 GB PROC AMD EI 2100 APU WINDOWS 8 EN BUENAS CONDICIONES DEJA CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126106</Contrato>
-    <Fecha>11-08-2018</Fecha>
-    <Bolsa>144696</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>928.07</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>7600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3800</Prestamo>
-    <INT>816</INT>
-    <detalles>SE RECIBE LAP TOP DELL MOD 7YM1572 RAM 4 GB DD 1 TB PROC INTEL CORE I3 WINDOWS 10 EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126123</Contrato>
-    <Fecha>14-08-2018</Fecha>
-    <Bolsa>124647</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>RT3290</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>3762.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <Ubicacion />
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>230MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1881</Prestamo>
-    <INT>831</INT>
-    <detalles>CONDICIONES REGULARES  MEMORIA RAM 8GB DD750 PROCESADOR INTEL CORE I3  WINDOS 8  CON CARGADOR ORIGINAL  SIN CONTRASEÑA </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126129</Contrato>
-    <Fecha>15-08-2018</Fecha>
-    <Bolsa>124952</Bolsa>
-    <Descripcion>LAPTOP DELL</Descripcion>
-    <SubDescripcion>MODELO INSPIRON 15</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>7200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>441MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3600</Prestamo>
-    <INT>835</INT>
-    <detalles>COMDICIINES  BUENAS  CARGADOR ORIGINAL  8GB 1 TB DD   PROCESADOR AMDA9 9400  WINDOS 10  CONTRASEÑA VILMARCALDERON99</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126132</Contrato>
-    <Fecha>15-08-2018</Fecha>
-    <Bolsa>124890</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>MODELO RTL8723BE</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>399MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>836</INT>
-    <detalles>CONDICIONES  BUENAS  CARGADOR ORIGINAL   4GB 500 DD INTEL CERON  WINDOS 10   PROCESADOR  INTEL CELOR  CONTRASEÑA LUISITO </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126159</Contrato>
-    <Fecha>18-08-2018</Fecha>
-    <Bolsa>144714</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>MARCA ASUS</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>342MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3100</Prestamo>
-    <INT>856</INT>
-    <detalles>SE RECIBE LAP TOP ASUS MOD X5535 EN BUENAS CONDICIONES W 10 PROC INTEL PENTIUM DD 1 TB RAM 4 GB CON CARGADOR ORIGINAL CONTRASEÑA PARAEMPEZAR1</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126167</Contrato>
-    <Fecha>20-08-2018</Fecha>
-    <Bolsa>124968</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>PAVILION</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>459MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2600</Prestamo>
-    <INT>861</INT>
-    <detalles>SE RECIBE LAP TOP HP  MOD 3217U WINDOWS 8 PROC INTEL CORE I3  DD 500 GB RAM 4 GB EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126180</Contrato>
-    <Fecha>22-08-2018</Fecha>
-    <Bolsa>124972</Bolsa>
-    <Descripcion>LAPTOP HP </Descripcion>
-    <SubDescripcion>RTL87223B</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>8000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>DESGASTADO</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>462MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>4000</Prestamo>
-    <INT>869</INT>
-    <detalles>CONDCIONES BUENAS  WINDOS 10 1 TB 8GB  INTEL COREI3 500U  CARGADOR ORIGINAL  CONTRASEÑA T292</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126184</Contrato>
-    <Fecha>22-08-2018</Fecha>
-    <Bolsa>124899</Bolsa>
-    <Descripcion>LAPTOP ASUS </Descripcion>
-    <SubDescripcion>X441N</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>3400.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <Ubicacion />
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>406MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1700</Prestamo>
-    <INT>871</INT>
-    <detalles>CONDICIONES REGULARES CARGADOR ORIGINAL  MEMIRIA RAM 4GB DD 500 PROCESADOR  INTEL CELERON  WINDOS 10  COTRASEÑA LOCOXANA95</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126212</Contrato>
-    <Fecha>29-08-2018</Fecha>
-    <Bolsa>144318</Bolsa>
-    <Descripcion>LAPTOP SAMSUNG</Descripcion>
-    <SubDescripcion>MODELO NP 270E4E</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>95MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>902</INT>
-    <detalles>500GB DD 4GB RAM W8 INTEL CELERON SE RECIBE CON CARGADOR GENERICO EN BUENAS CONDICIONES Y FUNCIONANDO CONTRASEÑA MORRIS100</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126230</Contrato>
-    <Fecha>31-08-2018</Fecha>
-    <Bolsa>124994</Bolsa>
-    <Descripcion>LAPTOP HP </Descripcion>
-    <SubDescripcion>RTL8723DER</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>485MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2600</Prestamo>
-    <INT>919</INT>
-    <detalles>CONDCIONES BUENAS   4GB DD500 PROCESADOR CELERON WINDOS 10 CARGADOR ORIGINAL CONTRASEÑA KMAF20023121</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126264</Contrato>
-    <Fecha>05-09-2018</Fecha>
-    <Bolsa>124999</Bolsa>
-    <Descripcion>LAPTOP  DELL</Descripcion>
-    <SubDescripcion>MODELO INSPIRON 15</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>494MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>943</INT>
-    <detalles>CONDICONES BUENAS CARGADOR ORIGINAL MEMORIA  16GB  1 TB PROCESADOR  INTELCOREI7  WINDOS 8  CONTRASEÑA  17 12 83</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126270</Contrato>
-    <Fecha>05-09-2018</Fecha>
-    <Bolsa>124710</Bolsa>
-    <Descripcion>TABLE SAMSUNG  8GB TAB E</Descripcion>
-    <SubDescripcion>150.99</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>1600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>800</Prestamo>
-    <INT>947</INT>
-    <detalles>CONDICONES  REGGULARES  CON CARGADOR ORIGINAL  ESTUCHE  COLOR AZUL MEMORIA 2GB </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126322</Contrato>
-    <Fecha>12-09-2018</Fecha>
-    <Bolsa>124952</Bolsa>
-    <Descripcion>LAPTOP DELL</Descripcion>
-    <SubDescripcion>MODELO INSPIRON 15</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>441MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3300</Prestamo>
-    <INT>963</INT>
-    <detalles>COMDICIINES  BUENAS  CARGADOR ORIGINAL  8GB 1 TB DD   PROCESADOR AMDA9 9400  WINDOS 10  CONTRASEÑA VILMARCALDERON99</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126353</Contrato>
-    <Fecha>13-09-2018</Fecha>
-    <Bolsa>144309</Bolsa>
-    <Descripcion>MINI LAPTOP TOSHIBA</Descripcion>
-    <SubDescripcion>432.56</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
+    <Avaluo>1000.0000</Avaluo>
     <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
@@ -1225,53 +143,9 @@
     <registro>JAIME VILLEDA REYES</registro>
     <folio>TLA_3</folio>
     <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>975</INT>
-    <detalles>SE RECIBE FUNCIONANDO</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126368</Contrato>
-    <Fecha>14-09-2018</Fecha>
-    <Bolsa>124915</Bolsa>
-    <Descripcion>LAPTOP ASUS </Descripcion>
-    <SubDescripcion>403.89</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2500</Prestamo>
-    <INT>980</INT>
-    <detalles>CONDICIONE REGULARES  WINDOS 10 PROCESADOR  CELERON  4GB 500DD INTEL CELERON  CONTRASEÑA 123456 </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126405</Contrato>
-    <Fecha>18-09-2018</Fecha>
-    <Bolsa>144696</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>526.19</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>7600.0000</Avaluo>
-    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3800</Prestamo>
-    <INT>999</INT>
-    <detalles>SE RECIBE LAP TOP DELL MOD 7YM1572 RAM 4 GB DD 1 TB PROC INTEL CORE I3 WINDOWS 10 EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
+    <Prestamo>500</Prestamo>
+    <INT>1099</INT>
+    <detalles>EN CONDICIONE REGULARES CON CARGADOR</detalles>
     <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
@@ -1300,23 +174,199 @@
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>126484</Contrato>
-    <Fecha>01-10-2018</Fecha>
-    <Bolsa>125059</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>14R018LA</SubDescripcion>
+    <Contrato>125387</Contrato>
+    <Fecha>21-05-2018</Fecha>
+    <Bolsa>144248</Bolsa>
+    <Descripcion>MINI LAPTOP HP</Descripcion>
+    <SubDescripcion>182.94</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>3600.0000</Avaluo>
+    <Avaluo>1498.0000</Avaluo>
     <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
     <registro>JAIME VILLEDA REYES</registro>
-    <folio>548MRO-TLA3-11</folio>
+    <folio>TLA_3</folio>
     <origen>TLA_3</origen>
-    <Prestamo>1800</Prestamo>
-    <INT>1052</INT>
-    <detalles>CONDICIONES BUENAS CON CARGADOR ORIGINAL SIN CONTRASEÑA  WINDOS 10 DD 700 8GB INTELCOREI3 </detalles>
+    <Prestamo>749</Prestamo>
+    <INT>475</INT>
+    <detalles>SIN CARACTERISTICAS EN CONTRATO</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125934</Contrato>
+    <Fecha>25-07-2018</Fecha>
+    <Bolsa>124888</Bolsa>
+    <Descripcion>MINI LAPTOP HP</Descripcion>
+    <SubDescripcion>182.94</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>1498.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>749</Prestamo>
+    <INT>740</INT>
+    <detalles>SIN CARACTERISTICAS EN CONTRATO</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125357</Contrato>
+    <Fecha>17-05-2018</Fecha>
+    <Bolsa>124710</Bolsa>
+    <Descripcion>TABLE SAMSUNG  8GB TAB E</Descripcion>
+    <SubDescripcion> SM T113NU</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>1600.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>286MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>800</Prestamo>
+    <INT>465</INT>
+    <detalles>CONDICONES  REGGULARES  CON CARGADOR ORIGINAL  ESTUCHE  COLOR AZUL MEMORIA 2GB </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125844</Contrato>
+    <Fecha>16-07-2018</Fecha>
+    <Bolsa>124710</Bolsa>
+    <Descripcion>TABLE SAMSUNG  8GB TAB E</Descripcion>
+    <SubDescripcion>195.39</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>1600.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>800</Prestamo>
+    <INT>703</INT>
+    <detalles>CONDICONES  REGGULARES  CON CARGADOR ORIGINAL  ESTUCHE  COLOR AZUL MEMORIA 2GB </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126270</Contrato>
+    <Fecha>05-09-2018</Fecha>
+    <Bolsa>124710</Bolsa>
+    <Descripcion>TABLE SAMSUNG  8GB TAB E</Descripcion>
+    <SubDescripcion>150.99</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>1600.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>800</Prestamo>
+    <INT>947</INT>
+    <detalles>CONDICONES  REGGULARES  CON CARGADOR ORIGINAL  ESTUCHE  COLOR AZUL MEMORIA 2GB </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145884</Contrato>
+    <Fecha>01-11-2018</Fecha>
+    <Bolsa>124710</Bolsa>
+    <Descripcion>TABLE SAMSUNG  8GB TAB E</Descripcion>
+    <SubDescripcion>173.03</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>1600.0000</Avaluo>
+    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>VIRIDIANA GARCIA ALVAREZ</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>800</Prestamo>
+    <INT>1199</INT>
+    <detalles>CONDICONES  REGGULARES  CON CARGADOR ORIGINAL  ESTUCHE  COLOR AZUL MEMORIA 2GB </detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125268</Contrato>
+    <Fecha>04-05-2018</Fecha>
+    <Bolsa>124681</Bolsa>
+    <Descripcion>LAPTOP HP BLANCA</Descripcion>
+    <SubDescripcion>ARJB125</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>2000.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>DESGASTADO</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>257MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>1000</Prestamo>
+    <INT>400</INT>
+    <detalles>CONDICIONES REGULARES  4GB 500DD  PROCESADOR  INTEL CELERON  WINDOS 8  CONTRASEÑA  MODO SEGURO  1234</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125314</Contrato>
+    <Fecha>12-05-2018</Fecha>
+    <Bolsa>144119</Bolsa>
+    <Descripcion>MINILAPTOP LENOVO</Descripcion>
+    <SubDescripcion>SIN MODELO</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>2200.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>37MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>1100</Prestamo>
+    <INT>441</INT>
+    <detalles>250GB DD 2GB RAM W8 INTEL ATOM SE RECIBE MINILAPTOP EN BUENAS CONDICIONES CON SU CARGADOR ORIGINAL</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125594</Contrato>
+    <Fecha>12-06-2018</Fecha>
+    <Bolsa>144119</Bolsa>
+    <Descripcion>MINILAPTOP LENOVO</Descripcion>
+    <SubDescripcion>SIN MODELO</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>2200.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>37MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>1100</Prestamo>
+    <INT>578</INT>
+    <detalles>250GB DD 2GB RAM W8 INTEL ATOM SE RECIBE MINILAPTOP EN BUENAS CONDICIONES CON SU CARGADOR ORIGINAL</detalles>
     <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
@@ -1344,133 +394,90 @@
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>126516</Contrato>
-    <Fecha>09-10-2018</Fecha>
-    <Bolsa>125070</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>DB0004A</SubDescripcion>
+    <Contrato>145448</Contrato>
+    <Fecha>08-08-2018</Fecha>
+    <Bolsa>144758</Bolsa>
+    <Descripcion>COMPUTADORA DE ESCRITORIO</Descripcion>
+    <SubDescripcion>MARCA LANIX</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>6600.0000</Avaluo>
+    <Avaluo>2600.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>426MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>1300</Prestamo>
+    <INT>803</INT>
+    <detalles>SE RECIBE COMPUTADORA DE ESCRITORIO MARCA LANIX MOD TITAN 4340 DD 450 GB WINDOWS 8 PROC INTEL CELERON J1800 RAM 2 GB CONTRASEÑA PEREYRA123</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145608</Contrato>
+    <Fecha>06-09-2018</Fecha>
+    <Bolsa>144758</Bolsa>
+    <Descripcion>COMPUTADORA DE ESCRITORIO</Descripcion>
+    <SubDescripcion>MARCA LANIX</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>2600.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>426MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>1300</Prestamo>
+    <INT>949</INT>
+    <detalles>SE RECIBE COMPUTADORA DE ESCRITORIO MARCA LANIX MOD TITAN 4340 DD 450 GB WINDOWS 8 PROC INTEL CELERON J1800 RAM 2 GB CONTRASEÑA PEREYRA123</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126184</Contrato>
+    <Fecha>22-08-2018</Fecha>
+    <Bolsa>124899</Bolsa>
+    <Descripcion>LAPTOP ASUS </Descripcion>
+    <SubDescripcion>X441N</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>3400.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <Ubicacion />
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>406MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>1700</Prestamo>
+    <INT>871</INT>
+    <detalles>CONDICIONES REGULARES CARGADOR ORIGINAL  MEMIRIA RAM 4GB DD 500 PROCESADOR  INTEL CELERON  WINDOS 10  COTRASEÑA LOCOXANA95</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126484</Contrato>
+    <Fecha>01-10-2018</Fecha>
+    <Bolsa>125059</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>14R018LA</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>3600.0000</Avaluo>
     <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
     <registro>JAIME VILLEDA REYES</registro>
-    <folio>563MRO-TLA3-11</folio>
+    <folio>548MRO-TLA3-11</folio>
     <origen>TLA_3</origen>
-    <Prestamo>3300</Prestamo>
-    <INT>1088</INT>
-    <detalles>CONDICIONES BUEN ESTADO CARGADOR ORIGINAL  WINDOS 10  MEMORIA RAM 4GB DD1TB  PROCESADOR AMDAQ9425  CONTRASEÑA KARENJAQUELINE </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126528</Contrato>
-    <Fecha>10-10-2018</Fecha>
-    <Bolsa>125073</Bolsa>
-    <Descripcion>LAPTOP LENOVO</Descripcion>
-    <SubDescripcion>MODELO 80TT</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6200.0000</Avaluo>
-    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>566MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3100</Prestamo>
-    <INT>1095</INT>
-    <detalles>CONDICIONES BUENAS CARGADOR ORGINAL WINDOS 10 MEMORIA RAM 4GB DD1TB PROCESADOR CELERON  CONTRASEÑA LUISLOPEZ123</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126541</Contrato>
-    <Fecha>11-10-2018</Fecha>
-    <Bolsa>124924</Bolsa>
-    <Descripcion>TABLET GENERICA</Descripcion>
-    <SubDescripcion>122.1</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>1000.0000</Avaluo>
-    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>500</Prestamo>
-    <INT>1099</INT>
-    <detalles>EN CONDICIONE REGULARES CON CARGADOR</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126569</Contrato>
-    <Fecha>15-10-2018</Fecha>
-    <Bolsa>144714</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>MARCA ASUS</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6200.0000</Avaluo>
-    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>342MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3100</Prestamo>
-    <INT>1121</INT>
-    <detalles>SE RECIBE LAP TOP ASUS MOD X5535 EN BUENAS CONDICIONES W 10 PROC INTEL PENTIUM DD 1 TB RAM 4 GB CON CARGADOR ORIGINAL CONTRASEÑA PARAEMPEZAR1</detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126583</Contrato>
-    <Fecha>18-10-2018</Fecha>
-    <Bolsa>125083</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>15DB00041LA</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6600.0000</Avaluo>
-    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
-    <Condiciones>DESGASTADO</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>584MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3300</Prestamo>
-    <INT>1134</INT>
-    <detalles>CONDICIONES  BUENAS CARGADOR ORIGINAL  4GB 1TB  WINDOS 10  PROCESADOR AMDA9  9425 KAREN JAQUELINE </detalles>
-    <caja>MRO-TLA3-11</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>126658</Contrato>
-    <Fecha>30-10-2018</Fecha>
-    <Bolsa>125108</Bolsa>
-    <Descripcion>LAPTOP </Descripcion>
-    <SubDescripcion>760.03</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4600.0000</Avaluo>
-    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>JAIME VILLEDA REYES</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2300</Prestamo>
-    <INT>1192</INT>
-    <detalles>SE RECIBE LAP TOP HP  MOD 14 W0011A RAM 4 GB DD 500 GB PROC AMD EI 2100 APU WINDOWS 8 EN BUENAS CONDICIONES DEJA CARGADOR ORIGINAL</detalles>
+    <Prestamo>1800</Prestamo>
+    <INT>1052</INT>
+    <detalles>CONDICIONES BUENAS CON CARGADOR ORIGINAL SIN CONTRASEÑA  WINDOS 10 DD 700 8GB INTELCOREI3 </detalles>
     <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
@@ -1498,1110 +505,76 @@
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>144001</Contrato>
-    <Fecha>02-01-2018</Fecha>
-    <Bolsa>144001</Bolsa>
-    <Descripcion>UNIDAD DE ALMACENAMIENTO ADATA</Descripcion>
-    <SubDescripcion>MODELO AHM900</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>1600.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>4MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>800</Prestamo>
-    <INT>3</INT>
-    <detalles>SE RECIBE UNIDAD DE ALMACENAMIENTO EN BUEN ESTADO INCLUYE DOS CABLES</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144008</Contrato>
-    <Fecha>02-01-2018</Fecha>
-    <Bolsa>144008</Bolsa>
-    <Descripcion>LAPTOP HP COLOR MORADO</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>7MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2500</Prestamo>
-    <INT>5</INT>
-    <detalles>500GB DD 4GBRAM W10 INTEL COREI3 ARTICULO EN BUENAS CONDICIONES CON CARGADOR ORIGINAL CONTRASEÑA 14061999</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144016</Contrato>
-    <Fecha>03-01-2018</Fecha>
-    <Bolsa>144016</Bolsa>
-    <Descripcion>TABLET MEXTABLET</Descripcion>
-    <SubDescripcion>MODELO M88</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>14MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>300</Prestamo>
-    <INT>12</INT>
-    <detalles>SE RECIBE TABLET GENERICA DE 8 GB DE MEMORIA FUNCIONANDO CORRECTAMENTE SE LE PENALIZO CON EL 10 POR CIENTO POR NO TRAER CARGADOR DEJA FUNDA COLOR NEGRO</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144053</Contrato>
-    <Fecha>05-01-2018</Fecha>
-    <Bolsa>144053</Bolsa>
-    <Descripcion>LAPTOP LENOVO</Descripcion>
-    <SubDescripcion>MODELO 80 HM </SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4600.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>18MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2300</Prestamo>
-    <INT>16</INT>
-    <detalles>45O GB DD 2 GBRAM W10 INTEL CELERON SE RECIBE LAPTOP EN BUENAS CONDICIONES CON CARGADOR ORIGINAL SIN CONTRASEÑA EQUIPO COLOR NEGRO</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144080</Contrato>
-    <Fecha>09-01-2018</Fecha>
-    <Bolsa>144080</Bolsa>
+    <Contrato>126123</Contrato>
+    <Fecha>14-08-2018</Fecha>
+    <Bolsa>124647</Bolsa>
     <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
+    <SubDescripcion>RT3290</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>4400.0000</Avaluo>
+    <Avaluo>3762.0000</Avaluo>
     <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>25MRO-TLA3-12</folio>
+    <Ubicacion />
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>230MRO-TLA3-11</folio>
     <origen>TLA_3</origen>
-    <Prestamo>2200</Prestamo>
-    <INT>23</INT>
-    <detalles>500GB DD 6GBRAM W10 PROCESADOR AMD A6 SE RECIBE LAPTOP EN BUENAS CONDICIONES CON CARGADOR CONTRASEÑA VERDE</detalles>
-    <caja>MRO-TLA3-12</caja>
+    <Prestamo>1881</Prestamo>
+    <INT>831</INT>
+    <detalles>CONDICIONES REGULARES  MEMORIA RAM 8GB DD750 PROCESADOR INTEL CORE I3  WINDOS 8  CON CARGADOR ORIGINAL  SIN CONTRASEÑA </detalles>
+    <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>144088</Contrato>
-    <Fecha>09-01-2018</Fecha>
-    <Bolsa>144088</Bolsa>
-    <Descripcion>LAPTOP LENOVO</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>2800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>27MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1400</Prestamo>
-    <INT>25</INT>
-    <detalles>DISCO DURO 1 TB 8GB RAM INTEL COREI3 W8 CON CARGADOR Y FUNCIONANDO. CONTRASEÑA 0702JOSELIN</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144089</Contrato>
-    <Fecha>09-01-2018</Fecha>
-    <Bolsa>144089</Bolsa>
-    <Descripcion>LAPTOP</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>2212.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>28MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1106</Prestamo>
-    <INT>26</INT>
-    <detalles>320GB DD 2GB MEMORIA RAM PROCESADOR INTEL CELERON WINDOWS 7 CARGADOR CON ESTUCHE NEGRO CONTRASEÑA LUISF79</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144119</Contrato>
-    <Fecha>11-01-2018</Fecha>
-    <Bolsa>144119</Bolsa>
-    <Descripcion>MINILAPTOP LENOVO</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>2200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>37MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1100</Prestamo>
-    <INT>35</INT>
-    <detalles>250GB DD 2GB RAM W8 INTEL ATOM SE RECIBE MINILAPTOP EN BUENAS CONDICIONES CON SU CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144131</Contrato>
-    <Fecha>12-01-2018</Fecha>
-    <Bolsa>144131</Bolsa>
+    <Contrato>125823</Contrato>
+    <Fecha>14-07-2018</Fecha>
+    <Bolsa>124647</Bolsa>
     <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
+    <SubDescripcion>RT3290</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>6200.0000</Avaluo>
+    <Avaluo>3834.0000</Avaluo>
     <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>38MRO-TLA3-12</folio>
+    <Ubicacion />
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>230MRO-TLA3-11</folio>
     <origen>TLA_3</origen>
-    <Prestamo>3100</Prestamo>
-    <INT>36</INT>
-    <detalles>SE RECIBE EN CONDICIONES REGULARES 750GB DD 6GB RAM W10 SIN CONTRASEÑA</detalles>
-    <caja>MRO-TLA3-12</caja>
+    <Prestamo>1917</Prestamo>
+    <INT>695</INT>
+    <detalles>CONDICIONES REGULARES  MEMORIA RAM 8GB DD750 PROCESADOR INTEL CORE I3  WINDOS 8  CON CARGADOR ORIGINAL  SIN CONTRASEÑA </detalles>
+    <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>144135</Contrato>
-    <Fecha>12-01-2018</Fecha>
-    <Bolsa>144135</Bolsa>
+    <Contrato>125332</Contrato>
+    <Fecha>15-05-2018</Fecha>
+    <Bolsa>124647</Bolsa>
     <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>PAVILION</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6400.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>39MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3200</Prestamo>
-    <INT>37</INT>
-    <detalles>700 GB DD 6GB RAM W8 PROCESADOR AMD A8  SE RECIBE LAPTOP BLANCA HP EN BUEN ESTADO CON LIGEROS RAYONES EN LA TAPA Y CON DESGASTE EN LA PINTURA DONDE VA EL TECLADO CONTRASEÑA MARQUEZ</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144160</Contrato>
-    <Fecha>16-01-2018</Fecha>
-    <Bolsa>144160</Bolsa>
-    <Descripcion>LAPTOP SONY VAIO</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4400.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>48MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2200</Prestamo>
-    <INT>46</INT>
-    <detalles>SIN CARACTERISTICAS EN EL CONTRATO</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144190</Contrato>
-    <Fecha>18-01-2018</Fecha>
-    <Bolsa>144188</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>MODELO BQQIVAS</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>56MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3000</Prestamo>
-    <INT>53</INT>
-    <detalles>SE ENCUENTRA EN CONDICIONES REGULARES POR USO DEJA CARGADOR MEMORIA RAM 4GB DISCO DURO 1 TB PROCESADOR INTEL CELERON W 10 COLOR BLANCA CONTRASEÑA 281097JMJ</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144205</Contrato>
-    <Fecha>19-01-2018</Fecha>
-    <Bolsa>144202</Bolsa>
-    <Descripcion>LAPTOP ACER</Descripcion>
-    <SubDescripcion>MODELO VN7 572</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>8500.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>58MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>4250</Prestamo>
-    <INT>55</INT>
-    <detalles>1TB DD 12GB RAM W10 PROCESADOR INTEL CORE I5 SE RECIBE FUNCIONANDO ADECUADAMENTE CON CARGADOR ORIGINAL  CONTRASEÑA MEJORESAMIGAS</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144221</Contrato>
-    <Fecha>22-01-2018</Fecha>
-    <Bolsa>144218</Bolsa>
-    <Descripcion>LAPTOP HP BLANCA</Descripcion>
-    <SubDescripcion>MODELO RTL8723BE</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5000.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>60MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2500</Prestamo>
-    <INT>57</INT>
-    <detalles>500 GB DD 6GB RAM W10 PROCESADOR AMDA8 SE RECIBE LAPTOP EN BUENA CONDICIONES PRESENTA LIJEROS RAYONES EN LA TAPA Y UN POCO SUCIA EN LA PARTE DEL TECLADO CONTRASEÑA TOÑO</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144251</Contrato>
-    <Fecha>24-01-2018</Fecha>
-    <Bolsa>144248</Bolsa>
-    <Descripcion>MINI LAPTOP HP</Descripcion>
-    <SubDescripcion>HP MINI</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>1498.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>66MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>749</Prestamo>
-    <INT>62</INT>
-    <detalles>SIN CARACTERISTICAS EN CONTRATO</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144253</Contrato>
-    <Fecha>24-01-2018</Fecha>
-    <Bolsa>144250</Bolsa>
-    <Descripcion>LAPTOP HP BLANCA</Descripcion>
-    <SubDescripcion>MODELO A6T4LUU</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>68MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3300</Prestamo>
-    <INT>64</INT>
-    <detalles>1 TB DD 6GB RAM W10 PROCESADOR AMDA8 SE RECIBE CON CARGADOR ORIGINAL Y FUNCIONANDO CONTRASEÑA 2013320494</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144259</Contrato>
-    <Fecha>25-01-2018</Fecha>
-    <Bolsa>144256</Bolsa>
-    <Descripcion>LAPTOP HP NEGRA</Descripcion>
-    <SubDescripcion>MODELO BOOK 44062</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>7000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>69MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3500</Prestamo>
-    <INT>65</INT>
-    <detalles>1TB DD 8GB RAM W10 PROCESADOR INTEL CORE I3 SE RECIBE LAPTOP CON CARGADOR UN POCO DESPINTADA POR DESGASTE CONTRASEÑA PERROMACHE 23</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144260</Contrato>
-    <Fecha>25-01-2018</Fecha>
-    <Bolsa>144257</Bolsa>
-    <Descripcion>LAPTOP LENOVO</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
+    <SubDescripcion>RT3290</SubDescripcion>
     <Tipo>Computo</Tipo>
     <Avaluo>4000.0000</Avaluo>
     <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>70MRO-TLA3-12</folio>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>230MRO-TLA3-11</folio>
     <origen>TLA_3</origen>
     <Prestamo>2000</Prestamo>
-    <INT>66</INT>
-    <detalles>500GB DD 2GB RAM W8 PROCESADOR INTEL CELERON SE RECIBE CON CARGADOR ORIGINAL CON CONTRASEÑA PARISJENNY</detalles>
-    <caja>MRO-TLA3-12</caja>
+    <INT>454</INT>
+    <detalles>CONDICIONES REGULARES  MEMORIA RAM 8GB DD750 PROCESADOR INTEL CORE I3  WINDOS 8  CON CARGADOR ORIGINAL  SIN CONTRASEÑA </detalles>
+    <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>144269</Contrato>
-    <Fecha>25-01-2018</Fecha>
-    <Bolsa>144266</Bolsa>
-    <Descripcion>TABLET</Descripcion>
-    <SubDescripcion>GHIA</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>600.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>DESGASTADO</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>73MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>300</Prestamo>
-    <INT>69</INT>
-    <detalles>SIN CARGADOR CONDICIONES REGULARES</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144270</Contrato>
-    <Fecha>25-01-2018</Fecha>
-    <Bolsa>144267</Bolsa>
-    <Descripcion>TABLET</Descripcion>
-    <SubDescripcion>AT T AFFIXT737</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>800.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>DESGASTADO</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>75MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>400</Prestamo>
-    <INT>70</INT>
-    <detalles>SIN CARGADOR CONDICIONES REGULARES</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144271</Contrato>
-    <Fecha>25-01-2018</Fecha>
-    <Bolsa>144268</Bolsa>
-    <Descripcion>LAP TOP HP</Descripcion>
-    <SubDescripcion>500GB D.D 2GB RAM INTEL CELERON</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4700.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>DESGASTADO</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>76MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2350</Prestamo>
-    <INT>71</INT>
-    <detalles>RAYADA CONDICIONES REGULARES PRESENTA GOLPES EN LOS COSTADOS Y TECLADO</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144274</Contrato>
-    <Fecha>26-01-2018</Fecha>
-    <Bolsa>144271</Bolsa>
-    <Descripcion>TABLET GENERICA</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>1000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>78MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>500</Prestamo>
-    <INT>73</INT>
-    <detalles>EN CONDICIONE REGULARES CON CARGADOR</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144301</Contrato>
-    <Fecha>27-01-2018</Fecha>
-    <Bolsa>144298</Bolsa>
-    <Descripcion>LAPTOP ACER</Descripcion>
-    <SubDescripcion>MODELO N15C1</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>8000.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>85MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>4000</Prestamo>
-    <INT>79</INT>
-    <detalles>930 GB DD 4GB RAM INTEL CORE 13 W10 SIN CONTRASEÑA SE RECIBE CON CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144301</Contrato>
-    <Fecha>27-01-2018</Fecha>
-    <Bolsa>144298</Bolsa>
-    <Descripcion>LAPTOP LENOVO </Descripcion>
-    <SubDescripcion>IDEAPAD 320</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>8000.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>85MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>4000</Prestamo>
-    <INT>80</INT>
-    <detalles>SE RECIBE LAPTOP EN BUEN ESTADO 1 TB DD 8GB RAM W10 PROCESADOR AMD A6 CONTRASEÑA 123456</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144312</Contrato>
-    <Fecha>29-01-2018</Fecha>
-    <Bolsa>144309</Bolsa>
-    <Descripcion>MINI LAPTOP TOSHIBA</Descripcion>
-    <SubDescripcion>MODELO L845</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>91MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>85</INT>
-    <detalles>SE RECIBE FUNCIONANDO</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144315</Contrato>
-    <Fecha>29-01-2018</Fecha>
-    <Bolsa>144312</Bolsa>
-    <Descripcion>MINILAPTOP SAMSUNG</Descripcion>
-    <SubDescripcion>MODELO NP 535U3C</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4288.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>92MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2144</Prestamo>
-    <INT>86</INT>
-    <detalles>500GB DD 4GB RAM PROCESADOR AMD A4 BATERIA FUNCIONANDO BIEN CARGADOR ORIGINAL Y FUNCIONANDO AUDIO WEB CAM BIEN CON PUERTO USB CONDICIONES REGULARES DE MOUSE MARCA REGITEEH</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144317</Contrato>
-    <Fecha>29-01-2018</Fecha>
-    <Bolsa>144313</Bolsa>
-    <Descripcion>LAPTOP HP ROJA</Descripcion>
-    <SubDescripcion>MODELO 14B062LLA</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>93MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>88</INT>
-    <detalles>500GB 4GB RAM W8 INTEL COREI3 SE RECIBE LAPTOP EN BUENAS CONDICIONES CON UNOS RAYONES  EN LA TAPA Y SIN LA CAMARA ACTIVADA POR TAL MOTIVO SE LE PENALIZO SIN CONTRASEÑA</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144319</Contrato>
-    <Fecha>29-01-2018</Fecha>
-    <Bolsa>144315</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>94MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2500</Prestamo>
-    <INT>89</INT>
-    <detalles>500GB DD 4GB RAM W10 INTEL CELERON SE RECIBE EN CONDICIONES REGULARES CON CARGADOR ORIGINAL CONTRASEÑA ALIGHIERI2584</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144322</Contrato>
-    <Fecha>30-01-2018</Fecha>
-    <Bolsa>144318</Bolsa>
-    <Descripcion>LAPTOP SAMSUNG</Descripcion>
-    <SubDescripcion>MODELO NP 270E4E</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>SOCORRO HERNANDEZ TREJO</registro>
-    <folio>95MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>90</INT>
-    <detalles>500GB DD 4GB RAM W8 INTEL CELERON SE RECIBE CON CARGADOR GENERICO EN BUENAS CONDICIONES Y FUNCIONANDO CONTRASEÑA MORRIS100</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144394</Contrato>
-    <Fecha>06-02-2018</Fecha>
-    <Bolsa>144369</Bolsa>
-    <Descripcion>LAPTOP </Descripcion>
-    <SubDescripcion>HP</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>2620.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>101MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1310</Prestamo>
-    <INT>109</INT>
-    <detalles>CONDICIONES REGULARES CON GARCADOR ORIGINAL  WINDOS 8  PROCESADOR AMD E1  CON CAJA Y SIN CONTRASEÑAN  MEMORIA RAM 4GB DD 450 </detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144461</Contrato>
-    <Fecha>10-02-2018</Fecha>
-    <Bolsa>144119</Bolsa>
-    <Descripcion>MINILAPTOP LENOVO</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>2200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>37MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1100</Prestamo>
-    <INT>119</INT>
-    <detalles>250GB DD 2GB RAM W8 INTEL ATOM SE RECIBE MINILAPTOP EN BUENAS CONDICIONES CON SU CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144492</Contrato>
-    <Fecha>14-02-2018</Fecha>
-    <Bolsa>144421</Bolsa>
-    <Descripcion>LAPTOP </Descripcion>
-    <SubDescripcion>HP</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>7100.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>114MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3550</Prestamo>
-    <INT>129</INT>
-    <detalles>CONDICIONES REGULARES  GARCADOR ORIGINAL MEMORIA RAM 8GB 1TB PROCESADOR CELERON  WINDOS 10 DEJA FUNDA  SIN CONTRASEÑA </detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144497</Contrato>
-    <Fecha>14-02-2018</Fecha>
-    <Bolsa>144424</Bolsa>
-    <Descripcion>COMPUTADORA</Descripcion>
-    <SubDescripcion>PC ESCRITORIO </SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>3200.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>116MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1600</Prestamo>
-    <INT>133</INT>
-    <detalles>500GB D.D 4GB RAM W7 AMD. CPU SEPARADO DEJA TECLADO MAUSE Y CONECCIONES DE LA MISMA MARCA</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144558</Contrato>
-    <Fecha>20-02-2018</Fecha>
-    <Bolsa>144188</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>404.27</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3000</Prestamo>
-    <INT>151</INT>
-    <detalles>SE ENCUENTRA EN CONDICIONES REGULARES POR USO DEJA CARGADOR MEMORIA RAM 4GB DISCO DURO 1 TB PROCESADOR INTEL CELERON W 10 COLOR BLANCA CONTRASEÑA 281097JMJ</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144618</Contrato>
-    <Fecha>26-02-2018</Fecha>
-    <Bolsa>144481</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>MARCA HP</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>135MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2100</Prestamo>
-    <INT>162</INT>
-    <detalles>SE  RECIBE LAP TOP EN BUEN ESTADO MODELO M8V5BEC WINDOWS 8  PROC INTEL INSIDE RAM 2 GB DD 500 DEJA CARGADOR CONTRASEÑA CLARA1111</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144641</Contrato>
-    <Fecha>28-02-2018</Fecha>
-    <Bolsa>144312</Bolsa>
-    <Descripcion>MINILAPTOP SAMSUNG</Descripcion>
-    <SubDescripcion>MODELO NP 535U3C</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4288.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>92MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2144</Prestamo>
-    <INT>167</INT>
-    <detalles>500GB DD 4GB RAM PROCESADOR AMD A4 BATERIA FUNCIONANDO BIEN CARGADOR ORIGINAL Y FUNCIONANDO AUDIO WEB CAM BIEN CON PUERTO USB CONDICIONES REGULARES DE MOUSE MARCA REGITEEH</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144666</Contrato>
-    <Fecha>01-03-2018</Fecha>
-    <Bolsa>144318</Bolsa>
-    <Descripcion>LAPTOP SAMSUNG</Descripcion>
-    <SubDescripcion>MODELO NP 270E4E</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>95MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>173</INT>
-    <detalles>500GB DD 4GB RAM W8 INTEL CELERON SE RECIBE CON CARGADOR GENERICO EN BUENAS CONDICIONES Y FUNCIONANDO CONTRASEÑA MORRIS100</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144670</Contrato>
-    <Fecha>01-03-2018</Fecha>
-    <Bolsa>144008</Bolsa>
-    <Descripcion>LAPTOP HP COLOR MORADO</Descripcion>
-    <SubDescripcion>540.73</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2500</Prestamo>
-    <INT>176</INT>
-    <detalles>500GB DD 4GBRAM W10 INTEL COREI3 ARTICULO EN BUENAS CONDICIONES CON CARGADOR ORIGINAL CONTRASEÑA 14061999</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144758</Contrato>
-    <Fecha>08-03-2018</Fecha>
-    <Bolsa>144080</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>475.84</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4400.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>AUXILIAR 2 .</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2200</Prestamo>
-    <INT>193</INT>
-    <detalles>500GB DD 6GBRAM W10 PROCESADOR AMD A6 SE RECIBE LAPTOP EN BUENAS CONDICIONES CON CARGADOR CONTRASEÑA VERDE</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144788</Contrato>
-    <Fecha>12-03-2018</Fecha>
-    <Bolsa>144089</Bolsa>
-    <Descripcion>LAPTOP</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>1752.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <Ubicacion>TEMPORAL</Ubicacion>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>28MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>876</Prestamo>
-    <INT>201</INT>
-    <detalles>320GB DD 2GB MEMORIA RAM PROCESADOR INTEL CELERON WINDOWS 7 CARGADOR CON ESTUCHE NEGRO CONTRASEÑA LUISF79</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144798</Contrato>
-    <Fecha>13-03-2018</Fecha>
-    <Bolsa>144119</Bolsa>
-    <Descripcion>MINILAPTOP LENOVO</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>2200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>37MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1100</Prestamo>
-    <INT>204</INT>
-    <detalles>250GB DD 2GB RAM W8 INTEL ATOM SE RECIBE MINILAPTOP EN BUENAS CONDICIONES CON SU CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144799</Contrato>
-    <Fecha>13-03-2018</Fecha>
-    <Bolsa>144131</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>769.28</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3100</Prestamo>
-    <INT>205</INT>
-    <detalles>SE RECIBE EN CONDICIONES REGULARES 750GB DD 6GB RAM W10 SIN CONTRASEÑA</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144803</Contrato>
-    <Fecha>13-03-2018</Fecha>
-    <Bolsa>144160</Bolsa>
-    <Descripcion>LAPTOP SONY VAIO</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>3352.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <Ubicacion>TEMPORAL</Ubicacion>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>48MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1676</Prestamo>
-    <INT>207</INT>
-    <detalles>SIN CARACTERISTICAS EN EL CONTRATO</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144807</Contrato>
-    <Fecha>14-03-2018</Fecha>
-    <Bolsa>144315</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>403.89</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2500</Prestamo>
-    <INT>210</INT>
-    <detalles>500GB DD 4GB RAM W10 INTEL CELERON SE RECIBE EN CONDICIONES REGULARES CON CARGADOR ORIGINAL CONTRASEÑA ALIGHIERI2584</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144814</Contrato>
-    <Fecha>14-03-2018</Fecha>
-    <Bolsa>144543</Bolsa>
-    <Descripcion>LAP TOP HP</Descripcion>
-    <SubDescripcion>MOD 14 R0021A</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>153MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2600</Prestamo>
-    <INT>212</INT>
-    <detalles>SE RECIBE LAPTOP HP RAM 4 GB DD 500GB PROC INTEL CELERON WINDOWS 8 EN BUEN ESTADO DEJA CARGADOR ORIGINAL SE LE PRESTO EL 10 POR CIENTO MAS AUTORIZO JEFE DE SUCURSAL </detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144827</Contrato>
-    <Fecha>15-03-2018</Fecha>
-    <Bolsa>144551</Bolsa>
-    <Descripcion>LAP TOP ASUS</Descripcion>
-    <SubDescripcion>MODELO KSSA</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6000.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>160MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3000</Prestamo>
-    <INT>218</INT>
-    <detalles>SE RECIBE LAP TOP MOD K55A RAM 6GB DD 750 GB W10 EN BUEN ESTADO TALLADA DE LAS ESQUINAS CONTRASEÑA 1214</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144858</Contrato>
-    <Fecha>21-03-2018</Fecha>
-    <Bolsa>144248</Bolsa>
-    <Descripcion>MINI LAPTOP HP</Descripcion>
-    <SubDescripcion>162.01</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>1498.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>749</Prestamo>
-    <INT>231</INT>
-    <detalles>SIN CARACTERISTICAS EN CONTRATO</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144866</Contrato>
-    <Fecha>24-03-2018</Fecha>
-    <Bolsa>144188</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>404.27</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3000</Prestamo>
-    <INT>241</INT>
-    <detalles>SE ENCUENTRA EN CONDICIONES REGULARES POR USO DEJA CARGADOR MEMORIA RAM 4GB DISCO DURO 1 TB PROCESADOR INTEL CELERON W 10 COLOR BLANCA CONTRASEÑA 281097JMJ</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144874</Contrato>
-    <Fecha>26-03-2018</Fecha>
-    <Bolsa>144271</Bolsa>
-    <Descripcion>TABLET GENERICA</Descripcion>
-    <SubDescripcion>110.06</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>1000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>500</Prestamo>
-    <INT>251</INT>
-    <detalles>EN CONDICIONE REGULARES CON CARGADOR</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144880</Contrato>
-    <Fecha>27-03-2018</Fecha>
-    <Bolsa>144575</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>MARCA HP</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>176MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3000</Prestamo>
-    <INT>255</INT>
-    <detalles>SE RECIBE LAP TOP HP PROC INTEL CORE I3  D.D 750 GB RAM 4 GB WINDOWS 8 MOD 14 B062LA EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144883</Contrato>
-    <Fecha>27-03-2018</Fecha>
+    <Contrato>125385</Contrato>
+    <Fecha>19-05-2018</Fecha>
     <Bolsa>144309</Bolsa>
     <Descripcion>MINI LAPTOP TOSHIBA</Descripcion>
     <SubDescripcion>432.56</SubDescripcion>
@@ -2611,189 +584,145 @@
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
+    <registro>JAIME VILLEDA REYES</registro>
     <folio>TLA_3</folio>
     <origen>TLA_3</origen>
     <Prestamo>2000</Prestamo>
-    <INT>258</INT>
+    <INT>474</INT>
     <detalles>SE RECIBE FUNCIONANDO</detalles>
-    <caja>MRO-TLA3-12</caja>
+    <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>144902</Contrato>
-    <Fecha>28-03-2018</Fecha>
-    <Bolsa>144581</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>15 BS008LA</SubDescripcion>
+    <Contrato>125450</Contrato>
+    <Fecha>26-05-2018</Fecha>
+    <Bolsa>144642</Bolsa>
+    <Descripcion>COMPUTADORA DE ESCRITORIO</Descripcion>
+    <SubDescripcion>MARCA LENOVO</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>6600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Avaluo>4000.0000</Avaluo>
+    <Estatus_Prenda>REMATADO</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>182MRO-TLA3-12</folio>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>252MRO-TLA3-12</folio>
     <origen>TLA_3</origen>
-    <Prestamo>3300</Prestamo>
-    <INT>264</INT>
-    <detalles>CONDICIONES BUENAS  CARGADOR ORIGINAL  MEMORIA RAM 4GB DD 1TB PROCESADOR INTEL PENTIUM WINDOS 10 </detalles>
-    <caja>MRO-TLA3-12</caja>
+    <Prestamo>2000</Prestamo>
+    <INT>506</INT>
+    <detalles>SE RECIBE COMPUTADORA DE ESCRITORIO MARCA LENOVO MOD LENOVO 0260 PROC INTEL CELERON RAM 2 GB DD 1 TERA WINDOWS 8 EN BUENAS CONDICIONES DEJA TECLADO Y MOUSE ORIGINALES</detalles>
+    <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>144904</Contrato>
-    <Fecha>28-03-2018</Fecha>
-    <Bolsa>144312</Bolsa>
-    <Descripcion>MINILAPTOP SAMSUNG</Descripcion>
-    <SubDescripcion>MODELO NP 535U3C</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4288.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>92MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2144</Prestamo>
-    <INT>265</INT>
-    <detalles>500GB DD 4GB RAM PROCESADOR AMD A4 BATERIA FUNCIONANDO BIEN CARGADOR ORIGINAL Y FUNCIONANDO AUDIO WEB CAM BIEN CON PUERTO USB CONDICIONES REGULARES DE MOUSE MARCA REGITEEH</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144918</Contrato>
-    <Fecha>31-03-2018</Fecha>
-    <Bolsa>144318</Bolsa>
-    <Descripcion>LAPTOP SAMSUNG</Descripcion>
-    <SubDescripcion>MODELO NP 270E4E</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>95MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>270</INT>
-    <detalles>500GB DD 4GB RAM W8 INTEL CELERON SE RECIBE CON CARGADOR GENERICO EN BUENAS CONDICIONES Y FUNCIONANDO CONTRASEÑA MORRIS100</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144934</Contrato>
-    <Fecha>02-04-2018</Fecha>
-    <Bolsa>144588</Bolsa>
-    <Descripcion>LAPTOP</Descripcion>
-    <SubDescripcion>MARCA HP</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>187MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>273</INT>
-    <detalles>SE RECIBE LAP TOP MARCA HP MOD RTL8723BENF RAM 4 GB DD 500 GB WINDOS 10 PROC INTEL CELERON EN BUEN ESTADO CON CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>144974</Contrato>
-    <Fecha>07-04-2018</Fecha>
-    <Bolsa>144602</Bolsa>
-    <Descripcion>LAPTOP LENOVO</Descripcion>
-    <SubDescripcion>545.12</SubDescripcion>
+    <Contrato>125484</Contrato>
+    <Fecha>29-05-2018</Fecha>
+    <Bolsa>124752</Bolsa>
+    <Descripcion>LAP TOP</Descripcion>
+    <SubDescripcion>MARCA DELL</SubDescripcion>
     <Tipo>Computo</Tipo>
     <Avaluo>4000.0000</Avaluo>
     <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>302MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2000</Prestamo>
+    <INT>520</INT>
+    <detalles>SE RECIBE LAP TOP MARCA DELL MOD TTYFJA00W 10 DD 1 TB RAM 4 GB PROC INTEL CORE I3 EN BUENAS CONDICIONES TIENE DOS CUENTAS DE USUARIO CON CARGADOR ORIGINAL DEJA ESTUCHE COLOR NEGRO</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125631</Contrato>
+    <Fecha>20-06-2018</Fecha>
+    <Bolsa>124802</Bolsa>
+    <Descripcion>LAPTOP LENOVO</Descripcion>
+    <SubDescripcion>610.66</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4000.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
     <folio>TLA_3</folio>
     <origen>TLA_3</origen>
     <Prestamo>2000</Prestamo>
-    <INT>305</INT>
+    <INT>618</INT>
     <detalles>500GB DD 2GB RAM W8 PROCESADOR INTEL CELERON SE RECIBE CON CARGADOR ORIGINAL CON CONTRASEÑA PARISJENNY</detalles>
-    <caja>MRO-TLA3-12</caja>
+    <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>145005</Contrato>
-    <Fecha>12-04-2018</Fecha>
-    <Bolsa>144119</Bolsa>
-    <Descripcion>MINILAPTOP LENOVO</Descripcion>
-    <SubDescripcion>SIN MODELO</SubDescripcion>
+    <Contrato>125877</Contrato>
+    <Fecha>18-07-2018</Fecha>
+    <Bolsa>144309</Bolsa>
+    <Descripcion>MINI LAPTOP TOSHIBA</Descripcion>
+    <SubDescripcion>496.3</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>2200.0000</Avaluo>
+    <Avaluo>4000.0000</Avaluo>
     <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>37MRO-TLA3-12</folio>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
     <origen>TLA_3</origen>
-    <Prestamo>1100</Prestamo>
-    <INT>322</INT>
-    <detalles>250GB DD 2GB RAM W8 INTEL ATOM SE RECIBE MINILAPTOP EN BUENAS CONDICIONES CON SU CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-12</caja>
+    <Prestamo>2000</Prestamo>
+    <INT>712</INT>
+    <detalles>SE RECIBE FUNCIONANDO</detalles>
+    <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>145033</Contrato>
-    <Fecha>16-04-2018</Fecha>
-    <Bolsa>144624</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>MODELO BCM9431424</SubDescripcion>
+    <Contrato>126264</Contrato>
+    <Fecha>05-09-2018</Fecha>
+    <Bolsa>124999</Bolsa>
+    <Descripcion>LAPTOP  DELL</Descripcion>
+    <SubDescripcion>MODELO INSPIRON 15</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>4820.0000</Avaluo>
+    <Avaluo>4000.0000</Avaluo>
     <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>225MRO-TLA3-12</folio>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>494MRO-TLA3-11</folio>
     <origen>TLA_3</origen>
-    <Prestamo>2410</Prestamo>
-    <INT>333</INT>
-    <detalles>CONDICIONES BUENAS  MEMORIA RAM 4GB DD500 WINDOS 10 PROCESADOR CELERON  CON FUNDA  SIN COONTRASEÑA </detalles>
-    <caja>MRO-TLA3-12</caja>
+    <Prestamo>2000</Prestamo>
+    <INT>943</INT>
+    <detalles>CONDICONES BUENAS CARGADOR ORIGINAL MEMORIA  16GB  1 TB PROCESADOR  INTELCOREI7  WINDOS 8  CONTRASEÑA  17 12 83</detalles>
+    <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>145050</Contrato>
-    <Fecha>20-04-2018</Fecha>
-    <Bolsa>144631</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>MARCA ACER</SubDescripcion>
+    <Contrato>126353</Contrato>
+    <Fecha>13-09-2018</Fecha>
+    <Bolsa>144309</Bolsa>
+    <Descripcion>MINI LAPTOP TOSHIBA</Descripcion>
+    <SubDescripcion>432.56</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>7200.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Avaluo>4000.0000</Avaluo>
+    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>232MRO-TLA3-12</folio>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
     <origen>TLA_3</origen>
-    <Prestamo>3600</Prestamo>
-    <INT>346</INT>
-    <detalles>SE RECIBE LAP TOP MARCA ACER EN BUENAS CONDICIONES RAYADA POR USO DD 1 TERA RAM 6 GB WINDOWS 8  PROC INTEL CORE I3 DEJA CARGADOR GENERICO CONTRASEÑA YAMILUIS31</detalles>
-    <caja>MRO-TLA3-12</caja>
+    <Prestamo>2000</Prestamo>
+    <INT>975</INT>
+    <detalles>SE RECIBE FUNCIONANDO</detalles>
+    <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
@@ -2820,35 +749,79 @@
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>145097</Contrato>
-    <Fecha>02-05-2018</Fecha>
-    <Bolsa>144588</Bolsa>
-    <Descripcion>LAPTOP</Descripcion>
-    <SubDescripcion>MARCA HP</SubDescripcion>
+    <Contrato>145286</Contrato>
+    <Fecha>14-06-2018</Fecha>
+    <Bolsa>124647</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>RT3290</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
+    <Avaluo>4000.0000</Avaluo>
     <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
     <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>187MRO-TLA3-12</folio>
+    <folio>230MRO-TLA3-11</folio>
     <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>393</INT>
-    <detalles>SE RECIBE LAP TOP MARCA HP MOD RTL8723BENF RAM 4 GB DD 500 GB WINDOS 10 PROC INTEL CELERON EN BUEN ESTADO CON CARGADOR ORIGINAL</detalles>
+    <Prestamo>2000</Prestamo>
+    <INT>591</INT>
+    <detalles>CONDICIONES REGULARES  MEMORIA RAM 8GB DD750 PROCESADOR INTEL CORE I3  WINDOS 8  CON CARGADOR ORIGINAL  SIN CONTRASEÑA </detalles>
     <caja>MRO-TLA3-12</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>145105</Contrato>
-    <Fecha>04-05-2018</Fecha>
-    <Bolsa>144647</Bolsa>
-    <Descripcion>LAPTOP HP COLOR MORADO</Descripcion>
-    <SubDescripcion>610.6</SubDescripcion>
+    <Contrato>145376</Contrato>
+    <Fecha>04-07-2018</Fecha>
+    <Bolsa>144736</Bolsa>
+    <Descripcion>LAPTOP</Descripcion>
+    <SubDescripcion>MARCA ASUS</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>5000.0000</Avaluo>
+    <Avaluo>4000.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>367MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2000</Prestamo>
+    <INT>658</INT>
+    <detalles>SE RECIBE LAP TOP MARCA ASUS MOD 2016 RAM 4GB DD 500 GB PROC INTEL CELERON WINDOWS 10 EN BUEN ESTADO DEJA CARGADOR ORIGINAL CONTRASEÑA 123456</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145472</Contrato>
+    <Fecha>13-08-2018</Fecha>
+    <Bolsa>144769</Bolsa>
+    <Descripcion>COMPUTADORA DE ESCRITORIO</Descripcion>
+    <SubDescripcion>LENOVO</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4000.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>433MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2000</Prestamo>
+    <INT>819</INT>
+    <detalles>SE RECIBE COMPUTADORA DE ESCRITORIO MARCA LENOVO MOD FUCL000ALD WINDOWS 10 PROC INTEL CELERON J3355 DD 500 GB RAM 4 GB DEJA CARGADOR ORIGINAL TECLADO ORIGINAL Y MOUSE ORIGINAL EN BUEN ESTADO CONTRASEÑA SINPELOSENLALENGUA</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145520</Contrato>
+    <Fecha>23-08-2018</Fecha>
+    <Bolsa>144786</Bolsa>
+    <Descripcion>LAPTOP LENOVO</Descripcion>
+    <SubDescripcion>488.45</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4000.0000</Avaluo>
     <Estatus_Prenda>REMATADO</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
@@ -2856,10 +829,76 @@
     <registro>CARLOS CALDERON CABRERA</registro>
     <folio>TLA_3</folio>
     <origen>TLA_3</origen>
-    <Prestamo>2500</Prestamo>
-    <INT>399</INT>
-    <detalles>500GB DD 4GBRAM W10 INTEL COREI3 ARTICULO EN BUENAS CONDICIONES CON CARGADOR ORIGINAL CONTRASEÑA 14061999</detalles>
+    <Prestamo>2000</Prestamo>
+    <INT>882</INT>
+    <detalles>500GB DD 2GB RAM W8 PROCESADOR INTEL CELERON SE RECIBE CON CARGADOR ORIGINAL CON CONTRASEÑA PARISJENNY</detalles>
     <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125280</Contrato>
+    <Fecha>07-05-2018</Fecha>
+    <Bolsa>144080</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>537.32</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4400.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2200</Prestamo>
+    <INT>416</INT>
+    <detalles>500GB DD 6GBRAM W10 PROCESADOR AMD A6 SE RECIBE LAPTOP EN BUENAS CONDICIONES CON CARGADOR CONTRASEÑA VERDE</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126066</Contrato>
+    <Fecha>08-08-2018</Fecha>
+    <Bolsa>124931</Bolsa>
+    <Descripcion>LAPTOP </Descripcion>
+    <SubDescripcion>828</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4600.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2300</Prestamo>
+    <INT>804</INT>
+    <detalles>SE RECIBE LAP TOP HP  MOD 14 W0011A RAM 4 GB DD 500 GB PROC AMD EI 2100 APU WINDOWS 8 EN BUENAS CONDICIONES DEJA CARGADOR ORIGINAL</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126658</Contrato>
+    <Fecha>30-10-2018</Fecha>
+    <Bolsa>125108</Bolsa>
+    <Descripcion>LAPTOP </Descripcion>
+    <SubDescripcion>760.03</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4600.0000</Avaluo>
+    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2300</Prestamo>
+    <INT>1192</INT>
+    <detalles>SE RECIBE LAP TOP HP  MOD 14 W0011A RAM 4 GB DD 500 GB PROC AMD EI 2100 APU WINDOWS 8 EN BUENAS CONDICIONES DEJA CARGADOR ORIGINAL</detalles>
+    <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
@@ -2908,6 +947,491 @@
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
+    <Contrato>125492</Contrato>
+    <Fecha>30-05-2018</Fecha>
+    <Bolsa>144318</Bolsa>
+    <Descripcion>LAPTOP SAMSUNG</Descripcion>
+    <SubDescripcion>MODELO NP 270E4E</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4800.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>95MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2400</Prestamo>
+    <INT>530</INT>
+    <detalles>500GB DD 4GB RAM W8 INTEL CELERON SE RECIBE CON CARGADOR GENERICO EN BUENAS CONDICIONES Y FUNCIONANDO CONTRASEÑA MORRIS100</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125943</Contrato>
+    <Fecha>26-07-2018</Fecha>
+    <Bolsa>124890</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>MODELO RTL8723BE</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4800.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>399MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2400</Prestamo>
+    <INT>742</INT>
+    <detalles>CONDICIONES  BUENAS  CARGADOR ORIGINAL   4GB 500 DD INTEL CERON  WINDOS 10   PROCESADOR  INTEL CELOR  CONTRASEÑA LUISITO </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126046</Contrato>
+    <Fecha>07-08-2018</Fecha>
+    <Bolsa>124921</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>N3060</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4800.0000</Avaluo>
+    <Estatus_Prenda>REMATADO</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>423MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2400</Prestamo>
+    <INT>793</INT>
+    <detalles>CONDICIONES REGULARES  CARGADOR ORIGINAL  MEMORIA RAM 4GB DD 500 PROCESADOR INTEL CELERON  WINDOS 10  CONTRASEÑA KEVIN 123</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126132</Contrato>
+    <Fecha>15-08-2018</Fecha>
+    <Bolsa>124890</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>MODELO RTL8723BE</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4800.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>399MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2400</Prestamo>
+    <INT>836</INT>
+    <detalles>CONDICIONES  BUENAS  CARGADOR ORIGINAL   4GB 500 DD INTEL CERON  WINDOS 10   PROCESADOR  INTEL CELOR  CONTRASEÑA LUISITO </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126212</Contrato>
+    <Fecha>29-08-2018</Fecha>
+    <Bolsa>144318</Bolsa>
+    <Descripcion>LAPTOP SAMSUNG</Descripcion>
+    <SubDescripcion>MODELO NP 270E4E</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4800.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>95MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2400</Prestamo>
+    <INT>902</INT>
+    <detalles>500GB DD 4GB RAM W8 INTEL CELERON SE RECIBE CON CARGADOR GENERICO EN BUENAS CONDICIONES Y FUNCIONANDO CONTRASEÑA MORRIS100</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145097</Contrato>
+    <Fecha>02-05-2018</Fecha>
+    <Bolsa>144588</Bolsa>
+    <Descripcion>LAPTOP</Descripcion>
+    <SubDescripcion>MARCA HP</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4800.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>187MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2400</Prestamo>
+    <INT>393</INT>
+    <detalles>SE RECIBE LAP TOP MARCA HP MOD RTL8723BENF RAM 4 GB DD 500 GB WINDOS 10 PROC INTEL CELERON EN BUEN ESTADO CON CARGADOR ORIGINAL</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145230</Contrato>
+    <Fecha>01-06-2018</Fecha>
+    <Bolsa>144588</Bolsa>
+    <Descripcion>LAPTOP</Descripcion>
+    <SubDescripcion>MARCA HP</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4800.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>187MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2400</Prestamo>
+    <INT>537</INT>
+    <detalles>SE RECIBE LAP TOP MARCA HP MOD RTL8723BENF RAM 4 GB DD 500 GB WINDOS 10 PROC INTEL CELERON EN BUEN ESTADO CON CARGADOR ORIGINAL</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145357</Contrato>
+    <Fecha>29-06-2018</Fecha>
+    <Bolsa>144318</Bolsa>
+    <Descripcion>LAPTOP SAMSUNG</Descripcion>
+    <SubDescripcion>MODELO NP 270E4E</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4800.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>95MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2400</Prestamo>
+    <INT>650</INT>
+    <detalles>500GB DD 4GB RAM W8 INTEL CELERON SE RECIBE CON CARGADOR GENERICO EN BUENAS CONDICIONES Y FUNCIONANDO CONTRASEÑA MORRIS100</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145415</Contrato>
+    <Fecha>30-07-2018</Fecha>
+    <Bolsa>144318</Bolsa>
+    <Descripcion>LAPTOP SAMSUNG</Descripcion>
+    <SubDescripcion>MODELO NP 270E4E</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4800.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>95MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2400</Prestamo>
+    <INT>751</INT>
+    <detalles>500GB DD 4GB RAM W8 INTEL CELERON SE RECIBE CON CARGADOR GENERICO EN BUENAS CONDICIONES Y FUNCIONANDO CONTRASEÑA MORRIS100</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125626</Contrato>
+    <Fecha>19-06-2018</Fecha>
+    <Bolsa>124799</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>588.58</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4820.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2410</Prestamo>
+    <INT>611</INT>
+    <detalles>CONDICIONES BUENAS  MEMORIA RAM 4GB DD500 WINDOS 10 PROCESADOR CELERON  CON FUNDA  SIN COONTRASEÑA </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145446</Contrato>
+    <Fecha>07-08-2018</Fecha>
+    <Bolsa>124799</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>454.82</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>4820.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2410</Prestamo>
+    <INT>800</INT>
+    <detalles>CONDICIONES BUENAS  MEMORIA RAM 4GB DD500 WINDOS 10 PROCESADOR CELERON  CON FUNDA  SIN COONTRASEÑA </detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126038</Contrato>
+    <Fecha>06-08-2018</Fecha>
+    <Bolsa>124915</Bolsa>
+    <Descripcion>LAPTOP ASUS </Descripcion>
+    <SubDescripcion>X441N</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>5000.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>419MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2500</Prestamo>
+    <INT>789</INT>
+    <detalles>CONDICIONE REGULARES  WINDOS 10 PROCESADOR  CELERON  4GB 500DD INTEL CELERON  CONTRASEÑA 123456 </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126368</Contrato>
+    <Fecha>14-09-2018</Fecha>
+    <Bolsa>124915</Bolsa>
+    <Descripcion>LAPTOP ASUS </Descripcion>
+    <SubDescripcion>403.89</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>5000.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2500</Prestamo>
+    <INT>980</INT>
+    <detalles>CONDICIONE REGULARES  WINDOS 10 PROCESADOR  CELERON  4GB 500DD INTEL CELERON  CONTRASEÑA 123456 </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145105</Contrato>
+    <Fecha>04-05-2018</Fecha>
+    <Bolsa>144647</Bolsa>
+    <Descripcion>LAPTOP HP COLOR MORADO</Descripcion>
+    <SubDescripcion>610.6</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>5000.0000</Avaluo>
+    <Estatus_Prenda>REMATADO</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2500</Prestamo>
+    <INT>399</INT>
+    <detalles>500GB DD 4GBRAM W10 INTEL COREI3 ARTICULO EN BUENAS CONDICIONES CON CARGADOR ORIGINAL CONTRASEÑA 14061999</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126167</Contrato>
+    <Fecha>20-08-2018</Fecha>
+    <Bolsa>124968</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>PAVILION</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>5200.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>459MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2600</Prestamo>
+    <INT>861</INT>
+    <detalles>SE RECIBE LAP TOP HP  MOD 3217U WINDOWS 8 PROC INTEL CORE I3  DD 500 GB RAM 4 GB EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126230</Contrato>
+    <Fecha>31-08-2018</Fecha>
+    <Bolsa>124994</Bolsa>
+    <Descripcion>LAPTOP HP </Descripcion>
+    <SubDescripcion>RTL8723DER</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>5200.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>485MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2600</Prestamo>
+    <INT>919</INT>
+    <detalles>CONDCIONES BUENAS   4GB DD500 PROCESADOR CELERON WINDOS 10 CARGADOR ORIGINAL CONTRASEÑA KMAF20023121</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145842</Contrato>
+    <Fecha>26-10-2018</Fecha>
+    <Bolsa>144888</Bolsa>
+    <Descripcion>LAP TOP HP</Descripcion>
+    <SubDescripcion>MODELO RTL8188EE</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>5300.0000</Avaluo>
+    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>VIRIDIANA GARCIA ALVAREZ</registro>
+    <folio>608MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2650</Prestamo>
+    <INT>1172</INT>
+    <detalles>SE RECIBE LAP TOP EN BUEN ESTADO DEJA CARGADOR ORIGINAL CONTRASEÑA 2430</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125886</Contrato>
+    <Fecha>20-07-2018</Fecha>
+    <Bolsa>124870</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>RTL8188EE</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>5400.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>391MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2700</Prestamo>
+    <INT>716</INT>
+    <detalles>CONDICIONES  BUENAS  CON CARGADOR ORIGINAL  MEMORIA RAM 4GB  500GB  PROCESADOR INTEL PENTIUN  WINDOS 10 </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125925</Contrato>
+    <Fecha>24-07-2018</Fecha>
+    <Bolsa>124884</Bolsa>
+    <Descripcion>LAP TOP ASUS</Descripcion>
+    <SubDescripcion>X441N</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>5400.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>398MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2700</Prestamo>
+    <INT>738</INT>
+    <detalles>CONDICIONES BUENAS  CON CARGADOR ORIGINAL  4GB DD500 INTEL CELERON WINDOS 10  CONTRASEÑA LOCOXONA 95 </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125981</Contrato>
+    <Fecha>31-07-2018</Fecha>
+    <Bolsa>124899</Bolsa>
+    <Descripcion>LAPTOP ASUS </Descripcion>
+    <SubDescripcion>X441N</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>5400.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>406MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2700</Prestamo>
+    <INT>760</INT>
+    <detalles>CONDICIONES REGULARES CARGADOR ORIGINAL  MEMIRIA RAM 4GB DD 500 PROCESADOR  INTEL CELERON  WINDOS 10  COTRASEÑA LOCOXANA95</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145855</Contrato>
+    <Fecha>29-10-2018</Fecha>
+    <Bolsa>144893</Bolsa>
+    <Descripcion>LAP TOP ASUS</Descripcion>
+    <SubDescripcion>MODELO RTL8723BE</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>5600.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>VIRIDIANA GARCIA ALVAREZ</registro>
+    <folio>612MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>2800</Prestamo>
+    <INT>1180</INT>
+    <detalles>SE RECIBE LAP TOP EN BUEN ESTADO DEJA FUNDA Y CARGADOR ORIGINAL
+</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125480</Contrato>
+    <Fecha>28-05-2018</Fecha>
+    <Bolsa>144575</Bolsa>
+    <Descripcion>LAP TOP</Descripcion>
+    <SubDescripcion>732.7</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6000.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3000</Prestamo>
+    <INT>519</INT>
+    <detalles>SE RECIBE LAP TOP HP PROC INTEL CORE I3  D.D 750 GB RAM 4 GB WINDOWS 8 MOD 14 B062LA EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
     <Contrato>145142</Contrato>
     <Fecha>09-05-2018</Fecha>
     <Bolsa>144662</Bolsa>
@@ -2930,24 +1454,178 @@
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>145148</Contrato>
-    <Fecha>11-05-2018</Fecha>
-    <Bolsa>124637</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>RTL8723DE</SubDescripcion>
+    <Contrato>145259</Contrato>
+    <Fecha>11-06-2018</Fecha>
+    <Bolsa>144662</Bolsa>
+    <Descripcion>LAP TOP</Descripcion>
+    <SubDescripcion>404.27</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>7400.0000</Avaluo>
+    <Avaluo>6000.0000</Avaluo>
     <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
     <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>219MRO-TLA3-11</folio>
+    <folio>TLA_3</folio>
     <origen>TLA_3</origen>
-    <Prestamo>3700</Prestamo>
-    <INT>435</INT>
-    <detalles>CONDICIONES BUENAS CON CARGADOR   12 GB 1 TB DD   PROCESADOR AMDA9 WINDOS 10 CON CARGADOR CONTRASEÑA IMARKETSLIVE  </detalles>
+    <Prestamo>3000</Prestamo>
+    <INT>576</INT>
+    <detalles>SE RECIBE LAP TOP HP MOD BC943148 RAM 4 GB DD 1 TB WINDOWS 10 DEJA CARGADOR ORIGINAL CONTRASEÑA 281097 JMJ</detalles>
     <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145405</Contrato>
+    <Fecha>09-07-2018</Fecha>
+    <Bolsa>144662</Bolsa>
+    <Descripcion>LAP TOP</Descripcion>
+    <SubDescripcion>404.27</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6000.0000</Avaluo>
+    <Estatus_Prenda>REMATADO</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3000</Prestamo>
+    <INT>678</INT>
+    <detalles>SE RECIBE LAP TOP HP MOD BC943148 RAM 4 GB DD 1 TB WINDOWS 10 DEJA CARGADOR ORIGINAL CONTRASEÑA 281097 JMJ</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145437</Contrato>
+    <Fecha>02-08-2018</Fecha>
+    <Bolsa>144752</Bolsa>
+    <Descripcion>LAP TOP</Descripcion>
+    <SubDescripcion>MARCA LENOVO</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6000.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>411MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3000</Prestamo>
+    <INT>769</INT>
+    <detalles>SE RECIBE LAP TOP MARCA LENOVO MOD 80TT WINDOWS 10  PROC INTEL CELERON N 3350 RAM 4 GB DD 1 TERA EN BUEN ESTADO DEJA CARGADOR ORIGINAL CONTRASEÑA LUISLOPEZ123</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125831</Contrato>
+    <Fecha>14-07-2018</Fecha>
+    <Bolsa>144131</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>757.12</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6200.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3100</Prestamo>
+    <INT>698</INT>
+    <detalles>SE RECIBE EN CONDICIONES REGULARES 750GB DD 6GB RAM W10 SIN CONTRASEÑA</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125879</Contrato>
+    <Fecha>19-07-2018</Fecha>
+    <Bolsa>144714</Bolsa>
+    <Descripcion>LAP TOP</Descripcion>
+    <SubDescripcion>MARCA ASUS</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6200.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>342MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3100</Prestamo>
+    <INT>714</INT>
+    <detalles>SE RECIBE LAP TOP ASUS MOD X5535 EN BUENAS CONDICIONES W 10 PROC INTEL PENTIUM DD 1 TB RAM 4 GB CON CARGADOR ORIGINAL CONTRASEÑA PARAEMPEZAR1</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126159</Contrato>
+    <Fecha>18-08-2018</Fecha>
+    <Bolsa>144714</Bolsa>
+    <Descripcion>LAP TOP</Descripcion>
+    <SubDescripcion>MARCA ASUS</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6200.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>342MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3100</Prestamo>
+    <INT>856</INT>
+    <detalles>SE RECIBE LAP TOP ASUS MOD X5535 EN BUENAS CONDICIONES W 10 PROC INTEL PENTIUM DD 1 TB RAM 4 GB CON CARGADOR ORIGINAL CONTRASEÑA PARAEMPEZAR1</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126528</Contrato>
+    <Fecha>10-10-2018</Fecha>
+    <Bolsa>125073</Bolsa>
+    <Descripcion>LAPTOP LENOVO</Descripcion>
+    <SubDescripcion>MODELO 80TT</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6200.0000</Avaluo>
+    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>566MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3100</Prestamo>
+    <INT>1095</INT>
+    <detalles>CONDICIONES BUENAS CARGADOR ORGINAL WINDOS 10 MEMORIA RAM 4GB DD1TB PROCESADOR CELERON  CONTRASEÑA LUISLOPEZ123</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126569</Contrato>
+    <Fecha>15-10-2018</Fecha>
+    <Bolsa>144714</Bolsa>
+    <Descripcion>LAP TOP</Descripcion>
+    <SubDescripcion>MARCA ASUS</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6200.0000</Avaluo>
+    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>342MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3100</Prestamo>
+    <INT>1121</INT>
+    <detalles>SE RECIBE LAP TOP ASUS MOD X5535 EN BUENAS CONDICIONES W 10 PROC INTEL PENTIUM DD 1 TB RAM 4 GB CON CARGADOR ORIGINAL CONTRASEÑA PARAEMPEZAR1</detalles>
+    <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
@@ -2996,94 +1674,6 @@
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>145230</Contrato>
-    <Fecha>01-06-2018</Fecha>
-    <Bolsa>144588</Bolsa>
-    <Descripcion>LAPTOP</Descripcion>
-    <SubDescripcion>MARCA HP</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>187MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>537</INT>
-    <detalles>SE RECIBE LAP TOP MARCA HP MOD RTL8723BENF RAM 4 GB DD 500 GB WINDOS 10 PROC INTEL CELERON EN BUEN ESTADO CON CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145259</Contrato>
-    <Fecha>11-06-2018</Fecha>
-    <Bolsa>144662</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>404.27</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3000</Prestamo>
-    <INT>576</INT>
-    <detalles>SE RECIBE LAP TOP HP MOD BC943148 RAM 4 GB DD 1 TB WINDOWS 10 DEJA CARGADOR ORIGINAL CONTRASEÑA 281097 JMJ</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145264</Contrato>
-    <Fecha>12-06-2018</Fecha>
-    <Bolsa>144696</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>MARCA DELL</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>7600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>332MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3800</Prestamo>
-    <INT>581</INT>
-    <detalles>SE RECIBE LAP TOP DELL MOD 7YM1572 RAM 4 GB DD 1 TB PROC INTEL CORE I3 WINDOWS 10 EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145286</Contrato>
-    <Fecha>14-06-2018</Fecha>
-    <Bolsa>124647</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>RT3290</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>230MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>591</INT>
-    <detalles>CONDICIONES REGULARES  MEMORIA RAM 8GB DD750 PROCESADOR INTEL CORE I3  WINDOS 8  CON CARGADOR ORIGINAL  SIN CONTRASEÑA </detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
     <Contrato>145319</Contrato>
     <Fecha>19-06-2018</Fecha>
     <Bolsa>144714</Bolsa>
@@ -3101,315 +1691,6 @@
     <Prestamo>3100</Prestamo>
     <INT>609</INT>
     <detalles>SE RECIBE LAP TOP ASUS MOD X5535 EN BUENAS CONDICIONES W 10 PROC INTEL PENTIUM DD 1 TB RAM 4 GB CON CARGADOR ORIGINAL CONTRASEÑA PARAEMPEZAR1</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145357</Contrato>
-    <Fecha>29-06-2018</Fecha>
-    <Bolsa>144318</Bolsa>
-    <Descripcion>LAPTOP SAMSUNG</Descripcion>
-    <SubDescripcion>MODELO NP 270E4E</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>95MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>650</INT>
-    <detalles>500GB DD 4GB RAM W8 INTEL CELERON SE RECIBE CON CARGADOR GENERICO EN BUENAS CONDICIONES Y FUNCIONANDO CONTRASEÑA MORRIS100</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145376</Contrato>
-    <Fecha>04-07-2018</Fecha>
-    <Bolsa>144736</Bolsa>
-    <Descripcion>LAPTOP</Descripcion>
-    <SubDescripcion>MARCA ASUS</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>367MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>658</INT>
-    <detalles>SE RECIBE LAP TOP MARCA ASUS MOD 2016 RAM 4GB DD 500 GB PROC INTEL CELERON WINDOWS 10 EN BUEN ESTADO DEJA CARGADOR ORIGINAL CONTRASEÑA 123456</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145405</Contrato>
-    <Fecha>09-07-2018</Fecha>
-    <Bolsa>144662</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>404.27</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6000.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3000</Prestamo>
-    <INT>678</INT>
-    <detalles>SE RECIBE LAP TOP HP MOD BC943148 RAM 4 GB DD 1 TB WINDOWS 10 DEJA CARGADOR ORIGINAL CONTRASEÑA 281097 JMJ</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145407</Contrato>
-    <Fecha>10-07-2018</Fecha>
-    <Bolsa>144745</Bolsa>
-    <Descripcion>TABLET GHIA</Descripcion>
-    <SubDescripcion>VECTOR 10.1</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>900.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>374MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>450</Prestamo>
-    <INT>680</INT>
-    <detalles>SE RECIBE TABLET EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145415</Contrato>
-    <Fecha>30-07-2018</Fecha>
-    <Bolsa>144318</Bolsa>
-    <Descripcion>LAPTOP SAMSUNG</Descripcion>
-    <SubDescripcion>MODELO NP 270E4E</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4800.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>95MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2400</Prestamo>
-    <INT>751</INT>
-    <detalles>500GB DD 4GB RAM W8 INTEL CELERON SE RECIBE CON CARGADOR GENERICO EN BUENAS CONDICIONES Y FUNCIONANDO CONTRASEÑA MORRIS100</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145437</Contrato>
-    <Fecha>02-08-2018</Fecha>
-    <Bolsa>144752</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>MARCA LENOVO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>411MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3000</Prestamo>
-    <INT>769</INT>
-    <detalles>SE RECIBE LAP TOP MARCA LENOVO MOD 80TT WINDOWS 10  PROC INTEL CELERON N 3350 RAM 4 GB DD 1 TERA EN BUEN ESTADO DEJA CARGADOR ORIGINAL CONTRASEÑA LUISLOPEZ123</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145446</Contrato>
-    <Fecha>07-08-2018</Fecha>
-    <Bolsa>124799</Bolsa>
-    <Descripcion>LAPTOP HP</Descripcion>
-    <SubDescripcion>454.82</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4820.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2410</Prestamo>
-    <INT>800</INT>
-    <detalles>CONDICIONES BUENAS  MEMORIA RAM 4GB DD500 WINDOS 10 PROCESADOR CELERON  CON FUNDA  SIN COONTRASEÑA </detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145448</Contrato>
-    <Fecha>08-08-2018</Fecha>
-    <Bolsa>144758</Bolsa>
-    <Descripcion>COMPUTADORA DE ESCRITORIO</Descripcion>
-    <SubDescripcion>MARCA LANIX</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>2600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>426MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1300</Prestamo>
-    <INT>803</INT>
-    <detalles>SE RECIBE COMPUTADORA DE ESCRITORIO MARCA LANIX MOD TITAN 4340 DD 450 GB WINDOWS 8 PROC INTEL CELERON J1800 RAM 2 GB CONTRASEÑA PEREYRA123</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145472</Contrato>
-    <Fecha>13-08-2018</Fecha>
-    <Bolsa>144769</Bolsa>
-    <Descripcion>COMPUTADORA DE ESCRITORIO</Descripcion>
-    <SubDescripcion>LENOVO</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>433MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>819</INT>
-    <detalles>SE RECIBE COMPUTADORA DE ESCRITORIO MARCA LENOVO MOD FUCL000ALD WINDOWS 10 PROC INTEL CELERON J3355 DD 500 GB RAM 4 GB DEJA CARGADOR ORIGINAL TECLADO ORIGINAL Y MOUSE ORIGINAL EN BUEN ESTADO CONTRASEÑA SINPELOSENLALENGUA</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145508</Contrato>
-    <Fecha>17-08-2018</Fecha>
-    <Bolsa>144783</Bolsa>
-    <Descripcion>LAP TOP</Descripcion>
-    <SubDescripcion>DELL</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>7400.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>454MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3700</Prestamo>
-    <INT>853</INT>
-    <detalles>SE RECIBE LAP TOP MARCA DELL RAM 4 GB DD 1 TB WINDOWS 10 PROC INTEL CORE I3 DEJA CARGADOR ORIGINAL CONTRASEÑA 2399</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145520</Contrato>
-    <Fecha>23-08-2018</Fecha>
-    <Bolsa>144786</Bolsa>
-    <Descripcion>LAPTOP LENOVO</Descripcion>
-    <SubDescripcion>488.45</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>4000.0000</Avaluo>
-    <Estatus_Prenda>REMATADO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>TLA_3</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2000</Prestamo>
-    <INT>882</INT>
-    <detalles>500GB DD 2GB RAM W8 PROCESADOR INTEL CELERON SE RECIBE CON CARGADOR ORIGINAL CON CONTRASEÑA PARISJENNY</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145547</Contrato>
-    <Fecha>27-08-2018</Fecha>
-    <Bolsa>144793</Bolsa>
-    <Descripcion>LAPTOP LENOVO</Descripcion>
-    <SubDescripcion>80T7</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6900.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>AUXILIAR 2 .</registro>
-    <folio>471MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3450</Prestamo>
-    <INT>899</INT>
-    <detalles>LAPTOP LENOVO MODELO 80T7 RAM 8GB 1TB PROC INTEL PENTIUM N3710 WIND 10 HOME SINGLE CAMARA UN POCO OPACA</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145576</Contrato>
-    <Fecha>30-08-2018</Fecha>
-    <Bolsa>124952</Bolsa>
-    <Descripcion>LAPTOP DELL</Descripcion>
-    <SubDescripcion>MODELO INSPIRON 15</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>6600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <Ubicacion />
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>441MRO-TLA3-11</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>3300</Prestamo>
-    <INT>915</INT>
-    <detalles>COMDICIINES  BUENAS  CARGADOR ORIGINAL  8GB 1 TB DD   PROCESADOR AMDA9 9400  WINDOS 10  CONTRASEÑA VILMARCALDERON99</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145608</Contrato>
-    <Fecha>06-09-2018</Fecha>
-    <Bolsa>144758</Bolsa>
-    <Descripcion>COMPUTADORA DE ESCRITORIO</Descripcion>
-    <SubDescripcion>MARCA LANIX</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>2600.0000</Avaluo>
-    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>CARLOS CALDERON CABRERA</registro>
-    <folio>426MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>1300</Prestamo>
-    <INT>949</INT>
-    <detalles>SE RECIBE COMPUTADORA DE ESCRITORIO MARCA LANIX MOD TITAN 4340 DD 450 GB WINDOWS 8 PROC INTEL CELERON J1800 RAM 2 GB CONTRASEÑA PEREYRA123</detalles>
     <caja>MRO-TLA3-12</caja>
     <modelo />
     <noserie />
@@ -3459,6 +1740,139 @@
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
+    <Contrato>125441</Contrato>
+    <Fecha>25-05-2018</Fecha>
+    <Bolsa>144581</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>15 BS008LA</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6600.0000</Avaluo>
+    <Estatus_Prenda>REMATADO</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>182MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3300</Prestamo>
+    <INT>493</INT>
+    <detalles>CONDICIONES BUENAS  CARGADOR ORIGINAL  MEMORIA RAM 4GB DD 1TB PROCESADOR INTEL PENTIUM WINDOS 10 </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126322</Contrato>
+    <Fecha>12-09-2018</Fecha>
+    <Bolsa>124952</Bolsa>
+    <Descripcion>LAPTOP DELL</Descripcion>
+    <SubDescripcion>MODELO INSPIRON 15</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6600.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>441MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3300</Prestamo>
+    <INT>963</INT>
+    <detalles>COMDICIINES  BUENAS  CARGADOR ORIGINAL  8GB 1 TB DD   PROCESADOR AMDA9 9400  WINDOS 10  CONTRASEÑA VILMARCALDERON99</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126516</Contrato>
+    <Fecha>09-10-2018</Fecha>
+    <Bolsa>125070</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>DB0004A</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6600.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>563MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3300</Prestamo>
+    <INT>1088</INT>
+    <detalles>CONDICIONES BUEN ESTADO CARGADOR ORIGINAL  WINDOS 10  MEMORIA RAM 4GB DD1TB  PROCESADOR AMDAQ9425  CONTRASEÑA KARENJAQUELINE </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126583</Contrato>
+    <Fecha>18-10-2018</Fecha>
+    <Bolsa>125083</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>15DB00041LA</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6600.0000</Avaluo>
+    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
+    <Condiciones>DESGASTADO</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>584MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3300</Prestamo>
+    <INT>1134</INT>
+    <detalles>CONDICIONES  BUENAS CARGADOR ORIGINAL  4GB 1TB  WINDOS 10  PROCESADOR AMDA9  9425 KAREN JAQUELINE </detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145576</Contrato>
+    <Fecha>30-08-2018</Fecha>
+    <Bolsa>124952</Bolsa>
+    <Descripcion>LAPTOP DELL</Descripcion>
+    <SubDescripcion>MODELO INSPIRON 15</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6600.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <Ubicacion />
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>441MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3300</Prestamo>
+    <INT>915</INT>
+    <detalles>COMDICIINES  BUENAS  CARGADOR ORIGINAL  8GB 1 TB DD   PROCESADOR AMDA9 9400  WINDOS 10  CONTRASEÑA VILMARCALDERON99</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145547</Contrato>
+    <Fecha>27-08-2018</Fecha>
+    <Bolsa>144793</Bolsa>
+    <Descripcion>LAPTOP LENOVO</Descripcion>
+    <SubDescripcion>80T7</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>6900.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>AUXILIAR 2 .</registro>
+    <folio>471MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3450</Prestamo>
+    <INT>899</INT>
+    <detalles>LAPTOP LENOVO MODELO 80T7 RAM 8GB 1TB PROC INTEL PENTIUM N3710 WIND 10 HOME SINGLE CAMARA UN POCO OPACA</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
     <Contrato>145671</Contrato>
     <Fecha>24-09-2018</Fecha>
     <Bolsa>144793</Bolsa>
@@ -3481,24 +1895,24 @@
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>145763</Contrato>
-    <Fecha>11-10-2018</Fecha>
-    <Bolsa>144859</Bolsa>
-    <Descripcion>LAP TOP HP</Descripcion>
-    <SubDescripcion>RTL8723BENF</SubDescripcion>
+    <Contrato>126129</Contrato>
+    <Fecha>15-08-2018</Fecha>
+    <Bolsa>124952</Bolsa>
+    <Descripcion>LAPTOP DELL</Descripcion>
+    <SubDescripcion>MODELO INSPIRON 15</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>8100.0000</Avaluo>
-    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
+    <Avaluo>7200.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
-    <registro>VIRIDIANA GARCIA ALVAREZ</registro>
-    <folio>567MRO-TLA3-12</folio>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>441MRO-TLA3-11</folio>
     <origen>TLA_3</origen>
-    <Prestamo>4050</Prestamo>
-    <INT>1100</INT>
-    <detalles>CONDICIONES REGULARES CARGADOR ORIGINAL MEMORIA RAM 8GB DISCO DURO 1 TB PROCESADOR INTEL CORE I3 A 5TA GEN SISTEMA OPERATIVO WINDOWS 10</detalles>
-    <caja>MRO-TLA3-12</caja>
+    <Prestamo>3600</Prestamo>
+    <INT>835</INT>
+    <detalles>COMDICIINES  BUENAS  CARGADOR ORIGINAL  8GB 1 TB DD   PROCESADOR AMDA9 9400  WINDOS 10  CONTRASEÑA VILMARCALDERON99</detalles>
+    <caja>MRO-TLA3-11</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
@@ -3525,68 +1939,177 @@
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>145842</Contrato>
-    <Fecha>26-10-2018</Fecha>
-    <Bolsa>144888</Bolsa>
-    <Descripcion>LAP TOP HP</Descripcion>
-    <SubDescripcion>MODELO RTL8188EE</SubDescripcion>
+    <Contrato>145148</Contrato>
+    <Fecha>11-05-2018</Fecha>
+    <Bolsa>124637</Bolsa>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>RTL8723DE</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>5300.0000</Avaluo>
-    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
-    <Condiciones>NORMAL</Condiciones>
-    <Cantidad>1</Cantidad>
-    <Localidad>TLA_3</Localidad>
-    <registro>VIRIDIANA GARCIA ALVAREZ</registro>
-    <folio>608MRO-TLA3-12</folio>
-    <origen>TLA_3</origen>
-    <Prestamo>2650</Prestamo>
-    <INT>1172</INT>
-    <detalles>SE RECIBE LAP TOP EN BUEN ESTADO DEJA CARGADOR ORIGINAL CONTRASEÑA 2430</detalles>
-    <caja>MRO-TLA3-12</caja>
-    <modelo />
-    <noserie />
-  </BolsasOtros>
-  <BolsasOtros>
-    <Contrato>145855</Contrato>
-    <Fecha>29-10-2018</Fecha>
-    <Bolsa>144893</Bolsa>
-    <Descripcion>LAP TOP ASUS</Descripcion>
-    <SubDescripcion>MODELO RTL8723BE</SubDescripcion>
-    <Tipo>Computo</Tipo>
-    <Avaluo>5600.0000</Avaluo>
+    <Avaluo>7400.0000</Avaluo>
     <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
-    <registro>VIRIDIANA GARCIA ALVAREZ</registro>
-    <folio>612MRO-TLA3-12</folio>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>219MRO-TLA3-11</folio>
     <origen>TLA_3</origen>
-    <Prestamo>2800</Prestamo>
-    <INT>1180</INT>
-    <detalles>SE RECIBE LAP TOP EN BUEN ESTADO DEJA FUNDA Y CARGADOR ORIGINAL
-</detalles>
+    <Prestamo>3700</Prestamo>
+    <INT>435</INT>
+    <detalles>CONDICIONES BUENAS CON CARGADOR   12 GB 1 TB DD   PROCESADOR AMDA9 WINDOS 10 CON CARGADOR CONTRASEÑA IMARKETSLIVE  </detalles>
     <caja>MRO-TLA3-12</caja>
     <modelo />
     <noserie />
   </BolsasOtros>
   <BolsasOtros>
-    <Contrato>145884</Contrato>
-    <Fecha>01-11-2018</Fecha>
-    <Bolsa>124710</Bolsa>
-    <Descripcion>TABLE SAMSUNG  8GB TAB E</Descripcion>
-    <SubDescripcion>173.03</SubDescripcion>
+    <Contrato>145508</Contrato>
+    <Fecha>17-08-2018</Fecha>
+    <Bolsa>144783</Bolsa>
+    <Descripcion>LAP TOP</Descripcion>
+    <SubDescripcion>DELL</SubDescripcion>
     <Tipo>Computo</Tipo>
-    <Avaluo>1600.0000</Avaluo>
+    <Avaluo>7400.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>454MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3700</Prestamo>
+    <INT>853</INT>
+    <detalles>SE RECIBE LAP TOP MARCA DELL RAM 4 GB DD 1 TB WINDOWS 10 PROC INTEL CORE I3 DEJA CARGADOR ORIGINAL CONTRASEÑA 2399</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126106</Contrato>
+    <Fecha>11-08-2018</Fecha>
+    <Bolsa>144696</Bolsa>
+    <Descripcion>LAP TOP</Descripcion>
+    <SubDescripcion>928.07</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>7600.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3800</Prestamo>
+    <INT>816</INT>
+    <detalles>SE RECIBE LAP TOP DELL MOD 7YM1572 RAM 4 GB DD 1 TB PROC INTEL CORE I3 WINDOWS 10 EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126405</Contrato>
+    <Fecha>18-09-2018</Fecha>
+    <Bolsa>144696</Bolsa>
+    <Descripcion>LAP TOP</Descripcion>
+    <SubDescripcion>526.19</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>7600.0000</Avaluo>
+    <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>TLA_3</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3800</Prestamo>
+    <INT>999</INT>
+    <detalles>SE RECIBE LAP TOP DELL MOD 7YM1572 RAM 4 GB DD 1 TB PROC INTEL CORE I3 WINDOWS 10 EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145264</Contrato>
+    <Fecha>12-06-2018</Fecha>
+    <Bolsa>144696</Bolsa>
+    <Descripcion>LAP TOP</Descripcion>
+    <SubDescripcion>MARCA DELL</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>7600.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>CARLOS CALDERON CABRERA</registro>
+    <folio>332MRO-TLA3-12</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>3800</Prestamo>
+    <INT>581</INT>
+    <detalles>SE RECIBE LAP TOP DELL MOD 7YM1572 RAM 4 GB DD 1 TB PROC INTEL CORE I3 WINDOWS 10 EN BUEN ESTADO DEJA CARGADOR ORIGINAL</detalles>
+    <caja>MRO-TLA3-12</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>125954</Contrato>
+    <Fecha>28-07-2018</Fecha>
+    <Bolsa>124894</Bolsa>
+    <Descripcion>LAPTOP DELL</Descripcion>
+    <SubDescripcion>6W5G412</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>8000.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>NORMAL</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>401MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>4000</Prestamo>
+    <INT>746</INT>
+    <detalles>CONDICIONES BUENAS CON CARGADOR ORIGINAL   WINDOS 8 16GB 1 TB PROCESADOR INTEL CORE I7 7 GEN   CONTRASEÑA 171283</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>126180</Contrato>
+    <Fecha>22-08-2018</Fecha>
+    <Bolsa>124972</Bolsa>
+    <Descripcion>LAPTOP HP </Descripcion>
+    <SubDescripcion>RTL87223B</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>8000.0000</Avaluo>
+    <Estatus_Prenda>ENTREGADOS A CLIENTE</Estatus_Prenda>
+    <Condiciones>DESGASTADO</Condiciones>
+    <Cantidad>1</Cantidad>
+    <Localidad>TLA_3</Localidad>
+    <registro>JAIME VILLEDA REYES</registro>
+    <folio>462MRO-TLA3-11</folio>
+    <origen>TLA_3</origen>
+    <Prestamo>4000</Prestamo>
+    <INT>869</INT>
+    <detalles>CONDCIONES BUENAS  WINDOS 10 1 TB 8GB  INTEL COREI3 500U  CARGADOR ORIGINAL  CONTRASEÑA T292</detalles>
+    <caja>MRO-TLA3-11</caja>
+    <modelo />
+    <noserie />
+  </BolsasOtros>
+  <BolsasOtros>
+    <Contrato>145763</Contrato>
+    <Fecha>11-10-2018</Fecha>
+    <Bolsa>144859</Bolsa>
+    <Descripcion>LAP TOP HP</Descripcion>
+    <SubDescripcion>RTL8723BENF</SubDescripcion>
+    <Tipo>Computo</Tipo>
+    <Avaluo>8100.0000</Avaluo>
     <Estatus_Prenda>EN RESGUARDO</Estatus_Prenda>
     <Condiciones>NORMAL</Condiciones>
     <Cantidad>1</Cantidad>
     <Localidad>TLA_3</Localidad>
     <registro>VIRIDIANA GARCIA ALVAREZ</registro>
-    <folio>TLA_3</folio>
+    <folio>567MRO-TLA3-12</folio>
     <origen>TLA_3</origen>
-    <Prestamo>800</Prestamo>
-    <INT>1199</INT>
-    <detalles>CONDICONES  REGGULARES  CON CARGADOR ORIGINAL  ESTUCHE  COLOR AZUL MEMORIA 2GB </detalles>
+    <Prestamo>4050</Prestamo>
+    <INT>1100</INT>
+    <detalles>CONDICIONES REGULARES CARGADOR ORIGINAL MEMORIA RAM 8GB DISCO DURO 1 TB PROCESADOR INTEL CORE I3 A 5TA GEN SISTEMA OPERATIVO WINDOWS 10</detalles>
     <caja>MRO-TLA3-12</caja>
     <modelo />
     <noserie />
