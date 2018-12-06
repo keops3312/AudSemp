@@ -1,8 +1,6 @@
-﻿//Form to logical to function Auditory to Contracts
-
+﻿
 namespace AudSemp.Forms
 {
-
 
     #region Libraries (librerias)
     using System;
@@ -21,20 +19,22 @@ namespace AudSemp.Forms
     using AudSemp.Views;
     using ClosedXML.Excel;
     #endregion
-    public partial class ContratosForm : Form, IContratos
+    public partial class Aleattorios2Form : Form, IContratos
     {
+
+
         #region Context
 
         private SEMP2013_Context db;
-        public ContratosForm()
+        public Aleattorios2Form()
         {
             InitializeComponent();
             db = new SEMP2013_Context();
 
             backgroundWorker1.WorkerReportsProgress = true;
             backgroundWorker1.WorkerSupportsCancellation = true;
-           
         }
+
 
         #endregion
 
@@ -46,23 +46,25 @@ namespace AudSemp.Forms
         public List<TiposOrden> tiposOrden { get; set; }
         public List<ModoOrdenes> modosOrden { get; set; }
 
-     
+
         #endregion
 
         #region Properties
 
-        public int decision;
+        int decision;
         public string leyendaTipos;
         public string leyendaEstatus;
         public string leyendaRango;
         public string loc;
         public string mode;
         string ruta;
-        int cantidad=0;
+        int cantidad = 0;
+        int counCOntratos;
         //variable to cancel progress
         public int cancelEjercicio;
 
-        DataTable dt = new DataTable("Contratos");
+        DataTable dt = new DataTable("AudContratos");
+       
         #endregion
 
         #region Events (Eventos)
@@ -70,6 +72,30 @@ namespace AudSemp.Forms
         private void btnReporte_Click(object sender, EventArgs e)
         {
 
+            DateTime Inicio = DateTime.Parse(dtInicio.Value.ToString());
+            DateTime Fin = DateTime.Parse(dtFin.Value.ToString());
+
+            counCOntratos = db.contratos.Count(p => p.FechaCons >= Inicio
+                                                    && p.FechaCons <= Fin);
+
+            if (integerInput1.Value > counCOntratos)
+            {
+
+                MessageBox.Show("No cuento con ese numero de Aleatorios!" +
+                    "El numero de contratos en ese rango de fecha es de: " + counCOntratos,
+                       "Auditoria SEMP", MessageBoxButtons.OK,
+                       MessageBoxIcon.Information);
+                return;
+            }
+
+            if (string.IsNullOrEmpty(integerInput1.Value.ToString()) || integerInput1.Value < 20
+                || string.IsNullOrWhiteSpace(integerInput1.Value.ToString()))
+            {
+                MessageBox.Show("Ingrese una cantidad coherente por favor el minimode de aleatarios es 20",
+                       "Auditoria SEMP", MessageBoxButtons.OK,
+                       MessageBoxIcon.Information);
+                return;
+            }
 
 
             if (dt.Rows.Count > 0)
@@ -101,7 +127,7 @@ namespace AudSemp.Forms
                         decision = 2;
 
 
-                       
+
                         btnReporte.Enabled = false;
                         btnRegresar.Enabled = false;
                         btnExportar.Enabled = false;
@@ -119,6 +145,34 @@ namespace AudSemp.Forms
         }
         private void btnExportar_Click(object sender, EventArgs e)
         {
+
+
+            DateTime Inicio = DateTime.Parse(dtInicio.Value.ToString());
+            DateTime Fin = DateTime.Parse(dtFin.Value.ToString());
+
+            counCOntratos = db.contratos.Count(p => p.FechaCons >= Inicio
+                                                    && p.FechaCons <= Fin);
+
+            if (integerInput1.Value > counCOntratos)
+            {
+
+                MessageBox.Show("No cuento con ese numero de Aleatorios!" +
+                    "El numero de contratos en ese rango de fecha es de: " + counCOntratos,
+                       "Auditoria SEMP", MessageBoxButtons.OK,
+                       MessageBoxIcon.Information);
+                return;
+            }
+
+            if (string.IsNullOrEmpty(integerInput1.Value.ToString()) || integerInput1.Value < 20
+                || string.IsNullOrWhiteSpace(integerInput1.Value.ToString()))
+            {
+                MessageBox.Show("Ingrese una cantidad coherente por favor el minimode de aleatarios es 20",
+                       "Auditoria SEMP", MessageBoxButtons.OK,
+                       MessageBoxIcon.Information);
+                return;
+            }
+
+
 
 
             if (dt.Rows.Count > 0)
@@ -200,8 +254,8 @@ namespace AudSemp.Forms
                  MessageBoxIcon.Information);
                 prg1.Value = 0;
                 lblProgress.Text = "-";
-              
-               
+
+
             }
         }
 
@@ -215,9 +269,9 @@ namespace AudSemp.Forms
 
         private void Hazlo(object sender, DoWorkEventArgs e)
         {
-            
+
             //Excel(ruta);
-            
+
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
@@ -234,7 +288,7 @@ namespace AudSemp.Forms
                     chkPrendas.SetItemChecked(i, false);
                 }
 
-                    
+
 
             }
             else
@@ -297,7 +351,7 @@ namespace AudSemp.Forms
             {
                 cmbOrden.Enabled = true;
             }
-            
+
         }
         private void checkOrden_CheckedChanged(object sender, EventArgs e)
         {
@@ -334,7 +388,7 @@ namespace AudSemp.Forms
             {
                 //creamos los para metros
 
-                contratos ob = new contratos();
+                AleatorioRPT ob = new AleatorioRPT();
                 LocalidadModel localidadModel = new LocalidadModel();
                 localidadModel.localidadResult(loc);
                 ob.SetParameterValue("tipos", leyendaTipos);
@@ -354,7 +408,7 @@ namespace AudSemp.Forms
                 crystalReportViewer1.ReportSource = ob;
                 crystalReportViewer1.Refresh();
 
-             
+
             }
 
             MessageBox.Show("Operación Realizada con Exito",
@@ -368,8 +422,8 @@ namespace AudSemp.Forms
             btnRegresar.Enabled = true;
             btnCancel.Visible = false;
 
-            
-            
+
+
 
         }
 
@@ -378,7 +432,7 @@ namespace AudSemp.Forms
 
         #region Methods (metodos)
 
-        private void ContratosForm_Load(object sender, EventArgs e)
+        private void Aleattorios2Form_Load(object sender, EventArgs e)
         {
             load();
         }
@@ -386,52 +440,22 @@ namespace AudSemp.Forms
         {
 
 
-            dt.Columns.AddRange(new DataColumn[40]
-          {
-            new DataColumn("Folio"),
-            new DataColumn("Contrato",typeof(Int32)),
-            new DataColumn("Fecha"),
-            new DataColumn("Bolsa",typeof(Int32)),
-            new DataColumn("IdClientes"),
-            new DataColumn("NCliente"),
-            new DataColumn("AutorizoA"),
-            new DataColumn("Plazo"),
-            new DataColumn("Status"),
-            new DataColumn("FechaDesemp"),
-            new DataColumn("Comentario"),
-            new DataColumn("Dias"),
-            new DataColumn("FechaCons",typeof(DateTime)),
-            new DataColumn("Prestamo",typeof(double)),
-            new DataColumn("Interes"),
-            new DataColumn("seguro"),
-            new DataColumn("almacenaje"),
-            new DataColumn("plazo1"),
-            new DataColumn("plazo2"),
-            new DataColumn("plazo3"),
-            new DataColumn("avaluo"),
-            new DataColumn("valuacion_tipo"),
-            new DataColumn("cancelado"),
-            new DataColumn("comentariocancelado"),
-            new DataColumn("prestamoprom"),
-            new DataColumn("origen"),
-            new DataColumn("folioavaluo"),
-            new DataColumn("clasificacion"),
-            new DataColumn("santerior"),
-            new DataColumn("caja"),
-            new DataColumn("pension"),
-            new DataColumn("Rev"),
-            new DataColumn("reg"),
-            new DataColumn("temp"),
-            new DataColumn("VenOVig"),
-            new DataColumn("realizo"),
-            new DataColumn("CobroOriginal"),
-            new DataColumn("BLOQUEADO_COMENTARIO"),
-             new DataColumn("NoPrendas"),
-             new DataColumn("DescPrendas")
+            dt.Columns.AddRange(new DataColumn[8]
+             {
+                    new DataColumn("Contrato"),
+                    new DataColumn("Bolsa"),
+                    new DataColumn("Fecha"),
+                    new DataColumn("Avaluo"),
+                    new DataColumn("Prestamo"),
+                    new DataColumn("Tipo"),
+                    new DataColumn("Status"),
+                    new DataColumn("Plazo")
 
 
 
-          });
+
+             });
+
 
             ContratosPresenter contratosPresenter = new ContratosPresenter(this);
             contratosPresenter.TiposEstatus();
@@ -440,6 +464,8 @@ namespace AudSemp.Forms
             contratosPresenter.timeFin();
             contratosPresenter.tiposOrden();
             contratosPresenter.modosOrden();
+
+           
 
             foreach (var item in tipos)
             {
@@ -464,11 +490,11 @@ namespace AudSemp.Forms
 
         public void Excel(string ruta)
         {
-            string fechaInicio, fechaFin,tipoOrden="reg",orden="Ascendente";
+            string fechaInicio, fechaFin, tipoOrden = "reg", orden = "Ascendente";
             List<categorias> tipoPrendas = new List<categorias>();
             List<Estatus> tipoStatus = new List<Estatus>();
 
-          
+
 
 
             if (checkFechas.Checked == true)
@@ -478,15 +504,15 @@ namespace AudSemp.Forms
             }
             else
             {
-                fechaInicio =dateTimeInicio.ToString();
-                fechaFin =dateTimeFin.ToString();
+                fechaInicio = dateTimeInicio.ToString();
+                fechaFin = dateTimeFin.ToString();
 
             }
 
             leyendaRango = Convert.ToDateTime(fechaInicio).ToString("dd-MMM-yyyy") +
                 " - " + Convert.ToDateTime(fechaFin).ToString("dd-MMM-yyyy");
-          
-            if(checkOrden.Checked==true)
+
+            if (checkOrden.Checked == true)
             {
                 tipoOrden = cmbTipoOrden.Text;
             }
@@ -494,7 +520,7 @@ namespace AudSemp.Forms
             {
                 tipoOrden = "reg";
             }
-            
+
             if (checkModo.Checked == true)
             {
                 orden = cmbOrden.Text;
@@ -597,43 +623,46 @@ namespace AudSemp.Forms
 
             }
 
-            Export(fechaInicio, fechaFin, tipoOrden, orden, tipoPrendas, tipoStatus);
+            Export(fechaInicio, fechaFin, tipoOrden, orden, tipoPrendas, tipoStatus, chkPrendas.CheckedItems.Count);
 
         }
 
-       
+
 
         public void Export(string fechaInicio, string fechaFin, string tipoOrden, string modoOrden,
-         List<categorias> tipos, List<Estatus> Estatus)
+         List<categorias> tipos, List<Estatus> Estatus, int noTipos)
         {
-           
 
-           
-          
+
+
+
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
             DateTime Fin = DateTime.Parse(fechaFin);
 
 
             int i = 0;
-          
-            string descbolsa="";
+            int cuantos = integerInput1.Value;// / noTipos;
+       
 
 
             if (dt.Rows.Count == 0)
             {
 
+                
                 foreach (var items in tipos)
                 {
 
 
                     foreach (var itemEstatus in Estatus)
                     {
+                       
+
                         var result = from s in db.contratos.Where(p => p.FechaCons >= Inicio &&
                                           p.FechaCons <= Fin &&
                                           p.valuacion_tipo == items.categoria &&
                                           p.Status == itemEstatus.estatu).ToList()
-                                     select s;
+                        select s;
 
 
 
@@ -648,37 +677,16 @@ namespace AudSemp.Forms
                                 break;
                             }
 
-                            if (item.valuacion_tipo == "Joyeria")
-                            {
-                                cantidad = db.bolsas_ORO.Count(a => a.Contrato == item.Contrato);
-                                //var descrp = db.bolsas_ORO
-                                //    .Where(a => a.Contrato == item.Contrato)
-                                //    .First();
-                                //descbolsa = descrp.Descripcion + " " + descrp.SubDescripcion;
-                            }
-                            else
-                            {
-                                cantidad = db.bolsas_OTROS.Count(a => a.Contrato == item.Contrato);
-                                //var descrp1 = db.bolsas_OTROS
-                                //    .Where(a => a.Contrato == item.Contrato)
-                                //    .First();
-                                //descbolsa = descrp1.Descripcion + " " + descrp1.SubDescripcion;
 
 
 
-
-                            }
-
-
-                            dt.Rows.Add(item.Folio, item.Contrato, item.Fecha,
-                                item.Bolsa, item.IdClientes, item.NCliente, item.AutorizoA,
-                                item.Plazo, item.Status, item.FechaDesemp, item.Comentario, item.Dias,
-                                Convert.ToDateTime(item.FechaCons).ToString("yyyy-MM-dd"), item.Prestamo, item.Interes, item.seguro,
-                                item.almacenaje, item.plazo1, item.plazo2, item.plazo3, item.avaluo,
-                                item.valuacion_tipo, item.cancelado, item.comentariocancelado,
-                                item.prestamoprom, item.origen, item.folioavaluo, item.clasificacion, item.santerior,
-                                item.caja, item.pension, item.Rev, item.reg, item.temp, item.VenOVig,
-                                item.realizo, item.CobroOriginal, item.BLOQUEADO_COMENTARIO, cantidad, descbolsa);
+                            dt.Rows.Add(item.Contrato, item.Bolsa,
+                             DateTime.Parse(item.FechaCons.ToString()).ToString("dd-MM-yyyy"),
+                             item.avaluo,
+                             item.Prestamo,
+                             item.valuacion_tipo,
+                             item.Status,
+                             item.Plazo);
 
 
                         }
@@ -689,47 +697,60 @@ namespace AudSemp.Forms
 
 
                 }
+
+
+
+                Random r = new Random();
+                while (dt.Rows.Count > cuantos)
+                {
+                    int j = r.Next(0, dt.Rows.Count);
+                    dt.Rows.RemoveAt(j);
+                }
+
             }
 
             DataView dataView = new DataView(dt);
             //dt = new DataTable();
-           
-            //ORDER MODE
-           mode = tipoOrden + modoOrden;
+
+            ////ORDER MODE
+            mode = tipoOrden + modoOrden;
+
+          
+
             switch (mode)
             {
                 default:
-                    dataView.Sort = "reg ASC";
+                    dataView.Sort = "Contrato ASC";
                     break;
                 case "FechaAscendente":
-                    dataView.Sort = "valuacion_tipo ASC ,FechaCons ASC";
+                    dataView.Sort = "Tipo ASC ,Fecha ASC";
                     break;
                 case "FechaDescendente":
-                    dataView.Sort = "valuacion_tipo DESC ,FechaCons DESC";
+                    dataView.Sort = "Tipo DESC ,Fecha DESC";
                     break;
                 case "ContratoAscendente":
-                    dataView.Sort = "valuacion_tipo ASC ,Contrato ASC";
+                    dataView.Sort = "Tipo ASC ,Contrato ASC";
                     break;
                 case "ContratoDescendente":
-                    dataView.Sort = "valuacion_tipo DESC ,Contrato DESC";
+                    dataView.Sort = "Tipo DESC ,Contrato DESC";
                     break;
                 case "BolsaAscendente":
-                    dataView.Sort = "valuacion_tipo ASC ,Bolsa ASC";
+                    dataView.Sort = "Tipo ASC ,Bolsa ASC";
                     break;
                 case "BolsaDescendente":
-                    dataView.Sort = "valuacion_tipo DESC ,Bolsa DESC";
+                    dataView.Sort = "Tipo DESC ,Bolsa DESC";
                     break;
                 case "StatusAscendente":
-                    dataView.Sort = "valuacion_tipo ASC ,Status ASC";
+                    dataView.Sort = "Tipo ASC ,Status ASC";
                     break;
                 case "StatusDescendente":
-                    dataView.Sort = "valuacion_tipo DESC ,Status DESC";
+                    dataView.Sort = "Tipo DESC ,Status DESC";
                     break;
                 case "PrestamoAscendente":
-                    dataView.Sort = "valuacion_tipo ASC ,Prestamo ASC";
+                    dataView.Sort = "Tipo ASC ,Prestamo ASC";
                     break;
                 case "PrestamoDescendente":
-                    dataView.Sort = "valuacion_tipo DESC ,Prestamo DESC";
+                    dataView.Sort = "Tipo DESC ,Prestamo DESC";
                     break;
 
             }
@@ -737,20 +758,20 @@ namespace AudSemp.Forms
             dt = dataView.ToTable();
 
             if (decision == 1)
-            {       
-            using (XLWorkbook wb = new XLWorkbook())
             {
-                wb.Worksheets.Add(dt);
-                wb.SaveAs(ruta);
+                using (XLWorkbook wb = new XLWorkbook())
+                {
+                    wb.Worksheets.Add(dt);
+                    wb.SaveAs(ruta);
 
+                }
             }
-            }
-            else if(decision==2)
+            else if (decision == 2)
             {
-                
-                
-                dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/audContratos.xml", XmlWriteMode.WriteSchema);
-               
+
+
+                dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/audRandomContratos.xml", XmlWriteMode.WriteSchema);
+
 
 
             }
@@ -780,6 +801,53 @@ namespace AudSemp.Forms
                 MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
+
+        }
+
+        private void dtFin_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                DateTime Inicio = DateTime.Parse(dtInicio.Value.ToString());
+                DateTime Fin = DateTime.Parse(dtFin.Value.ToString());
+
+                counCOntratos = db.contratos.Count(p => p.FechaCons >= Inicio
+                                                        && p.FechaCons <= Fin);
+
+                integerInput1.Value = counCOntratos;
+                integerInput1.MinValue = 20;
+                integerInput1.MaxValue = counCOntratos;
+            }
+            catch(Exception ex)
+            {
+
+            }
+         
+        }
+
+        private void dtInicio_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DateTime Inicio = DateTime.Parse(dtInicio.Value.ToString());
+                DateTime Fin = DateTime.Parse(dtFin.Value.ToString());
+
+                counCOntratos = db.contratos.Count(p => p.FechaCons >= Inicio
+                                                        && p.FechaCons <= Fin);
+
+                integerInput1.Value = counCOntratos;
+                integerInput1.MinValue = 20;
+                integerInput1.MaxValue = counCOntratos;
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private void integerInput1_ValueChanged(object sender, EventArgs e)
+        {
 
         }
     }

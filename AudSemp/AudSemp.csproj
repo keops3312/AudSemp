@@ -536,11 +536,23 @@
     <Compile Include="Context\vencidos.cs">
       <DependentUpon>Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AleatorioRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AleatorioRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms\AleatoriosForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\AleatoriosForm.Designer.cs">
       <DependentUpon>AleatoriosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Aleattorios2Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Aleattorios2Form.Designer.cs">
+      <DependentUpon>Aleattorios2Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\apartados.cs">
       <AutoGen>True</AutoGen>
@@ -736,8 +748,15 @@
     <Compile Include="Views\IRectangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AleatorioRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AleatorioRPT.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AleatoriosForm.resx">
       <DependentUpon>AleatoriosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Aleattorios2Form.resx">
+      <DependentUpon>Aleattorios2Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\apartados.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

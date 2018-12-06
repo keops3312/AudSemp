@@ -40,7 +40,7 @@ namespace AudSemp.Models
         public List<TiposOrden> TiposOrden()
         {
             List<TiposOrden> tiposOrden = new List<TiposOrden>() {
-            new TiposOrden() { tipo ="FechaCons"},
+            new TiposOrden() { tipo ="Fecha"},
             new TiposOrden() { tipo="Contrato"},
             new TiposOrden() { tipo="Bolsa"},
             new TiposOrden() { tipo="Status"},

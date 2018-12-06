@@ -125,10 +125,14 @@ namespace AudSemp.Forms
         //contratos aleatorios
         private void metroTileItem11_Click(object sender, EventArgs e)
         {
-            AleatoriosForm aleatoriosForm = new AleatoriosForm();
+            Aleattorios2Form aleatoriosForm = new Aleattorios2Form();
             aleatoriosForm.loc = codigo;
             aleatoriosForm.WindowState = FormWindowState.Maximized;
             aleatoriosForm.ShowDialog();
+
+
+
+          
         }
      
         //toma fisica

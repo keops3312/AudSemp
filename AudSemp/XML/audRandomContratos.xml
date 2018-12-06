@@ -1,0 +1,375 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="AudContratos" msdata:Locale="es-MX">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AudContratos" msdata:CaseSensitive="False" msdata:Locale="es-MX">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Contrato" type="xs:string" minOccurs="0" />
+                <xs:element name="Bolsa" type="xs:string" minOccurs="0" />
+                <xs:element name="Fecha" type="xs:string" minOccurs="0" />
+                <xs:element name="Avaluo" type="xs:string" minOccurs="0" />
+                <xs:element name="Prestamo" type="xs:string" minOccurs="0" />
+                <xs:element name="Tipo" type="xs:string" minOccurs="0" />
+                <xs:element name="Status" type="xs:string" minOccurs="0" />
+                <xs:element name="Plazo" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AudContratos>
+    <Contrato>126672</Contrato>
+    <Bolsa>125112</Bolsa>
+    <Fecha>01-11-2018</Fecha>
+    <Avaluo>2300.0000</Avaluo>
+    <Prestamo>1150.0000</Prestamo>
+    <Tipo>CELULARES</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>CELULARES 15 DÍAS</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145711</Contrato>
+    <Bolsa>124625</Bolsa>
+    <Fecha>02-10-2018</Fecha>
+    <Avaluo>3600.0000</Avaluo>
+    <Prestamo>1800.0000</Prestamo>
+    <Tipo>Electrodomesticos</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126585</Contrato>
+    <Bolsa>124963</Bolsa>
+    <Fecha>18-10-2018</Fecha>
+    <Avaluo>2600.0000</Avaluo>
+    <Prestamo>1300.0000</Prestamo>
+    <Tipo>Electrodomesticos</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126542</Contrato>
+    <Bolsa>125075</Bolsa>
+    <Fecha>12-10-2018</Fecha>
+    <Avaluo>4800.0000</Avaluo>
+    <Prestamo>2400.0000</Prestamo>
+    <Tipo>Electronicos</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126573</Contrato>
+    <Bolsa>125046</Bolsa>
+    <Fecha>16-10-2018</Fecha>
+    <Avaluo>200.0000</Avaluo>
+    <Prestamo>100.0000</Prestamo>
+    <Tipo>Electronicos</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126605</Contrato>
+    <Bolsa>144232</Bolsa>
+    <Fecha>22-10-2018</Fecha>
+    <Avaluo>1200.0000</Avaluo>
+    <Prestamo>600.0000</Prestamo>
+    <Tipo>Herramientas</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126481</Contrato>
+    <Bolsa>144006</Bolsa>
+    <Fecha>01-10-2018</Fecha>
+    <Avaluo>8150.0000</Avaluo>
+    <Prestamo>4075.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>3 MESES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126667</Contrato>
+    <Bolsa>144113</Bolsa>
+    <Fecha>01-11-2018</Fecha>
+    <Avaluo>968.0000</Avaluo>
+    <Prestamo>484.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145883</Contrato>
+    <Bolsa>144196</Bolsa>
+    <Fecha>01-11-2018</Fecha>
+    <Avaluo>5824.0000</Avaluo>
+    <Prestamo>2912.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145885</Contrato>
+    <Bolsa>124709</Bolsa>
+    <Fecha>01-11-2018</Fecha>
+    <Avaluo>400.0000</Avaluo>
+    <Prestamo>200.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145890</Contrato>
+    <Bolsa>124658</Bolsa>
+    <Fecha>03-11-2018</Fecha>
+    <Avaluo>9000.0000</Avaluo>
+    <Prestamo>4500.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126501</Contrato>
+    <Bolsa>144503</Bolsa>
+    <Fecha>05-10-2018</Fecha>
+    <Avaluo>30060.0000</Avaluo>
+    <Prestamo>15030.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145730</Contrato>
+    <Bolsa>144648</Bolsa>
+    <Fecha>05-10-2018</Fecha>
+    <Avaluo>1720.0000</Avaluo>
+    <Prestamo>860.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145738</Contrato>
+    <Bolsa>144851</Bolsa>
+    <Fecha>06-10-2018</Fecha>
+    <Avaluo>17660.0000</Avaluo>
+    <Prestamo>8830.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145741</Contrato>
+    <Bolsa>144853</Bolsa>
+    <Fecha>06-10-2018</Fecha>
+    <Avaluo>900.0000</Avaluo>
+    <Prestamo>450.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126529</Contrato>
+    <Bolsa>124835</Bolsa>
+    <Fecha>10-10-2018</Fecha>
+    <Avaluo>4460.0000</Avaluo>
+    <Prestamo>2230.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126534</Contrato>
+    <Bolsa>144101</Bolsa>
+    <Fecha>10-10-2018</Fecha>
+    <Avaluo>8400.0000</Avaluo>
+    <Prestamo>4200.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145766</Contrato>
+    <Bolsa>144380</Bolsa>
+    <Fecha>11-10-2018</Fecha>
+    <Avaluo>4600.0000</Avaluo>
+    <Prestamo>2300.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145767</Contrato>
+    <Bolsa>144861</Bolsa>
+    <Fecha>12-10-2018</Fecha>
+    <Avaluo>4940.0000</Avaluo>
+    <Prestamo>2470.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126547</Contrato>
+    <Bolsa>144153</Bolsa>
+    <Fecha>12-10-2018</Fecha>
+    <Avaluo>14600.0000</Avaluo>
+    <Prestamo>7300.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145783</Contrato>
+    <Bolsa>144864</Bolsa>
+    <Fecha>15-10-2018</Fecha>
+    <Avaluo>7640.0000</Avaluo>
+    <Prestamo>3820.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126562</Contrato>
+    <Bolsa>124951</Bolsa>
+    <Fecha>15-10-2018</Fecha>
+    <Avaluo>1600.0000</Avaluo>
+    <Prestamo>800.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126384</Contrato>
+    <Bolsa>125037</Bolsa>
+    <Fecha>17-09-2018</Fecha>
+    <Avaluo>3102.0000</Avaluo>
+    <Prestamo>1551.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126577</Contrato>
+    <Bolsa>144095</Bolsa>
+    <Fecha>17-10-2018</Fecha>
+    <Avaluo>20874.0000</Avaluo>
+    <Prestamo>10437.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145804</Contrato>
+    <Bolsa>144723</Bolsa>
+    <Fecha>17-10-2018</Fecha>
+    <Avaluo>30868.0000</Avaluo>
+    <Prestamo>15434.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126588</Contrato>
+    <Bolsa>144410</Bolsa>
+    <Fecha>18-10-2018</Fecha>
+    <Avaluo>2704.0000</Avaluo>
+    <Prestamo>1352.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126425</Contrato>
+    <Bolsa>125047</Bolsa>
+    <Fecha>21-09-2018</Fecha>
+    <Avaluo>2200.0000</Avaluo>
+    <Prestamo>1100.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145673</Contrato>
+    <Bolsa>144413</Bolsa>
+    <Fecha>24-09-2018</Fecha>
+    <Avaluo>1700.0000</Avaluo>
+    <Prestamo>850.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126445</Contrato>
+    <Bolsa>124810</Bolsa>
+    <Fecha>26-09-2018</Fecha>
+    <Avaluo>4300.0000</Avaluo>
+    <Prestamo>2150.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126631</Contrato>
+    <Bolsa>124729</Bolsa>
+    <Fecha>26-10-2018</Fecha>
+    <Avaluo>6520.0000</Avaluo>
+    <Prestamo>3260.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145543</Contrato>
+    <Bolsa>144789</Bolsa>
+    <Fecha>27-08-2018</Fecha>
+    <Avaluo>1900.0000</Avaluo>
+    <Prestamo>950.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>3 MESES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>145846</Contrato>
+    <Bolsa>144891</Bolsa>
+    <Fecha>27-10-2018</Fecha>
+    <Avaluo>1100.0000</Avaluo>
+    <Prestamo>550.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126469</Contrato>
+    <Bolsa>124754</Bolsa>
+    <Fecha>28-09-2018</Fecha>
+    <Avaluo>3600.0000</Avaluo>
+    <Prestamo>1800.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126640</Contrato>
+    <Bolsa>144325</Bolsa>
+    <Fecha>29-10-2018</Fecha>
+    <Avaluo>1680.0000</Avaluo>
+    <Prestamo>840.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>126665</Contrato>
+    <Bolsa>125111</Bolsa>
+    <Fecha>31-10-2018</Fecha>
+    <Avaluo>700.0000</Avaluo>
+    <Prestamo>350.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+  </AudContratos>
+</NewDataSet>
