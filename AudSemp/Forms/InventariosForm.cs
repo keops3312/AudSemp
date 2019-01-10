@@ -715,9 +715,6 @@ namespace AudSemp.Forms
                 cmbOrden.Enabled = true;
             }
         }
-
-        #endregion
-
         private void buttonX1_Click(object sender, EventArgs e)
         {
             if (dt.Rows.Count > 0)
@@ -735,5 +732,8 @@ namespace AudSemp.Forms
             }
 
         }
+        #endregion
+
+
     }
 }

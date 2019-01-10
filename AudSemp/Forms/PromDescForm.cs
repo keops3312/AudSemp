@@ -506,7 +506,6 @@ namespace AudSemp.Forms
         {
             load();
         }
-        #endregion
 
         private void buttonX1_Click(object sender, EventArgs e)
         {
@@ -524,5 +523,8 @@ namespace AudSemp.Forms
 
             }
         }
+        #endregion
+
+
     }
 }

@@ -64,7 +64,22 @@ namespace AudSemp.Forms
         #endregion
 
         #region Events
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            if (dt.Rows.Count > 0)
+            {
+                VistaPreviaForm vista = new VistaPreviaForm();
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.vistaM = dt;
+                vista.Show();
 
+            }
+            else
+            {
+                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+        }
         private void btnRegresar_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -762,21 +777,6 @@ namespace AudSemp.Forms
 
         #endregion
 
-        private void buttonX1_Click(object sender, EventArgs e)
-        {
-            if (dt.Rows.Count > 0)
-            {
-                VistaPreviaForm vista = new VistaPreviaForm();
-                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
-                vista.vistaM = dt;
-                vista.Show();
-
-            }
-            else
-            {
-                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            }
-        }
+      
     }
 }

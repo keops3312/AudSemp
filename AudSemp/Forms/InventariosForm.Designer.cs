@@ -91,7 +91,7 @@
             this.cmbOrden.BackgroundStyle.Class = "TextBoxBorder";
             this.cmbOrden.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.cmbOrden.ButtonDropDown.Visible = true;
-            this.cmbOrden.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            //this.cmbOrden.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.cmbOrden.Location = new System.Drawing.Point(610, 57);
             this.cmbOrden.Name = "cmbOrden";
             this.cmbOrden.Size = new System.Drawing.Size(134, 23);
@@ -107,7 +107,7 @@
             this.cmbTipoOrden.BackgroundStyle.Class = "TextBoxBorder";
             this.cmbTipoOrden.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.cmbTipoOrden.ButtonDropDown.Visible = true;
-            this.cmbTipoOrden.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+            //this.cmbTipoOrden.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.cmbTipoOrden.Location = new System.Drawing.Point(470, 57);
             this.cmbTipoOrden.Name = "cmbTipoOrden";
             this.cmbTipoOrden.Size = new System.Drawing.Size(134, 23);

@@ -731,7 +731,6 @@ namespace AudSemp.Forms
             btnRegresar.Enabled = true;
             btnCancel.Visible = false;
         }
-        #endregion
 
         private void buttonX1_Click(object sender, EventArgs e)
         {
@@ -749,5 +748,8 @@ namespace AudSemp.Forms
 
             }
         }
+        #endregion
+
+
     }
 }

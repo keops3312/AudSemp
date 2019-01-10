@@ -106,7 +106,7 @@
             this.dotNetBarManager1.BottomDockSite = this.dockSite4;
             this.dotNetBarManager1.EnableFullSizeDock = false;
             this.dotNetBarManager1.LeftDockSite = this.dockSite1;
-            this.dotNetBarManager1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+           // this.dotNetBarManager1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.dotNetBarManager1.ParentForm = this;
             this.dotNetBarManager1.RightDockSite = this.dockSite2;
             this.dotNetBarManager1.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2003;

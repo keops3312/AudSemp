@@ -427,7 +427,70 @@ namespace AudSemp.Forms
 
         }
 
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            if (dt.Rows.Count > 0)
+            {
+                VistaPreviaForm vista = new VistaPreviaForm();
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.vistaM = dt;
+                vista.Show();
 
+            }
+            else
+            {
+                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+
+        }
+
+        private void dtFin_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                DateTime Inicio = DateTime.Parse(dtInicio.Value.ToString());
+                DateTime Fin = DateTime.Parse(dtFin.Value.ToString());
+
+                counCOntratos = db.contratos.Count(p => p.FechaCons >= Inicio
+                                                        && p.FechaCons <= Fin);
+
+                integerInput1.Value = counCOntratos;
+                integerInput1.MinValue = 20;
+                integerInput1.MaxValue = counCOntratos;
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+        }
+
+        private void dtInicio_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DateTime Inicio = DateTime.Parse(dtInicio.Value.ToString());
+                DateTime Fin = DateTime.Parse(dtFin.Value.ToString());
+
+                counCOntratos = db.contratos.Count(p => p.FechaCons >= Inicio
+                                                        && p.FechaCons <= Fin);
+
+                integerInput1.Value = counCOntratos;
+                integerInput1.MinValue = 20;
+                integerInput1.MaxValue = counCOntratos;
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private void integerInput1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
         #endregion
 
         #region Methods (metodos)
@@ -786,69 +849,6 @@ namespace AudSemp.Forms
 
         #endregion
 
-        private void buttonX1_Click(object sender, EventArgs e)
-        {
-            if (dt.Rows.Count > 0)
-            {
-                VistaPreviaForm vista = new VistaPreviaForm();
-                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
-                vista.vistaM = dt;
-                vista.Show();
-
-            }
-            else
-            {
-                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            }
-
-        }
-
-        private void dtFin_Click(object sender, EventArgs e)
-        {
-
-            try
-            {
-                DateTime Inicio = DateTime.Parse(dtInicio.Value.ToString());
-                DateTime Fin = DateTime.Parse(dtFin.Value.ToString());
-
-                counCOntratos = db.contratos.Count(p => p.FechaCons >= Inicio
-                                                        && p.FechaCons <= Fin);
-
-                integerInput1.Value = counCOntratos;
-                integerInput1.MinValue = 20;
-                integerInput1.MaxValue = counCOntratos;
-            }
-            catch(Exception ex)
-            {
-
-            }
-         
-        }
-
-        private void dtInicio_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                DateTime Inicio = DateTime.Parse(dtInicio.Value.ToString());
-                DateTime Fin = DateTime.Parse(dtFin.Value.ToString());
-
-                counCOntratos = db.contratos.Count(p => p.FechaCons >= Inicio
-                                                        && p.FechaCons <= Fin);
-
-                integerInput1.Value = counCOntratos;
-                integerInput1.MinValue = 20;
-                integerInput1.MaxValue = counCOntratos;
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
-
-        private void integerInput1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

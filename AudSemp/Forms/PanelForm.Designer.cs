@@ -288,7 +288,7 @@
             this.metroTilePanel1.DragDropSupport = true;
             this.metroTilePanel1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.itemContainer1});
-            this.metroTilePanel1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+           // this.metroTilePanel1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.metroTilePanel1.Location = new System.Drawing.Point(252, 115);
             this.metroTilePanel1.Name = "metroTilePanel1";
             this.metroTilePanel1.ReserveLeftSpace = false;

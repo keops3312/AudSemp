@@ -783,22 +783,19 @@ namespace AudSemp.Forms
             btnCancel.Visible = false;
         }
 
-
-        #endregion
-
         private void buttonX1_Click(object sender, EventArgs e)
         {
-            if(dt.Rows.Count>0)
+            if (dt.Rows.Count > 0)
             {
                 VistaPreviaForm vista = new VistaPreviaForm();
-                vista.leyenda= this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
                 vista.vistaM = dt;
                 vista.Show();
-              
+
             }
             else
             {
-                MessageBox.Show("NO hay resultados cargados!","Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
 
@@ -806,5 +803,8 @@ namespace AudSemp.Forms
 
 
         }
+        #endregion
+
+
     }
 }
