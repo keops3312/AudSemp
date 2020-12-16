@@ -23,4 +23,2677 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
+  <CajaAuxiliar>
+    <Folio>A-1002</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2017-02-07T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-11-15T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2814</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1272</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-06-04T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-05-30T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2436</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1316</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-08-16T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-09-12T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2634</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1338</Folio>
+    <Acumulado>67</Acumulado>
+    <FechaPrimMov>2018-09-20T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-01-15T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2204</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1336</Folio>
+    <Acumulado>130</Acumulado>
+    <FechaPrimMov>2018-09-26T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-01-15T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2203</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1340</Folio>
+    <Acumulado>530</Acumulado>
+    <FechaPrimMov>2018-10-03T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-01-15T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2205</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1343</Folio>
+    <Acumulado>150</Acumulado>
+    <FechaPrimMov>2018-10-24T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-01-15T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2206</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1350</Folio>
+    <Acumulado>128</Acumulado>
+    <FechaPrimMov>2018-11-03T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-15T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2207</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1353</Folio>
+    <Acumulado>78</Acumulado>
+    <FechaPrimMov>2018-11-13T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-07T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2279</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1354</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-11-16T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-14T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3476</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2201</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1352</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-11-23T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-21T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3483</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2221</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-13555</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-11-24T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-21T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3484</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2223</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1356</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-11-24T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-16T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3479</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2210</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1359</Folio>
+    <Acumulado>115</Acumulado>
+    <FechaPrimMov>2018-11-26T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-07T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2280</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1360</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-11-28T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-16T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3480</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2215</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1361</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-11-29T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-04T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5670</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2182</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1362</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-11-30T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-02-08T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2242</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1363</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-12-05T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-02-05T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3499</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2237</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1364</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-12-06T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-09T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3473</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2195</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1365</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-12-11T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-22T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3488</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2225</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1366</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-12-12T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-02-08T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3504</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2246</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1367</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-12-15T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-05T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5675</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2190</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1369</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-12-19T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-02T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3467</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2173</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1371</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-12-21T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-03T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5668</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2176</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1372</Folio>
+    <Acumulado>66</Acumulado>
+    <FechaPrimMov>2018-12-22T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-07T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2281</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1375</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2018-12-31T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-02T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3465</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2171</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1377</Folio>
+    <Acumulado>41</Acumulado>
+    <FechaPrimMov>2019-01-02T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-06-20T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2490</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1376</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-01-02T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-08T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3470</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2192</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1374</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-01-03T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-05T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3525</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2277</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1378</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-01-03T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-04T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3524</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2275</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1379</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-01-03T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-05T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5672</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2186</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1380</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-01-04T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-02-05T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3498</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2235</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1381</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-01-04T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-05T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5674</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2188</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1382</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-01-10T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-09T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3527</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2285</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1383</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-01-15T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-16T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3481</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2217</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1384</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-01-16T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-14T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3533</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2288</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1385</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-01-16T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-16T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3536</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2292</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1388</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-01-21T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-21T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3541</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2301</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1389</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-01-23T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-01-28T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3492</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2229</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-80</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-02-05T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-02-23T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3519</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2259</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1390</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-02-08T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-06-29T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2508</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1386</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-02-11T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-04-01T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3560</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2326</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1387</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-02-15T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-27T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3552</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2309</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-84</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-02-18T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-06-19T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2487</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-85</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-02-19T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-02T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3522</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2272</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1391</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-02-20T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-04-10T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3567</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2341</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1392</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-02-23T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-05-06T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2390</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1393</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-02-23T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-04-01T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3559</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>6</ultimaOperacion>
+    <ultimoMovimiento>2324</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1394</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-03-02T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-04-22T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3576</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2356</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1395</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-03-06T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-04-26T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3582</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2365</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1396</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-03-15T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-04-29T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3586</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2373</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1397</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-03-16T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-04-29T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3588</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2377</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-92</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-03-16T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-04-29T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3587</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2375</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1398</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-03-18T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-27T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3553</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2311</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-95</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-03-21T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-05-30T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2441</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1399</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-03-25T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-26T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3550</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2307</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1400</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-03-28T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-30T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3558</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2321</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1401</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-03-29T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-03-29T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3557</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2317</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1402</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-03-30T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-04-23T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3578</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2360</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-101</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-03T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-06-29T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2506</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1403</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-03T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-06-04T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3641</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2447</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1404</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-03T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-05-27T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3639</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2427</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1405</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-04T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-04-24T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3579</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2363</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1406</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-06T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-04-11T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3569</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2346</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1407</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-08T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-06-05T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3643</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2451</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1408</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-09T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-06-17T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2481</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1409</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-11T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-04-17T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3572</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2353</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1410</Folio>
+    <Acumulado>16</Acumulado>
+    <FechaPrimMov>2019-04-12T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-06-20T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2492</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1411</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-13T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-06-04T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3642</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2449</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1412</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-16T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-06-10T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3646</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2459</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1413</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-17T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-06-17T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3649</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2476</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1414</Folio>
+    <Acumulado>21</Acumulado>
+    <FechaPrimMov>2019-04-23T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-11T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2706</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1415</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-23T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-05-11T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3616</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2400</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1416</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-26T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-04-26T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3583</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2368</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1417</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-26T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-04-29T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3590</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2379</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1418</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-29T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-06-11T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3647</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2461</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1419</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-04-29T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-05-06T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3601</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2386</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1420</Folio>
+    <Acumulado>25</Acumulado>
+    <FechaPrimMov>2019-05-01T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-11T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2707</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1421</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-05-01T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-05-13T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3617</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2404</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1422</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-05-02T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-05-15T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3621</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2410</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1423</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-05-03T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-07-01T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3658</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>6</ultimaOperacion>
+    <ultimoMovimiento>2515</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1424</Folio>
+    <Acumulado>132</Acumulado>
+    <FechaPrimMov>2019-05-04T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-11T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2708</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1425</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-05-08T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-05-15T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3623</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2412</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1428</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-05-10T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-08-06T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2565</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1429</Folio>
+    <Acumulado>180</Acumulado>
+    <FechaPrimMov>2019-05-10T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-11T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2709</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1426</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-05-10T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-07-09T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3663</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2525</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1427</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-05-10T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-05-22T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3632</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2424</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1431</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-05-13T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-05-14T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3619</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2406</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1432</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-05-14T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-05-17T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3627</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2415</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1430</Folio>
+    <Acumulado>75</Acumulado>
+    <FechaPrimMov>2019-05-21T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-11T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2710</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1436</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-05-22T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-07-16T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3666</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2534</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1433</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-05-29T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-07-26T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3678</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2548</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1434</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-05-31T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-11-22T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2834</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-130</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-06-10T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-06-17T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3650</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2478</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-131</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-06-13T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-07-12T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3665</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2531</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-132</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-06-13T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-06-17T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3648</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2474</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-133</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-06-13T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-07-19T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2541</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-134</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-06-15T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-07-03T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3659</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2518</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-135</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-06-17T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-07-16T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3667</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2536</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-136</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-06-25T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-06-26T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3656</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2499</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-137</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-06-29T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-08-31T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3712</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2605</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-138</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-06-29T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-08-31T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3711</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2603</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-139</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-07-04T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-07-06T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3662</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2523</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-464</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-07-06T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-08-01T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3683</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2556</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-141</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-07-12T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-09-20T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2658</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-140</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-07-12T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-09-11T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3720</Comentario>
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>6</ultimaOperacion>
+    <ultimoMovimiento>2626</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-142</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-07-15T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-07-17T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-5709</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2538</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-143</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-07-23T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-09-05T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3716</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2613</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-144</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-07-23T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-07-30T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3680</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2551</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-145</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-07-24T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-09-19T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-5759</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2652</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-465</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-07-24T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-08-03T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3691</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2559</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-146</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-07-27T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-01T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3738</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2674</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-147</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-07-31T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-09-18T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-5756</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2648</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-148</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-08-02T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-09-11T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3721</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2630</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-149</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-08-05T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-04T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-5775</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>6</ultimaOperacion>
+    <ultimoMovimiento>2691</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-150</Folio>
+    <Acumulado>200</Acumulado>
+    <FechaPrimMov>2019-08-06T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-30T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2744</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-153</Folio>
+    <Acumulado>765</Acumulado>
+    <FechaPrimMov>2019-08-07T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-30T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2745</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-151</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-08-07T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-09T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-5782</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2699</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-152</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-08-07T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-03T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3743</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2680</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-154</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-08-08T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-24T00:00:00-05:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2735</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-155</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-08-12T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-11-13T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2790</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-156</Folio>
+    <Acumulado>435</Acumulado>
+    <FechaPrimMov>2019-08-13T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-30T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2747</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-157</Folio>
+    <Acumulado>16</Acumulado>
+    <FechaPrimMov>2019-08-14T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-30T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2748</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-158</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-08-14T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-09-17T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3727</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2642</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-159</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-08-16T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-04T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-5774</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2687</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-160</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-08-21T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-09-13T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-5750</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2637</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-161</Folio>
+    <Acumulado>155</Acumulado>
+    <FechaPrimMov>2019-08-24T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2020-01-21T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2984</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-162</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-08-28T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-16T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3756</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2720</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-163</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-08-30T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-16T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3757</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2722</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-164</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-03T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2020-01-24T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>3000</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-165</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-03T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-09-18T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3731</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2650</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-166</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-05T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-12-20T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2894</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-167</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-05T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-09-07T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3717</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2620</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-168</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-06T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-11-07T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3778</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2773</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-169</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-07T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-11-16T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2819</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-170</Folio>
+    <Acumulado>18</Acumulado>
+    <FechaPrimMov>2019-09-12T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2020-01-21T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5791</Comentario>
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2986</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-171</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-13T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-11-13T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3786</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2799</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-172</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-14T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-04T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3747</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2685</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-173</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-17T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-03T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3744</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2682</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-174</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-17T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-11-13T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5807</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2797</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-175</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-20T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-11T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3751</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2713</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-466</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-23T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-11-23T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5820</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2836</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-467</Folio>
+    <Acumulado>160</Acumulado>
+    <FechaPrimMov>2019-09-24T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2020-01-21T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2991</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-468</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-26T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2020-02-21T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>3052</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-176</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-09-26T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-11-19T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5817</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2827</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-470</Folio>
+    <Acumulado>70</Acumulado>
+    <FechaPrimMov>2019-10-02T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2020-01-21T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2993</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-469</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-10-02T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-11-27T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3801</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2843</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-177</Folio>
+    <Acumulado>21</Acumulado>
+    <FechaPrimMov>2019-10-04T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2020-01-21T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2987</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-471</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-10-04T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-11-06T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5802</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2768</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-178</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-10-07T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2020-01-07T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2946</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-179</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-10-09T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-12-09T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5831</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2861</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-472</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-10-15T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-10-23T00:00:00-05:00</FechaUltMov>
+    <Comentario>R-3767</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2732</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-473</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-10-16T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-12-17T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5846</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2881</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-180</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-10-17T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-12-16T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3831</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2878</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-181</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-10-17T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-12-13T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3830</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2873</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-182</Folio>
+    <Acumulado>55</Acumulado>
+    <FechaPrimMov>2019-10-19T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2020-01-21T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2988</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-474</Folio>
+    <Acumulado>235</Acumulado>
+    <FechaPrimMov>2019-10-19T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2020-01-21T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2994</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-183</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-10-24T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-12-23T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3851</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2907</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-184</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-10-26T00:00:00-05:00</FechaPrimMov>
+    <FechaUltMov>2019-12-21T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3846</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2904</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-475</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-10-30T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-11-27T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5825</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2845</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-476</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-10-30T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-11-13T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5806</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2794</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-477</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-04T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-11-06T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5801</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2765</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-478</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-04T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-12-27T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3860</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>2918</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-185</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-05T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-04T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5906</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2933</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-479</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-05T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-06T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5908</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2943</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-481</Folio>
+    <Acumulado>459</Acumulado>
+    <FechaPrimMov>2019-11-06T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-21T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2995</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-480</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-06T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-11-14T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5810</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2806</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-482</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-07T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-11T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3885</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2964</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-186</Folio>
+    <Acumulado>30</Acumulado>
+    <FechaPrimMov>2019-11-09T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-21T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2989</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-483</Folio>
+    <Acumulado>-1</Acumulado>
+    <FechaPrimMov>2019-11-12T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-12-21T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>CANCELADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2902</ultimoMovimiento>
+    <Descripcion>PENALIZACION CANCEL APART</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-188</Folio>
+    <Acumulado>110</Acumulado>
+    <FechaPrimMov>2019-11-13T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-21T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>2990</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-187</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-13T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-13T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3888</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2967</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-484</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-13T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-11-14T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5808</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2803</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-485</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-13T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-11-14T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3787</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2811</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-486</Folio>
+    <Acumulado>235</Acumulado>
+    <FechaPrimMov>2019-11-15T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-05T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>3079</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-189</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-15T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-12-26T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5875</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2914</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-487</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-16T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-12-21T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5864</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2897</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-190</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-19T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-16T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5919</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2977</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-191</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-19T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-20T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3895</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2979</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-488</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-22T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-11-29T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5827</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2849</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-489</Folio>
+    <Acumulado>155</Acumulado>
+    <FechaPrimMov>2019-11-23T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-05T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>3080</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-192</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-26T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-10T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3882</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2961</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-490</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-26T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-24T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3899</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3003</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-491</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-11-28T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-06T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3872</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>2938</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-492</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-12-02T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-06T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3874</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2940</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-493</Folio>
+    <Acumulado>51</Acumulado>
+    <FechaPrimMov>2019-12-05T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-05T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>3081</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-494</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-12-18T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-05T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5936</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>3025</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-193</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-12-19T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-12-19T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5857</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2886</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-495</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-12-19T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-12-20T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3836</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2891</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-194</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-12-21T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2019-12-23T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3853</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2910</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-195</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-12-21T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-19T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5952</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3046</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-196</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-12-23T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-30T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5932</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3015</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-496</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-12-27T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-27T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3904</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3009</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-497</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-12-28T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-02T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3867</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2928</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-498</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2019-12-28T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-02T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3866</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2926</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-197</Folio>
+    <Acumulado>110</Acumulado>
+    <FechaPrimMov>2020-01-03T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-23T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>3126</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-198</Folio>
+    <Acumulado>265</Acumulado>
+    <FechaPrimMov>2020-01-03T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-23T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>3127</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-199</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-06T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-06T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3871</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2936</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-200</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-07T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-08T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5911</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>2951</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-499</Folio>
+    <Acumulado>30</Acumulado>
+    <FechaPrimMov>2020-01-09T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-23T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>3129</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-201</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-09T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-10T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3963</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>3098</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-501</Folio>
+    <Acumulado>350</Acumulado>
+    <FechaPrimMov>2020-01-10T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-23T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>3130</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-500</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-10T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-05T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5937</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>3027</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-204</Folio>
+    <Acumulado>80</Acumulado>
+    <FechaPrimMov>2020-01-15T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-23T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>PENALIZADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>3128</ultimoMovimiento>
+    <Descripcion>PENALIZACION APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-202</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-15T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-26T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3948</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3066</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-203</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-15T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-26T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3949</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3068</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-502</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-15T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-11T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5973</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3104</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-503</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-16T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-06T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3913</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3030</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-504</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-20T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-20T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3972</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>3125</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-205</Folio>
+    <Acumulado>50</Acumulado>
+    <FechaPrimMov>2020-01-20T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-20T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>2980</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-206</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-21T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-12T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3966</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3108</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-505</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-21T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-18T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3936</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3044</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-207</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-23T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-01-27T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3903</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3006</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-506</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-23T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-05T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5966</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3086</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-208</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-27T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-26T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3981</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>3134</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-209</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-28T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-10T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5945</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3032</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-210</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-29T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-06T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5970</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>3091</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-508</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-30T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-03T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5964</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3077</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-507</Folio>
+    <Acumulado>2750</Acumulado>
+    <FechaPrimMov>2020-01-30T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-03T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>3075</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-509</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-01-31T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-27T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3950</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3071</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-211</Folio>
+    <Acumulado>600</Acumulado>
+    <FechaPrimMov>2020-02-05T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-18T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>2</ultimaOperacion>
+    <ultimoMovimiento>3042</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-510</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-02-13T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-21T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5953</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3055</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-511</Folio>
+    <Acumulado>670</Acumulado>
+    <FechaPrimMov>2020-02-17T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-17T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>3039</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-512</Folio>
+    <Acumulado>350</Acumulado>
+    <FechaPrimMov>2020-02-17T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-17T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>3040</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-513</Folio>
+    <Acumulado>150</Acumulado>
+    <FechaPrimMov>2020-02-19T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-19T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>3048</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-212</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-02-20T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-26T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3983</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>3136</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-213</Folio>
+    <Acumulado>550</Acumulado>
+    <FechaPrimMov>2020-02-20T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-26T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3137</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-214</Folio>
+    <Acumulado>158</Acumulado>
+    <FechaPrimMov>2020-02-22T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-28T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5982</Comentario>
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>5</ultimaOperacion>
+    <ultimoMovimiento>3144</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-514</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-02-24T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-02-24T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5957</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3061</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-215</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-02-28T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-05T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3959</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3083</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-216</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-03-03T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-20T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5984</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3123</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-515</Folio>
+    <Acumulado>500</Acumulado>
+    <FechaPrimMov>2020-03-05T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-05T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>3084</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-217</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-03-06T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-07T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3961</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3093</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-218</Folio>
+    <Acumulado>400</Acumulado>
+    <FechaPrimMov>2020-03-06T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-27T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>4</ultimaOperacion>
+    <ultimoMovimiento>3140</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-516</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-03-11T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-18T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-5977</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3115</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-517</Folio>
+    <Acumulado>0</Acumulado>
+    <FechaPrimMov>2020-03-11T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-20T00:00:00-06:00</FechaUltMov>
+    <Comentario>R-3971</Comentario>
+    <ultimoEstatus>VENDIDO</ultimoEstatus>
+    <ultimaOperacion>3</ultimaOperacion>
+    <ultimoMovimiento>3120</ultimoMovimiento>
+    <Descripcion>RETIRO APART REM</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-219</Folio>
+    <Acumulado>470</Acumulado>
+    <FechaPrimMov>2020-03-11T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-11T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>3100</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-518</Folio>
+    <Acumulado>290</Acumulado>
+    <FechaPrimMov>2020-03-13T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-13T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>3111</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-519</Folio>
+    <Acumulado>53</Acumulado>
+    <FechaPrimMov>2020-03-17T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-17T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>3113</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-520</Folio>
+    <Acumulado>50</Acumulado>
+    <FechaPrimMov>2020-03-18T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-18T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>3116</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-521</Folio>
+    <Acumulado>300</Acumulado>
+    <FechaPrimMov>2020-03-24T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-24T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>3131</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-522</Folio>
+    <Acumulado>50</Acumulado>
+    <FechaPrimMov>2020-03-25T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-25T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>3132</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
+  <CajaAuxiliar>
+    <Folio>A-1435</Folio>
+    <Acumulado>700</Acumulado>
+    <FechaPrimMov>2020-03-27T00:00:00-06:00</FechaPrimMov>
+    <FechaUltMov>2020-03-27T00:00:00-06:00</FechaUltMov>
+    <Comentario />
+    <ultimoEstatus>APARTADO</ultimoEstatus>
+    <ultimaOperacion>1</ultimaOperacion>
+    <ultimoMovimiento>3138</ultimoMovimiento>
+    <Descripcion>APARTADO</Descripcion>
+  </CajaAuxiliar>
 </NewDataSet>
