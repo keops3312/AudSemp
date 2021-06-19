@@ -10,12 +10,11 @@
 namespace AudSemp.Context
 {
     using System;
+    using System.Collections.Generic;
     
-    public partial class SP_BuscarUsuario_Result
+    public partial class Pension
     {
-        public string NO_OPERADOR { get; set; }
-        public string LOCALIDAD { get; set; }
-        public string USUARIO { get; set; }
-        public string CONTRASEÑA { get; set; }
+        public int IdPension { get; set; }
+        public Nullable<decimal> Pension1 { get; set; }
     }
 }

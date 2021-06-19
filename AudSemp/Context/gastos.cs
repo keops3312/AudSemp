@@ -16,5 +16,6 @@ namespace AudSemp.Context
     {
         public int no { get; set; }
         public string GASTOS1 { get; set; }
+        public string Nom { get; set; }
     }
 }

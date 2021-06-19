@@ -10,13 +10,14 @@
 namespace AudSemp.Context
 {
     using System;
+    using System.Collections.Generic;
     
-    public partial class SP_UNIVERSAL_ACCESO_Result
+    public partial class sysdiagrams
     {
-        public string NO_OPERADOR { get; set; }
-        public string LOCALIDAD { get; set; }
-        public string USUARIO { get; set; }
-        public string CONTRASEÑA { get; set; }
-        public string TIPO_USUARIO { get; set; }
+        public string name { get; set; }
+        public int principal_id { get; set; }
+        public int diagram_id { get; set; }
+        public Nullable<int> version { get; set; }
+        public byte[] definition { get; set; }
     }
 }

@@ -63,7 +63,12 @@ namespace AudSemp.Forms
         DataTable dt = new DataTable();
         #endregion
 
+
         #region Events
+        private void BolsasForm_Load(object sender, EventArgs e)
+        {
+            load();
+        }
         private void buttonX1_Click(object sender, EventArgs e)
         {
             if (dt.Rows.Count > 0)
@@ -84,7 +89,28 @@ namespace AudSemp.Forms
         {
             this.Close();
         }
-
+        private void checkModo_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkModo.Checked == false)
+            {
+                cmbOrden.Enabled = false;
+            }
+            else
+            {
+                cmbOrden.Enabled = true;
+            }
+        }
+        private void checkOrden_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkOrden.Checked == false)
+            {
+                cmbTipoOrden.Enabled = false;
+            }
+            else
+            {
+                cmbTipoOrden.Enabled = true;
+            }
+        }
         private void btnCancel_Click(object sender, EventArgs e)
         {
             if (backgroundWorker1.WorkerSupportsCancellation == true)
@@ -110,85 +136,6 @@ namespace AudSemp.Forms
 
             }
         }
-
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
-        {
-            Excel(ruta);
-            Thread.Sleep(100);
-        }
-
-        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
-        {
-            //this is updated from dowork. Its where GUI components are update
-            prg1.Maximum = cantidad;
-            prg1.Value = e.ProgressPercentage;
-            lblProgress.Text = (e.ProgressPercentage.ToString() + " / " + cantidad + " # Registros Completados...");
-
-        }
-
-        private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
-        {
-            //called when the heavy operation in bg is over . can also accept GUI compponents
-
-            if (decision == 2)
-            {
-                //creamos los para metros
-                if (OpcionDR == 1)
-                {
-                    BolsasJoyeriaRPT ob = new BolsasJoyeriaRPT();
-                    LocalidadModel localidadModel = new LocalidadModel();
-                    localidadModel.localidadResult(loc);
-                    ob.SetParameterValue("tipos", leyendaTipos);
-                    ob.SetParameterValue("estatus", "Todos");
-                    ob.SetParameterValue("rangos", leyendaRango);
-                    ob.SetParameterValue("modoOrden", mode);
-
-                    ob.SetParameterValue("sucursal", localidadModel.sucursal);
-                    ob.SetParameterValue("marca", localidadModel.marca);
-                    ob.SetParameterValue("empresa", localidadModel.empresa);
-                    ob.SetParameterValue("localidad", localidadModel.localidad);
-                    ob.SetParameterValue("encargado", localidadModel.encargado);
-                    ob.SetParameterValue("logo", localidadModel.logotipo);
-                    crystalReportViewer1.ReportSource = ob;
-                }
-                else
-                {
-                    BolsasOtrosRPT ob = new BolsasOtrosRPT();
-                    LocalidadModel localidadModel = new LocalidadModel();
-                    localidadModel.localidadResult(loc);
-                    ob.SetParameterValue("tipos", leyendaTipos);
-                    ob.SetParameterValue("estatus", "Todos");
-                    ob.SetParameterValue("rangos", leyendaRango);
-                    ob.SetParameterValue("modoOrden", mode);
-
-                    ob.SetParameterValue("sucursal", localidadModel.sucursal);
-                    ob.SetParameterValue("marca", localidadModel.marca);
-                    ob.SetParameterValue("empresa", localidadModel.empresa);
-                    ob.SetParameterValue("localidad", localidadModel.localidad);
-                    ob.SetParameterValue("encargado", localidadModel.encargado);
-                    ob.SetParameterValue("logo", localidadModel.logotipo);
-
-                    crystalReportViewer1.ReportSource = ob;
-
-                }
-               
-                crystalReportViewer1.Refresh();
-
-
-            }
-
-            MessageBox.Show("Operación Realizada con Exito",
-                   "Auditoria Semp", MessageBoxButtons.OK,
-                   MessageBoxIcon.Information);
-            prg1.Value = 0;
-            lblProgress.Text = "-";
-
-            btnExportar.Enabled = true;
-            btnReporte.Enabled = true;
-            btnRegresar.Enabled = true;
-            btnCancel.Visible = false;
-        }
-
         private void btnReporte_Click(object sender, EventArgs e)
         {
 
@@ -237,7 +184,6 @@ namespace AudSemp.Forms
                     }
             }
         }
-
         private void btnExportar_Click(object sender, EventArgs e)
         {
 
@@ -304,31 +250,6 @@ namespace AudSemp.Forms
                 }
             }
         }
-
-        private void checkModo_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkModo.Checked == false)
-            {
-                cmbOrden.Enabled = false;
-            }
-            else
-            {
-                cmbOrden.Enabled = true;
-            }
-        }
-
-        private void checkOrden_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkOrden.Checked == false)
-            {
-                cmbTipoOrden.Enabled = false;
-            }
-            else
-            {
-                cmbTipoOrden.Enabled = true;
-            }
-        }
-
         private void checkFechas_CheckedChanged(object sender, EventArgs e)
         {
             if (checkFechas.Checked == false)
@@ -342,14 +263,6 @@ namespace AudSemp.Forms
                 dtFin.Enabled = true;
             }
         }
-
-        private void BolsasForm_Load(object sender, EventArgs e)
-        {
-            load();
-        }
-
-
-
         private void checkPrendas_CheckedChanged(object sender, EventArgs e)
         {
             if (checkPrendas.Checked == true)
@@ -358,9 +271,6 @@ namespace AudSemp.Forms
             }
             
         }
-
-      
-
         private void checkContratos_CheckedChanged(object sender, EventArgs e)
         {
             if (checkContratos.Checked == true)
@@ -776,7 +686,86 @@ namespace AudSemp.Forms
 
 
         #endregion
+     
+        #region background
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            Excel(ruta);
+            Thread.Sleep(100);
+        }
 
-      
+        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            //this is updated from dowork. Its where GUI components are update
+            prg1.Maximum = cantidad;
+            prg1.Value = e.ProgressPercentage;
+            lblProgress.Text = (e.ProgressPercentage.ToString() + " / " + cantidad + " # Registros Completados...");
+
+        }
+
+        private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            //called when the heavy operation in bg is over . can also accept GUI compponents
+
+            if (decision == 2)
+            {
+                //creamos los para metros
+                if (OpcionDR == 1)
+                {
+                    BolsasJoyeriaRPT ob = new BolsasJoyeriaRPT();
+                    LocalidadModel localidadModel = new LocalidadModel();
+                    localidadModel.localidadResult(loc);
+                    ob.SetParameterValue("tipos", leyendaTipos);
+                    ob.SetParameterValue("estatus", "Todos");
+                    ob.SetParameterValue("rangos", leyendaRango);
+                    ob.SetParameterValue("modoOrden", mode);
+
+                    ob.SetParameterValue("sucursal", localidadModel.sucursal);
+                    ob.SetParameterValue("marca", localidadModel.marca);
+                    ob.SetParameterValue("empresa", localidadModel.empresa);
+                    ob.SetParameterValue("localidad", localidadModel.localidad);
+                    ob.SetParameterValue("encargado", localidadModel.encargado);
+                    ob.SetParameterValue("logo", localidadModel.logotipo);
+                    crystalReportViewer1.ReportSource = ob;
+                }
+                else
+                {
+                    BolsasOtrosRPT ob = new BolsasOtrosRPT();
+                    LocalidadModel localidadModel = new LocalidadModel();
+                    localidadModel.localidadResult(loc);
+                    ob.SetParameterValue("tipos", leyendaTipos);
+                    ob.SetParameterValue("estatus", "Todos");
+                    ob.SetParameterValue("rangos", leyendaRango);
+                    ob.SetParameterValue("modoOrden", mode);
+
+                    ob.SetParameterValue("sucursal", localidadModel.sucursal);
+                    ob.SetParameterValue("marca", localidadModel.marca);
+                    ob.SetParameterValue("empresa", localidadModel.empresa);
+                    ob.SetParameterValue("localidad", localidadModel.localidad);
+                    ob.SetParameterValue("encargado", localidadModel.encargado);
+                    ob.SetParameterValue("logo", localidadModel.logotipo);
+
+                    crystalReportViewer1.ReportSource = ob;
+
+                }
+
+                crystalReportViewer1.Refresh();
+
+
+            }
+
+            MessageBox.Show("Operación Realizada con Exito",
+                   "Auditoria Semp", MessageBoxButtons.OK,
+                   MessageBoxIcon.Information);
+            prg1.Value = 0;
+            lblProgress.Text = "-";
+
+            btnExportar.Enabled = true;
+            btnReporte.Enabled = true;
+            btnRegresar.Enabled = true;
+            btnCancel.Visible = false;
+        }
+        #endregion
+
     }
 }

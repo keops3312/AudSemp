@@ -54,5 +54,6 @@ namespace AudSemp.Context
         public Nullable<decimal> interes_N { get; set; }
         public Nullable<decimal> interes_A { get; set; }
         public string realizo { get; set; }
+        public string clienteDoR { get; set; }
     }
 }

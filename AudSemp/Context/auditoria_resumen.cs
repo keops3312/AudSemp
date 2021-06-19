@@ -17,7 +17,7 @@ namespace AudSemp.Context
         public int no { get; set; }
         public Nullable<System.DateTime> fecha_revision { get; set; }
         public string auditor { get; set; }
-        public Nullable<double> calificacion { get; set; }
+        public Nullable<double> calificaion { get; set; }
         public string jefe { get; set; }
         public string sucursal { get; set; }
         public string empresa { get; set; }

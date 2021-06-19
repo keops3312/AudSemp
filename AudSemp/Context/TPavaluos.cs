@@ -28,5 +28,8 @@ namespace AudSemp.Context
         public Nullable<int> remate { get; set; }
         public Nullable<decimal> limite_precio { get; set; }
         public Nullable<int> limite_refrendo { get; set; }
+        public Nullable<decimal> limiteDescuentoVenta { get; set; }
+        public Nullable<decimal> limiteDescuentoVentaJefe { get; set; }
+        public Nullable<decimal> limiteDescuentoVentaCajero { get; set; }
     }
 }

@@ -238,9 +238,20 @@ namespace AudSemp.Forms
 
 
 
+
+
         #endregion
 
-       
-     
+        private void btnMNLremisiones_Click(object sender, EventArgs e)
+        {
+            ReporteRemisionesMNLForm form = new ReporteRemisionesMNLForm();
+            form.empresa = Empresa;
+            form.sucursal = Sucursal;
+            form.nombreSucursal = Sucursal;
+            form.encargado = Encargado;
+            form.logo = Logotipo;
+            form.NombreOperaciones = NombreAuditor;
+            form.ShowDialog();
+        }
     }
 }

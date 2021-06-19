@@ -12,21 +12,18 @@ namespace AudSemp.Context
     using System;
     using System.Collections.Generic;
     
-    public partial class TLX21
+    public partial class SaldoEnCajas
     {
-        public int mov { get; set; }
+        public int IdSaldoEnCajas { get; set; }
+        public string Sucursal { get; set; }
         public string Caja { get; set; }
-        public Nullable<System.DateTime> Fecha { get; set; }
+        public System.DateTime Fecha { get; set; }
         public string Hora { get; set; }
-        public string Concepto { get; set; }
-        public string Folio { get; set; }
-        public Nullable<int> Contrato { get; set; }
-        public Nullable<decimal> Debe { get; set; }
-        public Nullable<decimal> Haber { get; set; }
-        public Nullable<decimal> Saldo { get; set; }
-        public string Usuario { get; set; }
-        public string Movim { get; set; }
-        public string Status { get; set; }
-        public string Comentario { get; set; }
+        public decimal Boveda { get; set; }
+        public decimal Documento { get; set; }
+        public decimal Saldo { get; set; }
+        public decimal TotalEfectivoBoveda { get; set; }
+        public double Diferencia { get; set; }
+        public decimal Efectivo { get; set; }
     }
 }

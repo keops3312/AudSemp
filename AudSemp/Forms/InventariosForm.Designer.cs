@@ -107,7 +107,7 @@
             this.cmbTipoOrden.BackgroundStyle.Class = "TextBoxBorder";
             this.cmbTipoOrden.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.cmbTipoOrden.ButtonDropDown.Visible = true;
-            //this.cmbTipoOrden.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
+           // this.cmbTipoOrden.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.cmbTipoOrden.Location = new System.Drawing.Point(470, 57);
             this.cmbTipoOrden.Name = "cmbTipoOrden";
             this.cmbTipoOrden.Size = new System.Drawing.Size(134, 23);

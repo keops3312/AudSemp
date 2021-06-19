@@ -27,6 +27,6 @@ namespace AudSemp.Context
         public string contrato { get; set; }
         public string caja { get; set; }
         public Nullable<System.DateTime> fecha_compara { get; set; }
-        public int @int { get; set; }
+        public int indice { get; set; }
     }
 }

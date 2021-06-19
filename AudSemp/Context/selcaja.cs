@@ -29,10 +29,11 @@ namespace AudSemp.Context
         public string foliosNP { get; set; }
         public string impresora { get; set; }
         public Nullable<int> ocupada { get; set; }
-        public string folio_Apartado { get; set; }
+        public string folio_apartado { get; set; }
         public string opcion_color { get; set; }
         public string opcion_font { get; set; }
         public string FOLIONP { get; set; }
         public string FOLIONR { get; set; }
+        public Nullable<int> FOLIOSCONTRATOS { get; set; }
     }
 }

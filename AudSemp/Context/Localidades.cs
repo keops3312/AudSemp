@@ -54,5 +54,6 @@ namespace AudSemp.Context
         public Nullable<int> NOTADEPAGO { get; set; }
         public Nullable<int> HABILITADO { get; set; }
         public Nullable<System.TimeSpan> Hora { get; set; }
+        public string WhatsApp { get; set; }
     }
 }

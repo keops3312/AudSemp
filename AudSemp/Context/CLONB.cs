@@ -50,7 +50,7 @@ namespace AudSemp.Context
         public Nullable<double> temp { get; set; }
         public string VenOVig { get; set; }
         public string realizo { get; set; }
-        public Nullable<decimal> CobroOriginal { get; set; }
+        public Nullable<decimal> cobrooriginal { get; set; }
         public string BLOQUEADO_COMENTARIO { get; set; }
     }
 }

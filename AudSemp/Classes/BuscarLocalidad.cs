@@ -27,16 +27,29 @@ namespace AudSemp.Classes
         public String[] LocalidadBuscada()
         {
 
-            String[] array = new string[3];
+
+            String[] array = new string[6];
             var localidad = db.Localidades.Where(p => p.impresora == "RAIZ").First();
 
             array[0] = localidad.LOCALIDAD;
             array[1] = localidad.Nombre_Sucursal;
             array[2] = localidad.DIRECCION;
+            array[3] = localidad.Empresa;
+            array[4] = localidad.ENCARGADO;
+            array[5] = localidad.Logotipo;
 
 
             return array;
-        } 
+        }
+
+
+        public Localidades localidades()
+        {
+            var localidad = db.Localidades.Where(p => p.impresora == "RAIZ").First();
+
+            return localidad;
+
+        }
         #endregion
     }
 }

@@ -226,4 +226,103 @@
   <data name="Previa.fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Previa.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BackSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnBolsas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnBolsas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnBolsasSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnBolsasSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cameraSamll_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cameraSamll.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancelSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancelSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cargarSmall_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cargarSmall.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Categorias" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Categorias.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comenzarSmall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comenzarSmall1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contratos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contratos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crystalSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crystalSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descargarSMall_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descargarSMall.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ediSamll_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ediSamll.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estatus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excelSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\excelSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FiletypeSmall_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FiletypeSmall.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folderSmall_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folderSmall.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoRemateContratos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoRemateContratos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noImage_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noImage.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plazo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plazo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png_transparent_gift_decorative_box_gift_box_miscellaneous_ribbon_gift" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-gift-decorative-box-gift-box-miscellaneous-ribbon-gift.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Previa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Previa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rematarSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rematarSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaveSmall_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SaveSmall.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sMALLgift_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sMALLgift.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_plus_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Small_plus.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="starSamll2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\starSamll2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="startSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\startSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateSmall_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UpdateSmall.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VerInventariSmall_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VerInventariSmall.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="verSmall_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\verSmall.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contratosSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contratosSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

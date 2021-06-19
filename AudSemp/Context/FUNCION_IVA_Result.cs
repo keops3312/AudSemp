@@ -24,5 +24,12 @@ namespace AudSemp.Context
         public Nullable<double> penalizacion_espera { get; set; }
         public Nullable<double> penalizacion_devolucion { get; set; }
         public Nullable<int> tolerancia { get; set; }
+        public Nullable<decimal> descxgoext { get; set; }
+        public Nullable<decimal> C1_7 { get; set; }
+        public Nullable<decimal> C8_14 { get; set; }
+        public Nullable<decimal> C15_21 { get; set; }
+        public Nullable<decimal> C22_28 { get; set; }
+        public Nullable<decimal> C29_35 { get; set; }
+        public Nullable<decimal> C36_mas { get; set; }
     }
 }

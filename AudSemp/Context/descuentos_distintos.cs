@@ -39,5 +39,6 @@ namespace AudSemp.Context
         public string autorizo { get; set; }
         public string caja { get; set; }
         public string status { get; set; }
+        public string leyendaPromocion { get; set; }
     }
 }

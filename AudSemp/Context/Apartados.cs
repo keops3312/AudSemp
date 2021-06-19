@@ -62,5 +62,15 @@ namespace AudSemp.Context
         public Nullable<decimal> apartado_norm { get; set; }
         public string nombre_plazo { get; set; }
         public string tipo_apartado { get; set; }
+        public Nullable<int> noRemate { get; set; }
+        public Nullable<decimal> precioRemate { get; set; }
+        public Nullable<decimal> descRemate { get; set; }
+        public string conceptPromocion { get; set; }
+        public Nullable<decimal> descPromocion { get; set; }
+        public string tipoDescPromocion { get; set; }
+        public Nullable<System.DateTime> vigenciaDePromocion { get; set; }
+        public Nullable<double> descuento2 { get; set; }
+        public string tipo_desc2 { get; set; }
+        public string conceptopromocion2 { get; set; }
     }
 }

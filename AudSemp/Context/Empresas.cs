@@ -44,5 +44,6 @@ namespace AudSemp.Context
         public string altapor { get; set; }
         public Nullable<System.DateTime> fechaalta { get; set; }
         public int consec { get; set; }
+        public string leyendaCuenta { get; set; }
     }
 }

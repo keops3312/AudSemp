@@ -50,5 +50,11 @@ namespace AudSemp.Context
         public Nullable<int> puntos_aumento { get; set; }
         public Nullable<int> puntos_interes { get; set; }
         public Nullable<int> puntos_venta { get; set; }
+        public string TipoNotificacion { get; set; }
+        public byte[] Huella { get; set; }
+        public Nullable<bool> llamada { get; set; }
+        public Nullable<bool> mensaje { get; set; }
+        public Nullable<int> clienteRelacionado { get; set; }
+        public string telAdicional { get; set; }
     }
 }

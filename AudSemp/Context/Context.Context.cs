@@ -27,12 +27,53 @@ namespace AudSemp.Context
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<ArtPromociones> ArtPromociones { get; set; }
+        public virtual DbSet<ArtPromocionesMovs> ArtPromocionesMovs { get; set; }
+        public virtual DbSet<artventas> artventas { get; set; }
+        public virtual DbSet<ArtventasAvances> ArtventasAvances { get; set; }
+        public virtual DbSet<ArtventasEstatusAvances> ArtventasEstatusAvances { get; set; }
+        public virtual DbSet<ArtventasTiempoAvances> ArtventasTiempoAvances { get; set; }
+        public virtual DbSet<bolsas_ORO> bolsas_ORO { get; set; }
+        public virtual DbSet<bolsas_OTROS> bolsas_OTROS { get; set; }
+        public virtual DbSet<ClientesPtsPromociones> ClientesPtsPromociones { get; set; }
+        public virtual DbSet<ConfigGlobalPromociones> ConfigGlobalPromociones { get; set; }
+        public virtual DbSet<ConfigNotaPagoPromociones> ConfigNotaPagoPromociones { get; set; }
+        public virtual DbSet<ConfigPrestamosPromociones> ConfigPrestamosPromociones { get; set; }
+        public virtual DbSet<ConfigRemisionPromociones> ConfigRemisionPromociones { get; set; }
+        public virtual DbSet<ContratoDesempeno> ContratoDesempeno { get; set; }
+        public virtual DbSet<ContratoDesempenoC> ContratoDesempenoC { get; set; }
+        public virtual DbSet<ContratoDesempenoCM> ContratoDesempenoCM { get; set; }
+        public virtual DbSet<ContratoDesempenoMensuals> ContratoDesempenoMensuals { get; set; }
+        public virtual DbSet<contratos> contratos { get; set; }
+        public virtual DbSet<CRM_SEMP> CRM_SEMP { get; set; }
+        public virtual DbSet<DepositosAvances> DepositosAvances { get; set; }
+        public virtual DbSet<DepositosAvancesMensual> DepositosAvancesMensual { get; set; }
+        public virtual DbSet<documentosCorte> documentosCorte { get; set; }
+        public virtual DbSet<efectivoCorte> efectivoCorte { get; set; }
+        public virtual DbSet<NotasDePagoes> NotasDePagoes { get; set; }
+        public virtual DbSet<NotasDePagoMensuals> NotasDePagoMensuals { get; set; }
+        public virtual DbSet<NotasDesempenoAvances> NotasDesempenoAvances { get; set; }
+        public virtual DbSet<NotasDesempenoAvancesMensual> NotasDesempenoAvancesMensual { get; set; }
+        public virtual DbSet<NotasRefrendoAvances> NotasRefrendoAvances { get; set; }
+        public virtual DbSet<NotasRefrendoAvancesMensual> NotasRefrendoAvancesMensual { get; set; }
+        public virtual DbSet<PrestamosAvances> PrestamosAvances { get; set; }
+        public virtual DbSet<PrestamosAvancesMensual> PrestamosAvancesMensual { get; set; }
+        public virtual DbSet<prueba> prueba { get; set; }
+        public virtual DbSet<remisiones> remisiones { get; set; }
+        public virtual DbSet<RemisionesAvances> RemisionesAvances { get; set; }
+        public virtual DbSet<RemisionesAvancesMensual> RemisionesAvancesMensual { get; set; }
+        public virtual DbSet<RetirosAvances> RetirosAvances { get; set; }
+        public virtual DbSet<RetirosAvancesMensual> RetirosAvancesMensual { get; set; }
+        public virtual DbSet<SaldoEnCajas> SaldoEnCajas { get; set; }
+        public virtual DbSet<SaldoEnVivoCajas> SaldoEnVivoCajas { get; set; }
+        public virtual DbSet<Siglas_inventario> Siglas_inventario { get; set; }
+        public virtual DbSet<StatusPromociones> StatusPromociones { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<abono> abono { get; set; }
         public virtual DbSet<almacenaje> almacenaje { get; set; }
         public virtual DbSet<anterior_abono> anterior_abono { get; set; }
         public virtual DbSet<Apartados> Apartados { get; set; }
         public virtual DbSet<Apartados_confg> Apartados_confg { get; set; }
-        public virtual DbSet<artventas> artventas { get; set; }
         public virtual DbSet<artventas101> artventas101 { get; set; }
         public virtual DbSet<artventas201> artventas201 { get; set; }
         public virtual DbSet<artventas501> artventas501 { get; set; }
@@ -42,27 +83,23 @@ namespace AudSemp.Context
         public virtual DbSet<auditoria_resumen> auditoria_resumen { get; set; }
         public virtual DbSet<autorizaciones_prestamos> autorizaciones_prestamos { get; set; }
         public virtual DbSet<auxiliar_puesto> auxiliar_puesto { get; set; }
-        public virtual DbSet<bolsas_ORO> bolsas_ORO { get; set; }
-        public virtual DbSet<bolsas_OTROS> bolsas_OTROS { get; set; }
         public virtual DbSet<borrorem> borrorem { get; set; }
         public virtual DbSet<CAJA_AUXILIAR> CAJA_AUXILIAR { get; set; }
-        public virtual DbSet<caja1> caja1 { get; set; }
         public virtual DbSet<calificacion_aud> calificacion_aud { get; set; }
         public virtual DbSet<clasificacion_cl> clasificacion_cl { get; set; }
         public virtual DbSet<clientes> clientes { get; set; }
         public virtual DbSet<CLON_APARTADOS> CLON_APARTADOS { get; set; }
-        public virtual DbSet<CLON_B> CLON_B { get; set; }
         public virtual DbSet<CLON_contratos> CLON_contratos { get; set; }
         public virtual DbSet<CLONA> CLONA { get; set; }
         public virtual DbSet<CLONARTVENTAS> CLONARTVENTAS { get; set; }
         public virtual DbSet<CLONB> CLONB { get; set; }
+        public virtual DbSet<clontabla> clontabla { get; set; }
         public virtual DbSet<comprobaciones> comprobaciones { get; set; }
         public virtual DbSet<comprobaciones_gastos> comprobaciones_gastos { get; set; }
         public virtual DbSet<Config_valores_plazos> Config_valores_plazos { get; set; }
         public virtual DbSet<contabilidad> contabilidad { get; set; }
         public virtual DbSet<contrato_conta> contrato_conta { get; set; }
         public virtual DbSet<Contrato_temporal> Contrato_temporal { get; set; }
-        public virtual DbSet<contratos> contratos { get; set; }
         public virtual DbSet<CORREO> CORREO { get; set; }
         public virtual DbSet<costo_reimpresion> costo_reimpresion { get; set; }
         public virtual DbSet<depositos> depositos { get; set; }
@@ -85,15 +122,23 @@ namespace AudSemp.Context
         public virtual DbSet<fechasAU> fechasAU { get; set; }
         public virtual DbSet<gastos> gastos { get; set; }
         public virtual DbSet<GradoEstudios> GradoEstudios { get; set; }
+        public virtual DbSet<HistorialinventarioPromocion> HistorialinventarioPromocion { get; set; }
         public virtual DbSet<INFS> INFS { get; set; }
         public virtual DbSet<interes> interes { get; set; }
         public virtual DbSet<interes_conta> interes_conta { get; set; }
         public virtual DbSet<inventariopromocion> inventariopromocion { get; set; }
         public virtual DbSet<Localidades> Localidades { get; set; }
         public virtual DbSet<marcas_localidad> marcas_localidad { get; set; }
+        public virtual DbSet<MIX11> MIX11 { get; set; }
+        public virtual DbSet<MIX12> MIX12 { get; set; }
         public virtual DbSet<Niveles_acceso> Niveles_acceso { get; set; }
         public virtual DbSet<Noticias_SEMP2013> Noticias_SEMP2013 { get; set; }
+        public virtual DbSet<NotificacionesTelefonicas> NotificacionesTelefonicas { get; set; }
+        public virtual DbSet<Nuevacaja> Nuevacaja { get; set; }
+        public virtual DbSet<OpcionesVerificacion> OpcionesVerificacion { get; set; }
         public virtual DbSet<paises> paises { get; set; }
+        public virtual DbSet<Pension> Pension { get; set; }
+        public virtual DbSet<Plazos_prestamos> Plazos_prestamos { get; set; }
         public virtual DbSet<prestamos_poliza> prestamos_poliza { get; set; }
         public virtual DbSet<prom_aplica> prom_aplica { get; set; }
         public virtual DbSet<prom_aumento> prom_aumento { get; set; }
@@ -106,12 +151,14 @@ namespace AudSemp.Context
         public virtual DbSet<PRVyusuarios> PRVyusuarios { get; set; }
         public virtual DbSet<Puestos> Puestos { get; set; }
         public virtual DbSet<puntos_confg> puntos_confg { get; set; }
+        public virtual DbSet<PuntosClientes> PuntosClientes { get; set; }
         public virtual DbSet<refrendo> refrendo { get; set; }
+        public virtual DbSet<RegistroHuellas> RegistroHuellas { get; set; }
         public virtual DbSet<Reimpresiones> Reimpresiones { get; set; }
         public virtual DbSet<remate_inventarios> remate_inventarios { get; set; }
-        public virtual DbSet<remisiones> remisiones { get; set; }
         public virtual DbSet<Respaldos> Respaldos { get; set; }
         public virtual DbSet<Retiros> Retiros { get; set; }
+        public virtual DbSet<Saldos> Saldos { get; set; }
         public virtual DbSet<seguro> seguro { get; set; }
         public virtual DbSet<selcaja> selcaja { get; set; }
         public virtual DbSet<sexos> sexos { get; set; }
@@ -121,8 +168,6 @@ namespace AudSemp.Context
         public virtual DbSet<TEMP_AVALUO> TEMP_AVALUO { get; set; }
         public virtual DbSet<TEMP_AVALUO2> TEMP_AVALUO2 { get; set; }
         public virtual DbSet<tipos_localidad> tipos_localidad { get; set; }
-        public virtual DbSet<TLX21> TLX21 { get; set; }
-        public virtual DbSet<TLX22> TLX22 { get; set; }
         public virtual DbSet<TPavaluos> TPavaluos { get; set; }
         public virtual DbSet<transferencias> transferencias { get; set; }
         public virtual DbSet<TRFENTRADA> TRFENTRADA { get; set; }
@@ -155,19 +200,6 @@ namespace AudSemp.Context
                 new ObjectParameter("clienteID", typeof(string));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<clientes_funcion_Result>("clientes_funcion", clienteIDParameter);
-        }
-    
-        public virtual ObjectResult<ConsultaContratosAuditoria_Result> ConsultaContratosAuditoria(Nullable<int> inputParam, string contrato, ObjectParameter mSG)
-        {
-            var inputParamParameter = inputParam.HasValue ?
-                new ObjectParameter("inputParam", inputParam) :
-                new ObjectParameter("inputParam", typeof(int));
-    
-            var contratoParameter = contrato != null ?
-                new ObjectParameter("contrato", contrato) :
-                new ObjectParameter("contrato", typeof(string));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<ConsultaContratosAuditoria_Result>("ConsultaContratosAuditoria", inputParamParameter, contratoParameter, mSG);
         }
     
         public virtual ObjectResult<facturas_funcion_Result> facturas_funcion(string nota_de_pago)
@@ -279,6 +311,27 @@ namespace AudSemp.Context
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<remision_impresion_Result>("remision_impresion", numremisionParameter);
         }
     
+        public virtual int sp_alterdiagram(string diagramname, Nullable<int> owner_id, Nullable<int> version, byte[] definition)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            var versionParameter = version.HasValue ?
+                new ObjectParameter("version", version) :
+                new ObjectParameter("version", typeof(int));
+    
+            var definitionParameter = definition != null ?
+                new ObjectParameter("definition", definition) :
+                new ObjectParameter("definition", typeof(byte[]));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_alterdiagram", diagramnameParameter, owner_idParameter, versionParameter, definitionParameter);
+        }
+    
         public virtual ObjectResult<string> SP_BuscarClientesNombre(Nullable<int> opcion, string buscar, ObjectParameter msg)
         {
             var opcionParameter = opcion.HasValue ?
@@ -292,20 +345,7 @@ namespace AudSemp.Context
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("SP_BuscarClientesNombre", opcionParameter, buscarParameter, msg);
         }
     
-        public virtual ObjectResult<SP_BuscarUsuario_Result> SP_BuscarUsuario(string uSUARIO, string cONTRASEÑA, ObjectParameter mSG)
-        {
-            var uSUARIOParameter = uSUARIO != null ?
-                new ObjectParameter("USUARIO", uSUARIO) :
-                new ObjectParameter("USUARIO", typeof(string));
-    
-            var cONTRASEÑAParameter = cONTRASEÑA != null ?
-                new ObjectParameter("CONTRASEÑA", cONTRASEÑA) :
-                new ObjectParameter("CONTRASEÑA", typeof(string));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_BuscarUsuario_Result>("SP_BuscarUsuario", uSUARIOParameter, cONTRASEÑAParameter, mSG);
-        }
-    
-        public virtual ObjectResult<string> SP_CancelOperacionesCaja(Nullable<int> opcion, Nullable<int> contrato, string comentario, string cajaN, string caja, string usuario, string notaPago, string rEMISION, string cLIENTE, string folioA, Nullable<int> autos, ObjectParameter msg)
+        public virtual ObjectResult<string> SP_CancelOperacionesCaja(Nullable<int> opcion, Nullable<int> contrato, string comentario, string cajaN, string caja, string usuario, string notaPago, string rEMISION, string cLIENTE, string folioA, Nullable<int> autos, string fecha, ObjectParameter msg)
         {
             var opcionParameter = opcion.HasValue ?
                 new ObjectParameter("opcion", opcion) :
@@ -351,10 +391,14 @@ namespace AudSemp.Context
                 new ObjectParameter("Autos", autos) :
                 new ObjectParameter("Autos", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("SP_CancelOperacionesCaja", opcionParameter, contratoParameter, comentarioParameter, cajaNParameter, cajaParameter, usuarioParameter, notaPagoParameter, rEMISIONParameter, cLIENTEParameter, folioAParameter, autosParameter, msg);
+            var fechaParameter = fecha != null ?
+                new ObjectParameter("fecha", fecha) :
+                new ObjectParameter("fecha", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("SP_CancelOperacionesCaja", opcionParameter, contratoParameter, comentarioParameter, cajaNParameter, cajaParameter, usuarioParameter, notaPagoParameter, rEMISIONParameter, cLIENTEParameter, folioAParameter, autosParameter, fechaParameter, msg);
         }
     
-        public virtual ObjectResult<SP_CobroDeApartados_Result> SP_CobroDeApartados(Nullable<int> opcion, string inventario, string folio_apartado, string nombre_plazo, string cajaN, string caja, string fecha, string hora, string concepto, string folio, Nullable<decimal> debe, Nullable<decimal> haber, Nullable<decimal> saldo, string usuario, string cliente, string tIPO_MOV, string tIPO_OPERACION, string fueMinimo, Nullable<decimal> apartado_no, Nullable<decimal> abono, Nullable<decimal> abono_acumulado, Nullable<decimal> abonoCantidad, string iDCLIENTE, Nullable<decimal> penalizacion_por, Nullable<decimal> cancelacion_por, Nullable<int> dias_minimo, Nullable<int> dias_normal, Nullable<int> dias_tolerancia, Nullable<decimal> apartado_min, Nullable<decimal> apartado_norm, Nullable<decimal> apartado_con, string folio_NOCONVERTIDO, string tipo_apartado, string label11, Nullable<decimal> label12, ObjectParameter msg)
+        public virtual ObjectResult<SP_CobroDeApartados_Result> SP_CobroDeApartados(Nullable<int> opcion, string inventario, string folio_apartado, string nombre_plazo, string cajaN, string caja, string fecha, string hora, string concepto, string folio, Nullable<decimal> debe, Nullable<decimal> haber, Nullable<decimal> saldo, string usuario, string cliente, string tIPO_MOV, string tIPO_OPERACION, string fueMinimo, Nullable<decimal> apartado_no, Nullable<decimal> abono, Nullable<decimal> abono_acumulado, Nullable<decimal> abonoCantidad, string iDCLIENTE, Nullable<decimal> penalizacion_por, Nullable<decimal> cancelacion_por, Nullable<int> dias_minimo, Nullable<int> dias_normal, Nullable<int> dias_tolerancia, Nullable<decimal> apartado_min, Nullable<decimal> apartado_norm, Nullable<decimal> apartado_con, string folio_NOCONVERTIDO, string tipo_apartado, string label11, Nullable<decimal> label12, string p_bolsa, string p_noinv, string p_noserie, string p_descripcion, string p_detalles, string p_preciosugerido, string p_precioventa, string p_kilates, string p_peso_real, string p_condiciones, string p_tipo, string p_status, string p_apartado_con, string p_apartado_cantidad, string p_aparto, string p_idcliente, string p_resta_por_pagar, string p_fecha_de_apartado, string p_usuario, string p_realizado_en, string p_folio_apartado, string p_promocion, string p_vigencia, string p_precio_origen, string p_descuento, string p_tipo_desc, string p_precio_remate, string p_dias_minimo, string p_dias_normal, string p_dias_tolerancia, string p_apartado_min, string p_apartado_norm, string p_nombre_plazo, string p_tipo_apartado, string p_noRemate, string p_precioRemate, string p_descRemate, string p_conceptPromocion, string p_descPromocion, string p_tipoDescPromocion, string p_vigenciaDePromocion, string p_descuento2, string p_tipo_desc2, string p_conceptopromocion2, string p_penalizacion_por, string p_cancelacion_por, string p_ajuste, string p_nota_liquido, string p_folio_Venta, ObjectParameter msg)
         {
             var opcionParameter = opcion.HasValue ?
                 new ObjectParameter("opcion", opcion) :
@@ -496,10 +540,206 @@ namespace AudSemp.Context
                 new ObjectParameter("label12", label12) :
                 new ObjectParameter("label12", typeof(decimal));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_CobroDeApartados_Result>("SP_CobroDeApartados", opcionParameter, inventarioParameter, folio_apartadoParameter, nombre_plazoParameter, cajaNParameter, cajaParameter, fechaParameter, horaParameter, conceptoParameter, folioParameter, debeParameter, haberParameter, saldoParameter, usuarioParameter, clienteParameter, tIPO_MOVParameter, tIPO_OPERACIONParameter, fueMinimoParameter, apartado_noParameter, abonoParameter, abono_acumuladoParameter, abonoCantidadParameter, iDCLIENTEParameter, penalizacion_porParameter, cancelacion_porParameter, dias_minimoParameter, dias_normalParameter, dias_toleranciaParameter, apartado_minParameter, apartado_normParameter, apartado_conParameter, folio_NOCONVERTIDOParameter, tipo_apartadoParameter, label11Parameter, label12Parameter, msg);
+            var p_bolsaParameter = p_bolsa != null ?
+                new ObjectParameter("p_bolsa", p_bolsa) :
+                new ObjectParameter("p_bolsa", typeof(string));
+    
+            var p_noinvParameter = p_noinv != null ?
+                new ObjectParameter("p_noinv", p_noinv) :
+                new ObjectParameter("p_noinv", typeof(string));
+    
+            var p_noserieParameter = p_noserie != null ?
+                new ObjectParameter("p_noserie", p_noserie) :
+                new ObjectParameter("p_noserie", typeof(string));
+    
+            var p_descripcionParameter = p_descripcion != null ?
+                new ObjectParameter("p_descripcion", p_descripcion) :
+                new ObjectParameter("p_descripcion", typeof(string));
+    
+            var p_detallesParameter = p_detalles != null ?
+                new ObjectParameter("p_detalles", p_detalles) :
+                new ObjectParameter("p_detalles", typeof(string));
+    
+            var p_preciosugeridoParameter = p_preciosugerido != null ?
+                new ObjectParameter("p_preciosugerido", p_preciosugerido) :
+                new ObjectParameter("p_preciosugerido", typeof(string));
+    
+            var p_precioventaParameter = p_precioventa != null ?
+                new ObjectParameter("p_precioventa", p_precioventa) :
+                new ObjectParameter("p_precioventa", typeof(string));
+    
+            var p_kilatesParameter = p_kilates != null ?
+                new ObjectParameter("p_kilates", p_kilates) :
+                new ObjectParameter("p_kilates", typeof(string));
+    
+            var p_peso_realParameter = p_peso_real != null ?
+                new ObjectParameter("p_peso_real", p_peso_real) :
+                new ObjectParameter("p_peso_real", typeof(string));
+    
+            var p_condicionesParameter = p_condiciones != null ?
+                new ObjectParameter("p_condiciones", p_condiciones) :
+                new ObjectParameter("p_condiciones", typeof(string));
+    
+            var p_tipoParameter = p_tipo != null ?
+                new ObjectParameter("p_tipo", p_tipo) :
+                new ObjectParameter("p_tipo", typeof(string));
+    
+            var p_statusParameter = p_status != null ?
+                new ObjectParameter("p_status", p_status) :
+                new ObjectParameter("p_status", typeof(string));
+    
+            var p_apartado_conParameter = p_apartado_con != null ?
+                new ObjectParameter("p_apartado_con", p_apartado_con) :
+                new ObjectParameter("p_apartado_con", typeof(string));
+    
+            var p_apartado_cantidadParameter = p_apartado_cantidad != null ?
+                new ObjectParameter("p_apartado_cantidad", p_apartado_cantidad) :
+                new ObjectParameter("p_apartado_cantidad", typeof(string));
+    
+            var p_apartoParameter = p_aparto != null ?
+                new ObjectParameter("p_aparto", p_aparto) :
+                new ObjectParameter("p_aparto", typeof(string));
+    
+            var p_idclienteParameter = p_idcliente != null ?
+                new ObjectParameter("p_idcliente", p_idcliente) :
+                new ObjectParameter("p_idcliente", typeof(string));
+    
+            var p_resta_por_pagarParameter = p_resta_por_pagar != null ?
+                new ObjectParameter("p_resta_por_pagar", p_resta_por_pagar) :
+                new ObjectParameter("p_resta_por_pagar", typeof(string));
+    
+            var p_fecha_de_apartadoParameter = p_fecha_de_apartado != null ?
+                new ObjectParameter("p_fecha_de_apartado", p_fecha_de_apartado) :
+                new ObjectParameter("p_fecha_de_apartado", typeof(string));
+    
+            var p_usuarioParameter = p_usuario != null ?
+                new ObjectParameter("p_usuario", p_usuario) :
+                new ObjectParameter("p_usuario", typeof(string));
+    
+            var p_realizado_enParameter = p_realizado_en != null ?
+                new ObjectParameter("p_realizado_en", p_realizado_en) :
+                new ObjectParameter("p_realizado_en", typeof(string));
+    
+            var p_folio_apartadoParameter = p_folio_apartado != null ?
+                new ObjectParameter("p_folio_apartado", p_folio_apartado) :
+                new ObjectParameter("p_folio_apartado", typeof(string));
+    
+            var p_promocionParameter = p_promocion != null ?
+                new ObjectParameter("p_promocion", p_promocion) :
+                new ObjectParameter("p_promocion", typeof(string));
+    
+            var p_vigenciaParameter = p_vigencia != null ?
+                new ObjectParameter("p_vigencia", p_vigencia) :
+                new ObjectParameter("p_vigencia", typeof(string));
+    
+            var p_precio_origenParameter = p_precio_origen != null ?
+                new ObjectParameter("p_precio_origen", p_precio_origen) :
+                new ObjectParameter("p_precio_origen", typeof(string));
+    
+            var p_descuentoParameter = p_descuento != null ?
+                new ObjectParameter("p_descuento", p_descuento) :
+                new ObjectParameter("p_descuento", typeof(string));
+    
+            var p_tipo_descParameter = p_tipo_desc != null ?
+                new ObjectParameter("p_tipo_desc", p_tipo_desc) :
+                new ObjectParameter("p_tipo_desc", typeof(string));
+    
+            var p_precio_remateParameter = p_precio_remate != null ?
+                new ObjectParameter("p_precio_remate", p_precio_remate) :
+                new ObjectParameter("p_precio_remate", typeof(string));
+    
+            var p_dias_minimoParameter = p_dias_minimo != null ?
+                new ObjectParameter("p_dias_minimo", p_dias_minimo) :
+                new ObjectParameter("p_dias_minimo", typeof(string));
+    
+            var p_dias_normalParameter = p_dias_normal != null ?
+                new ObjectParameter("p_dias_normal", p_dias_normal) :
+                new ObjectParameter("p_dias_normal", typeof(string));
+    
+            var p_dias_toleranciaParameter = p_dias_tolerancia != null ?
+                new ObjectParameter("p_dias_tolerancia", p_dias_tolerancia) :
+                new ObjectParameter("p_dias_tolerancia", typeof(string));
+    
+            var p_apartado_minParameter = p_apartado_min != null ?
+                new ObjectParameter("p_apartado_min", p_apartado_min) :
+                new ObjectParameter("p_apartado_min", typeof(string));
+    
+            var p_apartado_normParameter = p_apartado_norm != null ?
+                new ObjectParameter("p_apartado_norm", p_apartado_norm) :
+                new ObjectParameter("p_apartado_norm", typeof(string));
+    
+            var p_nombre_plazoParameter = p_nombre_plazo != null ?
+                new ObjectParameter("p_nombre_plazo", p_nombre_plazo) :
+                new ObjectParameter("p_nombre_plazo", typeof(string));
+    
+            var p_tipo_apartadoParameter = p_tipo_apartado != null ?
+                new ObjectParameter("p_tipo_apartado", p_tipo_apartado) :
+                new ObjectParameter("p_tipo_apartado", typeof(string));
+    
+            var p_noRemateParameter = p_noRemate != null ?
+                new ObjectParameter("p_noRemate", p_noRemate) :
+                new ObjectParameter("p_noRemate", typeof(string));
+    
+            var p_precioRemateParameter = p_precioRemate != null ?
+                new ObjectParameter("p_precioRemate", p_precioRemate) :
+                new ObjectParameter("p_precioRemate", typeof(string));
+    
+            var p_descRemateParameter = p_descRemate != null ?
+                new ObjectParameter("p_descRemate", p_descRemate) :
+                new ObjectParameter("p_descRemate", typeof(string));
+    
+            var p_conceptPromocionParameter = p_conceptPromocion != null ?
+                new ObjectParameter("p_conceptPromocion", p_conceptPromocion) :
+                new ObjectParameter("p_conceptPromocion", typeof(string));
+    
+            var p_descPromocionParameter = p_descPromocion != null ?
+                new ObjectParameter("p_descPromocion", p_descPromocion) :
+                new ObjectParameter("p_descPromocion", typeof(string));
+    
+            var p_tipoDescPromocionParameter = p_tipoDescPromocion != null ?
+                new ObjectParameter("p_tipoDescPromocion", p_tipoDescPromocion) :
+                new ObjectParameter("p_tipoDescPromocion", typeof(string));
+    
+            var p_vigenciaDePromocionParameter = p_vigenciaDePromocion != null ?
+                new ObjectParameter("p_vigenciaDePromocion", p_vigenciaDePromocion) :
+                new ObjectParameter("p_vigenciaDePromocion", typeof(string));
+    
+            var p_descuento2Parameter = p_descuento2 != null ?
+                new ObjectParameter("p_descuento2", p_descuento2) :
+                new ObjectParameter("p_descuento2", typeof(string));
+    
+            var p_tipo_desc2Parameter = p_tipo_desc2 != null ?
+                new ObjectParameter("p_tipo_desc2", p_tipo_desc2) :
+                new ObjectParameter("p_tipo_desc2", typeof(string));
+    
+            var p_conceptopromocion2Parameter = p_conceptopromocion2 != null ?
+                new ObjectParameter("p_conceptopromocion2", p_conceptopromocion2) :
+                new ObjectParameter("p_conceptopromocion2", typeof(string));
+    
+            var p_penalizacion_porParameter = p_penalizacion_por != null ?
+                new ObjectParameter("p_penalizacion_por", p_penalizacion_por) :
+                new ObjectParameter("p_penalizacion_por", typeof(string));
+    
+            var p_cancelacion_porParameter = p_cancelacion_por != null ?
+                new ObjectParameter("p_cancelacion_por", p_cancelacion_por) :
+                new ObjectParameter("p_cancelacion_por", typeof(string));
+    
+            var p_ajusteParameter = p_ajuste != null ?
+                new ObjectParameter("p_ajuste", p_ajuste) :
+                new ObjectParameter("p_ajuste", typeof(string));
+    
+            var p_nota_liquidoParameter = p_nota_liquido != null ?
+                new ObjectParameter("p_nota_liquido", p_nota_liquido) :
+                new ObjectParameter("p_nota_liquido", typeof(string));
+    
+            var p_folio_VentaParameter = p_folio_Venta != null ?
+                new ObjectParameter("p_folio_Venta", p_folio_Venta) :
+                new ObjectParameter("p_folio_Venta", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_CobroDeApartados_Result>("SP_CobroDeApartados", opcionParameter, inventarioParameter, folio_apartadoParameter, nombre_plazoParameter, cajaNParameter, cajaParameter, fechaParameter, horaParameter, conceptoParameter, folioParameter, debeParameter, haberParameter, saldoParameter, usuarioParameter, clienteParameter, tIPO_MOVParameter, tIPO_OPERACIONParameter, fueMinimoParameter, apartado_noParameter, abonoParameter, abono_acumuladoParameter, abonoCantidadParameter, iDCLIENTEParameter, penalizacion_porParameter, cancelacion_porParameter, dias_minimoParameter, dias_normalParameter, dias_toleranciaParameter, apartado_minParameter, apartado_normParameter, apartado_conParameter, folio_NOCONVERTIDOParameter, tipo_apartadoParameter, label11Parameter, label12Parameter, p_bolsaParameter, p_noinvParameter, p_noserieParameter, p_descripcionParameter, p_detallesParameter, p_preciosugeridoParameter, p_precioventaParameter, p_kilatesParameter, p_peso_realParameter, p_condicionesParameter, p_tipoParameter, p_statusParameter, p_apartado_conParameter, p_apartado_cantidadParameter, p_apartoParameter, p_idclienteParameter, p_resta_por_pagarParameter, p_fecha_de_apartadoParameter, p_usuarioParameter, p_realizado_enParameter, p_folio_apartadoParameter, p_promocionParameter, p_vigenciaParameter, p_precio_origenParameter, p_descuentoParameter, p_tipo_descParameter, p_precio_remateParameter, p_dias_minimoParameter, p_dias_normalParameter, p_dias_toleranciaParameter, p_apartado_minParameter, p_apartado_normParameter, p_nombre_plazoParameter, p_tipo_apartadoParameter, p_noRemateParameter, p_precioRemateParameter, p_descRemateParameter, p_conceptPromocionParameter, p_descPromocionParameter, p_tipoDescPromocionParameter, p_vigenciaDePromocionParameter, p_descuento2Parameter, p_tipo_desc2Parameter, p_conceptopromocion2Parameter, p_penalizacion_porParameter, p_cancelacion_porParameter, p_ajusteParameter, p_nota_liquidoParameter, p_folio_VentaParameter, msg);
         }
     
-        public virtual ObjectResult<SP_CobroDeDepositos_Result> SP_CobroDeDepositos(Nullable<int> opcion, string caja, Nullable<decimal> deposito, string cajaN, string concepto, string folio, string usuario, string comentario, string tipoDeposito, ObjectParameter msg)
+        public virtual ObjectResult<SP_CobroDeDepositos_Result> SP_CobroDeDepositos(Nullable<int> opcion, string caja, Nullable<decimal> deposito, string cajaN, string concepto, string folio, string usuario, string comentario, string tipoDeposito, string fecha, ObjectParameter msg)
         {
             var opcionParameter = opcion.HasValue ?
                 new ObjectParameter("opcion", opcion) :
@@ -537,10 +777,14 @@ namespace AudSemp.Context
                 new ObjectParameter("tipoDeposito", tipoDeposito) :
                 new ObjectParameter("tipoDeposito", typeof(string));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_CobroDeDepositos_Result>("SP_CobroDeDepositos", opcionParameter, cajaParameter, depositoParameter, cajaNParameter, conceptoParameter, folioParameter, usuarioParameter, comentarioParameter, tipoDepositoParameter, msg);
+            var fechaParameter = fecha != null ?
+                new ObjectParameter("fecha", fecha) :
+                new ObjectParameter("fecha", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_CobroDeDepositos_Result>("SP_CobroDeDepositos", opcionParameter, cajaParameter, depositoParameter, cajaNParameter, conceptoParameter, folioParameter, usuarioParameter, comentarioParameter, tipoDepositoParameter, fechaParameter, msg);
         }
     
-        public virtual ObjectResult<SP_CobroDeReimpresiones_Result> SP_CobroDeReimpresiones(string cajaN, string caja, string folio, string contrato, Nullable<decimal> costo, string comentario, string usuario, string reimpresion, string reimpreso, string cliente, string id, string mISMO, string tIPO, ObjectParameter msg)
+        public virtual ObjectResult<SP_CobroDeReimpresiones_Result> SP_CobroDeReimpresiones(string cajaN, string caja, string folio, string contrato, Nullable<decimal> costo, string comentario, string usuario, string reimpresion, string reimpreso, string cliente, string id, string mISMO, string tIPO, string fecha, ObjectParameter msg)
         {
             var cajaNParameter = cajaN != null ?
                 new ObjectParameter("cajaN", cajaN) :
@@ -594,10 +838,14 @@ namespace AudSemp.Context
                 new ObjectParameter("TIPO", tIPO) :
                 new ObjectParameter("TIPO", typeof(string));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_CobroDeReimpresiones_Result>("SP_CobroDeReimpresiones", cajaNParameter, cajaParameter, folioParameter, contratoParameter, costoParameter, comentarioParameter, usuarioParameter, reimpresionParameter, reimpresoParameter, clienteParameter, idParameter, mISMOParameter, tIPOParameter, msg);
+            var fechaParameter = fecha != null ?
+                new ObjectParameter("fecha", fecha) :
+                new ObjectParameter("fecha", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_CobroDeReimpresiones_Result>("SP_CobroDeReimpresiones", cajaNParameter, cajaParameter, folioParameter, contratoParameter, costoParameter, comentarioParameter, usuarioParameter, reimpresionParameter, reimpresoParameter, clienteParameter, idParameter, mISMOParameter, tIPOParameter, fechaParameter, msg);
         }
     
-        public virtual ObjectResult<string> SP_CobroDeRemisiones(string caja, Nullable<int> opcion, Nullable<int> contrato, string buscar, string cajan, string fecha, string hora, string concepto, string folio, string debe, string haber, string saldo, string usuario, string noinv, string folioApartado, string no, string estado, string abono, string abonoAcumulado, string cliente, string suc, string vendio, string inventario, string remision, string precioVenta, string precioOrigen, string apartado_numero, string tipo, string otrosFolio, string descuento, string tipo_desc, string noserie, string descripcion, string kilates, string peso_real, string rematado, string rematadoEJ, string condiciones, string importe, string rematado_por, string transferido, string clave, string precioPromo, ObjectParameter msg)
+        public virtual ObjectResult<string> SP_CobroDeRemisiones(string caja, Nullable<int> opcion, Nullable<int> contrato, string buscar, string cajan, string fecha, string hora, string concepto, string folio, string debe, string haber, string saldo, string usuario, string noinv, string folioApartado, string no, string estado, string abono, string abonoAcumulado, string cliente, string suc, string vendio, string inventario, string remision, string precioVenta, string precioOrigen, string apartado_numero, string tipo, string otrosFolio, string descuento, string tipo_desc, string noserie, string descripcion, string kilates, string peso_real, string rematado, string rematadoEJ, string condiciones, string importe, string rematado_por, string transferido, string clave, string precioPromo, string tipo_prenda, string idCliente, string noRemate, string precioRemate, string descRemate, string conceptPromocion, string descPromocion, string tipoDescPromocion, ObjectParameter msg)
         {
             var cajaParameter = caja != null ?
                 new ObjectParameter("caja", caja) :
@@ -771,10 +1019,42 @@ namespace AudSemp.Context
                 new ObjectParameter("precioPromo", precioPromo) :
                 new ObjectParameter("precioPromo", typeof(string));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("SP_CobroDeRemisiones", cajaParameter, opcionParameter, contratoParameter, buscarParameter, cajanParameter, fechaParameter, horaParameter, conceptoParameter, folioParameter, debeParameter, haberParameter, saldoParameter, usuarioParameter, noinvParameter, folioApartadoParameter, noParameter, estadoParameter, abonoParameter, abonoAcumuladoParameter, clienteParameter, sucParameter, vendioParameter, inventarioParameter, remisionParameter, precioVentaParameter, precioOrigenParameter, apartado_numeroParameter, tipoParameter, otrosFolioParameter, descuentoParameter, tipo_descParameter, noserieParameter, descripcionParameter, kilatesParameter, peso_realParameter, rematadoParameter, rematadoEJParameter, condicionesParameter, importeParameter, rematado_porParameter, transferidoParameter, claveParameter, precioPromoParameter, msg);
+            var tipo_prendaParameter = tipo_prenda != null ?
+                new ObjectParameter("tipo_prenda", tipo_prenda) :
+                new ObjectParameter("tipo_prenda", typeof(string));
+    
+            var idClienteParameter = idCliente != null ?
+                new ObjectParameter("idCliente", idCliente) :
+                new ObjectParameter("idCliente", typeof(string));
+    
+            var noRemateParameter = noRemate != null ?
+                new ObjectParameter("noRemate", noRemate) :
+                new ObjectParameter("noRemate", typeof(string));
+    
+            var precioRemateParameter = precioRemate != null ?
+                new ObjectParameter("precioRemate", precioRemate) :
+                new ObjectParameter("precioRemate", typeof(string));
+    
+            var descRemateParameter = descRemate != null ?
+                new ObjectParameter("descRemate", descRemate) :
+                new ObjectParameter("descRemate", typeof(string));
+    
+            var conceptPromocionParameter = conceptPromocion != null ?
+                new ObjectParameter("conceptPromocion", conceptPromocion) :
+                new ObjectParameter("conceptPromocion", typeof(string));
+    
+            var descPromocionParameter = descPromocion != null ?
+                new ObjectParameter("descPromocion", descPromocion) :
+                new ObjectParameter("descPromocion", typeof(string));
+    
+            var tipoDescPromocionParameter = tipoDescPromocion != null ?
+                new ObjectParameter("tipoDescPromocion", tipoDescPromocion) :
+                new ObjectParameter("tipoDescPromocion", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("SP_CobroDeRemisiones", cajaParameter, opcionParameter, contratoParameter, buscarParameter, cajanParameter, fechaParameter, horaParameter, conceptoParameter, folioParameter, debeParameter, haberParameter, saldoParameter, usuarioParameter, noinvParameter, folioApartadoParameter, noParameter, estadoParameter, abonoParameter, abonoAcumuladoParameter, clienteParameter, sucParameter, vendioParameter, inventarioParameter, remisionParameter, precioVentaParameter, precioOrigenParameter, apartado_numeroParameter, tipoParameter, otrosFolioParameter, descuentoParameter, tipo_descParameter, noserieParameter, descripcionParameter, kilatesParameter, peso_realParameter, rematadoParameter, rematadoEJParameter, condicionesParameter, importeParameter, rematado_porParameter, transferidoParameter, claveParameter, precioPromoParameter, tipo_prendaParameter, idClienteParameter, noRemateParameter, precioRemateParameter, descRemateParameter, conceptPromocionParameter, descPromocionParameter, tipoDescPromocionParameter, msg);
         }
     
-        public virtual ObjectResult<SP_CobroDeRetiros_Result> SP_CobroDeRetiros(Nullable<int> opcion, string caja, Nullable<decimal> retiro, string cajaN, string concepto, string folio, string usuario, string comentario, string tipoRetiro, string noOperador, string perteneceA, string autorizo, ObjectParameter msg)
+        public virtual ObjectResult<SP_CobroDeRetiros_Result> SP_CobroDeRetiros(Nullable<int> opcion, string caja, Nullable<decimal> retiro, string cajaN, string concepto, string folio, string usuario, string comentario, string tipoRetiro, string noOperador, string perteneceA, string autorizo, string fecha, ObjectParameter msg)
         {
             var opcionParameter = opcion.HasValue ?
                 new ObjectParameter("opcion", opcion) :
@@ -824,7 +1104,71 @@ namespace AudSemp.Context
                 new ObjectParameter("autorizo", autorizo) :
                 new ObjectParameter("autorizo", typeof(string));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_CobroDeRetiros_Result>("SP_CobroDeRetiros", opcionParameter, cajaParameter, retiroParameter, cajaNParameter, conceptoParameter, folioParameter, usuarioParameter, comentarioParameter, tipoRetiroParameter, noOperadorParameter, perteneceAParameter, autorizoParameter, msg);
+            var fechaParameter = fecha != null ?
+                new ObjectParameter("fecha", fecha) :
+                new ObjectParameter("fecha", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_CobroDeRetiros_Result>("SP_CobroDeRetiros", opcionParameter, cajaParameter, retiroParameter, cajaNParameter, conceptoParameter, folioParameter, usuarioParameter, comentarioParameter, tipoRetiroParameter, noOperadorParameter, perteneceAParameter, autorizoParameter, fechaParameter, msg);
+        }
+    
+        public virtual int sp_creatediagram(string diagramname, Nullable<int> owner_id, Nullable<int> version, byte[] definition)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            var versionParameter = version.HasValue ?
+                new ObjectParameter("version", version) :
+                new ObjectParameter("version", typeof(int));
+    
+            var definitionParameter = definition != null ?
+                new ObjectParameter("definition", definition) :
+                new ObjectParameter("definition", typeof(byte[]));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_creatediagram", diagramnameParameter, owner_idParameter, versionParameter, definitionParameter);
+        }
+    
+        public virtual int sp_dropdiagram(string diagramname, Nullable<int> owner_id)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_dropdiagram", diagramnameParameter, owner_idParameter);
+        }
+    
+        public virtual ObjectResult<sp_helpdiagramdefinition_Result> sp_helpdiagramdefinition(string diagramname, Nullable<int> owner_id)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_helpdiagramdefinition_Result>("sp_helpdiagramdefinition", diagramnameParameter, owner_idParameter);
+        }
+    
+        public virtual ObjectResult<sp_helpdiagrams_Result> sp_helpdiagrams(string diagramname, Nullable<int> owner_id)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_helpdiagrams_Result>("sp_helpdiagrams", diagramnameParameter, owner_idParameter);
         }
     
         public virtual ObjectResult<SP_RemBuscarArtventas_Result> SP_RemBuscarArtventas(Nullable<int> opcion, string buscar, ObjectParameter msg)
@@ -840,17 +1184,26 @@ namespace AudSemp.Context
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_RemBuscarArtventas_Result>("SP_RemBuscarArtventas", opcionParameter, buscarParameter, msg);
         }
     
-        public virtual ObjectResult<SP_UNIVERSAL_ACCESO_Result> SP_UNIVERSAL_ACCESO(string uSUARIO, string cONTRASEÑA, ObjectParameter mSG)
+        public virtual int sp_renamediagram(string diagramname, Nullable<int> owner_id, string new_diagramname)
         {
-            var uSUARIOParameter = uSUARIO != null ?
-                new ObjectParameter("USUARIO", uSUARIO) :
-                new ObjectParameter("USUARIO", typeof(string));
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
     
-            var cONTRASEÑAParameter = cONTRASEÑA != null ?
-                new ObjectParameter("CONTRASEÑA", cONTRASEÑA) :
-                new ObjectParameter("CONTRASEÑA", typeof(string));
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_UNIVERSAL_ACCESO_Result>("SP_UNIVERSAL_ACCESO", uSUARIOParameter, cONTRASEÑAParameter, mSG);
+            var new_diagramnameParameter = new_diagramname != null ?
+                new ObjectParameter("new_diagramname", new_diagramname) :
+                new ObjectParameter("new_diagramname", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_renamediagram", diagramnameParameter, owner_idParameter, new_diagramnameParameter);
+        }
+    
+        public virtual int sp_upgraddiagrams()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_upgraddiagrams");
         }
     
         public virtual ObjectResult<string> TiposDeAvaluoEnContratos(Nullable<int> opcion)

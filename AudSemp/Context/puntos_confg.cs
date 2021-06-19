@@ -27,5 +27,8 @@ namespace AudSemp.Context
         public string activado { get; set; }
         public string echo_por { get; set; }
         public Nullable<System.DateTime> fecha { get; set; }
+        public string tipo { get; set; }
+        public Nullable<int> ptsxContrato { get; set; }
+        public string NombrePromocion { get; set; }
     }
 }

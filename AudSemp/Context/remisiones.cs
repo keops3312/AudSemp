@@ -35,5 +35,19 @@ namespace AudSemp.Context
         public string tipo_desc { get; set; }
         public string tipo_prenda { get; set; }
         public int consec { get; set; }
+        public Nullable<int> noRemate { get; set; }
+        public Nullable<decimal> precioRemate { get; set; }
+        public Nullable<decimal> descRemate { get; set; }
+        public string conceptPromocion { get; set; }
+        public Nullable<decimal> descPromocion { get; set; }
+        public string tipoDescPromocion { get; set; }
+        public string auditado { get; set; }
+        public string audita { get; set; }
+        public Nullable<System.DateTime> fechaAuditado { get; set; }
+        public string comentarioAuditado { get; set; }
+        public string autorizado { get; set; }
+        public string autoriza { get; set; }
+        public Nullable<System.DateTime> fechaAutoriza { get; set; }
+        public string comentarioAutorizado { get; set; }
     }
 }
