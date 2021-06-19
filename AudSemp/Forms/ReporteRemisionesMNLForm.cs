@@ -871,7 +871,7 @@ namespace AudSemp.Forms
                 if (tipoFecha == 1)//fecha revision
                 {
                     rpt.SetParameterValue("operaciones", NombreOperaciones);
-                    rpt.SetParameterValue("leyendaCargo", "Gerencia de Operaciones");
+                    rpt.SetParameterValue("leyendaCargo", "Auditoria");
                 }
 
                 if (tipoFecha == 2)//fecha auditoria
