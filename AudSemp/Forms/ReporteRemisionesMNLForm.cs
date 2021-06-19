@@ -50,7 +50,7 @@ namespace AudSemp.Forms
         public int desicion;
 
 
-
+        private int tipoFecha;
 
         //-----------------------------------//
         private string fechaInicio, fechaFin, tipoOrden = "consec", orden = "Ascendente";
@@ -330,6 +330,20 @@ namespace AudSemp.Forms
                 i++;
             }
 
+            if (radioButton1.Checked == true)//fecha revision
+            {
+                tipoFecha = 1;
+            }
+
+            if (radioButton2.Checked == true)//fecha auditoria
+            {
+                tipoFecha = 2;
+            }
+
+            if (radioButton3.Checked == true)//fecha autorizacion
+            {
+                tipoFecha = 3;
+            }
 
 
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
@@ -563,6 +577,28 @@ namespace AudSemp.Forms
                 i++;
             }
 
+
+            if (radioButton1.Checked == true)//fecha revision
+            {
+                tipoFecha = 1;
+            }
+
+            if (radioButton2.Checked == true)//fecha auditoria
+            {
+                tipoFecha = 2;
+            }
+
+            if (radioButton3.Checked == true)//fecha autorizacion
+            {
+                tipoFecha = 3;
+            }
+
+
+
+
+
+
+
             desicion = 2;
             btnExportarExcel.Enabled = false;
             btnReporte.Enabled = false;
@@ -694,13 +730,13 @@ namespace AudSemp.Forms
         {
 
 
-            Export(fechaInicio, fechaFin, tipoOrden, orden, categorias, auditados, autorizados);
+            Export(fechaInicio, fechaFin, tipoOrden, orden, categorias, auditados, autorizados,tipoFecha);
 
         }
 
 
         public void Export(string fechaInicio, string fechaFin, string tipoOrden, string modoOrden,
-           string[] tipos, string[] statusAudita, string[] statusAutorizado)
+           string[] tipos, string[] statusAudita, string[] statusAutorizado, int tipoFecha)
         {
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
@@ -709,7 +745,7 @@ namespace AudSemp.Forms
 
 
 
-            if (model.listaRevisionRemisiones(Inicio, Fin, tipos, statusAudita, statusAutorizado) == true)
+            if (model.listaRevisionRemisiones(Inicio, Fin, tipos, statusAudita, statusAutorizado, tipoFecha) == true)
             {
                 dataView = new DataView(model.dtRemisiones);
                 lista = model.listaRemisiones;
@@ -832,7 +868,24 @@ namespace AudSemp.Forms
                 rpt.SetParameterValue("encargado", encargado);
                 rpt.SetParameterValue("operaciones", NombreOperaciones);
 
+                if (tipoFecha == 1)//fecha revision
+                {
+                    rpt.SetParameterValue("operaciones", NombreOperaciones);
+                    rpt.SetParameterValue("leyendaCargo", "Gerencia de Operaciones");
+                }
 
+                if (tipoFecha == 2)//fecha auditoria
+                {
+                    rpt.SetParameterValue("operaciones", NombreOperaciones);
+                    rpt.SetParameterValue("leyendaCargo", "Auditoria");
+                }
+
+                if (tipoFecha == 3)//fecha autorizacion
+                {
+
+                    rpt.SetParameterValue("operaciones", model.empleado());
+                    rpt.SetParameterValue("leyendaCargo", "Autorización Dirección");
+                }
 
             }
 

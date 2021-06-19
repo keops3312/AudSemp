@@ -46,14 +46,17 @@ namespace AudSemp.Forms
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.circularProgress1 = new DevComponents.DotNetBar.Controls.CircularProgress();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.crystalReportViewer2 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.btnRevisar = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnVistaPrevia = new System.Windows.Forms.Button();
             this.btnReporte = new System.Windows.Forms.Button();
             this.btnExportarExcel = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.crystalReportViewer2 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -103,7 +106,7 @@ namespace AudSemp.Forms
             // 
             // dtInicial
             // 
-            this.dtInicial.Location = new System.Drawing.Point(645, 91);
+            this.dtInicial.Location = new System.Drawing.Point(645, 112);
             this.dtInicial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtInicial.Name = "dtInicial";
             this.dtInicial.Size = new System.Drawing.Size(308, 22);
@@ -198,7 +201,7 @@ namespace AudSemp.Forms
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(783, 119);
+            this.label1.Location = new System.Drawing.Point(770, 137);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(15, 17);
             this.label1.TabIndex = 19;
@@ -206,8 +209,11 @@ namespace AudSemp.Forms
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.radioButton3);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.circularProgress1);
             this.groupBox1.Controls.Add(this.btnRevisar);
             this.groupBox1.Controls.Add(this.chkListAuditados);
@@ -252,33 +258,6 @@ namespace AudSemp.Forms
             this.circularProgress1.Size = new System.Drawing.Size(91, 89);
             this.circularProgress1.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.circularProgress1.TabIndex = 22;
-            // 
-            // backgroundWorker1
-            // 
-            this.backgroundWorker1.WorkerReportsProgress = true;
-            this.backgroundWorker1.WorkerSupportsCancellation = true;
-            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
-            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
-            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
-            // 
-            // crystalReportViewer2
-            // 
-            this.crystalReportViewer2.ActiveViewIndex = -1;
-            this.crystalReportViewer2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.crystalReportViewer2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.crystalReportViewer2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.crystalReportViewer2.Location = new System.Drawing.Point(-1, 358);
-            this.crystalReportViewer2.Margin = new System.Windows.Forms.Padding(4);
-            this.crystalReportViewer2.Name = "crystalReportViewer2";
-            this.crystalReportViewer2.ShowGroupTreeButton = false;
-            this.crystalReportViewer2.ShowLogo = false;
-            this.crystalReportViewer2.ShowParameterPanelButton = false;
-            this.crystalReportViewer2.ShowTextSearchButton = false;
-            this.crystalReportViewer2.Size = new System.Drawing.Size(1319, 306);
-            this.crystalReportViewer2.TabIndex = 92;
-            this.crystalReportViewer2.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
             // btnRevisar
             // 
@@ -390,6 +369,66 @@ namespace AudSemp.Forms
             this.btnExportarExcel.UseVisualStyleBackColor = false;
             this.btnExportarExcel.Click += new System.EventHandler(this.btnExportarExcel_Click);
             // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.WorkerReportsProgress = true;
+            this.backgroundWorker1.WorkerSupportsCancellation = true;
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
+            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
+            // 
+            // crystalReportViewer2
+            // 
+            this.crystalReportViewer2.ActiveViewIndex = -1;
+            this.crystalReportViewer2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.crystalReportViewer2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.crystalReportViewer2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.crystalReportViewer2.Location = new System.Drawing.Point(-1, 358);
+            this.crystalReportViewer2.Margin = new System.Windows.Forms.Padding(4);
+            this.crystalReportViewer2.Name = "crystalReportViewer2";
+            this.crystalReportViewer2.ShowGroupTreeButton = false;
+            this.crystalReportViewer2.ShowLogo = false;
+            this.crystalReportViewer2.ShowParameterPanelButton = false;
+            this.crystalReportViewer2.ShowTextSearchButton = false;
+            this.crystalReportViewer2.Size = new System.Drawing.Size(1319, 306);
+            this.crystalReportViewer2.TabIndex = 92;
+            this.crystalReportViewer2.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(827, 59);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(126, 21);
+            this.radioButton1.TabIndex = 23;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Fecha Revisión";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(735, 86);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(128, 21);
+            this.radioButton2.TabIndex = 24;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Fecha Auditoria";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(645, 59);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(150, 21);
+            this.radioButton3.TabIndex = 25;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Fecha Autorización";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
             // ReporteRemisionesMNLForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -436,5 +475,8 @@ namespace AudSemp.Forms
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private DevComponents.DotNetBar.Controls.CircularProgress circularProgress1;
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer2;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }

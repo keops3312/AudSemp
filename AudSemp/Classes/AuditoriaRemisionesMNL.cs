@@ -52,7 +52,7 @@ namespace AudSemp.Classes
         public List<remisiones> listaRemisiones;
         #endregion
 
-        #region Libraries
+        #region methods
         public bool listaRevisionRemisiones(string caja, string usuario, DateTime fechaInicial, DateTime fechafinal)
         {
             try

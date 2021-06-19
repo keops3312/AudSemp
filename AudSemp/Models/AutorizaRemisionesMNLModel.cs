@@ -173,7 +173,7 @@ namespace AudSemp.Models
 
         #region Principal Methods
         public bool listaRevisionRemisiones(DateTime fechaInicial, DateTime fechafinal,
-         string[] tipos, string[] statusAudita, string[] statusAutorizado)
+         string[] tipos, string[] statusAudita, string[] statusAutorizado, int tipoFecha)
         {
             try
             {
@@ -293,6 +293,111 @@ namespace AudSemp.Models
                 dtRemisiones.Columns.Add("comentarioAutorizado", typeof(System.String));
 
 
+                if (tipoFecha == 1)//fecha remision
+                {
+
+
+                    var Lista = db.remisiones.SqlQuery("Select * from Remisiones where auditado in(" + _queryAudita + ") " +
+                                                                    " and autorizado in(" + _queryAutoriza + ") and tipo_prenda in(" + _queryTipo + ") and conceptoPromocion like '%(MNL)%' ").ToList();
+
+                    var listaTest = Lista.Where(p => p.Fecha >= fechaInicial && p.Fecha <= fechafinal).OrderBy(p => p.consec).ToList();
+
+                    //&& p.conceptopromocion.Contains("(MNL)")
+
+                    if (listaTest != null)
+                    {
+                        foreach (var item in listaTest)
+                        {
+                            listaRemisiones.Add(item);
+                        }
+
+                    }
+
+
+
+                    if (listaTest != null)
+                    {
+                        foreach (var item in listaTest)
+                        {
+                            dtRemisiones.Rows.Add(item.NumRemision, item.Fecha, item.Cliente, item.Inventario, item.Precio, item.Descuento,
+                             item.Importe, item.Cantidad, item.Descripcion, item.conceptopromocion, item.noserieart, item.codebar, item.vendio,
+                             item.suc, item.status, item.idcliente, item.comentarios, item.caja, item.tipo_desc, item.tipo_prenda, item.consec,
+                             item.noRemate, item.precioRemate, item.descRemate, item.conceptPromocion, item.descPromocion, item.tipoDescPromocion, item.auditado,
+                             item.audita, item.fechaAuditado, item.comentarioAuditado, item.autorizado, item.autoriza, item.fechaAutoriza, item.comentarioAutorizado);
+                        }
+
+                    }
+                }
+
+                if (tipoFecha == 2)//fecha auditoria
+                {
+
+
+                    var Lista2 = db.remisiones.SqlQuery("Select * from Remisiones where auditado in(" + _queryAudita + ") " +
+                                                                  " and autorizado in(" + _queryAutoriza + ") and tipo_prenda in(" + _queryTipo + ") and conceptoPromocion like '%(MNL)%' ").ToList();
+
+                    var listaTest2 = Lista2.Where(p => p.fechaAuditado >= fechaInicial && p.fechaAuditado <= fechafinal).OrderBy(p => p.consec).ToList();
+
+                    if (listaTest2 != null)
+                    {
+                        foreach (var item in listaTest2)
+                        {
+                            listaRemisiones.Add(item);
+                        }
+
+                    }
+
+
+
+                    if (listaTest2 != null)
+                    {
+                        foreach (var item in listaTest2)
+                        {
+                            dtRemisiones.Rows.Add(item.NumRemision, item.Fecha, item.Cliente, item.Inventario, item.Precio, item.Descuento,
+                             item.Importe, item.Cantidad, item.Descripcion, item.conceptopromocion, item.noserieart, item.codebar, item.vendio,
+                             item.suc, item.status, item.idcliente, item.comentarios, item.caja, item.tipo_desc, item.tipo_prenda, item.consec,
+                             item.noRemate, item.precioRemate, item.descRemate, item.conceptPromocion, item.descPromocion, item.tipoDescPromocion, item.auditado,
+                             item.audita, item.fechaAuditado, item.comentarioAuditado, item.autorizado, item.autoriza, item.fechaAutoriza, item.comentarioAutorizado);
+                        }
+
+                    }
+                }
+
+                if (tipoFecha == 3)//fecha autorizacion
+                {
+
+
+                    var Lista3 = db.remisiones.SqlQuery("Select * from Remisiones where auditado in(" + _queryAudita + ") " +
+                                                                     " and autorizado in(" + _queryAutoriza + ") and tipo_prenda in(" + _queryTipo + ") and conceptoPromocion like '%(MNL)%' ").ToList();
+
+                    var listaTest3 = Lista3.Where(p => p.fechaAutoriza >= fechaInicial && p.fechaAutoriza <= fechafinal).OrderBy(p => p.consec).ToList();
+
+
+
+                    if (listaTest3 != null)
+                    {
+                        foreach (var item in listaTest3)
+                        {
+                            listaRemisiones.Add(item);
+                        }
+
+                    }
+
+
+
+                    if (listaTest3 != null)
+                    {
+                        foreach (var item in listaTest3)
+                        {
+                            dtRemisiones.Rows.Add(item.NumRemision, item.Fecha, item.Cliente, item.Inventario, item.Precio, item.Descuento,
+                             item.Importe, item.Cantidad, item.Descripcion, item.conceptopromocion, item.noserieart, item.codebar, item.vendio,
+                             item.suc, item.status, item.idcliente, item.comentarios, item.caja, item.tipo_desc, item.tipo_prenda, item.consec,
+                             item.noRemate, item.precioRemate, item.descRemate, item.conceptPromocion, item.descPromocion, item.tipoDescPromocion, item.auditado,
+                             item.audita, item.fechaAuditado, item.comentarioAuditado, item.autorizado, item.autoriza, item.fechaAutoriza, item.comentarioAutorizado);
+                        }
+
+                    }
+                }
 
 
                 //var Lista = db.remisiones.SqlQuery("Select * from Remisiones where auditado in(" + _queryAudita + ") " +
@@ -300,35 +405,38 @@ namespace AudSemp.Models
                 //                                                   " and fecha between '" + fechaInicial.ToString("yyyy-MM-dd") + "' and '" + fechafinal.ToString("yyyy-MM-dd") + "' " +
                 //                                                   " order by consec").ToList();
 
-                var Lista = db.remisiones.SqlQuery("Select * from Remisiones where auditado in(" + _queryAudita + ") " +
-                                                                " and autorizado in(" + _queryAutoriza + ") and tipo_prenda in(" + _queryTipo + ") ").ToList();
+                //var Lista = db.remisiones.SqlQuery("Select * from Remisiones where auditado in(" + _queryAudita + ") " +
+                //                                                " and autorizado in(" + _queryAutoriza + ") and tipo_prenda in(" + _queryTipo + ") ").ToList();
 
-                var listaTest = Lista.Where(p => p.Fecha >= fechaInicial && p.Fecha <= fechafinal && p.conceptopromocion.Contains("(MNL)")).OrderBy(p=>p.consec).ToList();
-
-
-                if (listaTest != null)
-                {
-                    foreach (var item in listaTest)
-                    {
-                        listaRemisiones.Add(item);
-                    }
-
-                }
+                //var listaTest = Lista.Where(p => p.Fecha >= fechaInicial && p.Fecha <= fechafinal && p.conceptopromocion.Contains("(MNL)")).OrderBy(p=>p.consec).ToList();
 
 
+                //if (listaTest != null)
+                //{
+                //    foreach (var item in listaTest)
+                //    {
+                //        listaRemisiones.Add(item);
+                //    }
 
-                if (listaTest != null)
-                {
-                    foreach (var item in listaTest)
-                    {
-                        dtRemisiones.Rows.Add(item.NumRemision, item.Fecha, item.Cliente, item.Inventario, item.Precio, item.Descuento,
-                         item.Importe, item.Cantidad, item.Descripcion, item.conceptopromocion, item.noserieart, item.codebar, item.vendio,
-                         item.suc, item.status, item.idcliente, item.comentarios, item.caja, item.tipo_desc, item.tipo_prenda, item.consec,
-                         item.noRemate, item.precioRemate, item.descRemate, item.conceptPromocion, item.descPromocion, item.tipoDescPromocion, item.auditado,
-                         item.audita, item.fechaAuditado, item.comentarioAuditado, item.autorizado, item.autoriza, item.fechaAutoriza, item.comentarioAutorizado);
-                    }
+                //}
 
-                }
+
+
+                //if (listaTest != null)
+                //{
+                //    foreach (var item in listaTest)
+                //    {
+                //        dtRemisiones.Rows.Add(item.NumRemision, item.Fecha, item.Cliente, item.Inventario, item.Precio, item.Descuento,
+                //         item.Importe, item.Cantidad, item.Descripcion, item.conceptopromocion, item.noserieart, item.codebar, item.vendio,
+                //         item.suc, item.status, item.idcliente, item.comentarios, item.caja, item.tipo_desc, item.tipo_prenda, item.consec,
+                //         item.noRemate, item.precioRemate, item.descRemate, item.conceptPromocion, item.descPromocion, item.tipoDescPromocion, item.auditado,
+                //         item.audita, item.fechaAuditado, item.comentarioAuditado, item.autorizado, item.autoriza, item.fechaAutoriza, item.comentarioAutorizado);
+                //    }
+
+                //}
+
+
+
 
                 return true;
 
@@ -342,7 +450,11 @@ namespace AudSemp.Models
 
         }
 
-
+        public string empleado()
+        {
+            var myEmpleado = db.Empleados.Where(p => p.Puesto == "DIRECTOR").FirstOrDefault();
+            return myEmpleado.Nombre_Completo;
+        }
 
         public bool updateAutorizaRem(int consec, string autoriza, string autorizo, DateTime fecha, string comentario)
         {
