@@ -1,0 +1,1236 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Remisiones" msdata:Locale="es-MX">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Remisiones" msdata:CaseSensitive="False" msdata:Locale="es-MX">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NumRemision" type="xs:string" minOccurs="0" />
+                <xs:element name="Fecha" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Cliente" type="xs:string" minOccurs="0" />
+                <xs:element name="Inventario" type="xs:string" minOccurs="0" />
+                <xs:element name="Precio" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Descuento" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Importe" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Cantidad" type="xs:int" minOccurs="0" />
+                <xs:element name="Descripcion" type="xs:string" minOccurs="0" />
+                <xs:element name="conceptopromocion" type="xs:string" minOccurs="0" />
+                <xs:element name="noserieart" type="xs:string" minOccurs="0" />
+                <xs:element name="codebar" type="xs:string" minOccurs="0" />
+                <xs:element name="vendio" type="xs:string" minOccurs="0" />
+                <xs:element name="suc" type="xs:string" minOccurs="0" />
+                <xs:element name="status" type="xs:string" minOccurs="0" />
+                <xs:element name="idcliente" type="xs:string" minOccurs="0" />
+                <xs:element name="comentarios" type="xs:string" minOccurs="0" />
+                <xs:element name="caja" type="xs:string" minOccurs="0" />
+                <xs:element name="tipo_desc" type="xs:string" minOccurs="0" />
+                <xs:element name="tipo_prenda" type="xs:string" minOccurs="0" />
+                <xs:element name="consec" type="xs:int" minOccurs="0" />
+                <xs:element name="noRemate" type="xs:int" minOccurs="0" />
+                <xs:element name="precioRemate" type="xs:decimal" minOccurs="0" />
+                <xs:element name="descRemate" type="xs:decimal" minOccurs="0" />
+                <xs:element name="conceptPromocion" type="xs:string" minOccurs="0" />
+                <xs:element name="descPromocion" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tipoDescPromocion" type="xs:string" minOccurs="0" />
+                <xs:element name="auditado" type="xs:string" minOccurs="0" />
+                <xs:element name="audita" type="xs:string" minOccurs="0" />
+                <xs:element name="fechaAuditado" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="comentarioAuditado" type="xs:string" minOccurs="0" />
+                <xs:element name="autorizado" type="xs:string" minOccurs="0" />
+                <xs:element name="autoriza" type="xs:string" minOccurs="0" />
+                <xs:element name="fechaAutoriza" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="comentarioAutorizado" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Remisiones>
+    <NumRemision>R-4072</NumRemision>
+    <Fecha>2020-06-06T00:00:00-05:00</Fecha>
+    <Cliente>ZARATE GONZALEZ MARIO</Cliente>
+    <Inventario>CMGI9449</Inventario>
+    <Precio>599.0000</Precio>
+    <Descuento>50</Descuento>
+    <Importe>549.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>BOCINA KSR</Descripcion>
+    <conceptopromocion>(MNL) -50</conceptopromocion>
+    <noserieart>TLA2_9449</noserieart>
+    <codebar>R-4072</codebar>
+    <vendio>LILIANA YAHAIRA CORONA LOPEZ</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>5480</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>3612</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>000</autorizado>
+    <autoriza>.</autoriza>
+    <fechaAutoriza>1999-01-01T00:00:00-06:00</fechaAutoriza>
+    <comentarioAutorizado>.</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4116</NumRemision>
+    <Fecha>2020-06-26T00:00:00-05:00</Fecha>
+    <Cliente>PUBLICO EN  GENERAL</Cliente>
+    <Inventario>CMGI9555</Inventario>
+    <Precio>8849.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>8749.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>SMART TV UHD 55 PULGADAS</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA2_9555</noserieart>
+    <codebar>R-4116</codebar>
+    <vendio>LILIANA YAHAIRA CORONA LOPEZ</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>4448</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Electronicos</tipo_prenda>
+    <consec>3681</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>STB</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>FALTA INE Y FIRMA DEL CLIENTE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4122</NumRemision>
+    <Fecha>2020-06-29T00:00:00-05:00</Fecha>
+    <Cliente>CRUZ REYES ANAYELI</Cliente>
+    <Inventario>CMGI9525</Inventario>
+    <Precio>4849.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>4749.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>SIERRA DE INGLETE DEWALT</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA2_9525</noserieart>
+    <codebar>R-4122</codebar>
+    <vendio>LILIANA YAHAIRA CORONA LOPEZ</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>7067</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Herramientas</tipo_prenda>
+    <consec>3688</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NEGOCIACION CON CLIENTE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-6082</NumRemision>
+    <Fecha>2020-07-04T00:00:00-05:00</Fecha>
+    <Cliente>GARCIA ORTEGA MARIA VIOLETA</Cliente>
+    <Inventario>CMGI9353</Inventario>
+    <Precio>990.0000</Precio>
+    <Descuento>99</Descuento>
+    <Importe>891.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>PAR DE ARRACADAS</Descripcion>
+    <conceptopromocion>(MNL) -99</conceptopromocion>
+    <noserieart>TLA2_9353</noserieart>
+    <codebar>R-6082</codebar>
+    <vendio>AUXILIAR 2 .</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>7087</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-2</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Joyeria</tipo_prenda>
+    <consec>3702</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NEGOCIACION CON CLIENTE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-6087</NumRemision>
+    <Fecha>2020-07-09T00:00:00-05:00</Fecha>
+    <Cliente>ANGELES LUGO ALEJANDRO ELEUTERIO</Cliente>
+    <Inventario>CMGI9626</Inventario>
+    <Precio>5499.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>5399.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>CELULAR SAMSUNG S8+</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA2_9626</noserieart>
+    <codebar>R-6087</codebar>
+    <vendio>AUXILIAR 2 .</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>2111</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-2</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>CELULARES</tipo_prenda>
+    <consec>3712</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NEGOCIACION CON CLIENTE NO TENIA INE Y SE TOMO FOTO</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-6087</NumRemision>
+    <Fecha>2020-07-09T00:00:00-05:00</Fecha>
+    <Cliente>ANGELES LUGO ALEJANDRO ELEUTERIO</Cliente>
+    <Inventario>CMGI9678</Inventario>
+    <Precio>2499.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>2399.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>CELULAR MOTO G8 PLAY</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA2_9678</noserieart>
+    <codebar>R-6087</codebar>
+    <vendio>AUXILIAR 2 .</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>2111</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-2</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>CELULARES</tipo_prenda>
+    <consec>3713</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NEGOCIACION CON CLIENTE, NO TENIA INE Y SE TOMO FOTO</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4139</NumRemision>
+    <Fecha>2020-07-15T00:00:00-05:00</Fecha>
+    <Cliente>PUBLICO EN  GENERAL</Cliente>
+    <Inventario>CMGI9621</Inventario>
+    <Precio>2749.0000</Precio>
+    <Descuento>49</Descuento>
+    <Importe>2700.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>CELULAR MOTOROLA</Descripcion>
+    <conceptopromocion>(MNL) -49</conceptopromocion>
+    <noserieart>TLA2_9621</noserieart>
+    <codebar>R-4139</codebar>
+    <vendio>LILIANA YAHAIRA CORONA LOPEZ</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>4448</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>CELULARES</tipo_prenda>
+    <consec>3721</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>STB</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NOTA AL PUBLICO EN GRAL Y NO COINCIDE FIRMA CON INE ANEXO</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-6100</NumRemision>
+    <Fecha>2020-08-05T00:00:00-05:00</Fecha>
+    <Cliente>CORNEJO GODINEZ ADAN</Cliente>
+    <Inventario>CMGI9607</Inventario>
+    <Precio>4999.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>4899.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>LAPTOP ACER CONTRASEÑA 52MM</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA2_9607</noserieart>
+    <codebar>R-6100</codebar>
+    <vendio>AUXILIAR 2 .</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>7243</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-2</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Computo</tipo_prenda>
+    <consec>3756</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NEGOCIACION CON CLIENTE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4171</NumRemision>
+    <Fecha>2020-08-21T00:00:00-05:00</Fecha>
+    <Cliente>EN  PUBLICO GENERAL</Cliente>
+    <Inventario>CMGI9435</Inventario>
+    <Precio>5499.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>4410.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>CELULAR SAMSUNG S9</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA2_9435</noserieart>
+    <codebar>R-4171</codebar>
+    <vendio>LILIANA YAHAIRA CORONA LOPEZ</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>4446</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>CELULARES</tipo_prenda>
+    <consec>3794</consec>
+    <noRemate>2</noRemate>
+    <precioRemate>4510.00</precioRemate>
+    <descRemate>989.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>AUTORIZA D.G.  ENTERADA</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-6114</NumRemision>
+    <Fecha>2020-08-27T00:00:00-05:00</Fecha>
+    <Cliente>PUBLICO EN GENERAL</Cliente>
+    <Inventario>CMGH0402</Inventario>
+    <Precio>4390.0000</Precio>
+    <Descuento>49</Descuento>
+    <Importe>650.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>lap top inspiron N4010 4GB Ram 500D.D</Descripcion>
+    <conceptopromocion>(MNL) -49</conceptopromocion>
+    <noserieart>CITR 1057</noserieart>
+    <codebar>R-6114</codebar>
+    <vendio>AUXILIAR 2 .</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>3235</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-2</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Computo</tipo_prenda>
+    <consec>3805</consec>
+    <noRemate>3</noRemate>
+    <precioRemate>699.00</precioRemate>
+    <descRemate>3691.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>STB</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>VERIFICAR MOTIVO DE 3ER. REMATE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4197</NumRemision>
+    <Fecha>2020-09-09T00:00:00-05:00</Fecha>
+    <Cliente>ESCAMILLA GARCIA DIEGO</Cliente>
+    <Inventario>CMGI9791</Inventario>
+    <Precio>199.0000</Precio>
+    <Descuento>50</Descuento>
+    <Importe>149.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>BASCULA DIGITA ELECTRONICKITCHEN</Descripcion>
+    <conceptopromocion>(MNL) -50</conceptopromocion>
+    <noserieart>TLA2_9791</noserieart>
+    <codebar>R-4197</codebar>
+    <vendio>LILIANA YAHAIRA CORONA LOPEZ</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>6759</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>3833</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NEGOCIACION CON CLIENTE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4203</NumRemision>
+    <Fecha>2020-09-19T00:00:00-05:00</Fecha>
+    <Cliente>ANGELES LUGO ALEJANDRO ELEUTERIO</Cliente>
+    <Inventario>CMGI9801</Inventario>
+    <Precio>2350.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>2250.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>SAMSUNG  J6 PLUS 351758103873285</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA2_9801</noserieart>
+    <codebar>R-4203</codebar>
+    <vendio>LILIANA YAHAIRA CORONA LOPEZ</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>2111</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>CELULARES</tipo_prenda>
+    <consec>3844</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NEGOCIACION CON CLIENTE, NO TENIA INE Y SE TOMA FOTO</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-6133</NumRemision>
+    <Fecha>2020-09-23T00:00:00-05:00</Fecha>
+    <Cliente>CRUZ ALARCON JOSE JUAN</Cliente>
+    <Inventario>CMGI7474</Inventario>
+    <Precio>145000.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>9899.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>CAMIÓN NISSAN URVAN</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA2_7474</noserieart>
+    <codebar>R-6133</codebar>
+    <vendio>AUXILIAR 2 .</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>7299</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-2</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Autos</tipo_prenda>
+    <consec>3854</consec>
+    <noRemate>3</noRemate>
+    <precioRemate>9999.00</precioRemate>
+    <descRemate>135001.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>D.G. AUTORIZA LA VENTA POR ESE MONTO SE LLEVA LA DIFERENCIA EN EFECTIVO. ENTERADA</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-6135</NumRemision>
+    <Fecha>2020-09-25T00:00:00-05:00</Fecha>
+    <Cliente>FALCON TOVAR RODOLFO</Cliente>
+    <Inventario>CMGI9790</Inventario>
+    <Precio>999.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>899.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>BICILCLETA HUFFY</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA2_9790</noserieart>
+    <codebar>R-6135</codebar>
+    <vendio>AUXILIAR 2 .</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>7304</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-2</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>3859</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NEGOCIACION CON CLIENTE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4217</NumRemision>
+    <Fecha>2020-10-09T00:00:00-05:00</Fecha>
+    <Cliente>MARQUEZ ORTIZ CANDIDO</Cliente>
+    <Inventario>CMGI10046</Inventario>
+    <Precio>899.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>799.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>ROTOMARTILLO MAKITA</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA2_10046</noserieart>
+    <codebar>R-4217</codebar>
+    <vendio>LILIANA YAHAIRA CORONA LOPEZ</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>7329</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Herramientas</tipo_prenda>
+    <consec>3873</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NEGOCIACION CON CLIENTE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-6143</NumRemision>
+    <Fecha>2020-10-09T00:00:00-05:00</Fecha>
+    <Cliente>MARQUEZ ORTIZ CANDIDO</Cliente>
+    <Inventario>CMGI10047</Inventario>
+    <Precio>549.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>449.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>SIERRA CALADORA BLACK AND DECKER</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA2_10047</noserieart>
+    <codebar>R-6143</codebar>
+    <vendio>BLANCA ESTELA MEDINA ACEVEDO</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>7329</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-2</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Herramientas</tipo_prenda>
+    <consec>3874</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NEGOCIACION CON CLIENTE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4228</NumRemision>
+    <Fecha>2020-10-30T00:00:00-06:00</Fecha>
+    <Cliente>HERNANDEZ BRAVO JOSE LUIS</Cliente>
+    <Inventario>CMGI10058</Inventario>
+    <Precio>2499.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>2399.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>MOTOROLA ONE</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA2_10058</noserieart>
+    <codebar>R-4228</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>7387</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>CELULARES</tipo_prenda>
+    <consec>3891</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NEGOCIACION CON CLIENTE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4237</NumRemision>
+    <Fecha>2020-11-13T00:00:00-06:00</Fecha>
+    <Cliente>EN  PUBLICO GENERAL</Cliente>
+    <Inventario>CMGI10111</Inventario>
+    <Precio>425.0000</Precio>
+    <Descuento>25</Descuento>
+    <Importe>400.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>MATRACA SNAP ON</Descripcion>
+    <conceptopromocion>(MNL) -25</conceptopromocion>
+    <noserieart>TLA2_10111</noserieart>
+    <codebar>R-4237</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>4446</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Herramientas</tipo_prenda>
+    <consec>3911</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>STB</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NOTA AL PUBLICO EN GENERAL SIN CPIA DE INE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4237</NumRemision>
+    <Fecha>2020-11-13T00:00:00-06:00</Fecha>
+    <Cliente>EN  PUBLICO GENERAL</Cliente>
+    <Inventario>CMGI10113</Inventario>
+    <Precio>449.0000</Precio>
+    <Descuento>25</Descuento>
+    <Importe>424.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>MATRACA SNAP ON</Descripcion>
+    <conceptopromocion>(MNL) -25</conceptopromocion>
+    <noserieart>TLA2_10113</noserieart>
+    <codebar>R-4237</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>4446</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Herramientas</tipo_prenda>
+    <consec>3912</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>STB</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NOTA AL PUBLICO EN GENERAL SIN COPIA DE INE DEL CLIENTE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4296</NumRemision>
+    <Fecha>2021-02-05T00:00:00-06:00</Fecha>
+    <Cliente>VALENZUELA PEÑA MARCO ANTONIO</Cliente>
+    <Inventario>CMGI10102</Inventario>
+    <Precio>3999.0000</Precio>
+    <Descuento>99</Descuento>
+    <Importe>3500.1000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>PANTALLA HISENSE SMARTV 32</Descripcion>
+    <conceptopromocion>(MNL) -99</conceptopromocion>
+    <noserieart>TLA2_10102</noserieart>
+    <codebar>R-4296</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>7644</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Electronicos</tipo_prenda>
+    <consec>4044</consec>
+    <noRemate>1</noRemate>
+    <precioRemate>3599.10</precioRemate>
+    <descRemate>399.90</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NEGOCIACION CON CLIENTE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4355</NumRemision>
+    <Fecha>2021-03-29T00:00:00-06:00</Fecha>
+    <Cliente>PUBLICO EN  GENERAL</Cliente>
+    <Inventario>CMGI10115</Inventario>
+    <Precio>99.0000</Precio>
+    <Descuento>7.5</Descuento>
+    <Importe>91.5000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>CARETA PARA SOLDAR</Descripcion>
+    <conceptopromocion>(MNL) -7</conceptopromocion>
+    <noserieart>TLA2_10115</noserieart>
+    <codebar>R-4355</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>4448</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Herramientas</tipo_prenda>
+    <consec>4160</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>STB</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>NOTA AL PUBLICO EN GENERAL SIN COPIA DE INE</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4398</NumRemision>
+    <Fecha>2021-05-21T00:00:00-05:00</Fecha>
+    <Cliente>PUBLICO EN GENERAL</Cliente>
+    <Inventario>CMGI10543</Inventario>
+    <Precio>99.0000</Precio>
+    <Descuento>24</Descuento>
+    <Importe>75.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>MEMORIA 16 GBYTS</Descripcion>
+    <conceptopromocion>(MNL) -24</conceptopromocion>
+    <noserieart>TLA2_10543</noserieart>
+    <codebar>R-4398</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>3235</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>4241</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>SE VENDIO CON PRECIO INICIAL DE SETENTA Y CINCO</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4405</NumRemision>
+    <Fecha>2021-05-26T00:00:00-05:00</Fecha>
+    <Cliente>PUBLICO EN  GENERAL</Cliente>
+    <Inventario>CMGJ3415</Inventario>
+    <Precio>119.0000</Precio>
+    <Descuento>11.9</Descuento>
+    <Importe>107.1000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>ESTILIZADOR DE CABELLO</Descripcion>
+    <conceptopromocion>(MNL) -11</conceptopromocion>
+    <noserieart>TLA_33415</noserieart>
+    <codebar>R-4405</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>4448</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>4256</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>HOT SALE ART. NVOS 10 POR CIENTO DSCTO</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4405</NumRemision>
+    <Fecha>2021-05-26T00:00:00-05:00</Fecha>
+    <Cliente>PUBLICO EN  GENERAL</Cliente>
+    <Inventario>CMGJ3414</Inventario>
+    <Precio>69.0000</Precio>
+    <Descuento>6.9</Descuento>
+    <Importe>62.1000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>CONTENEDORES</Descripcion>
+    <conceptopromocion>(MNL) -6</conceptopromocion>
+    <noserieart>TLA_33414</noserieart>
+    <codebar>R-4405</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>4448</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>4257</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>HOT SALE, 10 POR CIENTO ART. NVOS.</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4407</NumRemision>
+    <Fecha>2021-05-26T00:00:00-05:00</Fecha>
+    <Cliente>PUBLICO EN GENERAL</Cliente>
+    <Inventario>CMGJ3300</Inventario>
+    <Precio>199.0000</Precio>
+    <Descuento>19.9</Descuento>
+    <Importe>179.1000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>CORTADORA DE CABELLO</Descripcion>
+    <conceptopromocion>(MNL) -19</conceptopromocion>
+    <noserieart>TLA_33300</noserieart>
+    <codebar>R-4407</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>3235</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>4259</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>HOT SALE 10 POR CIENTO DSCTO NVOS.</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4410</NumRemision>
+    <Fecha>2021-05-27T00:00:00-05:00</Fecha>
+    <Cliente>MOCIÑO ESTRADA DIEGO ARMANDO</Cliente>
+    <Inventario>CMGE13712</Inventario>
+    <Precio>800.0000</Precio>
+    <Descuento>80</Descuento>
+    <Importe>600.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>BICICLETA GOSA NARANJA</Descripcion>
+    <conceptopromocion>(MNL) -80</conceptopromocion>
+    <noserieart>TLX_113712</noserieart>
+    <codebar>R-4410</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>7842</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>4262</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>(PRM) -%15 HOT SALE</conceptPromocion>
+    <descPromocion>120.00</descPromocion>
+    <tipoDescPromocion>15</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>HOT SALE DSCTO 25 POR CIENTO</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4411</NumRemision>
+    <Fecha>2021-05-27T00:00:00-05:00</Fecha>
+    <Cliente>PUBLICO EN  GENERAL</Cliente>
+    <Inventario>CMGJ3197</Inventario>
+    <Precio>265.0000</Precio>
+    <Descuento>24.2</Descuento>
+    <Importe>217.8000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>TELEFONO ALAMBRICO</Descripcion>
+    <conceptopromocion>(MNL) -24</conceptopromocion>
+    <noserieart>TLA_33197</noserieart>
+    <codebar>R-4411</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>4448</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>4263</consec>
+    <noRemate>1</noRemate>
+    <precioRemate>242.00</precioRemate>
+    <descRemate>23.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>HOT SALE 10 POR CIENTO DSCTO NVOS.</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4412</NumRemision>
+    <Fecha>2021-05-27T00:00:00-05:00</Fecha>
+    <Cliente>PUBLICO EN GENERAL</Cliente>
+    <Inventario>CMGJ3303</Inventario>
+    <Precio>199.0000</Precio>
+    <Descuento>19.9</Descuento>
+    <Importe>179.1000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>PLANCHA DE  VAPOR</Descripcion>
+    <conceptopromocion>(MNL) -19</conceptopromocion>
+    <noserieart>TLA_33303</noserieart>
+    <codebar>R-4412</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>3235</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>4264</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>HOT SALE 10 POR CIENTO DSCTO NVOS</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4418</NumRemision>
+    <Fecha>2021-05-31T00:00:00-05:00</Fecha>
+    <Cliente>PUBLICO EN GENERAL</Cliente>
+    <Inventario>CMGJ3412</Inventario>
+    <Precio>319.0000</Precio>
+    <Descuento>31.9</Descuento>
+    <Importe>287.1000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>WAFLERA CON ANTIADHERENTE</Descripcion>
+    <conceptopromocion>(MNL) -31</conceptopromocion>
+    <noserieart>TLA_33412</noserieart>
+    <codebar>R-4418</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>3235</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>4270</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>HOT SALE 10 POR CIENTO DSCTO. NVOS.</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4429</NumRemision>
+    <Fecha>2021-06-11T00:00:00-05:00</Fecha>
+    <Cliente>PUBLICO EN  GENERAL</Cliente>
+    <Inventario>CMGJ3372</Inventario>
+    <Precio>299.0000</Precio>
+    <Descuento>29.9</Descuento>
+    <Importe>269.1000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>BOCINA PORTATIL RECARGABLE</Descripcion>
+    <conceptopromocion>(MNL) -29</conceptopromocion>
+    <noserieart>TLA_33372</noserieart>
+    <codebar>R-4429</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>4448</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>4286</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>DIA DEL PADRE 10 POR CIENTO DSCTO NVOS.</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4435</NumRemision>
+    <Fecha>2021-06-15T00:00:00-05:00</Fecha>
+    <Cliente>PUBLICO EN GENERAL</Cliente>
+    <Inventario>CMGI10756</Inventario>
+    <Precio>480.0000</Precio>
+    <Descuento>48</Descuento>
+    <Importe>360.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>BICICLETA NEXT</Descripcion>
+    <conceptopromocion>(MNL) -48</conceptopromocion>
+    <noserieart>TLA_210756</noserieart>
+    <codebar>R-4435</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>3235</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Otros</tipo_prenda>
+    <consec>4292</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>(PRM) -%15 15 POR CIENTO DE DE</conceptPromocion>
+    <descPromocion>72.00</descPromocion>
+    <tipoDescPromocion>15</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>AUT</autorizado>
+    <autoriza>Alondra Rufino Monroy </autoriza>
+    <fechaAutoriza>2021-06-21T00:00:00-05:00</fechaAutoriza>
+    <comentarioAutorizado>DIA DEL PADRE 10 POR CIENTO DSCTO NVOS.</comentarioAutorizado>
+  </Remisiones>
+  <Remisiones>
+    <NumRemision>R-4446</NumRemision>
+    <Fecha>2021-06-24T00:00:00-05:00</Fecha>
+    <Cliente>RAMIREZ BARRERA JOSE DE JESUS</Cliente>
+    <Inventario>CMGI10750</Inventario>
+    <Precio>1199.0000</Precio>
+    <Descuento>100</Descuento>
+    <Importe>1099.0000</Importe>
+    <Cantidad>1</Cantidad>
+    <Descripcion>SIERRA CIRCULAR</Descripcion>
+    <conceptopromocion>(MNL) -100</conceptopromocion>
+    <noserieart>TLA_210750</noserieart>
+    <codebar>R-4446</codebar>
+    <vendio>Liliana Yahaira Corona López</vendio>
+    <suc>TLA_2</suc>
+    <status>VENDIDO</status>
+    <idcliente>7891</idcliente>
+    <comentarios>.</comentarios>
+    <caja>CIS-TLA2-1</caja>
+    <tipo_desc>MON</tipo_desc>
+    <tipo_prenda>Herramientas</tipo_prenda>
+    <consec>4306</consec>
+    <noRemate>0</noRemate>
+    <precioRemate>0.00</precioRemate>
+    <descRemate>0.00</descRemate>
+    <conceptPromocion>0</conceptPromocion>
+    <descPromocion>0.00</descPromocion>
+    <tipoDescPromocion>0</tipoDescPromocion>
+    <auditado>NOA</auditado>
+    <audita>.</audita>
+    <fechaAuditado>1999-01-01T00:00:00-06:00</fechaAuditado>
+    <comentarioAuditado>.</comentarioAuditado>
+    <autorizado>000</autorizado>
+    <autoriza>.</autoriza>
+    <fechaAutoriza>1999-01-01T00:00:00-06:00</fechaAutoriza>
+    <comentarioAutorizado>.</comentarioAutorizado>
+  </Remisiones>
+</NewDataSet>

@@ -93,12 +93,12 @@ namespace OperSemp.Forms
 
 
                     fila.Cells["Autorizar"].Value =
-                   System.Drawing.Image.FromFile("C:\\SEMP2013\\OperSemp\\OperSemp\\Resources\\verSmall.fw.png");
+                   System.Drawing.Image.FromFile("C:\\SEMP2013\\AudSemp\\AudSemp\\Resources\\verSmall.fw.png");
 
 
                     fila.Cells["RevAuditoria"].Value =
                   
-                    System.Drawing.Image.FromFile("C:\\SEMP2013\\OperSemp\\OperSemp\\Resources\\UpdateSmall.fw.png");
+                    System.Drawing.Image.FromFile("C:\\SEMP2013\\AudSemp\\AudSemp\\Resources\\UpdateSmall.fw.png");
                 }
 
                 dtgResult.Columns["Autorizar"].Width = 100;
