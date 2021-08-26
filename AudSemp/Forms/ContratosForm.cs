@@ -694,7 +694,7 @@ namespace AudSemp.Forms
                                 item.valuacion_tipo, item.cancelado, item.comentariocancelado,
                                 item.prestamoprom, item.origen, item.folioavaluo, item.clasificacion, item.santerior,
                                 item.caja, item.pension, item.Rev, item.reg, item.temp, item.VenOVig,
-                                item.realizo, item.CobroOriginal, item.BLOQUEADO_COMENTARIO, cantidad, descbolsa);
+                                item.realizo, item.cobrooriginal, item.BLOQUEADO_COMENTARIO, cantidad, descbolsa);
 
 
                         }

@@ -1,0 +1,1515 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="AudContratosBolsas" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="AudContratosBolsas">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Contrato" type="xs:string" minOccurs="0" />
+                <xs:element name="Bolsa" type="xs:string" minOccurs="0" />
+                <xs:element name="Fecha" type="xs:string" minOccurs="0" />
+                <xs:element name="Descripcion" type="xs:string" minOccurs="0" />
+                <xs:element name="SubDescripcion" type="xs:string" minOccurs="0" />
+                <xs:element name="kt" type="xs:string" minOccurs="0" />
+                <xs:element name="Peso" type="xs:string" minOccurs="0" />
+                <xs:element name="Avaluo" type="xs:string" minOccurs="0" />
+                <xs:element name="Prestamo" type="xs:string" minOccurs="0" />
+                <xs:element name="Status" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <AudContratosBolsas>
+    <Contrato>60670</Contrato>
+    <Bolsa>60346</Bolsa>
+    <Fecha>15/01/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>9300.0000</Avaluo>
+    <Prestamo>4650.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60678</Contrato>
+    <Bolsa>60350</Bolsa>
+    <Fecha>26/01/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60682</Contrato>
+    <Bolsa>60354</Bolsa>
+    <Fecha>26/01/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>6480.0000</Avaluo>
+    <Prestamo>3240.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60683</Contrato>
+    <Bolsa>60353</Bolsa>
+    <Fecha>26/01/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOO</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>8500.0000</Avaluo>
+    <Prestamo>4250.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60684</Contrato>
+    <Bolsa>60351</Bolsa>
+    <Fecha>26/01/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>3500.0000</Avaluo>
+    <Prestamo>1750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60685</Contrato>
+    <Bolsa>60355</Bolsa>
+    <Fecha>08/02/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>5800.0000</Avaluo>
+    <Prestamo>2900.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60699</Contrato>
+    <Bolsa>60356</Bolsa>
+    <Fecha>09/02/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>COMPUTADORA DE ESCRITORIO</Descripcion>
+    <SubDescripcion>HP 1105A11 6RAM 300DD AMDE1 W8</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>5000.0000</Avaluo>
+    <Prestamo>2500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60700</Contrato>
+    <Bolsa>60357</Bolsa>
+    <Fecha>10/03/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>ENVY 100</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>5000.0000</Avaluo>
+    <Prestamo>2500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60704</Contrato>
+    <Bolsa>60358</Bolsa>
+    <Fecha>22/03/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1366.0000</Avaluo>
+    <Prestamo>683.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60874</Contrato>
+    <Bolsa>60421</Bolsa>
+    <Fecha>25/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1200.0000</Avaluo>
+    <Prestamo>600.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60715</Contrato>
+    <Bolsa>60364</Bolsa>
+    <Fecha>01/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1000.0000</Avaluo>
+    <Prestamo>500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60725</Contrato>
+    <Bolsa>60365</Bolsa>
+    <Fecha>05/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60727</Contrato>
+    <Bolsa>60366</Bolsa>
+    <Fecha>05/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>35000.0000</Avaluo>
+    <Prestamo>17500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60741</Contrato>
+    <Bolsa>60368</Bolsa>
+    <Fecha>06/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>13852.0000</Avaluo>
+    <Prestamo>6926.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60750</Contrato>
+    <Bolsa>60370</Bolsa>
+    <Fecha>07/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60783</Contrato>
+    <Bolsa>60382</Bolsa>
+    <Fecha>13/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>600.0000</Avaluo>
+    <Prestamo>300.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60889</Contrato>
+    <Bolsa>60425</Bolsa>
+    <Fecha>28/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>11500.0000</Avaluo>
+    <Prestamo>5750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60799</Contrato>
+    <Bolsa>60399</Bolsa>
+    <Fecha>12/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60823</Contrato>
+    <Bolsa>60403</Bolsa>
+    <Fecha>19/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>800.0000</Avaluo>
+    <Prestamo>400.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60849</Contrato>
+    <Bolsa>60408</Bolsa>
+    <Fecha>20/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMAL 1</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1000.0000</Avaluo>
+    <Prestamo>500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60849</Contrato>
+    <Bolsa>60408</Bolsa>
+    <Fecha>20/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMAL 3</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1000.0000</Avaluo>
+    <Prestamo>500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60849</Contrato>
+    <Bolsa>60408</Bolsa>
+    <Fecha>20/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMAL 2</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1000.0000</Avaluo>
+    <Prestamo>500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60849</Contrato>
+    <Bolsa>60408</Bolsa>
+    <Fecha>20/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMAL 1</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1000.0000</Avaluo>
+    <Prestamo>500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60849</Contrato>
+    <Bolsa>60408</Bolsa>
+    <Fecha>20/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMAL 3</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1000.0000</Avaluo>
+    <Prestamo>500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60849</Contrato>
+    <Bolsa>60408</Bolsa>
+    <Fecha>20/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMAL 2</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1000.0000</Avaluo>
+    <Prestamo>500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60857</Contrato>
+    <Bolsa>60414</Bolsa>
+    <Fecha>24/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60860</Contrato>
+    <Bolsa>60417</Bolsa>
+    <Fecha>24/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60862</Contrato>
+    <Bolsa>60418</Bolsa>
+    <Fecha>24/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1800.0000</Avaluo>
+    <Prestamo>900.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60865</Contrato>
+    <Bolsa>60419</Bolsa>
+    <Fecha>24/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>2500.0000</Avaluo>
+    <Prestamo>1250.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60973</Contrato>
+    <Bolsa>60467</Bolsa>
+    <Fecha>29/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60890</Contrato>
+    <Bolsa>60426</Bolsa>
+    <Fecha>03/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60891</Contrato>
+    <Bolsa>60427</Bolsa>
+    <Fecha>03/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60892</Contrato>
+    <Bolsa>60428</Bolsa>
+    <Fecha>03/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>2500.0000</Avaluo>
+    <Prestamo>1250.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60904</Contrato>
+    <Bolsa>60433</Bolsa>
+    <Fecha>09/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>5322.0000</Avaluo>
+    <Prestamo>2661.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60905</Contrato>
+    <Bolsa>60434</Bolsa>
+    <Fecha>03/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60906</Contrato>
+    <Bolsa>60435</Bolsa>
+    <Fecha>03/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>2500.0000</Avaluo>
+    <Prestamo>1250.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60908</Contrato>
+    <Bolsa>60437</Bolsa>
+    <Fecha>09/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1000.0000</Avaluo>
+    <Prestamo>500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60913</Contrato>
+    <Bolsa>60442</Bolsa>
+    <Fecha>13/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1000.0000</Avaluo>
+    <Prestamo>500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60925</Contrato>
+    <Bolsa>60453</Bolsa>
+    <Fecha>15/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60934</Contrato>
+    <Bolsa>60455</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1000.0000</Avaluo>
+    <Prestamo>500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60934</Contrato>
+    <Bolsa>60455</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CELU</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>882.0000</Avaluo>
+    <Prestamo>441.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60953</Contrato>
+    <Bolsa>60460</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMAL 2</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>812.0000</Avaluo>
+    <Prestamo>406.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60970</Contrato>
+    <Bolsa>60465</Bolsa>
+    <Fecha>27/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60971</Contrato>
+    <Bolsa>60466</Bolsa>
+    <Fecha>28/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>1500.0000</Avaluo>
+    <Prestamo>750.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60985</Contrato>
+    <Bolsa>60476</Bolsa>
+    <Fecha>16/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>200.0000</Avaluo>
+    <Prestamo>100.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60990</Contrato>
+    <Bolsa>60477</Bolsa>
+    <Fecha>17/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>MINI LATOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>400.0000</Avaluo>
+    <Prestamo>200.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>38213</Contrato>
+    <Bolsa>60474</Bolsa>
+    <Fecha>19/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>500.0000</Avaluo>
+    <Prestamo>250.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>38213</Contrato>
+    <Bolsa>60474</Bolsa>
+    <Fecha>19/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG TAB 4</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>500.0000</Avaluo>
+    <Prestamo>250.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>38213</Contrato>
+    <Bolsa>60474</Bolsa>
+    <Fecha>19/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CELU</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>500.0000</Avaluo>
+    <Prestamo>250.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>38213</Contrato>
+    <Bolsa>60474</Bolsa>
+    <Fecha>19/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>NINTENDO 3DS</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>500.0000</Avaluo>
+    <Prestamo>250.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>38213</Contrato>
+    <Bolsa>60474</Bolsa>
+    <Fecha>19/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PC HP</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>500.0000</Avaluo>
+    <Prestamo>250.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>38213</Contrato>
+    <Bolsa>60474</Bolsa>
+    <Fecha>19/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET ALCATEL</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>500.0000</Avaluo>
+    <Prestamo>250.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>61001</Contrato>
+    <Bolsa>60483</Bolsa>
+    <Fecha>19/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP TOSHIBA</Descripcion>
+    <SubDescripcion>NORMALES</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>500.0000</Avaluo>
+    <Prestamo>250.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60675</Contrato>
+    <Bolsa>60347</Bolsa>
+    <Fecha>15/01/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMA</SubDescripcion>
+    <kt>14</kt>
+    <Peso>4.00</Peso>
+    <Avaluo>3280.0000</Avaluo>
+    <Prestamo>1640.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60675</Contrato>
+    <Bolsa>60347</Bolsa>
+    <Fecha>15/01/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO PERLA</Descripcion>
+    <SubDescripcion>MNORMAL</SubDescripcion>
+    <kt>14</kt>
+    <Peso>5.00</Peso>
+    <Avaluo>4350.0000</Avaluo>
+    <Prestamo>2175.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60851</Contrato>
+    <Bolsa>60407</Bolsa>
+    <Fecha>21/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 2</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>1.0000</Avaluo>
+    <Prestamo>1.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60851</Contrato>
+    <Bolsa>60407</Bolsa>
+    <Fecha>21/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 1</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>668.0000</Avaluo>
+    <Prestamo>334.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60851</Contrato>
+    <Bolsa>60407</Bolsa>
+    <Fecha>21/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 3</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60851</Contrato>
+    <Bolsa>60407</Bolsa>
+    <Fecha>21/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 4</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>871.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60883</Contrato>
+    <Bolsa>60424</Bolsa>
+    <Fecha>25/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>1.0000</Avaluo>
+    <Prestamo>1.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60883</Contrato>
+    <Bolsa>60424</Bolsa>
+    <Fecha>25/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>1.0000</Avaluo>
+    <Prestamo>1.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60883</Contrato>
+    <Bolsa>60424</Bolsa>
+    <Fecha>25/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>717.0000</Avaluo>
+    <Prestamo>358.5000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60883</Contrato>
+    <Bolsa>60424</Bolsa>
+    <Fecha>25/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>717.0000</Avaluo>
+    <Prestamo>358.5000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60708</Contrato>
+    <Bolsa>60359</Bolsa>
+    <Fecha>01/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60754</Contrato>
+    <Bolsa>60369</Bolsa>
+    <Fecha>08/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60756</Contrato>
+    <Bolsa>60371</Bolsa>
+    <Fecha>09/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60770</Contrato>
+    <Bolsa>60379</Bolsa>
+    <Fecha>12/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 1</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60770</Contrato>
+    <Bolsa>60379</Bolsa>
+    <Fecha>12/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 2</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60770</Contrato>
+    <Bolsa>60379</Bolsa>
+    <Fecha>12/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 3</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60771</Contrato>
+    <Bolsa>60380</Bolsa>
+    <Fecha>12/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 1</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60771</Contrato>
+    <Bolsa>60380</Bolsa>
+    <Fecha>12/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 2</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60771</Contrato>
+    <Bolsa>60380</Bolsa>
+    <Fecha>12/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 3</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60776</Contrato>
+    <Bolsa>60381</Bolsa>
+    <Fecha>12/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 1</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>70.0000</Avaluo>
+    <Prestamo>35.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60776</Contrato>
+    <Bolsa>60381</Bolsa>
+    <Fecha>12/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 2</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60776</Contrato>
+    <Bolsa>60381</Bolsa>
+    <Fecha>12/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 3</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60782</Contrato>
+    <Bolsa>60383</Bolsa>
+    <Fecha>13/04/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60784</Contrato>
+    <Bolsa>60384</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMA</SubDescripcion>
+    <kt>14</kt>
+    <Peso>5.00</Peso>
+    <Avaluo>4350.0000</Avaluo>
+    <Prestamo>2175.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60785</Contrato>
+    <Bolsa>60385</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO </Descripcion>
+    <SubDescripcion>NORMA</SubDescripcion>
+    <kt>14</kt>
+    <Peso>6.00</Peso>
+    <Avaluo>5220.0000</Avaluo>
+    <Prestamo>2610.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60786</Contrato>
+    <Bolsa>60386</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>24</kt>
+    <Peso>5.00</Peso>
+    <Avaluo>7456.0000</Avaluo>
+    <Prestamo>3728.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60787</Contrato>
+    <Bolsa>60387</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMA</SubDescripcion>
+    <kt>14</kt>
+    <Peso>6.00</Peso>
+    <Avaluo>5220.0000</Avaluo>
+    <Prestamo>2610.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60788</Contrato>
+    <Bolsa>60388</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMLA</SubDescripcion>
+    <kt>14</kt>
+    <Peso>6.00</Peso>
+    <Avaluo>5220.0000</Avaluo>
+    <Prestamo>2610.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60789</Contrato>
+    <Bolsa>60389</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>NORMAL</Descripcion>
+    <SubDescripcion>NORRMAL</SubDescripcion>
+    <kt>14</kt>
+    <Peso>5.00</Peso>
+    <Avaluo>4350.0000</Avaluo>
+    <Prestamo>2175.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60790</Contrato>
+    <Bolsa>60390</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>TORZAL</SubDescripcion>
+    <kt>14</kt>
+    <Peso>2.00</Peso>
+    <Avaluo>1740.0000</Avaluo>
+    <Prestamo>870.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60791</Contrato>
+    <Bolsa>60391</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>5.00</Peso>
+    <Avaluo>4350.0000</Avaluo>
+    <Prestamo>2175.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60792</Contrato>
+    <Bolsa>60392</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>8.00</Peso>
+    <Avaluo>6958.0000</Avaluo>
+    <Prestamo>3479.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60793</Contrato>
+    <Bolsa>60393</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>9.00</Peso>
+    <Avaluo>7828.0000</Avaluo>
+    <Prestamo>3914.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60794</Contrato>
+    <Bolsa>60394</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NOMAL</SubDescripcion>
+    <kt>24</kt>
+    <Peso>14.00</Peso>
+    <Avaluo>20874.0000</Avaluo>
+    <Prestamo>10437.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60795</Contrato>
+    <Bolsa>60395</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>24</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>1492.0000</Avaluo>
+    <Prestamo>746.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60796</Contrato>
+    <Bolsa>60396</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>24</kt>
+    <Peso>2.00</Peso>
+    <Avaluo>2982.0000</Avaluo>
+    <Prestamo>1491.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60797</Contrato>
+    <Bolsa>60397</Bolsa>
+    <Fecha>11/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>24</kt>
+    <Peso>2.00</Peso>
+    <Avaluo>2982.0000</Avaluo>
+    <Prestamo>1491.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60798</Contrato>
+    <Bolsa>60398</Bolsa>
+    <Fecha>12/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>TORSALES</SubDescripcion>
+    <kt>14</kt>
+    <Peso>2.00</Peso>
+    <Avaluo>1740.0000</Avaluo>
+    <Prestamo>870.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60800</Contrato>
+    <Bolsa>60400</Bolsa>
+    <Fecha>12/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PULSERA FRTNA BROCHE ROTO</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60835</Contrato>
+    <Bolsa>60405</Bolsa>
+    <Fecha>19/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO </Descripcion>
+    <SubDescripcion>CIRCONIAS</SubDescripcion>
+    <kt>14</kt>
+    <Peso>10.00</Peso>
+    <Avaluo>6752.0000</Avaluo>
+    <Prestamo>3376.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60835</Contrato>
+    <Bolsa>60405</Bolsa>
+    <Fecha>19/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>FLORENTINO</SubDescripcion>
+    <kt>14</kt>
+    <Peso>15.00</Peso>
+    <Avaluo>13048.0000</Avaluo>
+    <Prestamo>6524.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60836</Contrato>
+    <Bolsa>60406</Bolsa>
+    <Fecha>19/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ARETES FLOR</Descripcion>
+    <SubDescripcion>CIRCONIAS</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60867</Contrato>
+    <Bolsa>60420</Bolsa>
+    <Fecha>24/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>TORZAL</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60887</Contrato>
+    <Bolsa>60422</Bolsa>
+    <Fecha>27/05/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>70.0000</Avaluo>
+    <Prestamo>35.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60893</Contrato>
+    <Bolsa>60429</Bolsa>
+    <Fecha>03/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60907</Contrato>
+    <Bolsa>60436</Bolsa>
+    <Fecha>03/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60931</Contrato>
+    <Bolsa>60454</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO </Descripcion>
+    <SubDescripcion>TORSALES</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>670.0000</Avaluo>
+    <Prestamo>335.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60943</Contrato>
+    <Bolsa>60457</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PULSERA FRTNA BROCHE ROTO</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>2.00</Peso>
+    <Avaluo>1690.0000</Avaluo>
+    <Prestamo>845.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60943</Contrato>
+    <Bolsa>60457</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>COLLAR</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>3.00</Peso>
+    <Avaluo>2610.0000</Avaluo>
+    <Prestamo>1305.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60943</Contrato>
+    <Bolsa>60457</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>DIJE VIRGEN</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>4.00</Peso>
+    <Avaluo>3480.0000</Avaluo>
+    <Prestamo>1740.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60943</Contrato>
+    <Bolsa>60457</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ARETES FLOR</Descripcion>
+    <SubDescripcion>MNORMAL</SubDescripcion>
+    <kt>14</kt>
+    <Peso>5.00</Peso>
+    <Avaluo>4350.0000</Avaluo>
+    <Prestamo>2175.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60946</Contrato>
+    <Bolsa>60459</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>COLLAR</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>3.00</Peso>
+    <Avaluo>300.0000</Avaluo>
+    <Prestamo>150.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60946</Contrato>
+    <Bolsa>60459</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>DIJE VIRGEN</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>4.00</Peso>
+    <Avaluo>3480.0000</Avaluo>
+    <Prestamo>1740.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60946</Contrato>
+    <Bolsa>60459</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ARETES FLOR</Descripcion>
+    <SubDescripcion>MNORMAL</SubDescripcion>
+    <kt>14</kt>
+    <Peso>5.00</Peso>
+    <Avaluo>4350.0000</Avaluo>
+    <Prestamo>2175.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60969</Contrato>
+    <Bolsa>60464</Bolsa>
+    <Fecha>23/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PULSERA FRTNA BROCHE ROTO</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>12</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>446.0000</Avaluo>
+    <Prestamo>223.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60969</Contrato>
+    <Bolsa>60464</Bolsa>
+    <Fecha>23/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60969</Contrato>
+    <Bolsa>60464</Bolsa>
+    <Fecha>23/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>DIJE VIRGEN</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60979</Contrato>
+    <Bolsa>60468</Bolsa>
+    <Fecha>29/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO </Descripcion>
+    <SubDescripcion>SOLITARIO CON CIRC</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>670.0000</Avaluo>
+    <Prestamo>335.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60992</Contrato>
+    <Bolsa>60473</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 3</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>1.0000</Avaluo>
+    <Prestamo>1.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60992</Contrato>
+    <Bolsa>60473</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 7</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>240.0000</Avaluo>
+    <Prestamo>120.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60992</Contrato>
+    <Bolsa>60473</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL2</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>869.0000</Avaluo>
+    <Prestamo>434.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60992</Contrato>
+    <Bolsa>60473</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>MNORMAL</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60992</Contrato>
+    <Bolsa>60473</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 9</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60992</Contrato>
+    <Bolsa>60473</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 10</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60992</Contrato>
+    <Bolsa>60473</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60992</Contrato>
+    <Bolsa>60473</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 4</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60992</Contrato>
+    <Bolsa>60473</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 6</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60992</Contrato>
+    <Bolsa>60473</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMAL 61</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>870.0000</Avaluo>
+    <Prestamo>435.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60996</Contrato>
+    <Bolsa>60480</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>DIJE VIRGEN</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>8</kt>
+    <Peso>0.10</Peso>
+    <Avaluo>50.0000</Avaluo>
+    <Prestamo>25.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>60997</Contrato>
+    <Bolsa>60481</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>8</kt>
+    <Peso>0.10</Peso>
+    <Avaluo>50.0000</Avaluo>
+    <Prestamo>25.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>38214</Contrato>
+    <Bolsa>60482</Bolsa>
+    <Fecha>19/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>NORMALQ</SubDescripcion>
+    <kt>8</kt>
+    <Peso>0.10</Peso>
+    <Avaluo>50.0000</Avaluo>
+    <Prestamo>25.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+</NewDataSet>

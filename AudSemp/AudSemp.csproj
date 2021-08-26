@@ -146,6 +146,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Management" />
@@ -180,520 +181,469 @@
     <Compile Include="Classes\VistaClass.cs" />
     <Compile Include="ConnectionTools.cs" />
     <Compile Include="Context\abono.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\almacenaje.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\anterior_abono.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Apartados.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\ApartadosEspeciales.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\ApartadosEspecialesConfig.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\ApartadosEspecialesInventario.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Apartados_confg.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\APARTADOS_FUNCION_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ArtPromociones.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ArtPromocionesMovs.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\artventas.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\artventas101.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\artventas201.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\artventas501.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\artventas901.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ArtventasAvances.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ArtventasEstatusAvances.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ArtventasTiempoAvances.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Auditoria.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\auditoria_fisica.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\auditoria_resumen.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\autorizaciones_prestamos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\auxiliar_puesto.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\bolsas_ORO.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\bolsas_OTROS.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\borrorem.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\CAJA_AUXILIAR.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\CAJA_AUXILIAR_FUNCION_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\calificacion_aud.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\clasificacion_cl.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\clientes.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ClientesPtsPromociones.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\clientes_funcion_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\CLONA.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\CLONARTVENTAS.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\CLONB.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\clontabla.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\CLON_APARTADOS.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\CLON_contratos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\comprobaciones.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\comprobaciones_gastos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ConfigGlobalPromociones.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ConfigNotaPagoPromociones.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ConfigPrestamosPromociones.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ConfigRemisionPromociones.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Config_valores_plazos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\contabilidad.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\Context.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Context.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\Context.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Context.edmx</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ContratoDesempeno.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ContratoDesempenoC.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ContratoDesempenoCM.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ContratoDesempenoMensuals.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\contratos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\contrato_conta.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Contrato_temporal.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\CORREO.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\costo_reimpresion.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\CRM_SEMP.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\depositos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\DepositosAvances.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\DepositosAvancesMensual.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\depositos_tipo.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\descuentos_distintos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\documentos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\documentosCorte.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\efectivoCorte.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Empleados.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Empresas.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Envios.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\EstadosRepublica.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\estado_civil.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\EstatusApartado.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\EstatusContratos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\EstatusInventarios.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ETQ_VENTA.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\FactCO.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\FactCTR.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\facturas.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\facturas_funcion_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\factura_conta.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\fechasAU.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\FUNCION_BOLSAS_ORO_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\FUNCION_BOLSAS_OTROS_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\FUNCION_CLIENTES_C_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\FUNCION_CONTRATO_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\FUNCION_EMPRESAS_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\FUNCION_IVA_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\FUNCION_TEMPORAL_PLAZO_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\gastos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\GradoEstudios.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\HistorialinventarioPromocion.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\INFS.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\interes.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\interes_conta.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\inventariopromocion.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Localidades.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\localidades_funcion_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\marcas_localidad.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\MIX11.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\MIX12.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Niveles_acceso.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\NotasDePagoes.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\NotasDePagoMensuals.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\NotasDesempenoAvances.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\NotasDesempenoAvancesMensual.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\NotasRefrendoAvances.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\NotasRefrendoAvancesMensual.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Noticias_SEMP2013.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\NotificacionesTelefonicas.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Nuevacaja.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\OpcionesVerificacion.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\paises.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Pension.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Plazos_prestamos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\PrestamosAvances.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\PrestamosAvancesMensual.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\prestamos_poliza.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\promocioncaja.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\promociones.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\promocionesregalo.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\promociones_Activas.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\prom_aplica.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\prom_aumento.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\prom_descuento_interes.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\prom_ventas.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\prueba.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\PRVyusuarios.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Puestos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\PuntosClientes.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\puntos_confg.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\refrendo.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\RegistroHuellas.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Reimpresiones.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\remate_inventarios.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\remisiones.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\RemisionesAvances.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\RemisionesAvancesMensual.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\remision_impresion_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Respaldos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Retiros.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\RetirosAvances.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\RetirosAvancesMensual.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\SaldoEnCajas.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\SaldoEnVivoCajas.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Saldos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\seguro.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\selcaja.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\SEMP2013_Context.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SEMP2013_Context.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\SEMP2013_Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\SEMP2013_Context.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SEMP2013_Context.edmx</DependentUpon>
     </Compile>
     <Compile Include="Context\sexos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\siglasempresa.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Siglas_inventario.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\SP_CobroDeApartados_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\SP_CobroDeDepositos_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\SP_CobroDeReimpresiones_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\SP_CobroDeRetiros_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\sp_helpdiagrams_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\SP_RemBuscarArtventas_Result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\StatusPromociones.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\sysdiagrams.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\tabla_result.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\TASA_PRESTAMOS.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\TEMP_AVALUO.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\TEMP_AVALUO2.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\tipos_localidad.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\TPavaluos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\transferencias.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\TRFENTRADA.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\VALOR_FACTORES.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\VALOR_FACTORES_MAS.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\vencidos.cs">
-      <DependentUpon>Context.tt</DependentUpon>
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Forms\AleatorioRPT.cs">
       <AutoGen>True</AutoGen>
@@ -1090,12 +1040,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EntityDeploy Include="Context\Context.edmx">
+    <EntityDeploy Include="Context\SEMP2013_Context.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Context.Designer.cs</LastGenOutput>
+      <LastGenOutput>SEMP2013_Context.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Context\Context.edmx.diagram">
-      <DependentUpon>Context.edmx</DependentUpon>
+    <None Include="Context\SEMP2013_Context.edmx.diagram">
+      <DependentUpon>SEMP2013_Context.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\app.manifest" />
@@ -1124,15 +1074,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="audSempICO.ico" />
-    <Content Include="Context\Context.Context.tt">
+    <Content Include="Context\SEMP2013_Context.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Context.edmx</DependentUpon>
-      <LastGenOutput>Context.Context.cs</LastGenOutput>
+      <DependentUpon>SEMP2013_Context.edmx</DependentUpon>
+      <LastGenOutput>SEMP2013_Context.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Context\Context.tt">
+    <Content Include="Context\SEMP2013_Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Context.edmx</DependentUpon>
-      <LastGenOutput>Context.cs</LastGenOutput>
+      <DependentUpon>SEMP2013_Context.edmx</DependentUpon>
+      <LastGenOutput>SEMP2013_Context.cs</LastGenOutput>
     </Content>
     <Content Include="Logo.ico" />
     <None Include="Resources\contratosSmall.png" />

@@ -64,6 +64,7 @@ namespace AudSemp.Forms
         public int cancelEjercicio;
 
         DataTable dt = new DataTable("AudContratos");
+        DataTable dt2 = new DataTable("AudContratosBolsas");
        
         #endregion
 
@@ -503,7 +504,7 @@ namespace AudSemp.Forms
         {
 
 
-            dt.Columns.AddRange(new DataColumn[8]
+            dt.Columns.AddRange(new DataColumn[12]
              {
                     new DataColumn("Contrato"),
                     new DataColumn("Bolsa"),
@@ -512,12 +513,31 @@ namespace AudSemp.Forms
                     new DataColumn("Prestamo"),
                     new DataColumn("Tipo"),
                     new DataColumn("Status"),
-                    new DataColumn("Plazo")
+                    new DataColumn("Plazo"),
+                    new DataColumn("AvaluoOriginal"),
+                    new DataColumn("PrestamoOriginal"),
+                    new DataColumn("PrendasOriginal"),
+                    new DataColumn("PrendasRaiz")
 
 
 
 
              });
+
+            dt2.Columns.AddRange(new DataColumn[10]
+           {
+                    new DataColumn("Contrato"),
+                    new DataColumn("Bolsa"),
+                    new DataColumn("Fecha"),
+                    new DataColumn("Descripcion"),
+                    new DataColumn("SubDescripcion"),
+                    new DataColumn("kt"),
+                    new DataColumn("Peso"),
+                    new DataColumn("Avaluo"),
+                    new DataColumn("Prestamo"),  
+                    new DataColumn("Status"),
+              
+           });
 
 
             ContratosPresenter contratosPresenter = new ContratosPresenter(this);
@@ -741,15 +761,109 @@ namespace AudSemp.Forms
                             }
 
 
+                            //*buscamos el prestamo inicial, valuacion inicial,*//
+                            var vPInicial = db.contratos.Where(u => u.Bolsa == item.Bolsa).OrderBy(u => u.reg).FirstOrDefault();
 
 
-                            dt.Rows.Add(item.Contrato, item.Bolsa,
+                            if (item.valuacion_tipo != "Joyeria")
+                            {
+
+                                int conteoOrignal = db.bolsas_OTROS.Where(P => P.Contrato == vPInicial.Contrato).Count();
+                                int conteoActual = db.bolsas_OTROS.Where(P => P.Contrato == item.Contrato).Count();
+
+                                var contenido = db.bolsas_OTROS.Where(P => P.Contrato == item.Contrato).ToList().OrderBy(p=>p.Estatus_Prenda);
+
+                                dt.Rows.Add(
+                                    item.Contrato, item.Bolsa,
                              DateTime.Parse(item.FechaCons.ToString()).ToString("dd-MM-yyyy"),
                              item.avaluo,
                              item.Prestamo,
                              item.valuacion_tipo,
                              item.Status,
-                             item.Plazo);
+                             item.Plazo,
+                             vPInicial.avaluo,
+                             vPInicial.Prestamo,
+                             conteoOrignal,
+                             conteoActual
+                             );
+
+                                
+
+                                if (contenido != null)
+                                {
+                                    foreach (var contenidos in contenido)
+                                    {
+
+                                        dt2.Rows.Add(
+                                            contenidos.Contrato,
+                                            contenidos.Bolsa,
+                                            contenidos.Fecha,
+                                            contenidos.Descripcion,
+                                            contenidos.SubDescripcion,
+                                            "0",
+                                            "0",
+                                            contenidos.Avaluo,
+                                            contenidos.prestamo,
+                                            contenidos.Estatus_Prenda
+                                            );
+                                    }
+
+                                }
+                              
+
+                            }
+                            else
+                            {
+
+
+                                int conteoOrignal = db.bolsas_ORO.Where(P => P.Contrato == vPInicial.Contrato).Count();
+                                int conteoActual = db.bolsas_ORO.Where(P => P.Contrato == item.Contrato).Count();
+
+                                var contenido = db.bolsas_ORO.Where(P => P.Contrato == item.Contrato).ToList().OrderBy(p => p.EstatusPrenda);
+
+                                dt.Rows.Add(
+                                    item.Contrato,
+                                    item.Bolsa,
+                             DateTime.Parse(item.FechaCons.ToString()).ToString("dd-MM-yyyy"),
+                             item.avaluo,
+                             item.Prestamo,
+                             item.valuacion_tipo,
+                             item.Status,
+                             item.Plazo,
+                             vPInicial.avaluo,
+                             vPInicial.Prestamo,
+                               conteoOrignal,
+                             conteoActual
+                             );
+
+
+
+                                if (contenido != null)
+                                {
+                                    foreach (var contenidos in contenido)
+                                    {
+
+                                        dt2.Rows.Add(
+                                            contenidos.Contrato,
+                                            contenidos.Bolsa,
+                                            contenidos.Fecha,
+                                            contenidos.Descripcion,
+                                            contenidos.SubDescripcion,
+                                            contenidos.Kilates,
+                                            contenidos.PesoReal,
+                                            contenidos.Avaluo,
+                                            contenidos.Prestamo,
+                                            contenidos.EstatusPrenda
+                                            );
+                                    }
+
+                                }
+
+
+                            }
+
+
+
 
 
                         }
@@ -834,6 +948,8 @@ namespace AudSemp.Forms
 
 
                 dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/audRandomContratos.xml", XmlWriteMode.WriteSchema);
+
+                dt2.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/audRandomContratosB.xml", XmlWriteMode.WriteSchema);
 
 
 

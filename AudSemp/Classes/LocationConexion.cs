@@ -110,7 +110,7 @@ namespace AudSemp.Classes
                 {
                     connection.Open();
                   //  db.Database.Connection.Open();
-                    canConnect = true;
+                 canConnect = true;
                 }
 
                
@@ -149,7 +149,7 @@ namespace AudSemp.Classes
                 InitialCatalog = database,  //Database
                 UserID = user,         //Username
                 Password = pass,  //Password
-                PersistSecurityInfo = true,
+               // PersistSecurityInfo = true,
                 MultipleActiveResultSets = true,
 
             };
@@ -161,9 +161,16 @@ namespace AudSemp.Classes
                 EntityConnectionStringBuilder entityString = new EntityConnectionStringBuilder()
                 {
                     Provider = "System.Data.SqlClient",
-                    Metadata = "res://*/Context.Context.csdl|res://*/Context.Context.ssdl|res://*/Context.Context.msl",
-                    ProviderConnectionString = sqlString.ToString() + ";App=EntityFramework;"
-                   
+                    Metadata = "res://*/Context.SEMP2013_Context.csdl|res://*/Context.SEMP2013_Context.ssdl|res://*/Context.SEMP2013_Context.msl",
+                    ProviderConnectionString = sqlString.ToString() + ";App=EntityFramework;" //App
+
+
+
+                    // Provider = "System.Data.SqlClient",
+                    //Metadata = "res://*/Context.Context.csdl|res://*/Context.Context.ssdl|res://*/Context.Context.msl",
+                    //ProviderConnectionString = sqlString.ToString() + ";App=EntityFramework;" //App
+
+
                 };
                 data=entityString.ConnectionString;
 
