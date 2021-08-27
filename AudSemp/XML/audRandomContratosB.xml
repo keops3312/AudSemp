@@ -25,6 +25,1098 @@
     </xs:element>
   </xs:schema>
   <AudContratosBolsas>
+    <Contrato>45634</Contrato>
+    <Bolsa>25180</Bolsa>
+    <Fecha>28/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP 15DA0XXX</Descripcion>
+    <SubDescripcion>RAM 8GB DD1TB INTERCORE I3 7TH GEN W10</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>7520.0000</Avaluo>
+    <Prestamo>3760.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64415</Contrato>
+    <Bolsa>61683</Bolsa>
+    <Fecha>06/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP HP </Descripcion>
+    <SubDescripcion>HP240G6NOTEBOOK PCK</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>5000.0000</Avaluo>
+    <Prestamo>2500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45825</Contrato>
+    <Bolsa>24986</Bolsa>
+    <Fecha>13/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP BW0XX</Descripcion>
+    <SubDescripcion>RAM 12GB DD1TB AMDA09 W10</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>8538.0000</Avaluo>
+    <Prestamo>4269.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45825</Contrato>
+    <Bolsa>24986</Bolsa>
+    <Fecha>13/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ESTUCHE COLOR GRIS CAMUFLAJEADO</Descripcion>
+    <SubDescripcion>LAPTOP HP</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>2.0000</Avaluo>
+    <Prestamo>1.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45901</Contrato>
+    <Bolsa>25269</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP ACER</Descripcion>
+    <SubDescripcion>ACER A 515 51</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>7600.0000</Avaluo>
+    <Prestamo>3800.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45979</Contrato>
+    <Bolsa>25032</Bolsa>
+    <Fecha>23/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET HUAWEI</Descripcion>
+    <SubDescripcion>MEDIAPAD T310 AGSL03</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>3000.0000</Avaluo>
+    <Prestamo>1500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46004</Contrato>
+    <Bolsa>25312</Bolsa>
+    <Fecha>24/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HUAWEI BOHKWAX9X</Descripcion>
+    <SubDescripcion>RAM 8GB DD1TB AMD RYZEN5 W10</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>10800.0000</Avaluo>
+    <Prestamo>5400.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46055</Contrato>
+    <Bolsa>24355</Bolsa>
+    <Fecha>29/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG GALAXY TAB A</Descripcion>
+    <SubDescripcion>80 2019</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>2200.0000</Avaluo>
+    <Prestamo>1100.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46066</Contrato>
+    <Bolsa>61614</Bolsa>
+    <Fecha>29/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP HUAWEI</Descripcion>
+    <SubDescripcion>NBLWAQ9R</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>6000.0000</Avaluo>
+    <Prestamo>3000.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46078</Contrato>
+    <Bolsa>23207</Bolsa>
+    <Fecha>30/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP LENOVO</Descripcion>
+    <SubDescripcion>MODELO IDEAPAD 320</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>3600.0000</Avaluo>
+    <Prestamo>1800.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46086</Contrato>
+    <Bolsa>24754</Bolsa>
+    <Fecha>30/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP</Descripcion>
+    <SubDescripcion>ACER SIN MODELO</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>4800.0000</Avaluo>
+    <Prestamo>2400.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46098</Contrato>
+    <Bolsa>24921</Bolsa>
+    <Fecha>31/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>TABLET SAMSUNG  GALAXY TAB A</Descripcion>
+    <SubDescripcion>SHT510</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>4000.0000</Avaluo>
+    <Prestamo>2000.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46109</Contrato>
+    <Bolsa>24911</Bolsa>
+    <Fecha>02/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP 14CB172WM</Descripcion>
+    <SubDescripcion>RAM 4GB DD 57.6GB INTEL CELERON</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>4000.0000</Avaluo>
+    <Prestamo>2000.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46178</Contrato>
+    <Bolsa>24768</Bolsa>
+    <Fecha>06/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP DELL LATITUDE E5450</Descripcion>
+    <SubDescripcion>RAM 8GB DD500MB INTEL CORE I5 W10</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>6300.0000</Avaluo>
+    <Prestamo>3150.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64522</Contrato>
+    <Bolsa>24293</Bolsa>
+    <Fecha>07/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP HP PROBOOK440G4</Descripcion>
+    <SubDescripcion>W10 500GB INTEL CORE I7 8 GB</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>5640.0000</Avaluo>
+    <Prestamo>2820.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64530</Contrato>
+    <Bolsa>24376</Bolsa>
+    <Fecha>07/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>15CW00071A</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>8100.0000</Avaluo>
+    <Prestamo>4050.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64536</Contrato>
+    <Bolsa>24927</Bolsa>
+    <Fecha>10/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP LENOVO 8E3</Descripcion>
+    <SubDescripcion>4GB DD1TB AMDA8 W8</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>6400.0000</Avaluo>
+    <Prestamo>3200.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64538</Contrato>
+    <Bolsa>61728</Bolsa>
+    <Fecha>10/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP HP </Descripcion>
+    <SubDescripcion>HP PAVILION 15 </SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>7840.0000</Avaluo>
+    <Prestamo>3920.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46239</Contrato>
+    <Bolsa>25386</Bolsa>
+    <Fecha>12/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP LENOVO 80E1</Descripcion>
+    <SubDescripcion>RAM 8GB DD222GB AMD 6410 RADEON R5 W10</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>4000.0000</Avaluo>
+    <Prestamo>2000.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46242</Contrato>
+    <Bolsa>25387</Bolsa>
+    <Fecha>12/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PANTALLA LED SAMSUNG 51"</Descripcion>
+    <SubDescripcion>PL51D490A1DX2X</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>5000.0000</Avaluo>
+    <Prestamo>2500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46263</Contrato>
+    <Bolsa>25394</Bolsa>
+    <Fecha>14/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>MINILAPTOP ACER AS</Descripcion>
+    <SubDescripcion>RAMM 2GB DD500 INTER CELERON W10</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>3000.0000</Avaluo>
+    <Prestamo>1500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64564</Contrato>
+    <Bolsa>61736</Bolsa>
+    <Fecha>16/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP LENOVO</Descripcion>
+    <SubDescripcion>81D5</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>2800.0000</Avaluo>
+    <Prestamo>1400.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46294</Contrato>
+    <Bolsa>25406</Bolsa>
+    <Fecha>17/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP HP</Descripcion>
+    <SubDescripcion>UEFI</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>6000.0000</Avaluo>
+    <Prestamo>3000.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46299</Contrato>
+    <Bolsa>24925</Bolsa>
+    <Fecha>17/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP ASUS E402NA</Descripcion>
+    <SubDescripcion>2GB 500GB INTER CELERON W10</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>4400.0000</Avaluo>
+    <Prestamo>2200.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46319</Contrato>
+    <Bolsa>25002</Bolsa>
+    <Fecha>18/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP LENOVO</Descripcion>
+    <SubDescripcion>80XQ</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>2800.0000</Avaluo>
+    <Prestamo>1400.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46333</Contrato>
+    <Bolsa>25124</Bolsa>
+    <Fecha>20/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAPTOP DELL</Descripcion>
+    <SubDescripcion>P90F</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>2400.0000</Avaluo>
+    <Prestamo>1200.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64590</Contrato>
+    <Bolsa>61747</Bolsa>
+    <Fecha>23/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP LENOVO</Descripcion>
+    <SubDescripcion>8LST</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>4300.0000</Avaluo>
+    <Prestamo>2150.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64594</Contrato>
+    <Bolsa>61605</Bolsa>
+    <Fecha>23/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>LAP TOP ASUS</Descripcion>
+    <SubDescripcion>X54OB</SubDescripcion>
+    <kt>0</kt>
+    <Peso>0</Peso>
+    <Avaluo>4800.0000</Avaluo>
+    <Prestamo>2400.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45506</Contrato>
+    <Bolsa>25142</Bolsa>
+    <Fecha>15/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>BRAZALETE </Descripcion>
+    <SubDescripcion>CON CIRCONIAS</SubDescripcion>
+    <kt>14</kt>
+    <Peso>12.80</Peso>
+    <Avaluo>17070.0000</Avaluo>
+    <Prestamo>8535.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64334</Contrato>
+    <Bolsa>61650</Bolsa>
+    <Fecha>23/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO FLOR CIRCULAR</Descripcion>
+    <SubDescripcion>CON CIRCONIAS</SubDescripcion>
+    <kt>10</kt>
+    <Peso>2.50</Peso>
+    <Avaluo>2400.0000</Avaluo>
+    <Prestamo>1200.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45739</Contrato>
+    <Bolsa>14560</Bolsa>
+    <Fecha>06/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ESCLAVA FIGARO</Descripcion>
+    <SubDescripcion>DIAMANTADA</SubDescripcion>
+    <kt>14</kt>
+    <Peso>5.20</Peso>
+    <Avaluo>1920.0000</Avaluo>
+    <Prestamo>960.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45740</Contrato>
+    <Bolsa>14630</Bolsa>
+    <Fecha>06/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PAR DE ARETES</Descripcion>
+    <SubDescripcion>OJO DE GATO</SubDescripcion>
+    <kt>14</kt>
+    <Peso>2.50</Peso>
+    <Avaluo>1490.0000</Avaluo>
+    <Prestamo>745.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45741</Contrato>
+    <Bolsa>15230</Bolsa>
+    <Fecha>06/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PAR DE ARETES BVLGARI</Descripcion>
+    <SubDescripcion>C ONIX</SubDescripcion>
+    <kt>14</kt>
+    <Peso>2.00</Peso>
+    <Avaluo>1180.0000</Avaluo>
+    <Prestamo>590.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45887</Contrato>
+    <Bolsa>61312</Bolsa>
+    <Fecha>16/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>DIJE CRUZ</Descripcion>
+    <SubDescripcion>CRISTO</SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.90</Peso>
+    <Avaluo>900.0000</Avaluo>
+    <Prestamo>450.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46062</Contrato>
+    <Bolsa>25342</Bolsa>
+    <Fecha>29/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO SOLITARIO</Descripcion>
+    <SubDescripcion>CON CIRC     </SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.80</Peso>
+    <Avaluo>1740.0000</Avaluo>
+    <Prestamo>870.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46085</Contrato>
+    <Bolsa>25347</Bolsa>
+    <Fecha>30/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ESCLAVA SOLO PLACA</Descripcion>
+    <SubDescripcion>EULALIO</SubDescripcion>
+    <kt>14</kt>
+    <Peso>15.00</Peso>
+    <Avaluo>20350.0000</Avaluo>
+    <Prestamo>10175.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46085</Contrato>
+    <Bolsa>25347</Bolsa>
+    <Fecha>30/07/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ESLABONES</Descripcion>
+    <SubDescripcion>DE PULCERA PLACA</SubDescripcion>
+    <kt>10</kt>
+    <Peso>27.50</Peso>
+    <Avaluo>26650.0000</Avaluo>
+    <Prestamo>13325.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46108</Contrato>
+    <Bolsa>61673</Bolsa>
+    <Fecha>02/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>TORZAL</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.10</Peso>
+    <Avaluo>1062.0000</Avaluo>
+    <Prestamo>531.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46108</Contrato>
+    <Bolsa>61673</Bolsa>
+    <Fecha>02/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>MEDALLA OVAL</Descripcion>
+    <SubDescripcion>VIRGEN  </SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.70</Peso>
+    <Avaluo>678.0000</Avaluo>
+    <Prestamo>339.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46169</Contrato>
+    <Bolsa>22532</Bolsa>
+    <Fecha>06/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ARRACADA IMPAR</Descripcion>
+    <SubDescripcion>FACETADAS</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.30</Peso>
+    <Avaluo>70.0000</Avaluo>
+    <Prestamo>35.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46169</Contrato>
+    <Bolsa>22532</Bolsa>
+    <Fecha>06/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO CHURUMBELA</Descripcion>
+    <SubDescripcion>C/CIRC</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.50</Peso>
+    <Avaluo>370.0000</Avaluo>
+    <Prestamo>185.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46169</Contrato>
+    <Bolsa>22532</Bolsa>
+    <Fecha>06/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>FLORENTINA</SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.70</Peso>
+    <Avaluo>457.0000</Avaluo>
+    <Prestamo>228.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46169</Contrato>
+    <Bolsa>22532</Bolsa>
+    <Fecha>06/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PAR DE ARETES</Descripcion>
+    <SubDescripcion>MARIPOSA CON CIRC</SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.80</Peso>
+    <Avaluo>522.0000</Avaluo>
+    <Prestamo>261.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46169</Contrato>
+    <Bolsa>22532</Bolsa>
+    <Fecha>06/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO SOLITARIO</Descripcion>
+    <SubDescripcion>CIRCONIAS</SubDescripcion>
+    <kt>10</kt>
+    <Peso>2.90</Peso>
+    <Avaluo>895.0000</Avaluo>
+    <Prestamo>448.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46169</Contrato>
+    <Bolsa>22532</Bolsa>
+    <Fecha>06/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO CUADRO</Descripcion>
+    <SubDescripcion>ONIX</SubDescripcion>
+    <kt>14</kt>
+    <Peso>2.80</Peso>
+    <Avaluo>556.0000</Avaluo>
+    <Prestamo>278.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46276</Contrato>
+    <Bolsa>61592</Bolsa>
+    <Fecha>16/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>MEDALLA OVAL</Descripcion>
+    <SubDescripcion>VIRGEN</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.50</Peso>
+    <Avaluo>1416.0000</Avaluo>
+    <Prestamo>708.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46276</Contrato>
+    <Bolsa>61592</Bolsa>
+    <Fecha>16/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA TORZAL</Descripcion>
+    <SubDescripcion>ROTA</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>944.0000</Avaluo>
+    <Prestamo>472.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>46279</Contrato>
+    <Bolsa>23957</Bolsa>
+    <Fecha>16/08/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ARGOLLA MATRIMONIAL</Descripcion>
+    <SubDescripcion>GRABADA</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.40</Peso>
+    <Avaluo>1400.0000</Avaluo>
+    <Prestamo>700.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45413</Contrato>
+    <Bolsa>61281</Bolsa>
+    <Fecha>08/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>MEDALLA OVAL</Descripcion>
+    <SubDescripcion>VIRGEN CON CIRC</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.40</Peso>
+    <Avaluo>1950.0000</Avaluo>
+    <Prestamo>975.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45428</Contrato>
+    <Bolsa>25109</Bolsa>
+    <Fecha>09/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA ESPEJO</Descripcion>
+    <SubDescripcion>RELIMADA Y SUCIA</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.20</Peso>
+    <Avaluo>1157.0000</Avaluo>
+    <Prestamo>578.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45428</Contrato>
+    <Bolsa>25109</Bolsa>
+    <Fecha>09/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>MEDALLA CIRCULAR VIRGEN</Descripcion>
+    <SubDescripcion>CON CIRCONIAS</SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.50</Peso>
+    <Avaluo>483.0000</Avaluo>
+    <Prestamo>242.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64280</Contrato>
+    <Bolsa>61630</Bolsa>
+    <Fecha>10/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ESCLAVA C PLACA</Descripcion>
+    <SubDescripcion>FIGARO</SubDescripcion>
+    <kt>14</kt>
+    <Peso>9.10</Peso>
+    <Avaluo>12350.0000</Avaluo>
+    <Prestamo>6175.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64282</Contrato>
+    <Bolsa>24773</Bolsa>
+    <Fecha>10/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>DIJE SAGRADO CORAZON</Descripcion>
+    <SubDescripcion>FLORENTINO</SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.70</Peso>
+    <Avaluo>660.0000</Avaluo>
+    <Prestamo>330.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45452</Contrato>
+    <Bolsa>24256</Bolsa>
+    <Fecha>10/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO SOLITARIO</Descripcion>
+    <SubDescripcion>CON CIRCONIAS</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.60</Peso>
+    <Avaluo>1102.0000</Avaluo>
+    <Prestamo>551.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45481</Contrato>
+    <Bolsa>25129</Bolsa>
+    <Fecha>14/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA  </Descripcion>
+    <SubDescripcion>CAJA</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.40</Peso>
+    <Avaluo>1900.0000</Avaluo>
+    <Prestamo>950.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45497</Contrato>
+    <Bolsa>25137</Bolsa>
+    <Fecha>15/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA  </Descripcion>
+    <SubDescripcion>TORZAL</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>964.0000</Avaluo>
+    <Prestamo>482.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45497</Contrato>
+    <Bolsa>25137</Bolsa>
+    <Fecha>15/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PAR DE ARETES ATRAPA SUEÑOS</Descripcion>
+    <SubDescripcion>CON CIRCONIAS</SubDescripcion>
+    <kt>10</kt>
+    <Peso>2.30</Peso>
+    <Avaluo>2217.0000</Avaluo>
+    <Prestamo>1108.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45497</Contrato>
+    <Bolsa>25137</Bolsa>
+    <Fecha>15/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ARGOLLA SOLDADA</Descripcion>
+    <SubDescripcion>LISA ORILLAS</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.40</Peso>
+    <Avaluo>1889.0000</Avaluo>
+    <Prestamo>944.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45497</Contrato>
+    <Bolsa>25137</Bolsa>
+    <Fecha>15/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ARGOLLA SOLDADA</Descripcion>
+    <SubDescripcion>LISA DE LAS ORILLAS</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.40</Peso>
+    <Avaluo>1889.0000</Avaluo>
+    <Prestamo>944.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45497</Contrato>
+    <Bolsa>25137</Bolsa>
+    <Fecha>15/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>DIJE OVAL</Descripcion>
+    <SubDescripcion>VIRGEN FLORENTINO</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.70</Peso>
+    <Avaluo>1641.0000</Avaluo>
+    <Prestamo>822.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64302</Contrato>
+    <Bolsa>61082</Bolsa>
+    <Fecha>16/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ARRACADA SIN PAR </Descripcion>
+    <SubDescripcion>TIPO CANASTA</SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.50</Peso>
+    <Avaluo>475.0000</Avaluo>
+    <Prestamo>237.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64302</Contrato>
+    <Bolsa>61082</Bolsa>
+    <Fecha>16/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO SOLITARIO</Descripcion>
+    <SubDescripcion>C RUBI</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.10</Peso>
+    <Avaluo>1047.0000</Avaluo>
+    <Prestamo>523.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64302</Contrato>
+    <Bolsa>61082</Bolsa>
+    <Fecha>16/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO CON RUBI</Descripcion>
+    <SubDescripcion>C CIRCONIAS</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.10</Peso>
+    <Avaluo>1464.0000</Avaluo>
+    <Prestamo>732.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64302</Contrato>
+    <Bolsa>61082</Bolsa>
+    <Fecha>16/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ARRACADA SIN PAR </Descripcion>
+    <SubDescripcion>GRABADA  </SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.60</Peso>
+    <Avaluo>574.0000</Avaluo>
+    <Prestamo>288.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64303</Contrato>
+    <Bolsa>24024</Bolsa>
+    <Fecha>16/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO </Descripcion>
+    <SubDescripcion>CON CIRCONIAS</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.20</Peso>
+    <Avaluo>1199.0000</Avaluo>
+    <Prestamo>599.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64303</Contrato>
+    <Bolsa>24024</Bolsa>
+    <Fecha>16/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PAR DE ARRACADAS</Descripcion>
+    <SubDescripcion>FLORENTINA</SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.90</Peso>
+    <Avaluo>900.0000</Avaluo>
+    <Prestamo>450.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64303</Contrato>
+    <Bolsa>24024</Bolsa>
+    <Fecha>16/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>DIJE CIRCULAR</Descripcion>
+    <SubDescripcion>DOS OROS</SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.70</Peso>
+    <Avaluo>701.0000</Avaluo>
+    <Prestamo>351.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45526</Contrato>
+    <Bolsa>25143</Bolsa>
+    <Fecha>16/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PULCERA FIGARO </Descripcion>
+    <SubDescripcion>DIAMANTADA</SubDescripcion>
+    <kt>14</kt>
+    <Peso>11.60</Peso>
+    <Avaluo>14000.0000</Avaluo>
+    <Prestamo>7000.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64305</Contrato>
+    <Bolsa>61639</Bolsa>
+    <Fecha>18/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA ESPEJO</Descripcion>
+    <SubDescripcion>ROTA FLORENTINA</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.60</Peso>
+    <Avaluo>1540.0000</Avaluo>
+    <Prestamo>770.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45560</Contrato>
+    <Bolsa>61572</Bolsa>
+    <Fecha>18/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO CIRCULOS</Descripcion>
+    <SubDescripcion>CON CIRCONIAS</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>860.0000</Avaluo>
+    <Prestamo>430.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45562</Contrato>
+    <Bolsa>23993</Bolsa>
+    <Fecha>19/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PAR DE ARETES</Descripcion>
+    <SubDescripcion>CORONA UNA MARIPOSA CHAPA</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.20</Peso>
+    <Avaluo>1205.0000</Avaluo>
+    <Prestamo>602.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45562</Contrato>
+    <Bolsa>23993</Bolsa>
+    <Fecha>19/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PAR DE ARETES</Descripcion>
+    <SubDescripcion>CON CIRCONIAS</SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.30</Peso>
+    <Avaluo>302.0000</Avaluo>
+    <Prestamo>151.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45562</Contrato>
+    <Bolsa>23993</Bolsa>
+    <Fecha>19/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PAR DE ARETES</Descripcion>
+    <SubDescripcion>CON CIRCONIAS</SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.30</Peso>
+    <Avaluo>304.0000</Avaluo>
+    <Prestamo>153.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45562</Contrato>
+    <Bolsa>23993</Bolsa>
+    <Fecha>19/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PULCERA</Descripcion>
+    <SubDescripcion>OJO DE GATO</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.70</Peso>
+    <Avaluo>2389.0000</Avaluo>
+    <Prestamo>1194.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64327</Contrato>
+    <Bolsa>61648</Bolsa>
+    <Fecha>23/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PAR DE ARETES</Descripcion>
+    <SubDescripcion>SIN MARIPOSA CON CIRCONIAS</SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.20</Peso>
+    <Avaluo>160.0000</Avaluo>
+    <Prestamo>80.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64332</Contrato>
+    <Bolsa>61649</Bolsa>
+    <Fecha>23/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO </Descripcion>
+    <SubDescripcion>DELFINES FLORENTINO</SubDescripcion>
+    <kt>10</kt>
+    <Peso>3.40</Peso>
+    <Avaluo>3000.0000</Avaluo>
+    <Prestamo>1500.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64333</Contrato>
+    <Bolsa>24855</Bolsa>
+    <Fecha>23/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PAR DE ARRACADAS</Descripcion>
+    <SubDescripcion>FACETADAS</SubDescripcion>
+    <kt>14</kt>
+    <Peso>0.70</Peso>
+    <Avaluo>800.0000</Avaluo>
+    <Prestamo>400.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45636</Contrato>
+    <Bolsa>24881</Bolsa>
+    <Fecha>28/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO FLORENTINO</Descripcion>
+    <SubDescripcion>TRIANGULO</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.60</Peso>
+    <Avaluo>2229.0000</Avaluo>
+    <Prestamo>1114.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45636</Contrato>
+    <Bolsa>24881</Bolsa>
+    <Fecha>28/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLO </Descripcion>
+    <SubDescripcion>SOLITARIO</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.80</Peso>
+    <Avaluo>2507.0000</Avaluo>
+    <Prestamo>1253.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45636</Contrato>
+    <Bolsa>24881</Bolsa>
+    <Fecha>28/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>MEDALLA CIRCULAR</Descripcion>
+    <SubDescripcion>VIRGEN  </SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.20</Peso>
+    <Avaluo>1672.0000</Avaluo>
+    <Prestamo>836.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45636</Contrato>
+    <Bolsa>24881</Bolsa>
+    <Fecha>28/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>GARGANTILLA ESFERAS</Descripcion>
+    <SubDescripcion>SOL Y LUNA</SubDescripcion>
+    <kt>14</kt>
+    <Peso>2.20</Peso>
+    <Avaluo>3065.0000</Avaluo>
+    <Prestamo>1532.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45636</Contrato>
+    <Bolsa>24881</Bolsa>
+    <Fecha>28/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA FIGARO</Descripcion>
+    <SubDescripcion>DIAMANTADA</SubDescripcion>
+    <kt>14</kt>
+    <Peso>2.00</Peso>
+    <Avaluo>2787.0000</Avaluo>
+    <Prestamo>1395.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45639</Contrato>
+    <Bolsa>25181</Bolsa>
+    <Fecha>29/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ESCLAVA  </Descripcion>
+    <SubDescripcion>CON PLACA</SubDescripcion>
+    <kt>8</kt>
+    <Peso>9.30</Peso>
+    <Avaluo>7200.0000</Avaluo>
+    <Prestamo>3600.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64381</Contrato>
+    <Bolsa>25027</Bolsa>
+    <Fecha>30/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>MEDALLA OVAL VIRGEN</Descripcion>
+    <SubDescripcion>GRAVADA</SubDescripcion>
+    <kt>14</kt>
+    <Peso>0.80</Peso>
+    <Avaluo>1060.0000</Avaluo>
+    <Prestamo>530.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>64382</Contrato>
+    <Bolsa>24799</Bolsa>
+    <Fecha>30/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA FIGARO </Descripcion>
+    <SubDescripcion>SENCILLA</SubDescripcion>
+    <kt>14</kt>
+    <Peso>1.40</Peso>
+    <Avaluo>1860.0000</Avaluo>
+    <Prestamo>930.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45663</Contrato>
+    <Bolsa>24862</Bolsa>
+    <Fecha>30/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>CADENA  </Descripcion>
+    <SubDescripcion>FIGARO</SubDescripcion>
+    <kt>14</kt>
+    <Peso>3.10</Peso>
+    <Avaluo>4114.0000</Avaluo>
+    <Prestamo>2057.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45663</Contrato>
+    <Bolsa>24862</Bolsa>
+    <Fecha>30/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>DIJE SAGRADO CORAZON</Descripcion>
+    <SubDescripcion>SOLO EL CONTORNO ES ORO</SubDescripcion>
+    <kt>14</kt>
+    <Peso>0.50</Peso>
+    <Avaluo>666.0000</Avaluo>
+    <Prestamo>333.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45666</Contrato>
+    <Bolsa>61081</Bolsa>
+    <Fecha>30/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PULCERA CRUZ</Descripcion>
+    <SubDescripcion>CON PIEDRAS</SubDescripcion>
+    <kt>10</kt>
+    <Peso>2.20</Peso>
+    <Avaluo>2092.0000</Avaluo>
+    <Prestamo>1046.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45666</Contrato>
+    <Bolsa>61081</Bolsa>
+    <Fecha>30/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PAR DE ARETES</Descripcion>
+    <SubDescripcion>BUHO</SubDescripcion>
+    <kt>10</kt>
+    <Peso>0.30</Peso>
+    <Avaluo>288.0000</Avaluo>
+    <Prestamo>144.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45667</Contrato>
+    <Bolsa>24575</Bolsa>
+    <Fecha>30/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>PAR DE ARETES</Descripcion>
+    <SubDescripcion>CON CIRCONIAS</SubDescripcion>
+    <kt>14</kt>
+    <Peso>0.90</Peso>
+    <Avaluo>1192.0000</Avaluo>
+    <Prestamo>596.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
+    <Contrato>45667</Contrato>
+    <Bolsa>24575</Bolsa>
+    <Fecha>30/06/2021 12:00:00 a. m.</Fecha>
+    <Descripcion>ANILLOS SENCILLOS SOLDADOS</Descripcion>
+    <SubDescripcion>CHUECOS Y MALTRATADOS</SubDescripcion>
+    <kt>10</kt>
+    <Peso>1.00</Peso>
+    <Avaluo>948.0000</Avaluo>
+    <Prestamo>474.0000</Prestamo>
+    <Status>EN RESGUARDO</Status>
+  </AudContratosBolsas>
+  <AudContratosBolsas>
     <Contrato>45673</Contrato>
     <Bolsa>25189</Bolsa>
     <Fecha>01/07/2021 12:00:00 a. m.</Fecha>

@@ -504,7 +504,7 @@ namespace AudSemp.Forms
         {
 
 
-            dt.Columns.AddRange(new DataColumn[13]
+            dt.Columns.AddRange(new DataColumn[14]
              {
                     new DataColumn("Contrato"),
                     new DataColumn("Bolsa"),
@@ -518,7 +518,8 @@ namespace AudSemp.Forms
                     new DataColumn("PrestamoOriginal"),
                     new DataColumn("PrendasOriginal"),
                     new DataColumn("PrendasRaiz"),
-                    new DataColumn("ContratoOriginal")
+                    new DataColumn("ContratoOriginal"),
+                     new DataColumn("FechaRaiz")
 
 
 
@@ -786,7 +787,8 @@ namespace AudSemp.Forms
                              vPInicial.Prestamo,
                              conteoOrignal,
                              conteoActual,
-                             vPInicial.Contrato
+                             vPInicial.Contrato,
+                             vPInicial.FechaCons
                              );
 
                                 
@@ -836,7 +838,8 @@ namespace AudSemp.Forms
                              vPInicial.Prestamo,
                                conteoOrignal,
                                conteoActual,
-                             vPInicial.Contrato
+                            vPInicial.Contrato,
+                             vPInicial.FechaCons
                              );
 
 
@@ -939,12 +942,7 @@ namespace AudSemp.Forms
 
             if (decision == 1)
             {
-                using (XLWorkbook wb = new XLWorkbook())
-                {
-                    wb.Worksheets.Add(dt);
-                    wb.SaveAs(ruta);
-
-                }
+                ExcelFormat(dt, dt2);
             }
             else if (decision == 2)
             {
@@ -963,7 +961,113 @@ namespace AudSemp.Forms
 
 
 
+        private void ExcelFormat(DataTable dt , DataTable dt2)
+        {
 
+            try
+            {
+
+                DataTable dtBase = new DataTable("AudResultadosRND");
+                dtBase.Columns.AddRange(new DataColumn[14]
+                {
+                    new DataColumn("Contrato"),
+                    new DataColumn("Bolsa"),
+                    new DataColumn("Fecha"),
+                    new DataColumn("Avaluo"),
+                    new DataColumn("Prestamo"),
+                    new DataColumn("Tipo"),
+                    new DataColumn("Status"),
+                    new DataColumn("Plazo"),
+                    new DataColumn("AvaluoOriginal"),
+                    new DataColumn("PrestamoOriginal"),
+                    new DataColumn("PrendasOriginal"),
+                    new DataColumn("PrendasRaiz"),
+                    new DataColumn("ContratoOriginal"),
+                     new DataColumn("FechaRaiz")
+
+
+
+
+                 });
+
+
+
+
+                foreach (DataRow fila in dt.Rows)
+                {
+                    //*agregamos la fila a la base principal
+                    dtBase.Rows.Add(
+                        int.Parse(fila["Contrato"].ToString()).ToString(),
+                        int.Parse(fila["Bolsa"].ToString()).ToString(),
+                        DateTime.Parse(fila["Fecha"].ToString()).ToString("dd-MMM-yyyy"),
+                        decimal.Parse(fila["Avaluo"].ToString()).ToString("C2"),
+                        decimal.Parse(fila["Prestamo"].ToString()).ToString("C2"),
+                        fila["Tipo"].ToString(),
+                        fila["Status"].ToString(),
+                        fila["Plazo"].ToString(),
+                        decimal.Parse(fila["AvaluoOriginal"].ToString()).ToString("C2"),
+                        decimal.Parse(fila["PrestamoOriginal"].ToString()).ToString("C2"),
+                        int.Parse(fila["PrendasOriginal"].ToString()).ToString(),
+                        int.Parse(fila["PrendasRaiz"].ToString()).ToString(),
+                        int.Parse(fila["ContratoOriginal"].ToString()).ToString(),
+                        DateTime.Parse(fila["FechaRaiz"].ToString()).ToString("dd-MMM-yyyy")
+
+                        );
+
+
+
+                    foreach (DataRow row in dt2.Rows)
+                    {
+                        if (row["Contrato"].ToString()==fila["Contrato"].ToString())
+                        {
+
+
+                         
+
+
+                            dtBase.Rows.Add(
+                              "",
+                              "",
+                              "",
+                              row["Descripcion"].ToString(),
+                              row["SubDescripcion"].ToString(),
+                              row["kt"].ToString(),
+                              row["Peso"].ToString(),
+                              "",
+                              decimal.Parse(row["Avaluo"].ToString()).ToString("C2"),
+                              decimal.Parse(row["Prestamo"].ToString()).ToString("C2"),
+                              row["Status"].ToString(),
+                              "",
+                              "",
+                              ""
+                              
+                         );
+
+
+                        }
+                    }
+
+                }
+
+
+
+                using (XLWorkbook wb = new XLWorkbook())
+                {
+                    wb.Worksheets.Add(dtBase);
+                    wb.SaveAs(ruta);
+
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error al exportar");
+            }
+
+
+
+           
+        }
 
 
         #endregion
