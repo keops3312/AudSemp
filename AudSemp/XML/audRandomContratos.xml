@@ -19,6 +19,7 @@
                 <xs:element name="PrestamoOriginal" type="xs:string" minOccurs="0" />
                 <xs:element name="PrendasOriginal" type="xs:string" minOccurs="0" />
                 <xs:element name="PrendasRaiz" type="xs:string" minOccurs="0" />
+                <xs:element name="ContratoOriginal" type="xs:string" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -27,353 +28,303 @@
     </xs:element>
   </xs:schema>
   <AudContratos>
-    <Contrato>60891</Contrato>
-    <Bolsa>60427</Bolsa>
-    <Fecha>03-06-2021</Fecha>
-    <Avaluo>1500.0000</Avaluo>
-    <Prestamo>750.0000</Prestamo>
-    <Tipo>Computo</Tipo>
+    <Contrato>64496</Contrato>
+    <Bolsa>61710</Bolsa>
+    <Fecha>03-08-2021</Fecha>
+    <Avaluo>2120.0000</Avaluo>
+    <Prestamo>1060.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
     <Status>VIGENTE</Status>
-    <Plazo>7 DIAS</Plazo>
-    <AvaluoOriginal>1500.0000</AvaluoOriginal>
-    <PrestamoOriginal>750.0000</PrestamoOriginal>
+    <Plazo>1 MES AJUSJUN2021</Plazo>
+    <AvaluoOriginal>2120.0000</AvaluoOriginal>
+    <PrestamoOriginal>1060.0000</PrestamoOriginal>
     <PrendasOriginal>1</PrendasOriginal>
     <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>64496</ContratoOriginal>
   </AudContratos>
   <AudContratos>
-    <Contrato>60685</Contrato>
-    <Bolsa>60355</Bolsa>
-    <Fecha>08-02-2021</Fecha>
-    <Avaluo>5800.0000</Avaluo>
-    <Prestamo>2900.0000</Prestamo>
-    <Tipo>Computo</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>1 MES AJUS12-2016</Plazo>
-    <AvaluoOriginal>5800.0000</AvaluoOriginal>
-    <PrestamoOriginal>2900.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60783</Contrato>
-    <Bolsa>60382</Bolsa>
-    <Fecha>13-04-2021</Fecha>
-    <Avaluo>600.0000</Avaluo>
-    <Prestamo>300.0000</Prestamo>
-    <Tipo>Computo</Tipo>
+    <Contrato>46155</Contrato>
+    <Bolsa>61266</Bolsa>
+    <Fecha>05-08-2021</Fecha>
+    <Avaluo>15500.0000</Avaluo>
+    <Prestamo>7750.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
     <Status>VIGENTE</Status>
     <Plazo>1 MES AJUS12-2016</Plazo>
-    <AvaluoOriginal>1000.0000</AvaluoOriginal>
-    <PrestamoOriginal>500.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
+    <AvaluoOriginal>15500.0000</AvaluoOriginal>
+    <PrestamoOriginal>7750.0000</PrestamoOriginal>
+    <PrendasOriginal>3</PrendasOriginal>
+    <PrendasRaiz>3</PrendasRaiz>
+    <ContratoOriginal>63311</ContratoOriginal>
   </AudContratos>
   <AudContratos>
-    <Contrato>60925</Contrato>
-    <Bolsa>60453</Bolsa>
-    <Fecha>15-07-2021</Fecha>
-    <Avaluo>1500.0000</Avaluo>
-    <Prestamo>750.0000</Prestamo>
-    <Tipo>Computo</Tipo>
+    <Contrato>46156</Contrato>
+    <Bolsa>61317</Bolsa>
+    <Fecha>05-08-2021</Fecha>
+    <Avaluo>2100.0000</Avaluo>
+    <Prestamo>1050.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
     <Status>VIGENTE</Status>
     <Plazo>1 MES AJUS12-2016</Plazo>
-    <AvaluoOriginal>1500.0000</AvaluoOriginal>
-    <PrestamoOriginal>750.0000</PrestamoOriginal>
+    <AvaluoOriginal>2100.0000</AvaluoOriginal>
+    <PrestamoOriginal>1050.0000</PrestamoOriginal>
     <PrendasOriginal>1</PrendasOriginal>
     <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>63448</ContratoOriginal>
   </AudContratos>
   <AudContratos>
-    <Contrato>61001</Contrato>
-    <Bolsa>60483</Bolsa>
-    <Fecha>19-08-2021</Fecha>
-    <Avaluo>500.0000</Avaluo>
-    <Prestamo>250.0000</Prestamo>
-    <Tipo>Computo</Tipo>
+    <Contrato>64505</Contrato>
+    <Bolsa>61715</Bolsa>
+    <Fecha>05-08-2021</Fecha>
+    <Avaluo>2560.0000</Avaluo>
+    <Prestamo>1280.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUSJUN2021</Plazo>
+    <AvaluoOriginal>2560.0000</AvaluoOriginal>
+    <PrestamoOriginal>1280.0000</PrestamoOriginal>
+    <PrendasOriginal>1</PrendasOriginal>
+    <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>64505</ContratoOriginal>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>64518</Contrato>
+    <Bolsa>61723</Bolsa>
+    <Fecha>06-08-2021</Fecha>
+    <Avaluo>30976.0000</Avaluo>
+    <Prestamo>15488.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUSJUN2021</Plazo>
+    <AvaluoOriginal>30976.0000</AvaluoOriginal>
+    <PrestamoOriginal>15488.0000</PrestamoOriginal>
+    <PrendasOriginal>1</PrendasOriginal>
+    <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>64518</ContratoOriginal>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>64521</Contrato>
+    <Bolsa>61581</Bolsa>
+    <Fecha>06-08-2021</Fecha>
+    <Avaluo>1232.0000</Avaluo>
+    <Prestamo>616.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
     <Status>VIGENTE</Status>
     <Plazo>1 MES AJUS12-2016</Plazo>
-    <AvaluoOriginal>500.0000</AvaluoOriginal>
-    <PrestamoOriginal>250.0000</PrestamoOriginal>
+    <AvaluoOriginal>1232.0000</AvaluoOriginal>
+    <PrestamoOriginal>616.0000</PrestamoOriginal>
     <PrendasOriginal>1</PrendasOriginal>
     <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>64149</ContratoOriginal>
   </AudContratos>
   <AudContratos>
-    <Contrato>60849</Contrato>
-    <Bolsa>60408</Bolsa>
-    <Fecha>20-05-2021</Fecha>
-    <Avaluo>3000.0000</Avaluo>
-    <Prestamo>1500.0000</Prestamo>
-    <Tipo>Computo</Tipo>
+    <Contrato>64528</Contrato>
+    <Bolsa>24965</Bolsa>
+    <Fecha>07-08-2021</Fecha>
+    <Avaluo>3840.0000</Avaluo>
+    <Prestamo>1920.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1MES AJUSENE2021</Plazo>
+    <AvaluoOriginal>3840.0000</AvaluoOriginal>
+    <PrestamoOriginal>1920.0000</PrestamoOriginal>
+    <PrendasOriginal>1</PrendasOriginal>
+    <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>45063</ContratoOriginal>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>45788</Contrato>
+    <Bolsa>21955</Bolsa>
+    <Fecha>09-07-2021</Fecha>
+    <Avaluo>1442.0000</Avaluo>
+    <Prestamo>721.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
     <Status>VIGENTE</Status>
     <Plazo>1 MES AJUS12-2016</Plazo>
     <AvaluoOriginal>3000.0000</AvaluoOriginal>
     <PrestamoOriginal>1500.0000</PrestamoOriginal>
-    <PrendasOriginal>3</PrendasOriginal>
-    <PrendasRaiz>3</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60860</Contrato>
-    <Bolsa>60417</Bolsa>
-    <Fecha>24-05-2021</Fecha>
-    <Avaluo>1500.0000</Avaluo>
-    <Prestamo>750.0000</Prestamo>
-    <Tipo>Computo</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>1 MES AJUS12-2016</Plazo>
-    <AvaluoOriginal>1500.0000</AvaluoOriginal>
-    <PrestamoOriginal>750.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60862</Contrato>
-    <Bolsa>60418</Bolsa>
-    <Fecha>24-05-2021</Fecha>
-    <Avaluo>1800.0000</Avaluo>
-    <Prestamo>900.0000</Prestamo>
-    <Tipo>Computo</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>15 DIAS</Plazo>
-    <AvaluoOriginal>1800.0000</AvaluoOriginal>
-    <PrestamoOriginal>900.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60678</Contrato>
-    <Bolsa>60350</Bolsa>
-    <Fecha>26-01-2021</Fecha>
-    <Avaluo>1500.0000</Avaluo>
-    <Prestamo>750.0000</Prestamo>
-    <Tipo>Computo</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>7 DIAS</Plazo>
-    <AvaluoOriginal>1500.0000</AvaluoOriginal>
-    <PrestamoOriginal>750.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60684</Contrato>
-    <Bolsa>60351</Bolsa>
-    <Fecha>26-01-2021</Fecha>
-    <Avaluo>3500.0000</Avaluo>
-    <Prestamo>1750.0000</Prestamo>
-    <Tipo>Computo</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>7 DIAS</Plazo>
-    <AvaluoOriginal>3500.0000</AvaluoOriginal>
-    <PrestamoOriginal>1750.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60889</Contrato>
-    <Bolsa>60425</Bolsa>
-    <Fecha>28-04-2021</Fecha>
-    <Avaluo>11500.0000</Avaluo>
-    <Prestamo>5750.0000</Prestamo>
-    <Tipo>Computo</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>1 MES AJUS12-2016</Plazo>
-    <AvaluoOriginal>11500.0000</AvaluoOriginal>
-    <PrestamoOriginal>5750.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60971</Contrato>
-    <Bolsa>60466</Bolsa>
-    <Fecha>28-07-2021</Fecha>
-    <Avaluo>1500.0000</Avaluo>
-    <Prestamo>750.0000</Prestamo>
-    <Tipo>Computo</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>15 DIAS</Plazo>
-    <AvaluoOriginal>1500.0000</AvaluoOriginal>
-    <PrestamoOriginal>750.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60973</Contrato>
-    <Bolsa>60467</Bolsa>
-    <Fecha>29-05-2021</Fecha>
-    <Avaluo>1500.0000</Avaluo>
-    <Prestamo>750.0000</Prestamo>
-    <Tipo>Computo</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>15 DIAS</Plazo>
-    <AvaluoOriginal>1500.0000</AvaluoOriginal>
-    <PrestamoOriginal>750.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60907</Contrato>
-    <Bolsa>60436</Bolsa>
-    <Fecha>03-07-2021</Fecha>
-    <Avaluo>870.0000</Avaluo>
-    <Prestamo>435.0000</Prestamo>
-    <Tipo>Joyeria</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>7 DIAS</Plazo>
-    <AvaluoOriginal>870.0000</AvaluoOriginal>
-    <PrestamoOriginal>435.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60754</Contrato>
-    <Bolsa>60369</Bolsa>
-    <Fecha>08-04-2021</Fecha>
-    <Avaluo>870.0000</Avaluo>
-    <Prestamo>435.0000</Prestamo>
-    <Tipo>Joyeria</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>7 DIAS</Plazo>
-    <AvaluoOriginal>870.0000</AvaluoOriginal>
-    <PrestamoOriginal>435.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60789</Contrato>
-    <Bolsa>60389</Bolsa>
-    <Fecha>11-05-2021</Fecha>
-    <Avaluo>4350.0000</Avaluo>
-    <Prestamo>2175.0000</Prestamo>
-    <Tipo>Joyeria</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>1 MES AJUS12-2016</Plazo>
-    <AvaluoOriginal>4350.0000</AvaluoOriginal>
-    <PrestamoOriginal>2175.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60791</Contrato>
-    <Bolsa>60391</Bolsa>
-    <Fecha>11-05-2021</Fecha>
-    <Avaluo>4350.0000</Avaluo>
-    <Prestamo>2175.0000</Prestamo>
-    <Tipo>Joyeria</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>15 DIAS</Plazo>
-    <AvaluoOriginal>4350.0000</AvaluoOriginal>
-    <PrestamoOriginal>2175.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60792</Contrato>
-    <Bolsa>60392</Bolsa>
-    <Fecha>11-05-2021</Fecha>
-    <Avaluo>6958.0000</Avaluo>
-    <Prestamo>3479.0000</Prestamo>
-    <Tipo>Joyeria</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>15 DIAS</Plazo>
-    <AvaluoOriginal>6958.0000</AvaluoOriginal>
-    <PrestamoOriginal>3479.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60797</Contrato>
-    <Bolsa>60397</Bolsa>
-    <Fecha>11-05-2021</Fecha>
-    <Avaluo>2982.0000</Avaluo>
-    <Prestamo>1491.0000</Prestamo>
-    <Tipo>Joyeria</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>7 DIAS</Plazo>
-    <AvaluoOriginal>2982.0000</AvaluoOriginal>
-    <PrestamoOriginal>1491.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60782</Contrato>
-    <Bolsa>60383</Bolsa>
-    <Fecha>13-04-2021</Fecha>
-    <Avaluo>870.0000</Avaluo>
-    <Prestamo>435.0000</Prestamo>
-    <Tipo>Joyeria</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>1 MES AJUS12-2016</Plazo>
-    <AvaluoOriginal>870.0000</AvaluoOriginal>
-    <PrestamoOriginal>435.0000</PrestamoOriginal>
-    <PrendasOriginal>1</PrendasOriginal>
-    <PrendasRaiz>1</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60943</Contrato>
-    <Bolsa>60457</Bolsa>
-    <Fecha>16-07-2021</Fecha>
-    <Avaluo>12130.0000</Avaluo>
-    <Prestamo>6065.0000</Prestamo>
-    <Tipo>Joyeria</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>1 MES AJUS12-2016</Plazo>
-    <AvaluoOriginal>12130.0000</AvaluoOriginal>
-    <PrestamoOriginal>6065.0000</PrestamoOriginal>
     <PrendasOriginal>4</PrendasOriginal>
-    <PrendasRaiz>4</PrendasRaiz>
+    <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>37536</ContratoOriginal>
   </AudContratos>
   <AudContratos>
-    <Contrato>60997</Contrato>
-    <Bolsa>60481</Bolsa>
-    <Fecha>18-08-2021</Fecha>
-    <Avaluo>50.0000</Avaluo>
-    <Prestamo>25.0000</Prestamo>
+    <Contrato>46221</Contrato>
+    <Bolsa>61536</Bolsa>
+    <Fecha>10-08-2021</Fecha>
+    <Avaluo>800.0000</Avaluo>
+    <Prestamo>400.0000</Prestamo>
     <Tipo>Joyeria</Tipo>
     <Status>VIGENTE</Status>
-    <Plazo>7 DIAS</Plazo>
-    <AvaluoOriginal>50.0000</AvaluoOriginal>
-    <PrestamoOriginal>25.0000</PrestamoOriginal>
+    <Plazo>1MES AJUSENE2021</Plazo>
+    <AvaluoOriginal>800.0000</AvaluoOriginal>
+    <PrestamoOriginal>400.0000</PrestamoOriginal>
     <PrendasOriginal>1</PrendasOriginal>
     <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>64046</ContratoOriginal>
   </AudContratos>
   <AudContratos>
-    <Contrato>60835</Contrato>
-    <Bolsa>60405</Bolsa>
-    <Fecha>19-05-2021</Fecha>
-    <Avaluo>19800.0000</Avaluo>
-    <Prestamo>9900.0000</Prestamo>
+    <Contrato>64444</Contrato>
+    <Bolsa>61690</Bolsa>
+    <Fecha>12-07-2021</Fecha>
+    <Avaluo>1740.0000</Avaluo>
+    <Prestamo>870.0000</Prestamo>
     <Tipo>Joyeria</Tipo>
     <Status>VIGENTE</Status>
-    <Plazo>1 MES AJUS12-2016</Plazo>
-    <AvaluoOriginal>19800.0000</AvaluoOriginal>
-    <PrestamoOriginal>9900.0000</PrestamoOriginal>
+    <Plazo>1 MES AJUSJUN2021</Plazo>
+    <AvaluoOriginal>1740.0000</AvaluoOriginal>
+    <PrestamoOriginal>870.0000</PrestamoOriginal>
     <PrendasOriginal>2</PrendasOriginal>
     <PrendasRaiz>2</PrendasRaiz>
+    <ContratoOriginal>64444</ContratoOriginal>
   </AudContratos>
   <AudContratos>
-    <Contrato>60969</Contrato>
-    <Bolsa>60464</Bolsa>
-    <Fecha>23-07-2021</Fecha>
-    <Avaluo>2186.0000</Avaluo>
-    <Prestamo>1093.0000</Prestamo>
+    <Contrato>45870</Contrato>
+    <Bolsa>23947</Bolsa>
+    <Fecha>15-07-2021</Fecha>
+    <Avaluo>4320.0000</Avaluo>
+    <Prestamo>2160.0000</Prestamo>
     <Tipo>Joyeria</Tipo>
     <Status>VIGENTE</Status>
     <Plazo>1 MES AJUS12-2016</Plazo>
-    <AvaluoOriginal>2186.0000</AvaluoOriginal>
-    <PrestamoOriginal>1093.0000</PrestamoOriginal>
-    <PrendasOriginal>3</PrendasOriginal>
-    <PrendasRaiz>3</PrendasRaiz>
-  </AudContratos>
-  <AudContratos>
-    <Contrato>60867</Contrato>
-    <Bolsa>60420</Bolsa>
-    <Fecha>24-05-2021</Fecha>
-    <Avaluo>870.0000</Avaluo>
-    <Prestamo>435.0000</Prestamo>
-    <Tipo>Joyeria</Tipo>
-    <Status>VIGENTE</Status>
-    <Plazo>1 MES AJUS12-2016</Plazo>
-    <AvaluoOriginal>870.0000</AvaluoOriginal>
-    <PrestamoOriginal>435.0000</PrestamoOriginal>
+    <AvaluoOriginal>4320.0000</AvaluoOriginal>
+    <PrestamoOriginal>2160.0000</PrestamoOriginal>
     <PrendasOriginal>1</PrendasOriginal>
     <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>42219</ContratoOriginal>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>46284</Contrato>
+    <Bolsa>25133</Bolsa>
+    <Fecha>16-08-2021</Fecha>
+    <Avaluo>35260.0000</Avaluo>
+    <Prestamo>17630.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1MES AJUSENE2021</Plazo>
+    <AvaluoOriginal>35260.0000</AvaluoOriginal>
+    <PrestamoOriginal>17630.0000</PrestamoOriginal>
+    <PrendasOriginal>1</PrendasOriginal>
+    <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>45493</ContratoOriginal>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>46286</Contrato>
+    <Bolsa>25154</Bolsa>
+    <Fecha>16-08-2021</Fecha>
+    <Avaluo>7980.0000</Avaluo>
+    <Prestamo>3990.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUSJUN2021</Plazo>
+    <AvaluoOriginal>10980.0000</AvaluoOriginal>
+    <PrestamoOriginal>5490.0000</PrestamoOriginal>
+    <PrendasOriginal>3</PrendasOriginal>
+    <PrendasRaiz>3</PrendasRaiz>
+    <ContratoOriginal>45554</ContratoOriginal>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>46293</Contrato>
+    <Bolsa>24987</Bolsa>
+    <Fecha>17-08-2021</Fecha>
+    <Avaluo>3300.0000</Avaluo>
+    <Prestamo>1650.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1MES AJUSENE2021</Plazo>
+    <AvaluoOriginal>3300.0000</AvaluoOriginal>
+    <PrestamoOriginal>1650.0000</PrestamoOriginal>
+    <PrendasOriginal>1</PrendasOriginal>
+    <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>45117</ContratoOriginal>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>46297</Contrato>
+    <Bolsa>61329</Bolsa>
+    <Fecha>17-08-2021</Fecha>
+    <Avaluo>1520.0000</Avaluo>
+    <Prestamo>760.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUS12-2016</Plazo>
+    <AvaluoOriginal>1520.0000</AvaluoOriginal>
+    <PrestamoOriginal>760.0000</PrestamoOriginal>
+    <PrendasOriginal>2</PrendasOriginal>
+    <PrendasRaiz>2</PrendasRaiz>
+    <ContratoOriginal>63484</ContratoOriginal>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>46322</Contrato>
+    <Bolsa>25285</Bolsa>
+    <Fecha>19-08-2021</Fecha>
+    <Avaluo>6650.0000</Avaluo>
+    <Prestamo>3325.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUSJUN2021</Plazo>
+    <AvaluoOriginal>6650.0000</AvaluoOriginal>
+    <PrestamoOriginal>3325.0000</PrestamoOriginal>
+    <PrendasOriginal>1</PrendasOriginal>
+    <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>45941</ContratoOriginal>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>64458</Contrato>
+    <Bolsa>24556</Bolsa>
+    <Fecha>20-07-2021</Fecha>
+    <Avaluo>5450.0000</Avaluo>
+    <Prestamo>2725.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1MES AJUSENE2021</Plazo>
+    <AvaluoOriginal>5450.0000</AvaluoOriginal>
+    <PrestamoOriginal>2725.0000</PrestamoOriginal>
+    <PrendasOriginal>4</PrendasOriginal>
+    <PrendasRaiz>4</PrendasRaiz>
+    <ContratoOriginal>44039</ContratoOriginal>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>46045</Contrato>
+    <Bolsa>25141</Bolsa>
+    <Fecha>27-07-2021</Fecha>
+    <Avaluo>1220.0000</Avaluo>
+    <Prestamo>610.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUSJUN2021</Plazo>
+    <AvaluoOriginal>1220.0000</AvaluoOriginal>
+    <PrestamoOriginal>610.0000</PrestamoOriginal>
+    <PrendasOriginal>1</PrendasOriginal>
+    <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>45505</ContratoOriginal>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>64483</Contrato>
+    <Bolsa>61705</Bolsa>
+    <Fecha>28-07-2021</Fecha>
+    <Avaluo>3000.0000</Avaluo>
+    <Prestamo>1500.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1 MES AJUSJUN2021</Plazo>
+    <AvaluoOriginal>3000.0000</AvaluoOriginal>
+    <PrestamoOriginal>1500.0000</PrestamoOriginal>
+    <PrendasOriginal>1</PrendasOriginal>
+    <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>64483</ContratoOriginal>
+  </AudContratos>
+  <AudContratos>
+    <Contrato>46052</Contrato>
+    <Bolsa>24684</Bolsa>
+    <Fecha>28-07-2021</Fecha>
+    <Avaluo>1390.0000</Avaluo>
+    <Prestamo>695.0000</Prestamo>
+    <Tipo>Joyeria</Tipo>
+    <Status>VIGENTE</Status>
+    <Plazo>1MES AJUSENE2021</Plazo>
+    <AvaluoOriginal>1390.0000</AvaluoOriginal>
+    <PrestamoOriginal>695.0000</PrestamoOriginal>
+    <PrendasOriginal>1</PrendasOriginal>
+    <PrendasRaiz>1</PrendasRaiz>
+    <ContratoOriginal>44370</ContratoOriginal>
   </AudContratos>
 </NewDataSet>

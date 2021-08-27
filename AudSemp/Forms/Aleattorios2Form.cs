@@ -504,7 +504,7 @@ namespace AudSemp.Forms
         {
 
 
-            dt.Columns.AddRange(new DataColumn[12]
+            dt.Columns.AddRange(new DataColumn[13]
              {
                     new DataColumn("Contrato"),
                     new DataColumn("Bolsa"),
@@ -517,7 +517,8 @@ namespace AudSemp.Forms
                     new DataColumn("AvaluoOriginal"),
                     new DataColumn("PrestamoOriginal"),
                     new DataColumn("PrendasOriginal"),
-                    new DataColumn("PrendasRaiz")
+                    new DataColumn("PrendasRaiz"),
+                    new DataColumn("ContratoOriginal")
 
 
 
@@ -771,7 +772,7 @@ namespace AudSemp.Forms
                                 int conteoOrignal = db.bolsas_OTROS.Where(P => P.Contrato == vPInicial.Contrato).Count();
                                 int conteoActual = db.bolsas_OTROS.Where(P => P.Contrato == item.Contrato).Count();
 
-                                var contenido = db.bolsas_OTROS.Where(P => P.Contrato == item.Contrato).ToList().OrderBy(p=>p.Estatus_Prenda);
+                                var contenidoA = db.bolsas_OTROS.Where(P => P.Contrato == item.Contrato).OrderBy(p => p.Estatus_Prenda).ToList();
 
                                 dt.Rows.Add(
                                     item.Contrato, item.Bolsa,
@@ -784,14 +785,15 @@ namespace AudSemp.Forms
                              vPInicial.avaluo,
                              vPInicial.Prestamo,
                              conteoOrignal,
-                             conteoActual
+                             conteoActual,
+                             vPInicial.Contrato
                              );
 
                                 
 
-                                if (contenido != null)
+                                if (contenidoA != null)
                                 {
-                                    foreach (var contenidos in contenido)
+                                    foreach (var contenidos in contenidoA.ToList())
                                     {
 
                                         dt2.Rows.Add(
@@ -819,7 +821,7 @@ namespace AudSemp.Forms
                                 int conteoOrignal = db.bolsas_ORO.Where(P => P.Contrato == vPInicial.Contrato).Count();
                                 int conteoActual = db.bolsas_ORO.Where(P => P.Contrato == item.Contrato).Count();
 
-                                var contenido = db.bolsas_ORO.Where(P => P.Contrato == item.Contrato).ToList().OrderBy(p => p.EstatusPrenda);
+                                var contenidoB = db.bolsas_ORO.Where(p => p.Contrato == item.Contrato).OrderBy(p=>p.EstatusPrenda).ToList();
 
                                 dt.Rows.Add(
                                     item.Contrato,
@@ -833,14 +835,15 @@ namespace AudSemp.Forms
                              vPInicial.avaluo,
                              vPInicial.Prestamo,
                                conteoOrignal,
-                             conteoActual
+                               conteoActual,
+                             vPInicial.Contrato
                              );
 
 
 
-                                if (contenido != null)
+                                if (contenidoB != null)
                                 {
-                                    foreach (var contenidos in contenido)
+                                    foreach (var contenidos in contenidoB.ToList())
                                     {
 
                                         dt2.Rows.Add(
