@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DevComponents.DotNetBar.EllipticalShapeDescriptor ellipticalShapeDescriptor1 = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
+            DevComponents.DotNetBar.EllipticalShapeDescriptor ellipticalShapeDescriptor2 = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PanelForm));
             this.expandablePanel1 = new DevComponents.DotNetBar.ExpandablePanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -60,6 +62,7 @@
             this.btnMinimizar = new DevComponents.DotNetBar.ButtonX();
             this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
             this.btnMNLremisiones = new System.Windows.Forms.Button();
+            this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
             this.expandablePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.expandablePanel4.SuspendLayout();
@@ -290,10 +293,9 @@
             this.metroTilePanel1.DragDropSupport = true;
             this.metroTilePanel1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.itemContainer1});
-           // this.metroTilePanel1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.metroTilePanel1.Location = new System.Drawing.Point(252, 115);
             this.metroTilePanel1.Name = "metroTilePanel1";
-            //this.metroTilePanel1.ReserveLeftSpace = false;
+            this.metroTilePanel1.ReserveLeftSpace = false;
             this.metroTilePanel1.Size = new System.Drawing.Size(609, 483);
             this.metroTilePanel1.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.metroTilePanel1.TabIndex = 17;
@@ -528,7 +530,7 @@
             this.btnRegresar.ImageFixedSize = new System.Drawing.Size(40, 40);
             this.btnRegresar.Location = new System.Drawing.Point(737, 30);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
+            this.btnRegresar.Shape = ellipticalShapeDescriptor1;
             this.btnRegresar.Size = new System.Drawing.Size(52, 48);
             this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnRegresar.TabIndex = 14;
@@ -543,7 +545,7 @@
             this.btnMinimizar.ImageFixedSize = new System.Drawing.Size(40, 40);
             this.btnMinimizar.Location = new System.Drawing.Point(809, 30);
             this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
+            this.btnMinimizar.Shape = ellipticalShapeDescriptor2;
             this.btnMinimizar.Size = new System.Drawing.Size(52, 48);
             this.btnMinimizar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnMinimizar.TabIndex = 15;
@@ -565,6 +567,13 @@
             this.btnMNLremisiones.Text = "Auditar Remisiones MNL";
             this.btnMNLremisiones.UseVisualStyleBackColor = true;
             this.btnMNLremisiones.Click += new System.EventHandler(this.btnMNLremisiones_Click);
+            // 
+            // buttonX2
+            // 
+            this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX2.Location = new System.Drawing.Point(0, 0);
+            this.buttonX2.Name = "buttonX2";
+            this.buttonX2.TabIndex = 0;
             // 
             // PanelForm
             // 
@@ -628,5 +637,6 @@
         private DevComponents.DotNetBar.LabelX labelX6;
         private DevComponents.DotNetBar.ButtonX buttonX1;
         private System.Windows.Forms.Button btnMNLremisiones;
+        private DevComponents.DotNetBar.ButtonX buttonX2;
     }
 }
