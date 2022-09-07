@@ -2,7 +2,7 @@
 
 namespace AudSemp.Forms
 {
-    using ClosedXML.Excel;
+  
     #region Libraries
     using DocumentFormat.OpenXml.EMMA;
     using AudSemp.Classes;
@@ -19,6 +19,7 @@ namespace AudSemp.Forms
     using System.Threading;
     using System.Threading.Tasks;
     using System.Windows.Forms;
+    using ClosedXML.Excel;
     #endregion
 
     public partial class NotasPagoConDepositoForm : Form
@@ -791,7 +792,7 @@ namespace AudSemp.Forms
             catch (Exception ex)
             {
 
-                MessageBox.Show("Fallo al cargar ventana!" + ex.Message.ToString(), "Oper SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Fallo al cargar ventana!" + ex.Message.ToString(), "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
         }
@@ -940,7 +941,7 @@ namespace AudSemp.Forms
                 rpt.SetParameterValue("estatus", _auditados);
                 rpt.SetParameterValue("rangos", "del " + DateTime.Parse(fechaInicio).ToString("ddd dd MMMM yyyy") +
                                                    " al " + DateTime.Parse(fechaFin).ToString("ddd dd MMMM yyyy"));
-                rpt.SetParameterValue("statusAuditoria", _autorizados);
+                rpt.SetParameterValue("statusOperaciones", _autorizados);
                 rpt.SetParameterValue("sucursal", sucursal);
                 rpt.SetParameterValue("empresa", empresa);
                 rpt.SetParameterValue("localidad", nombreSucursal);
@@ -948,20 +949,20 @@ namespace AudSemp.Forms
 
                 if (tipoFecha == 1)//fecha revision
                 {
-                    rpt.SetParameterValue("Auditoria", NombreAuditoria);
+                    rpt.SetParameterValue("operaciones", NombreAuditoria);
                     rpt.SetParameterValue("leyendaCargo", "Auditoria");
                 }
 
                 if (tipoFecha == 2)//fecha auditoria
                 {
-                    rpt.SetParameterValue("Auditoria", NombreAuditoria);
+                    rpt.SetParameterValue("operaciones", NombreAuditoria);
                     rpt.SetParameterValue("leyendaCargo", "Auditoria");
                 }
 
                 if (tipoFecha == 3)//fecha autorizacion
                 {
 
-                    rpt.SetParameterValue("Auditoria", model.empleado());
+                    rpt.SetParameterValue("operaciones", model.empleado());
                     rpt.SetParameterValue("leyendaCargo", "Autorización Dirección");
                 }
 
