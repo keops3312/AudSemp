@@ -76,6 +76,14 @@
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Layout, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.DotNetBar.Layout.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Layout.Design, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.DotNetBar.Layout.Design.dll</HintPath>
+    </Reference>
     <Reference Include="DevComponents.DotNetBar2, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
@@ -741,6 +749,12 @@
       <DependentUpon>MNLRemsiones.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Forms\NotasConDepositoRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NotasConDepositoRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms\NotasPagoConDepositoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -964,6 +978,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>MNLRemsiones1.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotasConDepositoRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NotasConDepositoRPT.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\NotasPagoConDepositoForm.resx">
       <DependentUpon>NotasPagoConDepositoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -1074,6 +1092,11 @@
       <LastGenOutput>SEMP2013_Context.cs</LastGenOutput>
     </Content>
     <Content Include="Logo.ico" />
+    <None Include="Resources\cajero_1.png" />
+    <None Include="Resources\_comprado1.png" />
+    <None Include="Resources\cajero_.png" />
+    <None Include="Resources\_comprado.png" />
+    <None Include="Resources\comprado.png" />
     <None Include="Resources\contratosSmall.png" />
     <None Include="Resources\verSmall.fw.png" />
     <None Include="Resources\VerInventariSmall.fw.png" />

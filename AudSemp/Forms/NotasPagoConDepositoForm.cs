@@ -48,7 +48,7 @@ namespace AudSemp.Forms
         public string encargado;
         public string logo;
 
-        public string NombreOperaciones;
+        public string NombreAuditoria;
 
         string ruta;
 
@@ -217,7 +217,7 @@ namespace AudSemp.Forms
             ax = chkListAuditados.CheckedIndices.Count;
             if (ax == 0)
             {
-                MessageBox.Show("Selecciona un tipo de status Auditado", "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Selecciona un tipo de status Auditado", "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
 
             }
@@ -225,7 +225,7 @@ namespace AudSemp.Forms
             ax = chkListAutorizados.CheckedIndices.Count;
             if (ax == 0)
             {
-                MessageBox.Show("Selecciona un tipo de status Autorizado", "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Selecciona un tipo de status Autorizado", "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
 
             }
@@ -234,7 +234,7 @@ namespace AudSemp.Forms
             ax = chkListTipos.CheckedIndices.Count;
             if (ax == 0)
             {
-                MessageBox.Show("Selecciona un tipo de prenda", "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Selecciona un tipo de prenda", "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
 
             }
@@ -388,7 +388,7 @@ namespace AudSemp.Forms
                 if (string.IsNullOrEmpty(ruta))
                 {
                     MessageBox.Show("No hay directorio Seleccionado",
-                        "Operaciones SEMP", MessageBoxButtons.OK,
+                        "Auditoria SEMP", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                 }
                 else
@@ -429,7 +429,7 @@ namespace AudSemp.Forms
 
 
                 MessageBox.Show("Exportacion CANCELADA",
-                 "Operaciones Semp", MessageBoxButtons.OK,
+                 "Auditoria Semp", MessageBoxButtons.OK,
                  MessageBoxIcon.Information);
 
 
@@ -442,7 +442,7 @@ namespace AudSemp.Forms
             if (dt.Rows.Count == 0)
             {
                 MessageBox.Show("Genere un Ejercicio Primero de tipo excel o reporte para ver vista completa",
-                    "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             VistaPreviaDepoNpForm form = new VistaPreviaDepoNpForm();
@@ -460,14 +460,14 @@ namespace AudSemp.Forms
             if (dt.Rows.Count == 0)
             {
                 MessageBox.Show("Genere un Ejercicio Primero de tipo excel o reporte comenzar a Revisar",
-                    "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             RevisarNPconDepositoForm form = new RevisarNPconDepositoForm();
             form.dt = dt;
             form.lista = lista;
-            form.nombreOperaciones = NombreOperaciones;
+            form.nombreOperaciones = NombreAuditoria;
             form.ShowDialog();
 
         }
@@ -481,7 +481,7 @@ namespace AudSemp.Forms
             ax = chkListAuditados.CheckedIndices.Count;
             if (ax == 0)
             {
-                MessageBox.Show("Selecciona un tipo de status Auditado", "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Selecciona un tipo de status Auditado", "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
 
             }
@@ -489,7 +489,7 @@ namespace AudSemp.Forms
             ax = chkListAutorizados.CheckedIndices.Count;
             if (ax == 0)
             {
-                MessageBox.Show("Selecciona un tipo de status Autorizado", "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Selecciona un tipo de status Autorizado", "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
 
             }
@@ -498,7 +498,7 @@ namespace AudSemp.Forms
             ax = chkListTipos.CheckedIndices.Count;
             if (ax == 0)
             {
-                MessageBox.Show("Selecciona un tipo de prenda", "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Selecciona un tipo de prenda", "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
 
             }
@@ -676,7 +676,7 @@ namespace AudSemp.Forms
                 crystalReportViewer1.Refresh();
                 //rpt.SetParameterValue("logo", logo);
 
-                MessageBox.Show("Reporte Exitoso", "Operaciones SEMP",
+                MessageBox.Show("Reporte Exitoso", "Auditoria SEMP",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
@@ -778,7 +778,7 @@ namespace AudSemp.Forms
                 _localidadUser._logotipo = data.Logotipo;
                 _localidadUser._nombreSucursal = data.Nombre_Sucursal;
                 _localidadUser._tablaInventarios = data.lugar_conta;
-                _localidadUser._usuarioEnOperacion = NombreOperaciones;
+                _localidadUser._usuarioEnOperacion = NombreAuditoria;
                 _localidadUser._localidad = data.LOCALIDAD;
 
 
@@ -825,7 +825,7 @@ namespace AudSemp.Forms
 
 
                 MessageBox.Show("Exportacion Fallida Vuelva a Intentarlo",
-                 "Operaciones Semp", MessageBoxButtons.OK,
+                 "Auditoria Semp", MessageBoxButtons.OK,
                  MessageBoxIcon.Information);
                 return;
 
@@ -895,13 +895,13 @@ namespace AudSemp.Forms
                 }
 
 
-                MessageBox.Show("Exportación Exitosa", "Operaciones SEMP",
+                MessageBox.Show("Exportación Exitosa", "Auditoria SEMP",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else if (desicion == 2)
             {
 
-
+                //dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/NPconDepositosRevAutorizados.xml", XmlWriteMode.WriteSchema);
                 dt.WriteXml("C:/SEMP2013/OperSemp/OperSemp/XML/NPconDepositosRevAutorizados.xml", XmlWriteMode.WriteSchema);
 
                 _tipos = "";
@@ -940,7 +940,7 @@ namespace AudSemp.Forms
                 rpt.SetParameterValue("estatus", _auditados);
                 rpt.SetParameterValue("rangos", "del " + DateTime.Parse(fechaInicio).ToString("ddd dd MMMM yyyy") +
                                                    " al " + DateTime.Parse(fechaFin).ToString("ddd dd MMMM yyyy"));
-                rpt.SetParameterValue("statusOperaciones", _autorizados);
+                rpt.SetParameterValue("statusAuditoria", _autorizados);
                 rpt.SetParameterValue("sucursal", sucursal);
                 rpt.SetParameterValue("empresa", empresa);
                 rpt.SetParameterValue("localidad", nombreSucursal);
@@ -948,20 +948,20 @@ namespace AudSemp.Forms
 
                 if (tipoFecha == 1)//fecha revision
                 {
-                    rpt.SetParameterValue("operaciones", NombreOperaciones);
+                    rpt.SetParameterValue("Auditoria", NombreAuditoria);
                     rpt.SetParameterValue("leyendaCargo", "Auditoria");
                 }
 
                 if (tipoFecha == 2)//fecha auditoria
                 {
-                    rpt.SetParameterValue("operaciones", NombreOperaciones);
+                    rpt.SetParameterValue("Auditoria", NombreAuditoria);
                     rpt.SetParameterValue("leyendaCargo", "Auditoria");
                 }
 
                 if (tipoFecha == 3)//fecha autorizacion
                 {
 
-                    rpt.SetParameterValue("operaciones", model.empleado());
+                    rpt.SetParameterValue("Auditoria", model.empleado());
                     rpt.SetParameterValue("leyendaCargo", "Autorización Dirección");
                 }
 

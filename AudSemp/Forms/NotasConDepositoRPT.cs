@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OperSemp.Forms {
+namespace AudSemp.Forms {
     using System;
     using System.ComponentModel;
     using CrystalDecisions.Shared;
@@ -41,7 +41,7 @@ namespace OperSemp.Forms {
         
         public override string FullResourceName {
             get {
-                return "OperSemp.Forms.NotasConDepositoRPT.rpt";
+                return "AudSemp.Forms.NotasConDepositoRPT.rpt";
             }
             set {
                 // Do nothing

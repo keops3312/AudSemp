@@ -244,7 +244,24 @@ namespace AudSemp.Forms
 
         private void btnMNLremisiones_Click(object sender, EventArgs e)
         {
+         
+        }
+
+        private void metroTileItem1_Click(object sender, EventArgs e)
+        {
             ReporteRemisionesMNLForm form = new ReporteRemisionesMNLForm();
+            form.empresa = Empresa;
+            form.sucursal = Sucursal;
+            form.nombreSucursal = Sucursal;
+            form.encargado = Encargado;
+            form.logo = Logotipo;
+            form.NombreOperaciones = NombreAuditor;
+            form.ShowDialog();
+        }
+
+        private void metroTileItem13_Click(object sender, EventArgs e)
+        {
+            NotasPagoConDepositoForm form = new NotasPagoConDepositoForm();
             form.empresa = Empresa;
             form.sucursal = Sucursal;
             form.nombreSucursal = Sucursal;

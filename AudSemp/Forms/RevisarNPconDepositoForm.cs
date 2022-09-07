@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OperSemp.Forms
+namespace AudSemp.Forms
 {
     public partial class RevisarNPconDepositoForm : Form
     {
@@ -18,7 +18,7 @@ namespace OperSemp.Forms
 
         public DataTable dt;
         public List<facturas> lista;
-        public string nombreOperaciones;
+        public string nombreAuditoria;
         private AutorizaNotaPagoConDepositoModel model;
 
         public string _status;
@@ -37,7 +37,7 @@ namespace OperSemp.Forms
                 if (dt.Rows.Count == 0)
                 {
                     MessageBox.Show("Genere un Ejercicio Primero de tipo excel o reporte comenzar a Revisar",
-                        "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     this.Close();
                 }
 
@@ -145,11 +145,11 @@ namespace OperSemp.Forms
                     Factura = dtgResult.Rows[fila].Cells[0].Value.ToString();
                     var datosAuditoria = lista.Where(p => p.Factura == Factura).FirstOrDefault();
 
-                    MessageBox.Show("Detalles de Auditoria:\n" +
-                        "Auditor: " + datosAuditoria.audita + "\n" +
-                        "Status: " + datosAuditoria.auditado + "\n" +
-                        "Fecha: " + DateTime.Parse(datosAuditoria.fechaAuditado.ToString()).ToString("ddd dd MMMM yyyy") + "\n" +
-                        "Comentario: " + datosAuditoria.comentarioAuditado + "\n", "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Detalles de Operacíon:\n" +
+                        "Auditor: " + datosAuditoria.autoriza + "\n" +
+                        "Status: " + datosAuditoria.autorizado + "\n" +
+                        "Fecha: " + DateTime.Parse(datosAuditoria.fechaAutoriza.ToString()).ToString("ddd dd MMMM yyyy") + "\n" +
+                        "Comentario: " + datosAuditoria.comentarioAutorizado + "\n", "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
 
@@ -190,7 +190,7 @@ namespace OperSemp.Forms
                         "ABONOS: " +  decimal.Parse(abono).ToString("C2")+ "\n" +
                         "GASTOS OPERACION: " + decimal.Parse(datos.total_gastos_op.ToString()).ToString("C2") + "\n" +
                         "DESC. PREFERENTE: " + datos.descuento_preferente + "%" + "\n" 
-                        , "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        , "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
 
@@ -251,27 +251,27 @@ namespace OperSemp.Forms
             model = new AutorizaNotaPagoConDepositoModel();
             var id = lista.Where(u => u.NO == int.Parse(consec)).FirstOrDefault();
 
-            if (model.updateAutorizafact(id.NO, nombreOperaciones, status, DateTime.Now, comentario.ToUpper().Trim()) == true)
+            if (model.updateAutorizafact(id.NO, nombreAuditoria, status, DateTime.Now, comentario.ToUpper().Trim()) == true)
             {
                 foreach (DataGridViewRow fila in dtgResult.Rows)
                 {
                     if (fila.Cells[9].Value.ToString() == consec)
                     {
 
-                        fila.Cells[8].Value = status.Substring(0, 3);
+                        fila.Cells[7].Value = status.Substring(0, 3);
 
                     }
 
                 }
 
                 MessageBox.Show("AUTORIZACION DE DEPOSITO ACTUALIZADO!"
-                 , "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                 , "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
             else
             {
                 MessageBox.Show("ERROR INESPERADO!"
-                  , "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                  , "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
 
 

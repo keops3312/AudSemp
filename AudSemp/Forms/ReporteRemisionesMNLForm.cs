@@ -823,8 +823,8 @@ namespace AudSemp.Forms
             {
 
 
-               // dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XMLRevAutorizados.xml", XmlWriteMode.WriteSchema);
-                dt.WriteXml("C:/SEMP2013/OperSemp/OperSemp/XML/RevAutorizados.xml", XmlWriteMode.WriteSchema);
+                //dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/RevAutorizados.xml", XmlWriteMode.WriteSchema);
+               dt.WriteXml("C:/SEMP2013/OperSemp/OperSemp/XML/RevAutorizados.xml", XmlWriteMode.WriteSchema);
 
                 _tipos = "";
                 _auditados = "";

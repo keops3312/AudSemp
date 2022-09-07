@@ -383,40 +383,81 @@ namespace AudSemp.Models
 
                     var oListaFactura = db.facturas.Where(p => p.conDeposito == true).ToList();
 
-                    var o = from a in oListaFactura
-                            where tipos.Contains((string)a.R_D) &&
-                            (statusAudita.Contains((string)a.auditado)) &&
-                            (statusAutorizado.Contains((string)a.autorizado)) &&
-                            a.fechaAuditado >= fechaInicial && a.fechaAuditado <= fechafinal
-                            select a;
+
+
+                    var listaTest = from a in oListaFactura
+                                    where tipos.Contains((string)a.R_D) &&
+                                    (statusAudita.Contains((string)a.auditado)) &&
+                                    (statusAutorizado.Contains((string)a.autorizado)) &&
+                                    a.fechaAuditado >= fechaInicial && a.fechaAuditado <= fechafinal
+                                    select a;
 
 
 
-                    var listaTest2 = o.OrderBy(p => p.NO).ToList();
+                    //int A = listaTest.ToList().Count();
 
 
-                    if (listaTest2 != null)
+                    if (listaTest != null)
                     {
-                        foreach (var item in listaTest2)
+                        foreach (var item in listaTest)
                         {
-                            listaFacturas.Add(item);
+
+                            facturas ofactura = new facturas
+                            {
+
+                                Factura = item.Factura,
+                                FechaFact = item.FechaFact,
+                                HoraFact = item.HoraFact,
+                                Contrato = item.Contrato,
+                                Bolsa = item.Bolsa,
+                                Folio = item.Folio,
+                                ImporteFact = item.ImporteFact,
+                                IVAFact = item.IVAFact,
+                                TotalFact = item.TotalFact,
+                                IdCliente = item.IdCliente,
+                                Abono = item.Abono,
+                                R_D = item.R_D,
+                                caja = item.caja,
+                                STATUS = item.STATUS,
+                                realizo = item.realizo,
+                                Gastos_Operacion = item.Gastos_Operacion,
+                                descuento_gastos_op = item.descuento_gastos_op,
+                                total_gastos_op = item.total_gastos_op,
+                                descuento_preferente = item.descuento_preferente,
+                                auditado = item.auditado,
+                                audita = item.audita,
+                                fechaAuditado = item.fechaAuditado,
+                                comentarioAuditado = item.comentarioAuditado,
+                                autorizado = item.autorizado,
+                                autoriza = item.autoriza,
+                                fechaAutoriza = item.fechaAutoriza,
+                                comentarioAutorizado = item.comentarioAutorizado,
+                                NO = item.NO,
+
+
+                            };
+
+                            listaFacturas.Add(ofactura);
+
                         }
 
                     }
 
 
 
-                    if (listaTest2 != null)
+
+                    if (listaTest != null)
                     {
-                        foreach (var item in listaTest2)
+                        foreach (var item in listaTest)
                         {
                             dtFacturas.Rows.Add(item.Factura, item.FechaFact, item.HoraFact, item.Contrato, item.Bolsa, item.Folio,
-                            item.ImporteFact, item.IVAFact, item.TotalFact, item.IdCliente, item.Abono, item.R_D, item.caja,
-                            item.STATUS, item.realizo, item.Gastos_Operacion, item.descuento_gastos_op, item.total_gastos_op, item.descuento_preferente, item.auditado,
-                            item.audita, item.fechaAuditado, item.comentarioAuditado, item.autorizado, item.autoriza, item.fechaAutoriza, item.comentarioAutorizado);
+                             item.ImporteFact, item.IVAFact, item.TotalFact, item.IdCliente, item.Abono, item.R_D, item.caja,
+                             item.STATUS, item.realizo, item.Gastos_Operacion, item.descuento_gastos_op, item.total_gastos_op, item.descuento_preferente, item.auditado,
+                             item.audita, item.fechaAuditado, item.comentarioAuditado, item.autorizado, item.autoriza, item.fechaAutoriza, item.comentarioAutorizado);
                         }
 
                     }
+
                 }
 
                 if (tipoFecha == 3)//fecha autorizacion
@@ -427,43 +468,83 @@ namespace AudSemp.Models
                     //                                                 " and autorizado in(" + _queryAutoriza + ") and [R-D] in(" + _queryTipo + ") and conDeposito=1").ToList();
 
                     //var listaTest3 = Lista3.Where(p => p.fechaAutoriza >= fechaInicial && p.fechaAutoriza <= fechafinal).OrderBy(p => p.NO).ToList();
-
                     var oListaFactura = db.facturas.Where(p => p.conDeposito == true).ToList();
 
-                    var o = from a in oListaFactura
-                            where tipos.Contains((string)a.R_D) &&
-                            (statusAudita.Contains((string)a.auditado)) &&
-                            (statusAutorizado.Contains((string)a.autorizado)) &&
-                            a.fechaAutoriza >= fechaInicial && a.fechaAutoriza <= fechafinal
-                            select a;
+
+
+                    var listaTest = from a in oListaFactura
+                                    where tipos.Contains((string)a.R_D) &&
+                                    (statusAudita.Contains((string)a.auditado)) &&
+                                    (statusAutorizado.Contains((string)a.autorizado)) &&
+                                    a.fechaAutoriza >= fechaInicial && a.fechaAutoriza <= fechafinal
+                                    select a;
 
 
 
-                    var listaTest3 = o.OrderBy(p => p.NO).ToList();
+                    //int A = listaTest.ToList().Count();
 
 
-                    if (listaTest3 != null)
+                    if (listaTest != null)
                     {
-                        foreach (var item in listaTest3)
+                        foreach (var item in listaTest)
                         {
-                            listaFacturas.Add(item);
+
+                            facturas ofactura = new facturas
+                            {
+
+                                Factura = item.Factura,
+                                FechaFact = item.FechaFact,
+                                HoraFact = item.HoraFact,
+                                Contrato = item.Contrato,
+                                Bolsa = item.Bolsa,
+                                Folio = item.Folio,
+                                ImporteFact = item.ImporteFact,
+                                IVAFact = item.IVAFact,
+                                TotalFact = item.TotalFact,
+                                IdCliente = item.IdCliente,
+                                Abono = item.Abono,
+                                R_D = item.R_D,
+                                caja = item.caja,
+                                STATUS = item.STATUS,
+                                realizo = item.realizo,
+                                Gastos_Operacion = item.Gastos_Operacion,
+                                descuento_gastos_op = item.descuento_gastos_op,
+                                total_gastos_op = item.total_gastos_op,
+                                descuento_preferente = item.descuento_preferente,
+                                auditado = item.auditado,
+                                audita = item.audita,
+                                fechaAuditado = item.fechaAuditado,
+                                comentarioAuditado = item.comentarioAuditado,
+                                autorizado = item.autorizado,
+                                autoriza = item.autoriza,
+                                fechaAutoriza = item.fechaAutoriza,
+                                comentarioAutorizado = item.comentarioAutorizado,
+                                NO = item.NO,
+
+
+                            };
+
+                            listaFacturas.Add(ofactura);
+
                         }
 
                     }
 
 
 
-                    if (listaTest3 != null)
+
+                    if (listaTest != null)
                     {
-                        foreach (var item in listaTest3)
+                        foreach (var item in listaTest)
                         {
                             dtFacturas.Rows.Add(item.Factura, item.FechaFact, item.HoraFact, item.Contrato, item.Bolsa, item.Folio,
-                              item.ImporteFact, item.IVAFact, item.TotalFact, item.IdCliente, item.Abono, item.R_D, item.caja,
-                              item.STATUS, item.realizo, item.Gastos_Operacion, item.descuento_gastos_op, item.total_gastos_op, item.descuento_preferente, item.auditado,
-                              item.audita, item.fechaAuditado, item.comentarioAuditado, item.autorizado, item.autoriza, item.fechaAutoriza, item.comentarioAutorizado);
+                             item.ImporteFact, item.IVAFact, item.TotalFact, item.IdCliente, item.Abono, item.R_D, item.caja,
+                             item.STATUS, item.realizo, item.Gastos_Operacion, item.descuento_gastos_op, item.total_gastos_op, item.descuento_preferente, item.auditado,
+                             item.audita, item.fechaAuditado, item.comentarioAuditado, item.autorizado, item.autoriza, item.fechaAutoriza, item.comentarioAutorizado);
                         }
 
                     }
+
                 }
 
 
@@ -499,10 +580,10 @@ namespace AudSemp.Models
                             return false;
                         }
 
-                        factura.autoriza = autoriza;
-                        factura.autorizado = autorizo.Substring(0, 3);
-                        factura.fechaAutoriza = fecha;
-                        factura.comentarioAutorizado = comentario;
+                        factura.audita = autoriza;
+                        factura.auditado = autorizo.Substring(0, 3);
+                        factura.fechaAuditado = fecha;
+                        factura.comentarioAuditado = comentario;
 
 
                         context.Entry(factura).State = System.Data.Entity.EntityState.Modified;

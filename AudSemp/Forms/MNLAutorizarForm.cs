@@ -8,18 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OperSemp.Forms
+namespace AudSemp.Forms
 {
     public partial class MNLAutorizarForm : Form
     {
-
+        public int _optionUpdate = 0;
         public string _status;
         public string _comentario;
         public string _inventario;
         public string _Data;
         public RevisarMNLAutorizarForm MyForm;
-
-
+        public RevisarNPconDepositoForm MyFormNP;
 
         public string _inv;
         public string _desc;
@@ -56,7 +55,7 @@ namespace OperSemp.Forms
                 {
 
                     MessageBox.Show("No has Seleccionado Status!" 
-                   , "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                   , "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
 
                 }
@@ -65,12 +64,23 @@ namespace OperSemp.Forms
                 {
 
                     MessageBox.Show("No has ingresado un Comentario!"
-                   , "Operaciones SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                   , "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
 
                 }
 
-                MyForm.Update(_inventario,txtComentario.Text,cboStatus.Text,_status);
+
+                if (_optionUpdate == 0)
+                {
+                    MyForm.Update(_inventario, txtComentario.Text, cboStatus.Text, _status);
+
+                }
+
+                if (_optionUpdate == 1)
+                {
+                    MyFormNP.Update(_inventario, txtComentario.Text, cboStatus.Text, _inventario);
+
+                }
 
                 this.Close();
 
@@ -105,13 +115,7 @@ namespace OperSemp.Forms
             label14.Text = _importeTotal;
             label16.Text = _man;
 
-
-
-
-
-
-
-
+            
         }
     }
 }

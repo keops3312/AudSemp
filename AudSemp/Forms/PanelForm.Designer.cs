@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevComponents.DotNetBar.EllipticalShapeDescriptor ellipticalShapeDescriptor1 = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
-            DevComponents.DotNetBar.EllipticalShapeDescriptor ellipticalShapeDescriptor2 = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PanelForm));
             this.expandablePanel1 = new DevComponents.DotNetBar.ExpandablePanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -57,11 +55,12 @@
             this.metroTileItem10 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem11 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem12 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem1 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem13 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.controlContainerItem1 = new DevComponents.DotNetBar.ControlContainerItem();
             this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
             this.btnMinimizar = new DevComponents.DotNetBar.ButtonX();
             this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
-            this.btnMNLremisiones = new System.Windows.Forms.Button();
             this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
             this.expandablePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -295,7 +294,6 @@
             this.itemContainer1});
             this.metroTilePanel1.Location = new System.Drawing.Point(252, 115);
             this.metroTilePanel1.Name = "metroTilePanel1";
-            this.metroTilePanel1.ReserveLeftSpace = false;
             this.metroTilePanel1.Size = new System.Drawing.Size(609, 483);
             this.metroTilePanel1.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.metroTilePanel1.TabIndex = 17;
@@ -321,11 +319,9 @@
             this.metroTileItem9,
             this.metroTileItem10,
             this.metroTileItem11,
-            this.metroTileItem12});
-            // 
-            // 
-            // 
-            this.itemContainer1.TitleMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem12,
+            this.metroTileItem1,
+            this.metroTileItem13});
             // 
             // 
             // 
@@ -516,6 +512,36 @@
             this.metroTileItem12.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.metroTileItem12.Click += new System.EventHandler(this.metroTileItem12_Click);
             // 
+            // metroTileItem1
+            // 
+            this.metroTileItem1.Image = global::AudSemp.Properties.Resources._comprado1;
+            this.metroTileItem1.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTileItem1.Name = "metroTileItem1";
+            this.metroTileItem1.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem1.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
+            // 
+            // 
+            // 
+            this.metroTileItem1.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem1.TitleText = "Auditar Remisiones con Desc MNL";
+            this.metroTileItem1.TitleTextAlignment = System.Drawing.ContentAlignment.TopCenter;
+            this.metroTileItem1.Click += new System.EventHandler(this.metroTileItem1_Click);
+            // 
+            // metroTileItem13
+            // 
+            this.metroTileItem13.Image = global::AudSemp.Properties.Resources.cajero_1;
+            this.metroTileItem13.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTileItem13.Name = "metroTileItem13";
+            this.metroTileItem13.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem13.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
+            // 
+            // 
+            // 
+            this.metroTileItem13.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem13.TitleText = "Auditar NP con deposito bancario";
+            this.metroTileItem13.TitleTextAlignment = System.Drawing.ContentAlignment.TopCenter;
+            this.metroTileItem13.Click += new System.EventHandler(this.metroTileItem13_Click);
+            // 
             // controlContainerItem1
             // 
             this.controlContainerItem1.AllowItemResize = true;
@@ -530,7 +556,7 @@
             this.btnRegresar.ImageFixedSize = new System.Drawing.Size(40, 40);
             this.btnRegresar.Location = new System.Drawing.Point(737, 30);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Shape = ellipticalShapeDescriptor1;
+            this.btnRegresar.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             this.btnRegresar.Size = new System.Drawing.Size(52, 48);
             this.btnRegresar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnRegresar.TabIndex = 14;
@@ -545,7 +571,7 @@
             this.btnMinimizar.ImageFixedSize = new System.Drawing.Size(40, 40);
             this.btnMinimizar.Location = new System.Drawing.Point(809, 30);
             this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Shape = ellipticalShapeDescriptor2;
+            this.btnMinimizar.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             this.btnMinimizar.Size = new System.Drawing.Size(52, 48);
             this.btnMinimizar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnMinimizar.TabIndex = 15;
@@ -556,23 +582,15 @@
             this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX1.Location = new System.Drawing.Point(0, 0);
             this.buttonX1.Name = "buttonX1";
+            this.buttonX1.Size = new System.Drawing.Size(0, 0);
             this.buttonX1.TabIndex = 0;
-            // 
-            // btnMNLremisiones
-            // 
-            this.btnMNLremisiones.Location = new System.Drawing.Point(249, 71);
-            this.btnMNLremisiones.Name = "btnMNLremisiones";
-            this.btnMNLremisiones.Size = new System.Drawing.Size(171, 31);
-            this.btnMNLremisiones.TabIndex = 27;
-            this.btnMNLremisiones.Text = "Auditar Remisiones MNL";
-            this.btnMNLremisiones.UseVisualStyleBackColor = true;
-            this.btnMNLremisiones.Click += new System.EventHandler(this.btnMNLremisiones_Click);
             // 
             // buttonX2
             // 
             this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX2.Location = new System.Drawing.Point(0, 0);
             this.buttonX2.Name = "buttonX2";
+            this.buttonX2.Size = new System.Drawing.Size(0, 0);
             this.buttonX2.TabIndex = 0;
             // 
             // PanelForm
@@ -581,7 +599,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(892, 610);
-            this.Controls.Add(this.btnMNLremisiones);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.metroTilePanel1);
             this.Controls.Add(this.expandablePanel4);
@@ -636,7 +653,8 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private DevComponents.DotNetBar.LabelX labelX6;
         private DevComponents.DotNetBar.ButtonX buttonX1;
-        private System.Windows.Forms.Button btnMNLremisiones;
         private DevComponents.DotNetBar.ButtonX buttonX2;
+        private DevComponents.DotNetBar.Metro.MetroTileItem metroTileItem1;
+        private DevComponents.DotNetBar.Metro.MetroTileItem metroTileItem13;
     }
 }
