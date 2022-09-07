@@ -76,6 +76,10 @@
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
     </Reference>
@@ -608,7 +612,9 @@
       <DependentUpon>AleatorioRPT.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Forms\AleatoriosForm.cs" />
+    <Compile Include="Forms\AleatoriosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\AleatoriosForm.Designer.cs">
       <DependentUpon>AleatoriosForm.cs</DependentUpon>
     </Compile>
@@ -735,6 +741,12 @@
       <DependentUpon>MNLRemsiones.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Forms\NotasPagoConDepositoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NotasPagoConDepositoForm.designer.cs">
+      <DependentUpon>NotasPagoConDepositoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\NotasPagoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -798,6 +810,12 @@
     <Compile Include="Forms\RevisarMNLAutorizarForm.designer.cs">
       <DependentUpon>RevisarMNLAutorizarForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\RevisarNPconDepositoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RevisarNPconDepositoForm.designer.cs">
+      <DependentUpon>RevisarNPconDepositoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\TomaFisicaForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -810,7 +828,15 @@
     <Compile Include="Forms\VerAuditoriaMNLForm.designer.cs">
       <DependentUpon>VerAuditoriaMNLForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\VistaPreviaForm.cs" />
+    <Compile Include="Forms\VistaPreviaDepoNpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VistaPreviaDepoNpForm.designer.cs">
+      <DependentUpon>VistaPreviaDepoNpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VistaPreviaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\VistaPreviaForm.Designer.cs">
       <DependentUpon>VistaPreviaForm.cs</DependentUpon>
     </Compile>
@@ -822,6 +848,7 @@
     </Compile>
     <Compile Include="Helpers\localidad.cs" />
     <Compile Include="Models\ApartadosModel.cs" />
+    <Compile Include="Models\AutorizaNotaPagoConDepositoModel.cs" />
     <Compile Include="Models\AutorizaRemisionesMNLModel.cs" />
     <Compile Include="Models\AutPrestModel.cs" />
     <Compile Include="Models\BolsasModel.cs" />
@@ -937,6 +964,9 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>MNLRemsiones1.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotasPagoConDepositoForm.resx">
+      <DependentUpon>NotasPagoConDepositoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\NotasPagoForm.resx">
       <DependentUpon>NotasPagoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -971,11 +1001,17 @@
     <EmbeddedResource Include="Forms\RevisarMNLAutorizarForm.resx">
       <DependentUpon>RevisarMNLAutorizarForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RevisarNPconDepositoForm.resx">
+      <DependentUpon>RevisarNPconDepositoForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\TomaFisicaForm.resx">
       <DependentUpon>TomaFisicaForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\VerAuditoriaMNLForm.resx">
       <DependentUpon>VerAuditoriaMNLForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VistaPreviaDepoNpForm.resx">
+      <DependentUpon>VistaPreviaDepoNpForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\VistaPreviaForm.resx">
       <DependentUpon>VistaPreviaForm.cs</DependentUpon>

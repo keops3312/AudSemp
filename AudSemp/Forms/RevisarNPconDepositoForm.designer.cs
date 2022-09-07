@@ -1,6 +1,6 @@
-﻿namespace AudSemp.Forms
+﻿namespace OperSemp.Forms
 {
-    partial class RevisarMNLAutorizarForm
+    partial class RevisarNPconDepositoForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RevisarMNLAutorizarForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RevisarNPconDepositoForm));
             this.dtgResult = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dtgResult)).BeginInit();
             this.SuspendLayout();
@@ -43,26 +43,26 @@
             this.dtgResult.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgResult.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dtgResult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgResult.Location = new System.Drawing.Point(9, 10);
+            this.dtgResult.Location = new System.Drawing.Point(11, 17);
             this.dtgResult.Margin = new System.Windows.Forms.Padding(2);
             this.dtgResult.Name = "dtgResult";
             this.dtgResult.ReadOnly = true;
             this.dtgResult.RowTemplate.Height = 24;
-            this.dtgResult.Size = new System.Drawing.Size(977, 422);
-            this.dtgResult.TabIndex = 0;
+            this.dtgResult.Size = new System.Drawing.Size(939, 355);
+            this.dtgResult.TabIndex = 1;
             this.dtgResult.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgResult_CellContentClick);
             // 
-            // RevisarMNLAutorizarForm
+            // RevisarNPconDepositoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(995, 442);
+            this.ClientSize = new System.Drawing.Size(961, 383);
             this.Controls.Add(this.dtgResult);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "RevisarMNLAutorizarForm";
-            this.Text = "AUTORIZACIONES DE NP CON DEPOSITOS";
-            this.Load += new System.EventHandler(this.RevisarMNLAutorizarForm_Load);
+            this.Name = "RevisarNPconDepositoForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Revisar NP con Deposito";
+            this.Load += new System.EventHandler(this.RevisarNPconDepositoForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgResult)).EndInit();
             this.ResumeLayout(false);
 
