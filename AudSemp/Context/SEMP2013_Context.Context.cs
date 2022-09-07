@@ -25,6 +25,8 @@ namespace AudSemp.Context
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<C__MigrationHistory> C__MigrationHistory { get; set; }
+        public virtual DbSet<ApartadosEspeciales> ApartadosEspeciales { get; set; }
         public virtual DbSet<ArtPromociones> ArtPromociones { get; set; }
         public virtual DbSet<ArtPromocionesMovs> ArtPromocionesMovs { get; set; }
         public virtual DbSet<artventas> artventas { get; set; }
@@ -33,22 +35,23 @@ namespace AudSemp.Context
         public virtual DbSet<ArtventasTiempoAvances> ArtventasTiempoAvances { get; set; }
         public virtual DbSet<bolsas_ORO> bolsas_ORO { get; set; }
         public virtual DbSet<bolsas_OTROS> bolsas_OTROS { get; set; }
+        public virtual DbSet<BolsasOroes> BolsasOroes { get; set; }
+        public virtual DbSet<BolsasOtroes> BolsasOtroes { get; set; }
         public virtual DbSet<ClientesPtsPromociones> ClientesPtsPromociones { get; set; }
         public virtual DbSet<ConfigGlobalPromociones> ConfigGlobalPromociones { get; set; }
         public virtual DbSet<ConfigNotaPagoPromociones> ConfigNotaPagoPromociones { get; set; }
         public virtual DbSet<ConfigPrestamosPromociones> ConfigPrestamosPromociones { get; set; }
         public virtual DbSet<ConfigRemisionPromociones> ConfigRemisionPromociones { get; set; }
         public virtual DbSet<ContratoDesempeno> ContratoDesempeno { get; set; }
-        public virtual DbSet<ContratoDesempenoC> ContratoDesempenoC { get; set; }
-        public virtual DbSet<ContratoDesempenoCM> ContratoDesempenoCM { get; set; }
         public virtual DbSet<ContratoDesempenoMensuals> ContratoDesempenoMensuals { get; set; }
+        public virtual DbSet<Contratoes> Contratoes { get; set; }
         public virtual DbSet<contratos> contratos { get; set; }
-        public virtual DbSet<CRM_SEMP> CRM_SEMP { get; set; }
         public virtual DbSet<DepositosAvances> DepositosAvances { get; set; }
         public virtual DbSet<DepositosAvancesMensual> DepositosAvancesMensual { get; set; }
         public virtual DbSet<documentosCorte> documentosCorte { get; set; }
         public virtual DbSet<efectivoCorte> efectivoCorte { get; set; }
         public virtual DbSet<Empleados> Empleados { get; set; }
+        public virtual DbSet<facturas> facturas { get; set; }
         public virtual DbSet<NotasDePagoes> NotasDePagoes { get; set; }
         public virtual DbSet<NotasDePagoMensuals> NotasDePagoMensuals { get; set; }
         public virtual DbSet<NotasDesempenoAvances> NotasDesempenoAvances { get; set; }
@@ -57,7 +60,7 @@ namespace AudSemp.Context
         public virtual DbSet<NotasRefrendoAvancesMensual> NotasRefrendoAvancesMensual { get; set; }
         public virtual DbSet<PrestamosAvances> PrestamosAvances { get; set; }
         public virtual DbSet<PrestamosAvancesMensual> PrestamosAvancesMensual { get; set; }
-        public virtual DbSet<prueba> prueba { get; set; }
+        public virtual DbSet<PRVyusuarios> PRVyusuarios { get; set; }
         public virtual DbSet<remisiones> remisiones { get; set; }
         public virtual DbSet<RemisionesAvances> RemisionesAvances { get; set; }
         public virtual DbSet<RemisionesAvancesMensual> RemisionesAvancesMensual { get; set; }
@@ -65,21 +68,21 @@ namespace AudSemp.Context
         public virtual DbSet<RetirosAvancesMensual> RetirosAvancesMensual { get; set; }
         public virtual DbSet<SaldoEnCajas> SaldoEnCajas { get; set; }
         public virtual DbSet<SaldoEnVivoCajas> SaldoEnVivoCajas { get; set; }
-        public virtual DbSet<Siglas_inventario> Siglas_inventario { get; set; }
         public virtual DbSet<StatusPromociones> StatusPromociones { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<abono> abono { get; set; }
         public virtual DbSet<almacenaje> almacenaje { get; set; }
         public virtual DbSet<anterior_abono> anterior_abono { get; set; }
         public virtual DbSet<Apartados> Apartados { get; set; }
         public virtual DbSet<Apartados_confg> Apartados_confg { get; set; }
-        public virtual DbSet<ApartadosEspeciales> ApartadosEspeciales { get; set; }
         public virtual DbSet<ApartadosEspecialesConfig> ApartadosEspecialesConfig { get; set; }
         public virtual DbSet<ApartadosEspecialesInventario> ApartadosEspecialesInventario { get; set; }
         public virtual DbSet<artventas101> artventas101 { get; set; }
         public virtual DbSet<artventas201> artventas201 { get; set; }
+        public virtual DbSet<artventas201aux> artventas201aux { get; set; }
         public virtual DbSet<artventas501> artventas501 { get; set; }
         public virtual DbSet<artventas901> artventas901 { get; set; }
+        public virtual DbSet<artventas902> artventas902 { get; set; }
+        public virtual DbSet<artventasaux> artventasaux { get; set; }
         public virtual DbSet<Auditoria> Auditoria { get; set; }
         public virtual DbSet<auditoria_fisica> auditoria_fisica { get; set; }
         public virtual DbSet<auditoria_resumen> auditoria_resumen { get; set; }
@@ -87,6 +90,7 @@ namespace AudSemp.Context
         public virtual DbSet<auxiliar_puesto> auxiliar_puesto { get; set; }
         public virtual DbSet<borrorem> borrorem { get; set; }
         public virtual DbSet<CAJA_AUXILIAR> CAJA_AUXILIAR { get; set; }
+        public virtual DbSet<caja1> caja1 { get; set; }
         public virtual DbSet<calificacion_aud> calificacion_aud { get; set; }
         public virtual DbSet<clasificacion_cl> clasificacion_cl { get; set; }
         public virtual DbSet<clientes> clientes { get; set; }
@@ -102,10 +106,14 @@ namespace AudSemp.Context
         public virtual DbSet<contabilidad> contabilidad { get; set; }
         public virtual DbSet<contrato_conta> contrato_conta { get; set; }
         public virtual DbSet<Contrato_temporal> Contrato_temporal { get; set; }
+        public virtual DbSet<ContratoDesempenoC> ContratoDesempenoC { get; set; }
+        public virtual DbSet<ContratoDesempenoCM> ContratoDesempenoCM { get; set; }
         public virtual DbSet<CORREO> CORREO { get; set; }
         public virtual DbSet<costo_reimpresion> costo_reimpresion { get; set; }
+        public virtual DbSet<CPHidalgo> CPHidalgo { get; set; }
         public virtual DbSet<depositos> depositos { get; set; }
         public virtual DbSet<depositos_tipo> depositos_tipo { get; set; }
+        public virtual DbSet<DescManuales> DescManuales { get; set; }
         public virtual DbSet<descuentos_distintos> descuentos_distintos { get; set; }
         public virtual DbSet<documentos> documentos { get; set; }
         public virtual DbSet<Empresas> Empresas { get; set; }
@@ -119,23 +127,19 @@ namespace AudSemp.Context
         public virtual DbSet<FactCO> FactCO { get; set; }
         public virtual DbSet<FactCTR> FactCTR { get; set; }
         public virtual DbSet<factura_conta> factura_conta { get; set; }
-        public virtual DbSet<facturas> facturas { get; set; }
         public virtual DbSet<fechasAU> fechasAU { get; set; }
         public virtual DbSet<gastos> gastos { get; set; }
         public virtual DbSet<GradoEstudios> GradoEstudios { get; set; }
-        public virtual DbSet<HistorialinventarioPromocion> HistorialinventarioPromocion { get; set; }
         public virtual DbSet<INFS> INFS { get; set; }
         public virtual DbSet<interes> interes { get; set; }
         public virtual DbSet<interes_conta> interes_conta { get; set; }
         public virtual DbSet<inventariopromocion> inventariopromocion { get; set; }
         public virtual DbSet<Localidades> Localidades { get; set; }
         public virtual DbSet<marcas_localidad> marcas_localidad { get; set; }
-        public virtual DbSet<MIX11> MIX11 { get; set; }
-        public virtual DbSet<MIX12> MIX12 { get; set; }
         public virtual DbSet<Niveles_acceso> Niveles_acceso { get; set; }
+        public virtual DbSet<NotasDescuento> NotasDescuento { get; set; }
         public virtual DbSet<Noticias_SEMP2013> Noticias_SEMP2013 { get; set; }
         public virtual DbSet<NotificacionesTelefonicas> NotificacionesTelefonicas { get; set; }
-        public virtual DbSet<Nuevacaja> Nuevacaja { get; set; }
         public virtual DbSet<OpcionesVerificacion> OpcionesVerificacion { get; set; }
         public virtual DbSet<paises> paises { get; set; }
         public virtual DbSet<Pension> Pension { get; set; }
@@ -149,12 +153,9 @@ namespace AudSemp.Context
         public virtual DbSet<promociones> promociones { get; set; }
         public virtual DbSet<promociones_Activas> promociones_Activas { get; set; }
         public virtual DbSet<promocionesregalo> promocionesregalo { get; set; }
-        public virtual DbSet<PRVyusuarios> PRVyusuarios { get; set; }
         public virtual DbSet<Puestos> Puestos { get; set; }
         public virtual DbSet<puntos_confg> puntos_confg { get; set; }
-        public virtual DbSet<PuntosClientes> PuntosClientes { get; set; }
         public virtual DbSet<refrendo> refrendo { get; set; }
-        public virtual DbSet<RegistroHuellas> RegistroHuellas { get; set; }
         public virtual DbSet<Reimpresiones> Reimpresiones { get; set; }
         public virtual DbSet<remate_inventarios> remate_inventarios { get; set; }
         public virtual DbSet<Respaldos> Respaldos { get; set; }
@@ -163,12 +164,15 @@ namespace AudSemp.Context
         public virtual DbSet<seguro> seguro { get; set; }
         public virtual DbSet<selcaja> selcaja { get; set; }
         public virtual DbSet<sexos> sexos { get; set; }
+        public virtual DbSet<Siglas_inventario> Siglas_inventario { get; set; }
         public virtual DbSet<siglasempresa> siglasempresa { get; set; }
         public virtual DbSet<tabla_result> tabla_result { get; set; }
         public virtual DbSet<TASA_PRESTAMOS> TASA_PRESTAMOS { get; set; }
         public virtual DbSet<TEMP_AVALUO> TEMP_AVALUO { get; set; }
         public virtual DbSet<TEMP_AVALUO2> TEMP_AVALUO2 { get; set; }
         public virtual DbSet<tipos_localidad> tipos_localidad { get; set; }
+        public virtual DbSet<TLA311> TLA311 { get; set; }
+        public virtual DbSet<TLA312> TLA312 { get; set; }
         public virtual DbSet<TPavaluos> TPavaluos { get; set; }
         public virtual DbSet<transferencias> transferencias { get; set; }
         public virtual DbSet<TRFENTRADA> TRFENTRADA { get; set; }

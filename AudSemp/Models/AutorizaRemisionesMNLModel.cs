@@ -77,7 +77,7 @@ namespace AudSemp.Models
             List<string> tiposList = new List<string>();
 
          
-                var tipos = db.remisiones.Select(p => p.tipo_prenda).Distinct();
+                var tipos = db.remisiones.Select(p => p.Tipo_Prenda).Distinct();
 
                 foreach (var item in tipos)
                 {
@@ -321,7 +321,7 @@ namespace AudSemp.Models
                         {
                             dtRemisiones.Rows.Add(item.NumRemision, item.Fecha, item.Cliente, item.Inventario, item.Precio, item.Descuento,
                              item.Importe, item.Cantidad, item.Descripcion, item.conceptopromocion, item.noserieart, item.codebar, item.vendio,
-                             item.suc, item.status, item.idcliente, item.comentarios, item.caja, item.tipo_desc, item.tipo_prenda, item.consec,
+                             item.suc, item.status, item.idcliente, item.comentarios, item.caja, item.tipo_desc, item.Tipo_Prenda, item.consec,
                              item.noRemate, item.precioRemate, item.descRemate, item.conceptPromocion, item.descPromocion, item.tipoDescPromocion, item.auditado,
                              item.audita, item.fechaAuditado, item.comentarioAuditado, item.autorizado, item.autoriza, item.fechaAutoriza, item.comentarioAutorizado);
                         }
@@ -355,7 +355,7 @@ namespace AudSemp.Models
                         {
                             dtRemisiones.Rows.Add(item.NumRemision, item.Fecha, item.Cliente, item.Inventario, item.Precio, item.Descuento,
                              item.Importe, item.Cantidad, item.Descripcion, item.conceptopromocion, item.noserieart, item.codebar, item.vendio,
-                             item.suc, item.status, item.idcliente, item.comentarios, item.caja, item.tipo_desc, item.tipo_prenda, item.consec,
+                             item.suc, item.status, item.idcliente, item.comentarios, item.caja, item.tipo_desc, item.Tipo_Prenda, item.consec,
                              item.noRemate, item.precioRemate, item.descRemate, item.conceptPromocion, item.descPromocion, item.tipoDescPromocion, item.auditado,
                              item.audita, item.fechaAuditado, item.comentarioAuditado, item.autorizado, item.autoriza, item.fechaAutoriza, item.comentarioAutorizado);
                         }
@@ -391,7 +391,7 @@ namespace AudSemp.Models
                         {
                             dtRemisiones.Rows.Add(item.NumRemision, item.Fecha, item.Cliente, item.Inventario, item.Precio, item.Descuento,
                              item.Importe, item.Cantidad, item.Descripcion, item.conceptopromocion, item.noserieart, item.codebar, item.vendio,
-                             item.suc, item.status, item.idcliente, item.comentarios, item.caja, item.tipo_desc, item.tipo_prenda, item.consec,
+                             item.suc, item.status, item.idcliente, item.comentarios, item.caja, item.tipo_desc, item.Tipo_Prenda, item.consec,
                              item.noRemate, item.precioRemate, item.descRemate, item.conceptPromocion, item.descPromocion, item.tipoDescPromocion, item.auditado,
                              item.audita, item.fechaAuditado, item.comentarioAuditado, item.autorizado, item.autoriza, item.fechaAutoriza, item.comentarioAutorizado);
                         }

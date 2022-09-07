@@ -22,7 +22,7 @@ namespace AudSemp.Context
         public string R_D { get; set; }
         public string tipo_C { get; set; }
         public Nullable<System.DateTime> Fecha { get; set; }
-        public string Status_Contrato { get; set; }
+        public string Status_contrato { get; set; }
         public string tipo_desc { get; set; }
         public Nullable<double> descuento { get; set; }
         public string comentario { get; set; }
@@ -40,6 +40,5 @@ namespace AudSemp.Context
         public string caja { get; set; }
         public string status { get; set; }
         public string leyendaPromocion { get; set; }
-        public string Status_contrato { get; set; }
     }
 }

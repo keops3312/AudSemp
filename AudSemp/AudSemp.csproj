@@ -188,10 +188,19 @@
     <Compile Include="Context\artventas201.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Context\artventas201aux.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
     <Compile Include="Context\artventas501.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\artventas901.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\artventas902.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\artventasaux.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\ArtventasAvances.cs">
@@ -218,6 +227,12 @@
     <Compile Include="Context\auxiliar_puesto.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Context\BolsasOroes.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\BolsasOtroes.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
     <Compile Include="Context\bolsas_ORO.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
@@ -225,6 +240,9 @@
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\borrorem.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\caja1.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\CAJA_AUXILIAR.cs">
@@ -296,6 +314,9 @@
     <Compile Include="Context\ContratoDesempenoMensuals.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Context\Contratoes.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
     <Compile Include="Context\contratos.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
@@ -311,7 +332,10 @@
     <Compile Include="Context\costo_reimpresion.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\CRM_SEMP.cs">
+    <Compile Include="Context\CPHidalgo.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\C__MigrationHistory.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\depositos.cs">
@@ -324,6 +348,9 @@
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\depositos_tipo.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\DescManuales.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\descuentos_distintos.cs">
@@ -386,9 +413,6 @@
     <Compile Include="Context\GradoEstudios.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\HistorialinventarioPromocion.cs">
-      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
-    </Compile>
     <Compile Include="Context\INFS.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
@@ -407,12 +431,6 @@
     <Compile Include="Context\marcas_localidad.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\MIX11.cs">
-      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\MIX12.cs">
-      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
-    </Compile>
     <Compile Include="Context\Niveles_acceso.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
@@ -420,6 +438,9 @@
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\NotasDePagoMensuals.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\NotasDescuento.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\NotasDesempenoAvances.cs">
@@ -438,9 +459,6 @@
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\NotificacionesTelefonicas.cs">
-      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\Nuevacaja.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\OpcionesVerificacion.cs">
@@ -488,25 +506,16 @@
     <Compile Include="Context\prom_ventas.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\prueba.cs">
-      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
-    </Compile>
     <Compile Include="Context\PRVyusuarios.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Puestos.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\PuntosClientes.cs">
-      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
-    </Compile>
     <Compile Include="Context\puntos_confg.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\refrendo.cs">
-      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Context\RegistroHuellas.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\Reimpresiones.cs">
@@ -578,9 +587,6 @@
     <Compile Include="Context\StatusPromociones.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\sysdiagrams.cs">
-      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
-    </Compile>
     <Compile Include="Context\tabla_result.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
@@ -594,6 +600,12 @@
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\tipos_localidad.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\TLA311.cs">
+      <DependentUpon>SEMP2013_Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Context\TLA312.cs">
       <DependentUpon>SEMP2013_Context.tt</DependentUpon>
     </Compile>
     <Compile Include="Context\TPavaluos.cs">
@@ -623,13 +635,13 @@
     <Compile Include="Forms\AleatoriosForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AleatoriosForm.Designer.cs">
+    <Compile Include="Forms\AleatoriosForm.designer.cs">
       <DependentUpon>AleatoriosForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Aleattorios2Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Aleattorios2Form.Designer.cs">
+    <Compile Include="Forms\Aleattorios2Form.designer.cs">
       <DependentUpon>Aleattorios2Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\apartados.cs">
@@ -641,19 +653,19 @@
     <Compile Include="Forms\ApartadosForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ApartadosForm.Designer.cs">
+    <Compile Include="Forms\ApartadosForm.designer.cs">
       <DependentUpon>ApartadosForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\ApartadosHistorialForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ApartadosHistorialForm.Designer.cs">
+    <Compile Include="Forms\ApartadosHistorialForm.designer.cs">
       <DependentUpon>ApartadosHistorialForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\AutPrestForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AutPrestForm.Designer.cs">
+    <Compile Include="Forms\AutPrestForm.designer.cs">
       <DependentUpon>AutPrestForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\AutPrestRPT.cs">
@@ -665,7 +677,7 @@
     <Compile Include="Forms\BolsasForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BolsasForm.Designer.cs">
+    <Compile Include="Forms\BolsasForm.designer.cs">
       <DependentUpon>BolsasForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\BolsasJoyeriaRPT.cs">
@@ -689,7 +701,7 @@
     <Compile Include="Forms\ContratosForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ContratosForm.Designer.cs">
+    <Compile Include="Forms\ContratosForm.designer.cs">
       <DependentUpon>ContratosForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\depositosRPT.cs">
@@ -701,7 +713,7 @@
     <Compile Include="Forms\DepositosyRetiros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\DepositosyRetiros.Designer.cs">
+    <Compile Include="Forms\DepositosyRetiros.designer.cs">
       <DependentUpon>DepositosyRetiros.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\HistorialApartadosReport.cs">
@@ -719,7 +731,7 @@
     <Compile Include="Forms\InventariosForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\InventariosForm.Designer.cs">
+    <Compile Include="Forms\InventariosForm.designer.cs">
       <DependentUpon>InventariosForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\InvIIRPT.cs">
@@ -731,7 +743,7 @@
     <Compile Include="Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\LoginForm.Designer.cs">
+    <Compile Include="Forms\LoginForm.designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\MNLAutorizarForm.cs">
@@ -741,9 +753,6 @@
       <DependentUpon>MNLAutorizarForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\MNLRemsiones.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Forms\MNLRemsiones1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>MNLRemsiones.rpt</DependentUpon>
@@ -764,7 +773,7 @@
     <Compile Include="Forms\NotasPagoForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\NotasPagoForm.Designer.cs">
+    <Compile Include="Forms\NotasPagoForm.designer.cs">
       <DependentUpon>NotasPagoForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\notasPagoRPT.cs">
@@ -776,13 +785,13 @@
     <Compile Include="Forms\PanelForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\PanelForm.Designer.cs">
+    <Compile Include="Forms\PanelForm.designer.cs">
       <DependentUpon>PanelForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\PromDescForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\PromDescForm.Designer.cs">
+    <Compile Include="Forms\PromDescForm.designer.cs">
       <DependentUpon>PromDescForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\PromDescRPT.cs">
@@ -792,9 +801,6 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Forms\RemisionesMNL.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Forms\RemisionesMNL1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>RemisionesMNL.rpt</DependentUpon>
@@ -815,7 +821,7 @@
     <Compile Include="Forms\RevInventariosForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\RevInventariosForm.Designer.cs">
+    <Compile Include="Forms\RevInventariosForm.designer.cs">
       <DependentUpon>RevInventariosForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\RevisarMNLAutorizarForm.cs">
@@ -833,7 +839,7 @@
     <Compile Include="Forms\TomaFisicaForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\TomaFisicaForm.Designer.cs">
+    <Compile Include="Forms\TomaFisicaForm.designer.cs">
       <DependentUpon>TomaFisicaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\VerAuditoriaMNLForm.cs">
@@ -851,7 +857,7 @@
     <Compile Include="Forms\VistaPreviaForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\VistaPreviaForm.Designer.cs">
+    <Compile Include="Forms\VistaPreviaForm.designer.cs">
       <DependentUpon>VistaPreviaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\VistaPreviaMNLForm.cs">
@@ -976,7 +982,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MNLRemsiones.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>MNLRemsiones1.cs</LastGenOutput>
+      <LastGenOutput>MNLRemsiones.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\NotasConDepositoRPT.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -1004,7 +1010,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\RemisionesMNL.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RemisionesMNL1.cs</LastGenOutput>
+      <LastGenOutput>RemisionesMNL.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ReporteRemisionesMNLForm.resx">
       <DependentUpon>ReporteRemisionesMNLForm.cs</DependentUpon>

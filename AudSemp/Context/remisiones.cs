@@ -33,7 +33,7 @@ namespace AudSemp.Context
         public string comentarios { get; set; }
         public string caja { get; set; }
         public string tipo_desc { get; set; }
-        public string tipo_prenda { get; set; }
+        public string Tipo_Prenda { get; set; }
         public int consec { get; set; }
         public Nullable<int> noRemate { get; set; }
         public Nullable<decimal> precioRemate { get; set; }
@@ -49,6 +49,5 @@ namespace AudSemp.Context
         public string autoriza { get; set; }
         public Nullable<System.DateTime> fechaAutoriza { get; set; }
         public string comentarioAutorizado { get; set; }
-        public string Tipo_Prenda { get; set; }
     }
 }

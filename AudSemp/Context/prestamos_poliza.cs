@@ -16,7 +16,5 @@ namespace AudSemp.Context
     {
         public int no { get; set; }
         public string cuenta { get; set; }
-        public string caja { get; set; }
-        public Nullable<System.DateTime> fecha { get; set; }
     }
 }
