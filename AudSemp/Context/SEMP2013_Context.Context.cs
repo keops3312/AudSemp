@@ -52,8 +52,10 @@ namespace AudSemp.Context
         public virtual DbSet<efectivoCorte> efectivoCorte { get; set; }
         public virtual DbSet<Empleados> Empleados { get; set; }
         public virtual DbSet<facturas> facturas { get; set; }
+        public virtual DbSet<Localidades> Localidades { get; set; }
         public virtual DbSet<NotasDePagoes> NotasDePagoes { get; set; }
         public virtual DbSet<NotasDePagoMensuals> NotasDePagoMensuals { get; set; }
+        public virtual DbSet<NotasDescuento> NotasDescuento { get; set; }
         public virtual DbSet<NotasDesempenoAvances> NotasDesempenoAvances { get; set; }
         public virtual DbSet<NotasDesempenoAvancesMensual> NotasDesempenoAvancesMensual { get; set; }
         public virtual DbSet<NotasRefrendoAvances> NotasRefrendoAvances { get; set; }
@@ -134,10 +136,8 @@ namespace AudSemp.Context
         public virtual DbSet<interes> interes { get; set; }
         public virtual DbSet<interes_conta> interes_conta { get; set; }
         public virtual DbSet<inventariopromocion> inventariopromocion { get; set; }
-        public virtual DbSet<Localidades> Localidades { get; set; }
         public virtual DbSet<marcas_localidad> marcas_localidad { get; set; }
         public virtual DbSet<Niveles_acceso> Niveles_acceso { get; set; }
-        public virtual DbSet<NotasDescuento> NotasDescuento { get; set; }
         public virtual DbSet<Noticias_SEMP2013> Noticias_SEMP2013 { get; set; }
         public virtual DbSet<NotificacionesTelefonicas> NotificacionesTelefonicas { get; set; }
         public virtual DbSet<OpcionesVerificacion> OpcionesVerificacion { get; set; }

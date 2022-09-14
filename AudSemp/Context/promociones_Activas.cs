@@ -17,7 +17,7 @@ namespace AudSemp.Context
         public string promociones { get; set; }
         public string activa { get; set; }
         public string descripcion { get; set; }
-        public Nullable<decimal> descuento_porciento { get; set; }
+        public Nullable<double> descuento_porciento { get; set; }
         public Nullable<decimal> descuento_cantidad { get; set; }
         public Nullable<System.DateTime> VIGENCIA { get; set; }
         public string tipo { get; set; }

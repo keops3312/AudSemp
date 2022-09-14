@@ -76,6 +76,13 @@
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Design">
+      <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.DotNetBar.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.DotNetBar.Keyboard.dll</HintPath>
+    </Reference>
     <Reference Include="DevComponents.DotNetBar.Layout, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.DotNetBar.Layout.dll</HintPath>
@@ -84,9 +91,32 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.DotNetBar.Layout.Design.dll</HintPath>
     </Reference>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.DotNetBar.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll</HintPath>
+    </Reference>
     <Reference Include="DevComponents.DotNetBar2, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=14.1.0.37, Culture=neutral, PublicKeyToken=f90dc37c26666a67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.Instrumentation.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation.Design">
+      <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.Instrumentation.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.SuperGrid.Design, Version=14.1.0.37, Culture=neutral, PublicKeyToken=26d81176cfa2b486, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.SuperGrid.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.TreeGX, Version=14.1.0.37, Culture=neutral, PublicKeyToken=055db68f670cfeab, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\OperSemp\OperSemp\bin\Debug\DevComponents.TreeGX.dll</HintPath>
     </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
@@ -764,6 +794,18 @@
       <DependentUpon>NotasConDepositoRPT.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Forms\NotasDeDescuentoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NotasDeDescuentoForm.designer.cs">
+      <DependentUpon>NotasDeDescuentoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NotasDeDescuentoRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NotasDeDescuentoRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms\NotasPagoConDepositoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -830,6 +872,12 @@
     <Compile Include="Forms\RevisarMNLAutorizarForm.designer.cs">
       <DependentUpon>RevisarMNLAutorizarForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\RevisarNDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RevisarNDForm.designer.cs">
+      <DependentUpon>RevisarNDForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\RevisarNPconDepositoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -866,6 +914,12 @@
     <Compile Include="Forms\VistaPreviaMNLForm.designer.cs">
       <DependentUpon>VistaPreviaMNLForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\VistaPreviaNDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VistaPreviaNDForm.designer.cs">
+      <DependentUpon>VistaPreviaNDForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helpers\localidad.cs" />
     <Compile Include="Models\ApartadosModel.cs" />
     <Compile Include="Models\AutorizaNotaPagoConDepositoModel.cs" />
@@ -878,6 +932,7 @@
     <Compile Include="Models\InventarioModel.cs" />
     <Compile Include="Models\LocalidadModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\NotasDeDescuentoModel.cs" />
     <Compile Include="Models\NotasPagoModel.cs" />
     <Compile Include="Models\PromDescModel.cs" />
     <Compile Include="Models\Rectangle.cs" />
@@ -988,6 +1043,13 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>NotasConDepositoRPT.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotasDeDescuentoForm.resx">
+      <DependentUpon>NotasDeDescuentoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotasDeDescuentoRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NotasDeDescuentoRPT.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\NotasPagoConDepositoForm.resx">
       <DependentUpon>NotasPagoConDepositoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -1025,6 +1087,9 @@
     <EmbeddedResource Include="Forms\RevisarMNLAutorizarForm.resx">
       <DependentUpon>RevisarMNLAutorizarForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RevisarNDForm.resx">
+      <DependentUpon>RevisarNDForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\RevisarNPconDepositoForm.resx">
       <DependentUpon>RevisarNPconDepositoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -1042,6 +1107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\VistaPreviaMNLForm.resx">
       <DependentUpon>VistaPreviaMNLForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VistaPreviaNDForm.resx">
+      <DependentUpon>VistaPreviaNDForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -1098,6 +1166,8 @@
       <LastGenOutput>SEMP2013_Context.cs</LastGenOutput>
     </Content>
     <Content Include="Logo.ico" />
+    <None Include="Resources\icono-inventario1.png" />
+    <None Include="Resources\icono-inventario.png" />
     <None Include="Resources\cajero_1.png" />
     <None Include="Resources\_comprado1.png" />
     <None Include="Resources\cajero_.png" />

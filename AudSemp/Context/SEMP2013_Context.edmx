@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="SEMP2013_Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="SEMP2013_MODEL.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="__MigrationHistory">
           <Key>
             <PropertyRef Name="MigrationId" />
@@ -2838,14 +2838,14 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.factura_conta' no tiene 
           <Property Name="realizo" Type="nvarchar" MaxLength="255" />
           <Property Name="clienteDoR" Type="nvarchar" MaxLength="255" />
           <Property Name="conDeposito" Type="bit" />
-          <Property Name="auditado" Type="nvarchar" MaxLength="50" />
-          <Property Name="audita" Type="nvarchar" MaxLength="150" />
+          <Property Name="auditado" Type="nvarchar" MaxLength="255" />
+          <Property Name="audita" Type="nvarchar" MaxLength="255" />
           <Property Name="fechaAuditado" Type="date" />
-          <Property Name="comentarioAuditado" Type="nvarchar" MaxLength="150" />
-          <Property Name="autorizado" Type="nvarchar" MaxLength="50" />
-          <Property Name="autoriza" Type="nvarchar" MaxLength="150" />
+          <Property Name="comentarioAuditado" Type="nvarchar" MaxLength="255" />
+          <Property Name="autorizado" Type="nvarchar" MaxLength="255" />
+          <Property Name="autoriza" Type="nvarchar" MaxLength="255" />
           <Property Name="fechaAutoriza" Type="date" />
-          <Property Name="comentarioAutorizado" Type="nvarchar" MaxLength="150" />
+          <Property Name="comentarioAutorizado" Type="nvarchar" MaxLength="255" />
         </EntityType>
         <!--Errores durante la generación:
 advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.fechasAU' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
@@ -3006,8 +3006,6 @@ advertencia 6013: La tabla o vista 'SEMP2013_PRUEBA.dbo.limites' no tiene defini
           <Property Name="dias_x_apartado" Type="int" />
           <Property Name="minimo_x_apartado" Type="decimal" Precision="18" Scale="2" />
         </EntityType>-->
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.Localidades' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
         <EntityType Name="Localidades">
           <Key>
             <PropertyRef Name="No" />
@@ -3116,42 +3114,9 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.Niveles_acceso' no tiene
           <Property Name="GastosOP" Type="decimal" Precision="18" Scale="2" Nullable="false" />
           <Property Name="cantidad" Type="int" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.NotasDescuento' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
         <EntityType Name="NotasDescuento">
           <Key>
             <PropertyRef Name="Id" />
-            <PropertyRef Name="ND" />
-            <PropertyRef Name="IdCliente" />
-            <PropertyRef Name="Cliente" />
-            <PropertyRef Name="TipOperacion" />
-            <PropertyRef Name="NP" />
-            <PropertyRef Name="Remision" />
-            <PropertyRef Name="Contrato" />
-            <PropertyRef Name="Prestamo" />
-            <PropertyRef Name="SubTotal" />
-            <PropertyRef Name="Iva" />
-            <PropertyRef Name="Total" />
-            <PropertyRef Name="SubTotalR" />
-            <PropertyRef Name="IvaR" />
-            <PropertyRef Name="TotalR" />
-            <PropertyRef Name="Estatus" />
-            <PropertyRef Name="CantidadDescuento" />
-            <PropertyRef Name="ImporteDescuento" />
-            <PropertyRef Name="Caja" />
-            <PropertyRef Name="ArgumentoUsuario" />
-            <PropertyRef Name="Usuario" />
-            <PropertyRef Name="JefeAutorizo" />
-            <PropertyRef Name="FechaDescuento" />
-            <PropertyRef Name="GOAutorizo" />
-            <PropertyRef Name="GOAutorizado" />
-            <PropertyRef Name="GOArgumento" />
-            <PropertyRef Name="GOAutorizadoFecha" />
-            <PropertyRef Name="Auditor" />
-            <PropertyRef Name="Auditado" />
-            <PropertyRef Name="AuditorArgumento" />
-            <PropertyRef Name="AuditadoFecha" />
-            <PropertyRef Name="Sucursal" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="ND" Type="nvarchar" MaxLength="50" Nullable="false" />
@@ -3563,8 +3528,8 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.promociones_Activas' no 
           <Property Name="promociones" Type="nvarchar" MaxLength="50" />
           <Property Name="activa" Type="nchar" MaxLength="10" />
           <Property Name="descripcion" Type="nvarchar(max)" />
-          <Property Name="descuento_porciento" Type="decimal" Precision="18" Scale="2" />
-          <Property Name="descuento_cantidad" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="descuento_porciento" Type="float" />
+          <Property Name="descuento_cantidad" Type="money" />
           <Property Name="VIGENCIA" Type="smalldatetime" />
           <Property Name="tipo" Type="nvarchar" MaxLength="50" />
           <Property Name="operacion" Type="nvarchar" MaxLength="50" />
@@ -4442,7 +4407,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
           <Property Name="STATUS_CONTRATO" Type="nvarchar(max)" />
           <Property Name="DETALLES_CONTRATO" Type="nvarchar(max)" />
         </EntityType>
-        <EntityContainer Name="SEMP2013_ModelStoreContainer">
+        <EntityContainer Name="SEMP2013_MODELStoreContainer">
           <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="ApartadosEspeciales" EntityType="Self.ApartadosEspeciales" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="ArtPromociones" EntityType="Self.ArtPromociones" Schema="dbo" store:Type="Tables" />
@@ -4470,8 +4435,10 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
           <EntitySet Name="efectivoCorte" EntityType="Self.efectivoCorte" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Empleados" EntityType="Self.Empleados" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="facturas" EntityType="Self.facturas" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Localidades" EntityType="Self.Localidades" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="NotasDePagoes" EntityType="Self.NotasDePagoes" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="NotasDePagoMensuals" EntityType="Self.NotasDePagoMensuals" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NotasDescuento" EntityType="Self.NotasDescuento" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="NotasDesempenoAvances" EntityType="Self.NotasDesempenoAvances" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="NotasDesempenoAvancesMensual" EntityType="Self.NotasDesempenoAvancesMensual" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="NotasRefrendoAvances" EntityType="Self.NotasRefrendoAvances" Schema="dbo" store:Type="Tables" />
@@ -5755,51 +5722,6 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
     [inventariopromocion].[no_inv] AS [no_inv]
     FROM [dbo].[inventariopromocion] AS [inventariopromocion]</DefiningQuery>
           </EntitySet>
-          <EntitySet Name="Localidades" EntityType="Self.Localidades" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [Localidades].[No] AS [No], 
-    [Localidades].[LOCALIDAD] AS [LOCALIDAD], 
-    [Localidades].[Nombre Sucursal] AS [Nombre Sucursal], 
-    [Localidades].[FECHAALTA] AS [FECHAALTA], 
-    [Localidades].[CONCEPTO] AS [CONCEPTO], 
-    [Localidades].[ENCARGADO] AS [ENCARGADO], 
-    [Localidades].[DIRECCION] AS [DIRECCION], 
-    [Localidades].[TELEFONO] AS [TELEFONO], 
-    [Localidades].[CALLE] AS [CALLE], 
-    [Localidades].[COLONIA] AS [COLONIA], 
-    [Localidades].[NO int] AS [NO int], 
-    [Localidades].[NO ext] AS [NO ext], 
-    [Localidades].[CP] AS [CP], 
-    [Localidades].[Ciudad] AS [Ciudad], 
-    [Localidades].[Estado] AS [Estado], 
-    [Localidades].[Pais] AS [Pais], 
-    [Localidades].[email] AS [email], 
-    [Localidades].[Tel adicional] AS [Tel adicional], 
-    [Localidades].[Bomberos] AS [Bomberos], 
-    [Localidades].[Seguridad Publica] AS [Seguridad Publica], 
-    [Localidades].[Marca] AS [Marca], 
-    [Localidades].[Empresa] AS [Empresa], 
-    [Localidades].[Logotipo] AS [Logotipo], 
-    [Localidades].[Proteccioncivil] AS [Proteccioncivil], 
-    [Localidades].[XXX] AS [XXX], 
-    [Localidades].[objetivoMEs] AS [objetivoMEs], 
-    [Localidades].[formato] AS [formato], 
-    [Localidades].[CAS] AS [CAS], 
-    [Localidades].[lugar_conta] AS [lugar_conta], 
-    [Localidades].[impresora] AS [impresora], 
-    [Localidades].[contador] AS [contador], 
-    [Localidades].[copia] AS [copia], 
-    [Localidades].[BD] AS [BD], 
-    [Localidades].[central] AS [central], 
-    [Localidades].[uno] AS [uno], 
-    [Localidades].[codigo] AS [codigo], 
-    [Localidades].[remformato] AS [remformato], 
-    [Localidades].[NOTADEPAGO] AS [NOTADEPAGO], 
-    [Localidades].[HABILITADO] AS [HABILITADO], 
-    [Localidades].[Hora] AS [Hora], 
-    [Localidades].[WhatsApp] AS [WhatsApp]
-    FROM [dbo].[Localidades] AS [Localidades]</DefiningQuery>
-          </EntitySet>
           <EntitySet Name="marcas_localidad" EntityType="Self.marcas_localidad" store:Type="Tables" store:Schema="dbo">
             <DefiningQuery>SELECT 
     [marcas_localidad].[no] AS [no], 
@@ -5812,42 +5734,6 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
     [Niveles_acceso].[Nivel] AS [Nivel], 
     [Niveles_acceso].[descripcion] AS [descripcion]
     FROM [dbo].[Niveles_acceso] AS [Niveles_acceso]</DefiningQuery>
-          </EntitySet>
-          <EntitySet Name="NotasDescuento" EntityType="Self.NotasDescuento" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [NotasDescuento].[Id] AS [Id], 
-    [NotasDescuento].[ND] AS [ND], 
-    [NotasDescuento].[IdCliente] AS [IdCliente], 
-    [NotasDescuento].[Cliente] AS [Cliente], 
-    [NotasDescuento].[TipOperacion] AS [TipOperacion], 
-    [NotasDescuento].[NP] AS [NP], 
-    [NotasDescuento].[Remision] AS [Remision], 
-    [NotasDescuento].[Contrato] AS [Contrato], 
-    [NotasDescuento].[Prestamo] AS [Prestamo], 
-    [NotasDescuento].[SubTotal] AS [SubTotal], 
-    [NotasDescuento].[Iva] AS [Iva], 
-    [NotasDescuento].[Total] AS [Total], 
-    [NotasDescuento].[SubTotalR] AS [SubTotalR], 
-    [NotasDescuento].[IvaR] AS [IvaR], 
-    [NotasDescuento].[TotalR] AS [TotalR], 
-    [NotasDescuento].[Estatus] AS [Estatus], 
-    [NotasDescuento].[CantidadDescuento] AS [CantidadDescuento], 
-    [NotasDescuento].[ImporteDescuento] AS [ImporteDescuento], 
-    [NotasDescuento].[Caja] AS [Caja], 
-    [NotasDescuento].[ArgumentoUsuario] AS [ArgumentoUsuario], 
-    [NotasDescuento].[Usuario] AS [Usuario], 
-    [NotasDescuento].[JefeAutorizo] AS [JefeAutorizo], 
-    [NotasDescuento].[FechaDescuento] AS [FechaDescuento], 
-    [NotasDescuento].[GOAutorizo] AS [GOAutorizo], 
-    [NotasDescuento].[GOAutorizado] AS [GOAutorizado], 
-    [NotasDescuento].[GOArgumento] AS [GOArgumento], 
-    [NotasDescuento].[GOAutorizadoFecha] AS [GOAutorizadoFecha], 
-    [NotasDescuento].[Auditor] AS [Auditor], 
-    [NotasDescuento].[Auditado] AS [Auditado], 
-    [NotasDescuento].[AuditorArgumento] AS [AuditorArgumento], 
-    [NotasDescuento].[AuditadoFecha] AS [AuditadoFecha], 
-    [NotasDescuento].[Sucursal] AS [Sucursal]
-    FROM [dbo].[NotasDescuento] AS [NotasDescuento]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="Noticias_SEMP2013" EntityType="Self.Noticias_SEMP2013" store:Type="Tables" store:Schema="dbo">
             <DefiningQuery>SELECT 
@@ -6534,7 +6420,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="SEMP2013_Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <Schema Namespace="SEMP2013_MODEL" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityType Name="C__MigrationHistory">
           <Key>
             <PropertyRef Name="MigrationId" />
@@ -7279,14 +7165,60 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
           <Property Name="realizo" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
           <Property Name="clienteDoR" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
           <Property Name="conDeposito" Type="Boolean" />
-          <Property Name="auditado" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="audita" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="auditado" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="audita" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
           <Property Name="fechaAuditado" Type="DateTime" Precision="0" />
-          <Property Name="comentarioAuditado" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
-          <Property Name="autorizado" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="autoriza" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="comentarioAuditado" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="autorizado" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="autoriza" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
           <Property Name="fechaAutoriza" Type="DateTime" Precision="0" />
-          <Property Name="comentarioAutorizado" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="comentarioAutorizado" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Localidades">
+          <Key>
+            <PropertyRef Name="No" />
+          </Key>
+          <Property Name="No" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="LOCALIDAD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Nombre_Sucursal" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="FECHAALTA" Type="DateTime" Precision="0" />
+          <Property Name="CONCEPTO" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="ENCARGADO" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="DIRECCION" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="TELEFONO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CALLE" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="COLONIA" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="NO_int" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NO_ext" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ciudad" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Estado" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Pais" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="Tel_adicional" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Bomberos" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Seguridad_Publica" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Marca" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Empresa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Logotipo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Proteccioncivil" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="XXX" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="objetivoMEs" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="formato" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="CAS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="lugar_conta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="impresora" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="contador" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="copia" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="BD" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="central" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="uno" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="codigo" Type="Int32" />
+          <Property Name="remformato" Type="Int32" />
+          <Property Name="NOTADEPAGO" Type="Int32" />
+          <Property Name="HABILITADO" Type="Int32" />
+          <Property Name="Hora" Type="Time" Precision="0" />
+          <Property Name="WhatsApp" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="NotasDePagoes">
           <Key>
@@ -7321,6 +7253,43 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
           <Property Name="Abono" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
           <Property Name="GastosOP" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
           <Property Name="cantidad" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="NotasDescuento">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ND" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="IdCliente" Type="Int32" Nullable="false" />
+          <Property Name="Cliente" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TipOperacion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Remision" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Contrato" Type="Int32" Nullable="false" />
+          <Property Name="Prestamo" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="SubTotal" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Iva" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Total" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="SubTotalR" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="IvaR" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="TotalR" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Estatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CantidadDescuento" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="ImporteDescuento" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Caja" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ArgumentoUsuario" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="JefeAutorizo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FechaDescuento" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="GOAutorizo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="GOAutorizado" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="GOArgumento" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="GOAutorizadoFecha" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Auditor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Auditado" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="AuditorArgumento" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="AuditadoFecha" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Sucursal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
         </EntityType>
         <EntityType Name="NotasDesempenoAvances">
           <Key>
@@ -9000,52 +8969,6 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
           <Property Name="fecha_alta" Type="DateTime" Precision="0" />
           <Property Name="no_inv" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityType Name="Localidades">
-          <Key>
-            <PropertyRef Name="No" />
-          </Key>
-          <Property Name="No" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="LOCALIDAD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Nombre_Sucursal" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
-          <Property Name="FECHAALTA" Type="DateTime" Precision="0" />
-          <Property Name="CONCEPTO" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
-          <Property Name="ENCARGADO" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
-          <Property Name="DIRECCION" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-          <Property Name="TELEFONO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="CALLE" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="COLONIA" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="NO_int" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="NO_ext" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="CP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Ciudad" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="Estado" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="Pais" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
-          <Property Name="Tel_adicional" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Bomberos" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Seguridad_Publica" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Marca" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Empresa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Logotipo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Proteccioncivil" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="XXX" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="objetivoMEs" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="formato" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
-          <Property Name="CAS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-          <Property Name="lugar_conta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="impresora" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="contador" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="copia" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="BD" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-          <Property Name="central" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-          <Property Name="uno" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-          <Property Name="codigo" Type="Int32" />
-          <Property Name="remformato" Type="Int32" />
-          <Property Name="NOTADEPAGO" Type="Int32" />
-          <Property Name="HABILITADO" Type="Int32" />
-          <Property Name="Hora" Type="Time" Precision="0" />
-          <Property Name="WhatsApp" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-        </EntityType>
         <EntityType Name="marcas_localidad">
           <Key>
             <PropertyRef Name="no" />
@@ -9060,74 +8983,6 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
           <Property Name="no" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Nivel" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
           <Property Name="descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-        </EntityType>
-        <EntityType Name="NotasDescuento">
-          <Key>
-            <PropertyRef Name="Id" />
-            <PropertyRef Name="ND" />
-            <PropertyRef Name="IdCliente" />
-            <PropertyRef Name="Cliente" />
-            <PropertyRef Name="TipOperacion" />
-            <PropertyRef Name="NP" />
-            <PropertyRef Name="Remision" />
-            <PropertyRef Name="Contrato" />
-            <PropertyRef Name="Prestamo" />
-            <PropertyRef Name="SubTotal" />
-            <PropertyRef Name="Iva" />
-            <PropertyRef Name="Total" />
-            <PropertyRef Name="SubTotalR" />
-            <PropertyRef Name="IvaR" />
-            <PropertyRef Name="TotalR" />
-            <PropertyRef Name="Estatus" />
-            <PropertyRef Name="CantidadDescuento" />
-            <PropertyRef Name="ImporteDescuento" />
-            <PropertyRef Name="Caja" />
-            <PropertyRef Name="ArgumentoUsuario" />
-            <PropertyRef Name="Usuario" />
-            <PropertyRef Name="JefeAutorizo" />
-            <PropertyRef Name="FechaDescuento" />
-            <PropertyRef Name="GOAutorizo" />
-            <PropertyRef Name="GOAutorizado" />
-            <PropertyRef Name="GOArgumento" />
-            <PropertyRef Name="GOAutorizadoFecha" />
-            <PropertyRef Name="Auditor" />
-            <PropertyRef Name="Auditado" />
-            <PropertyRef Name="AuditorArgumento" />
-            <PropertyRef Name="AuditadoFecha" />
-            <PropertyRef Name="Sucursal" />
-          </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="ND" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="IdCliente" Type="Int32" Nullable="false" />
-          <Property Name="Cliente" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="TipOperacion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="NP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Remision" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Contrato" Type="Int32" Nullable="false" />
-          <Property Name="Prestamo" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
-          <Property Name="SubTotal" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
-          <Property Name="Iva" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
-          <Property Name="Total" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
-          <Property Name="SubTotalR" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
-          <Property Name="IvaR" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
-          <Property Name="TotalR" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
-          <Property Name="Estatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="CantidadDescuento" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
-          <Property Name="ImporteDescuento" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
-          <Property Name="Caja" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="ArgumentoUsuario" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="JefeAutorizo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="FechaDescuento" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="GOAutorizo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="GOAutorizado" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="GOArgumento" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="GOAutorizadoFecha" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="Auditor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Auditado" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="AuditorArgumento" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="AuditadoFecha" Type="DateTime" Nullable="false" Precision="0" />
-          <Property Name="Sucursal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
         </EntityType>
         <EntityType Name="Noticias_SEMP2013">
           <Key>
@@ -9310,8 +9165,8 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
           <Property Name="promociones" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="activa" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
           <Property Name="descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="descuento_porciento" Type="Decimal" Precision="18" Scale="2" />
-          <Property Name="descuento_cantidad" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="descuento_porciento" Type="Double" />
+          <Property Name="descuento_cantidad" Type="Decimal" Precision="19" Scale="4" />
           <Property Name="VIGENCIA" Type="DateTime" Precision="0" />
           <Property Name="tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="operacion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
@@ -9878,8 +9733,10 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
           <EntitySet Name="efectivoCorte" EntityType="Self.efectivoCorte" />
           <EntitySet Name="Empleados" EntityType="Self.Empleados" />
           <EntitySet Name="facturas" EntityType="Self.facturas" />
+          <EntitySet Name="Localidades" EntityType="Self.Localidades" />
           <EntitySet Name="NotasDePagoes" EntityType="Self.NotasDePagoes" />
           <EntitySet Name="NotasDePagoMensuals" EntityType="Self.NotasDePagoMensuals" />
+          <EntitySet Name="NotasDescuento" EntityType="Self.NotasDescuento" />
           <EntitySet Name="NotasDesempenoAvances" EntityType="Self.NotasDesempenoAvances" />
           <EntitySet Name="NotasDesempenoAvancesMensual" EntityType="Self.NotasDesempenoAvancesMensual" />
           <EntitySet Name="NotasRefrendoAvances" EntityType="Self.NotasRefrendoAvances" />
@@ -9960,10 +9817,8 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
           <EntitySet Name="interes" EntityType="Self.interes" />
           <EntitySet Name="interes_conta" EntityType="Self.interes_conta" />
           <EntitySet Name="inventariopromocion" EntityType="Self.inventariopromocion" />
-          <EntitySet Name="Localidades" EntityType="Self.Localidades" />
           <EntitySet Name="marcas_localidad" EntityType="Self.marcas_localidad" />
           <EntitySet Name="Niveles_acceso" EntityType="Self.Niveles_acceso" />
-          <EntitySet Name="NotasDescuento" EntityType="Self.NotasDescuento" />
           <EntitySet Name="Noticias_SEMP2013" EntityType="Self.Noticias_SEMP2013" />
           <EntitySet Name="NotificacionesTelefonicas" EntityType="Self.NotificacionesTelefonicas" />
           <EntitySet Name="OpcionesVerificacion" EntityType="Self.OpcionesVerificacion" />
@@ -10011,9 +9866,9 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="SEMP2013_ModelStoreContainer" CdmEntityContainer="SEMP2013_Context">
+        <EntityContainerMapping StorageEntityContainer="SEMP2013_MODELStoreContainer" CdmEntityContainer="SEMP2013_Context">
           <EntitySetMapping Name="C__MigrationHistory">
-            <EntityTypeMapping TypeName="SEMP2013_Model.C__MigrationHistory">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.C__MigrationHistory">
               <MappingFragment StoreEntitySet="__MigrationHistory">
                 <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
                 <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
@@ -10023,7 +9878,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ApartadosEspeciales">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ApartadosEspeciales">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ApartadosEspeciales">
               <MappingFragment StoreEntitySet="ApartadosEspeciales">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
@@ -10041,7 +9896,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ArtPromociones">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ArtPromociones">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ArtPromociones">
               <MappingFragment StoreEntitySet="ArtPromociones">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
@@ -10066,7 +9921,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ArtPromocionesMovs">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ArtPromocionesMovs">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ArtPromocionesMovs">
               <MappingFragment StoreEntitySet="ArtPromocionesMovs">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Inventario" ColumnName="Inventario" />
@@ -10088,7 +9943,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="artventas">
-            <EntityTypeMapping TypeName="SEMP2013_Model.artventas">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.artventas">
               <MappingFragment StoreEntitySet="artventas">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="contrato" ColumnName="contrato" />
@@ -10141,7 +9996,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ArtventasAvances">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ArtventasAvances">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ArtventasAvances">
               <MappingFragment StoreEntitySet="ArtventasAvances">
                 <ScalarProperty Name="IdArtventasAvances" ColumnName="IdArtventasAvances" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10174,7 +10029,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ArtventasEstatusAvances">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ArtventasEstatusAvances">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ArtventasEstatusAvances">
               <MappingFragment StoreEntitySet="ArtventasEstatusAvances">
                 <ScalarProperty Name="IdArtventasEstatus" ColumnName="IdArtventasEstatus" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10200,7 +10055,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ArtventasTiempoAvances">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ArtventasTiempoAvances">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ArtventasTiempoAvances">
               <MappingFragment StoreEntitySet="ArtventasTiempoAvances">
                 <ScalarProperty Name="IdArtventasTiempo" ColumnName="IdArtventasTiempo" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10223,7 +10078,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="bolsas_ORO">
-            <EntityTypeMapping TypeName="SEMP2013_Model.bolsas_ORO">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.bolsas_ORO">
               <MappingFragment StoreEntitySet="bolsas_ORO">
                 <ScalarProperty Name="Contrato" ColumnName="Contrato" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10251,7 +10106,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="bolsas_OTROS">
-            <EntityTypeMapping TypeName="SEMP2013_Model.bolsas_OTROS">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.bolsas_OTROS">
               <MappingFragment StoreEntitySet="bolsas_OTROS">
                 <ScalarProperty Name="Contrato" ColumnName="Contrato" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10282,7 +10137,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="BolsasOroes">
-            <EntityTypeMapping TypeName="SEMP2013_Model.BolsasOroes">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.BolsasOroes">
               <MappingFragment StoreEntitySet="BolsasOroes">
                 <ScalarProperty Name="Int" ColumnName="Int" />
                 <ScalarProperty Name="Contrato" ColumnName="Contrato" />
@@ -10310,7 +10165,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="BolsasOtroes">
-            <EntityTypeMapping TypeName="SEMP2013_Model.BolsasOtroes">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.BolsasOtroes">
               <MappingFragment StoreEntitySet="BolsasOtroes">
                 <ScalarProperty Name="Int" ColumnName="Int" />
                 <ScalarProperty Name="Contrato" ColumnName="Contrato" />
@@ -10341,7 +10196,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ClientesPtsPromociones">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ClientesPtsPromociones">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ClientesPtsPromociones">
               <MappingFragment StoreEntitySet="ClientesPtsPromociones">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
@@ -10364,7 +10219,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ConfigGlobalPromociones">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ConfigGlobalPromociones">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ConfigGlobalPromociones">
               <MappingFragment StoreEntitySet="ConfigGlobalPromociones">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="NombrePromocion" ColumnName="NombrePromocion" />
@@ -10384,7 +10239,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ConfigNotaPagoPromociones">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ConfigNotaPagoPromociones">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ConfigNotaPagoPromociones">
               <MappingFragment StoreEntitySet="ConfigNotaPagoPromociones">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="NombrePromocion" ColumnName="NombrePromocion" />
@@ -10402,7 +10257,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ConfigPrestamosPromociones">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ConfigPrestamosPromociones">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ConfigPrestamosPromociones">
               <MappingFragment StoreEntitySet="ConfigPrestamosPromociones">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="NombrePromocion" ColumnName="NombrePromocion" />
@@ -10421,7 +10276,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ConfigRemisionPromociones">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ConfigRemisionPromociones">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ConfigRemisionPromociones">
               <MappingFragment StoreEntitySet="ConfigRemisionPromociones">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="NombrePromocion" ColumnName="NombrePromocion" />
@@ -10439,7 +10294,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ContratoDesempeno">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ContratoDesempeno">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ContratoDesempeno">
               <MappingFragment StoreEntitySet="ContratoDesempeno">
                 <ScalarProperty Name="IdContratoDesempeno" ColumnName="IdContratoDesempeno" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10472,7 +10327,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ContratoDesempenoMensuals">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ContratoDesempenoMensuals">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ContratoDesempenoMensuals">
               <MappingFragment StoreEntitySet="ContratoDesempenoMensuals">
                 <ScalarProperty Name="IdContratoDesempeno" ColumnName="IdContratoDesempeno" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10505,7 +10360,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Contratoes">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Contratoes">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Contratoes">
               <MappingFragment StoreEntitySet="Contratoes">
                 <ScalarProperty Name="Reg" ColumnName="Reg" />
                 <ScalarProperty Name="Folio" ColumnName="Folio" />
@@ -10551,7 +10406,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="contratos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.contratos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.contratos">
               <MappingFragment StoreEntitySet="contratos">
                 <ScalarProperty Name="Folio" ColumnName="Folio" />
                 <ScalarProperty Name="Contrato" ColumnName="Contrato" />
@@ -10597,7 +10452,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="DepositosAvances">
-            <EntityTypeMapping TypeName="SEMP2013_Model.DepositosAvances">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.DepositosAvances">
               <MappingFragment StoreEntitySet="DepositosAvances">
                 <ScalarProperty Name="IdDepositosAvances" ColumnName="IdDepositosAvances" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10611,7 +10466,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="DepositosAvancesMensual">
-            <EntityTypeMapping TypeName="SEMP2013_Model.DepositosAvancesMensual">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.DepositosAvancesMensual">
               <MappingFragment StoreEntitySet="DepositosAvancesMensual">
                 <ScalarProperty Name="IdDepositosAvancesMensual" ColumnName="IdDepositosAvancesMensual" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10625,7 +10480,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="documentosCorte">
-            <EntityTypeMapping TypeName="SEMP2013_Model.documentosCorte">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.documentosCorte">
               <MappingFragment StoreEntitySet="documentosCorte">
                 <ScalarProperty Name="IdDocumentoCorte" ColumnName="IdDocumentoCorte" />
                 <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
@@ -10641,7 +10496,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="efectivoCorte">
-            <EntityTypeMapping TypeName="SEMP2013_Model.efectivoCorte">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.efectivoCorte">
               <MappingFragment StoreEntitySet="efectivoCorte">
                 <ScalarProperty Name="IdEfectivoCorte" ColumnName="IdEfectivoCorte" />
                 <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
@@ -10685,7 +10540,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Empleados">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Empleados">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Empleados">
               <MappingFragment StoreEntitySet="Empleados">
                 <ScalarProperty Name="Consecutivo" ColumnName="Consecutivo" />
                 <ScalarProperty Name="NoEmpleado" ColumnName="NoEmpleado" />
@@ -10736,7 +10591,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="facturas">
-            <EntityTypeMapping TypeName="SEMP2013_Model.facturas">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.facturas">
               <MappingFragment StoreEntitySet="facturas">
                 <ScalarProperty Name="Factura" ColumnName="Factura" />
                 <ScalarProperty Name="FechaFact" ColumnName="FechaFact" />
@@ -10791,8 +10646,55 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="Localidades">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Localidades">
+              <MappingFragment StoreEntitySet="Localidades">
+                <ScalarProperty Name="No" ColumnName="No" />
+                <ScalarProperty Name="LOCALIDAD" ColumnName="LOCALIDAD" />
+                <ScalarProperty Name="Nombre_Sucursal" ColumnName="Nombre Sucursal" />
+                <ScalarProperty Name="FECHAALTA" ColumnName="FECHAALTA" />
+                <ScalarProperty Name="CONCEPTO" ColumnName="CONCEPTO" />
+                <ScalarProperty Name="ENCARGADO" ColumnName="ENCARGADO" />
+                <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+                <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+                <ScalarProperty Name="CALLE" ColumnName="CALLE" />
+                <ScalarProperty Name="COLONIA" ColumnName="COLONIA" />
+                <ScalarProperty Name="NO_int" ColumnName="NO int" />
+                <ScalarProperty Name="NO_ext" ColumnName="NO ext" />
+                <ScalarProperty Name="CP" ColumnName="CP" />
+                <ScalarProperty Name="Ciudad" ColumnName="Ciudad" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="Pais" ColumnName="Pais" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="Tel_adicional" ColumnName="Tel adicional" />
+                <ScalarProperty Name="Bomberos" ColumnName="Bomberos" />
+                <ScalarProperty Name="Seguridad_Publica" ColumnName="Seguridad Publica" />
+                <ScalarProperty Name="Marca" ColumnName="Marca" />
+                <ScalarProperty Name="Empresa" ColumnName="Empresa" />
+                <ScalarProperty Name="Logotipo" ColumnName="Logotipo" />
+                <ScalarProperty Name="Proteccioncivil" ColumnName="Proteccioncivil" />
+                <ScalarProperty Name="XXX" ColumnName="XXX" />
+                <ScalarProperty Name="objetivoMEs" ColumnName="objetivoMEs" />
+                <ScalarProperty Name="formato" ColumnName="formato" />
+                <ScalarProperty Name="CAS" ColumnName="CAS" />
+                <ScalarProperty Name="lugar_conta" ColumnName="lugar_conta" />
+                <ScalarProperty Name="impresora" ColumnName="impresora" />
+                <ScalarProperty Name="contador" ColumnName="contador" />
+                <ScalarProperty Name="copia" ColumnName="copia" />
+                <ScalarProperty Name="BD" ColumnName="BD" />
+                <ScalarProperty Name="central" ColumnName="central" />
+                <ScalarProperty Name="uno" ColumnName="uno" />
+                <ScalarProperty Name="codigo" ColumnName="codigo" />
+                <ScalarProperty Name="remformato" ColumnName="remformato" />
+                <ScalarProperty Name="NOTADEPAGO" ColumnName="NOTADEPAGO" />
+                <ScalarProperty Name="HABILITADO" ColumnName="HABILITADO" />
+                <ScalarProperty Name="Hora" ColumnName="Hora" />
+                <ScalarProperty Name="WhatsApp" ColumnName="WhatsApp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="NotasDePagoes">
-            <EntityTypeMapping TypeName="SEMP2013_Model.NotasDePagoes">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.NotasDePagoes">
               <MappingFragment StoreEntitySet="NotasDePagoes">
                 <ScalarProperty Name="IdNotasPago" ColumnName="IdNotasPago" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10810,7 +10712,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="NotasDePagoMensuals">
-            <EntityTypeMapping TypeName="SEMP2013_Model.NotasDePagoMensuals">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.NotasDePagoMensuals">
               <MappingFragment StoreEntitySet="NotasDePagoMensuals">
                 <ScalarProperty Name="IdNotasPago" ColumnName="IdNotasPago" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10827,8 +10729,46 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="NotasDescuento">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.NotasDescuento">
+              <MappingFragment StoreEntitySet="NotasDescuento">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ND" ColumnName="ND" />
+                <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="TipOperacion" ColumnName="TipOperacion" />
+                <ScalarProperty Name="NP" ColumnName="NP" />
+                <ScalarProperty Name="Remision" ColumnName="Remision" />
+                <ScalarProperty Name="Contrato" ColumnName="Contrato" />
+                <ScalarProperty Name="Prestamo" ColumnName="Prestamo" />
+                <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+                <ScalarProperty Name="Iva" ColumnName="Iva" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+                <ScalarProperty Name="SubTotalR" ColumnName="SubTotalR" />
+                <ScalarProperty Name="IvaR" ColumnName="IvaR" />
+                <ScalarProperty Name="TotalR" ColumnName="TotalR" />
+                <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+                <ScalarProperty Name="CantidadDescuento" ColumnName="CantidadDescuento" />
+                <ScalarProperty Name="ImporteDescuento" ColumnName="ImporteDescuento" />
+                <ScalarProperty Name="Caja" ColumnName="Caja" />
+                <ScalarProperty Name="ArgumentoUsuario" ColumnName="ArgumentoUsuario" />
+                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+                <ScalarProperty Name="JefeAutorizo" ColumnName="JefeAutorizo" />
+                <ScalarProperty Name="FechaDescuento" ColumnName="FechaDescuento" />
+                <ScalarProperty Name="GOAutorizo" ColumnName="GOAutorizo" />
+                <ScalarProperty Name="GOAutorizado" ColumnName="GOAutorizado" />
+                <ScalarProperty Name="GOArgumento" ColumnName="GOArgumento" />
+                <ScalarProperty Name="GOAutorizadoFecha" ColumnName="GOAutorizadoFecha" />
+                <ScalarProperty Name="Auditor" ColumnName="Auditor" />
+                <ScalarProperty Name="Auditado" ColumnName="Auditado" />
+                <ScalarProperty Name="AuditorArgumento" ColumnName="AuditorArgumento" />
+                <ScalarProperty Name="AuditadoFecha" ColumnName="AuditadoFecha" />
+                <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="NotasDesempenoAvances">
-            <EntityTypeMapping TypeName="SEMP2013_Model.NotasDesempenoAvances">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.NotasDesempenoAvances">
               <MappingFragment StoreEntitySet="NotasDesempenoAvances">
                 <ScalarProperty Name="IdNotasDesempenoAvances" ColumnName="IdNotasDesempenoAvances" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10846,7 +10786,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="NotasDesempenoAvancesMensual">
-            <EntityTypeMapping TypeName="SEMP2013_Model.NotasDesempenoAvancesMensual">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.NotasDesempenoAvancesMensual">
               <MappingFragment StoreEntitySet="NotasDesempenoAvancesMensual">
                 <ScalarProperty Name="IdNotasDesempenoAvancesMensual" ColumnName="IdNotasDesempenoAvancesMensual" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10864,7 +10804,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="NotasRefrendoAvances">
-            <EntityTypeMapping TypeName="SEMP2013_Model.NotasRefrendoAvances">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.NotasRefrendoAvances">
               <MappingFragment StoreEntitySet="NotasRefrendoAvances">
                 <ScalarProperty Name="IdNotasRefrendoAvances" ColumnName="IdNotasRefrendoAvances" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10882,7 +10822,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="NotasRefrendoAvancesMensual">
-            <EntityTypeMapping TypeName="SEMP2013_Model.NotasRefrendoAvancesMensual">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.NotasRefrendoAvancesMensual">
               <MappingFragment StoreEntitySet="NotasRefrendoAvancesMensual">
                 <ScalarProperty Name="IdNotasRefrendoAvancesMensual" ColumnName="IdNotasRefrendoAvancesMensual" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10900,7 +10840,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="PrestamosAvances">
-            <EntityTypeMapping TypeName="SEMP2013_Model.PrestamosAvances">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.PrestamosAvances">
               <MappingFragment StoreEntitySet="PrestamosAvances">
                 <ScalarProperty Name="IdPrestamosAvances" ColumnName="IdPrestamosAvances" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10933,7 +10873,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="PrestamosAvancesMensual">
-            <EntityTypeMapping TypeName="SEMP2013_Model.PrestamosAvancesMensual">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.PrestamosAvancesMensual">
               <MappingFragment StoreEntitySet="PrestamosAvancesMensual">
                 <ScalarProperty Name="IdPrestamosAvancesMensual" ColumnName="IdPrestamosAvancesMensual" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -10966,7 +10906,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="PRVyusuarios">
-            <EntityTypeMapping TypeName="SEMP2013_Model.PRVyusuarios">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.PRVyusuarios">
               <MappingFragment StoreEntitySet="PRVyusuarios">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="TIPO_USUARIO" ColumnName="TIPO_USUARIO" />
@@ -10992,7 +10932,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="remisiones">
-            <EntityTypeMapping TypeName="SEMP2013_Model.remisiones">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.remisiones">
               <MappingFragment StoreEntitySet="remisiones">
                 <ScalarProperty Name="NumRemision" ColumnName="NumRemision" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -11033,7 +10973,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="RemisionesAvances">
-            <EntityTypeMapping TypeName="SEMP2013_Model.RemisionesAvances">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.RemisionesAvances">
               <MappingFragment StoreEntitySet="RemisionesAvances">
                 <ScalarProperty Name="IdRemision" ColumnName="IdRemision" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -11066,7 +11006,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="RemisionesAvancesMensual">
-            <EntityTypeMapping TypeName="SEMP2013_Model.RemisionesAvancesMensual">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.RemisionesAvancesMensual">
               <MappingFragment StoreEntitySet="RemisionesAvancesMensual">
                 <ScalarProperty Name="IdRemisionMensual" ColumnName="IdRemisionMensual" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -11099,7 +11039,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="RetirosAvances">
-            <EntityTypeMapping TypeName="SEMP2013_Model.RetirosAvances">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.RetirosAvances">
               <MappingFragment StoreEntitySet="RetirosAvances">
                 <ScalarProperty Name="IdRetirosAvances" ColumnName="IdRetirosAvances" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -11113,7 +11053,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="RetirosAvancesMensual">
-            <EntityTypeMapping TypeName="SEMP2013_Model.RetirosAvancesMensual">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.RetirosAvancesMensual">
               <MappingFragment StoreEntitySet="RetirosAvancesMensual">
                 <ScalarProperty Name="IdRetirosAvancesMensual" ColumnName="IdRetirosAvancesMensual" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -11127,7 +11067,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="SaldoEnCajas">
-            <EntityTypeMapping TypeName="SEMP2013_Model.SaldoEnCajas">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.SaldoEnCajas">
               <MappingFragment StoreEntitySet="SaldoEnCajas">
                 <ScalarProperty Name="IdSaldoEnCajas" ColumnName="IdSaldoEnCajas" />
                 <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
@@ -11144,7 +11084,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="SaldoEnVivoCajas">
-            <EntityTypeMapping TypeName="SEMP2013_Model.SaldoEnVivoCajas">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.SaldoEnVivoCajas">
               <MappingFragment StoreEntitySet="SaldoEnVivoCajas">
                 <ScalarProperty Name="IdSaldoEnCajas" ColumnName="IdSaldoEnCajas" />
                 <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
@@ -11161,7 +11101,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="StatusPromociones">
-            <EntityTypeMapping TypeName="SEMP2013_Model.StatusPromociones">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.StatusPromociones">
               <MappingFragment StoreEntitySet="StatusPromociones">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Status" ColumnName="Status" />
@@ -11170,7 +11110,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="abono">
-            <EntityTypeMapping TypeName="SEMP2013_Model.abono">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.abono">
               <MappingFragment StoreEntitySet="abono">
                 <ScalarProperty Name="contrato" ColumnName="contrato" />
                 <ScalarProperty Name="int" ColumnName="int" />
@@ -11181,7 +11121,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="almacenaje">
-            <EntityTypeMapping TypeName="SEMP2013_Model.almacenaje">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.almacenaje">
               <MappingFragment StoreEntitySet="almacenaje">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="almacenaje1" ColumnName="almacenaje" />
@@ -11191,7 +11131,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="anterior_abono">
-            <EntityTypeMapping TypeName="SEMP2013_Model.anterior_abono">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.anterior_abono">
               <MappingFragment StoreEntitySet="anterior_abono">
                 <ScalarProperty Name="cantidad" ColumnName="cantidad" />
                 <ScalarProperty Name="descripcion" ColumnName="descripcion" />
@@ -11207,7 +11147,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Apartados">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Apartados">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Apartados">
               <MappingFragment StoreEntitySet="Apartados">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="FOLIO_REM" ColumnName="FOLIO_REM" />
@@ -11271,7 +11211,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Apartados_confg">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Apartados_confg">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Apartados_confg">
               <MappingFragment StoreEntitySet="Apartados_confg">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="Nombre_plazo" ColumnName="Nombre_plazo" />
@@ -11287,7 +11227,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ApartadosEspecialesConfig">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ApartadosEspecialesConfig">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ApartadosEspecialesConfig">
               <MappingFragment StoreEntitySet="ApartadosEspecialesConfig">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="penalizacion" ColumnName="penalizacion" />
@@ -11301,7 +11241,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ApartadosEspecialesInventario">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ApartadosEspecialesInventario">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ApartadosEspecialesInventario">
               <MappingFragment StoreEntitySet="ApartadosEspecialesInventario">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="inventario" ColumnName="inventario" />
@@ -11312,7 +11252,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="artventas101">
-            <EntityTypeMapping TypeName="SEMP2013_Model.artventas101">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.artventas101">
               <MappingFragment StoreEntitySet="artventas101">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="contrato" ColumnName="contrato" />
@@ -11348,7 +11288,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="artventas201">
-            <EntityTypeMapping TypeName="SEMP2013_Model.artventas201">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.artventas201">
               <MappingFragment StoreEntitySet="artventas201">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="contrato" ColumnName="contrato" />
@@ -11399,7 +11339,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="artventas201aux">
-            <EntityTypeMapping TypeName="SEMP2013_Model.artventas201aux">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.artventas201aux">
               <MappingFragment StoreEntitySet="artventas201aux">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="contrato" ColumnName="contrato" />
@@ -11434,7 +11374,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="artventas501">
-            <EntityTypeMapping TypeName="SEMP2013_Model.artventas501">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.artventas501">
               <MappingFragment StoreEntitySet="artventas501">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="contrato" ColumnName="contrato" />
@@ -11470,7 +11410,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="artventas901">
-            <EntityTypeMapping TypeName="SEMP2013_Model.artventas901">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.artventas901">
               <MappingFragment StoreEntitySet="artventas901">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="contrato" ColumnName="contrato" />
@@ -11506,7 +11446,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="artventas902">
-            <EntityTypeMapping TypeName="SEMP2013_Model.artventas902">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.artventas902">
               <MappingFragment StoreEntitySet="artventas902">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="contrato" ColumnName="contrato" />
@@ -11542,7 +11482,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="artventasaux">
-            <EntityTypeMapping TypeName="SEMP2013_Model.artventasaux">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.artventasaux">
               <MappingFragment StoreEntitySet="artventasaux">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="contrato" ColumnName="contrato" />
@@ -11577,7 +11517,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Auditoria">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Auditoria">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Auditoria">
               <MappingFragment StoreEntitySet="Auditoria">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="Valor" ColumnName="Valor" />
@@ -11590,7 +11530,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="auditoria_fisica">
-            <EntityTypeMapping TypeName="SEMP2013_Model.auditoria_fisica">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.auditoria_fisica">
               <MappingFragment StoreEntitySet="auditoria_fisica">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="contrato" ColumnName="contrato" />
@@ -11610,7 +11550,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="auditoria_resumen">
-            <EntityTypeMapping TypeName="SEMP2013_Model.auditoria_resumen">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.auditoria_resumen">
               <MappingFragment StoreEntitySet="auditoria_resumen">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="fecha_revision" ColumnName="fecha_revision" />
@@ -11624,7 +11564,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="autorizaciones_prestamos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.autorizaciones_prestamos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.autorizaciones_prestamos">
               <MappingFragment StoreEntitySet="autorizaciones_prestamos">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="fecha" ColumnName="fecha" />
@@ -11638,7 +11578,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="auxiliar_puesto">
-            <EntityTypeMapping TypeName="SEMP2013_Model.auxiliar_puesto">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.auxiliar_puesto">
               <MappingFragment StoreEntitySet="auxiliar_puesto">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="auxp" ColumnName="auxp" />
@@ -11646,7 +11586,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="borrorem">
-            <EntityTypeMapping TypeName="SEMP2013_Model.borrorem">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.borrorem">
               <MappingFragment StoreEntitySet="borrorem">
                 <ScalarProperty Name="NO" ColumnName="NO" />
                 <ScalarProperty Name="NOINV" ColumnName="NOINV" />
@@ -11654,7 +11594,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="CAJA_AUXILIAR">
-            <EntityTypeMapping TypeName="SEMP2013_Model.CAJA_AUXILIAR">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.CAJA_AUXILIAR">
               <MappingFragment StoreEntitySet="CAJA_AUXILIAR">
                 <ScalarProperty Name="mov" ColumnName="mov" />
                 <ScalarProperty Name="Caja" ColumnName="Caja" />
@@ -11679,7 +11619,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="caja1">
-            <EntityTypeMapping TypeName="SEMP2013_Model.caja1">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.caja1">
               <MappingFragment StoreEntitySet="caja1">
                 <ScalarProperty Name="plazo" ColumnName="plazo" />
                 <ScalarProperty Name="CONTRATO" ColumnName="CONTRATO" />
@@ -11710,7 +11650,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="calificacion_aud">
-            <EntityTypeMapping TypeName="SEMP2013_Model.calificacion_aud">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.calificacion_aud">
               <MappingFragment StoreEntitySet="calificacion_aud">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="indice" ColumnName="indice" />
@@ -11733,7 +11673,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="clasificacion_cl">
-            <EntityTypeMapping TypeName="SEMP2013_Model.clasificacion_cl">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.clasificacion_cl">
               <MappingFragment StoreEntitySet="clasificacion_cl">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="Estatus_Considerados" ColumnName="Estatus_Considerados" />
@@ -11768,7 +11708,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="clientes">
-            <EntityTypeMapping TypeName="SEMP2013_Model.clientes">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.clientes">
               <MappingFragment StoreEntitySet="clientes">
                 <ScalarProperty Name="idClientes" ColumnName="idClientes" />
                 <ScalarProperty Name="Nombre" ColumnName="Nombre" />
@@ -11816,7 +11756,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="CLON_APARTADOS">
-            <EntityTypeMapping TypeName="SEMP2013_Model.CLON_APARTADOS">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.CLON_APARTADOS">
               <MappingFragment StoreEntitySet="CLON_APARTADOS">
                 <ScalarProperty Name="mov" ColumnName="mov" />
                 <ScalarProperty Name="Caja" ColumnName="Caja" />
@@ -11841,7 +11781,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="CLON_contratos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.CLON_contratos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.CLON_contratos">
               <MappingFragment StoreEntitySet="CLON_contratos">
                 <ScalarProperty Name="Folio" ColumnName="Folio" />
                 <ScalarProperty Name="Contrato" ColumnName="Contrato" />
@@ -11887,7 +11827,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="CLONA">
-            <EntityTypeMapping TypeName="SEMP2013_Model.CLONA">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.CLONA">
               <MappingFragment StoreEntitySet="CLONA">
                 <ScalarProperty Name="Folio" ColumnName="Folio" />
                 <ScalarProperty Name="Contrato" ColumnName="Contrato" />
@@ -11931,7 +11871,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="CLONARTVENTAS">
-            <EntityTypeMapping TypeName="SEMP2013_Model.CLONARTVENTAS">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.CLONARTVENTAS">
               <MappingFragment StoreEntitySet="CLONARTVENTAS">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="contrato" ColumnName="contrato" />
@@ -11982,7 +11922,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="CLONB">
-            <EntityTypeMapping TypeName="SEMP2013_Model.CLONB">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.CLONB">
               <MappingFragment StoreEntitySet="CLONB">
                 <ScalarProperty Name="Folio" ColumnName="Folio" />
                 <ScalarProperty Name="Contrato" ColumnName="Contrato" />
@@ -12026,7 +11966,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="clontabla">
-            <EntityTypeMapping TypeName="SEMP2013_Model.clontabla">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.clontabla">
               <MappingFragment StoreEntitySet="clontabla">
                 <ScalarProperty Name="mov" ColumnName="mov" />
                 <ScalarProperty Name="Caja" ColumnName="Caja" />
@@ -12046,7 +11986,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="comprobaciones">
-            <EntityTypeMapping TypeName="SEMP2013_Model.comprobaciones">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.comprobaciones">
               <MappingFragment StoreEntitySet="comprobaciones">
                 <ScalarProperty Name="comprobacion_no" ColumnName="comprobacion_no" />
                 <ScalarProperty Name="fecha_comprobacion" ColumnName="fecha_comprobacion" />
@@ -12060,7 +12000,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="comprobaciones_gastos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.comprobaciones_gastos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.comprobaciones_gastos">
               <MappingFragment StoreEntitySet="comprobaciones_gastos">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="caja" ColumnName="caja" />
@@ -12076,7 +12016,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Config_valores_plazos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Config_valores_plazos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Config_valores_plazos">
               <MappingFragment StoreEntitySet="Config_valores_plazos">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="nombre_calendario" ColumnName="nombre_calendario" />
@@ -12087,7 +12027,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="contabilidad">
-            <EntityTypeMapping TypeName="SEMP2013_Model.contabilidad">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.contabilidad">
               <MappingFragment StoreEntitySet="contabilidad">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="Nombre" ColumnName="Nombre" />
@@ -12106,7 +12046,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="contrato_conta">
-            <EntityTypeMapping TypeName="SEMP2013_Model.contrato_conta">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.contrato_conta">
               <MappingFragment StoreEntitySet="contrato_conta">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="cuenta" ColumnName="cuenta" />
@@ -12114,7 +12054,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Contrato_temporal">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Contrato_temporal">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Contrato_temporal">
               <MappingFragment StoreEntitySet="Contrato_temporal">
                 <ScalarProperty Name="No" ColumnName="No" />
                 <ScalarProperty Name="Primer_plazo" ColumnName="Primer_plazo" />
@@ -12134,7 +12074,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ContratoDesempenoC">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ContratoDesempenoC">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ContratoDesempenoC">
               <MappingFragment StoreEntitySet="ContratoDesempenoC">
                 <ScalarProperty Name="IdContratoDesemp" ColumnName="IdContratoDesemp" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -12151,7 +12091,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ContratoDesempenoCM">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ContratoDesempenoCM">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ContratoDesempenoCM">
               <MappingFragment StoreEntitySet="ContratoDesempenoCM">
                 <ScalarProperty Name="IdContratoDesemp" ColumnName="IdContratoDesemp" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />
@@ -12168,7 +12108,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="CORREO">
-            <EntityTypeMapping TypeName="SEMP2013_Model.CORREO">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.CORREO">
               <MappingFragment StoreEntitySet="CORREO">
                 <ScalarProperty Name="HOST" ColumnName="HOST" />
                 <ScalarProperty Name="PUERTO" ColumnName="PUERTO" />
@@ -12178,7 +12118,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="costo_reimpresion">
-            <EntityTypeMapping TypeName="SEMP2013_Model.costo_reimpresion">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.costo_reimpresion">
               <MappingFragment StoreEntitySet="costo_reimpresion">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="costo" ColumnName="costo" />
@@ -12188,7 +12128,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="CPHidalgo">
-            <EntityTypeMapping TypeName="SEMP2013_Model.CPHidalgo">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.CPHidalgo">
               <MappingFragment StoreEntitySet="CPHidalgo">
                 <ScalarProperty Name="d_codigo" ColumnName="d_codigo" />
                 <ScalarProperty Name="d_asenta" ColumnName="d_asenta" />
@@ -12210,7 +12150,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="depositos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.depositos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.depositos">
               <MappingFragment StoreEntitySet="depositos">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="deposito" ColumnName="deposito" />
@@ -12223,7 +12163,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="depositos_tipo">
-            <EntityTypeMapping TypeName="SEMP2013_Model.depositos_tipo">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.depositos_tipo">
               <MappingFragment StoreEntitySet="depositos_tipo">
                 <ScalarProperty Name="tipo" ColumnName="tipo" />
                 <ScalarProperty Name="no" ColumnName="no" />
@@ -12231,7 +12171,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="DescManuales">
-            <EntityTypeMapping TypeName="SEMP2013_Model.DescManuales">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.DescManuales">
               <MappingFragment StoreEntitySet="DescManuales">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="NoInv" ColumnName="NoInv" />
@@ -12262,7 +12202,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="descuentos_distintos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.descuentos_distintos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.descuentos_distintos">
               <MappingFragment StoreEntitySet="descuentos_distintos">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="folio" ColumnName="folio" />
@@ -12294,7 +12234,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="documentos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.documentos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.documentos">
               <MappingFragment StoreEntitySet="documentos">
                 <ScalarProperty Name="tipo_Doc" ColumnName="tipo_Doc" />
                 <ScalarProperty Name="no" ColumnName="no" />
@@ -12302,7 +12242,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Empresas">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Empresas">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Empresas">
               <MappingFragment StoreEntitySet="Empresas">
                 <ScalarProperty Name="NoControl" ColumnName="NoControl" />
                 <ScalarProperty Name="Empresa" ColumnName="Empresa" />
@@ -12339,7 +12279,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Envios">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Envios">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Envios">
               <MappingFragment StoreEntitySet="Envios">
                 <ScalarProperty Name="correo_enviar" ColumnName="correo_enviar" />
                 <ScalarProperty Name="tipo_operacion" ColumnName="tipo_operacion" />
@@ -12348,7 +12288,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="estado_civil">
-            <EntityTypeMapping TypeName="SEMP2013_Model.estado_civil">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.estado_civil">
               <MappingFragment StoreEntitySet="estado_civil">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="estadocivil" ColumnName="estadocivil" />
@@ -12356,7 +12296,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="EstadosRepublica">
-            <EntityTypeMapping TypeName="SEMP2013_Model.EstadosRepublica">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.EstadosRepublica">
               <MappingFragment StoreEntitySet="EstadosRepublica">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="Estado" ColumnName="Estado" />
@@ -12367,7 +12307,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="EstatusApartado">
-            <EntityTypeMapping TypeName="SEMP2013_Model.EstatusApartado">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.EstatusApartado">
               <MappingFragment StoreEntitySet="EstatusApartado">
                 <ScalarProperty Name="EstatusId" ColumnName="EstatusId" />
                 <ScalarProperty Name="Estatus" ColumnName="Estatus" />
@@ -12375,7 +12315,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="EstatusContratos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.EstatusContratos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.EstatusContratos">
               <MappingFragment StoreEntitySet="EstatusContratos">
                 <ScalarProperty Name="EstatusId" ColumnName="EstatusId" />
                 <ScalarProperty Name="Estatus" ColumnName="Estatus" />
@@ -12383,7 +12323,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="EstatusInventarios">
-            <EntityTypeMapping TypeName="SEMP2013_Model.EstatusInventarios">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.EstatusInventarios">
               <MappingFragment StoreEntitySet="EstatusInventarios">
                 <ScalarProperty Name="EstatusId" ColumnName="EstatusId" />
                 <ScalarProperty Name="Estatus" ColumnName="Estatus" />
@@ -12391,7 +12331,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ETQ_VENTA">
-            <EntityTypeMapping TypeName="SEMP2013_Model.ETQ_VENTA">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.ETQ_VENTA">
               <MappingFragment StoreEntitySet="ETQ_VENTA">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
@@ -12410,7 +12350,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="FactCO">
-            <EntityTypeMapping TypeName="SEMP2013_Model.FactCO">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.FactCO">
               <MappingFragment StoreEntitySet="FactCO">
                 <ScalarProperty Name="oro_24" ColumnName="oro_24" />
                 <ScalarProperty Name="oro_22" ColumnName="oro_22" />
@@ -12438,7 +12378,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="FactCTR">
-            <EntityTypeMapping TypeName="SEMP2013_Model.FactCTR">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.FactCTR">
               <MappingFragment StoreEntitySet="FactCTR">
                 <ScalarProperty Name="tipo" ColumnName="tipo" />
                 <ScalarProperty Name="porcentaje" ColumnName="porcentaje" />
@@ -12448,7 +12388,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="factura_conta">
-            <EntityTypeMapping TypeName="SEMP2013_Model.factura_conta">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.factura_conta">
               <MappingFragment StoreEntitySet="factura_conta">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="cuenta" ColumnName="cuenta" />
@@ -12456,7 +12396,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="fechasAU">
-            <EntityTypeMapping TypeName="SEMP2013_Model.fechasAU">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.fechasAU">
               <MappingFragment StoreEntitySet="fechasAU">
                 <ScalarProperty Name="f1" ColumnName="f1" />
                 <ScalarProperty Name="f2" ColumnName="f2" />
@@ -12465,7 +12405,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="gastos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.gastos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.gastos">
               <MappingFragment StoreEntitySet="gastos">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="GASTOS1" ColumnName="GASTOS" />
@@ -12474,7 +12414,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="GradoEstudios">
-            <EntityTypeMapping TypeName="SEMP2013_Model.GradoEstudios">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.GradoEstudios">
               <MappingFragment StoreEntitySet="GradoEstudios">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="GRADO" ColumnName="GRADO" />
@@ -12482,7 +12422,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="INFS">
-            <EntityTypeMapping TypeName="SEMP2013_Model.INFS">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.INFS">
               <MappingFragment StoreEntitySet="INFS">
                 <ScalarProperty Name="localidad" ColumnName="localidad" />
                 <ScalarProperty Name="fecha" ColumnName="fecha" />
@@ -12530,7 +12470,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="interes">
-            <EntityTypeMapping TypeName="SEMP2013_Model.interes">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.interes">
               <MappingFragment StoreEntitySet="interes">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="interes1" ColumnName="interes" />
@@ -12542,7 +12482,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="interes_conta">
-            <EntityTypeMapping TypeName="SEMP2013_Model.interes_conta">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.interes_conta">
               <MappingFragment StoreEntitySet="interes_conta">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="leyendas" ColumnName="leyendas" />
@@ -12550,7 +12490,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="inventariopromocion">
-            <EntityTypeMapping TypeName="SEMP2013_Model.inventariopromocion">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.inventariopromocion">
               <MappingFragment StoreEntitySet="inventariopromocion">
                 <ScalarProperty Name="cantidad" ColumnName="cantidad" />
                 <ScalarProperty Name="descripcion" ColumnName="descripcion" />
@@ -12567,55 +12507,8 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Localidades">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Localidades">
-              <MappingFragment StoreEntitySet="Localidades">
-                <ScalarProperty Name="No" ColumnName="No" />
-                <ScalarProperty Name="LOCALIDAD" ColumnName="LOCALIDAD" />
-                <ScalarProperty Name="Nombre_Sucursal" ColumnName="Nombre Sucursal" />
-                <ScalarProperty Name="FECHAALTA" ColumnName="FECHAALTA" />
-                <ScalarProperty Name="CONCEPTO" ColumnName="CONCEPTO" />
-                <ScalarProperty Name="ENCARGADO" ColumnName="ENCARGADO" />
-                <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
-                <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
-                <ScalarProperty Name="CALLE" ColumnName="CALLE" />
-                <ScalarProperty Name="COLONIA" ColumnName="COLONIA" />
-                <ScalarProperty Name="NO_int" ColumnName="NO int" />
-                <ScalarProperty Name="NO_ext" ColumnName="NO ext" />
-                <ScalarProperty Name="CP" ColumnName="CP" />
-                <ScalarProperty Name="Ciudad" ColumnName="Ciudad" />
-                <ScalarProperty Name="Estado" ColumnName="Estado" />
-                <ScalarProperty Name="Pais" ColumnName="Pais" />
-                <ScalarProperty Name="email" ColumnName="email" />
-                <ScalarProperty Name="Tel_adicional" ColumnName="Tel adicional" />
-                <ScalarProperty Name="Bomberos" ColumnName="Bomberos" />
-                <ScalarProperty Name="Seguridad_Publica" ColumnName="Seguridad Publica" />
-                <ScalarProperty Name="Marca" ColumnName="Marca" />
-                <ScalarProperty Name="Empresa" ColumnName="Empresa" />
-                <ScalarProperty Name="Logotipo" ColumnName="Logotipo" />
-                <ScalarProperty Name="Proteccioncivil" ColumnName="Proteccioncivil" />
-                <ScalarProperty Name="XXX" ColumnName="XXX" />
-                <ScalarProperty Name="objetivoMEs" ColumnName="objetivoMEs" />
-                <ScalarProperty Name="formato" ColumnName="formato" />
-                <ScalarProperty Name="CAS" ColumnName="CAS" />
-                <ScalarProperty Name="lugar_conta" ColumnName="lugar_conta" />
-                <ScalarProperty Name="impresora" ColumnName="impresora" />
-                <ScalarProperty Name="contador" ColumnName="contador" />
-                <ScalarProperty Name="copia" ColumnName="copia" />
-                <ScalarProperty Name="BD" ColumnName="BD" />
-                <ScalarProperty Name="central" ColumnName="central" />
-                <ScalarProperty Name="uno" ColumnName="uno" />
-                <ScalarProperty Name="codigo" ColumnName="codigo" />
-                <ScalarProperty Name="remformato" ColumnName="remformato" />
-                <ScalarProperty Name="NOTADEPAGO" ColumnName="NOTADEPAGO" />
-                <ScalarProperty Name="HABILITADO" ColumnName="HABILITADO" />
-                <ScalarProperty Name="Hora" ColumnName="Hora" />
-                <ScalarProperty Name="WhatsApp" ColumnName="WhatsApp" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="marcas_localidad">
-            <EntityTypeMapping TypeName="SEMP2013_Model.marcas_localidad">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.marcas_localidad">
               <MappingFragment StoreEntitySet="marcas_localidad">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="marca" ColumnName="marca" />
@@ -12623,7 +12516,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Niveles_acceso">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Niveles_acceso">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Niveles_acceso">
               <MappingFragment StoreEntitySet="Niveles_acceso">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="Nivel" ColumnName="Nivel" />
@@ -12631,46 +12524,8 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="NotasDescuento">
-            <EntityTypeMapping TypeName="SEMP2013_Model.NotasDescuento">
-              <MappingFragment StoreEntitySet="NotasDescuento">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="ND" ColumnName="ND" />
-                <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
-                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
-                <ScalarProperty Name="TipOperacion" ColumnName="TipOperacion" />
-                <ScalarProperty Name="NP" ColumnName="NP" />
-                <ScalarProperty Name="Remision" ColumnName="Remision" />
-                <ScalarProperty Name="Contrato" ColumnName="Contrato" />
-                <ScalarProperty Name="Prestamo" ColumnName="Prestamo" />
-                <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
-                <ScalarProperty Name="Iva" ColumnName="Iva" />
-                <ScalarProperty Name="Total" ColumnName="Total" />
-                <ScalarProperty Name="SubTotalR" ColumnName="SubTotalR" />
-                <ScalarProperty Name="IvaR" ColumnName="IvaR" />
-                <ScalarProperty Name="TotalR" ColumnName="TotalR" />
-                <ScalarProperty Name="Estatus" ColumnName="Estatus" />
-                <ScalarProperty Name="CantidadDescuento" ColumnName="CantidadDescuento" />
-                <ScalarProperty Name="ImporteDescuento" ColumnName="ImporteDescuento" />
-                <ScalarProperty Name="Caja" ColumnName="Caja" />
-                <ScalarProperty Name="ArgumentoUsuario" ColumnName="ArgumentoUsuario" />
-                <ScalarProperty Name="Usuario" ColumnName="Usuario" />
-                <ScalarProperty Name="JefeAutorizo" ColumnName="JefeAutorizo" />
-                <ScalarProperty Name="FechaDescuento" ColumnName="FechaDescuento" />
-                <ScalarProperty Name="GOAutorizo" ColumnName="GOAutorizo" />
-                <ScalarProperty Name="GOAutorizado" ColumnName="GOAutorizado" />
-                <ScalarProperty Name="GOArgumento" ColumnName="GOArgumento" />
-                <ScalarProperty Name="GOAutorizadoFecha" ColumnName="GOAutorizadoFecha" />
-                <ScalarProperty Name="Auditor" ColumnName="Auditor" />
-                <ScalarProperty Name="Auditado" ColumnName="Auditado" />
-                <ScalarProperty Name="AuditorArgumento" ColumnName="AuditorArgumento" />
-                <ScalarProperty Name="AuditadoFecha" ColumnName="AuditadoFecha" />
-                <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="Noticias_SEMP2013">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Noticias_SEMP2013">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Noticias_SEMP2013">
               <MappingFragment StoreEntitySet="Noticias_SEMP2013">
                 <ScalarProperty Name="noticia" ColumnName="noticia" />
                 <ScalarProperty Name="NO" ColumnName="NO" />
@@ -12678,7 +12533,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="NotificacionesTelefonicas">
-            <EntityTypeMapping TypeName="SEMP2013_Model.NotificacionesTelefonicas">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.NotificacionesTelefonicas">
               <MappingFragment StoreEntitySet="NotificacionesTelefonicas">
                 <ScalarProperty Name="idNotificacionesTelefonicas" ColumnName="idNotificacionesTelefonicas" />
                 <ScalarProperty Name="TipoNotificacion" ColumnName="TipoNotificacion" />
@@ -12687,7 +12542,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="OpcionesVerificacion">
-            <EntityTypeMapping TypeName="SEMP2013_Model.OpcionesVerificacion">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.OpcionesVerificacion">
               <MappingFragment StoreEntitySet="OpcionesVerificacion">
                 <ScalarProperty Name="IdOpcionVerificacion" ColumnName="IdOpcionVerificacion" />
                 <ScalarProperty Name="OpcionVerificacion" ColumnName="OpcionVerificacion" />
@@ -12696,7 +12551,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="paises">
-            <EntityTypeMapping TypeName="SEMP2013_Model.paises">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.paises">
               <MappingFragment StoreEntitySet="paises">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="pais" ColumnName="pais" />
@@ -12704,7 +12559,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Pension">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Pension">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Pension">
               <MappingFragment StoreEntitySet="Pension">
                 <ScalarProperty Name="IdPension" ColumnName="IdPension" />
                 <ScalarProperty Name="Pension1" ColumnName="Pension" />
@@ -12712,7 +12567,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Plazos_prestamos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Plazos_prestamos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Plazos_prestamos">
               <MappingFragment StoreEntitySet="Plazos_prestamos">
                 <ScalarProperty Name="Nombre" ColumnName="Nombre" />
                 <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
@@ -12766,7 +12621,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="prestamos_poliza">
-            <EntityTypeMapping TypeName="SEMP2013_Model.prestamos_poliza">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.prestamos_poliza">
               <MappingFragment StoreEntitySet="prestamos_poliza">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="cuenta" ColumnName="cuenta" />
@@ -12774,7 +12629,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="prom_aplica">
-            <EntityTypeMapping TypeName="SEMP2013_Model.prom_aplica">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.prom_aplica">
               <MappingFragment StoreEntitySet="prom_aplica">
                 <ScalarProperty Name="ind" ColumnName="ind" />
                 <ScalarProperty Name="por_cada_pt" ColumnName="por_cada_pt" />
@@ -12787,7 +12642,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="prom_aumento">
-            <EntityTypeMapping TypeName="SEMP2013_Model.prom_aumento">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.prom_aumento">
               <MappingFragment StoreEntitySet="prom_aumento">
                 <ScalarProperty Name="ind" ColumnName="ind" />
                 <ScalarProperty Name="prestamo" ColumnName="prestamo" />
@@ -12798,7 +12653,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="prom_descuento_interes">
-            <EntityTypeMapping TypeName="SEMP2013_Model.prom_descuento_interes">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.prom_descuento_interes">
               <MappingFragment StoreEntitySet="prom_descuento_interes">
                 <ScalarProperty Name="ind" ColumnName="ind" />
                 <ScalarProperty Name="prestamo" ColumnName="prestamo" />
@@ -12809,7 +12664,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="prom_ventas">
-            <EntityTypeMapping TypeName="SEMP2013_Model.prom_ventas">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.prom_ventas">
               <MappingFragment StoreEntitySet="prom_ventas">
                 <ScalarProperty Name="ind" ColumnName="ind" />
                 <ScalarProperty Name="venta" ColumnName="venta" />
@@ -12820,7 +12675,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="promocioncaja">
-            <EntityTypeMapping TypeName="SEMP2013_Model.promocioncaja">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.promocioncaja">
               <MappingFragment StoreEntitySet="promocioncaja">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="regalo" ColumnName="regalo" />
@@ -12839,7 +12694,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="promociones">
-            <EntityTypeMapping TypeName="SEMP2013_Model.promociones">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.promociones">
               <MappingFragment StoreEntitySet="promociones">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="folio" ColumnName="folio" />
@@ -12857,7 +12712,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="promociones_Activas">
-            <EntityTypeMapping TypeName="SEMP2013_Model.promociones_Activas">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.promociones_Activas">
               <MappingFragment StoreEntitySet="promociones_Activas">
                 <ScalarProperty Name="promociones" ColumnName="promociones" />
                 <ScalarProperty Name="activa" ColumnName="activa" />
@@ -12879,7 +12734,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="promocionesregalo">
-            <EntityTypeMapping TypeName="SEMP2013_Model.promocionesregalo">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.promocionesregalo">
               <MappingFragment StoreEntitySet="promocionesregalo">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="nombre" ColumnName="nombre" />
@@ -12891,7 +12746,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Puestos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Puestos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Puestos">
               <MappingFragment StoreEntitySet="Puestos">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="puesto" ColumnName="puesto" />
@@ -12900,7 +12755,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="puntos_confg">
-            <EntityTypeMapping TypeName="SEMP2013_Model.puntos_confg">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.puntos_confg">
               <MappingFragment StoreEntitySet="puntos_confg">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="documento" ColumnName="documento" />
@@ -12922,7 +12777,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="refrendo">
-            <EntityTypeMapping TypeName="SEMP2013_Model.refrendo">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.refrendo">
               <MappingFragment StoreEntitySet="refrendo">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="refrendo1" ColumnName="refrendo" />
@@ -12932,7 +12787,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Reimpresiones">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Reimpresiones">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Reimpresiones">
               <MappingFragment StoreEntitySet="Reimpresiones">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="reimpresion" ColumnName="reimpresion" />
@@ -12957,7 +12812,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="remate_inventarios">
-            <EntityTypeMapping TypeName="SEMP2013_Model.remate_inventarios">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.remate_inventarios">
               <MappingFragment StoreEntitySet="remate_inventarios">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="tipo" ColumnName="tipo" />
@@ -12970,7 +12825,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Respaldos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Respaldos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Respaldos">
               <MappingFragment StoreEntitySet="Respaldos">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="fecha" ColumnName="fecha" />
@@ -12982,7 +12837,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Retiros">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Retiros">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Retiros">
               <MappingFragment StoreEntitySet="Retiros">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="caja" ColumnName="caja" />
@@ -13010,7 +12865,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Saldos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Saldos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Saldos">
               <MappingFragment StoreEntitySet="Saldos">
                 <ScalarProperty Name="IdSaldos" ColumnName="IdSaldos" />
                 <ScalarProperty Name="Caja" ColumnName="Caja" />
@@ -13020,7 +12875,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="seguro">
-            <EntityTypeMapping TypeName="SEMP2013_Model.seguro">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.seguro">
               <MappingFragment StoreEntitySet="seguro">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="seguro1" ColumnName="seguro" />
@@ -13030,7 +12885,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="selcaja">
-            <EntityTypeMapping TypeName="SEMP2013_Model.selcaja">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.selcaja">
               <MappingFragment StoreEntitySet="selcaja">
                 <ScalarProperty Name="Caja" ColumnName="Caja" />
                 <ScalarProperty Name="Status" ColumnName="Status" />
@@ -13058,7 +12913,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="sexos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.sexos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.sexos">
               <MappingFragment StoreEntitySet="sexos">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="sexo" ColumnName="sexo" />
@@ -13066,7 +12921,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Siglas_inventario">
-            <EntityTypeMapping TypeName="SEMP2013_Model.Siglas_inventario">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.Siglas_inventario">
               <MappingFragment StoreEntitySet="Siglas_inventario">
                 <ScalarProperty Name="sigla_inventario" ColumnName="sigla_inventario" />
                 <ScalarProperty Name="sigla_inventario1" ColumnName="sigla_inventario1" />
@@ -13086,7 +12941,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="siglasempresa">
-            <EntityTypeMapping TypeName="SEMP2013_Model.siglasempresa">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.siglasempresa">
               <MappingFragment StoreEntitySet="siglasempresa">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="empresa" ColumnName="empresa" />
@@ -13095,7 +12950,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="tabla_result">
-            <EntityTypeMapping TypeName="SEMP2013_Model.tabla_result">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.tabla_result">
               <MappingFragment StoreEntitySet="tabla_result">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="fecha" ColumnName="fecha" />
@@ -13123,7 +12978,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="TASA_PRESTAMOS">
-            <EntityTypeMapping TypeName="SEMP2013_Model.TASA_PRESTAMOS">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.TASA_PRESTAMOS">
               <MappingFragment StoreEntitySet="TASA_PRESTAMOS">
                 <ScalarProperty Name="no_plazo" ColumnName="no_plazo" />
                 <ScalarProperty Name="Nombre_plazo" ColumnName="Nombre_plazo" />
@@ -13141,7 +12996,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="TEMP_AVALUO">
-            <EntityTypeMapping TypeName="SEMP2013_Model.TEMP_AVALUO">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.TEMP_AVALUO">
               <MappingFragment StoreEntitySet="TEMP_AVALUO">
                 <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
                 <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
@@ -13165,7 +13020,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="TEMP_AVALUO2">
-            <EntityTypeMapping TypeName="SEMP2013_Model.TEMP_AVALUO2">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.TEMP_AVALUO2">
               <MappingFragment StoreEntitySet="TEMP_AVALUO2">
                 <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
                 <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
@@ -13189,7 +13044,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="tipos_localidad">
-            <EntityTypeMapping TypeName="SEMP2013_Model.tipos_localidad">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.tipos_localidad">
               <MappingFragment StoreEntitySet="tipos_localidad">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="TIPO" ColumnName="TIPO" />
@@ -13197,7 +13052,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="TLA311">
-            <EntityTypeMapping TypeName="SEMP2013_Model.TLA311">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.TLA311">
               <MappingFragment StoreEntitySet="TLA311">
                 <ScalarProperty Name="mov" ColumnName="mov" />
                 <ScalarProperty Name="Caja" ColumnName="Caja" />
@@ -13217,7 +13072,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="TLA312">
-            <EntityTypeMapping TypeName="SEMP2013_Model.TLA312">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.TLA312">
               <MappingFragment StoreEntitySet="TLA312">
                 <ScalarProperty Name="mov" ColumnName="mov" />
                 <ScalarProperty Name="Caja" ColumnName="Caja" />
@@ -13237,7 +13092,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="TPavaluos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.TPavaluos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.TPavaluos">
               <MappingFragment StoreEntitySet="TPavaluos">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="definicion" ColumnName="definicion" />
@@ -13264,7 +13119,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="transferencias">
-            <EntityTypeMapping TypeName="SEMP2013_Model.transferencias">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.transferencias">
               <MappingFragment StoreEntitySet="transferencias">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="envia" ColumnName="envia" />
@@ -13301,7 +13156,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="TRFENTRADA">
-            <EntityTypeMapping TypeName="SEMP2013_Model.TRFENTRADA">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.TRFENTRADA">
               <MappingFragment StoreEntitySet="TRFENTRADA">
                 <ScalarProperty Name="no" ColumnName="no" />
                 <ScalarProperty Name="envia" ColumnName="envia" />
@@ -13338,7 +13193,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="VALOR_FACTORES">
-            <EntityTypeMapping TypeName="SEMP2013_Model.VALOR_FACTORES">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.VALOR_FACTORES">
               <MappingFragment StoreEntitySet="VALOR_FACTORES">
                 <ScalarProperty Name="No_Factor" ColumnName="No_Factor" />
                 <ScalarProperty Name="Nombre_Factor" ColumnName="Nombre_Factor" />
@@ -13372,7 +13227,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="VALOR_FACTORES_MAS">
-            <EntityTypeMapping TypeName="SEMP2013_Model.VALOR_FACTORES_MAS">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.VALOR_FACTORES_MAS">
               <MappingFragment StoreEntitySet="VALOR_FACTORES_MAS">
                 <ScalarProperty Name="No_Factor" ColumnName="No_Factor" />
                 <ScalarProperty Name="Nombre_Factor" ColumnName="Nombre_Factor" />
@@ -13382,7 +13237,7 @@ advertencia 6002: La tabla o vista 'SEMP2013_PRUEBA.dbo.vencidos' no tiene defin
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="vencidos">
-            <EntityTypeMapping TypeName="SEMP2013_Model.vencidos">
+            <EntityTypeMapping TypeName="SEMP2013_MODEL.vencidos">
               <MappingFragment StoreEntitySet="vencidos">
                 <ScalarProperty Name="Contrato" ColumnName="Contrato" />
                 <ScalarProperty Name="Fecha" ColumnName="Fecha" />

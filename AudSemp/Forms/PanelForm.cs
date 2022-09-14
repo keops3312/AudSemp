@@ -232,11 +232,17 @@ namespace AudSemp.Forms
 
         }
 
+      
 
 
-
-
-
+        //NotasDeDescuentoForm form = new NotasDeDescuentoForm();
+        //form.empresa = Empresa;
+        //    form.sucursal = Sucursal;
+        //    form.nombreSucursal = Sucursal;
+        //    form.encargado = Encargado;
+        //    form.logo = Logotipo;
+        //    form.NombreOperaciones = NombreAuditor;
+        //    form.ShowDialog();
 
 
 
@@ -268,6 +274,23 @@ namespace AudSemp.Forms
             form.encargado = Encargado;
             form.logo = Logotipo;
             form.NombreAuditoria = NombreAuditor;
+            form.ShowDialog();
+        }
+
+        private void metroTileItem14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroTileItem14_Click_1(object sender, EventArgs e)
+        {
+            NotasDeDescuentoForm form = new NotasDeDescuentoForm();
+            form.empresa = Empresa;
+            form.sucursal = Sucursal;
+            form.nombreSucursal = Sucursal;
+            form.encargado = Encargado;
+            form.logo = Logotipo;
+            form.NombreOperaciones = NombreAuditor;
             form.ShowDialog();
         }
     }

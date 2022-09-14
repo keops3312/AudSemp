@@ -1,4 +1,4 @@
-﻿// La generación de código T4 está habilitada para el modelo 'E:\ProyectosFelipe-2022\AudSemp\AudSemp\Context\SEMP2013_Context.edmx'. 
+﻿// La generación de código T4 está habilitada para el modelo 'G:\ProyectosFelipe-2022\AudSemp\AudSemp\Context\SEMP2013_Context.edmx'. 
 // Para habilitar la generación de código heredada, cambie el valor de la propiedad del diseñador 'Estrategia de generación de código'
 // por 'ObjectContext heredado'. Esta propiedad está disponible en la ventana Propiedades cuando se abre
 // el modelo en el diseñador.

@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icono-inventario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icono-inventario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="contratoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\contratoIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -135,9 +138,6 @@
   </data>
   <data name="estatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\estatus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnBolsasSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnBolsasSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="auditor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\auditor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,6 +202,9 @@
   <data name="inventariosIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\inventariosIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cajero_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cajero_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="semplogo2016" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\semplogo2016.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -219,6 +222,9 @@
   </data>
   <data name="Categorias" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Categorias.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pasword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pasword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="crystalSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\crystalSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -307,8 +313,8 @@
   <data name="joyQuestion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\joyQuestion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pasword" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pasword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnBolsasSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnBolsasSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FiletypeSmall_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FiletypeSmall.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -337,7 +343,7 @@
   <data name="SaveSmall_fw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SaveSmall.fw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cajero_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cajero_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icono-inventario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icono-inventario1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

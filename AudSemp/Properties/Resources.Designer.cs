@@ -503,6 +503,26 @@ namespace AudSemp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icono_inventario {
+            get {
+                object obj = ResourceManager.GetObject("icono-inventario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icono_inventario1 {
+            get {
+                object obj = ResourceManager.GetObject("icono-inventario1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap inventariosIcon {
             get {
                 object obj = ResourceManager.GetObject("inventariosIcon", resourceCulture);

@@ -19,6 +19,7 @@ namespace AudSemp.Forms
         public string _Data;
         public RevisarMNLAutorizarForm MyForm;
         public RevisarNPconDepositoForm MyFormNP;
+        public RevisarNDForm MyFormND;
 
         public string _inv;
         public string _desc;
@@ -79,6 +80,13 @@ namespace AudSemp.Forms
                 if (_optionUpdate == 1)
                 {
                     MyFormNP.Update(_inventario, txtComentario.Text, cboStatus.Text, _inventario);
+
+                }
+
+
+                if (_optionUpdate == 2)
+                {
+                    MyFormND.Update(_inventario, txtComentario.Text, cboStatus.Text, _inventario);
 
                 }
 
