@@ -247,9 +247,9 @@
             this.chkTodosAutorizados.Location = new System.Drawing.Point(153, 27);
             this.chkTodosAutorizados.Margin = new System.Windows.Forms.Padding(2);
             this.chkTodosAutorizados.Name = "chkTodosAutorizados";
-            this.chkTodosAutorizados.Size = new System.Drawing.Size(139, 17);
+            this.chkTodosAutorizados.Size = new System.Drawing.Size(142, 17);
             this.chkTodosAutorizados.TabIndex = 3;
-            this.chkTodosAutorizados.Text = "Totos Status Autorizado";
+            this.chkTodosAutorizados.Text = "Todos Status Autorizado";
             this.chkTodosAutorizados.UseVisualStyleBackColor = true;
             this.chkTodosAutorizados.CheckedChanged += new System.EventHandler(this.chkTodosAutorizados_CheckedChanged);
             // 

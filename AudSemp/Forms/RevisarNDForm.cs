@@ -70,7 +70,7 @@ namespace AudSemp.Forms
                     dtgResult.Columns.Add("JefeAutorizo", "JefeAutorizo");
                     dtgResult.Columns.Add("FechaDescuento", "FechaDescuento");
                     dtgResult.Columns.Add("GOAutorizo", "GOAutorizo");//23
-                    dtgResult.Columns.Add("GOAutorizado", "GOAutorizado");//24
+                    dtgResult.Columns.Add("GOAutorizado", "Click Detalle GO");//24
                     dtgResult.Columns.Add("GOArgumento", "GOArgumento");//25
                     dtgResult.Columns.Add("GOAutorizadoFecha", "GOAutorizadoFecha");//26
                     dtgResult.Columns.Add("Auditor", "Auditor");
@@ -224,6 +224,16 @@ namespace AudSemp.Forms
                 dtgResult.Columns[30].DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold);
 
 
+                dtgResult.Columns[24].DefaultCellStyle.BackColor =Color.BlueViolet;
+                dtgResult.Columns[24].DefaultCellStyle.ForeColor = Color.White;
+                dtgResult.Columns[24].DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold);
+
+
+                dtgResult.Columns[28].DefaultCellStyle.BackColor = Color.IndianRed;
+                dtgResult.Columns[28].DefaultCellStyle.ForeColor = Color.White;
+                dtgResult.Columns[28].DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold);
+
+
 
                 dtgResult.Columns[1].Width = 100;
 
@@ -245,13 +255,13 @@ namespace AudSemp.Forms
                 fila = e.RowIndex;
                 string inventario;
                 //auditar
-                if (e.ColumnIndex == 28)//boton informacion raiz
+                if (e.ColumnIndex == 24)//boton informacion raiz
                 {
 
                     inventario = dtgResult.Rows[fila].Cells[0].Value.ToString();
                     var datosAuditoria = lista.Where(p => p.Id == int.Parse(inventario)).FirstOrDefault();
 
-                    MessageBox.Show("Detalles de Auditoria:\n" +
+                    MessageBox.Show("Detalles de Operaciones:\n" +
                         "Auditor: " + datosAuditoria.GOAutorizo + "\n" +
                         "Status: " + datosAuditoria.GOAutorizado + "\n" +
                         "Fecha: " + DateTime.Parse(datosAuditoria.GOAutorizadoFecha.ToString()).ToString("ddd dd MMMM yyyy") + "\n" +
@@ -379,7 +389,7 @@ namespace AudSemp.Forms
                         //dtgResult.Columns.Add("GOAutorizado", "GOAutorizado");//24
                         //dtgResult.Columns.Add("GOArgumento", "GOArgumento");//25
                         //dtgResult.Columns.Add("GOAutorizadoFecha", "GOAutorizadoFecha");//26
-                        fila.Cells[24].Value = status.Substring(0, 3);
+                        fila.Cells[28].Value = status.Substring(0, 3);
 
                     }
 

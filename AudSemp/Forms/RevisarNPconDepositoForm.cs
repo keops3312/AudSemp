@@ -52,17 +52,18 @@ namespace AudSemp.Forms
                     dtgResult.Columns.Add("DescPreferente", "DescPreferente");
                     dtgResult.Columns.Add("Auditado", "ST.Auditado");//click y muestra datos
                     dtgResult.Columns.Add("Autorizado", "ST.Autorizado");//click y muestra datos
+                    dtgResult.Columns.Add("FechaAud", "Fecha Auditoria");//click y muestra datos
                     dtgResult.Columns.Add("Id", "ID");//click y muestra datos
 
 
 
                 }
-                dtgResult.Columns[9].Visible = false; //click y muestra datos
+                dtgResult.Columns[10].Visible = false; //click y muestra datos
 
                 foreach (var item in lista)
                 {
                     dtgResult.Rows.Add(item.Factura, item.FechaFact, item.Contrato, item.TotalFact, item.total_gastos_op,
-                        item.Abono, item.descuento_preferente + "%", item.auditado, item.autorizado, item.NO);
+                    item.Abono, item.descuento_preferente + "%", item.auditado, item.autorizado, item.fechaAuditado, item.NO);
                 }
 
 
@@ -86,12 +87,12 @@ namespace AudSemp.Forms
 
 
                     fila.Cells["Autorizar"].Value =
-                  System.Drawing.Image.FromFile("C:\\SEMP2013\\AudSemp\\AudSemp\\Resources\\verSmall.fw.png");
+                  System.Drawing.Image.FromFile("C:\\SEMP2013\\AudSemp\\AudSemp\\Resources\\UpdateSmall.fw.png");
 
 
                     fila.Cells["RevAuditoria"].Value =
 
-                    System.Drawing.Image.FromFile("C:\\SEMP2013\\AudSemp\\AudSemp\\Resources\\UpdateSmall.fw.png");
+                    System.Drawing.Image.FromFile("C:\\SEMP2013\\AudSemp\\AudSemp\\Resources\\verSmall.fw.png");
                 }
 
                 dtgResult.Columns["Autorizar"].Width = 100;
@@ -110,7 +111,7 @@ namespace AudSemp.Forms
                 dtgResult.Columns[5].DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
 
 
-               
+
                 dtgResult.Columns[6].DefaultCellStyle.ForeColor = Color.DarkRed;
                 dtgResult.Columns[6].DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
 
@@ -119,6 +120,21 @@ namespace AudSemp.Forms
                 dtgResult.Columns[1].DefaultCellStyle.Format = "dd/MMM/yyyy";
                 dtgResult.Columns[1].DefaultCellStyle.ForeColor = Color.OrangeRed;
                 dtgResult.Columns[1].DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+
+                dtgResult.Columns[9].DefaultCellStyle.Format = "dd/MMM/yyyy";
+                dtgResult.Columns[9].DefaultCellStyle.ForeColor = Color.OrangeRed;
+                dtgResult.Columns[9].DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+
+                dtgResult.Columns[8].DefaultCellStyle.BackColor = Color.BlueViolet;
+                dtgResult.Columns[8].DefaultCellStyle.ForeColor = Color.White;
+                dtgResult.Columns[8].DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+
+
+                dtgResult.Columns[7].DefaultCellStyle.BackColor = Color.IndianRed;
+                dtgResult.Columns[7].DefaultCellStyle.ForeColor = Color.White;
+                dtgResult.Columns[7].DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+
+
 
                 dtgResult.Columns[1].Width = 100;
 
@@ -139,14 +155,14 @@ namespace AudSemp.Forms
                 string Factura;
                 string abono;
                 //auditar
-                if (e.ColumnIndex == 0)//boton informacion raiz
+                if (e.ColumnIndex == 8)//boton informacion raiz
                 {
 
                     Factura = dtgResult.Rows[fila].Cells[0].Value.ToString();
                     var datosAuditoria = lista.Where(p => p.Factura == Factura).FirstOrDefault();
 
-                    MessageBox.Show("Detalles de Operacíon:\n" +
-                        "Auditor: " + datosAuditoria.autoriza + "\n" +
+                    MessageBox.Show("Detalles de Operación:\n" +
+                        "G. Operaciones: " + datosAuditoria.autoriza + "\n" +
                         "Status: " + datosAuditoria.autorizado + "\n" +
                         "Fecha: " + DateTime.Parse(datosAuditoria.fechaAutoriza.ToString()).ToString("ddd dd MMMM yyyy") + "\n" +
                         "Comentario: " + datosAuditoria.comentarioAutorizado + "\n", "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -157,7 +173,7 @@ namespace AudSemp.Forms
 
 
                 //ver Detalles de Inventario
-                if (e.ColumnIndex == 10)//boton informacion raiz
+                if (e.ColumnIndex == 11)//boton informacion raiz
                 {
 
                     Factura = dtgResult.Rows[fila].Cells[0].Value.ToString();
@@ -197,9 +213,9 @@ namespace AudSemp.Forms
                 }
 
                 //actualizar
-                if (e.ColumnIndex == 11)//boton informacion raiz
+                if (e.ColumnIndex == 12)//boton informacion raiz
                 {
-                    Factura = dtgResult.Rows[fila].Cells[9].Value.ToString();
+                    Factura = dtgResult.Rows[fila].Cells[10].Value.ToString();
                     var datos = lista.Where(p => p.NO == int.Parse(Factura)).FirstOrDefault();
 
                     if (datos.Abono.ToString() == null || datos.Abono.ToString().Length == 0)
@@ -255,7 +271,7 @@ namespace AudSemp.Forms
             {
                 foreach (DataGridViewRow fila in dtgResult.Rows)
                 {
-                    if (fila.Cells[9].Value.ToString() == consec)
+                    if (fila.Cells[10].Value.ToString() == consec)
                     {
 
                         fila.Cells[7].Value = status.Substring(0, 3);

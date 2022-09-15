@@ -64,29 +64,29 @@ namespace AudSemp.Forms
             // 
             this.chkListAuditados.CheckOnClick = true;
             this.chkListAuditados.FormattingEnabled = true;
-            this.chkListAuditados.Location = new System.Drawing.Point(11, 71);
-            this.chkListAuditados.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkListAuditados.Location = new System.Drawing.Point(8, 58);
+            this.chkListAuditados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkListAuditados.Name = "chkListAuditados";
-            this.chkListAuditados.Size = new System.Drawing.Size(181, 123);
+            this.chkListAuditados.Size = new System.Drawing.Size(137, 94);
             this.chkListAuditados.TabIndex = 0;
             // 
             // chkListAutorizados
             // 
             this.chkListAutorizados.CheckOnClick = true;
             this.chkListAutorizados.FormattingEnabled = true;
-            this.chkListAutorizados.Location = new System.Drawing.Point(215, 71);
-            this.chkListAutorizados.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkListAutorizados.Location = new System.Drawing.Point(161, 58);
+            this.chkListAutorizados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkListAutorizados.Name = "chkListAutorizados";
-            this.chkListAutorizados.Size = new System.Drawing.Size(181, 123);
+            this.chkListAutorizados.Size = new System.Drawing.Size(137, 94);
             this.chkListAutorizados.TabIndex = 1;
             // 
             // chkTodosAuditados
             // 
             this.chkTodosAuditados.AutoSize = true;
-            this.chkTodosAuditados.Location = new System.Drawing.Point(11, 33);
-            this.chkTodosAuditados.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkTodosAuditados.Location = new System.Drawing.Point(8, 27);
+            this.chkTodosAuditados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkTodosAuditados.Name = "chkTodosAuditados";
-            this.chkTodosAuditados.Size = new System.Drawing.Size(181, 21);
+            this.chkTodosAuditados.Size = new System.Drawing.Size(139, 17);
             this.chkTodosAuditados.TabIndex = 2;
             this.chkTodosAuditados.Text = "Todos Status Auditados";
             this.chkTodosAuditados.UseVisualStyleBackColor = true;
@@ -95,38 +95,38 @@ namespace AudSemp.Forms
             // chkTodosAutorizados
             // 
             this.chkTodosAutorizados.AutoSize = true;
-            this.chkTodosAutorizados.Location = new System.Drawing.Point(215, 33);
-            this.chkTodosAutorizados.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkTodosAutorizados.Location = new System.Drawing.Point(161, 27);
+            this.chkTodosAutorizados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkTodosAutorizados.Name = "chkTodosAutorizados";
-            this.chkTodosAutorizados.Size = new System.Drawing.Size(182, 21);
+            this.chkTodosAutorizados.Size = new System.Drawing.Size(142, 17);
             this.chkTodosAutorizados.TabIndex = 3;
-            this.chkTodosAutorizados.Text = "Totos Status Autorizado";
+            this.chkTodosAutorizados.Text = "Todos Status Autorizado";
             this.chkTodosAutorizados.UseVisualStyleBackColor = true;
             this.chkTodosAutorizados.CheckedChanged += new System.EventHandler(this.chkTodosAutorizados_CheckedChanged);
             // 
             // dtInicial
             // 
-            this.dtInicial.Location = new System.Drawing.Point(645, 112);
-            this.dtInicial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtInicial.Location = new System.Drawing.Point(484, 91);
+            this.dtInicial.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtInicial.Name = "dtInicial";
-            this.dtInicial.Size = new System.Drawing.Size(308, 22);
+            this.dtInicial.Size = new System.Drawing.Size(232, 20);
             this.dtInicial.TabIndex = 4;
             // 
             // dtFinal
             // 
-            this.dtFinal.Location = new System.Drawing.Point(645, 159);
-            this.dtFinal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtFinal.Location = new System.Drawing.Point(484, 129);
+            this.dtFinal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtFinal.Name = "dtFinal";
-            this.dtFinal.Size = new System.Drawing.Size(308, 22);
+            this.dtFinal.Size = new System.Drawing.Size(232, 20);
             this.dtFinal.TabIndex = 5;
             // 
             // chkFechas
             // 
             this.chkFechas.AutoSize = true;
-            this.chkFechas.Location = new System.Drawing.Point(729, 33);
-            this.chkFechas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkFechas.Location = new System.Drawing.Point(547, 27);
+            this.chkFechas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkFechas.Name = "chkFechas";
-            this.chkFechas.Size = new System.Drawing.Size(142, 21);
+            this.chkFechas.Size = new System.Drawing.Size(111, 17);
             this.chkFechas.TabIndex = 6;
             this.chkFechas.Text = "Rango de Fechas";
             this.chkFechas.UseVisualStyleBackColor = true;
@@ -135,10 +135,10 @@ namespace AudSemp.Forms
             // chkOrdenPor
             // 
             this.chkOrdenPor.AutoSize = true;
-            this.chkOrdenPor.Location = new System.Drawing.Point(989, 33);
-            this.chkOrdenPor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkOrdenPor.Location = new System.Drawing.Point(742, 27);
+            this.chkOrdenPor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkOrdenPor.Name = "chkOrdenPor";
-            this.chkOrdenPor.Size = new System.Drawing.Size(109, 21);
+            this.chkOrdenPor.Size = new System.Drawing.Size(83, 17);
             this.chkOrdenPor.TabIndex = 7;
             this.chkOrdenPor.Text = "Ordenar Por";
             this.chkOrdenPor.UseVisualStyleBackColor = true;
@@ -147,10 +147,10 @@ namespace AudSemp.Forms
             // chkModoOrden
             // 
             this.chkModoOrden.AutoSize = true;
-            this.chkModoOrden.Location = new System.Drawing.Point(1137, 33);
-            this.chkModoOrden.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkModoOrden.Location = new System.Drawing.Point(853, 27);
+            this.chkModoOrden.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkModoOrden.Name = "chkModoOrden";
-            this.chkModoOrden.Size = new System.Drawing.Size(129, 21);
+            this.chkModoOrden.Size = new System.Drawing.Size(100, 17);
             this.chkModoOrden.TabIndex = 8;
             this.chkModoOrden.Text = "Modo de Orden";
             this.chkModoOrden.UseVisualStyleBackColor = true;
@@ -160,39 +160,39 @@ namespace AudSemp.Forms
             // 
             this.cboOrdenModo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboOrdenModo.FormattingEnabled = true;
-            this.cboOrdenModo.Location = new System.Drawing.Point(1137, 89);
-            this.cboOrdenModo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cboOrdenModo.Location = new System.Drawing.Point(853, 72);
+            this.cboOrdenModo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cboOrdenModo.Name = "cboOrdenModo";
-            this.cboOrdenModo.Size = new System.Drawing.Size(121, 24);
+            this.cboOrdenModo.Size = new System.Drawing.Size(92, 21);
             this.cboOrdenModo.TabIndex = 9;
             // 
             // cboOrden
             // 
             this.cboOrden.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboOrden.FormattingEnabled = true;
-            this.cboOrden.Location = new System.Drawing.Point(989, 89);
-            this.cboOrden.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cboOrden.Location = new System.Drawing.Point(742, 72);
+            this.cboOrden.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cboOrden.Name = "cboOrden";
-            this.cboOrden.Size = new System.Drawing.Size(121, 24);
+            this.cboOrden.Size = new System.Drawing.Size(92, 21);
             this.cboOrden.TabIndex = 10;
             // 
             // chkListTipos
             // 
             this.chkListTipos.CheckOnClick = true;
             this.chkListTipos.FormattingEnabled = true;
-            this.chkListTipos.Location = new System.Drawing.Point(424, 71);
-            this.chkListTipos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkListTipos.Location = new System.Drawing.Point(318, 58);
+            this.chkListTipos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkListTipos.Name = "chkListTipos";
-            this.chkListTipos.Size = new System.Drawing.Size(183, 123);
+            this.chkListTipos.Size = new System.Drawing.Size(138, 94);
             this.chkListTipos.TabIndex = 11;
             // 
             // chkTipos
             // 
             this.chkTipos.AutoSize = true;
-            this.chkTipos.Location = new System.Drawing.Point(424, 33);
-            this.chkTipos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.chkTipos.Location = new System.Drawing.Point(318, 27);
+            this.chkTipos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkTipos.Name = "chkTipos";
-            this.chkTipos.Size = new System.Drawing.Size(202, 21);
+            this.chkTipos.Size = new System.Drawing.Size(154, 17);
             this.chkTipos.TabIndex = 12;
             this.chkTipos.Text = "Todos los Tipos de Articulo";
             this.chkTipos.UseVisualStyleBackColor = true;
@@ -201,9 +201,10 @@ namespace AudSemp.Forms
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(770, 137);
+            this.label1.Location = new System.Drawing.Point(578, 111);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(15, 17);
+            this.label1.Size = new System.Drawing.Size(12, 13);
             this.label1.TabIndex = 19;
             this.label1.Text = "y";
             // 
@@ -235,11 +236,11 @@ namespace AudSemp.Forms
             this.groupBox1.Controls.Add(this.chkListTipos);
             this.groupBox1.Controls.Add(this.cboOrdenModo);
             this.groupBox1.Controls.Add(this.cboOrden);
-            this.groupBox1.Location = new System.Drawing.Point(12, 30);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Location = new System.Drawing.Point(9, 24);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(1288, 322);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(966, 262);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Configuración Inicial";
@@ -247,9 +248,10 @@ namespace AudSemp.Forms
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(645, 59);
+            this.radioButton3.Location = new System.Drawing.Point(484, 48);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(150, 21);
+            this.radioButton3.Size = new System.Drawing.Size(116, 17);
             this.radioButton3.TabIndex = 25;
             this.radioButton3.Text = "Fecha Autorización";
             this.radioButton3.UseVisualStyleBackColor = true;
@@ -257,9 +259,10 @@ namespace AudSemp.Forms
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(825, 59);
+            this.radioButton2.Location = new System.Drawing.Point(619, 48);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(128, 21);
+            this.radioButton2.Size = new System.Drawing.Size(99, 17);
             this.radioButton2.TabIndex = 24;
             this.radioButton2.Text = "Fecha Auditoria";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -268,9 +271,10 @@ namespace AudSemp.Forms
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(745, 86);
+            this.radioButton1.Location = new System.Drawing.Point(559, 70);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(126, 21);
+            this.radioButton1.Size = new System.Drawing.Size(99, 17);
             this.radioButton1.TabIndex = 23;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Fecha Revisión";
@@ -283,11 +287,11 @@ namespace AudSemp.Forms
             // 
             // 
             this.circularProgress1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.circularProgress1.Location = new System.Drawing.Point(1054, 131);
-            this.circularProgress1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.circularProgress1.Location = new System.Drawing.Point(790, 106);
+            this.circularProgress1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.circularProgress1.Name = "circularProgress1";
             this.circularProgress1.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.circularProgress1.Size = new System.Drawing.Size(91, 89);
+            this.circularProgress1.Size = new System.Drawing.Size(68, 72);
             this.circularProgress1.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.circularProgress1.TabIndex = 22;
             // 
@@ -299,10 +303,10 @@ namespace AudSemp.Forms
             this.btnRevisar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnRevisar.Image = global::AudSemp.Properties.Resources.contratosSmall;
             this.btnRevisar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRevisar.Location = new System.Drawing.Point(645, 238);
-            this.btnRevisar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRevisar.Location = new System.Drawing.Point(484, 193);
+            this.btnRevisar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRevisar.Name = "btnRevisar";
-            this.btnRevisar.Size = new System.Drawing.Size(218, 68);
+            this.btnRevisar.Size = new System.Drawing.Size(164, 55);
             this.btnRevisar.TabIndex = 20;
             this.btnRevisar.Text = "Comenz&ar a Revisar";
             this.btnRevisar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -318,10 +322,10 @@ namespace AudSemp.Forms
             this.btnRegresar.ForeColor = System.Drawing.Color.White;
             this.btnRegresar.Image = global::AudSemp.Properties.Resources.BackSmall;
             this.btnRegresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegresar.Location = new System.Drawing.Point(1101, 238);
-            this.btnRegresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRegresar.Location = new System.Drawing.Point(826, 193);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(165, 68);
+            this.btnRegresar.Size = new System.Drawing.Size(124, 55);
             this.btnRegresar.TabIndex = 18;
             this.btnRegresar.Text = "&Regresar";
             this.btnRegresar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -337,10 +341,10 @@ namespace AudSemp.Forms
             this.btnCancelar.ForeColor = System.Drawing.Color.White;
             this.btnCancelar.Image = global::AudSemp.Properties.Resources.cancelSmall;
             this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(946, 238);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCancelar.Location = new System.Drawing.Point(710, 193);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(149, 68);
+            this.btnCancelar.Size = new System.Drawing.Size(112, 55);
             this.btnCancelar.TabIndex = 17;
             this.btnCancelar.Text = "&Cancelar\r\nEjercicio";
             this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -355,10 +359,10 @@ namespace AudSemp.Forms
             this.btnVistaPrevia.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnVistaPrevia.Image = global::AudSemp.Properties.Resources.cameraSamll_fw;
             this.btnVistaPrevia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVistaPrevia.Location = new System.Drawing.Point(432, 238);
-            this.btnVistaPrevia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnVistaPrevia.Location = new System.Drawing.Point(324, 193);
+            this.btnVistaPrevia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVistaPrevia.Name = "btnVistaPrevia";
-            this.btnVistaPrevia.Size = new System.Drawing.Size(188, 68);
+            this.btnVistaPrevia.Size = new System.Drawing.Size(141, 55);
             this.btnVistaPrevia.TabIndex = 16;
             this.btnVistaPrevia.Text = "&Vista Completa";
             this.btnVistaPrevia.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -373,10 +377,10 @@ namespace AudSemp.Forms
             this.btnReporte.ForeColor = System.Drawing.Color.White;
             this.btnReporte.Image = global::AudSemp.Properties.Resources.crystalSmall;
             this.btnReporte.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReporte.Location = new System.Drawing.Point(229, 238);
-            this.btnReporte.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnReporte.Location = new System.Drawing.Point(172, 193);
+            this.btnReporte.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnReporte.Name = "btnReporte";
-            this.btnReporte.Size = new System.Drawing.Size(197, 68);
+            this.btnReporte.Size = new System.Drawing.Size(148, 55);
             this.btnReporte.TabIndex = 15;
             this.btnReporte.Text = "Crear &Informe";
             this.btnReporte.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -391,10 +395,10 @@ namespace AudSemp.Forms
             this.btnExportarExcel.ForeColor = System.Drawing.Color.White;
             this.btnExportarExcel.Image = global::AudSemp.Properties.Resources.excelSmall;
             this.btnExportarExcel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExportarExcel.Location = new System.Drawing.Point(12, 238);
-            this.btnExportarExcel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnExportarExcel.Location = new System.Drawing.Point(9, 193);
+            this.btnExportarExcel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExportarExcel.Name = "btnExportarExcel";
-            this.btnExportarExcel.Size = new System.Drawing.Size(211, 68);
+            this.btnExportarExcel.Size = new System.Drawing.Size(158, 55);
             this.btnExportarExcel.TabIndex = 14;
             this.btnExportarExcel.Text = "&Exportar Excel";
             this.btnExportarExcel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -417,28 +421,27 @@ namespace AudSemp.Forms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.crystalReportViewer2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewer2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.crystalReportViewer2.Location = new System.Drawing.Point(-1, 358);
-            this.crystalReportViewer2.Margin = new System.Windows.Forms.Padding(4);
+            this.crystalReportViewer2.Location = new System.Drawing.Point(-1, 291);
             this.crystalReportViewer2.Name = "crystalReportViewer2";
             this.crystalReportViewer2.ShowGroupTreeButton = false;
             this.crystalReportViewer2.ShowLogo = false;
             this.crystalReportViewer2.ShowParameterPanelButton = false;
             this.crystalReportViewer2.ShowTextSearchButton = false;
-            this.crystalReportViewer2.Size = new System.Drawing.Size(1319, 306);
+            this.crystalReportViewer2.Size = new System.Drawing.Size(990, 249);
             this.crystalReportViewer2.TabIndex = 92;
             this.crystalReportViewer2.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             // 
             // ReporteRemisionesMNLForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1312, 658);
+            this.ClientSize = new System.Drawing.Size(986, 541);
             this.Controls.Add(this.crystalReportViewer2);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MinimumSize = new System.Drawing.Size(1330, 705);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimumSize = new System.Drawing.Size(1002, 580);
             this.Name = "ReporteRemisionesMNLForm";
             this.Text = "Reporte y Analisis de Ventas con Descuentos MANUALES";
             this.Load += new System.EventHandler(this.ReporteRemisionesMNLForm_Load);

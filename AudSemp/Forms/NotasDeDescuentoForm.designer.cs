@@ -34,13 +34,19 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.circularProgress1 = new DevComponents.DotNetBar.Controls.CircularProgress();
+            this.btnRevisar = new System.Windows.Forms.Button();
             this.chkListAuditados = new System.Windows.Forms.CheckedListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.chkListAutorizados = new System.Windows.Forms.CheckedListBox();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.chkTodosAuditados = new System.Windows.Forms.CheckBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.chkTodosAutorizados = new System.Windows.Forms.CheckBox();
+            this.btnVistaPrevia = new System.Windows.Forms.Button();
             this.dtInicial = new System.Windows.Forms.DateTimePicker();
+            this.btnReporte = new System.Windows.Forms.Button();
             this.dtFinal = new System.Windows.Forms.DateTimePicker();
+            this.btnExportarExcel = new System.Windows.Forms.Button();
             this.chkFechas = new System.Windows.Forms.CheckBox();
             this.chkOrdenPor = new System.Windows.Forms.CheckBox();
             this.chkTipos = new System.Windows.Forms.CheckBox();
@@ -48,12 +54,6 @@
             this.chkListTipos = new System.Windows.Forms.CheckedListBox();
             this.cboOrdenModo = new System.Windows.Forms.ComboBox();
             this.cboOrden = new System.Windows.Forms.ComboBox();
-            this.btnRevisar = new System.Windows.Forms.Button();
-            this.btnRegresar = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnVistaPrevia = new System.Windows.Forms.Button();
-            this.btnReporte = new System.Windows.Forms.Button();
-            this.btnExportarExcel = new System.Windows.Forms.Button();
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox1.SuspendLayout();
@@ -61,7 +61,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
@@ -143,6 +143,24 @@
             this.circularProgress1.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.circularProgress1.TabIndex = 22;
             // 
+            // btnRevisar
+            // 
+            this.btnRevisar.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnRevisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRevisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRevisar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRevisar.Image = global::AudSemp.Properties.Resources.contratosSmall;
+            this.btnRevisar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnRevisar.Location = new System.Drawing.Point(347, 178);
+            this.btnRevisar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRevisar.Name = "btnRevisar";
+            this.btnRevisar.Size = new System.Drawing.Size(109, 75);
+            this.btnRevisar.TabIndex = 20;
+            this.btnRevisar.Text = "Comenz&ar a Revisar";
+            this.btnRevisar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnRevisar.UseVisualStyleBackColor = false;
+            this.btnRevisar.Click += new System.EventHandler(this.btnRevisar_Click);
+            // 
             // chkListAuditados
             // 
             this.chkListAuditados.CheckOnClick = true;
@@ -173,6 +191,25 @@
             this.chkListAutorizados.Size = new System.Drawing.Size(128, 94);
             this.chkListAutorizados.TabIndex = 1;
             // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRegresar.BackColor = System.Drawing.Color.Maroon;
+            this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegresar.ForeColor = System.Drawing.Color.White;
+            this.btnRegresar.Image = global::AudSemp.Properties.Resources.BackSmall;
+            this.btnRegresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegresar.Location = new System.Drawing.Point(826, 199);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(124, 55);
+            this.btnRegresar.TabIndex = 18;
+            this.btnRegresar.Text = "&Regresar";
+            this.btnRegresar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnRegresar.UseVisualStyleBackColor = false;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
             // chkTodosAuditados
             // 
             this.chkTodosAuditados.AutoSize = true;
@@ -185,17 +222,54 @@
             this.chkTodosAuditados.UseVisualStyleBackColor = true;
             this.chkTodosAuditados.CheckedChanged += new System.EventHandler(this.chkTodosAuditados_CheckedChanged);
             // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCancelar.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.ForeColor = System.Drawing.Color.White;
+            this.btnCancelar.Image = global::AudSemp.Properties.Resources.cancelSmall;
+            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelar.Location = new System.Drawing.Point(710, 199);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(112, 55);
+            this.btnCancelar.TabIndex = 17;
+            this.btnCancelar.Text = "&Cancelar\r\nEjercicio";
+            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
             // chkTodosAutorizados
             // 
             this.chkTodosAutorizados.AutoSize = true;
             this.chkTodosAutorizados.Location = new System.Drawing.Point(153, 27);
             this.chkTodosAutorizados.Margin = new System.Windows.Forms.Padding(2);
             this.chkTodosAutorizados.Name = "chkTodosAutorizados";
-            this.chkTodosAutorizados.Size = new System.Drawing.Size(139, 17);
+            this.chkTodosAutorizados.Size = new System.Drawing.Size(142, 17);
             this.chkTodosAutorizados.TabIndex = 3;
-            this.chkTodosAutorizados.Text = "Totos Status Autorizado";
+            this.chkTodosAutorizados.Text = "Todos Status Autorizado";
             this.chkTodosAutorizados.UseVisualStyleBackColor = true;
             this.chkTodosAutorizados.CheckedChanged += new System.EventHandler(this.chkTodosAutorizados_CheckedChanged);
+            // 
+            // btnVistaPrevia
+            // 
+            this.btnVistaPrevia.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnVistaPrevia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVistaPrevia.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVistaPrevia.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnVistaPrevia.Image = global::AudSemp.Properties.Resources.cameraSamll_fw;
+            this.btnVistaPrevia.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnVistaPrevia.Location = new System.Drawing.Point(234, 178);
+            this.btnVistaPrevia.Margin = new System.Windows.Forms.Padding(2);
+            this.btnVistaPrevia.Name = "btnVistaPrevia";
+            this.btnVistaPrevia.Size = new System.Drawing.Size(109, 75);
+            this.btnVistaPrevia.TabIndex = 16;
+            this.btnVistaPrevia.Text = "&Vista Completa";
+            this.btnVistaPrevia.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnVistaPrevia.UseVisualStyleBackColor = false;
+            this.btnVistaPrevia.Click += new System.EventHandler(this.btnVistaPrevia_Click);
             // 
             // dtInicial
             // 
@@ -205,6 +279,24 @@
             this.dtInicial.Size = new System.Drawing.Size(232, 20);
             this.dtInicial.TabIndex = 4;
             // 
+            // btnReporte
+            // 
+            this.btnReporte.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.btnReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporte.ForeColor = System.Drawing.Color.White;
+            this.btnReporte.Image = global::AudSemp.Properties.Resources.crystalSmall;
+            this.btnReporte.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnReporte.Location = new System.Drawing.Point(121, 178);
+            this.btnReporte.Margin = new System.Windows.Forms.Padding(2);
+            this.btnReporte.Name = "btnReporte";
+            this.btnReporte.Size = new System.Drawing.Size(109, 75);
+            this.btnReporte.TabIndex = 15;
+            this.btnReporte.Text = "Crear &Informe";
+            this.btnReporte.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnReporte.UseVisualStyleBackColor = false;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
+            // 
             // dtFinal
             // 
             this.dtFinal.Location = new System.Drawing.Point(484, 156);
@@ -212,6 +304,24 @@
             this.dtFinal.Name = "dtFinal";
             this.dtFinal.Size = new System.Drawing.Size(232, 20);
             this.dtFinal.TabIndex = 5;
+            // 
+            // btnExportarExcel
+            // 
+            this.btnExportarExcel.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnExportarExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExportarExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportarExcel.ForeColor = System.Drawing.Color.White;
+            this.btnExportarExcel.Image = global::AudSemp.Properties.Resources.excelSmall;
+            this.btnExportarExcel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnExportarExcel.Location = new System.Drawing.Point(9, 178);
+            this.btnExportarExcel.Margin = new System.Windows.Forms.Padding(2);
+            this.btnExportarExcel.Name = "btnExportarExcel";
+            this.btnExportarExcel.Size = new System.Drawing.Size(109, 75);
+            this.btnExportarExcel.TabIndex = 14;
+            this.btnExportarExcel.Text = "&Exportar Excel";
+            this.btnExportarExcel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnExportarExcel.UseVisualStyleBackColor = false;
+            this.btnExportarExcel.Click += new System.EventHandler(this.btnExportarExcel_Click);
             // 
             // chkFechas
             // 
@@ -291,121 +401,11 @@
             this.cboOrden.Size = new System.Drawing.Size(92, 21);
             this.cboOrden.TabIndex = 10;
             // 
-            // btnRevisar
-            // 
-            this.btnRevisar.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnRevisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRevisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRevisar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnRevisar.Image = global::AudSemp.Properties.Resources.contratosSmall;
-            this.btnRevisar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnRevisar.Location = new System.Drawing.Point(347, 178);
-            this.btnRevisar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnRevisar.Name = "btnRevisar";
-            this.btnRevisar.Size = new System.Drawing.Size(109, 75);
-            this.btnRevisar.TabIndex = 20;
-            this.btnRevisar.Text = "Comenz&ar a Revisar";
-            this.btnRevisar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnRevisar.UseVisualStyleBackColor = false;
-            this.btnRevisar.Click += new System.EventHandler(this.btnRevisar_Click);
-            // 
-            // btnRegresar
-            // 
-            this.btnRegresar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRegresar.BackColor = System.Drawing.Color.Maroon;
-            this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresar.ForeColor = System.Drawing.Color.White;
-            this.btnRegresar.Image = global::AudSemp.Properties.Resources.BackSmall;
-            this.btnRegresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegresar.Location = new System.Drawing.Point(826, 199);
-            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(124, 55);
-            this.btnRegresar.TabIndex = 18;
-            this.btnRegresar.Text = "&Regresar";
-            this.btnRegresar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnRegresar.UseVisualStyleBackColor = false;
-            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCancelar.BackColor = System.Drawing.Color.OrangeRed;
-            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.ForeColor = System.Drawing.Color.White;
-            this.btnCancelar.Image = global::AudSemp.Properties.Resources.cancelSmall;
-            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(710, 199);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(112, 55);
-            this.btnCancelar.TabIndex = 17;
-            this.btnCancelar.Text = "&Cancelar\r\nEjercicio";
-            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
-            // 
-            // btnVistaPrevia
-            // 
-            this.btnVistaPrevia.BackColor = System.Drawing.Color.DarkOrange;
-            this.btnVistaPrevia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVistaPrevia.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVistaPrevia.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnVistaPrevia.Image = global::AudSemp.Properties.Resources.cameraSamll_fw;
-            this.btnVistaPrevia.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnVistaPrevia.Location = new System.Drawing.Point(234, 178);
-            this.btnVistaPrevia.Margin = new System.Windows.Forms.Padding(2);
-            this.btnVistaPrevia.Name = "btnVistaPrevia";
-            this.btnVistaPrevia.Size = new System.Drawing.Size(109, 75);
-            this.btnVistaPrevia.TabIndex = 16;
-            this.btnVistaPrevia.Text = "&Vista Completa";
-            this.btnVistaPrevia.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnVistaPrevia.UseVisualStyleBackColor = false;
-            this.btnVistaPrevia.Click += new System.EventHandler(this.btnVistaPrevia_Click);
-            // 
-            // btnReporte
-            // 
-            this.btnReporte.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.btnReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReporte.ForeColor = System.Drawing.Color.White;
-            this.btnReporte.Image = global::AudSemp.Properties.Resources.crystalSmall;
-            this.btnReporte.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnReporte.Location = new System.Drawing.Point(121, 178);
-            this.btnReporte.Margin = new System.Windows.Forms.Padding(2);
-            this.btnReporte.Name = "btnReporte";
-            this.btnReporte.Size = new System.Drawing.Size(109, 75);
-            this.btnReporte.TabIndex = 15;
-            this.btnReporte.Text = "Crear &Informe";
-            this.btnReporte.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnReporte.UseVisualStyleBackColor = false;
-            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
-            // 
-            // btnExportarExcel
-            // 
-            this.btnExportarExcel.BackColor = System.Drawing.Color.LimeGreen;
-            this.btnExportarExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExportarExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExportarExcel.ForeColor = System.Drawing.Color.White;
-            this.btnExportarExcel.Image = global::AudSemp.Properties.Resources.excelSmall;
-            this.btnExportarExcel.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnExportarExcel.Location = new System.Drawing.Point(9, 178);
-            this.btnExportarExcel.Margin = new System.Windows.Forms.Padding(2);
-            this.btnExportarExcel.Name = "btnExportarExcel";
-            this.btnExportarExcel.Size = new System.Drawing.Size(109, 75);
-            this.btnExportarExcel.TabIndex = 14;
-            this.btnExportarExcel.Text = "&Exportar Excel";
-            this.btnExportarExcel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnExportarExcel.UseVisualStyleBackColor = false;
-            this.btnExportarExcel.Click += new System.EventHandler(this.btnExportarExcel_Click);
-            // 
             // crystalReportViewer1
             // 
             this.crystalReportViewer1.ActiveViewIndex = -1;
-            this.crystalReportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.crystalReportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;

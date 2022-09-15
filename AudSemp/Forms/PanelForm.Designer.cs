@@ -57,12 +57,12 @@
             this.metroTileItem12 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem1 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.metroTileItem13 = new DevComponents.DotNetBar.Metro.MetroTileItem();
+            this.metroTileItem14 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.controlContainerItem1 = new DevComponents.DotNetBar.ControlContainerItem();
             this.btnRegresar = new DevComponents.DotNetBar.ButtonX();
             this.btnMinimizar = new DevComponents.DotNetBar.ButtonX();
             this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
             this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
-            this.metroTileItem14 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.expandablePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.expandablePanel4.SuspendLayout();
@@ -544,6 +544,21 @@
             this.metroTileItem13.TitleTextAlignment = System.Drawing.ContentAlignment.TopCenter;
             this.metroTileItem13.Click += new System.EventHandler(this.metroTileItem13_Click);
             // 
+            // metroTileItem14
+            // 
+            this.metroTileItem14.Image = global::AudSemp.Properties.Resources.icono_inventario1;
+            this.metroTileItem14.ImageTextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTileItem14.Name = "metroTileItem14";
+            this.metroTileItem14.SymbolColor = System.Drawing.Color.Empty;
+            this.metroTileItem14.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
+            // 
+            // 
+            // 
+            this.metroTileItem14.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTileItem14.TitleText = "Auditar Notas de Descuento";
+            this.metroTileItem14.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.metroTileItem14.Click += new System.EventHandler(this.metroTileItem14_Click_1);
+            // 
             // controlContainerItem1
             // 
             this.controlContainerItem1.AllowItemResize = true;
@@ -594,20 +609,6 @@
             this.buttonX2.Name = "buttonX2";
             this.buttonX2.Size = new System.Drawing.Size(0, 0);
             this.buttonX2.TabIndex = 0;
-            // 
-            // metroTileItem14
-            // 
-            this.metroTileItem14.Image = global::AudSemp.Properties.Resources.icono_inventario1;
-            this.metroTileItem14.Name = "metroTileItem14";
-            this.metroTileItem14.SymbolColor = System.Drawing.Color.Empty;
-            this.metroTileItem14.TileColor = DevComponents.DotNetBar.Metro.eMetroTileColor.Default;
-            // 
-            // 
-            // 
-            this.metroTileItem14.TileStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTileItem14.TitleText = "Auditar Notas de Descuento";
-            this.metroTileItem14.TitleTextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.metroTileItem14.Click += new System.EventHandler(this.metroTileItem14_Click_1);
             // 
             // PanelForm
             // 
