@@ -49,7 +49,7 @@ namespace AudSemp.Forms
         {
             this.Close();
             LoginForm form = new LoginForm();
-            form.valor = 1;
+            //form.valor = 1;
             form.Show();
             
         }

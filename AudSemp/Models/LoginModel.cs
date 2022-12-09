@@ -11,17 +11,44 @@ namespace AudSemp.Models
     using AudSemp.Classes;
     using AudSemp.Context;
     using AudSemp.Properties;
+    using OperSemp.Commons.Data;
+    using OperSemp.Commons.Entities;
+    using OperSemp.Commons.Helper;
     #endregion
 
     public class LoginModel
     {
+
+        #region Attributes
+        ILoginHelper loginHelper;
+        IConectionHelper conectionHelper;
+        User _userAcces;
+        #endregion
+
+        #region Properties
+        private string user = string.Empty;
+        private string password = string.Empty;
+        private bool response;
+        private string _stringValue;
+        private Response _response;
+
+        private string serverId;
+        private string databaseId;
+        private string userId;
+        private string passwordId;
+        private string _MySqlstringValue;
+        private string _MySqlstringValueLoc;
+        int changeCombo = 0;
+
+        #endregion
+
         #region Context
-        private SEMP2013_Context db;// = new MySqlConnectionContext();
+        private DataContext db;// = new MySqlConnectionContext();
        
         public LoginModel()
         {
-            db = new SEMP2013_Context();
-            //db.Database.Connection.ConnectionString = Settings.Default["data"].ToString();
+            loginHelper = new LoginHelper();
+            
         }
 
         #endregion
@@ -75,30 +102,30 @@ namespace AudSemp.Models
                 }
 
 
-                var user = db.PRVyusuarios.Where(p => p.USUARIO == User
-                                                    && p.CONTRASEÑA == Password).FirstOrDefault();
-                clave = user.LOCALIDAD;
+                var user = db.Prvyusuarios.Where(p => p.Usuario == User
+                                                    && p.Contraseña == Password).FirstOrDefault();
+                clave = user.Localidad;
 
 
-                var empleado = db.Empleados.Where(p => p.NoEmpleado == user.NO_OPERADOR).First();
+                var empleado = db.Empleados.Where(p => p.NoEmpleado == user.NoOperador).First();
 
-                NombreAuditor = empleado.Nombre_Completo;
+                NombreAuditor = empleado.NombreCompleto;
 
                 if (user == null)
                 {
                     return 4;
                 }
-                if (String.Compare(user.USUARIO, User) != 0)
+                if (String.Compare(user.Usuario, User) != 0)
                 {
                     return 4;
                 }
-                if (String.Compare(user.CONTRASEÑA, Password) != 0)
+                if (String.Compare(user.Contraseña, Password) != 0)
                 {
                     return 4;
                 }
 
 
-                if (user.OPERACIONES != "NO")
+                if (user.Operaciones != "NO")
                 {
                     return 6;
                 }
@@ -108,7 +135,7 @@ namespace AudSemp.Models
                 foreach (var item in levelUsers)
                 {
 
-                    if (user.TIPO_USUARIO != item.level)
+                    if (user.TipoUsuario != item.level)
                     {
                         bin = 1;
                     }

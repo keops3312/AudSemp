@@ -45,9 +45,9 @@
             this.btnMin = new DevComponents.DotNetBar.ButtonX();
             this.btnAcces = new DevComponents.DotNetBar.ButtonX();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.circularProgress1 = new DevComponents.DotNetBar.Controls.CircularProgress();
+            this.cmbSucursales = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -116,7 +116,6 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -215,7 +214,7 @@
             this.btnAcces.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnAcces.Image = global::AudSemp.Properties.Resources._lock;
             this.btnAcces.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnAcces.Location = new System.Drawing.Point(273, 339);
+            this.btnAcces.Location = new System.Drawing.Point(160, 403);
             this.btnAcces.Name = "btnAcces";
             this.btnAcces.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             this.btnAcces.Size = new System.Drawing.Size(46, 47);
@@ -242,28 +241,6 @@
     "\"></font>SEMP\r\n</font>";
             this.labelX1.TextAlignment = System.Drawing.StringAlignment.Center;
             // 
-            // labelX2
-            // 
-            // 
-            // 
-            // 
-            this.labelX2.BackgroundStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.labelX2.BackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarCaptionBackground2;
-            this.labelX2.BackgroundStyle.CornerDiameter = 10;
-            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.labelX2.ForeColor = System.Drawing.Color.White;
-            this.labelX2.Location = new System.Drawing.Point(12, 401);
-            this.labelX2.Name = "labelX2";
-            this.labelX2.PaddingBottom = 5;
-            this.labelX2.PaddingLeft = 5;
-            this.labelX2.PaddingRight = 5;
-            this.labelX2.PaddingTop = 5;
-            this.labelX2.Size = new System.Drawing.Size(328, 93);
-            this.labelX2.Symbol = "";
-            this.labelX2.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.labelX2.TabIndex = 19;
-            this.labelX2.Text = "-";
-            // 
             // backgroundWorker1
             // 
             this.backgroundWorker1.WorkerReportsProgress = true;
@@ -279,7 +256,7 @@
             // 
             // 
             this.circularProgress1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.circularProgress1.Location = new System.Drawing.Point(130, 328);
+            this.circularProgress1.Location = new System.Drawing.Point(12, 390);
             this.circularProgress1.Name = "circularProgress1";
             this.circularProgress1.ProgressColor = System.Drawing.Color.Aqua;
             this.circularProgress1.ProgressTextColor = System.Drawing.Color.White;
@@ -288,14 +265,28 @@
             this.circularProgress1.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.circularProgress1.TabIndex = 20;
             // 
+            // cmbSucursales
+            // 
+            this.cmbSucursales.DisplayMember = "Text";
+            this.cmbSucursales.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbSucursales.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSucursales.FormattingEnabled = true;
+            this.cmbSucursales.ItemHeight = 14;
+            this.cmbSucursales.Location = new System.Drawing.Point(78, 347);
+            this.cmbSucursales.Name = "cmbSucursales";
+            this.cmbSucursales.Size = new System.Drawing.Size(228, 20);
+            this.cmbSucursales.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.cmbSucursales.TabIndex = 21;
+            this.cmbSucursales.SelectedIndexChanged += new System.EventHandler(this.cmbSucursales_SelectedIndexChanged);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(347, 509);
+            this.Controls.Add(this.cmbSucursales);
             this.Controls.Add(this.circularProgress1);
-            this.Controls.Add(this.labelX2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelX1);
             this.Controls.Add(this.pictureBox4);
@@ -348,9 +339,9 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private DevComponents.DotNetBar.LabelX labelX1;
-        private DevComponents.DotNetBar.LabelX labelX2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private DevComponents.DotNetBar.Controls.CircularProgress circularProgress1;
+        private DevComponents.DotNetBar.Controls.ComboBoxEx cmbSucursales;
     }
 }
 
