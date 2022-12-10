@@ -2,17 +2,14 @@
 //Form To Controlled for Logical Login (MVP) 
 namespace AudSemp
 {
-  
-    #region Libraries(librerias)
+
+    #region Libraries(librerias)  
     using System;
+    using System.Collections.Generic;
     using System.ComponentModel;
+    using System.Threading.Tasks;
     using System.Windows.Forms;
     using AudSemp.Forms;
-    using AudSemp.Views;
-    using AudSemp.Presenter;
-    using AudSemp.Classes;
-    using System.Threading.Tasks;
-    using System.Collections.Generic;
     using OperSemp.Commons.Entities;
     using OperSemp.Commons.Helper;
     #endregion
@@ -32,7 +29,7 @@ namespace AudSemp
         {
 
             InitializeComponent();
-
+            loginHelper = new OperSemp.Commons.Helper.LoginHelper();
         }
 
         #endregion
@@ -69,7 +66,7 @@ namespace AudSemp
 
                 if (_MySqlstringValue.Contains("400"))
                 {
-                    MessageBox.Show("La conexión fallo! ó no es autentica", "Oper Semp",
+                    MessageBox.Show("La conexión fallo! ó no es autentica", "Aud Semp",
                        MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
 
@@ -88,33 +85,11 @@ namespace AudSemp
             catch (Exception ex)
             {
 
-                MessageBox.Show("Fallo al cargar sistema " + ex.Message, "Oper Semp",
+                MessageBox.Show("Fallo al cargar sistema " + ex.Message, "Aud Semp",
                        MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Application.Exit();
             }
-            //txtUser.Focus();
-
-            //if (valor == 1)
-            //{
-            //    buscarLocalidad = new BuscarLocalidad();
-            //    circularProgress1.Visible =false;
-            //    circularProgress1.IsRunning = false;
-            //    circularProgress1.ProgressText = "";
-            //    String[] find =  buscarLocalidad.LocalidadBuscada();
-            //        labelX2.Text = "Conexion Encontrada...\n" +
-            //         "Nom: " + find[0].ToString() + "\n" +
-            //         "Localidad: " + find[1].ToString() + "\n" +
-            //         "Direccion: " + find[2].ToString();
-            //        //backgroundWorker1.RunWorkerAsync();
-            //}
-            //else
-            //{
-            //    btnAcces.Enabled = false;
-            //    circularProgress1.Visible = true;
-            //    circularProgress1.IsRunning = true;
-            //    circularProgress1.ProgressText = "Buscando...";
-            //    backgroundWorker1.RunWorkerAsync();
-            //}
+         
         }
 
         
@@ -134,7 +109,56 @@ namespace AudSemp
            
         }
 
-        
+        private void cmbSucursales_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (changeCombo > 0)
+            {
+
+                response = cmbSucursales.Text != "Seleccione Sucursal" ? true : false;
+                if (response)
+                {
+
+                    circularProgress1.Visible = true;
+                    circularProgress1.IsRunning = true;
+                    this.Enabled = false;
+                    serverId = "";
+                    userId = "";
+                    passwordId = "";
+                    databaseId = "";
+
+
+                    conectionHelper = new ConectionHelper();
+                    Finder finder = new Finder();
+                    finder = conectionHelper.finder(_MySqlstringValue, cmbSucursales.Text.Trim());
+                    serverId = finder.FinderA;
+                    databaseId = finder.FinderB;
+                    userId = finder.FinderC;
+                    passwordId = finder.FinderD;
+                    _MySqlstringValueLoc = string.Empty;
+
+                    _MySqlstringValueLoc = conectionHelper.MySqlGetConnectionNotAsync(false, serverId, userId, passwordId, databaseId);
+
+                    if (_MySqlstringValueLoc == "400")
+                    {
+                        MessageBox.Show("Posibles Causas: \n" +
+                                          "La conexión fallo! \n" +
+                                          "Seleccionaste mal la sucursal \n" +
+                                          "No te conectaste al modem del servidor \n", "Aud Semp",
+                     MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                        _MySqlstringValueLoc = string.Empty;
+                        //return;
+                    }
+                    this.Enabled = true;
+                    circularProgress1.Visible = false;
+                    circularProgress1.IsRunning = false;
+
+
+
+                }
+
+            }
+        }
         #endregion
 
 
@@ -152,7 +176,7 @@ namespace AudSemp
 
                 if (response)
                 {
-                    MessageBox.Show("Ingresa el usuario por favor", "Oper Semp",
+                    MessageBox.Show("Ingresa el usuario por favor", "Aud Semp",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
                 }
@@ -163,7 +187,7 @@ namespace AudSemp
 
                 if (response)
                 {
-                    MessageBox.Show("Ingresa tu contraseña por favor", "Oper Semp",
+                    MessageBox.Show("Ingresa tu contraseña por favor", "Aud Semp",
                        MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
                 }
@@ -172,7 +196,7 @@ namespace AudSemp
 
                 if (response)
                 {
-                    MessageBox.Show("Seleccione la sucursal por favor", "Oper Semp",
+                    MessageBox.Show("Seleccione la sucursal por favor", "Aud Semp",
                        MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
                 }
@@ -191,7 +215,7 @@ namespace AudSemp
 
                 if (_stringValue.Contains("400"))
                 {
-                    MessageBox.Show("La conexión fallo! ó no es autentica", "Oper Semp",
+                    MessageBox.Show("La conexión fallo! ó no es autentica", "Aud Semp",
                        MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
 
@@ -204,7 +228,7 @@ namespace AudSemp
 
                 if (_response.userResponse == "400")
                 {
-                    MessageBox.Show("Error en usuario / Contraseña o no tiene el nivel para entrar", "Oper Semp",
+                    MessageBox.Show("Error en usuario / Contraseña o no tiene el nivel para entrar", "Aud Semp",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
 
@@ -216,21 +240,21 @@ namespace AudSemp
 
                 if (_userAcces == null)
                 {
-                    MessageBox.Show("No encuentro datos del usuario y/o de la localidad", "Oper Semp",
+                    MessageBox.Show("No encuentro datos del usuario y/o de la localidad", "Aud Semp",
                          MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
 
                 }
 
-                MessageBox.Show("Bienvenido: " + _userAcces.Name + "!", "Oper Semp",
+                MessageBox.Show("Bienvenido: " + _userAcces.Name + "!", "Aud Semp",
                         MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
 
 
 
                 PanelForm panelForm = new PanelForm();
-                //panelForm.user = _userAcces;
-                //panelForm._value = _stringValue;
+                panelForm.user = _userAcces;
+                panelForm._value = _stringValue;
                 panelForm.ShowDialog();
 
 
@@ -490,55 +514,6 @@ namespace AudSemp
 
         #endregion
 
-        private void cmbSucursales_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (changeCombo > 0)
-            {
-
-                response = cmbSucursales.Text != "Seleccione Sucursal" ? true : false;
-                if (response)
-                {
-
-                    circularProgress1.Visible = true;
-                    circularProgress1.IsRunning = true;
-                    this.Enabled = false;
-                    serverId = "";
-                    userId = "";
-                    passwordId = "";
-                    databaseId = "";
-
-
-                    conectionHelper = new ConectionHelper();
-                    Finder finder = new Finder();
-                    finder = conectionHelper.finder(_MySqlstringValue, cmbSucursales.Text.Trim());
-                    serverId = finder.FinderA;
-                    databaseId = finder.FinderB;
-                    userId = finder.FinderC;
-                    passwordId = finder.FinderD;
-                    _MySqlstringValueLoc = string.Empty;
-
-                    _MySqlstringValueLoc = conectionHelper.MySqlGetConnectionNotAsync(false, serverId, userId, passwordId, databaseId);
-
-                    if (_MySqlstringValueLoc == "400")
-                    {
-                        MessageBox.Show("Posibles Causas: \n" +
-                                          "La conexión fallo! \n" +
-                                          "Seleccionaste mal la sucursal \n" +
-                                          "No te conectaste al modem del servidor \n", "Oper Semp",
-                     MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                        _MySqlstringValueLoc = string.Empty;
-                        //return;
-                    }
-                    this.Enabled = true;
-                    circularProgress1.Visible = false;
-                    circularProgress1.IsRunning = false;
-
-
-
-                }
-
-            }
-        }
+     
     }
 }

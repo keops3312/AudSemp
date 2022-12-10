@@ -8,16 +8,19 @@ namespace AudSemp.Models
     using System.Linq;
     using AudSemp.Classes;
     using AudSemp.Context;
+    using OperSemp.Commons.Data;
     #endregion
     public class HistorialApartadosModel
     {
         #region Context
+        private DataContext db;
+        public string _oString;
 
-        private SEMP2013_Context db;
-        public HistorialApartadosModel()
+        public HistorialApartadosModel(DataContext _db)
         {
-            db = new SEMP2013_Context();
+            db = _db;
         }
+
 
         #endregion
 

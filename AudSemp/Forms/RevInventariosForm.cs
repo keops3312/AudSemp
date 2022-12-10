@@ -18,22 +18,36 @@ namespace AudSemp.Forms
     using AudSemp.Presenter;
     using AudSemp.Views;
     using ClosedXML.Excel;
+    using OperSemp.Commons.Data;
+    using OperSemp.Commons.Entities;
+    using OperSemp.Commons.Helper;
     #endregion
     public partial class RevInventariosForm : Form, IInventario
     {
-
         #region Context
 
-        private SEMP2013_Context db;
-        public RevInventariosForm()
+        private DataContext db;
+        IConectionHelper conectionHelper;
+        public User user;
+        public string cadena;
+
+
+
+        // private SEMP2013_Context db;
+        public RevInventariosForm(string _cadena)
         {
             InitializeComponent();
-            db = new SEMP2013_Context();
+
+            conectionHelper = new ConectionHelper();
+            db = new DataContext(conectionHelper.SQLConectionAsync(_cadena));
 
             backgroundWorker1.WorkerReportsProgress = true;
             backgroundWorker1.WorkerSupportsCancellation = true;
 
+
+
         }
+
         #endregion
 
         #region attributtes (atributos)
@@ -118,7 +132,7 @@ namespace AudSemp.Forms
 
         });
 
-            InventarioPresenter inventarioPresenter = new InventarioPresenter(this);
+            InventarioPresenter inventarioPresenter = new InventarioPresenter(this,db);
             inventarioPresenter.TiposEstatus();
             inventarioPresenter.TiposPrenda();
             inventarioPresenter.timeInicio();
@@ -144,7 +158,7 @@ namespace AudSemp.Forms
             cmbTipoOrden.DataSource = tiposOrden;
             btnCancel.Visible = false;
 
-            this.Text = this.Text + " -Localidad Actual: " + loc;
+            this.Text = this.Text + " -Localidad Actual: " + user.Loc;
         }
 
         public void Excel(string ruta)
@@ -318,7 +332,7 @@ namespace AudSemp.Forms
 
                     foreach (var itemEstatus in Estatus)
                     {
-                        var result = from s in db.artventas.Where(p => p.rematadoEJ >= Inicio &&
+                        var result = from s in db.Artventas.Where(p => p.rematadoEJ >= Inicio &&
                                           p.rematadoEJ <= Fin &&
                                           p.tipo == items.categoria &&
                                           p.status == itemEstatus.estatu).ToList()
@@ -537,7 +551,7 @@ namespace AudSemp.Forms
             if (dt.Rows.Count > 0)
             {
                 DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
-                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                    "Si(Exporta) No(Para Generar uno Nuevo)", "Aud SEMP",
                         MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
 
@@ -661,7 +675,7 @@ namespace AudSemp.Forms
 
 
                 MessageBox.Show("Exportacion CANCELADA",
-                 "Auditoria Semp", MessageBoxButtons.OK,
+                 "Aud Semp", MessageBoxButtons.OK,
                  MessageBoxIcon.Information);
                 prg1.Value = 0;
                 lblProgress.Text = "-";
@@ -698,19 +712,19 @@ namespace AudSemp.Forms
                 //creamos los para metros
 
                 InvIIRPT ob = new InvIIRPT();
-                LocalidadModel localidadModel = new LocalidadModel();
-                localidadModel.localidadResult(loc);
+                //LocalidadModel localidadModel = new LocalidadModel();
+                //localidadModel.localidadResult(loc);
                 ob.SetParameterValue("tipos", leyendaTipos);
                 ob.SetParameterValue("estatus", leyendaEstatus);
                 ob.SetParameterValue("rangos", leyendaRango);
                 ob.SetParameterValue("modoOrden", mode);
 
-                ob.SetParameterValue("sucursal", localidadModel.sucursal);
-                ob.SetParameterValue("marca", localidadModel.marca);
-                ob.SetParameterValue("empresa", localidadModel.empresa);
-                ob.SetParameterValue("localidad", localidadModel.localidad);
-                ob.SetParameterValue("encargado", localidadModel.encargado);
-                ob.SetParameterValue("logo", localidadModel.logotipo);
+                ob.SetParameterValue("sucursal", user.NameLoc);
+                ob.SetParameterValue("marca", user.Marca);
+                ob.SetParameterValue("empresa", user.Empresa);
+                ob.SetParameterValue("localidad", user.Loc);
+                ob.SetParameterValue("encargado", user.Boss);
+                ob.SetParameterValue("logo", user.Logotipo);
 
 
 
@@ -721,7 +735,7 @@ namespace AudSemp.Forms
             }
 
             MessageBox.Show("Operación Realizada con Exito",
-                   "Auditoria Semp", MessageBoxButtons.OK,
+                   "Aud Semp", MessageBoxButtons.OK,
                    MessageBoxIcon.Information);
             prg1.Value = 0;
             lblProgress.Text = "-";
@@ -737,14 +751,14 @@ namespace AudSemp.Forms
             if (dt.Rows.Count > 0)
             {
                 VistaPreviaForm vista = new VistaPreviaForm();
-                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + user.Loc;
                 vista.vistaM = dt;
                 vista.Show();
 
             }
             else
             {
-                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("NO hay resultados cargados!", "Aud Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
         }

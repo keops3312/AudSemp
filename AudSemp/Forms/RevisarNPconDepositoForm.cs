@@ -1,5 +1,7 @@
-﻿using AudSemp.Context;
+﻿//using AudSemp.Context;
 using AudSemp.Models;
+using OperSemp.Commons.Data;
+using OperSemp.Commons.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,13 +19,19 @@ namespace AudSemp.Forms
 
 
         public DataTable dt;
-        public List<facturas> lista;
+        public List<Facturas> lista;
         public string nombreAuditoria;
         private AutorizaNotaPagoConDepositoModel model;
 
         public string _status;
         public string _comentario;
         public string _inventario;
+
+
+
+        public DataContext db;
+
+        public string _oString;
         public RevisarNPconDepositoForm()
         {
             InitializeComponent();
@@ -264,7 +272,7 @@ namespace AudSemp.Forms
 
         public void Update(string inventario, string comentario, string status, string consec)
         {
-            model = new AutorizaNotaPagoConDepositoModel();
+            model = new AutorizaNotaPagoConDepositoModel(_oString);
             var id = lista.Where(u => u.NO == int.Parse(consec)).FirstOrDefault();
 
             if (model.updateAutorizafact(id.NO, nombreAuditoria, status, DateTime.Now, comentario.ToUpper().Trim()) == true)

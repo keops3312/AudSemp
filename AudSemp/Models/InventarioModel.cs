@@ -9,17 +9,20 @@ namespace AudSemp.Models
     using System.Linq;
     using AudSemp.Classes;
     using AudSemp.Context;
+    using OperSemp.Commons.Data;
     #endregion
     public class InventarioModel
     {
-        
-        #region Context
 
-        private SEMP2013_Context db;
-        public InventarioModel()
+        #region Context
+        private DataContext db;
+        public string _oString;
+
+        public InventarioModel(DataContext _db)
         {
-            db = new SEMP2013_Context();
+            db = _db;
         }
+
 
         #endregion
 
@@ -53,7 +56,7 @@ namespace AudSemp.Models
 
         public List<string> Estatus()
         {
-            var estatus = db.artventas.Select(p => p.status).Distinct();
+            var estatus = db.Artventas.Select(p => p.status).Distinct();
 
             List<string> estatusList = new List<string>();
 
@@ -68,7 +71,7 @@ namespace AudSemp.Models
 
         public List<string> TipoPrenda()
         {
-            var tipos = db.artventas.Select(p => p.tipo).Distinct();
+            var tipos = db.Artventas.Select(p => p.tipo).Distinct();
 
             List<string> tiposList = new List<string>();
 
@@ -88,7 +91,7 @@ namespace AudSemp.Models
         public DateTime dateInicio()
         {
 
-            var fechaInicio = db.artventas.OrderBy(p => p.rematadoEJ).First();
+            var fechaInicio = db.Artventas.OrderBy(p => p.rematadoEJ).First();
             DateTime dateTimeInicio = DateTime.Parse(fechaInicio.rematadoEJ.Value.ToString("yyyy-MM-dd"));
             return dateTimeInicio;
         }
@@ -96,7 +99,7 @@ namespace AudSemp.Models
         public DateTime dateFin()
         {
 
-            var fechaFin = db.artventas.OrderByDescending(p => p.rematado).First();
+            var fechaFin = db.Artventas.OrderByDescending(p => p.rematado).First();
             DateTime dateTimeFin = DateTime.Parse(fechaFin.rematadoEJ.Value.ToString("yyyy-MM-dd"));
             return dateTimeFin;
         }
@@ -165,7 +168,7 @@ namespace AudSemp.Models
 
                 foreach (var itemEstatus in Estatus)
                 {
-                    var result = from s in db.artventas.Where(p => p.rematadoEJ >= Inicio &&
+                    var result = from s in db.Artventas.Where(p => p.rematadoEJ >= Inicio &&
                                       p.rematadoEJ <= Fin &&
                                       p.tipo == items.categoria &&
                                       p.status == itemEstatus.estatu).ToList()

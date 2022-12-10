@@ -9,17 +9,20 @@ namespace AudSemp.Models
     using System.Linq;
     using AudSemp.Classes;
     using AudSemp.Context;
+    using OperSemp.Commons.Data;
     #endregion
     public class ContratosModel
     {
-      
-        #region Context
 
-        private SEMP2013_Context db;
-        public ContratosModel()
+        #region Context
+        private DataContext db;
+        public string _oString;
+
+        public ContratosModel(DataContext _db)
         {
-            db = new SEMP2013_Context();
+            db = _db;
         }
+      
 
         #endregion
 
@@ -53,7 +56,7 @@ namespace AudSemp.Models
 
         public List<string> Estatus()
         {
-            var estatus = db.contratos.Select(p => p.Status).Distinct();
+            var estatus = db.Contratos.Select(p => p.Status).Distinct();
 
             List<string> estatusList = new List<string>();
 
@@ -68,7 +71,7 @@ namespace AudSemp.Models
 
         public List<string> TipoPrenda()
         {
-            var tipos = db.contratos.Select(p => p.valuacion_tipo).Distinct();
+            var tipos = db.Contratos.Select(p => p.valuacion_tipo).Distinct();
 
             List<string> tiposList = new List<string>();
 
@@ -87,7 +90,7 @@ namespace AudSemp.Models
         public DateTime dateInicio()
         {
 
-            var fechaInicio = db.contratos.OrderBy(p => p.FechaCons).First();
+            var fechaInicio = db.Contratos.OrderBy(p => p.FechaCons).First();
             DateTime dateTimeInicio = DateTime.Parse(fechaInicio.FechaCons.Value.ToString("yyyy-MM-dd"));
             return dateTimeInicio;
         }
@@ -95,7 +98,7 @@ namespace AudSemp.Models
         public DateTime dateFin()
         {
 
-            var fechaFin= db.contratos.OrderByDescending(p=> p.FechaCons).First();
+            var fechaFin= db.Contratos.OrderByDescending(p=> p.FechaCons).First();
             DateTime dateTimeFin = DateTime.Parse(fechaFin.FechaCons.Value.ToString("yyyy-MM-dd"));
             return dateTimeFin;
         }
@@ -160,7 +163,7 @@ namespace AudSemp.Models
 
                 foreach (var itemEstatus in Estatus)
                 {
-                    var result = from s in db.contratos.Where(p => p.FechaCons >= Inicio &&
+                    var result = from s in db.Contratos.Where(p => p.FechaCons >= Inicio &&
                                       p.FechaCons <= Fin &&
                                       p.valuacion_tipo == items.categoria && 
                                       p.Status==itemEstatus.estatu).ToList()

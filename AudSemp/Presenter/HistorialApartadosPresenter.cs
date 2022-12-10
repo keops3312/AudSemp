@@ -8,17 +8,23 @@ namespace AudSemp.Presenter
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
+    using OperSemp.Commons.Data;
     #endregion
     public class HistorialApartadosPresenter
     {
 
         IHistorialApartado ApartadosHistorialView;
-        public HistorialApartadosPresenter(IHistorialApartado view)
+        HistorialApartadosModel hisotrialapartadosModel;
+        public HistorialApartadosPresenter(IHistorialApartado view, DataContext db)
         {
             ApartadosHistorialView = view;
+            hisotrialapartadosModel = new HistorialApartadosModel(db);
         }
 
-        HistorialApartadosModel hisotrialapartadosModel = new HistorialApartadosModel();
+        
+
+
+
 
 
         public DateTime timeInicio()

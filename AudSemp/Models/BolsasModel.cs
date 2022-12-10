@@ -8,7 +8,8 @@ namespace AudSemp.Models
     using System.Data;
     using System.Linq;
     using AudSemp.Classes;
-    using AudSemp.Context;
+    //using AudSemp.Context;
+    using OperSemp.Commons.Data;
     #endregion
 
     public class BolsasModel
@@ -16,11 +17,14 @@ namespace AudSemp.Models
 
         #region Context
 
-        private SEMP2013_Context db;
-        public BolsasModel()
+        private DataContext db;
+        public string _oString;
+
+        public BolsasModel(DataContext _db)
         {
-            db = new SEMP2013_Context();
+            db = _db;
         }
+
 
         #endregion
 
@@ -87,7 +91,7 @@ namespace AudSemp.Models
 
             if (opcion == 2)
             {
-                var tipos = db.bolsas_OTROS.Select(p => p.Tipo).Distinct();
+                var tipos = db.Bolsas_OTROS.Select(p => p.Tipo).Distinct();
 
                 foreach (var item in tipos)
                 {
@@ -99,7 +103,7 @@ namespace AudSemp.Models
             }
             else {
 
-                var tipos = db.bolsas_ORO.Select(p => p.Tipo).Distinct();
+                var tipos = db.Bolsas_ORO.Select(p => p.Tipo).Distinct();
 
                 foreach (var item in tipos)
                 {
@@ -121,14 +125,14 @@ namespace AudSemp.Models
             if (opcion == 2)
             {
 
-                var fechaInicio = db.bolsas_OTROS.OrderBy(p => p.Fecha).First();
+                var fechaInicio = db.Bolsas_OTROS.OrderBy(p => p.Fecha).First();
                 DateTime dateTimeInicio = DateTime.Parse(fechaInicio.Fecha.Value.ToString("yyyy-MM-dd"));
                 return dateTimeInicio;
 
             }
             else
             {
-                var fechaInicio = db.bolsas_ORO.OrderBy(p => p.Fecha).First();
+                var fechaInicio = db.Bolsas_ORO.OrderBy(p => p.Fecha).First();
                 DateTime dateTimeInicio = DateTime.Parse(fechaInicio.Fecha.Value.ToString("yyyy-MM-dd"));
                 return dateTimeInicio;
 
@@ -142,13 +146,13 @@ namespace AudSemp.Models
         {
             if(opcion==2)
             {
-                var fechaFin = db.bolsas_OTROS.OrderByDescending(p => p.Fecha).First();
+                var fechaFin = db.Bolsas_OTROS.OrderByDescending(p => p.Fecha).First();
                 DateTime dateTimeFin = DateTime.Parse(fechaFin.Fecha.Value.ToString("yyyy-MM-dd"));
                 return dateTimeFin;
             }
             else
             {
-                var fechaFin = db.bolsas_ORO.OrderByDescending(p => p.Fecha).First();
+                var fechaFin = db.Bolsas_ORO.OrderByDescending(p => p.Fecha).First();
                 DateTime dateTimeFin = DateTime.Parse(fechaFin.Fecha.Value.ToString("yyyy-MM-dd"));
                 return dateTimeFin;
             }
@@ -203,7 +207,7 @@ namespace AudSemp.Models
                 foreach (var items in tipos)
                 {
 
-                    var result = from s in db.bolsas_OTROS.Where(p => p.Fecha >= Inicio &&
+                    var result = from s in db.Bolsas_OTROS.Where(p => p.Fecha >= Inicio &&
                                   p.Fecha <= Fin &&
                                   p.Tipo == items.categoria).ToList()
                                  select s;
@@ -264,7 +268,7 @@ namespace AudSemp.Models
                 foreach (var items in tipos)
                 {
 
-                    var result = from s in db.bolsas_ORO.Where(p => p.Fecha >= Inicio &&
+                    var result = from s in db.Bolsas_ORO.Where(p => p.Fecha >= Inicio &&
                                   p.Fecha <= Fin &&
                                   p.Tipo == items.categoria).ToList()
                                  select s;

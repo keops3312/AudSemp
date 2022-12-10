@@ -63,7 +63,7 @@
             this.txtUser.Border.Class = "TextBoxBorder";
             this.txtUser.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
             this.txtUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUser.Location = new System.Drawing.Point(78, 216);
+            this.txtUser.Location = new System.Drawing.Point(48, 202);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(241, 34);
             this.txtUser.TabIndex = 0;
@@ -79,7 +79,7 @@
             this.txtPassword.Border.Class = "TextBoxBorder";
             this.txtPassword.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(78, 287);
+            this.txtPassword.Location = new System.Drawing.Point(48, 299);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(241, 35);
@@ -131,7 +131,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(156, 36);
+            this.label2.Location = new System.Drawing.Point(168, 30);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 20);
             this.label2.TabIndex = 14;
@@ -140,7 +140,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::AudSemp.Properties.Resources.password_check;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 271);
+            this.pictureBox4.Location = new System.Drawing.Point(137, 242);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(60, 51);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -150,7 +150,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::AudSemp.Properties.Resources.user;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 201);
+            this.pictureBox3.Location = new System.Drawing.Point(137, 146);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(60, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -160,9 +160,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::AudSemp.Properties.Resources.semplogo2016;
-            this.pictureBox2.Location = new System.Drawing.Point(177, 72);
+            this.pictureBox2.Location = new System.Drawing.Point(172, 57);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(159, 111);
+            this.pictureBox2.Size = new System.Drawing.Size(140, 101);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
@@ -170,9 +170,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AudSemp.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 49);
+            this.pictureBox1.Location = new System.Drawing.Point(38, 57);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(156, 112);
+            this.pictureBox1.Size = new System.Drawing.Size(128, 80);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
@@ -214,7 +214,7 @@
             this.btnAcces.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnAcces.Image = global::AudSemp.Properties.Resources._lock;
             this.btnAcces.ImageFixedSize = new System.Drawing.Size(48, 48);
-            this.btnAcces.Location = new System.Drawing.Point(160, 403);
+            this.btnAcces.Location = new System.Drawing.Point(137, 386);
             this.btnAcces.Name = "btnAcces";
             this.btnAcces.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             this.btnAcces.Size = new System.Drawing.Size(46, 47);
@@ -256,12 +256,12 @@
             // 
             // 
             this.circularProgress1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.circularProgress1.Location = new System.Drawing.Point(12, 390);
+            this.circularProgress1.Location = new System.Drawing.Point(216, 377);
             this.circularProgress1.Name = "circularProgress1";
             this.circularProgress1.ProgressColor = System.Drawing.Color.Aqua;
             this.circularProgress1.ProgressTextColor = System.Drawing.Color.White;
             this.circularProgress1.ProgressTextVisible = true;
-            this.circularProgress1.Size = new System.Drawing.Size(82, 74);
+            this.circularProgress1.Size = new System.Drawing.Size(60, 56);
             this.circularProgress1.Style = DevComponents.DotNetBar.eDotNetBarStyle.OfficeXP;
             this.circularProgress1.TabIndex = 20;
             // 
@@ -272,7 +272,7 @@
             this.cmbSucursales.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSucursales.FormattingEnabled = true;
             this.cmbSucursales.ItemHeight = 14;
-            this.cmbSucursales.Location = new System.Drawing.Point(78, 347);
+            this.cmbSucursales.Location = new System.Drawing.Point(48, 351);
             this.cmbSucursales.Name = "cmbSucursales";
             this.cmbSucursales.Size = new System.Drawing.Size(228, 20);
             this.cmbSucursales.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -284,7 +284,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(347, 509);
+            this.ClientSize = new System.Drawing.Size(347, 456);
             this.Controls.Add(this.cmbSucursales);
             this.Controls.Add(this.circularProgress1);
             this.Controls.Add(this.label2);
@@ -306,8 +306,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(347, 509);
-            this.MinimumSize = new System.Drawing.Size(347, 509);
+            this.MaximumSize = new System.Drawing.Size(347, 456);
+            this.MinimumSize = new System.Drawing.Size(347, 456);
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

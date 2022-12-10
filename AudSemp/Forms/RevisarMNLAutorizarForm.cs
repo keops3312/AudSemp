@@ -2,9 +2,10 @@
 
 namespace AudSemp.Forms
 {
-    using AudSemp.Context;
+    //using AudSemp.Context;
     using AudSemp.Models;
-  
+    using OperSemp.Commons.Data;
+    using OperSemp.Commons.Entities;
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
@@ -18,7 +19,7 @@ namespace AudSemp.Forms
     {
 
         public DataTable dt;
-        public List<remisiones> lista;
+        public List<Remisiones> lista;
         public string nombreOperaciones;
         private AutorizaRemisionesMNLModel model;
 
@@ -26,6 +27,10 @@ namespace AudSemp.Forms
         public string _comentario;
         public string _inventario;
 
+
+
+        public DataContext db;
+        public string _oString;
         public RevisarMNLAutorizarForm()
         {
             InitializeComponent();
@@ -39,7 +44,7 @@ namespace AudSemp.Forms
                 if (dt.Rows.Count == 0)
                 {
                     MessageBox.Show("Genere un Ejercicio Primero de tipo excel o reporte comenzar a Revisar",
-                        "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        "Aud SEMP", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     this.Close();
                 }
 
@@ -237,7 +242,7 @@ namespace AudSemp.Forms
 
         public void Update(string inventario,string comentario, string status,string consec)
         {
-            model = new AutorizaRemisionesMNLModel();
+            model = new AutorizaRemisionesMNLModel(_oString);
             var id = lista.Where(u => u.consec == int.Parse(consec)).FirstOrDefault();
             
             if (model.updateAutorizaRem(id.consec, nombreOperaciones, status, DateTime.Now, comentario.ToUpper().Trim())==true)

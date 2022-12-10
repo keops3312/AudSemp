@@ -8,17 +8,20 @@ namespace AudSemp.Presenter
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
+    using OperSemp.Commons.Data;
     #endregion
     public class BolsasPresenter
     {
 
         IBolsas BolsasView;
-        public BolsasPresenter(IBolsas view)
+        BolsasModel bolsasModel;
+        public BolsasPresenter(IBolsas view, DataContext db)
         {
             BolsasView = view;
+            bolsasModel = new BolsasModel(db);
         }
         
-        BolsasModel bolsasModel = new BolsasModel();
+        
 
 
         public DateTime timeInicio()

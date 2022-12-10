@@ -7,18 +7,21 @@ namespace AudSemp.Presenter
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
+    using OperSemp.Commons.Data;
     #endregion
 
     public class AutPrestPresenter
     {
 
         IAutPrest AutPrestView;
-        public AutPrestPresenter(IAutPrest view)
+        AutPrestModel autPrestModel;
+        public AutPrestPresenter(IAutPrest view,DataContext db)
         {
             AutPrestView = view;
+            autPrestModel = new AutPrestModel(db);
         }
 
-        AutPrestModel autPrestModel = new AutPrestModel();
+        
 
         public List<TiposOrden> tiposOrden()
         {

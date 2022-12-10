@@ -9,16 +9,19 @@ namespace AudSemp.Models
     using System.Linq;
     using AudSemp.Classes;
     using AudSemp.Context;
+    using OperSemp.Commons.Data;
     #endregion
     public class NotasPagoModel
     {
         #region Context
+        private DataContext db;
+        public string _oString;
 
-        private SEMP2013_Context db;
-        public NotasPagoModel()
+        public NotasPagoModel(DataContext _db)
         {
-            db = new SEMP2013_Context();
+            db = _db;
         }
+
 
         #endregion
 
@@ -87,7 +90,7 @@ namespace AudSemp.Models
         {
 
             var fechaInicio = db.facturas.OrderBy(p => p.FechaFact).First();
-            DateTime dateTimeInicio = DateTime.Parse(fechaInicio.FechaFact.Value.ToString("yyyy-MM-dd"));
+            DateTime dateTimeInicio = DateTime.Parse(fechaInicio.FechaFact.ToString("yyyy-MM-dd"));
             return dateTimeInicio;
         }
 
@@ -95,7 +98,7 @@ namespace AudSemp.Models
         {
 
             var fechaFin = db.facturas.OrderByDescending(p => p.FechaFact).First();
-            DateTime dateTimeFin = DateTime.Parse(fechaFin.FechaFact.Value.ToString("yyyy-MM-dd"));
+            DateTime dateTimeFin = DateTime.Parse(fechaFin.FechaFact.ToString("yyyy-MM-dd"));
             return dateTimeFin;
         }
 
@@ -159,7 +162,7 @@ namespace AudSemp.Models
 
                 foreach (var itemEstatus in Estatus)
                 {
-                    var result = from s in db.contratos.Where(p => p.FechaCons >= Inicio &&
+                    var result = from s in db.Contratos.Where(p => p.FechaCons >= Inicio &&
                                       p.FechaCons <= Fin &&
                                       p.valuacion_tipo == items.categoria &&
                                       p.Status == itemEstatus.estatu).ToList()

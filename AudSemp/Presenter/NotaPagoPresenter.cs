@@ -8,18 +8,21 @@ namespace AudSemp.Presenter
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
+    using OperSemp.Commons.Data;
     #endregion
     public class NotaPagoPresenter
     {
 
         InotasPago NotasPagoView;
-       
-        public NotaPagoPresenter(InotasPago view)
+        NotasPagoModel notasPagoModel;
+
+        public NotaPagoPresenter(InotasPago view,DataContext db)
         {
             NotasPagoView = view;
+            notasPagoModel = new NotasPagoModel(db);
         }
 
-        NotasPagoModel notasPagoModel= new NotasPagoModel();
+       
 
         public DateTime timeInicio()
         {

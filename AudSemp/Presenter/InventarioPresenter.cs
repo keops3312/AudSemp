@@ -8,16 +8,19 @@ namespace AudSemp.Presenter
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
+    using OperSemp.Commons.Data;
     #endregion
     public class InventarioPresenter
     {
         IInventario InventarioView;
-        public InventarioPresenter(IInventario view)
+        InventarioModel inventarioModel;
+        public InventarioPresenter(IInventario view,DataContext db)
         {
             InventarioView = view;
+            inventarioModel = new InventarioModel(db);
         }
 
-        InventarioModel inventarioModel = new InventarioModel();
+       
 
         public DateTime timeInicio()
         {

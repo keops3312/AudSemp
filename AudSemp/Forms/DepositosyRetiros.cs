@@ -20,6 +20,9 @@ namespace AudSemp.Forms
     using AudSemp.Presenter;
     using AudSemp.Views;
     using ClosedXML.Excel;
+    using OperSemp.Commons.Data;
+    using OperSemp.Commons.Entities;
+    using OperSemp.Commons.Helper;
     #endregion
     public partial class DepositosyRetiros : Form, IDepositosRetiros
     {
@@ -27,17 +30,28 @@ namespace AudSemp.Forms
 
         #region Context
 
-        private SEMP2013_Context db;
+        private DataContext db;
+        IConectionHelper conectionHelper;
+        public User user;
+        public string cadena;
 
-        public DepositosyRetiros()
+
+
+        // private SEMP2013_Context db;
+        public DepositosyRetiros(string _cadena)
         {
             InitializeComponent();
-            db = new SEMP2013_Context();
+
+            conectionHelper = new ConectionHelper();
+            db = new DataContext(conectionHelper.SQLConectionAsync(_cadena));
 
             backgroundWorker1.WorkerReportsProgress = true;
             backgroundWorker1.WorkerSupportsCancellation = true;
 
+
+
         }
+
         #endregion
 
         #region Properties (propiedades)
@@ -72,7 +86,7 @@ namespace AudSemp.Forms
             checkPrendas.Checked = true;
             OpcionDR = "Depositos";
 
-            DepositosRetirosPresenter depositosRetirosPresenter = new DepositosRetirosPresenter(this);
+            DepositosRetirosPresenter depositosRetirosPresenter = new DepositosRetirosPresenter(this,db);
             depositosRetirosPresenter.timeInicio();
             depositosRetirosPresenter.timeFin();
             depositosRetirosPresenter.tiposOrden();
@@ -87,7 +101,7 @@ namespace AudSemp.Forms
             cmbTipoOrden.DataSource = tiposOrden;
             btnCancel.Visible = false;
 
-            this.Text = this.Text + " -Localidad Actual: " + loc;
+            this.Text = this.Text + " -Localidad Actual: " + user.Loc;
         }
 
         public void Excel(string ruta)
@@ -152,6 +166,10 @@ namespace AudSemp.Forms
                 if (OpcionDR == "Depositos")
                 {
                     dt.TableName = "Depositos";
+                    if (dt.Columns.Count > 0)
+                    {
+                        dt.Columns.Clear();
+                    }
                     dt.Columns.AddRange(new DataColumn[7]
                     {
                     new DataColumn("no"),
@@ -163,7 +181,7 @@ namespace AudSemp.Forms
                     new DataColumn("tipo_deposito"),
 
                      });
-                    var result = db.depositos.Where(p => p.fecha >= Inicio &&
+                    var result = db.Depositos.Where(p => p.fecha >= Inicio &&
                                       p.fecha <= Fin
                                       ).ToList();
 
@@ -194,6 +212,10 @@ namespace AudSemp.Forms
                 else
                 {
                     dt.TableName = "Retiros";
+                    if (dt.Columns.Count > 0)
+                    {
+                        dt.Columns.Clear();
+                    }
                     dt.Columns.AddRange(new DataColumn[14]
                    {
                     new DataColumn("caja"),
@@ -373,7 +395,7 @@ namespace AudSemp.Forms
 
         private void seleccionReport()
         {
-            DepositosRetirosPresenter depositosRetirosPresenter = new DepositosRetirosPresenter(this);
+            DepositosRetirosPresenter depositosRetirosPresenter = new DepositosRetirosPresenter(this,db);
             depositosRetirosPresenter.timeInicio();
             depositosRetirosPresenter.timeFin();
             depositosRetirosPresenter.tiposOrden();
@@ -439,7 +461,7 @@ namespace AudSemp.Forms
                 if (string.IsNullOrEmpty(ruta))
                 {
                     MessageBox.Show("No hay directorio Seleccionado",
-                        "Auditoria SEMP", MessageBoxButtons.OK,
+                        "Aud SEMP", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                 }
                 else
@@ -469,7 +491,7 @@ namespace AudSemp.Forms
             if (dt.Rows.Count > 0)
             {
                 DialogResult resulta = MessageBox.Show("¿Crear Ejercicio Anterior?" +
-                    "Si(Crea) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                    "Si(Crea) No(Para Generar uno Nuevo)", "Aud SEMP",
                         MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
 
@@ -486,7 +508,7 @@ namespace AudSemp.Forms
             }
 
 
-            DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
+            DialogResult result = MessageBox.Show("Crear Reporte", "Aud SEMP",
           MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             switch (result)
             {
@@ -536,7 +558,7 @@ namespace AudSemp.Forms
 
 
                 MessageBox.Show("Exportacion CANCELADA",
-                 "Auditoria Semp", MessageBoxButtons.OK,
+                 "Aud Semp", MessageBoxButtons.OK,
                  MessageBoxIcon.Information);
                 prg1.Value = 0;
                 lblProgress.Text = "-";
@@ -612,19 +634,19 @@ namespace AudSemp.Forms
                 {
                     depositosRPT ob = new depositosRPT();
 
-                    LocalidadModel localidadModel = new LocalidadModel();
-                    localidadModel.localidadResult(loc);
+                    //LocalidadModel localidadModel = new LocalidadModel();
+                    //localidadModel.localidadResult(loc);
                     ob.SetParameterValue("tipos", "TODOS");
                     ob.SetParameterValue("estatus", "TODOS");
                     ob.SetParameterValue("rangos", leyendaRango);
                     ob.SetParameterValue("modoOrden", mode);
 
-                    ob.SetParameterValue("sucursal", localidadModel.sucursal);
-                    ob.SetParameterValue("marca", localidadModel.marca);
-                    ob.SetParameterValue("empresa", localidadModel.empresa);
-                    ob.SetParameterValue("localidad", localidadModel.localidad);
-                    ob.SetParameterValue("encargado", localidadModel.encargado);
-                    ob.SetParameterValue("logo", localidadModel.logotipo);
+                    ob.SetParameterValue("sucursal", user.NameLoc);
+                    ob.SetParameterValue("marca", user.Marca);
+                    ob.SetParameterValue("empresa", user.Empresa);
+                    ob.SetParameterValue("localidad", user.Loc);
+                    ob.SetParameterValue("encargado", user.Boss);
+                    ob.SetParameterValue("logo", user.Logotipo);
 
 
 
@@ -634,20 +656,19 @@ namespace AudSemp.Forms
                 {
                     RetirosRPT ob = new RetirosRPT();
 
-                    LocalidadModel localidadModel = new LocalidadModel();
-                    localidadModel.localidadResult(loc);
+                    //LocalidadModel localidadModel = new LocalidadModel();
+                    //localidadModel.localidadResult(loc);
                     ob.SetParameterValue("tipos", "TODOS");
                     ob.SetParameterValue("estatus", "TODOS");
                     ob.SetParameterValue("rangos", leyendaRango);
                     ob.SetParameterValue("modoOrden", mode);
 
-                    ob.SetParameterValue("sucursal", localidadModel.sucursal);
-                    ob.SetParameterValue("marca", localidadModel.marca);
-                    ob.SetParameterValue("empresa", localidadModel.empresa);
-                    ob.SetParameterValue("localidad", localidadModel.localidad);
-                    ob.SetParameterValue("encargado", localidadModel.encargado);
-                    ob.SetParameterValue("logo", localidadModel.logotipo);
-
+                    ob.SetParameterValue("sucursal", user.NameLoc);
+                    ob.SetParameterValue("marca", user.Marca);
+                    ob.SetParameterValue("empresa", user.Empresa);
+                    ob.SetParameterValue("localidad", user.Loc);
+                    ob.SetParameterValue("encargado", user.Boss);
+                    ob.SetParameterValue("logo", user.Logotipo);
 
 
                     crystalReportViewer1.ReportSource = ob;
@@ -660,7 +681,7 @@ namespace AudSemp.Forms
             }
 
             MessageBox.Show("Operación Realizada con Exito",
-                   "Auditoria Semp", MessageBoxButtons.OK,
+                   "Aud Semp", MessageBoxButtons.OK,
                    MessageBoxIcon.Information);
             prg1.Value = 0;
             lblProgress.Text = "-";

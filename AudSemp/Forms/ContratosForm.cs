@@ -20,20 +20,34 @@ namespace AudSemp.Forms
     using AudSemp.Presenter;
     using AudSemp.Views;
     using ClosedXML.Excel;
+    using OperSemp.Commons.Data;
+    using OperSemp.Commons.Entities;
+    using OperSemp.Commons.Helper;
     #endregion
     public partial class ContratosForm : Form, IContratos
     {
         #region Context
 
-        private SEMP2013_Context db;
-        public ContratosForm()
+        private DataContext db;
+        IConectionHelper conectionHelper;
+        public User user;
+        public string cadena;
+
+
+
+       // private SEMP2013_Context db;
+        public ContratosForm(string _cadena)
         {
             InitializeComponent();
-            db = new SEMP2013_Context();
+
+            conectionHelper = new ConectionHelper();
+            db = new DataContext(conectionHelper.SQLConectionAsync(_cadena));
 
             backgroundWorker1.WorkerReportsProgress = true;
             backgroundWorker1.WorkerSupportsCancellation = true;
-           
+
+
+
         }
 
         #endregion
@@ -46,7 +60,7 @@ namespace AudSemp.Forms
         public List<TiposOrden> tiposOrden { get; set; }
         public List<ModoOrdenes> modosOrden { get; set; }
 
-     
+
         #endregion
 
         #region Properties
@@ -58,7 +72,7 @@ namespace AudSemp.Forms
         public string loc;
         public string mode;
         string ruta;
-        int cantidad=0;
+        int cantidad = 0;
         //variable to cancel progress
         public int cancelEjercicio;
 
@@ -75,7 +89,7 @@ namespace AudSemp.Forms
             if (dt.Rows.Count > 0)
             {
                 DialogResult resulta = MessageBox.Show("¿Crear Ejercicio Anterior?" +
-                    "Si(Crea) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                    "Si(Crea) No(Para Generar uno Nuevo)", "Aud SEMP",
                         MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
 
@@ -92,7 +106,7 @@ namespace AudSemp.Forms
 
 
 
-            DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
+            DialogResult result = MessageBox.Show("Crear Reporte", "Aud SEMP",
                 MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             switch (result)
             {
@@ -101,7 +115,7 @@ namespace AudSemp.Forms
                         decision = 2;
 
 
-                       
+
                         btnReporte.Enabled = false;
                         btnRegresar.Enabled = false;
                         btnExportar.Enabled = false;
@@ -124,7 +138,7 @@ namespace AudSemp.Forms
             if (dt.Rows.Count > 0)
             {
                 DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
-                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                    "Si(Exporta) No(Para Generar uno Nuevo)", "Aud SEMP",
                         MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
 
@@ -154,7 +168,7 @@ namespace AudSemp.Forms
                 if (string.IsNullOrEmpty(ruta))
                 {
                     MessageBox.Show("No hay directorio Seleccionado",
-                        "Auditoria SEMP", MessageBoxButtons.OK,
+                        "Aud SEMP", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                 }
                 else
@@ -196,28 +210,28 @@ namespace AudSemp.Forms
 
 
                 MessageBox.Show("Exportacion CANCELADA",
-                 "Auditoria Semp", MessageBoxButtons.OK,
+                 "Aud Semp", MessageBoxButtons.OK,
                  MessageBoxIcon.Information);
                 prg1.Value = 0;
                 lblProgress.Text = "-";
-              
-               
+
+
             }
         }
 
         private void terminado(object sender, RunWorkerCompletedEventArgs e)
         {
             MessageBox.Show("Exportacion Realizada con Exito",
-                   "Auditoria Semp", MessageBoxButtons.OK,
+                   "Aud Semp", MessageBoxButtons.OK,
                    MessageBoxIcon.Information);
             prg1.Value = 0;
         }
 
         private void Hazlo(object sender, DoWorkEventArgs e)
         {
-            
+
             //Excel(ruta);
-            
+
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
@@ -234,7 +248,7 @@ namespace AudSemp.Forms
                     chkPrendas.SetItemChecked(i, false);
                 }
 
-                    
+
 
             }
             else
@@ -297,7 +311,7 @@ namespace AudSemp.Forms
             {
                 cmbOrden.Enabled = true;
             }
-            
+
         }
         private void checkOrden_CheckedChanged(object sender, EventArgs e)
         {
@@ -335,30 +349,30 @@ namespace AudSemp.Forms
                 //creamos los para metros
 
                 contratos ob = new contratos();
-                LocalidadModel localidadModel = new LocalidadModel();
-                localidadModel.localidadResult(loc);
+                //LocalidadModel localidadModel = new LocalidadModel();
+                //localidadModel.localidadResult(loc);
                 ob.SetParameterValue("tipos", leyendaTipos);
                 ob.SetParameterValue("estatus", leyendaEstatus);
                 ob.SetParameterValue("rangos", leyendaRango);
                 ob.SetParameterValue("modoOrden", mode);
 
-                ob.SetParameterValue("sucursal", localidadModel.sucursal);
-                ob.SetParameterValue("marca", localidadModel.marca);
-                ob.SetParameterValue("empresa", localidadModel.empresa);
-                ob.SetParameterValue("localidad", localidadModel.localidad);
-                ob.SetParameterValue("encargado", localidadModel.encargado);
-                ob.SetParameterValue("logo", localidadModel.logotipo);
+                ob.SetParameterValue("sucursal", user.NameLoc);
+                ob.SetParameterValue("marca", user.Marca);
+                ob.SetParameterValue("empresa", user.Empresa);
+                ob.SetParameterValue("localidad", user.Loc);
+                ob.SetParameterValue("encargado", user.Boss);
+                ob.SetParameterValue("logo", user.Logotipo);
 
 
 
                 crystalReportViewer1.ReportSource = ob;
                 crystalReportViewer1.Refresh();
 
-             
+
             }
 
             MessageBox.Show("Operación Realizada con Exito",
-                   "Auditoria Semp", MessageBoxButtons.OK,
+                   "Aud Semp", MessageBoxButtons.OK,
                    MessageBoxIcon.Information);
             prg1.Value = 0;
             lblProgress.Text = "-";
@@ -368,8 +382,8 @@ namespace AudSemp.Forms
             btnRegresar.Enabled = true;
             btnCancel.Visible = false;
 
-            
-            
+
+
 
         }
         private void buttonX1_Click(object sender, EventArgs e)
@@ -377,14 +391,14 @@ namespace AudSemp.Forms
             if (dt.Rows.Count > 0)
             {
                 VistaPreviaForm vista = new VistaPreviaForm();
-                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + user.Loc;
                 vista.vistaM = dt;
                 vista.Show();
 
             }
             else
             {
-                MessageBox.Show("NO hay resultados cargados!", "Auditoria Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("NO hay resultados cargados!", "Aud Semp", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
 
@@ -449,7 +463,7 @@ namespace AudSemp.Forms
 
           });
 
-            ContratosPresenter contratosPresenter = new ContratosPresenter(this);
+            ContratosPresenter contratosPresenter = new ContratosPresenter(this,db);
             contratosPresenter.TiposEstatus();
             contratosPresenter.TiposPrenda();
             contratosPresenter.timeInicio();
@@ -480,11 +494,11 @@ namespace AudSemp.Forms
 
         public void Excel(string ruta)
         {
-            string fechaInicio, fechaFin,tipoOrden="reg",orden="Ascendente";
+            string fechaInicio, fechaFin, tipoOrden = "reg", orden = "Ascendente";
             List<categorias> tipoPrendas = new List<categorias>();
             List<Estatus> tipoStatus = new List<Estatus>();
 
-          
+
 
 
             if (checkFechas.Checked == true)
@@ -494,15 +508,15 @@ namespace AudSemp.Forms
             }
             else
             {
-                fechaInicio =dateTimeInicio.ToString();
-                fechaFin =dateTimeFin.ToString();
+                fechaInicio = dateTimeInicio.ToString();
+                fechaFin = dateTimeFin.ToString();
 
             }
 
             leyendaRango = Convert.ToDateTime(fechaInicio).ToString("dd-MMM-yyyy") +
                 " - " + Convert.ToDateTime(fechaFin).ToString("dd-MMM-yyyy");
-          
-            if(checkOrden.Checked==true)
+
+            if (checkOrden.Checked == true)
             {
                 tipoOrden = cmbTipoOrden.Text;
             }
@@ -510,7 +524,7 @@ namespace AudSemp.Forms
             {
                 tipoOrden = "reg";
             }
-            
+
             if (checkModo.Checked == true)
             {
                 orden = cmbOrden.Text;
@@ -617,23 +631,23 @@ namespace AudSemp.Forms
 
         }
 
-       
+
 
         public void Export(string fechaInicio, string fechaFin, string tipoOrden, string modoOrden,
          List<categorias> tipos, List<Estatus> Estatus)
         {
-           
 
-           
-          
+
+
+
 
             DateTime Inicio = DateTime.Parse(fechaInicio);
             DateTime Fin = DateTime.Parse(fechaFin);
 
 
             int i = 0;
-          
-            string descbolsa="";
+
+            string descbolsa = "";
 
 
             if (dt.Rows.Count == 0)
@@ -645,7 +659,7 @@ namespace AudSemp.Forms
 
                     foreach (var itemEstatus in Estatus)
                     {
-                        var result = from s in db.contratos.Where(p => p.FechaCons >= Inicio &&
+                        var result = from s in db.Contratos.Where(p => p.FechaCons >= Inicio &&
                                           p.FechaCons <= Fin &&
                                           p.valuacion_tipo == items.categoria &&
                                           p.Status == itemEstatus.estatu).ToList()
@@ -666,7 +680,7 @@ namespace AudSemp.Forms
 
                             if (item.valuacion_tipo == "Joyeria")
                             {
-                                cantidad = db.bolsas_ORO.Count(a => a.Contrato == item.Contrato);
+                                cantidad = db.Bolsas_ORO.Count(a => a.Contrato == item.Contrato);
                                 //var descrp = db.bolsas_ORO
                                 //    .Where(a => a.Contrato == item.Contrato)
                                 //    .First();
@@ -674,7 +688,7 @@ namespace AudSemp.Forms
                             }
                             else
                             {
-                                cantidad = db.bolsas_OTROS.Count(a => a.Contrato == item.Contrato);
+                                cantidad = db.Bolsas_OTROS.Count(a => a.Contrato == item.Contrato);
                                 //var descrp1 = db.bolsas_OTROS
                                 //    .Where(a => a.Contrato == item.Contrato)
                                 //    .First();
@@ -709,9 +723,9 @@ namespace AudSemp.Forms
 
             DataView dataView = new DataView(dt);
             //dt = new DataTable();
-           
+
             //ORDER MODE
-           mode = tipoOrden + modoOrden;
+            mode = tipoOrden + modoOrden;
             switch (mode)
             {
                 default:
@@ -753,20 +767,20 @@ namespace AudSemp.Forms
             dt = dataView.ToTable();
 
             if (decision == 1)
-            {       
-            using (XLWorkbook wb = new XLWorkbook())
             {
-                wb.Worksheets.Add(dt);
-                wb.SaveAs(ruta);
+                using (XLWorkbook wb = new XLWorkbook())
+                {
+                    wb.Worksheets.Add(dt);
+                    wb.SaveAs(ruta);
 
+                }
             }
-            }
-            else if(decision==2)
+            else if (decision == 2)
             {
-                
-                
+
+
                 dt.WriteXml("C:/SEMP2013/AudSemp/AudSemp/XML/audContratos.xml", XmlWriteMode.WriteSchema);
-               
+
 
 
             }
@@ -781,6 +795,6 @@ namespace AudSemp.Forms
 
         #endregion
 
-       
+
     }
 }

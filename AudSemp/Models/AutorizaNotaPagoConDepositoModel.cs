@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 namespace AudSemp.Models
 {
     using AudSemp.Classes;
-    using AudSemp.Context;
+   // using AudSemp.Context;
+    using OperSemp.Commons.Data;
+    using OperSemp.Commons.Entities;
+    using OperSemp.Commons.Helper;
     #region Libraries 
     using System;
     using System.CodeDom;
@@ -21,10 +24,15 @@ namespace AudSemp.Models
     {
 
         #region Constructor
-        private SEMP2013_Context db;
-        public AutorizaNotaPagoConDepositoModel()
+        private DataContext db;
+        public string _oString;
+        private IConectionHelper conectionHelper;
+
+        public AutorizaNotaPagoConDepositoModel(string cadena)
         {
-            db = new SEMP2013_Context();
+            conectionHelper = new ConectionHelper();
+            _oString = cadena;
+            db = new DataContext(conectionHelper.SQLConectionAsync(cadena));
         }
 
         #endregion
@@ -162,7 +170,7 @@ namespace AudSemp.Models
 
         }
 
-        public List<facturas> listaFacturas;
+        public List<Facturas> listaFacturas;
 
         public DataTable dtFacturas;
 
@@ -170,11 +178,9 @@ namespace AudSemp.Models
         public string empleado()
         {
             var myEmpleado = db.Empleados.Where(p => p.Puesto == "DIRECTOR").FirstOrDefault();
-            return myEmpleado.Nombre_Completo;
+            return myEmpleado.NombreCompleto;
         }
         #endregion
-
-
 
         #region Principal Methods
         public bool listaRevisionNotasConDeposito(DateTime fechaInicial, DateTime fechafinal,
@@ -257,7 +263,7 @@ namespace AudSemp.Models
 
 
 
-                listaFacturas = new List<facturas>();
+                listaFacturas = new List<Facturas>();
                 dtFacturas = new DataTable("Facturas");
 
 
@@ -317,7 +323,7 @@ namespace AudSemp.Models
                         foreach (var item in listaTest)
                         {
 
-                            facturas ofactura = new facturas
+                            Facturas ofactura = new Facturas
                             {
 
                                 Factura = item.Factura,
@@ -402,7 +408,7 @@ namespace AudSemp.Models
                         foreach (var item in listaTest)
                         {
 
-                            facturas ofactura = new facturas
+                            Facturas ofactura = new Facturas
                             {
 
                                 Factura = item.Factura,
@@ -489,7 +495,7 @@ namespace AudSemp.Models
                         foreach (var item in listaTest)
                         {
 
-                            facturas ofactura = new facturas
+                            Facturas ofactura = new Facturas
                             {
 
                                 Factura = item.Factura,
@@ -566,7 +572,7 @@ namespace AudSemp.Models
 
         public bool updateAutorizafact(int consec, string autoriza, string autorizo, DateTime fecha, string comentario)
         {
-            using (var context = new SEMP2013_Context())
+            using (var context = new DataContext(conectionHelper.SQLConectionAsync(_oString)))
             {
                 using (DbContextTransaction dbTran = context.Database.BeginTransaction())
                 {

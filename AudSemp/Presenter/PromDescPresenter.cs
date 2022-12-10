@@ -9,16 +9,19 @@ namespace AudSemp.Presenter
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
+    using OperSemp.Commons.Data;
     #endregion
     public class PromDescPresenter
     {
         IPromDesc PromDescView;
-        public PromDescPresenter(IPromDesc view)
+        PromDescModel promDescModel; 
+        public PromDescPresenter(IPromDesc view, DataContext db)
         {
             PromDescView = view;
+           promDescModel = new PromDescModel(db);
         }
 
-        PromDescModel promDescModel = new PromDescModel();
+        
 
         public List<TiposOrden> tiposOrden()
         {

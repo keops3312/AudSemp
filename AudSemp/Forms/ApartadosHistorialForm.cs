@@ -19,24 +19,35 @@ namespace AudSemp.Forms
     using AudSemp.Presenter;
     using AudSemp.Views;
     using ClosedXML.Excel;
+    using OperSemp.Commons.Data;
+    using OperSemp.Commons.Entities;
+    using OperSemp.Commons.Helper;
     #endregion
     public partial class ApartadosHistorialForm : Form, IHistorialApartado
     {
 
         #region Context
 
-        private string CNX = ConfigurationManager.ConnectionStrings["SEMP2013_CNX"].ToString();
+        private DataContext db;
+        IConectionHelper conectionHelper;
+        public User user;
+        public string cadena;
+        private string cnn;
 
-        private SEMP2013_Context db;
-        public ApartadosHistorialForm()
+
+
+        // private SEMP2013_Context db;
+        public ApartadosHistorialForm(string _cadena)
         {
             InitializeComponent();
-            db = new SEMP2013_Context();
 
+            conectionHelper = new ConectionHelper();
+            db = new DataContext(conectionHelper.SQLConectionAsync(_cadena));
+            cnn = conectionHelper.SQLConectionAsync(_cadena);
             backgroundWorker1.WorkerReportsProgress = true;
             backgroundWorker1.WorkerSupportsCancellation = true;
-            
-           
+
+
 
         }
 
@@ -148,7 +159,7 @@ namespace AudSemp.Forms
             if (dt.Rows.Count > 0)
             {
                 DialogResult result = MessageBox.Show("¿Exportar Ejercicio Anterior?" +
-                    "Si(Exporta) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                    "Si(Exporta) No(Para Generar uno Nuevo)", "Aud SEMP",
                         MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
 
@@ -180,7 +191,7 @@ namespace AudSemp.Forms
                 if (string.IsNullOrEmpty(ruta))
                 {
                     MessageBox.Show("No hay directorio Seleccionado",
-                        "Auditoria SEMP", MessageBoxButtons.OK,
+                        "Aud SEMP", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                 }
                 else
@@ -210,7 +221,7 @@ namespace AudSemp.Forms
             if (dt.Rows.Count > 0)
             {
                 DialogResult resulta = MessageBox.Show("¿Crear Ejercicio Anterior?" +
-                    "Si(Crea) No(Para Generar uno Nuevo)", "Auditoria SEMP",
+                    "Si(Crea) No(Para Generar uno Nuevo)", "Aud SEMP",
                         MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
 
@@ -226,7 +237,7 @@ namespace AudSemp.Forms
             }
 
 
-            DialogResult result = MessageBox.Show("Crear Reporte", "Auditoria SEMP",
+            DialogResult result = MessageBox.Show("Crear Reporte", "Aud SEMP",
               MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             switch (result)
             {
@@ -272,7 +283,7 @@ namespace AudSemp.Forms
 
 
                 MessageBox.Show("Exportacion CANCELADA",
-                 "Auditoria Semp", MessageBoxButtons.OK,
+                 "Aud Semp", MessageBoxButtons.OK,
                  MessageBoxIcon.Information);
                 prg1.Value = 0;
                 lblProgress.Text = "-";
@@ -308,39 +319,39 @@ namespace AudSemp.Forms
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             //called when the heavy operation in bg is over . can also accept GUI compponents
-          
-                    if (decision == 2)
-                {
-                    //creamos los para metros
 
-                    HistorialApartadosReport ob = new HistorialApartadosReport();
-                    LocalidadModel localidadModel = new LocalidadModel();
-                    localidadModel.localidadResult(loc);
-                    ob.SetParameterValue("tipos", ".");
-                    ob.SetParameterValue("estatus", leyendaEstatus);
-                    ob.SetParameterValue("rangos", leyendaRango);
-                    ob.SetParameterValue("modoOrden", mode);
+            if (decision == 2)
+            {
+                //creamos los para metros
 
-
-
-                    ob.SetParameterValue("sucursal", localidadModel.sucursal);
-                    ob.SetParameterValue("marca", localidadModel.marca);
-                    ob.SetParameterValue("empresa", localidadModel.empresa);
-                    ob.SetParameterValue("localidad", localidadModel.localidad);
-                    ob.SetParameterValue("encargado", localidadModel.encargado);
-                    ob.SetParameterValue("logo", localidadModel.logotipo);
+                HistorialApartadosReport ob = new HistorialApartadosReport();
+                //LocalidadModel localidadModel = new LocalidadModel();
+                //localidadModel.localidadResult(loc);
+                ob.SetParameterValue("tipos", ".");
+                ob.SetParameterValue("estatus", leyendaEstatus);
+                ob.SetParameterValue("rangos", leyendaRango);
+                ob.SetParameterValue("modoOrden", mode);
 
 
 
-                    crystalReportViewer1.ReportSource = ob;
-                    crystalReportViewer1.Refresh();
+                ob.SetParameterValue("sucursal", user.NameLoc);
+                ob.SetParameterValue("marca", user.Marca);
+                ob.SetParameterValue("empresa", user.Empresa);
+                ob.SetParameterValue("localidad", user.Loc);
+                ob.SetParameterValue("encargado", user.Boss);
+                ob.SetParameterValue("logo", user.Logotipo);
 
 
-                }
 
-               
-                    MessageBox.Show("Operación Realizada con Exito",
-                      "Auditoria Semp", MessageBoxButtons.OK,
+                crystalReportViewer1.ReportSource = ob;
+                crystalReportViewer1.Refresh();
+
+
+            }
+
+
+            MessageBox.Show("Operación Realizada con Exito",
+                      "Aud Semp", MessageBoxButtons.OK,
                       MessageBoxIcon.Information);
                     prg1.Value = 0;
                     lblProgress.Text = "-";
@@ -376,7 +387,7 @@ namespace AudSemp.Forms
 
             });
 
-            HistorialApartadosPresenter HistorialApPresenter = new HistorialApartadosPresenter(this);
+            HistorialApartadosPresenter HistorialApPresenter = new HistorialApartadosPresenter(this,db);
             HistorialApPresenter.TiposEstatus();
             HistorialApPresenter.timeInicio();
             HistorialApPresenter.timeFin();
@@ -536,7 +547,7 @@ namespace AudSemp.Forms
                         }
 
 
-                        using (SqlConnection cnx = new SqlConnection(CNX))
+                        using (SqlConnection cnx = new SqlConnection(cnn))
                         {
                             cnx.Open();
 
@@ -656,7 +667,7 @@ namespace AudSemp.Forms
             if (dt.Rows.Count > 0)
             {
                 VistaPreviaForm vista = new VistaPreviaForm();
-                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + loc;
+                vista.leyenda = this.Text + "- Previo -Localidad Actual: " + user.Loc;
                 vista.vistaM = dt;
                 vista.Show();
 

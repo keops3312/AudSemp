@@ -9,8 +9,11 @@ namespace AudSemp.Models
     using System.Data.Entity;
     using System.Linq;
     using AudSemp.Classes;
-    using AudSemp.Context;
-  
+  //  using AudSemp.Context;
+    using OperSemp.Commons.Data;
+    using OperSemp.Commons.Entities;
+    using OperSemp.Commons.Helper;
+
     #endregion
 
 
@@ -19,10 +22,14 @@ namespace AudSemp.Models
     {
 
         #region Constructor
-        private SEMP2013_Context db;
-        public AutorizaRemisionesMNLModel()
+        private DataContext db;
+        public string _oString;
+        private IConectionHelper conectionHelper;
+        public AutorizaRemisionesMNLModel(string cadena)
         {
-            db = new SEMP2013_Context();
+            conectionHelper = new ConectionHelper();
+            _oString = cadena;
+            db = new DataContext(conectionHelper.SQLConectionAsync(cadena));
         }
 
         #endregion
@@ -166,7 +173,7 @@ namespace AudSemp.Models
 
         }
 
-        public List<remisiones> listaRemisiones;
+        public List<Remisiones> listaRemisiones;
 
         public DataTable dtRemisiones;
         #endregion
@@ -252,7 +259,7 @@ namespace AudSemp.Models
 
 
 
-                listaRemisiones = new List<remisiones>();
+                listaRemisiones = new List<Remisiones>();
                 dtRemisiones = new DataTable("Remisiones");
 
                
@@ -453,12 +460,12 @@ namespace AudSemp.Models
         public string empleado()
         {
             var myEmpleado = db.Empleados.Where(p => p.Puesto == "DIRECTOR").FirstOrDefault();
-            return myEmpleado.Nombre_Completo;
+            return myEmpleado.NombreCompleto;
         }
 
         public bool updateAutorizaRem(int consec, string autoriza, string autorizo, DateTime fecha, string comentario)
         {
-            using (var context = new SEMP2013_Context())
+            using (var context = new DataContext(conectionHelper.SQLConectionAsync(_oString)))
             {
                 using (System.Data.Entity.DbContextTransaction dbTran = context.Database.BeginTransaction())
                 {

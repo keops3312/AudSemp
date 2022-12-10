@@ -9,17 +9,21 @@ namespace AudSemp.Presenter
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
+    using OperSemp.Commons.Data;
     #endregion
     public class ContratosPresenter
     {
 
+
+        ContratosModel contratosModel;
         IContratos ContratosView;
-        public ContratosPresenter(IContratos view)
+        public ContratosPresenter(IContratos view, DataContext db)
         {
             ContratosView = view;
+            contratosModel = new ContratosModel(db);
         }
 
-        ContratosModel contratosModel = new ContratosModel();
+     
 
         public DateTime timeInicio()
         {

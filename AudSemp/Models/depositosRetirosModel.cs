@@ -8,16 +8,19 @@ namespace AudSemp.Models
     using System.Linq;
     using AudSemp.Classes;
     using AudSemp.Context;
+    using OperSemp.Commons.Data;
     #endregion
     public class depositosRetirosModel
     {
         #region Context
+        private DataContext db;
+        public string _oString;
 
-        private SEMP2013_Context db;
-        public depositosRetirosModel()
+        public depositosRetirosModel(DataContext _db)
         {
-            db = new SEMP2013_Context();
+            db = _db;
         }
+
 
         #endregion
 
@@ -75,7 +78,7 @@ namespace AudSemp.Models
 
             if (Tipo == "Depositos")
             {
-                var fechaInicio = db.depositos.OrderBy(p => p.fecha).First();
+                var fechaInicio = db.Depositos.OrderBy(p => p.fecha).First();
                 DateTime dateTimeInicio = DateTime.Parse(fechaInicio.fecha.Value.ToString("yyyy-MM-dd"));
                 return dateTimeInicio;
             }
@@ -95,7 +98,7 @@ namespace AudSemp.Models
         {
             if (Tipo == "Depositos")
             {
-                var fechaFin = db.depositos.OrderByDescending(p => p.fecha).First();
+                var fechaFin = db.Depositos.OrderByDescending(p => p.fecha).First();
                 DateTime dateTimeFin = DateTime.Parse(fechaFin.fecha.Value.ToString("yyyy-MM-dd"));
                 return dateTimeFin;
 

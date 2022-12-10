@@ -1,6 +1,7 @@
-﻿using AudSemp.Context;
+﻿//using AudSemp.Context;
 using AudSemp.Models;
-
+using OperSemp.Commons.Data;
+using OperSemp.Commons.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,7 +27,8 @@ namespace AudSemp.Forms
         public string _comentario;
         public string _inventario;
 
-
+        public DataContext db;
+        public string _oString;
         public RevisarNDForm()
         {
             InitializeComponent();
@@ -265,7 +267,7 @@ namespace AudSemp.Forms
                         "Auditor: " + datosAuditoria.GOAutorizo + "\n" +
                         "Status: " + datosAuditoria.GOAutorizado + "\n" +
                         "Fecha: " + DateTime.Parse(datosAuditoria.GOAutorizadoFecha.ToString()).ToString("ddd dd MMMM yyyy") + "\n" +
-                        "Comentario: " + datosAuditoria.GOArgumento + "\n", "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        "Comentario: " + datosAuditoria.GOArgumento + "\n", "Aud SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
 
@@ -295,7 +297,7 @@ namespace AudSemp.Forms
                                              "------------------------ " + "\n" +
                                              "TOTAL NP: " + decimal.Parse(datos.Total.ToString()).ToString("C2") + "\n" +
                                              "DESCUENTO: -" + decimal.Parse(datos.ImporteDescuento.ToString()).ToString("C2") + "\n"
-                                            , "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                            , "Aud SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
@@ -313,7 +315,7 @@ namespace AudSemp.Forms
                                             "------------------------ " + "\n" +
                                             "TOTAL NP: " + decimal.Parse(datos.TotalR.ToString()).ToString("C2") + "\n" +
                                             "DESCUENTO: -" + decimal.Parse(datos.ImporteDescuento.ToString()).ToString("C2") + "\n"
-                                           , "Auditoria SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                           , "Aud SEMP", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
                     }
@@ -376,7 +378,7 @@ namespace AudSemp.Forms
 
         public void Update(string inventario, string comentario, string status, string consec)
         {
-            model = new NotasDeDescuentoModel();
+            model = new NotasDeDescuentoModel(_oString);
             var id = lista.Where(u => u.Id == int.Parse(consec)).FirstOrDefault();
 
             if (model.updateAutorizaND(id.Id, nombreOperaciones, status, DateTime.Now, comentario.ToUpper().Trim()) == true)

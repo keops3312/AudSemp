@@ -7,17 +7,20 @@ namespace AudSemp.Presenter
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
+    using OperSemp.Commons.Data;
     #endregion
     public class ApartadosPresenter
     {
 
         IApartados ApartadosView;
-        public ApartadosPresenter(IApartados view)
+        ApartadosModel apartadosModel; 
+        public ApartadosPresenter(IApartados view, DataContext db)
         {
             ApartadosView = view;
+            apartadosModel = new ApartadosModel(db);
         }
 
-        ApartadosModel apartadosModel = new ApartadosModel();
+     
 
        
         public DateTime timeInicio()

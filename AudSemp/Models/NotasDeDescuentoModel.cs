@@ -2,10 +2,13 @@
 namespace AudSemp.Models
 {
     using AudSemp.Classes;
-    using AudSemp.Context;
+    //using AudSemp.Context;
+    using OperSemp.Commons.Data;
+    using OperSemp.Commons.Entities;
+    using OperSemp.Commons.Helper;
 
     #region Libraries
-   
+
     using System;
     using System.Collections.Generic;
     using System.Data;
@@ -19,10 +22,16 @@ namespace AudSemp.Models
     {
 
         #region Constructor
-        private SEMP2013_Context db;
-        public NotasDeDescuentoModel()
+
+        private DataContext db;
+        public string _oString;
+        private IConectionHelper conectionHelper;
+
+        public NotasDeDescuentoModel(string cadena)
         {
-            db = new SEMP2013_Context();
+            conectionHelper = new ConectionHelper();
+            _oString = cadena;
+            db = new DataContext(conectionHelper.SQLConectionAsync(cadena));
         }
 
         #endregion
@@ -174,7 +183,7 @@ namespace AudSemp.Models
         public string empleado()
         {
             var myEmpleado = db.Empleados.Where(p => p.Puesto == "DIRECTOR").FirstOrDefault();
-            return myEmpleado.Nombre_Completo;
+            return myEmpleado.NombreCompleto;
         }
         #endregion
 
@@ -576,12 +585,9 @@ namespace AudSemp.Models
         {
 
 
-          
-            using (var context = new SEMP2013_Context())
+
+            using (var context = new DataContext(conectionHelper.SQLConectionAsync(_oString)))
             {
-
-
-               
                 using (System.Data.Entity.DbContextTransaction dbTran = context.Database.BeginTransaction())
                 {
                     try

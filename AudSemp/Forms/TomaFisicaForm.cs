@@ -17,23 +17,36 @@ namespace AudSemp.Forms
     using ClosedXML.Excel;
     using DevComponents.DotNetBar;
     using iTextSharp.text;
-    using iTextSharp.text.pdf;  
+    using iTextSharp.text.pdf;
+    using OperSemp.Commons.Data;
+    using OperSemp.Commons.Entities;
+    using OperSemp.Commons.Helper;
     #endregion
     public partial class TomaFisicaForm : Form
     {
         #region Context
-        private SEMP2013_Context db;
-        public TomaFisicaForm()
+
+        private DataContext db;
+        IConectionHelper conectionHelper;
+        public User user;
+        public string cadena;
+
+
+
+        // private SEMP2013_Context db;
+        public TomaFisicaForm(string _cadena)
         {
-            db = new SEMP2013_Context();
             InitializeComponent();
+
+            conectionHelper = new ConectionHelper();
+            db = new DataContext(conectionHelper.SQLConectionAsync(_cadena));
+
+            backgroundWorker1.WorkerReportsProgress = true;
+            backgroundWorker1.WorkerSupportsCancellation = true;
+
+
+
         }
-
-
-
-
-
-
 
         #endregion
 
@@ -90,7 +103,7 @@ namespace AudSemp.Forms
                 MessageBox.Show(
                     "Por favor carga Archivo," +
                     " nombre de hoja Excel " +
-                    " y selecciona tipo de auditoria para continuar", "AudSemp",
+                    " y selecciona tipo de auditoria para continuar", "Aud Semp",
                                 MessageBoxButtons.OK, 
                                 MessageBoxIcon.Information);
 
@@ -259,7 +272,7 @@ namespace AudSemp.Forms
         #region Methods (Metodos)
         private TaskDialogInfo CreateTaskDialogInfo()
         {
-            TaskDialogInfo info = new TaskDialogInfo("AudSemp",
+            TaskDialogInfo info = new TaskDialogInfo("Aud Semp",
                                                       eTaskDialogIcon.Information,
                                                       "¿Que bolsa Voy Auditar?",
                                                       "",
@@ -271,7 +284,7 @@ namespace AudSemp.Forms
 
         private TaskDialogInfo CreateTaskDialogInfoInv()
         {
-            TaskDialogInfo info = new TaskDialogInfo("AudSemp",
+            TaskDialogInfo info = new TaskDialogInfo("Aud Semp",
                                                         eTaskDialogIcon.Information,
                                                         "¿Que Tipo de Inventarios Voy Auditar?",
                                                         "",
@@ -304,7 +317,7 @@ namespace AudSemp.Forms
             try
             {
                 LocalidadModel localidadModel = new LocalidadModel();
-                localidadModel.localidadResult(loc);
+                localidadModel.localidadResult(user.Loc);
 
                 var pdfDoc = new Document(PageSize.LETTER, 25f, 25f, 40f, 40f);
                 string path = ruta;
@@ -422,7 +435,7 @@ namespace AudSemp.Forms
                 pdfDoc.Close();
 
                 MessageBox.Show( 
-                                 "PDF Creado Con Exito", "AudSemp",
+                                 "PDF Creado Con Exito", "Aud Semp",
                                     MessageBoxButtons.OK, 
                                     MessageBoxIcon.Information);
             }
@@ -448,7 +461,7 @@ namespace AudSemp.Forms
                 if (string.IsNullOrEmpty(saveFileDialog1.FileName))
                 {
                     MessageBox.Show("No hay directorio Seleccionado",
-                        "Auditoria SEMP", MessageBoxButtons.OK,
+                        "Aud SEMP", MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
                 }
                 else
@@ -460,7 +473,7 @@ namespace AudSemp.Forms
                         wb.Worksheets.Add(result);
                         wb.SaveAs(saveFileDialog1.FileName);
                         MessageBox.Show("Archivo Creado con Exito!",
-                       "Auditoria SEMP", MessageBoxButtons.OK,
+                       "Aud SEMP", MessageBoxButtons.OK,
                        MessageBoxIcon.Information);
                     }
                 }

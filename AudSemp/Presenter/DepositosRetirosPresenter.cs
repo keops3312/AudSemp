@@ -8,17 +8,22 @@ namespace AudSemp.Presenter
     using AudSemp.Classes;
     using AudSemp.Models;
     using AudSemp.Views;
+    using OperSemp.Commons.Data;
     #endregion
     public class DepositosRetirosPresenter
     {
 
+     
+
         IDepositosRetiros DepositosRetirosView;
-        public DepositosRetirosPresenter(IDepositosRetiros view)
+        depositosRetirosModel DepositosRetirosModel;
+        public DepositosRetirosPresenter(IDepositosRetiros view, DataContext db)
         {
             DepositosRetirosView = view;
+             DepositosRetirosModel = new depositosRetirosModel(db);
         }
 
-        depositosRetirosModel DepositosRetirosModel = new depositosRetirosModel();
+      
         
 
         public DateTime timeInicio()

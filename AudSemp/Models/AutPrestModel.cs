@@ -8,17 +8,20 @@ namespace AudSemp.Models
     using System.Linq;
     using AudSemp.Classes;
     using AudSemp.Context;
+    using OperSemp.Commons.Data;
     #endregion
     public class AutPrestModel
     {
 
         #region Context
+        private DataContext db;
+        public string _oString;
 
-        private SEMP2013_Context db;
-        public AutPrestModel()
+        public AutPrestModel(DataContext _db)
         {
-            db = new SEMP2013_Context();
+            db = _db;
         }
+
 
         #endregion
 

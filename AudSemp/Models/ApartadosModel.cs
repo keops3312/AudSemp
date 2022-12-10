@@ -8,18 +8,21 @@ namespace AudSemp.Models
     using System.Linq;
     using AudSemp.Classes;
     using AudSemp.Context;
+    using OperSemp.Commons.Data;
     #endregion
 
     public class ApartadosModel
     {
 
         #region Context
+        private DataContext db;
+        public string _oString;
 
-        private SEMP2013_Context db;
-        public ApartadosModel()
+        public ApartadosModel(DataContext _db)
         {
-            db = new SEMP2013_Context();
+            db = _db;
         }
+
 
         #endregion
 
